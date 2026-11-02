@@ -1,0 +1,1 @@
+function e(){try{return typeof window<`u`&&window.localStorage?window.localStorage:null}catch{return null}}export{e as t};

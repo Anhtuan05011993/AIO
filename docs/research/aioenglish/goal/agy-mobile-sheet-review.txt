@@ -1,0 +1,77 @@
+Based on a strict review of the provided code against the specification and W3C ARIA standards, here are the demonstrable logic and ARIA defects:
+
+---
+
+### 1. ARIA Defects
+
+* **`aria-label` on generic `<span>` elements (`MobileNavSheet`)**
+  * **Code:**
+    ```tsx
+    <span className="nbu-st is-streak" aria-label={`Chuỗi điểm danh ${streak} ngày`}>
+    <span className="nbu-st" aria-label={`XP tháng ${xp}`}>
+    ```
+  * **Defect:** `<span>` has an implicit `generic` role. Under W3C WAI-ARIA and HTML-AAM, naming generic elements via `aria-label` is prohibited / ignored by assistive technologies unless assigned an explicit non-generic role (e.g. `role="img"` or `role="group"`). Screen readers will ignore these labels and read only child text nodes.
+
+* **Interactive `<Link>` hidden with `aria-hidden="true"` (`MobileNavSheet`)**
+  * **Code:**
+    ```tsx
+    <Link
+      href="/cai-dat"
+      className="nbu-av"
+      aria-hidden="true"
+      tabIndex={-1}
+      onClick={onNavigate}
+    >
+      <CritterAvatar index={-1} />
+    </Link>
+    ```
+  * **Defect:** An `<a>` tag with `href` remains an interactive, focusable element (it can still receive focus via pointer interaction or virtual screen reader cursors despite `tabIndex={-1}`). Marking focusable interactive elements with `aria-hidden="true"` is an ARIA violation (`aria-hidden-focus`). If intended to be purely decorative/visual, it should not be rendered as a link.
+
+* **Missing modal dialog semantics (`MobileNavSheet`)**
+  * **Defect:** The sheet operates as a modal drawer (it locks body scroll with `overflow: hidden`, traps focus via keyboard wrapping, and dismisses on Escape), but provides no `role="dialog"` or `aria-modal="true"` container, nor an accessible label (`aria-label` / `aria-labelledby`).
+
+---
+
+### 2. Logic Defects
+
+* **Resize handler conditionally gates focusing `<main>` (`SHELL FOCUS EFFECT`)**
+  * **Code:**
+    ```tsx
+    const resize = () => {
+      if (window.innerWidth < 1024) return;
+      const hadFocus = railRef.current?.contains(document.activeElement);
+      restoreDrawerFocus.current = false;
+      setMenuOpen(false);
+      if (hadFocus)
+        requestAnimationFrame(() =>
+          mainRef.current?.focus({ preventScroll: true }),
+        );
+    };
+    ```
+  * **Defect:** The specification requires: `"resize >=1024 closes and focuses main"`. The code conditionally wraps the focus call inside `if (hadFocus)`. If focus is on the backdrop, `document.body`, or lost during window resizing, `<main>` is never focused when resizing past `1024px`.
+  * **Related DOM Defect:** `<main>` is an HTMLElement that is not focusable by default in HTML. Calling `.focus()` on `mainRef.current` is a no-op unless `<main>` explicitly specifies `tabIndex={-1}`.
+
+* **Initial focus query targets `<button>` before first link (`SHELL FOCUS EFFECT`)**
+  * **Code:**
+    ```tsx
+    const controls = () =>
+      Array.from(
+        railRef.current?.querySelectorAll<HTMLElement>("a[href],button") ?? [],
+      ).filter(
+        (element) =>
+          element.tabIndex >= 0 &&
+          !element.hasAttribute("disabled") &&
+          element.getClientRects().length > 0,
+      );
+    controls()[0]?.focus();
+    ```
+  * **Defect:** The specification requires: `"Initial focus first visible link"`. By including `button` in `"a[href],button"`, if any `<button>` element is present before the navigation links within the container, that button will receive initial focus instead of the first visible link.
+
+* **Drag dismissal snaps offset to 0 before dismissal (`MobileNavSheet`)**
+  * **Code:**
+    ```tsx
+    onDrag(0);
+    if (!cancel && (distance > 80 || (distance > 32 && speed > 0.6)))
+      onDismiss();
+    ```
+  * **Defect:** Calling `onDrag(0)` unconditionally before calling `onDismiss()` immediately resets `sheetOffset` to 0, which snaps the sheet back to the top position immediately upon release instead of allowing exit transitions/dismissal from the dragged coordinate.

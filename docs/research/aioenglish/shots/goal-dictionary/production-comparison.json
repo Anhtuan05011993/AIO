@@ -1,0 +1,138 @@
+[
+  {
+    "word": "initial",
+    "width": 1440,
+    "measured": [
+      "hdr"
+    ],
+    "maxBoxDelta": 0,
+    "overflow": false
+  },
+  {
+    "word": "initial",
+    "width": 768,
+    "measured": [
+      "hdr"
+    ],
+    "maxBoxDelta": 0,
+    "overflow": false
+  },
+  {
+    "word": "initial",
+    "width": 390,
+    "measured": [
+      "hdr"
+    ],
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  },
+  {
+    "word": "initial",
+    "width": 360,
+    "measured": [
+      "hdr"
+    ],
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  },
+  {
+    "word": "apple",
+    "width": 1440,
+    "measured": [
+      "col",
+      "fam",
+      "hdr",
+      "lp"
+    ],
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  },
+  {
+    "word": "apple",
+    "width": 768,
+    "measured": [
+      "col",
+      "fam",
+      "hdr",
+      "lp"
+    ],
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  },
+  {
+    "word": "apple",
+    "width": 390,
+    "measured": [
+      "col",
+      "fam",
+      "hdr",
+      "lp"
+    ],
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  },
+  {
+    "word": "apple",
+    "width": 360,
+    "measured": [
+      "col",
+      "fam",
+      "hdr",
+      "lp"
+    ],
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  },
+  {
+    "word": "adrenaline",
+    "width": 1440,
+    "measured": [
+      "col",
+      "fam",
+      "hdr",
+      "lp",
+      "syn"
+    ],
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  },
+  {
+    "word": "adrenaline",
+    "width": 768,
+    "measured": [
+      "col",
+      "fam",
+      "hdr",
+      "lp",
+      "syn"
+    ],
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  },
+  {
+    "word": "adrenaline",
+    "width": 390,
+    "measured": [
+      "col",
+      "fam",
+      "hdr",
+      "lp",
+      "syn"
+    ],
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  },
+  {
+    "word": "adrenaline",
+    "width": 360,
+    "measured": [
+      "col",
+      "fam",
+      "hdr",
+      "lp",
+      "syn"
+    ],
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  }
+]

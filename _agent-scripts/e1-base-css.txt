@@ -1,0 +1,473 @@
+:root,:where(:root[data-theme=dark]) :where(.bg-\[hsl\(var\(--feat\)\)\]),:where(:root[data-theme=dark]) :where(.bg-\[hsl\(var\(--gold\)\)\]),:where(:root[data-theme=dark]) :where(.bg-accent),:where(:root[data-theme=dark]) :where(.bg-accent-soft),:where(:root[data-theme=dark]) :where(.bg-ban-be),:where(:root[data-theme=dark]) :where(.bg-ban-be-soft),:where(:root[data-theme=dark]) :where(.bg-danger),:where(:root[data-theme=dark]) :where(.bg-danger-soft),:where(:root[data-theme=dark]) :where(.bg-gold),:where(:root[data-theme=dark]) :where(.bg-info),:where(:root[data-theme=dark]) :where(.bg-info-soft),:where(:root[data-theme=dark]) :where(.bg-primary),:where(:root[data-theme=dark]) :where(.bg-primary-soft),:where(:root[data-theme=dark]) :where(.bg-success),:where(:root[data-theme=dark]) :where(.bg-success-soft),:where(:root[data-theme=dark]) :where(.bg-surface),:where(:root[data-theme=dark]) :where(.bg-surface-2),:where(:root[data-theme=dark]) :where(.bg-surface-3),:where(:root[data-theme=dark]) :where(.bg-surface-eng),:where(:root[data-theme=dark]) :where(.bg-warning),:where(:root[data-theme=dark]) :where(.bg-warning-soft),:where(:root[data-theme=dark]) :where(.btn-ink),:where(:root[data-theme=dark]) :where(.btn-ink-cta),:where(:root[data-theme=dark]) :where(.card),:where(:root[data-theme=dark]) :where(.chip),:where(:root[data-theme=dark]) :where(.face-light),:where(:root[data-theme=dark]) :where(.field-ink),:where(:root[data-theme=dark]) :where(.gr-fml),:where(:root[data-theme=dark]) :where(.gr-kick),:where(:root[data-theme=dark]) :where(.gr-num),:where(:root[data-theme=dark]) :where(.gr-opt),:where(:root[data-theme=dark]) :where(.gr-q),:where(:root[data-theme=dark]) :where(.gr-spk),:where(:root[data-theme=dark]) :where(.ink-card),:where(:root[data-theme=dark]) :where(.ink-panel),:where(:root[data-theme=dark]) :where(.isle),:where(:root[data-theme=dark]) :where(.lh-tooltip),:where(:root[data-theme=dark]) :where(.nav-item-active),:where(:root[data-theme=dark]) :where(.pop-tail),:where(:root[data-theme=dark]) :where(.stage-paper),:where(:root[data-theme=dark]) :where(.toast-card){--ink:48 8% 11.6%;--paper:52.5 25% 93.7%;--rail:48 21.7% 91%;--gold:40 85% 56.1%;--hero-paper:48 86% 88.6%;--hero-grass:68 48% 74%;--bg:var(--paper);--bg-2:var(--rail);--surface:0 0% 100%;--surface-2:51.4 30.4% 95.5%;--surface-3:var(--rail);--surface-eng:48 71% 98.6%;--fg:var(--ink);--fg-muted:42 8% 25.1%;--fg-subtle:44 7% 31.2%;--border:40 12% 80.8%;--border-strong:38 12.9% 54.5%;--chrome-edge:var(--border-strong);--chrome-bw:var(--bw);--ink-fixed:var(--ink);--paper-fixed:var(--paper);--feat-go-cau:234 50% 53.9%;--feat-video:21 71% 39.5%;--feat-tu-vung:90 40% 30%;--feat-ngu-phap:347 45% 48.5%;--feat-doc-dich:177 43% 32.1%;--feat-tu-dien:40 85% 56.1%;--feat-lo-trinh:260 46% 42.4%;--feat-ban-be:205 69% 39%;--feat-ink-ban-be:206 71% 35%;--feat-soft-ban-be:207 63% 91.6%;--vt-dict:255 69.2% 89.8%;--vt-dict-on:252.2 50.7% 28.6%;--vt-dict-halo:255 75% 93.7%;--vt-dict-halo-2:255.3 64.4% 85.7%;--vt-dict-card:235.3 37.2% 26.9%;--vt-shad:349.6 76.5% 86.7%;--vt-shad-on:344.6 57.4% 26.7%;--vt-shad-halo:348.5 72.3% 81.6%;--vt-rand:155.2 42.6% 21.2%;--vt-rand-card:18.9 57% 50.8%;--vt-mine:45.9 88.6% 69%;--vt-mine-2:45.4 86% 63.5%;--vt-mine-card:176.7 43.4% 32.5%;--vt-mine-card-2:233.8 49.8% 53.9%;--vt-mine-card-3:20.9 70.6% 41.4%;--vt-quiz:32.6 85% 68.6%;--vt-quiz-on:28.2 79% 20.6%;--vt-quiz-halo:34.7 87.2% 75.5%;--vt-quiz-star:24.3 75% 43.9%;--vt-chill:71.5 58.4% 75.5%;--vt-chill-on:83.5 61.4% 16.3%;--vt-chill-halo:71.3 60.9% 82.9%;--vt-chill-sh:85.2 36.5% 33.3%;--primary-fg:0 0% 100%;--primary-soft:44 60% 96%;--accent:var(--gold);--accent-soft:40 85% 92%;--success:152 58% 28%;--success-soft:152 45% 92%;--warning:30 78% 32%;--warning-soft:38 80% 91%;--danger:356 62% 42%;--danger-soft:356 70% 94%;--info:215 55% 36%;--info-soft:215 60% 93%;--toast-ok:88 53.6% 89%;--toast-err:347.5 64% 91.4%;--nudge-paper:39.7 80% 82.2%;--td-coll:196.6 61.7% 90.8%;--td-fam:348.9 77.1% 93.1%;--td-syn:88 53.6% 89%;--mark-pv:45 96% 50%;--mark-colloc:205 90% 45%;--mark-idiom:280 70% 55%;--mark-vocab:151 55% 32%;--type-error:0 80% 47%;--type-idle-fg:222 12% 35%;--type-idle-border:220 13% 80%;--streak:18 90% 40.5%;--praise-x:38 95% 38%;--ling-blue:228 68% 43%;--ling-teal:188 68% 23.5%;--ling-green:151 68% 22%;--ling-leaf:88 68% 21.5%;--ling-gold:48 68% 23%;--ling-orange:23 68% 30.5%;--ling-rose:350 68% 36.5%;--ling-violet:271 68% 43.5%;--ling-blue-bg:228 46% 56.5%;--ling-teal-bg:188 46% 37.5%;--ling-green-bg:151 42% 36.5%;--ling-leaf-bg:88 42% 35%;--ling-gold-bg:48 50% 31.5%;--ling-orange-bg:23 52% 44%;--ling-rose-bg:350 48% 53.5%;--ling-violet-bg:271 42% 49.5%;--ling-on:0 0% 100%;--ling-slate:32 13% 31.5%;--ling-slate-bg:32 10.5% 38%;--mastery-0:220 15% 70%;--mastery-1:203 91% 66%;--mastery-2:206 86% 58%;--mastery-3:155 60% 50%;--mastery-4:272 85% 75%;--mastery-edge-0:220 15% 54%;--mastery-edge-1:203 91% 50%;--mastery-edge-2:206 86% 42%;--mastery-edge-3:155 60% 34%;--mastery-edge-4:272 85% 59%;--medal-1:43 88% 50%;--medal-2:213 20% 58%;--medal-3:27 62% 55%;--zone-1:151 72% 85%;--zone-2:105 72% 85%;--zone-3:228 72% 85%;--zone-4:271 72% 85%;--zone-5:23 72% 85%;--zone-6:327 72% 85%;--zone-1-ink:151 68% 26%;--zone-2-ink:105 68% 26%;--zone-3-ink:228 68% 44%;--zone-4-ink:271 68% 44%;--zone-5-ink:23 68% 34%;--zone-6-ink:327 68% 38%;--land-1:151 72% 85%;--land-2:271 72% 88%;--land-3:23 72% 85%;--land-4:228 72% 87%;--land-5:327 72% 87%;--land-1-ink:151 68% 24%;--land-2-ink:271 68% 44%;--land-3-ink:23 68% 32%;--land-4-ink:228 68% 44%;--land-5-ink:327 68% 38%;--frq-new:228 72% 85%;--frq-planned:271 72% 85%;--frq-building:23 72% 85%;--frq-done:151 72% 85%;--frq-declined:327 72% 85%;--frq-new-ink:228 68% 44%;--frq-planned-ink:271 68% 44%;--frq-building-ink:23 68% 34%;--frq-done-ink:151 68% 26%;--frq-declined-ink:327 68% 38%;--mode-typing:var(--feat-go-cau);--mode-video:var(--feat-video);--mode-vocab:var(--feat-tu-vung);--mode-translate:var(--feat-doc-dich);--stage-cream-a:.26;--ipa-fg:41 7.8% 40%;--ipa-slash:42 14.8% 69.6%;--lightningcss-light:initial;--lightningcss-dark: ;color-scheme:light}
+
+:where(.bg-\[hsl\(var\(--feat\)\)\]):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.bg-\[hsl\(var\(--gold\)\)\]):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.bg-accent):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.bg-accent-soft):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.bg-ban-be):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.bg-ban-be-soft):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.bg-danger):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.bg-danger-soft):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.bg-gold):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.bg-info):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.bg-info-soft):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.bg-primary):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.bg-primary-soft):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.bg-success):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.bg-success-soft):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.bg-surface):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.bg-surface-2):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.bg-surface-3):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.bg-surface-eng):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.bg-warning):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.bg-warning-soft):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.btn-ink):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.btn-ink-cta):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.card):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.chip):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.face-light):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.field-ink):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.gr-fml):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.gr-kick):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.gr-num):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.gr-opt):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.gr-q):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.gr-spk):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.ink-card):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.ink-panel):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.isle):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.lh-tooltip):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.nav-item-active):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.pop-tail):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.stage-paper):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *),:where(.toast-card):where(:root[data-theme=dark] *):not(:where(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *):is(body *){color:hsl(var(--fg));--sh-self:var(--sh-mid);--cta-edge-self:var(--cta-edge-dark)}
+
+:root,:where(:root[data-theme=dark]) :where(.bg-\[hsl\(var\(--feat\)\)\]),:where(:root[data-theme=dark]) :where(.bg-\[hsl\(var\(--gold\)\)\]),:where(:root[data-theme=dark]) :where(.bg-accent),:where(:root[data-theme=dark]) :where(.bg-accent-soft),:where(:root[data-theme=dark]) :where(.bg-ban-be),:where(:root[data-theme=dark]) :where(.bg-ban-be-soft),:where(:root[data-theme=dark]) :where(.bg-danger),:where(:root[data-theme=dark]) :where(.bg-danger-soft),:where(:root[data-theme=dark]) :where(.bg-gold),:where(:root[data-theme=dark]) :where(.bg-info),:where(:root[data-theme=dark]) :where(.bg-info-soft),:where(:root[data-theme=dark]) :where(.bg-primary),:where(:root[data-theme=dark]) :where(.bg-primary-soft),:where(:root[data-theme=dark]) :where(.bg-success),:where(:root[data-theme=dark]) :where(.bg-success-soft),:where(:root[data-theme=dark]) :where(.bg-surface),:where(:root[data-theme=dark]) :where(.bg-surface-2),:where(:root[data-theme=dark]) :where(.bg-surface-3),:where(:root[data-theme=dark]) :where(.bg-surface-eng),:where(:root[data-theme=dark]) :where(.bg-warning),:where(:root[data-theme=dark]) :where(.bg-warning-soft),:where(:root[data-theme=dark]) :where(.btn-ink),:where(:root[data-theme=dark]) :where(.btn-ink-cta),:where(:root[data-theme=dark]) :where(.card),:where(:root[data-theme=dark]) :where(.chip),:where(:root[data-theme=dark]) :where(.face-light),:where(:root[data-theme=dark]) :where(.field-ink),:where(:root[data-theme=dark]) :where(.gr-fml),:where(:root[data-theme=dark]) :where(.gr-kick),:where(:root[data-theme=dark]) :where(.gr-num),:where(:root[data-theme=dark]) :where(.gr-opt),:where(:root[data-theme=dark]) :where(.gr-q),:where(:root[data-theme=dark]) :where(.gr-spk),:where(:root[data-theme=dark]) :where(.ink-card),:where(:root[data-theme=dark]) :where(.ink-panel),:where(:root[data-theme=dark]) :where(.isle),:where(:root[data-theme=dark]) :where(.lh-tooltip),:where(:root[data-theme=dark]) :where(.nav-item-active),:where(:root[data-theme=dark]) :where(.pop-tail),:where(:root[data-theme=dark]) :where(.stage-paper),:where(:root[data-theme=dark]) :where(.toast-card),[data-feature],[data-tint]{--feat-ink:var(--feat-ink-l);--primary:var(--feat-ink);--primary-hover:var(--feat-ink);--primary-ring:var(--feat-ink);--type-active:var(--primary);--sh-color:var(--sh-tint);--praise-grad:linear-gradient(96deg, hsl(var(--primary)) 0%, hsl(var(--primary-hover)) 100%)}
+
+:root[data-theme=dark],:root[data-theme=dark] :is([data-feature],[data-tint]):not(:is(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]),:is(.isle,.ink-card,.ink-panel,.btn-ink,.btn-ink-cta,.face-light,.chip,.card,.field-ink,.nav-item-active,.stage-paper,.gr-kick,.gr-spk,.gr-opt,.gr-fml,.gr-q,.gr-num,.lh-tooltip,.toast-card,.pop-tail,.bg-surface,.bg-surface-2,.bg-surface-3,.bg-surface-eng,.bg-primary,.bg-gold,.bg-accent,.bg-danger,.bg-success,.bg-warning,.bg-info,.bg-ban-be,.bg-primary-soft,.bg-accent-soft,.bg-success-soft,.bg-warning-soft,.bg-danger-soft,.bg-info-soft,.bg-ban-be-soft,.bg-\[hsl\(var\(--feat\)\)\],.bg-\[hsl\(var\(--gold\)\)\]) *){--feat-ink:var(--feat-ink-d);--sh-color:var(--sh-mid)}
+
+.nbx-r-info{--nb-x-fa:var(--nb-x-info);--nb-x-fb:var(--nb-x-info-m);--nb-x-fc:var(--nb-x-info-d);--nb-x-ft:var(--nb-x-info-t);--nb-x-fd:var(--nb-x-info-d);--nb-x-st:var(--nb-x-info-d)}
+
+.nbx-f-go,.nbx-f-path{--nb-x-fa:var(--nb-x-info);--nb-x-fb:var(--nb-x-info-m);--nb-x-fc:var(--nb-x-info-d);--nb-x-ft:var(--nb-x-info-t);--nb-x-fd:var(--nb-x-info-d)}
+
+.nbx-lv-a1{--nb-x-st:var(--nb-x-ok-d)}
+
+.nbx-lv-b1{--nb-x-st:var(--nb-x-goal-d)}
+
+.nbx-lv-c1{--nb-x-st:var(--nb-x-heat-d)}
+
+.nbx-f-dict,.nbx-f-exam,.nbx-f-friend,.nbx-f-go,.nbx-f-gram,.nbx-f-home,.nbx-f-path,.nbx-f-read,.nbx-f-req,.nbx-f-vid,.nbx-f-voc,.nbx-lv-a1,.nbx-lv-a2,.nbx-lv-b1,.nbx-lv-b2,.nbx-lv-c1,.nbx-r-do,.nbx-r-goal,.nbx-r-heat,.nbx-r-info,.nbx-r-ivory,.nbx-r-ok,.nbx-r-peach,.nbx-r-ref,.nbx-r-soc,.nbx-rail-in,[data-nb-accent]{--nb-x-line:color-mix(in srgb,var(--nb-x-fd,var(--nb-x-ivory-d)) var(--nb-x-line-k),transparent);--nb-x-off:3px 3px 0 color-mix(in srgb,var(--nb-x-fd,var(--nb-x-ivory-d)) var(--nb-x-off-k),transparent);--nb-x-off-s:2px 2px 0 color-mix(in srgb,var(--nb-x-fd,var(--nb-x-ivory-d)) var(--nb-x-off-k),transparent)}
+
+.nbx-disp,.nbx-main h1,.nbx-main h2,.nbx-main h3{font-family:var(--nb-font-head);letter-spacing:-.015em}
+
+.nbx-mut{color:var(--nb-x-mut)}
+
+.nbx-blk,.nbx-g,.nbx-g>*{min-width:0}
+
+:root:where([data-skin=sotay]) .nbx-blk,:root:where([data-skin=sotay]) .nbx-blk.nbx-dots{background-image:var(--nb-x-grain-blk)}
+
+:root:where([data-skin=sotay]) .nbx-blk.nbx-pile:before{content:"";z-index:-1;border-radius:inherit;background:var(--nb-x-bk,var(--nb-x-fb));transform:rotate(var(--nb-x-tilt,.8deg)) translate(5px,6px);opacity:.85;position:absolute;inset:0;box-shadow:0 10px 20px -16px #281e0a80}
+
+:root:where([data-skin=sotay]) .nbx-blk.nbx-pile.nbx-alt:before{--nb-x-tilt:-.7deg}
+
+:root:where([data-skin=sotay]) .nbx-blk.nbx-pile:before{transform:skewY(var(--nb-x-tilt,.8deg)) translate(5px,6px)}
+
+.nbx-bh h2{white-space:nowrap;font-size:21px;font-weight:800;line-height:1.15}
+
+.nbx-bh .nbx-act{flex:none;align-items:center;gap:8px;margin-left:auto;display:flex}
+
+.nbx-bh .nbx-bh-sub,.nbx-bt{color:var(--nb-x-ft);white-space:nowrap}
+
+.nbx-bh .nbx-bh-sub{font-family:var(--nb-font-body,inherit);letter-spacing:0;margin:0 0 0 2px;font-size:14.5px;font-weight:800;line-height:1.2}
+
+:root:where([data-theme=dark]) .nbx-bh .nbx-bh-sub{color:var(--nb-x-fc)}
+
+.nbx-bh .nbx-act{flex-wrap:nowrap}
+
+.nbx-tape{z-index:2;width:92px;height:22px;top:-9px;left:var(--nb-x-tx,28px);rotate:var(--nb-x-tr,-4deg);pointer-events:none;opacity:.88;background:repeating-linear-gradient(90deg,color-mix(in srgb,var(--nb-x-tc,var(--nb-x-fb,var(--nb-x-heat-m))) 92%,#fff) 0 7px,color-mix(in srgb,var(--nb-x-tc,var(--nb-x-fb,var(--nb-x-heat-m))) 70%,#fff) 7px 9px);border-radius:2px;position:absolute;box-shadow:0 1px 1px #0000000f;-webkit-mask:linear-gradient(90deg,#0000,#000 3px calc(100% - 3px),#0000);mask:linear-gradient(90deg,#0000,#000 3px calc(100% - 3px),#0000)}
+
+.nbx-tape.nbx-r{left:auto;right:var(--nb-x-tx,32px);rotate:var(--nb-x-tr,5deg)}
+
+:root:where(:not([data-skin=sotay])) .nbx-holes,:root:where(:not([data-skin=sotay])) .nbx-tape{display:none}
+
+:root:where([data-theme=dark]) .nbx-tape{opacity:.55}
+
+.nbx-row .nbx-tt{flex:auto;min-width:0}
+
+.nbx-row .nbx-tt b{font-weight:800}
+
+.nbx-row .nbx-tt b,.nbx-row .nbx-tt small{white-space:nowrap;text-overflow:ellipsis;display:block;overflow:hidden}
+
+.nbx-row .nbx-tt small{color:var(--nb-x-mut);font-size:12.5px;font-weight:700}
+
+.nbx-row.nbx-on{background:var(--nb-x-fb)}
+
+.nbx-tile{--nb-x-s:38px;width:var(--nb-x-s);height:var(--nb-x-s);border-radius:calc(var(--nb-x-s)*.32);background:var(--nb-x-fb);color:var(--nb-x-ft);flex:none;place-items:center;display:grid}
+
+.nbx-tile .nbx-ic{width:calc(var(--nb-x-s)*.5);height:calc(var(--nb-x-s)*.5)}
+
+.nbx-tile.nbx-s30{--nb-x-s:30px}
+
+.nbx-tile.nbx-s46{--nb-x-s:46px}
+
+.nbx-tile.nbx-s52{--nb-x-s:52px}
+
+:root:where([data-skin=sotay]) .nbx-tile{box-shadow:0 6px 12px -8px color-mix(in srgb,var(--nb-x-fd,#555) 80%,transparent)}
+
+:root:where(:not([data-skin=sotay])) .nbx-tile{border:1.75px solid var(--nb-x-line);box-shadow:var(--nb-x-off-s);background:var(--nb-x-fb);color:var(--nb-x-ink)}
+
+:root:where([data-theme=dark]) .nbx-tile{color:var(--nb-x-fc)}
+
+:root:where(:not([data-skin=sotay]))[data-theme=dark] .nbx-tile{color:var(--nb-x-ink)}
+
+.nbx-btn .nbx-ic{width:18px;height:18px}
+
+.nbx-btn.nbx-sm{height:40px;padding:0 14px;font-size:13.5px}
+
+:root:where(:not([data-skin=sotay])) .nbx-btn:hover{box-shadow:var(--nb-x-off);transform:translate(-1px,-1px)}
+
+:root:where(:not([data-skin=sotay])) .nbx-btn:active{box-shadow:none;transform:translate(2px,2px)}
+
+.nbx-lnk{color:var(--nb-x-ft);white-space:nowrap;align-items:center;gap:6px;min-height:40px;font-weight:800;display:inline-flex}
+
+.nbx-lnk .nbx-ic{width:17px;height:17px;transition:transform .22s var(--nb-x-ease)}
+
+.nbx-lnk:hover .nbx-ic{transform:translate(3px)}
+
+.nbx-chip .nbx-ic{width:14px;height:14px}
+
+.nbx-chip.nbx-lvl{background:var(--nb-x-fb);color:var(--nb-x-ft);font-family:var(--nb-font-head)}
+
+.nbx-chip.nbx-plain{background:var(--nb-x-row);color:var(--nb-x-ink2)}
+
+:root:where(:not([data-skin=sotay])) .nbx-chip.nbx-plain{background:var(--nb-x-row-h)}
+
+.nbx-bar i{height:100%;width:var(--nb-x-p,0);background:var(--nb-x-fc);border-radius:999px;min-width:6px;display:block}
+
+:root:where(:not([data-skin=sotay])) .nbx-bar i{background:var(--nb-x-fb);border-right:1.5px solid var(--nb-x-line);border-radius:0}
+
+:where(.nbx-blk,.nbx-card,.nbc-blk,[data-nb-header]) :is(.nbx-chip,.nbx-row,.nbx-tile,.nbx-bar,.nbx-lvg,.nbx-stat4>*):is(.nbx-r-do,.nbx-r-goal,.nbx-r-heat,.nbx-r-ok,.nbx-r-soc,.nbx-r-ref,.nbx-r-info,.nbx-r-peach,.nbx-r-ivory,.nbx-lv-a1,.nbx-lv-a2,.nbx-lv-b1,.nbx-lv-b2,.nbx-lv-c1,.nbx-lv-c2){--nb-x-fa:inherit;--nb-x-fb:inherit;--nb-x-fc:inherit;--nb-x-ft:inherit;--nb-x-fd:inherit}
+
+:where(.nbx-blk,.nbx-card,.nbc-blk,[data-nb-header]) .nbx-chip:is(.nbx-r-do,.nbx-r-goal,.nbx-r-heat,.nbx-r-ok,.nbx-r-soc,.nbx-r-ref,.nbx-r-info,.nbx-r-peach):not(.nbx-lvl,.nbx-mark)>svg{color:var(--nb-x-st)}
+
+:where(.nbx-blk,.nbx-card,.nbc-blk,[data-nb-header]) .nbx-chip.nbx-lvl:is(.nbx-lv-a1,.nbx-lv-a2,.nbx-r-ok){background:color-mix(in srgb,var(--nb-x-fb) 45%,var(--nb-x-row-h));color:var(--nb-x-ft);box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--nb-x-fc) 30%,transparent)}
+
+:where(.nbx-blk,.nbx-card,.nbc-blk,[data-nb-header]) .nbx-lvg:is(.nbx-lv-a1,.nbx-lv-a2){background:color-mix(in srgb,var(--nb-x-fb) 45%,var(--nb-x-row-h));color:var(--nb-x-ft)}
+
+:where(.nbx-blk,.nbx-card,.nbc-blk,[data-nb-header]) :is(.nbx-chip.nbx-lvl,.nbx-lvg):is(.nbx-lv-b1,.nbx-lv-b2,.nbx-r-do){background:var(--nb-x-fb);color:var(--nb-x-ft)}
+
+:where(.nbx-blk,.nbx-card,.nbc-blk,[data-nb-header]) :is(.nbx-chip.nbx-lvl,.nbx-lvg):is(.nbx-lv-c1,.nbx-lv-c2,.nbx-r-heat){background:var(--nb-x-fc);color:var(--nb-x-on-d)}
+
+:is(.nbx-chip,.nbc-chip).nbx-mark{background:var(--nb-x-ft);color:var(--nb-x-on-d);box-shadow:none}
+
+.nbx-f-go,.nbx-f-path{--nb-x-st:var(--nb-x-info-d)}
+
+.nbx-blk .nbx-tile:is(.nbx-f-go,.nbx-f-path,.nbx-f-vid,.nbx-f-voc,.nbx-f-gram,.nbx-f-read,.nbx-f-dict,.nbx-f-req){background:var(--nb-x-row-h);color:var(--nb-x-st);box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--nb-x-st) 30%,transparent)}
+
+.nbx-blk .nbc-sk:is(.nbc-f-go,.nbc-f-path,.nbc-f-vid,.nbc-f-voc,.nbc-f-gram,.nbc-f-read,.nbc-f-dict){--nb-sk-face:var(--nb-x-row-h);color:var(--nb-ft);box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--nb-ft) 30%,transparent)}
+
+:where(.nbx-blk,.nbx-card,.nbc-blk,.nbc-lv1,.nbc-hd,[data-nb-header]) :is(.nbc-chip,.nbc-tag):is(.nbx-r-do,.nbx-r-goal,.nbx-r-heat,.nbx-r-ok,.nbx-r-soc,.nbx-r-ref,.nbx-r-info,.nbx-r-peach,.nbx-lv-a1,.nbx-lv-a2,.nbx-lv-b1,.nbx-lv-b2,.nbx-lv-c1,.nbx-lv-c2){--nb-x-fa:inherit;--nb-x-fb:inherit;--nb-x-fc:inherit;--nb-x-ft:inherit;--nb-x-fd:inherit}
+
+:is(.nbc-lv1,.nbc-lv2,.nbc-blk):is(.nbx-r-do,.nbx-r-goal,.nbx-r-heat,.nbx-r-ok,.nbx-r-soc,.nbx-r-ref,.nbx-r-info,.nbx-r-peach,.nbx-r-ivory,.nbx-f-go,.nbx-f-path,.nbx-f-vid,.nbx-f-voc,.nbx-f-gram,.nbx-f-read,.nbx-f-dict),:is(.nbx-blk,.nbx-card){--nb-act-p:color-mix(in srgb,var(--nb-x-fb) 70%,var(--nb-x-row-h));--nb-act-line:var(--nb-x-fc)}
+
+:is(.nbc-lv1,.nbc-lv2,.nbc-blk):is(.nbx-r-do,.nbx-r-goal,.nbx-r-heat,.nbx-r-ok,.nbx-r-soc,.nbx-r-ref,.nbx-r-info,.nbx-r-peach,.nbx-r-ivory) .nbc-tape.is-cor,:is(.nbx-blk,.nbx-card) .nbc-tape.is-cor{--nb-tape-c:var(--nb-x-fb)}
+
+.nbx-ni .nbx-tile{--nb-x-s:30px;box-shadow:none}
+
+:root:where([data-skin=sotay]) .nbx-ni.nbx-on .nbx-tile{color:var(--nb-x-ft);background:#ffffffb3}
+
+:root:where([data-skin=sotay])[data-theme=dark] .nbx-ni.nbx-on .nbx-tile{color:var(--nb-x-fc);background:#00000040}
+
+:root:where(:not([data-skin=sotay])) .nbx-ni .nbx-tile{box-shadow:none;border-width:1.5px}
+
+.nbc-hd-tools .nbx-btn.nbx-on{background:color-mix(in srgb,var(--nb-x-fc) 40%,var(--nb-x-fb));color:var(--nb-x-ink);outline:2px solid var(--nb-x-fc);outline-offset:-2px}
+
+.nbc-hd-tools .nbx-btn.nbx-b-pri.nbx-on{background:var(--nb-x-pri);color:var(--nb-x-pri-t)}
+
+.nbx-cb.nbx-done{background:var(--nb-x-ok-d);box-shadow:none}
+
+.nbx-btn,.nbx-ni,a.nbx-card,a.nbx-row,button.nbx-row{transition-property:transform,box-shadow,background-color,scale}
+
+:root:where([data-skin=sotay]) .nbx-btn:active:not(:disabled,[aria-disabled=true]){transition-duration:var(--fx-dur-press,.15s);scale:.96}
+
+:root:where([data-skin=sotay]) .nbx-stk.nbx-lvk>.nbx-lvg{box-shadow:none;background:var(--nb-x-fb)}
+
+.nbx-cb.nbx-done{background:var(--nb-x-row-h);box-shadow:inset 0 0 0 2px color-mix(in srgb,var(--nb-x-ok-d) 55%,transparent);place-items:center;display:grid}
+
+.nbx-cb.nbx-done svg{width:24px;height:24px;color:var(--nb-x-ok-d);margin:-3px 0 0 3px;overflow:visible}
+
+.nbx-cb.nbx-done path{stroke-width:3px}
+
+.nbx-cb.nbx-done .nbx-tick-n{display:none}
+
+:root:where(:not([data-skin=sotay])) .nbx-cb.nbx-done{background:var(--nb-x-ok-m);box-shadow:none}
+
+:root:where(:not([data-skin=sotay])) .nbx-cb.nbx-done svg{color:var(--nb-x-ink);width:18px;height:18px;margin:0}
+
+:root:where(:not([data-skin=sotay])) .nbx-cb.nbx-done .nbx-tick-h{display:none}
+
+:root:where(:not([data-skin=sotay])) .nbx-cb.nbx-done .nbx-tick-n{display:inline}
+
+a:hover .nbx-cb.nbx-done path{animation:nbx-draw .6s var(--nb-x-ease) both}
+
+.nbx-row.nbx-done .nbx-tt b{color:var(--nb-x-ink2)}
+
+:root:where([data-skin=sotay]) .nbx-bar.nbx-hatch i,:root:where([data-skin=sotay]) .nbx-hatch .nbx-bar i{background:repeating-linear-gradient(-58deg,color-mix(in srgb,var(--nb-x-fc) 88%,transparent) 0 1.6px,transparent 1.6px 4.2px),color-mix(in srgb,var(--nb-x-fc) 30%,transparent);box-shadow:inset -2px 0 0 color-mix(in srgb,var(--nb-x-fc) 90%,transparent)}
+
+.nbx-bar i{transform-origin:0}
+
+.nbx-blk:hover .nbx-bar i,a.nbx-card:hover .nbx-bar i{animation:nbx-fill .6s var(--nb-x-ease) both}
+
+:root:where([data-skin=sotay]) .nbx-polaroid :is(small,.nbx-mut){color:#5b5766}
+
+.nbx-blk:hover .nbx-roll>span,.nbx-stamp:hover .nbx-roll>span{animation:nbx-roll .6s var(--nb-x-ease) both}
+
+:root:where(:not([data-skin=sotay])) .nbx-bh .nbx-bign{color:var(--nb-x-ink);vertical-align:-4px;margin-right:2px;font-size:34px;line-height:1}
+
+:root[data-skin=sotay] :is(.nbx-chip,.nbx-tile,.nbx-num,.nbx-lvg,.nbr-tag,.nbc-pill,.nbc-opt,.nbc-inp,.nbc-tag,.nbc-chip,.nbc-lv3,.nb-pill,.nb-btn-soft,.hnst,.pace-seg,.xp-pill,.vsb-in,.nbc-stp.is-cur,.nbx-row.nbx-on,.htp-row,.rb-row,.pci-it,.nbc-linkbox,.fpi,.nbx-b-pri,.nbx-b-mine,.nbx-seg a.nbx-on,.nbx-ni.nbx-on,.nbx-vcard,.nbc-btn,.nb-btn,.nb-pop:not(.nb-dlg),[role=dialog]:not(.nbx-d-dlg),.nbx-mast li.nbx-on,.frq-vote,.rb-tab.nbx-on,.hck-fb,.hck-cta,.nbc-danger,.pci-n,.nbc-stp.is-done,.nbx-stat4>*,.hck,.fid-top,.fab-ink,[data-testid=video-filter-trigger],.tb-need,.th-tab,.ts-tile,.nb-stk,.nb-chip,.fs-chip,.fs-flag,.slink,.nb-back,.tq-go,.tm-mini,.pg-goal,.pg-stk,.nb-seal,.ar-sk,.fp-stamp,.fp-choice,article.mk,.mb-tabs>a,.hs-tabs a,.fp-seg>button[aria-pressed=true],section.sc,section.mc,.mb-op.is-on,.hs-chip.is-on,.tr-day-h,.nb-row,.mk-ans,.btn-ink,.hck-ok,.lt-pos,.qr-rate,.ovb-step,.qr-reveal,.bank-chip.is-on,.lt-head,.pc-pin,.gcpl-go,.sp-note,.gt-chip,.npc-fml,.npc-exs,.lwa.isle,.nbc-sk,.pos-ink,.vm-lg,.vst-bub,.pls-bub,.rbs-rec,.gr-spk,.gr-kick,.vmp-lesson,.rg-cell,.rn-go,.rk-link,.rk-ttb,.ro-note,.rs-note,.rk-q,.rf-row,.nbl-kt,.nbc-kbd,.nbx-d-n,[data-tc-row].nbx-on,.nbc-back,.nbx-d-tops>.router-link-exact-active,.rounded-card.border-bw.bg-surface,.search-box input,.nbc-hd-tt>a):not(#nbx){background-image:var(--nb-x-grain-sm)}
+
+.nbx-plan .nbx-row .nbx-chip.nbx-nx{background:var(--nb-x-ft);color:var(--nb-x-on-d)}
+
+.nbx-pct{flex-wrap:wrap;align-items:baseline;gap:10px;display:flex}
+
+.nbx-pct .nbx-num{color:var(--nb-x-ft);font-size:40px;line-height:.9}
+
+.nbx-lvbar{padding-bottom:22px;position:relative}
+
+.nbx-lvbar .nbx-bar{height:10px}
+
+.nbx-lvbar .nbx-mark{left:var(--nb-x-m);flex-direction:column;align-items:center;display:flex;position:absolute;top:-5px;transform:translate(-50%)}
+
+.nbx-lvbar .nbx-mark i{background:var(--nb-x-ink);border-radius:2px;width:2.5px;height:20px}
+
+.nbx-lvbar .nbx-mark small{white-space:nowrap;color:var(--nb-x-ft);font-size:11.5px;font-weight:800}
+
+.nbx-btn.nbx-wide{justify-content:flex-start}
+
+.nbx-btn.nbx-wide .nbx-mut{margin-left:auto;font-weight:700}
+
+.nbx-wk-b .nbx-on i{background:var(--nb-x-fc)}
+
+:root:where(:not([data-skin=sotay])) .nbx-wk-b .nbx-on i{background:var(--nb-x-fc);border-color:var(--nb-x-fc)}
+
+.nbx-lv-a1{--nb-x-fa:var(--nb-x-ok);--nb-x-fb:var(--nb-x-ok-m);--nb-x-fc:var(--nb-x-ok-d);--nb-x-ft:var(--nb-x-ok-t);--nb-x-fd:var(--nb-x-ok-d)}
+
+.nbx-lv-b1{--nb-x-fa:var(--nb-x-goal);--nb-x-fb:var(--nb-x-goal-m);--nb-x-fc:var(--nb-x-goal-d);--nb-x-ft:var(--nb-x-goal-t);--nb-x-fd:var(--nb-x-goal-d)}
+
+.nbx-lv-c1{--nb-x-fa:var(--nb-x-heat);--nb-x-fb:var(--nb-x-heat-m);--nb-x-fc:var(--nb-x-heat-d);--nb-x-ft:var(--nb-x-heat-t);--nb-x-fd:var(--nb-x-heat-d)}
+
+.nbx-steps{grid-template-columns:minmax(0,1.75fr) repeat(4,minmax(0,1fr));gap:16px;margin:0;padding:0;list-style:none;display:grid;position:relative}
+
+.nbx-steps:before{content:"";border-top:3px dashed color-mix(in srgb,var(--nb-x-ink) 28%,transparent);z-index:0;height:0;position:absolute;top:43px;left:40px;right:40px}
+
+:root:where(:not([data-skin=sotay])) .nbx-steps:before{background:var(--nb-x-line);border-top:0;height:2.5px}
+
+.nbx-steps>li{z-index:1;min-width:0;display:flex;position:relative}
+
+.nbx-steps .nbx-card{flex:1;gap:7px;padding:16px}
+
+.nbx-lvh{justify-content:space-between;align-items:center;gap:8px;min-height:56px;display:flex}
+
+.nbx-lvg{background:var(--nb-x-fb);width:56px;height:56px;color:var(--nb-x-ft);font-family:var(--nb-font-head);border-radius:50%;flex:none;place-items:center;font-size:24px;font-weight:800;display:grid}
+
+:root:where([data-skin=sotay]) .nbx-lvg{box-shadow:0 0 0 4px var(--nb-x-fa),0 0 0 5.5px color-mix(in srgb,var(--nb-x-fc) 35%,transparent),0 8px 14px -8px var(--nb-x-fd)}
+
+:root:where(:not([data-skin=sotay])) .nbx-lvg{border:1.75px solid var(--nb-x-line);box-shadow:var(--nb-x-off-s);border-radius:10px}
+
+:root:where([data-theme=dark]) .nbx-lvg{color:var(--nb-x-fc)}
+
+:root:where(:not([data-skin=sotay]))[data-theme=dark] .nbx-lvg{color:var(--nb-x-ink)}
+
+.nbx-lvn{font-family:var(--nb-font-head);font-size:17.5px;font-weight:800;line-height:1.2}
+
+.nbx-lvd{color:var(--nb-x-ink2);font-size:13.5px;font-weight:600;line-height:1.4}
+
+.nbx-lvs{color:var(--nb-x-ft);font-size:13px;font-weight:800}
+
+.nbx-steps .nbx-next .nbx-card{-moz-column-gap:14px;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-content:start;column-gap:14px;display:grid}
+
+.nbx-steps .nbx-next .nbx-card>.nbx-lvd,.nbx-steps .nbx-next .nbx-card>.nbx-lvh,.nbx-steps .nbx-next .nbx-card>.nbx-lvn{grid-column:1/-1}
+
+.nbx-steps .nbx-next .nbx-lvnext{grid-row:span 2}
+
+:root:where([data-theme=dark]) .nbx-lvs{color:var(--nb-x-fc)}
+
+.nbx-lvnext{border-radius:var(--nb-x-r3);background:var(--nb-x-row);flex-direction:column;min-width:0;padding:8px 10px;display:flex}
+
+.nbx-lvnext small{color:var(--nb-x-mut);font-size:11.5px;font-weight:700}
+
+.nbx-lvnext b{font-size:14px}
+
+:root:where(:not([data-skin=sotay])) .nbx-lvnext{border:1.5px solid var(--nb-x-line)}
+
+.nbx-steps .nbx-next .nbx-card{outline:0}
+
+:root:where([data-skin=sotay]) .nbx-steps .nbx-next .nbx-card{box-shadow:0 0 0 2.5px color-mix(in srgb,var(--nb-x-fc) 70%,transparent),0 16px 26px -14px var(--nb-x-fd)}
+
+:root:where(:not([data-skin=sotay])) .nbx-steps .nbx-next .nbx-card{box-shadow:var(--nb-x-off);border-width:2.25px}
+
+.nbx-steps .nbx-card .nbx-btn{align-self:flex-start}
+
+.nbx-sets .nbx-row .nbx-tt b{white-space:normal;line-height:1.25}
+
+.nbx-gc-sets .nbx-sets .nbx-row .nbx-tt b{font-size:14px}
+
+:root:where(:not([data-skin=sotay])) .nbx-pct .nbx-num{letter-spacing:-.04em;color:var(--nb-x-ink);font-size:60px;line-height:.6}
+
+:root:where(:not([data-skin=sotay])) .nbx-pct{margin-bottom:-7px}
+
+.gch .nbx-row.nbx-on .nbx-tt small,.hm .nbx-row.nbx-on .nbx-tt small{color:var(--nb-x-ink2)}
+
+.nbx-fcard>:is(.nbx-chip,b,small){z-index:2;position:relative}
+
+:where(.nbx-hb) .nbx-lvg{background:var(--nb-x-fb);width:56px;height:56px;color:var(--nb-x-ft);font-family:var(--nb-font-head);border-radius:50%;flex:none;place-items:center;font-size:24px;font-weight:800;display:grid}
+
+:root:where([data-skin=sotay]) :where(.nbx-hb) .nbx-lvg{box-shadow:0 0 0 4px var(--nb-x-fa),0 0 0 5.5px color-mix(in srgb,var(--nb-x-fc) 35%,transparent),0 8px 14px -8px var(--nb-x-fd)}
+
+:root:where(:not([data-skin=sotay])) :where(.nbx-hb) .nbx-lvg{border:1.75px solid var(--nb-x-line);box-shadow:var(--nb-x-off-s);border-radius:10px}
+
+:root:where([data-theme=dark]) :where(.nbx-hb) .nbx-lvg{color:var(--nb-x-fc)}
+
+:root:where(:not([data-skin=sotay]))[data-theme=dark] :where(.nbx-hb) .nbx-lvg{color:var(--nb-x-ink)}
+
+:where(.nbx-hb) .nbx-sets .nbx-row .nbx-tt b{white-space:normal;line-height:1.25}
+
+:where(.nbx-hb) .nbx-vlist .nbx-tt b{white-space:normal;line-height:1.25}
+
+:where(.nbx-hb) .nbx-ladder{gap:8px;display:grid}
+
+:where(.nbx-hb) .nbx-ladder .nbx-row{min-height:46px}
+
+:where(.nbx-hb) .nbx-ipa .nbx-row .nbx-tt b,:where(.nbx-hb) .nbx-ipa .nbx-row .nbx-tt small{white-space:normal}
+
+:where(.nbx-hb) .nbx-lvg.nbx-sm{width:42px;height:42px;font-size:17px}
+
+:root:where([data-skin=sotay]) :where(.nbx-hb) .nbx-lvg.nbx-sm{box-shadow:0 0 0 3px var(--nb-x-fa),0 6px 12px -8px var(--nb-x-fd)}
+
+:where(.nbx-hb) .nbx-gnext{grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:16px;display:grid}
+
+:where(.nbx-hb) .nbx-gn-t{flex-direction:column;gap:4px;min-width:0;display:flex}
+
+:where(.nbx-hb) .nbx-gn-t .nbx-disp{font-size:26px;font-weight:800;line-height:1.15}
+
+:where(.nbx-hb) .nbx-gn-t .nbx-en{color:var(--nb-x-ft);font-style:italic;font-weight:700}
+
+:where(.nbx-hb) .nbx-lvseg a{padding:0 11px}
+
+:where(.nbx-hb) .nbx-ch-h .nbx-tt{min-width:0}
+
+:where(.nbx-hb) .nbx-ch-h .nbx-tt b{font-size:14.5px;line-height:1.25;display:block}
+
+:where(.nbx-hb) .nbx-ch-h .nbx-tt small{color:var(--nb-x-mut);font-size:12px;font-weight:700}
+
+:where(.nbx-hb) .nbx-lvls{gap:8px;display:grid}
+
+:where(.nbx-hb) .nbx-lvls .nbx-row{align-items:center}
+
+:where(.nbx-hb) .nbx-lvls .nbx-row>.nbx-tt{flex:0 0 170px}
+
+:where(.nbx-hb) .nbx-art .nbx-disp{font-size:22px;font-weight:800}
+
+:where(.nbx-hb) .nbx-ladder .nbx-row>.nbx-ic{color:var(--nb-x-fc);width:18px;height:18px}
+
+:where(.nbx-hb) .nbx-paper .nbx-disp{font-size:18px;font-weight:800}
+
+:where(.nbx-hb) .nbx-topics .nbx-tt b{white-space:normal;line-height:1.25}
+
+.nbx-hc .nbx-plan .nbx-row .nbx-chip.nbx-nx{background:var(--nb-x-ft);color:var(--nb-x-on-d)}
+
+.nbx-hc .nbx-pct{flex-wrap:wrap;align-items:baseline;gap:10px;display:flex}
+
+.nbx-hc .nbx-pct .nbx-num{color:var(--nb-x-ft);font-size:40px;line-height:.9}
+
+.nbx-hc .nbx-lvbar{padding-bottom:22px;position:relative}
+
+.nbx-hc .nbx-lvbar .nbx-bar{height:10px}
+
+.nbx-hc .nbx-lvbar .nbx-mark{left:var(--nb-x-m);flex-direction:column;align-items:center;display:flex;position:absolute;top:-5px;transform:translate(-50%)}
+
+.nbx-hc .nbx-lvbar .nbx-mark i{background:var(--nb-x-ink);border-radius:2px;width:2.5px;height:20px}
+
+.nbx-hc .nbx-lvbar .nbx-mark small{white-space:nowrap;color:var(--nb-x-ft);font-size:11.5px;font-weight:800}
+
+.nbx-hc .nbx-btn.nbx-wide{justify-content:flex-start}
+
+.nbx-hc .nbx-btn.nbx-wide .nbx-mut{margin-left:auto;font-weight:700}
+
+.nbx-hc .nbx-wk-b .nbx-on i{background:var(--nb-x-fc)}
+
+.nbx-hc .nbx-ladder{gap:8px;display:grid}
+
+.nbx-hc .nbx-ladder .nbx-row{min-height:46px}
+
+.nbx-hc .nbx-ladder .nbx-row>.nbx-ic{color:var(--nb-x-fc);width:18px;height:18px}
+
+.nbx-hc .nbx-sense .nbx-disp{font-size:22px;font-weight:800}
+
+.nbx-hc .nbx-exm .nbx-tt b{white-space:normal;font-size:15.5px}
+
+.nbx-hc .nbx-toc .nbx-tt b{white-space:normal;line-height:1.25}
+
+.nbx-hc .nbx-lessons .nbx-tt b{white-space:normal;line-height:1.25}
+
+.nbx-hc .nbx-lessons li.nbx-on .nbx-row{background:var(--nb-x-fb)}
+
+.nbx-hc .nbx-lvpick .nbx-chip.nbx-on{box-shadow:0 0 0 2px var(--nb-x-fc) inset}
+
+.nbx-hc .nbx-row .nbx-tt b{white-space:normal;line-height:1.25}
+
+.nbx-hc .nbx-btn.nbx-wide{flex-wrap:wrap;row-gap:2px;height:auto;min-height:44px;padding-block:9px}
+
+.nbx-hc .nbx-sk4 .nbx-tile{box-shadow:none}
+
+.nbx-hc .nbx-mocks .nbx-bh .nbx-seg{margin-left:6px}
+
+.nbx-hc .nbx-test .nbx-disp{font-size:16.5px;font-weight:800}
+
+.nbx-hc .nbx-test .nbx-lnk{align-self:flex-end;min-height:32px;margin-top:auto}
+
+.nbx-hc .nbx-me2 .nbx-tt{flex-direction:column;flex:1;min-width:0;display:flex}
+
+.nbx-hc .nbx-me2 .nbx-disp{font-size:22px;font-weight:800}
+
+.nbx-hc .nbx-chan .nbx-row .nbx-tt small{white-space:normal;line-height:1.3}
+
+:root:where([data-skin=sotay]) .nbx-hc .nbx-blk.nbx-canson,:root:where([data-skin=sotay]) .nbx-hc .nbx-blk.nbx-dots{background-image:var(--nb-x-tx-canson),var(--nb-x-grain-blk)}
+
+:root:where([data-skin=sotay]) .nbx-hc .nbx-blk.nbx-dots.nbx-r-info,:root:where([data-skin=sotay]) .nbx-hc .nbx-blk.nbx-dots.nbx-r-ref,:root:where([data-skin=sotay]) .nbx-hc .nbx-blk.nbx-fibre{background-image:var(--nb-x-tx-fibre),var(--nb-x-grain-blk)}
+
+.nbc-lv1:is(.nbx-r-do,.nbx-r-goal,.nbx-r-heat,.nbx-r-ok,.nbx-r-soc,.nbx-r-ref,.nbx-r-info,.nbx-r-peach):not(#nbx){background-color:var(--nb-x-fa);--nb-sheet:var(--nb-x-fb)}
+
+:where(.nbx-dc) .nbx-btn:is([disabled],.nbx-off):not(#nbx){opacity:.55;cursor:not-allowed;box-shadow:none;transform:translate(0,0)}
+
+:where(.nbx-dc) .nbx-d-hint .nbx-chip b{color:var(--nb-x-ink);font-weight:800}
+
+:where(.nbx-dc) .nbx-d-side .nbx-bh h2{font-size:18px}
+
+:where(.nbx-dc) .nbx-d-sl :is(button,.nbx-d-li).nbx-on .nbx-d-n{background:var(--nb-x-ink);color:var(--nb-x-desk)}
+
+:where(.nbx-dc) .nbx-d-rnd>b.nbx-disp{font-size:21px;font-weight:800;line-height:1.2}
+
+:where(.nbx-dc) .nbx-d-les.nbx-done{--nb-x-fa:var(--nb-x-ok);--nb-x-fb:var(--nb-x-ok-m);--nb-x-fc:var(--nb-x-ok-d);--nb-x-ft:var(--nb-x-ok-t);--nb-x-fd:var(--nb-x-ok-d)}
+
+:where(.nbx-dc) .nbx-d-lt .nbx-tt{flex-direction:column;gap:2px;min-width:0;display:flex}
+
+:where(.nbx-dc) .nbx-d-lt .nbx-tt b.nbx-disp{font-size:16.5px;font-weight:800;line-height:1.25}
+
+:where(.nbx-dc) .nbx-d-lt .nbx-tt small{color:var(--nb-x-mut);font-size:12.5px;font-weight:700}
+
+:where(.nbx-dc) .nbx-d-mode .nbx-bar i{background:var(--nb-x-ok-d)}
+
+:root:where(:not([data-skin=sotay])) :where(.nbx-dc) .nbx-d-mode .nbx-bar i{background:var(--nb-x-ok-m)}
+
+:where(.nbx-dc) .nbx-d-lrow.nbx-done{background-color:color-mix(in srgb,var(--nb-x-ok) 60%,var(--nb-x-ivory))}
+
+:where(.nbx-dc) a.nbx-d-mode.nbx-done{background:color-mix(in srgb,var(--nb-x-ok-m) 45%,var(--nb-x-row-h))}
+
+:where(.nbx-dc) a.nbx-d-mode.nbx-done>.nbx-ic:first-child{color:var(--nb-x-ok-d)}
+
+:where(.nbx-dc) .nbx-d-meter .nbx-bar i{background:var(--nb-x-ok-d)}
+
+:root:where(:not([data-skin=sotay])) :where(.nbx-dc) .nbx-d-meter .nbx-bar i{background:var(--nb-x-ok-m)}
+
+:where(.nbx-dc) .nbx-topics .nbx-tt b{white-space:normal;line-height:1.25}
+
+:where(.nbx-dc) .nbx-d-acc-meta .nbx-chip .nbx-ic{width:14px;height:14px}
+
+:where(.nbx-dc) .nbx-btn.nbx-d-like.is-on{background:var(--nb-x-goal-m);color:var(--nb-x-goal-t)}
+
+:where(.nbx-dc) .nbx-btn.nbx-d-like.is-on .nbx-ic{color:var(--nb-x-goal-d)}
+
+:where(.nbx-dc) .nbx-btn.nbx-d-like[aria-busy=true]:not(#nbx):not(#nbx-like){opacity:1;cursor:progress}
+
+.nbx-btn .nbx-d-k{margin-left:2px}
+
+.nbx-btn.nbx-off,.nbx-btn[disabled]{opacity:.55;cursor:not-allowed;box-shadow:none!important;transform:none!important}
+
+.nbx-d-cmp-top .nbx-mut{font-weight:700}
+
+.nbx-d-crit .nbx-hh b.nbx-disp{font-size:18px;font-weight:800}
+
+.nbx-d-grp>h4 .nbx-mut{font-weight:700}
+
+.nbx-d-ar>b.nbx-disp{white-space:nowrap;font-size:16px;font-weight:800}
+
+.nbx-d-ar .nbx-tt{flex-direction:column;min-width:0;display:flex}
+
+.nbx-d-ar .nbx-tt b{white-space:nowrap;font-size:14px;font-weight:800}
+
+.nbx-d-ar .nbx-tt small{color:var(--nb-x-mut);white-space:nowrap;font-size:12.5px;font-weight:700}
+
+.nbx-btn.nbx-d-tgl.nbx-on{background:var(--nb-x-fb);color:var(--nb-x-ink)}
+
+:root:where([data-skin=sotay]) .nbx-btn.nbx-d-tgl.nbx-on{box-shadow:0 0 0 2px var(--nb-x-fc) inset}
+
+:root:where(:not([data-skin=sotay])) .nbx-btn.nbx-d-tgl.nbx-on{border-color:color-mix(in srgb,var(--nb-x-fc) 70%,transparent)}
+
+.nbx-d-meter .nbx-bar i{background:var(--nb-x-ok-d)}
+
+:root:where(:not([data-skin=sotay])) .nbx-d-meter .nbx-bar i{background:var(--nb-x-ok-m)}
+
+.nbx-seg button.nbx-mut{color:var(--nb-x-mut);cursor:default}
+
+.nbc-sk>.nva,.nbx-tile>.nva{width:82%;height:62%}

@@ -1,0 +1,70 @@
+[
+  { "href": "/tu-vung/phat-am/i-long", "label": "Học âm /iː/, từ khoá sheep" },
+  { "href": "/tu-vung/phat-am/i-short", "label": "Học âm /ɪ/, từ khoá ship" },
+  { "href": "/tu-vung/phat-am/u-long", "label": "Học âm /uː/, từ khoá food" },
+  { "href": "/tu-vung/phat-am/u-short", "label": "Học âm /ʊ/, từ khoá book" },
+  { "href": "/tu-vung/phat-am/o-long", "label": "Học âm /ɔː/, từ khoá saw" },
+  { "href": "/tu-vung/phat-am/o-short", "label": "Học âm /ɒ/, từ khoá hot" },
+  { "href": "/tu-vung/phat-am/a-long", "label": "Học âm /ɑː/, từ khoá car" },
+  { "href": "/tu-vung/phat-am/uh", "label": "Học âm /ʌ/, từ khoá cup" },
+  { "href": "/tu-vung/phat-am/er-long", "label": "Học âm /ɜː/, từ khoá bird" },
+  { "href": "/tu-vung/phat-am/schwa", "label": "Học âm /ə/, từ khoá about" },
+  { "href": "/tu-vung/phat-am/e", "label": "Học âm /e/, từ khoá bed" },
+  { "href": "/tu-vung/phat-am/ae", "label": "Học âm /æ/, từ khoá cat" },
+  { "href": "/tu-vung/phat-am/ei", "label": "Học âm /eɪ/, từ khoá face" },
+  { "href": "/tu-vung/phat-am/ai", "label": "Học âm /aɪ/, từ khoá my" },
+  { "href": "/tu-vung/phat-am/oi", "label": "Học âm /ɔɪ/, từ khoá boy" },
+  { "href": "/tu-vung/phat-am/ou-uk", "label": "Học âm /əʊ/, từ khoá go" },
+  { "href": "/tu-vung/phat-am/au", "label": "Học âm /aʊ/, từ khoá now" },
+  { "href": "/tu-vung/phat-am/ia", "label": "Học âm /ɪə/, từ khoá ear" },
+  { "href": "/tu-vung/phat-am/ea", "label": "Học âm /eə/, từ khoá hair" },
+  { "href": "/tu-vung/phat-am/ua", "label": "Học âm /ʊə/, từ khoá tour" },
+  { "href": "/tu-vung/phat-am/p", "label": "Học âm /p/, từ khoá pen" },
+  { "href": "/tu-vung/phat-am/b", "label": "Học âm /b/, từ khoá bag" },
+  { "href": "/tu-vung/phat-am/t", "label": "Học âm /t/, từ khoá tea" },
+  { "href": "/tu-vung/phat-am/d", "label": "Học âm /d/, từ khoá day" },
+  { "href": "/tu-vung/phat-am/k", "label": "Học âm /k/, từ khoá key" },
+  { "href": "/tu-vung/phat-am/g", "label": "Học âm /ɡ/, từ khoá go" },
+  { "href": "/tu-vung/phat-am/f", "label": "Học âm /f/, từ khoá fine" },
+  { "href": "/tu-vung/phat-am/v", "label": "Học âm /v/, từ khoá voice" },
+  {
+    "href": "/tu-vung/phat-am/th-voiceless",
+    "label": "Học âm /θ/, từ khoá think"
+  },
+  { "href": "/tu-vung/phat-am/th-voiced", "label": "Học âm /ð/, từ khoá this" },
+  { "href": "/tu-vung/phat-am/s", "label": "Học âm /s/, từ khoá see" },
+  { "href": "/tu-vung/phat-am/z", "label": "Học âm /z/, từ khoá zoo" },
+  { "href": "/tu-vung/phat-am/sh", "label": "Học âm /ʃ/, từ khoá she" },
+  { "href": "/tu-vung/phat-am/zh", "label": "Học âm /ʒ/, từ khoá measure" },
+  { "href": "/tu-vung/phat-am/ch", "label": "Học âm /tʃ/, từ khoá chair" },
+  { "href": "/tu-vung/phat-am/dzh", "label": "Học âm /dʒ/, từ khoá job" },
+  { "href": "/tu-vung/phat-am/m", "label": "Học âm /m/, từ khoá man" },
+  { "href": "/tu-vung/phat-am/n", "label": "Học âm /n/, từ khoá no" },
+  { "href": "/tu-vung/phat-am/ng", "label": "Học âm /ŋ/, từ khoá sing" },
+  { "href": "/tu-vung/phat-am/h", "label": "Học âm /h/, từ khoá house" },
+  { "href": "/tu-vung/phat-am/l", "label": "Học âm /l/, từ khoá light" },
+  { "href": "/tu-vung/phat-am/r", "label": "Học âm /r/, từ khoá red" },
+  { "href": "/tu-vung/phat-am/y", "label": "Học âm /j/, từ khoá yes" },
+  { "href": "/tu-vung/phat-am/w", "label": "Học âm /w/, từ khoá we" },
+  { "href": "/tu-vung/phat-am/final-t-d", "label": "Học âm /-t/, từ khoá cat" },
+  {
+    "href": "/tu-vung/phat-am/final-k-g",
+    "label": "Học âm /-k/, từ khoá back"
+  },
+  {
+    "href": "/tu-vung/phat-am/final-s-z",
+    "label": "Học âm /-s/, từ khoá rice"
+  },
+  {
+    "href": "/tu-vung/phat-am/final-s-es",
+    "label": "Học âm /-(e)s/, từ khoá cats"
+  },
+  {
+    "href": "/tu-vung/phat-am/final-ed",
+    "label": "Học âm /-ed/, từ khoá played"
+  },
+  {
+    "href": "/tu-vung/phat-am/final-cluster",
+    "label": "Học âm /-st/, từ khoá past"
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "align": "normal",
+    "background": "rgba(255, 255, 255, 0.66)",
+    "border": "0px solid rgb(229, 231, 235)",
+    "color": "rgb(29, 28, 39)",
+    "display": "grid",
+    "flex": "0 1 auto",
+    "font": "",
+    "gap": "8px",
+    "margin": "0px",
+    "padding": "10px",
+    "radius": "16px",
+    "rect": {
+      "h": 126,
+      "w": 744
+    },
+    "sel": ".nbu",
+    "shadow": "rgba(29, 28, 39, 0.1) 0px 0px 0px 1px inset"
+  },
+  {
+    "align": "center",
+    "background": "rgba(0, 0, 0, 0)",
+    "border": "0px solid rgb(229, 231, 235)",
+    "color": "rgb(29, 28, 39)",
+    "display": "flex",
+    "flex": "0 1 auto",
+    "font": "",
+    "gap": "9px",
+    "margin": "0px",
+    "padding": "0px",
+    "radius": "0px",
+    "rect": {
+      "h": 44,
+      "w": 724
+    },
+    "sel": ".nbu-row",
+    "shadow": "none"
+  },
+  {
+    "align": "normal",
+    "background": "rgba(0, 0, 0, 0)",
+    "border": "0px solid rgb(229, 231, 235)",
+    "color": "rgb(29, 28, 39)",
+    "display": "flex",
+    "flex": "0 1 auto",
+    "font": "",
+    "gap": "normal",
+    "margin": "0px",
+    "padding": "0px",
+    "radius": "50%",
+    "rect": {
+      "h": 36,
+      "w": 36
+    },
+    "sel": ".nbu-av",
+    "shadow": "none"
+  },
+  {
+    "align": "normal",
+    "background": "rgba(0, 0, 0, 0)",
+    "border": "0px solid rgb(229, 231, 235)",
+    "color": "rgb(29, 28, 39)",
+    "display": "block",
+    "flex": "0 1 auto",
+    "font": "",
+    "gap": "normal",
+    "margin": "0px",
+    "padding": "0px",
+    "radius": "0px",
+    "rect": {
+      "h": 34,
+      "w": 106.546875
+    },
+    "sel": ".nbu-text",
+    "shadow": "none"
+  },
+  {
+    "align": "normal",
+    "background": "rgba(0, 0, 0, 0)",
+    "border": "0px solid rgb(229, 231, 235)",
+    "color": "rgb(29, 28, 39)",
+    "display": "block",
+    "flex": "0 1 auto",
+    "font": "800 14px / 18px Nunito, \"Nunito Fallback\", system-ui, sans-serif",
+    "gap": "normal",
+    "margin": "0px",
+    "padding": "0px",
+    "radius": "0px",
+    "rect": {
+      "h": 18,
+      "w": 106.546875
+    },
+    "sel": ".nbu-name",
+    "shadow": "none"
+  },
+  {
+    "align": "normal",
+    "background": "rgba(0, 0, 0, 0)",
+    "border": "0px solid rgb(229, 231, 235)",
+    "color": "rgb(91, 87, 102)",
+    "display": "block",
+    "flex": "0 1 auto",
+    "font": "700 12px / 16px Nunito, \"Nunito Fallback\", system-ui, sans-serif",
+    "gap": "normal",
+    "margin": "0px",
+    "padding": "0px",
+    "radius": "0px",
+    "rect": {
+      "h": 16,
+      "w": 106.546875
+    },
+    "sel": ".nbu-sub",
+    "shadow": "none"
+  },
+  {
+    "align": "normal",
+    "background": "rgba(0, 0, 0, 0)",
+    "border": "0px solid rgb(229, 231, 235)",
+    "color": "rgb(29, 28, 39)",
+    "display": "grid",
+    "flex": "0 1 auto",
+    "font": "",
+    "gap": "6px",
+    "margin": "0px",
+    "padding": "0px",
+    "radius": "0px",
+    "rect": {
+      "h": 54,
+      "w": 724
+    },
+    "sel": ".nbu-stats",
+    "shadow": "none"
+  },
+  {
+    "align": "normal",
+    "background": "rgba(255, 255, 255, 0.92)",
+    "border": "0px solid rgb(229, 231, 235)",
+    "color": "rgb(91, 87, 102)",
+    "display": "flex",
+    "flex": "0 1 auto",
+    "font": "",
+    "gap": "normal",
+    "margin": "0px",
+    "padding": "5px 8px",
+    "radius": "10px",
+    "rect": {
+      "h": 54,
+      "w": 359
+    },
+    "sel": ".nbu-st",
+    "shadow": "none"
+  },
+  {
+    "align": "center",
+    "background": "rgba(0, 0, 0, 0)",
+    "border": "0px solid rgb(229, 231, 235)",
+    "color": "rgb(200, 69, 42)",
+    "display": "flex",
+    "flex": "0 1 auto",
+    "font": "",
+    "gap": "4px",
+    "margin": "0px",
+    "padding": "0px",
+    "radius": "0px",
+    "rect": {
+      "h": 22,
+      "w": 343
+    },
+    "sel": ".nbu-st b",
+    "shadow": "none"
+  },
+  {
+    "align": "normal",
+    "background": "rgba(0, 0, 0, 0)",
+    "border": "0px solid rgb(229, 231, 235)",
+    "color": "rgb(91, 87, 102)",
+    "display": "block",
+    "flex": "0 1 auto",
+    "font": "",
+    "gap": "normal",
+    "margin": "0px",
+    "padding": "0px",
+    "radius": "0px",
+    "rect": {
+      "h": 22,
+      "w": 343
+    },
+    "sel": ".nbu-st small",
+    "shadow": "none"
+  },
+  {
+    "align": "center",
+    "background": "rgba(255, 255, 255, 0.72)",
+    "border": "0px none rgb(29, 28, 39)",
+    "color": "rgb(29, 28, 39)",
+    "display": "flex",
+    "flex": "0 0 auto",
+    "font": "800 14px / 14px Nunito, \"Nunito Fallback\", system-ui, sans-serif",
+    "gap": "8px",
+    "margin": "0px",
+    "padding": "0px 16px",
+    "radius": "14px",
+    "rect": {
+      "h": 44,
+      "w": 103.03125
+    },
+    "sel": ".nbu-settings",
+    "shadow": "none"
+  },
+  {
+    "align": "center",
+    "background": "rgba(0, 0, 0, 0)",
+    "border": "0px solid rgb(229, 231, 235)",
+    "color": "rgb(70, 67, 79)",
+    "display": "none",
+    "flex": "0 1 auto",
+    "font": "",
+    "gap": "normal",
+    "margin": "0px",
+    "padding": "0px",
+    "radius": "12px",
+    "rect": {
+      "h": 0,
+      "w": 0
+    },
+    "sel": ".nbu-gear",
+    "shadow": "none"
+  }
+]

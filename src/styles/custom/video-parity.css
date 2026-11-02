@@ -1,0 +1,23 @@
+.lp-app .ui-video-hub {min-width:0;font-size:15px;line-height:normal;background:none}
+.lp-app:has(.ui-video-hub) .lp-main {margin-inline:0}
+.ui-video-hub > .nbc-page {display:flex;flex-direction:column;gap:20px;width:100%}
+.ui-video-hub .nbc-hd {margin:0}
+.ui-video-hub .nbx-f-vid {--nb-x-fa:#fbe2eb;--nb-x-fb:#f1b0c8;--nb-x-fc:#c23a70;--nb-x-fd:#c23a70;--nb-x-ft:#952654}
+.ui-video-hub .nbc-hd .nbx-b-pri {background:#ffffffeb;color:var(--nb-x-ink);box-shadow:inset 0 0 0 1.5px #c23a70,0 10px 18px -12px #c23a7099}
+.lp-app .ui-video-hub .vah-submit:disabled {background:#fff!important;color:var(--nb-ink)!important;box-shadow:inset 0 0 0 1px #777!important;opacity:.5}
+.ui-video-hub .nbc-hd-wide {display:inline}
+.ui-video-hub .nbc-hd-narrow {display:none}
+@media(max-width:639px){.ui-video-hub .nbc-hd-wide{display:none}.ui-video-hub .nbc-hd-narrow{display:inline}}
+.video-filter-content{font:600 14px/1.45 var(--nb-font-body)}
+.video-tier-group{display:flex;gap:4px;flex-wrap:wrap}
+.video-tier-group [aria-pressed=true]{background:var(--nb-ink)!important;color:white!important}
+.ui-video-hub .vhn-acts .nbx-b-pri{background:#ffffffeb;color:var(--nb-x-ink);box-shadow:inset 0 0 0 1.5px var(--nb-x-fc),0 10px 18px -12px var(--nb-x-fc)}
+body:has(dialog.ui-video-mode[open]){overflow:hidden}
+dialog.ui-dialog.ui-video-mode{position:fixed;inset:16px 16px calc(16px + 10vh);margin:auto;padding:0;width:512px;max-width:calc(100vw - 32px);height:fit-content;max-height:calc(90dvh - 32px);box-sizing:border-box;border:2px solid transparent;font-size:15px;line-height:normal}
+.ui-video-mode .ui-dialog-head{padding:20px 20px 0;margin:0;gap:10px;align-items:flex-start;height:60px;box-sizing:border-box}
+.ui-video-mode .ui-dialog-head h2{margin:0;font:800 22px/1.2 var(--nb-font-head);letter-spacing:-.01em}
+.ui-video-mode .ui-dialog-head button{width:40px;height:40px;flex:none;border:0;box-shadow:none;border-radius:var(--nb-r-ctl);background:var(--nb-chip);font-size:16px}
+.ui-video-mode-body{padding:12px 20px 16px}
+.ui-video-mode-actions{display:flex;justify-content:flex-end;align-items:center;gap:10px;padding:4px 20px 20px}
+.ui-video-mode-actions .nb-btn-ink{background:#ffffffeb!important;color:var(--nb-ink)!important;box-shadow:inset 0 0 0 1.5px #8d7d58,0 10px 18px -12px #8d7d5899!important}
+.ui-video-mode .ui-video-mode-status{margin:0;font-size:14px}

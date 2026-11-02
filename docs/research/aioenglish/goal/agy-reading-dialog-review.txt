@@ -1,0 +1,71 @@
+Here is the review of the component based strictly on the provided code:
+
+---
+
+### 1. Listbox & Focus Defects (`Choice`)
+
+*   **Defect: Synthetic click & double-activation caused by `<label>` wrapper**
+    *   **Trigger:** Click any `<li>` option inside the open dropdown.
+    *   **Detail:** The entire `Choice` component (including `<ul role="listbox">`) is wrapped in `<label>`. When an `<li>` is clicked, the click event bubbles to `<label>`, triggering the native label activation algorithm which synthesizes a second click on the first form control (`<button ref={trigger}>`). This fires `<button>`’s `onClick`, calling `setActive(value)` and flipping `open`. Additionally, nesting a block-level `<ul>` with interactive items inside `<label>` is invalid HTML and causes screen readers to concatenate all option strings into the combobox label.
+
+*   **Defect: Focus lost to `document.body` on `Tab`**
+    *   **Trigger:** Open the dropdown (focus shifts to `<ul>`), then press `Tab` or `Shift+Tab`.
+    *   **Detail:** In `keys(e)`: `if (e.key === 'Tab') { close(false); return; }`. It does not prevent default, and `close(false)` immediately unmounts `<ul>` without restoring focus (`restore = false`). Because the currently focused DOM node is removed during the Tab keydown cycle, browser focus drops to `document.body`, escaping dialog focus trapping.
+
+*   **Defect: Trigger `Home` key selection logic error**
+    *   **Trigger:** Focus the closed combobox button and press `Home`.
+    *   **Detail:** The button's `onKeyDown` executes `setActive(e.key === 'End' ? options.length - 1 : value)`. When `Home` is pressed, the ternary evaluates to `value` instead of `0`, failing to highlight the first option.
+
+*   **Defect: ARIA Combobox pattern focus violation**
+    *   **Trigger:** Open the combobox.
+    *   **Detail:** The button has `role="combobox"`, but upon opening, `useEffect` shifts focus away to `<ul tabIndex={-1}>`. ARIA 1.2 combobox authoring requires focus to remain on the combobox while `aria-activedescendant` is updated on the combobox itself. Here, `aria-activedescendant` is placed on `<ul>`, which loses semantic continuity.
+
+*   **Defect: Dropdown position flash (FOUC) and lack of scroll repositioning**
+    *   **Trigger 1 (Flash):** Open the dropdown.
+    *   **Detail:** `position` is initialized to `{ left: 0, top: 0, width, maxHeight: 300 }`. Because `useEffect` runs asynchronously after paint, the menu renders for one frame at the viewport origin `(0, 0)` before jumping to the measured trigger coordinates.
+    *   **Trigger 2 (Scroll):** Scroll the dialog or page while the dropdown is open.
+    *   **Detail:** The menu is `position: fixed` and only registers a `resize` listener. It does not listen to `scroll`, causing the floating listbox to detach from the trigger button when scrolled.
+
+*   **Defect: Stale `value` prop in `active` state**
+    *   **Trigger:** The parent component changes the `value` prop while mounted.
+    *   **Detail:** `const [active, setActive] = useState(value);` is initialized only once. If `value` changes externally, `active` is not synchronized. Opening via keyboard navigates from the stale initial `value`.
+
+---
+
+### 2. Textarea Resize Defects (`ReadingCreateDialog`)
+
+*   **Defect: Missing ARIA slider/spinbutton semantics on custom resize handle**
+    *   **Trigger:** Navigate to the resize button using a keyboard or screen reader.
+    *   **Detail:** The handle is exposed as `<button type="button" aria-label="Kéo rộng - dùng mũi tên lên xuống để chỉnh">`. Although it handles ArrowUp/Down to resize lines between bounds, it lacks `role="slider"`, `aria-valuenow={rows}`, `aria-valuemin`, and `aria-valuemax`. Screen readers cannot determine the current row count, boundary limits, or value adjustments.
+
+*   **Defect: `rows` state out-of-bounds on `kind` prop change**
+    *   **Trigger:** `kind` prop switches from `'ai'` to `'paste'` while the dialog remains mounted.
+    *   **Detail:** `rows` is initialized with `useState(kind === 'paste' ? 7 : 3)` and does not sync on prop changes. If initialized in `'ai'` mode (rows = 3), switching to `'paste'` keeps rows at 3, violating the 7-row minimum defined in `resize()` (`Math.max(kind === 'paste' ? 7 : 3, ...)`).
+
+---
+
+### 3. Keyboard & ARIA Defects (`ReadingCreateDialog`)
+
+*   **Defect: Dangling `aria-describedby` in Press mode**
+    *   **Trigger:** Render `kind === 'press'` when there is no validation error.
+    *   **Detail:** `<input id="reading-create-url" ... aria-describedby="reading-press-hint reading-create-error" />` statically references `reading-create-error`. However, `<p id="reading-create-error">` is conditionally rendered only when `error` is non-empty (`{error && <p id="reading-create-error">...}`). Screen readers encounter a broken ID reference.
+
+*   **Defect: Form container receives initial focus instead of input control**
+    *   **Trigger:** Open the dialog.
+    *   **Detail:** `<UiDialog initialFocusRef={focus}>` targets `<form ref={focus} tabIndex={-1}>`. The primary input field (`#reading-create-input` or `#reading-create-url`) is not focused, forcing keyboard users to Tab into the form. The declared `field = useRef<HTMLTextAreaElement>(null)` is attached to the textarea but never used.
+
+*   **Defect: IME composition interrupted in Topic tag input**
+    *   **Trigger:** Type Vietnamese (Telex/VNI) or CJK into `#reading-topic` and press `Enter` to confirm an IME composition candidate.
+    *   **Detail:** `onKeyDown` does not verify `e.nativeEvent.isComposing`. It immediately executes `e.preventDefault()`, adds raw/unfinalized text to `topics`, and clears `topic`.
+
+---
+
+### 4. Input Validation Defects (`ReadingCreateDialog`)
+
+*   **Defect: Dead validation error for non-AI modes**
+    *   **Trigger:** In `kind === 'paste'` or `'press'`, attempt to submit an empty input to see the error message.
+    *   **Detail:** The submit button has `disabled={kind !== 'ai' && !text.trim()}`. Because the button is disabled on empty input, and pressing Enter in a textarea creates a newline, `setError('Vui lòng nhập nội dung.')` in `submit()` can never be reached.
+
+*   **Defect: URL validation rejects protocol-relative URLs and allows bare root origins**
+    *   **Trigger 1:** Paste a domain without protocol (e.g. `theguardian.com/world/...`). `new URL(text.trim())` throws a `TypeError` and rejects standard pasted URLs.
+    *   **Trigger 2:** Enter a root domain without an article path (e.g. `https://theguardian.com` or `https://theatlantic.com/`). The validation accepts root homepages as valid article URLs.

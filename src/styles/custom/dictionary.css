@@ -1,0 +1,152 @@
+/* dictionary.css — Agent E2: trang /tu-dien "Từ điển chuyên sâu".
+ *
+ * CSS site là PRECOMPILED (src/styles/source/entry.css): mọi class gốc
+ * (nbx-*, utility) đều đã audit — chỉ những layout riêng của trang này chưa có
+ * trong entry.css được viết tại đây bằng tiền tố `lp-*`, dùng đúng token
+ * --nb-x-* toàn cục của source (đặt qua :root[data-nb-page] trong layout.tsx).
+ * import ở DictionarySearch.tsx (client component duy nhất của trang).
+ */
+
+/* Ô tra lớn — cùng ngôn ngữ hình ảnh với .nbx-inp của nguồn nhưng cao hơn,
+   chữ to hơn (spec: search box lớn). */
+.lp-d-search {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 60px;
+  min-width: 0;
+  padding: 0 16px;
+  border: 1.75px solid var(--nb-x-line);
+  border-radius: var(--nb-x-r3);
+  background: var(--nb-x-row);
+  box-shadow:
+    inset 0 1px 3px #281e0a1f,
+    inset 0 0 0 1px var(--nb-x-hair);
+  color: var(--nb-x-mut);
+  transition:
+    border-color 0.2s var(--nb-x-ease, ease),
+    box-shadow 0.2s var(--nb-x-ease, ease);
+}
+.lp-d-search:focus-within {
+  border-color: var(--nb-x-ivory-d, var(--nb-x-line));
+  box-shadow:
+    inset 0 1px 3px #281e0a1f,
+    inset 0 0 0 2px var(--nb-x-ivory-d, var(--nb-x-hair));
+}
+
+.lp-d-icon {
+  flex: none;
+  width: 20px;
+  height: 20px;
+}
+
+.lp-d-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  font: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--nb-x-ink);
+  caret-color: var(--nb-x-ivory-d, currentColor);
+}
+.lp-d-input::placeholder {
+  color: var(--nb-x-mut);
+  font-weight: 700;
+}
+
+/* Nút xoá nhanh trong ô tra */
+.lp-d-clear {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--nb-x-ink) 10%, transparent);
+  color: var(--nb-x-mut);
+  cursor: pointer;
+  transition:
+    color 0.15s var(--nb-x-ease, ease),
+    background 0.15s var(--nb-x-ease, ease);
+}
+.lp-d-clear:hover {
+  color: var(--nb-x-ink);
+  background: color-mix(in srgb, var(--nb-x-ink) 18%, transparent);
+}
+
+/* Chip gợi ý "Từ phổ biến" (button mang class gốc .nbx-chip.nbx-plain) —
+   thêm cursor + phản hồi hover vì chip gốc không sinh cho <button>. */
+.lp-d-pop {
+  cursor: pointer;
+  border: none;
+  transition:
+    transform 0.15s var(--nb-x-ease, ease),
+    box-shadow 0.15s var(--nb-x-ease, ease);
+}
+.lp-d-pop:hover {
+  transform: translateY(-1px);
+  box-shadow: inset 0 0 0 1.5px var(--nb-x-line);
+}
+
+/* Nút phát âm trên card từ */
+.lp-d-say {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1.5px solid var(--nb-x-line);
+  border-radius: 999px;
+  background: var(--nb-x-row);
+  color: var(--nb-x-ink);
+  cursor: pointer;
+  transition:
+    background 0.15s var(--nb-x-ease, ease),
+    transform 0.15s var(--nb-x-ease, ease);
+}
+.lp-d-say:hover {
+  background: var(--nb-x-row-h);
+  transform: translateY(-1px);
+}
+.lp-d-say:active {
+  transform: translateY(0) scale(0.96);
+}
+
+/* Lưới kết quả: 1 cột trên mobile, 2 cột từ ~720px (entry.css không có quy mô
+   grid responsive này cho list card). */
+.lp-d-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@media (min-width: 720px) {
+  .lp-d-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Card từ — nhấc nhẹ khi hover (base: rounded-card border-bw bg-surface …) */
+.lp-d-card {
+  transition:
+    transform 0.2s var(--nb-x-ease, ease),
+    box-shadow 0.2s var(--nb-x-ease, ease);
+}
+.lp-d-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Focus-visible chung cho các nút của trang */
+.lp-d-pop:focus-visible,
+.lp-d-say:focus-visible,
+.lp-d-clear:focus-visible {
+  outline: 2px solid var(--nb-x-ivory-d, currentColor);
+  outline-offset: 2px;
+}

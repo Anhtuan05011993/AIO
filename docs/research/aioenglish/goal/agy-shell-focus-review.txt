@@ -1,0 +1,20 @@
+Here are the concrete focus and keyboard bugs identified in the drawer effect:
+
+1. **Focus escapes the drawer when focus is on the container or non-control elements:**
+   * `railRef.current?.contains(document.activeElement)` evaluates to `true` if `railRef.current` itself (e.g., `<aside tabIndex={-1}>`) or any non-control element inside the drawer (headers, text, container wrappers) receives focus or is clicked.
+   * Because `document.activeElement` is neither `first` nor `last`, pressing `Shift + Tab` (from the container or anything before `first`) or `Tab` (from anything after `last`) fails all conditions and does not call `event.preventDefault()`. Focus escapes directly into the background document.
+
+2. **Tab key deadlock when no matching controls exist (`items.length === 0`):**
+   * If `controls()` returns an empty list (e.g., loading state, no links/buttons rendered yet), initial focus (`controls()[0]?.focus()`) fails, leaving focus outside `railRef.current`.
+   * On any `Tab` or `Shift + Tab` keypress, `!railRef.current?.contains(document.activeElement)` evaluates to `true` and calls `event.preventDefault()`. However, `first` and `last` are `undefined`, so `(event.shiftKey ? last : first)?.focus()` is a no-op (`undefined?.focus()`). This completely traps and freezes `Tab` navigation for the user.
+
+3. **Incomplete selector (`"a[href],button"`) breaks focus trapping for other focusable elements:**
+   * The query selector omits other standard focusable elements (`<input>`, `<select>`, `<textarea>`, `<summary>`, and elements with `[tabindex]:not([tabindex="-1"])`).
+   * If the drawer contains a form control (such as a search input or theme switch):
+     * It is excluded from `items`.
+     * Tabbing forward from `last` immediately wraps back to `first`, making any focusable elements positioned after `last` unreachable via keyboard.
+     * If an input is focused (e.g., via click), tabbing or shift-tabbing out of it will not match `first` or `last`, allowing focus to leak out of the drawer into the background page.
+
+4. **Faulty disabled filtering via `hasAttribute("disabled")`:**
+   * `<button>` elements inside a `<fieldset disabled>` do not have the `disabled` attribute directly on the element (`hasAttribute("disabled")` is `false`), but are disabled via their IDL property (`button.disabled === true`) and cannot receive focus. Including them in `controls()` causes initial focus or wrap-around focus to fail.
+   * Conversely, `<a href="..." disabled>` has the `disabled` attribute, but anchor tags do not natively support the `disabled` attribute in HTML and remain focusable by the browser, causing a mismatch between browser tab order and the trap boundaries.

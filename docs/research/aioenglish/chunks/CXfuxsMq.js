@@ -1,0 +1,1 @@
+var e={home:`home`,"go-cau":`go`,"tu-vung":`voc`,"ngu-phap":`gram`,"luyen-dich-thuat":`read`,video:`vid`,"tu-dien":`dict`,"lo-trinh":`path`,"luyen-thi":`exam`,"ban-be":`friend`,"yeu-cau-tinh-nang":`req`};function t(t){return e[t]??`home`}function n(e){return`nbx-f-${e}`}export{t as n,n as t};

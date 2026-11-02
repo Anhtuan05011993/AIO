@@ -1,0 +1,17 @@
+{
+  "appearanceChanged": {
+    "hidden": "true",
+    "motion": "reduce",
+    "skin": "neo",
+    "sound": "true",
+    "theme": "dark"
+  },
+  "appearancePersisted": {
+    "hidden": "true",
+    "motion": "reduce",
+    "skin": "neo",
+    "sound": "true",
+    "theme": "dark"
+  },
+  "restored": true
+}

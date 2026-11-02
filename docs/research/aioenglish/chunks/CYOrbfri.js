@@ -1,0 +1,1 @@
+import{s as e}from"./CESvBRLE.js";import{n as t}from"./CHqRt3a9.js";function n(n){let r=String(e().public.siteUrl||``).replace(/\/+$/,``),i=r+(n.startsWith(`/`)?n:`/`+n);return t({link:[{rel:`canonical`,href:i}]}),{siteUrl:r,canonical:i}}export{n as t};

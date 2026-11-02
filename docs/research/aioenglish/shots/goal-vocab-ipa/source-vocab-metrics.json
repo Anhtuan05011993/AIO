@@ -1,0 +1,110 @@
+[
+  {
+    "boxes": [
+      {
+        "cls": "nbc-hd nbx-f-voc",
+        "r": "{\"bottom\":141,\"height\":125,\"left\":258,\"right\":1418,\"top\":16,\"width\":1160,\"x\":258,\"y\":16}"
+      },
+      {
+        "cls": "nbx-blk nbx-r-info nbx-grid nbx-pile vhd",
+        "r": "{\"bottom\":451.890625,\"height\":290.890625,\"left\":258,\"right\":828,\"top\":161,\"width\":570,\"x\":258,\"y\":161}"
+      },
+      {
+        "cls": "nbx-blk nbx-r-ok vhi",
+        "r": "{\"bottom\":451.890625,\"height\":290.890625,\"left\":848,\"right\":1418,\"top\":161,\"width\":570,\"x\":848,\"y\":161}"
+      },
+      {
+        "cls": "nbx-blk nbx-r-ref nbx-ruled nbx-pile",
+        "r": "{\"bottom\":1023.640625,\"height\":551.75,\"left\":258,\"right\":1418,\"top\":471.890625,\"width\":1160,\"x\":258,\"y\":471.890625}"
+      },
+      {
+        "cls": "nbx-blk nbx-r-info nbx-dots nbx-pile nbx-alt",
+        "r": "{\"bottom\":1428.640625,\"height\":385,\"left\":258,\"right\":1418,\"top\":1043.640625,\"width\":1160,\"x\":258,\"y\":1043.640625}"
+      }
+    ],
+    "fonts": "loaded",
+    "h": 900,
+    "w": 1440
+  },
+  {
+    "boxes": [
+      {
+        "cls": "nbc-hd nbx-f-voc",
+        "r": "{\"bottom\":139,\"height\":125,\"left\":106,\"right\":750,\"top\":14,\"width\":644,\"x\":106,\"y\":14}"
+      },
+      {
+        "cls": "nbx-blk nbx-r-info nbx-grid nbx-pile vhd",
+        "r": "{\"bottom\":449.890625,\"height\":290.890625,\"left\":106,\"right\":750,\"top\":159,\"width\":644,\"x\":106,\"y\":159}"
+      },
+      {
+        "cls": "nbx-blk nbx-r-ok vhi",
+        "r": "{\"bottom\":753.890625,\"height\":284,\"left\":106,\"right\":750,\"top\":469.890625,\"width\":644,\"x\":106,\"y\":469.890625}"
+      },
+      {
+        "cls": "nbx-blk nbx-r-ref nbx-ruled nbx-pile",
+        "r": "{\"bottom\":1797.65625,\"height\":1023.765625,\"left\":106,\"right\":750,\"top\":773.890625,\"width\":644,\"x\":106,\"y\":773.890625}"
+      },
+      {
+        "cls": "nbx-blk nbx-r-info nbx-dots nbx-pile nbx-alt",
+        "r": "{\"bottom\":2758.65625,\"height\":941,\"left\":106,\"right\":750,\"top\":1817.65625,\"width\":644,\"x\":106,\"y\":1817.65625}"
+      }
+    ],
+    "fonts": "loaded",
+    "h": 1024,
+    "w": 768
+  },
+  {
+    "boxes": [
+      {
+        "cls": "nbc-hd nbx-f-voc",
+        "r": "{\"bottom\":158.15625,\"height\":106.15625,\"left\":12,\"right\":378,\"top\":52,\"width\":366,\"x\":12,\"y\":52}"
+      },
+      {
+        "cls": "nbx-blk nbx-r-info nbx-grid nbx-pile vhd",
+        "r": "{\"bottom\":496.546875,\"height\":324.390625,\"left\":12,\"right\":378,\"top\":172.15625,\"width\":366,\"x\":12,\"y\":172.15625}"
+      },
+      {
+        "cls": "nbx-blk nbx-r-ok vhi",
+        "r": "{\"bottom\":784.546875,\"height\":274,\"left\":12,\"right\":378,\"top\":510.546875,\"width\":366,\"x\":12,\"y\":510.546875}"
+      },
+      {
+        "cls": "nbx-blk nbx-r-ref nbx-ruled nbx-pile",
+        "r": "{\"bottom\":1981.546875,\"height\":1183,\"left\":12,\"right\":378,\"top\":798.546875,\"width\":366,\"x\":12,\"y\":798.546875}"
+      },
+      {
+        "cls": "nbx-blk nbx-r-info nbx-dots nbx-pile nbx-alt",
+        "r": "{\"bottom\":2926.546875,\"height\":931,\"left\":12,\"right\":378,\"top\":1995.546875,\"width\":366,\"x\":12,\"y\":1995.546875}"
+      }
+    ],
+    "fonts": "loaded",
+    "h": 844,
+    "w": 390
+  },
+  {
+    "boxes": [
+      {
+        "cls": "nbc-hd nbx-f-voc",
+        "r": "{\"bottom\":155.453125,\"height\":103.453125,\"left\":12,\"right\":348,\"top\":52,\"width\":336,\"x\":12,\"y\":52}"
+      },
+      {
+        "cls": "nbx-blk nbx-r-info nbx-grid nbx-pile vhd",
+        "r": "{\"bottom\":493.84375,\"height\":324.390625,\"left\":12,\"right\":348,\"top\":169.453125,\"width\":336,\"x\":12,\"y\":169.453125}"
+      },
+      {
+        "cls": "nbx-blk nbx-r-ok vhi",
+        "r": "{\"bottom\":821.84375,\"height\":314,\"left\":12,\"right\":348,\"top\":507.84375,\"width\":336,\"x\":12,\"y\":507.84375}"
+      },
+      {
+        "cls": "nbx-blk nbx-r-ref nbx-ruled nbx-pile",
+        "r": "{\"bottom\":2058.734375,\"height\":1222.890625,\"left\":12,\"right\":348,\"top\":835.84375,\"width\":336,\"x\":12,\"y\":835.84375}"
+      },
+      {
+        "cls": "nbx-blk nbx-r-info nbx-dots nbx-pile nbx-alt",
+        "r": "{\"bottom\":3025,\"height\":952.265625,\"left\":12,\"right\":348,\"top\":2072.734375,\"width\":336,\"x\":12,\"y\":2072.734375}"
+      }
+    ],
+    "fonts": "loaded",
+    "h": 844,
+    "w": 360
+  }
+]

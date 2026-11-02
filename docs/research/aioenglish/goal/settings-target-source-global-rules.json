@@ -1,0 +1,11 @@
+[
+  ":root [data-ui-dlg] .ptd-dh > h2.dlg-title.ptd-h { font: 800 25px/1.2 var(--nb-font-head); letter-spacing: -0.02em; white-space: nowrap; color: var(--nb-ink); }",
+  "@media (max-width: 639.98px) {:root [data-ui-dlg] .ptd-dh > h2.dlg-title.ptd-h { font-size: 22px; }}",
+  "[data-ui-dlg] .ptd .nbc-inp > input:focus-visible { outline: none; }",
+  ".ptd-prev-p { background: color-mix(in srgb,var(--nb-veil-c) 75%,transparent); border: 1px dashed color-mix(in srgb,var(--nb-ink) 20%,transparent); }",
+  ".ptd-note { background: color-mix(in srgb,var(--nb-ink) 4%,transparent); border: 1.5px dashed color-mix(in srgb,var(--nb-ink) 18%,transparent); }",
+  ".ptd-eq { border: 1px solid color-mix(in srgb,var(--nb-a-line) 30%,transparent); }",
+  ".ptd-eq.is-err { border-color: color-mix(in srgb,var(--nb-bad) 30%,transparent); }",
+  ":root:not([data-skin=\"sotay\"]) .ptd-note, :root:not([data-skin=\"sotay\"]) .ptd-prev-p { border-color: color-mix(in srgb,var(--nb-neo-line-c) 50%,transparent); }",
+  ":root:not([data-skin=\"sotay\"]) .ptd-eq { border-color: color-mix(in srgb,var(--nb-neo-line-c) 40%,transparent); }"
+]

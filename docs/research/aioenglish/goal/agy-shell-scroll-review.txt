@@ -1,0 +1,52 @@
+### 1. Scrolling & Overflow Bugs
+
+* **Ineffective Background Scroll Lock during Mobile Drawer:**
+  In [`AppShell`](file:///D:/Clone%20web/src/components/shell/AppShell.tsx), the drawer effect locks scroll with `document.body.style.overflow = "hidden"`. However, `.lp-app[data-ui-scroll]` already sets `height: 100dvh; overflow: hidden;` on the root, while [`.lp-main`](file:///D:/Clone%20web/src/styles/custom/shell-scroll.css) is the actual scroll container (`height: 100dvh; overflow: auto;`). Setting `body` overflow does not prevent touch or wheel scrolling on `.lp-main` while the navigation drawer is open.
+* **Missing Scroll Restoration on Route Change:**
+  Because `.lp-main` is the internal viewport scroll container, standard window scroll restoration has no effect. Navigating to a new route (`active` prop changes) leaves `.lp-main.scrollTop` at its prior scroll position instead of resetting to `0`.
+* **Bi-directional Scrolling Risk (`overflow: auto`):**
+  `.lp-main` uses `overflow: auto;` instead of `overflow-y: auto; overflow-x: hidden;`. Any child widget or code element with unexpected width will cause the entire main view—including `<header className="ui-mobile-bar">` and `<footer className="ui-app-footer">`—to scroll horizontally.
+* **Desktop Rail Vertical Clipping (`calc(100dvh - 32px)`):**
+  At `@media (min-width: 1024px)`, `.lp-rail` is `position: fixed` with `height: calc(100dvh - 32px)`, but neither `.lp-rail` nor `.nbx-rail-in` has `overflow-y: auto` in local CSS. On viewports below ~750px in height, the 11 nav items plus the user profile card (`.nbx-me`) will be clipped at the bottom and cannot be scrolled into view.
+
+---
+
+### 2. Focus & Accessibility (A11y) Bugs
+
+* **Focus Leak into Closed Rail Drawer on Mobile:**
+  In JSX, `<aside className="lp-rail">` is placed in the DOM before `<main>`. When `menuOpen === false`, neither `inert`, `display: none`, nor `visibility: hidden` is applied locally. Sequential keyboard navigation (`Tab`) and mobile screen readers will tab through all ~13 rail links before reaching `#main-content`.
+  *(Speculation: External `shell-responsive.css` may translate `.lp-rail` off-screen, but CSS transforms alone do not remove elements from the focus order without `visibility: hidden` or `inert`.)*
+* **Fragile Focus Initialization via `getClientRects().length > 0`:**
+  When `menuOpen` becomes `true`, `controls()` filters elements by `element.getClientRects().length > 0`. If the rail uses CSS opacity or slide transitions that have not laid out on the initial tick, `controls()[0]` evaluates to `undefined`, failing to move focus into the drawer.
+* **Focus Loss on Route Navigation:**
+  Clicking a nav item runs `closeForNavigation` (`restoreDrawerFocus.current = false`), but no focus target (such as `#main-content`) is focused upon navigation, dropping browser focus to `<body>`.
+* **Missing Accessible In-Drawer Close Button:**
+  `<aside>` in dialog mode can only be dismissed via backdrop click, link navigation, or `Escape`. Keyboard tab cycles perpetually inside the rail without an accessible close button.
+
+---
+
+### 3. Responsive & Layout Parity Bugs
+
+* **Mobile Topbar Leaking onto Desktop and Tablet:**
+  `<header className="ui-mobile-bar">` is unconditionally rendered inside `<main>`. The CSS sizes it under `@media (max-width: 639px)` (`height: 48px; margin: 0 0 4px;`), but lacks a `@media (min-width: 640px)` rule to hide it (`display: none`). On desktop, this introduces a 52px vertical displacement at `y=0`, conflicting with the desktop benchmark:
+  `desktop main x236 y0 w1204 h900 padding16px10px40px22px`.
+* **Tablet Rail Width & Layout Collision (640px – 1023px):**
+  The tablet media query configures the grid as `grid-template-columns: 88px minmax(0, 1fr)`. However, `.lp-rail`'s fixed 220px width rule is scoped exclusively to `@media (min-width: 1024px)`. On tablet, `.lp-rail` remains in-flow without local width or text-truncation overrides, risking track blowout or overlapping `.lp-main`.
+  *(Speculation: Relies on `ui-rail-short` / `.ui-brand-slim` rules in external `shell-responsive.css`.)*
+* **Unconstrained Mobile Bottom Nav & FAB on Desktop:**
+  `<nav className="ui-bottom-nav">` and `<button className="ui-fab">` lack hiding rules for viewports `>= 640px` in local CSS.
+* **Grid Auto-Placement Collisions:**
+  Direct children of `.lp-app` (`<NbArtDefs />`, `<a className="ui-skip">`, `.ui-fab`, `.ui-bottom-nav`) lack explicit grid column/row placements or out-of-flow pinning in local CSS, which can disrupt grid track placement.
+
+---
+
+### 4. Contract & Source Design Verification (No Defect)
+
+* **Footer Visibility Contract:**
+  Correctly satisfies the source requirement: excluded on `["/go-cau", "/tu-vung", "/video"]`, rendered on Dashboard (`/tong-quan`) and remaining routes.
+* **Fourth Mobile Nav Slot:**
+  Correctly renders Video (`/video`) when on `/video`, and Grammar (`/ngu-phap`) on observed Dashboard (`/tong-quan`) and Gõ câu (`/go-cau`).
+* **Source Dimensions:**
+  - Desktop padding (`16px 10px 40px 22px`) and column track (`236px`) match `x236 y0 w1204 h900`.
+  - Tablet padding (`14px 6px 36px 18px`) and column track (`88px`) match `x88 y0 w680 h1024`.
+  - Mobile padding (`0 12px 93px`), topbar (`48px` + `4px`), and `scrollPaddingBottom77px` match `x0 y0 w390 h844`.

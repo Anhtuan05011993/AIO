@@ -1,0 +1,58 @@
+[
+  {
+    "header": 126.6875,
+    "height": 900,
+    "overflow": -12,
+    "view": "journey",
+    "width": 1440
+  },
+  {
+    "header": 126.6875,
+    "height": 1024,
+    "overflow": -12,
+    "view": "journey",
+    "width": 768
+  },
+  {
+    "header": 111,
+    "height": 844,
+    "overflow": 0,
+    "view": "journey",
+    "width": 390
+  },
+  {
+    "header": 111,
+    "height": 844,
+    "overflow": 0,
+    "view": "journey",
+    "width": 360
+  },
+  {
+    "header": 76.6875,
+    "height": 900,
+    "overflow": -12,
+    "view": "knowledge",
+    "width": 1440
+  },
+  {
+    "header": 76.6875,
+    "height": 1024,
+    "overflow": -12,
+    "view": "knowledge",
+    "width": 768
+  },
+  {
+    "header": 111,
+    "height": 844,
+    "overflow": 0,
+    "view": "knowledge",
+    "width": 390
+  },
+  {
+    "header": 111,
+    "height": 844,
+    "overflow": 0,
+    "view": "knowledge",
+    "width": 360
+  }
+]

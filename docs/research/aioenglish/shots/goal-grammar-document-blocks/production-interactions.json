@@ -1,0 +1,30 @@
+{
+  "active": "Phủ định: don't + V",
+  "mobileTables": [
+    {
+      "columns": 4,
+      "role": "table",
+      "rows": 3
+    },
+    {
+      "columns": 3,
+      "role": "table",
+      "rows": 4
+    }
+  ],
+  "speechDescriptions": [
+    {
+      "description": "Tôi không ăn thịt.",
+      "label": "Nghe: I don't eat meat."
+    },
+    {
+      "description": "Chúng tôi không có tiết học vào Chủ nhật.",
+      "label": "Nghe: We do not have classes on Sundays."
+    }
+  ],
+  "viewport": {
+    "height": 844,
+    "width": 360
+  },
+  "focusReturned": true
+}

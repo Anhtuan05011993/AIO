@@ -1,0 +1,29 @@
+.lp-app .mp-body { gap: 16px; padding: 14px; }
+@media (min-width: 768px) {
+  .lp-app .mp-body { gap: 18px; padding: 18px 20px; }
+  .lp-app .mp-foot { padding: 16px 20px; }
+}
+.lp-app .mp-h3 { font: 700 11.5px/1 var(--font-display); letter-spacing: 0.09em; text-transform: uppercase; color: hsl(var(--fg-muted)); margin: 0px 0px 7px; }
+.lp-app .mp-p { color: hsl(var(--fg-muted)); margin: 0px; font-size: 14.5px; font-weight: 600; line-height: 1.6; }
+.lp-app .mp-fml { border: 2px solid hsl(var(--border-strong)); background: hsl(var(--rail)); border-radius: 14px; overflow: hidden; }
+.lp-app .mp-fml-l { border-bottom: 2px dashed hsl(var(--border)); white-space: pre-wrap; overflow-wrap: anywhere; color: hsl(var(--fg)); margin: 0px; padding: 10px 14px; font-size: 14px; font-weight: 600; line-height: 1.5; }
+.lp-app .mp-fml-l:last-child { border-bottom: 0px; }
+.lp-app .mp-exl { flex-direction: column; gap: 10px; margin: 0px; padding: 0px; list-style: none; display: flex; }
+.lp-app .mp-ex { border-left: 3px solid var(--mp-ex,hsl(var(--border-strong))); flex-direction: column; gap: 3px; padding-left: 12px; display: flex; }
+.lp-app .mp-ex-en { color: hsl(var(--fg)); font-size: 14.5px; font-weight: 700; line-height: 1.45; }
+.lp-app .mp-ex-vi { color: hsl(var(--fg-muted)); font-size: 13.5px; font-weight: 600; line-height: 1.45; }
+.lp-app .mp-mis { background: linear-gradient(hsl(var(--gold)/.22),hsl(var(--gold)/.22)),hsl(var(--surface)); border-left: 4px solid hsl(var(--gold)); color: hsl(var(--fg-muted)); border-radius: 0px 14px 14px 0px; margin: 0px; padding: 12px 14px; font-size: 14px; font-weight: 600; line-height: 1.6; }
+.lp-app .mp-shell { border-color: var(--nb-hair); border-top-width: 1.5px; }
+@media (min-width: 768px) {
+  .lp-app .mp-shell { border-top-width: 0px; border-left-width: 1.5px; }
+}
+.lp-app .mp-head { border-bottom: 1.5px solid var(--nb-hair); }
+.lp-app .mp-foot { border-top: 1.5px solid var(--nb-hair); background: hsl(var(--surface-2)); }
+.lp-app .mp-shell .mp-fml { box-shadow: inset 0 0 0 1.5px var(--nb-hair); border: 0px; }
+.lp-app .mp-shell .mp-fml-l { border-bottom: 1.5px dashed var(--nb-hair); }
+.lp-app .mp-shell .mp-fml-l:last-child { border-bottom: 0px; }
+.lp-app .mp-shell .mp-ex { border-left-width: 1.5px; }
+.lp-app .mp-shell .mp-mis { border-left: 0px; border-radius: 14px; }
+.lp-app .ndp-lv { border-width: 1.5px; }
+.lp-app .ndp-done.is-done { background: var(--nb-act); color: var(--nb-ink); }
+.lp-app .ndp-locked { background: var(--nb-ok-p); min-width: 0px; height: 40px; color: var(--nb-ok-t); white-space: nowrap; border-radius: 12px; justify-content: center; align-items: center; gap: 8px; padding: 0px 16px; font-size: 13.5px; font-weight: 800; display: flex; }

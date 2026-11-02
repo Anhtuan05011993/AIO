@@ -1,0 +1,6 @@
+{
+  "deleteDialogVisible": true,
+  "deleteReturnFocus": "settings-delete-open",
+  "deleteNotice": "Chế độ local: chưa kết nối xóa tài khoản. Không có dữ liệu nào bị xóa.\n×",
+  "revokeNotice": "Chế độ local: chưa kết nối quản lý phiên trên thiết bị khác.\n×"
+}

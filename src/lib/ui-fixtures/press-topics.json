@@ -1,0 +1,46 @@
+[
+  {
+    "count": 2,
+    "label": "Thế giới"
+  },
+  {
+    "count": 0,
+    "label": "Chính trị"
+  },
+  {
+    "count": 5,
+    "label": "Kinh tế & Kinh doanh"
+  },
+  {
+    "count": 29,
+    "label": "Công nghệ"
+  },
+  {
+    "count": 70,
+    "label": "Khoa học"
+  },
+  {
+    "count": 24,
+    "label": "Sức khoẻ"
+  },
+  {
+    "count": 116,
+    "label": "Môi trường & Khí hậu"
+  },
+  {
+    "count": 51,
+    "label": "Văn hoá & Nghệ thuật"
+  },
+  {
+    "count": 9,
+    "label": "Giáo dục"
+  },
+  {
+    "count": 2,
+    "label": "Thể thao"
+  },
+  {
+    "count": 13,
+    "label": "Xã hội & Đời sống"
+  }
+]

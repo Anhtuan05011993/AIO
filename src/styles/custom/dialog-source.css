@@ -1,0 +1,3 @@
+/* Source modal surface/scrim, enabled only for dialogs opting into sourceStyle. */
+dialog.ui-dialog[data-ui-dlg] { background: #fbf6e7; }
+dialog.ui-dialog[data-ui-dlg]::backdrop { background: #201f1b73; backdrop-filter: blur(8px); }

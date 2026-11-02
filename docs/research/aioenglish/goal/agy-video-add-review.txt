@@ -1,0 +1,64 @@
+### 1. URL Validation Bugs
+
+#### Findings (Evidence-based)
+* **Rejection of `/watch/` with trailing slash:**
+  * **Evidence:** `value.pathname === "/watch"` requires an exact string match. A URL such as `https://www.youtube.com/watch/?v=dQw4w9WgXcQ` sets `value.pathname` to `"/watch/"`. It fails the equality check and falls through to the shorts/embed regex, which also fails.
+  * **Action:** Match optional trailing slash using `/^\/watch\/?$/.test(value.pathname)`.
+* **Rejection of YouTube `/live/` URLs:**
+  * **Evidence:** The regex `/^\/(shorts|embed)\/[\w-]{11}\/?$/` only permits `shorts` or `embed`. YouTube Live streams and stream recordings (VODs) use `https://www.youtube.com/live/{videoId}`.
+  * **Action:** Include `live` in the path segment check: `/^\/(shorts|embed|live)\/[\w-]{11}\/?$/`.
+* **Malformed URL creation on protocol-relative links (`//youtube.com/...`):**
+  * **Evidence:** `/^https?:\/\//i.test(url.trim())` is `false` for strings starting with `//`. The code prepends `https://`, resulting in `https:////youtube.com/...`. Under WHATWG URL parsing, `new URL("https:////...")` parses `youtube.com` into `pathname` and assigns an empty string `""` to `hostname`, causing valid protocol-relative links to fail.
+  * **Action:** Normalize protocol-relative URLs before prepending: `const trimmed = url.trim().replace(/^\/\//, ""); const value = new URL(/^https?:\/\//i.test(trimmed) ? trimmed : `https://${trimmed}`);`.
+
+#### Findings (Speculation / Scope Consideration)
+* **Subdomain exclusion (`music.youtube.com`):**
+  * **Evidence:** `["youtube.com", "www.youtube.com", "m.youtube.com"].includes(host)` excludes `music.youtube.com`.
+  * **Speculation:** YouTube Music tracks share the standard 11-character YouTube video ID and subtitles/captions. If music tracks are within product scope, they will be rejected unless `music.youtube.com` is added to the host list.
+
+---
+
+### 2. State & Lifecycle Bugs
+
+#### Findings (Evidence-based)
+* **Focus timing race on stale DOM state:**
+  * **Evidence:** In `submit()`, `setError(...)` is immediately followed by `input.current?.focus()`. Because React 18+ batches state updates inside event handlers, `focus()` executes synchronously *before* React re-renders the DOM:
+    * At the moment of focus, the `<input>` DOM node still has `aria-invalid="false"`.
+    * `#${id}-status` still contains the initial instruction paragraph instead of the error.
+  * **Impact:** Screen readers reacting to the `focus` event announce the field as valid and read the old help text rather than alerting the user to the validation error.
+  * **Action:** Move the focus call into a `useEffect` triggered by `error`, wrap it in `queueMicrotask` / `requestAnimationFrame`, or avoid forced focus and rely on an active live region.
+* **Incomplete state reset on validation failure (`notice` leak):**
+  * **Evidence:** When `!valid`, `setError(...)` is called, but `setNotice(false)` is omitted.
+  * **Impact:** If `notice` was previously `true` and the form is submitted with an invalid value, `notice` remains `true` in state. If `error` is subsequently cleared without triggering `onChange`, the stale notice will resurrect.
+  * **Action:** Call `setNotice(false)` inside `if (!valid)`.
+
+#### Findings (Speculation / Scope Consideration)
+* **Input not cleared on submission:**
+  * **Evidence:** On valid submission, `setNotice(true)` is called but `url` remains unchanged in state.
+  * **Speculation:** The notice text indicates this is a local stub (`"Bản local chưa xử lý phụ đề..."`). If the final contract requires submitting and waiting for backend processing, `url` should either be reset or the input should be locked/disabled to prevent duplicate submits.
+
+---
+
+### 3. Accessibility (a11y) Bugs
+
+#### Findings (Evidence-based)
+* **Dynamic mounting of live regions (`role="status"` / `role="alert"`):**
+  * **Evidence:** `<p role="status">` and `<p role="alert">` are mounted conditionally inside `#${id}-status`. The parent container `div` lacks `aria-live`.
+  * **Impact:** Most screen readers (VoiceOver, NVDA) only monitor mutations within *pre-existing* live regions. Conditionally inserting an element with `role="status"` or `role="alert"` often fails to trigger an announcement upon state update.
+  * **Action:** Add `aria-live="polite"` to the permanent `#${id}-status` container rather than relying on conditionally mounted role tags:
+    ```tsx
+    <div className="vah-status" id={`${id}-status`} aria-live="polite" aria-atomic="true">
+    ```
+* **Destruction of form instructions upon error/notice:**
+  * **Evidence:** The ternary `{error ? ... : notice ? ... : <p>Video dài tối đa 30 phút...</p>}` unmounts the instruction paragraph when an error or notice is active.
+  * **Impact:** Users lose access to input constraints (30-minute limit, audio quality prerequisites) precisely when they need to troubleshoot why their link failed or what constraints apply.
+  * **Action:** Render instructions permanently and output error/notice messages in a dedicated sibling element.
+* **Disconnected quota information:**
+  * **Evidence:** `<span className="vah-quota">Còn 3/3 lượt hôm nay</span>` is rendered next to the label, but is not enclosed within `<label>` and not linked via `aria-describedby`.
+  * **Impact:** Screen reader users navigating directly to the input field will not be informed of their remaining submission quota.
+  * **Action:** Assign an ID to the quota element (e.g. `id={`${id}-quota`}`) and append it to the input's `aria-describedby`: `aria-describedby={`${id}-quota ${id}-status`}`.
+
+#### Findings (Speculation / Scope Consideration)
+* **Native `disabled` button skipping:**
+  * **Evidence:** `<button disabled={!url.trim()}>` uses HTML `disabled`.
+  * **Speculation:** While standard HTML, completely disabling the submit button prevents keyboard/screen-reader users from discovering the submit action while exploring the form. Using `aria-disabled="true"` with validation on click is generally preferred for form discoverability.

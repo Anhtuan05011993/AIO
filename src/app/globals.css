@@ -1,0 +1,15 @@
+/* Global entry — all source CSS is imported from layout.tsx in order.
+   This file holds only clone-local base rules. */
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+}
+
+/* Keep anchor behavior from source: real navigation for in-scope routes. */
+a {
+  -webkit-tap-highlight-color: transparent;
+}

@@ -1,0 +1,164 @@
+{
+  "thi-hien-tai-don": {
+    "outline": [
+      {
+        "id": "sec-tldr",
+        "title": "Tổng quan",
+        "tone": false
+      },
+      {
+        "id": "sec-use-ps",
+        "title": "Dùng khi nào: Hiện tại đơn với I/you/we/they",
+        "tone": true
+      },
+      {
+        "id": "sec-use-3p",
+        "title": "Dùng khi nào: Hiện tại đơn với he/she/it",
+        "tone": false
+      },
+      {
+        "id": "sec-use-c1",
+        "title": "Dùng khi nào: Thì hiện tại trong văn học thuật",
+        "tone": true
+      },
+      {
+        "id": "sec-formula",
+        "title": "Công thức",
+        "tone": false
+      },
+      {
+        "id": "sec-rule-ps-affirm",
+        "title": "I/you/we/they + động từ nguyên thể",
+        "tone": true
+      },
+      {
+        "id": "sec-rule-ps-negative",
+        "title": "Phủ định: don't + V",
+        "tone": false
+      },
+      {
+        "id": "sec-rule-ps-question",
+        "title": "Câu hỏi Do…? và trả lời ngắn",
+        "tone": true
+      },
+      {
+        "id": "sec-rule-ps-use",
+        "title": "Dùng cho thói quen và sự thật",
+        "tone": false
+      },
+      {
+        "id": "sec-rule-3p-affirm",
+        "title": "he/she/it + V-s/-es",
+        "tone": true
+      },
+      {
+        "id": "sec-rule-3p-negative",
+        "title": "Phủ định: doesn't + V nguyên thể",
+        "tone": false
+      },
+      {
+        "id": "sec-rule-3p-question",
+        "title": "Câu hỏi Does…? và trả lời ngắn",
+        "tone": true
+      },
+      {
+        "id": "sec-rule-c1-reporting",
+        "title": "Động từ tường thuật: hiện tại đơn hay quá khứ đơn",
+        "tone": false
+      },
+      {
+        "id": "sec-rule-c1-summary",
+        "title": "Hiện tại đơn để tóm tắt, kể cốt truyện, viết tiêu đề báo",
+        "tone": true
+      },
+      {
+        "id": "sec-rule-c1-perfect",
+        "title": "Hiện tại hoàn thành cho tổng quan nghiên cứu",
+        "tone": false
+      },
+      {
+        "id": "sec-examples",
+        "title": "Ví dụ",
+        "tone": true
+      },
+      {
+        "id": "sec-signals",
+        "title": "Dấu hiệu nhận biết",
+        "tone": false
+      },
+      {
+        "id": "sec-mistakes-ps",
+        "title": "Lỗi hay mắc: Hiện tại đơn với I/you/we/they",
+        "tone": true
+      },
+      {
+        "id": "sec-mistakes-3p",
+        "title": "Lỗi hay mắc: Hiện tại đơn với he/she/it",
+        "tone": false
+      },
+      {
+        "id": "sec-mistakes-c1",
+        "title": "Lỗi hay mắc: Thì hiện tại trong văn học thuật",
+        "tone": true
+      },
+      {
+        "id": "sec-recap",
+        "title": "Tổng kết",
+        "tone": false
+      }
+    ],
+    "preview": [
+      {
+        "bullets": [
+          "Hiện tại đơn với I/you/we/they: V nguyên thể, phủ định don't + V, hỏi Do…? I play football.",
+          "Hiện tại đơn với he/she/it: động từ thêm -s/-es, phủ định doesn't + V, hỏi Does…? She plays football.",
+          "Thì hiện tại trong văn học thuật: thuật lại ý tác giả, tóm tắt, tổng quan nghiên cứu. The author argues that…"
+        ],
+        "id": "sec-tldr",
+        "paragraphs": [
+          "Thì hiện tại đơn (present simple) là thì dùng động từ nguyên thể, thêm -s/-es khi chủ ngữ là he/she/it, để nói thói quen và sự thật (I walk to school · She lives in Leeds). Chủ đề đi lần lượt: hiện tại đơn với I/you/we/they, với he/she/it, rồi thì hiện tại trong văn học thuật."
+        ],
+        "title": "Tổng quan",
+        "tone": false
+      },
+      {
+        "bullets": [
+          "Thói quen, việc lặp lại: I take the bus to college every day.",
+          "Sự thật, điều luôn đúng: Plants need water."
+        ],
+        "id": "sec-use-ps",
+        "paragraphs": [
+          "Hiện tại đơn (Present simple) là thì nói về việc thường xảy ra hoặc luôn đúng."
+        ],
+        "title": "Dùng khi nào: Hiện tại đơn với I/you/we/they",
+        "tone": true
+      },
+      {
+        "bullets": [
+          "Thói quen: My brother plays games every evening.",
+          "Sự thật: The library opens at nine."
+        ],
+        "id": "sec-use-3p",
+        "paragraphs": [
+          "Cách dùng giống điểm Hiện tại đơn với I/you/we/they. Khác ở chủ ngữ và dạng động từ. Chủ ngữ (người/vật làm chủ câu) ở đây là he, she, it hoặc danh từ số ít."
+        ],
+        "title": "Dùng khi nào: Hiện tại đơn với he/she/it",
+        "tone": false
+      },
+      {
+        "bullets": [
+          "Thuật lại ý tác giả: The author argues that social media harms sleep.",
+          "Tóm tắt, kể cốt truyện: In the novel, a boy finds a secret door.",
+          "Tiêu đề báo: Minister announces new school rules.",
+          "Tổng quan nghiên cứu: Research has shown that exercise improves memory."
+        ],
+        "id": "sec-use-c1",
+        "paragraphs": [
+          "Trong bài luận, báo cáo và tin báo, người viết dùng thì hiện tại theo vài cách cố định. Riêng khi kể việc một nghiên cứu cụ thể đã làm (có mốc quá khứ như in 2019), ta thường dùng quá khứ đơn."
+        ],
+        "title": "Dùng khi nào: Thì hiện tại trong văn học thuật",
+        "tone": true
+      }
+    ]
+  }
+}

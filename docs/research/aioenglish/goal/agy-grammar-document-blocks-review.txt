@@ -1,0 +1,62 @@
+Here is the review of the presentation-only renderer, categorized by concrete accessibility, state/lifecycle, and runtime issues.
+
+---
+
+### 1. Accessibility (a11y) Issues
+
+* **Callout Tone/Severity Hidden from Assistive Technology (WCAG 1.3.1, 1.3.3, 1.4.1)**
+  * In `case "callout"`, the icon is marked `aria-hidden="true"`, and the wrapper is an unannotated `<div>` with styling classes (`gdr-call is-cur`).
+  * Screen readers have no way of knowing whether a callout is a warning (`warn`) or an informational tip (`tip`). There is no semantic role (e.g., `role="alert"` or `role="note"`), nor any visually hidden text prefix (e.g., *"Cảnh báo:"* / *"Lưu ý:"*). Tone is communicated purely through visual styling.
+
+* **Mobile Card Fallback Destroys Table Semantics & Drops Accessible Label**
+  * Because CSS sets the desktop `<table>` to `display: none` below 768px, assistive technologies completely remove the semantic table from the accessibility tree on mobile viewports.
+  * The mobile replacement (`doc-table-cards`) consists solely of non-semantic `<div>` and `<p>` tags with no ARIA roles (`role="table"`, `role="row"`, `role="cell"`, or list semantics). Screen reader users on mobile lose all row/column navigation and header-cell associations.
+  * Furthermore, `aria-label={label}` is attached strictly to the hidden desktop `<table>`; the mobile cards container has no accessible label or heading, leaving mobile screen reader users without context.
+
+* **Table `aria-label={label}` Duplication & Misattribution**
+  * `label` is passed as a top-level prop to `GrammarDocumentBlocks`.
+  * If `blocks` contains more than one `table` block, every `<table>` receives the identical `aria-label={label}`, violating WCAG 4.1.2 by creating ambiguous duplicate landmark/table names.
+  * If `blocks` contains no tables, `label` is never rendered anywhere in the accessibility tree.
+
+* **Speaker Button: Redundant Announcements via `aria-describedby`**
+  * In `case "examples"`, the button has `aria-label={`Nghe: ${example.en}`}` and `aria-describedby={description}`, where `description` points directly to the Vietnamese translation element (`example.vi`).
+  * When a screen reader focuses the button, it announces the English label followed by the Vietnamese description. When navigating immediately past the button into the text body, the screen reader reads the English sentence and the Vietnamese sentence a second time.
+  * `aria-describedby` is intended for auxiliary control instructions (e.g., pronunciation info), not for binding neighboring body text to an action button.
+
+* **Rigid Heading Level Hierarchy (WCAG 1.3.1)**
+  * `case "heading"` hardcodes `<h3>`. If the document is embedded inside a section that requires an `<h2>` or an `<h4>`, heading levels will be skipped, breaking document outline navigation for assistive technologies.
+
+---
+
+### 2. State & Lifecycle Bugs
+
+* **Stale Effect / Audio Leak Across Prop Changes**
+  * `useEffect(() => () => stopSpeaking(), [])` specifies an empty dependency array (`[]`).
+  * The cleanup function only fires when `GrammarDocumentBlocks` unmounts. If the parent component changes `blocks` or `label` without unmounting `GrammarDocumentBlocks` (e.g., navigating to another grammar topic or tab in a SPA), `stopSpeaking()` is never called. Audio from the previous lesson continues playing over the new document.
+
+* **Unmanaged Playback State**
+  * The speaker button triggers `speak(example.en)` on click with no internal state tracking whether that particular item is currently playing.
+  * There is no mechanism to stop/pause audio once triggered, no visual/ARIA toggle state (`aria-pressed`), and rapid clicks repeatedly call `speak()`.
+
+---
+
+### 3. Runtime & Rendering Logic Bugs
+
+* **Focus Token Trimming Regex Fails on Quoted Tokens**
+  * In `case "examples"`:
+    ```ts
+    const token = word.replace(/^[^\p{L}\p{N}']+|[^\p{L}\p{N}']+$/gu, "");
+    ```
+  * By including the ASCII apostrophe `'` in `[^\p{L}\p{N}']`, the regex treats `'` as a word character rather than punctuation to trim.
+  * While intended to protect contractions like `don't`, this prevents leading and trailing quotation marks from being stripped (e.g., `'hello'` resolves to token `'hello'` instead of `'hello'`). If `example.focus` specifies `["hello"]`, quoted words will never match.
+
+* **Multi-word Focus Patterns Never Match**
+  * The sentence is split into individual whitespace-delimited tokens via `example.en.split(/(\s+)/)`.
+  * Comparing each single-word `token` with `example.focus?.includes(token)` fails entirely for multi-word focus targets (e.g., phrasal verbs or compound structures like `["used to"]`, `["look after"]`, `["in order to"]`).
+
+* **Missing Default/Fallback in `switch (block.type)`**
+  * `blocks.map(...)` contains a `switch` with no `default` branch and no return statement after the switch block. If an unrecognized block type is supplied at runtime, the callback returns `undefined`, which can lead to unpredictable rendering arrays or TypeScript `noImplicitReturns` compilation errors.
+
+* **Index-Based and Potentially Non-Unique Keys**
+  * Top-level blocks and nested rows/cells rely on `key={index}` / `key={i}` / `key={j}`. While acceptable for completely static renders, it risks reconciliation glitches if blocks are reordered or dynamically filtered.
+  * In `case "practice"`, `key={item.href}` will trigger React duplicate key console warnings if two practice items point to the same URL or fragment identifier (e.g., `#quiz`).

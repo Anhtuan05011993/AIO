@@ -1,0 +1,1 @@
+import{C as e,H as t,K as n,b as r,h as i}from"./12Oibn0q.js";var a={class:`nbx-dstamp`},o=Object.assign(e({__name:`NbDecoStamp`,setup(e){return(e,o)=>(t(),i(`span`,a,[n(e.$slots,`default`,{},()=>[o[0]||=r(`Đã xong`,-1)])]))}}),{__name:`NbDecoStamp`});export{o as t};

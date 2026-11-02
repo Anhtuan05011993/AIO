@@ -1,0 +1,182 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "source": {
+      "box": {
+        "bottom": 860.1875,
+        "height": 82,
+        "left": 258,
+        "right": 1418,
+        "top": 778.1875,
+        "width": 1160,
+        "x": 258,
+        "y": 778.1875
+      },
+      "links": [
+        "/ngu-phap",
+        "/ngu-phap/a1-present-simple"
+      ],
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    "production": {
+      "box": {
+        "bottom": 860.328125,
+        "height": 82,
+        "left": 258,
+        "right": 1418,
+        "top": 778.328125,
+        "width": 1160,
+        "x": 258,
+        "y": 778.328125
+      },
+      "links": [
+        "/ngu-phap",
+        "/ngu-phap/a1-present-simple"
+      ],
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    "delta": 0.140625
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "source": {
+      "box": {
+        "bottom": 988.359375,
+        "height": 82,
+        "left": 106,
+        "right": 750,
+        "top": 906.359375,
+        "width": 644,
+        "x": 106,
+        "y": 906.359375
+      },
+      "links": [
+        "/ngu-phap",
+        "/ngu-phap/a1-present-simple"
+      ],
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    "production": {
+      "box": {
+        "bottom": 988.0625,
+        "height": 82,
+        "left": 106,
+        "right": 750,
+        "top": 906.0625,
+        "width": 644,
+        "x": 106,
+        "y": 906.0625
+      },
+      "links": [
+        "/ngu-phap",
+        "/ngu-phap/a1-present-simple"
+      ],
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    "delta": 0.296875
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "source": {
+      "box": {
+        "bottom": 750.8125,
+        "height": 105.59375,
+        "left": 12,
+        "right": 378,
+        "top": 645.21875,
+        "width": 366,
+        "x": 12,
+        "y": 645.21875
+      },
+      "links": [
+        "/ngu-phap",
+        "/ngu-phap/a1-present-simple"
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "production": {
+      "box": {
+        "bottom": 751.046875,
+        "height": 105.59375,
+        "left": 12,
+        "right": 378,
+        "top": 645.453125,
+        "width": 366,
+        "x": 12,
+        "y": 645.453125
+      },
+      "links": [
+        "/ngu-phap",
+        "/ngu-phap/a1-present-simple"
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "delta": 0.234375
+  },
+  {
+    "width": 360,
+    "height": 844,
+    "source": {
+      "box": {
+        "bottom": 750.59375,
+        "height": 105.59375,
+        "left": 12,
+        "right": 348,
+        "top": 645,
+        "width": 336,
+        "x": 12,
+        "y": 645
+      },
+      "links": [
+        "/ngu-phap",
+        "/ngu-phap/a1-present-simple"
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 360
+      }
+    },
+    "production": {
+      "box": {
+        "bottom": 751.46875,
+        "height": 105.59375,
+        "left": 12,
+        "right": 348,
+        "top": 645.875,
+        "width": 336,
+        "x": 12,
+        "y": 645.875
+      },
+      "links": [
+        "/ngu-phap",
+        "/ngu-phap/a1-present-simple"
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 360
+      }
+    },
+    "delta": 0.875
+  }
+]

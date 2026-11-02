@@ -1,0 +1,200 @@
+{
+  "apple": {
+    "word": "apple",
+    "level": "A1",
+    "meaning": "quả táo",
+    "synopsis": "\"Apple\" là một loại trái cây quen thuộc, thường có vỏ màu đỏ, xanh hoặc vàng và phần thịt giòn, ngọt bên trong. Từ này cũng được dùng để chỉ cây táo hoặc gỗ của cây táo. Trong đời sống hằng ngày, nó còn xuất hiện trong tên của một số công ty và sản phẩm công nghệ nổi tiếng.",
+    "example": "She ate a juicy red apple for lunch.",
+    "exampleVi": "Cô ấy ăn một quả táo đỏ mọng nước vào bữa trưa.",
+    "note": "Từ 'apple' thường được dùng trong các cụm từ ẩm thực như 'apple pie' hay 'apple juice'; lưu ý không nhầm với 'pineapple' (dứa).",
+    "groups": [
+      {
+        "pos": "Danh từ",
+        "gist": "quả táo",
+        "senses": [
+          {
+            "meaning": "quả táo, trái táo",
+            "definition": "A round fruit with green, red, or yellow skin and firm white flesh.",
+            "example": "She ate a juicy red apple for lunch.",
+            "exampleVi": "Cô ấy ăn một quả táo đỏ mọng nước vào bữa trưa."
+          }
+        ]
+      }
+    ],
+    "sections": {
+      "collocations": [
+        {
+          "word": "apple pie",
+          "meaning": "bánh táo",
+          "pos": ""
+        },
+        {
+          "word": "apple juice",
+          "meaning": "nước ép táo",
+          "pos": ""
+        },
+        {
+          "word": "apple tree",
+          "meaning": "cây táo",
+          "pos": ""
+        },
+        {
+          "word": "apple sauce",
+          "meaning": "sốt táo",
+          "pos": ""
+        },
+        {
+          "word": "apple cider",
+          "meaning": "rượu táo",
+          "pos": ""
+        },
+        {
+          "word": "apple orchard",
+          "meaning": "vườn táo",
+          "pos": ""
+        },
+        {
+          "word": "apple core",
+          "meaning": "lõi táo",
+          "pos": ""
+        },
+        {
+          "word": "apple peel",
+          "meaning": "vỏ táo",
+          "pos": ""
+        },
+        {
+          "word": "apple crumble",
+          "meaning": "bánh táo vụn",
+          "pos": ""
+        },
+        {
+          "word": "apple turnover",
+          "meaning": "bánh táo gấp",
+          "pos": ""
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "apply",
+          "meaning": "nộp đơn, xin việc, ứng tuyển",
+          "pos": "Động từ"
+        },
+        {
+          "word": "appliance",
+          "meaning": "thiết bị gia dụng, đồ điện gia dụng…",
+          "pos": "Danh từ"
+        }
+      ]
+    },
+    "ipa": "/ˈæpl/"
+  },
+  "adrenaline": {
+    "word": "adrenaline",
+    "level": "B2",
+    "meaning": "adrenaline",
+    "synopsis": "Adrenaline là một chất do cơ thể tiết ra khi bạn sợ hãi, lo lắng hoặc phấn khích, giúp tim đập nhanh hơn và cơ thể sẵn sàng phản ứng. Từ này hầu như chỉ được dùng như một danh từ để chỉ chất đó hoặc cảm giác hồi hộp, căng thẳng mà nó gây ra.",
+    "example": "The doctor injected adrenaline to treat the allergic reaction.",
+    "exampleVi": "Bác sĩ tiêm adrenaline để điều trị phản ứng dị ứng.",
+    "note": "Adrenaline là danh từ không đếm được, nên không dùng 'an adrenaline' hay 'adrenalines'; khi muốn nói một cơn thì dùng 'an adrenaline rush'. Ví dụ: 'I felt a rush of adrenaline before the race.'",
+    "groups": [
+      {
+        "pos": "Danh từ",
+        "gist": "adrenaline; sự phấn khích",
+        "senses": [
+          {
+            "meaning": "adrenaline, hooc-môn adrenaline",
+            "definition": "Epinephrine, the hormone and neurotransmitter.",
+            "example": "The doctor injected adrenaline to treat the allergic reaction.",
+            "exampleVi": "Bác sĩ tiêm adrenaline để điều trị phản ứng dị ứng."
+          },
+          {
+            "meaning": "sự phấn khích, cảm giác mạnh",
+            "definition": "Excitement; thrills.",
+            "example": "He loves the adrenaline of racing fast cars.",
+            "exampleVi": "Anh ấy thích sự phấn khích khi đua xe tốc độ cao."
+          }
+        ]
+      }
+    ],
+    "sections": {
+      "collocations": [
+        {
+          "word": "adrenaline rush",
+          "meaning": "cơn bùng nổ adrenaline, cảm giác hưng phấn mạnh",
+          "pos": ""
+        },
+        {
+          "word": "adrenaline pumping",
+          "meaning": "adrenaline đang tuôn trào, tràn đầy hưng phấn",
+          "pos": ""
+        },
+        {
+          "word": "adrenaline surge",
+          "meaning": "sự tăng vọt adrenaline",
+          "pos": ""
+        },
+        {
+          "word": "adrenaline levels",
+          "meaning": "nồng độ adrenaline",
+          "pos": ""
+        },
+        {
+          "word": "adrenaline high",
+          "meaning": "trạng thái hưng phấn do adrenaline",
+          "pos": ""
+        },
+        {
+          "word": "adrenaline junkie",
+          "meaning": "người nghiện cảm giác mạnh, thích adrenaline",
+          "pos": ""
+        },
+        {
+          "word": "shot of adrenaline",
+          "meaning": "một liều adrenaline (tiêm)",
+          "pos": ""
+        },
+        {
+          "word": "adrenaline kick",
+          "meaning": "cú hích adrenaline, cảm giác phấn khích",
+          "pos": ""
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "adrenal",
+          "meaning": "thuộc tuyến thượng thận",
+          "pos": "Tính từ"
+        },
+        {
+          "word": "adrenergic",
+          "meaning": "liên quan đến adrenaline",
+          "pos": "Tính từ"
+        },
+        {
+          "word": "noradrenaline",
+          "meaning": "noradrenaline",
+          "pos": "Danh từ"
+        }
+      ],
+      "synant": [
+        {
+          "word": "epinephrine",
+          "meaning": "epinephrine",
+          "pos": ""
+        },
+        {
+          "word": "excitement",
+          "meaning": "sự phấn khích, hưng phấn",
+          "pos": ""
+        },
+        {
+          "word": "thrill",
+          "meaning": "cảm giác hồi hộp, phấn khích",
+          "pos": ""
+        }
+      ]
+    },
+    "ipa": "/əˈdrenəlɪn/"
+  }
+}

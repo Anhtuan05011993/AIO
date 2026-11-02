@@ -1,0 +1,61 @@
+Here is the review of the definite **responsive**, **state**, and **accessibility** bugs in the component:
+
+---
+
+### 1. Responsive Bugs
+
+* **Incorrect Column Count at 1440px (Yields 4 Columns Instead of 3)**:
+  * Formula: `Math.floor((width + 20) / 360)`.
+  * At 1440px: `(1440 + 20) / 360 = 1460 / 360 ≈ 4.055` → `Math.floor` produces **`4` columns**.
+  * Because `columns === 4`, the explicit 3-column reference distribution (`columns === 3 ? [groups.slice(0, 3), groups.slice(3, 8), groups.slice(8)] : ...`) is **completely bypassed** at 1440px and falls back to generic arithmetic slicing.
+
+* **Incorrect Column Count on Tablet (Yields 2 Columns Instead of 1)**:
+  * At standard tablet portrait widths (e.g., 768px – 834px):
+    `(768 + 20) / 360 ≈ 2.188` → `Math.floor` produces **`2` columns**.
+  * The source layout specifies **1 column at tablet/mobile**, but the formula switches from 1 to 2 columns at any width $\ge 700\text{px}$.
+
+* **JS-Driven Layout Shift Over CSS Breakpoints**:
+  * Calculating layout columns in JS via `ResizeObserver` instead of CSS Grid / Container Queries forces mobile layout on SSR and causes Cumulative Layout Shift (CLS) once client hydration measures `contentRect`.
+
+---
+
+### 2. State & Lifecycle Bugs
+
+* **SSR Hydration Layout Shift / Flash**:
+  * `const [columns, setColumns] = useState(1);` defaults to `1` on SSR.
+  * Desktop clients (1440px) initially receive and render the 1-column DOM structure, then flash and reflow into multi-column layout only after `useEffect` and `ResizeObserver` execute on the client.
+
+* **DOM Dismantling and Focus Loss on Resize**:
+  * Resizing the viewport changes `columns`, which splits `groups` into a different number of parent `<div className="ght-col">` containers.
+  * This unmounts and remounts `<section>` elements into new column wrappers, causing active keyboard focus, text selection, and scroll anchors to be lost when crossing column thresholds.
+
+* **Unthrottled Resize Observer**:
+  * `setColumns` is invoked directly inside the `ResizeObserver` callback without throttling or debouncing. Viewport width adjustments crossing threshold boundaries (or toggling scrollbars caused by column wrapping) can trigger rapid state recalculations.
+
+---
+
+### 3. Accessibility (a11y) Bugs
+
+* **WCAG 2.5.3 (Label in Name) Violations**:
+  * **Tense Tiles (`gtt-tile`)**: The primary visible label is `{t.label}`, but `aria-label` starts with `{t.title}` (`aria-label={`${t.title}, cấp ${t.level}, Chưa học`}`). If `t.label` and `t.title` differ (e.g., "Đơn" vs. "Hiện tại đơn"), speech-input users attempting to activate the link by saying the visible label will fail.
+  * **Topic Rows (`ghr-row`)**: The visual badge reads **"Đang học"**, but the `aria-label` announces **"Đang làm bài hướng dẫn"**.
+
+* **Information Stripping by `aria-label` Overrides**:
+  * Setting `aria-label` on the parent `<Link>` elements suppresses all child text content from the accessible name calculation:
+    * In `ghr-row`, visual metadata `<small className="ghr-m">{t.meta}</small>` is completely hidden from screen reader users.
+    * In `gtt-tile`, the English name `<span className="gtt-en" lang="en">{t.en}</span>` is completely excluded from assistive technology.
+
+* **Hardcoded / Inaccurate Status in `aria-label`**:
+  * The 12 tense tiles hardcode `, Chưa học` into every `aria-label` regardless of actual completion state.
+
+* **Loss of Grouping Semantics via `display: contents`**:
+  * `<div key={time} style={{ display: "contents" }}>` wraps the time header and tense tiles inside `.gtt-grid`. In multiple browser engines (WebKit, Blink, Gecko), `display: contents` removes the container from the accessibility tree, severing the programmatic grouping between the time period and its 4 associated tense links.
+
+* **Missing Matrix / Table Semantics for 12 Tenses**:
+  * The 12 tenses represent a 2D matrix (3 time periods × 4 aspects). Marking row labels as plain `<p className="gtt-time">` without heading levels (`<h3>`) or grid/table roles (`role="grid"`, `role="rowheader"`) prevents screen reader users from navigating or perceiving the row/column relationship.
+
+* **Missing Level 1 Heading (`<h1>`)**:
+  * The hub component uses multiple `<h2>` elements (`12 thì tiếng Anh.` and each topic title) without an `<h1>` heading to establish the page's top-level landmark.
+
+* **Conflicting / Redundant Accessible Descriptions**:
+  * On `ghr-doc`, defining both `title="Đọc tài liệu"` and `aria-label={`Đọc tài liệu: ${t.title}`}` causes conflicting or redundant tooltip and accessible name announcements across different screen readers.

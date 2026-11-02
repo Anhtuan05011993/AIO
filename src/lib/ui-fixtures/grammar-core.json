@@ -1,0 +1,560 @@
+{
+  "groups": [
+    {
+      "art": "<svg class=\"ta nbx-r-goal\" data-k=\"hourglass\" data-a1=\"do\" data-a2=\"info\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><rect class=\"m\" x=\"62\" y=\"20\" width=\"40\" height=\"56\" rx=\"4\" transform=\"rotate(10 82 48)\"></rect><g transform=\"rotate(4 78 46)\"><rect class=\"p\" x=\"58\" y=\"18\" width=\"40\" height=\"56\" rx=\"4\"></rect><rect class=\"k\" x=\"64\" y=\"28\" width=\"22\" height=\"4.5\"></rect><rect class=\"k2\" x=\"64\" y=\"37\" width=\"28\" height=\"2.6\"></rect></g></g><g class=\"mv\"><rect class=\"d\" x=\"18\" y=\"8\" width=\"44\" height=\"7\" rx=\"2\"></rect><rect class=\"d\" x=\"18\" y=\"77\" width=\"44\" height=\"7\" rx=\"2\"></rect><path class=\"p\" d=\"M24 15h32c0 14-12 20-12 31s12 17 12 31H24c0-14 12-20 12-31s-12-17-12-31z\"></path><path class=\"a1\" d=\"M30 24h20c-2 7-8 10-10 14-2-4-8-7-10-14zM27 73c3-10 8-12 13-14 5 2 10 4 13 14z\"></path><rect class=\"a1\" x=\"39\" y=\"44\" width=\"2\" height=\"12\"></rect></g><rect class=\"t\" x=\"92\" y=\"10\" width=\"18\" height=\"7\" transform=\"rotate(24 101 13)\"></rect></g></svg>",
+      "count": "0/16 đã nắm",
+      "id": "np-grp-thi-the",
+      "title": "Thì & thể",
+      "topics": [
+        {
+          "current": true,
+          "doc": "/ngu-phap/tai-lieu/dong-tu-be-have-got",
+          "href": "/ngu-phap/chu-de/dong-tu-be-have-got/hoc",
+          "meta": "A1 · 4 điểm · 13 phút đọc",
+          "title": "Động từ be và have got"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/thi-hien-tai-don",
+          "href": "/ngu-phap/chu-de/thi-hien-tai-don/hoc",
+          "meta": "A1-C1 · 3 điểm · 13 phút đọc",
+          "title": "Thì hiện tại đơn"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/thi-hien-tai-tiep-dien",
+          "href": "/ngu-phap/chu-de/thi-hien-tai-tiep-dien/hoc",
+          "meta": "A1-A2 · 2 điểm · 8 phút đọc",
+          "title": "Thì hiện tại tiếp diễn"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/thi-hien-tai-hoan-thanh",
+          "href": "/ngu-phap/chu-de/thi-hien-tai-hoan-thanh/hoc",
+          "meta": "A2-B1 · 2 điểm · 12 phút đọc",
+          "title": "Thì hiện tại hoàn thành"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/thi-hien-tai-hoan-thanh-tiep-dien",
+          "href": "/ngu-phap/chu-de/thi-hien-tai-hoan-thanh-tiep-dien/hoc",
+          "meta": "B1-B2 · 2 điểm · 8 phút đọc",
+          "title": "Thì hiện tại hoàn thành tiếp diễn"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/thi-qua-khu-don",
+          "href": "/ngu-phap/chu-de/thi-qua-khu-don/hoc",
+          "meta": "A1-A2 · 3 điểm · 13 phút đọc",
+          "title": "Thì quá khứ đơn"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/thi-qua-khu-tiep-dien",
+          "href": "/ngu-phap/chu-de/thi-qua-khu-tiep-dien/hoc",
+          "meta": "A2 · 1 điểm · 5 phút đọc",
+          "title": "Thì quá khứ tiếp diễn"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/used-to-would",
+          "href": "/ngu-phap/chu-de/used-to-would/hoc",
+          "meta": "A2-B2 · 2 điểm · 8 phút đọc",
+          "title": "used to / would - thói quen xưa"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/thi-qua-khu-hoan-thanh",
+          "href": "/ngu-phap/chu-de/thi-qua-khu-hoan-thanh/hoc",
+          "meta": "B1-C1 · 2 điểm · 8 phút đọc",
+          "title": "Thì quá khứ hoàn thành"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/thi-qua-khu-hoan-thanh-tiep-dien",
+          "href": "/ngu-phap/chu-de/thi-qua-khu-hoan-thanh-tiep-dien/hoc",
+          "meta": "B2 · 1 điểm · 5 phút đọc",
+          "title": "Thì quá khứ hoàn thành tiếp diễn"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/thi-tuong-lai-don",
+          "href": "/ngu-phap/chu-de/thi-tuong-lai-don/hoc",
+          "meta": "A2-C1 · 2 điểm · 9 phút đọc",
+          "title": "Thì tương lai đơn"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/thi-tuong-lai-gan",
+          "href": "/ngu-phap/chu-de/thi-tuong-lai-gan/hoc",
+          "meta": "A1-A2 · 2 điểm · 8 phút đọc",
+          "title": "Tương lai gần (be going to)"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/thi-tuong-lai-tiep-dien",
+          "href": "/ngu-phap/chu-de/thi-tuong-lai-tiep-dien/hoc",
+          "meta": "B1-B2 · 2 điểm · 8 phút đọc",
+          "title": "Thì tương lai tiếp diễn"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/thi-tuong-lai-hoan-thanh",
+          "href": "/ngu-phap/chu-de/thi-tuong-lai-hoan-thanh/hoc",
+          "meta": "B2-C1 · 2 điểm · 7 phút đọc",
+          "title": "Thì tương lai hoàn thành"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/thi-tuong-lai-hoan-thanh-tiep-dien",
+          "href": "/ngu-phap/chu-de/thi-tuong-lai-hoan-thanh-tiep-dien/hoc",
+          "meta": "B2 · 1 điểm · 4 phút đọc",
+          "title": "Thì tương lai hoàn thành tiếp diễn"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/tuong-lai-trong-qua-khu",
+          "href": "/ngu-phap/chu-de/tuong-lai-trong-qua-khu/hoc",
+          "meta": "B2 · 1 điểm · 6 phút đọc",
+          "title": "Tương lai trong quá khứ"
+        }
+      ]
+    },
+    {
+      "art": "<svg class=\"ta nbx-r-do\" data-k=\"concept\" data-a1=\"do\" data-a2=\"info\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><g transform=\"rotate(12 86 62)\"><path class=\"a2\" d=\"M70 46h12a6 6 0 1 1 12 0h12v14a6 6 0 1 0 0 12v14H70V72a6 6 0 1 1 0-12z\"></path></g></g><g class=\"mv\"><path class=\"sp\" d=\"M46 4v-4M24 14l-4-4M68 14l4-4M16 34h-6\"></path><path class=\"d\" d=\"M46 12a22 22 0 0 0-13 40v8h26v-8a22 22 0 0 0-13-40z\" transform=\"translate(2 2)\"></path><path class=\"a1\" d=\"M46 12a22 22 0 0 0-13 40v8h26v-8a22 22 0 0 0-13-40z\"></path><path class=\"ln\" d=\"M41 54v-8a5 5 0 0 1 10 0v8\"></path><rect class=\"k2\" x=\"33\" y=\"62\" width=\"26\" height=\"6\" rx=\"2\"></rect><rect class=\"k2\" x=\"36\" y=\"70\" width=\"20\" height=\"6\" rx=\"2\"></rect></g></g></svg>",
+      "count": "0/3 đã nắm",
+      "id": "np-grp-khuyet-thieu",
+      "title": "Động từ khuyết thiếu",
+      "topics": [
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/kha-nang-xin-phep",
+          "href": "/ngu-phap/chu-de/kha-nang-xin-phep/hoc",
+          "meta": "A1-C1 · 7 điểm · 23 phút đọc",
+          "title": "Khả năng, xin phép, mong muốn"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/bat-buoc-loi-khuyen",
+          "href": "/ngu-phap/chu-de/bat-buoc-loi-khuyen/hoc",
+          "meta": "A2-C2 · 7 điểm · 25 phút đọc",
+          "title": "Bắt buộc và lời khuyên"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/suy-doan",
+          "href": "/ngu-phap/chu-de/suy-doan/hoc",
+          "meta": "B1-C2 · 6 điểm · 24 phút đọc",
+          "title": "Suy đoán và mức chắc chắn"
+        }
+      ]
+    },
+    {
+      "art": "<svg class=\"ta nbx-r-soc\" data-k=\"chat\" data-a1=\"info\" data-a2=\"do\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><path class=\"m\" d=\"M14 12h56a6 6 0 0 1 6 6v26a6 6 0 0 1-6 6H34l-12 10v-10h-8a6 6 0 0 1-6-6V18a6 6 0 0 1 6-6z\" transform=\"translate(3 3)\"></path><path class=\"p\" d=\"M14 12h56a6 6 0 0 1 6 6v26a6 6 0 0 1-6 6H34l-12 10v-10h-8a6 6 0 0 1-6-6V18a6 6 0 0 1 6-6z\"></path><rect class=\"k2\" x=\"18\" y=\"22\" width=\"42\" height=\"2.6\"></rect><rect class=\"k2\" x=\"18\" y=\"28\" width=\"34\" height=\"2.6\"></rect><rect class=\"k2\" x=\"18\" y=\"34\" width=\"40\" height=\"2.6\"></rect></g><g class=\"mv\"><path class=\"a1\" d=\"M56 40h50a6 6 0 0 1 6 6v20a6 6 0 0 1-6 6h-6v10l-12-10H56a6 6 0 0 1-6-6V46a6 6 0 0 1 6-6z\"></path><circle class=\"p\" cx=\"68\" cy=\"56\" r=\"3.4\"></circle><circle class=\"p\" cx=\"81\" cy=\"56\" r=\"3.4\"></circle><circle class=\"p\" cx=\"94\" cy=\"56\" r=\"3.4\"></circle></g><rect class=\"t\" x=\"2\" y=\"6\" width=\"18\" height=\"7\" transform=\"rotate(-24 11 9)\"></rect></g></svg>",
+      "count": "0/2 đã nắm",
+      "id": "np-grp-cau-hoi",
+      "title": "Câu hỏi",
+      "topics": [
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/cau-hoi-co-ban",
+          "href": "/ngu-phap/chu-de/cau-hoi-co-ban/hoc",
+          "meta": "A1-A2 · 5 điểm · 17 phút đọc",
+          "title": "Câu hỏi thông tin và đề nghị"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/cau-hoi-nang-cao",
+          "href": "/ngu-phap/chu-de/cau-hoi-nang-cao/hoc",
+          "meta": "B1-C1 · 3 điểm · 15 phút đọc",
+          "title": "Câu hỏi phủ định, đuôi, lập luận"
+        }
+      ]
+    },
+    {
+      "art": "<svg class=\"ta nbx-r-ref\" data-k=\"search\" data-a1=\"info\" data-a2=\"do\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><g transform=\"rotate(-6 44 46)\"><rect class=\"m\" x=\"17\" y=\"11\" width=\"54\" height=\"74\" rx=\"2\"></rect><rect class=\"p\" x=\"14\" y=\"8\" width=\"54\" height=\"74\" rx=\"2\"></rect><rect class=\"k\" x=\"20\" y=\"15\" width=\"24\" height=\"4.5\"></rect><rect class=\"k2\" x=\"20\" y=\"26\" width=\"40\" height=\"2.6\"></rect><rect class=\"k2\" x=\"20\" y=\"32\" width=\"34\" height=\"2.6\"></rect><rect class=\"k2\" x=\"20\" y=\"38\" width=\"40\" height=\"2.6\"></rect><rect class=\"k2\" x=\"20\" y=\"44\" width=\"28\" height=\"2.6\"></rect><rect class=\"k2\" x=\"20\" y=\"50\" width=\"38\" height=\"2.6\"></rect><rect class=\"k2\" x=\"20\" y=\"56\" width=\"30\" height=\"2.6\"></rect></g></g><g class=\"mv\"><rect class=\"d\" x=\"86\" y=\"64\" width=\"10\" height=\"26\" rx=\"4\" transform=\"rotate(-42 91 77)\"></rect><circle class=\"a1\" cx=\"74\" cy=\"48\" r=\"21\"></circle><circle class=\"p\" cx=\"74\" cy=\"48\" r=\"15\"></circle><circle class=\"a2\" cx=\"74\" cy=\"48\" r=\"15\" opacity=\".35\"></circle><path class=\"lw\" d=\"M64 42a11 11 0 0 1 8-6\"></path></g><rect class=\"t\" x=\"46\" y=\"2\" width=\"18\" height=\"7\" transform=\"rotate(12 55 5)\"></rect></g></svg>",
+      "count": "0/2 đã nắm",
+      "id": "np-grp-phu-dinh-dao-ngu",
+      "title": "Phủ định & đảo ngữ",
+      "topics": [
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/phu-dinh",
+          "href": "/ngu-phap/chu-de/phu-dinh/hoc",
+          "meta": "B1-C2 · 4 điểm · 18 phút đọc",
+          "title": "Phủ định"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/dao-ngu",
+          "href": "/ngu-phap/chu-de/dao-ngu/hoc",
+          "meta": "B1-C1 · 2 điểm · 16 phút đọc",
+          "title": "Đảo ngữ"
+        }
+      ]
+    },
+    {
+      "art": "<svg class=\"ta nbx-r-goal\" data-k=\"wordcards\" data-a1=\"do\" data-a2=\"info\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g transform=\"translate(8 0)\"><g class=\"mv2\"><g transform=\"rotate(-20 52 86)\"><rect class=\"a1\" x=\"30\" y=\"18\" width=\"40\" height=\"56\" rx=\"5\"></rect><text class=\"tx big\" x=\"40\" y=\"34\">a</text></g></g><g transform=\"rotate(-2 52 86)\"><rect class=\"a2\" x=\"34\" y=\"14\" width=\"40\" height=\"56\" rx=\"5\"></rect><text class=\"tx big\" x=\"45\" y=\"32\">in</text></g><g class=\"mv\"><g transform=\"rotate(16 52 86)\"><rect class=\"p\" x=\"38\" y=\"16\" width=\"44\" height=\"58\" rx=\"5\"></rect><text class=\"tx big\" x=\"60\" y=\"50\">the</text><rect class=\"k2\" x=\"46\" y=\"58\" width=\"28\" height=\"3\"></rect></g></g></g><rect class=\"t\" x=\"2\" y=\"10\" width=\"18\" height=\"7\" transform=\"rotate(-22 11 13)\"></rect></g></svg>",
+      "count": "0/3 đã nắm",
+      "id": "np-grp-danh-tu-han-dinh",
+      "title": "Danh từ & từ hạn định",
+      "topics": [
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/danh-tu",
+          "href": "/ngu-phap/chu-de/danh-tu/hoc",
+          "meta": "A1-C1 · 3 điểm · 14 phút đọc",
+          "title": "Danh từ và cụm danh từ"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/mao-tu-chi-dinh",
+          "href": "/ngu-phap/chu-de/mao-tu-chi-dinh/hoc",
+          "meta": "A1-C2 · 6 điểm · 21 phút đọc",
+          "title": "Mạo từ và từ chỉ định"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/luong-tu",
+          "href": "/ngu-phap/chu-de/luong-tu/hoc",
+          "meta": "A1-B1 · 3 điểm · 13 phút đọc",
+          "title": "Lượng từ"
+        }
+      ]
+    },
+    {
+      "art": "<svg class=\"ta nbx-r-soc\" data-k=\"people\" data-a1=\"info\" data-a2=\"do\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><circle class=\"a2\" cx=\"42\" cy=\"30\" r=\"12\"></circle><path class=\"a2\" d=\"M20 82c0-20 10-32 22-32s22 12 22 32z\"></path></g><g class=\"mv\"><circle class=\"m\" cx=\"78\" cy=\"38\" r=\"13\"></circle><circle class=\"a1\" cx=\"76\" cy=\"36\" r=\"13\"></circle><path class=\"m\" d=\"M54 88c0-22 11-34 24-34s24 12 24 34z\"></path><path class=\"a1\" d=\"M52 86c0-22 11-34 24-34s24 12 24 34z\"></path><path class=\"d\" transform=\"translate(52 6) scale(.75)\" d=\"M10 18C4 13 0 9.5 0 5.5A5.5 5.5 0 0 1 10 2.5A5.5 5.5 0 0 1 20 5.5C20 9.5 16 13 10 18z\"></path></g><rect class=\"t\" x=\"4\" y=\"58\" width=\"18\" height=\"7\" transform=\"rotate(-24 13 61)\"></rect></g></svg>",
+      "count": "0/1 đã nắm",
+      "id": "np-grp-dai-tu",
+      "title": "Đại từ",
+      "topics": [
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/dai-tu",
+          "href": "/ngu-phap/chu-de/dai-tu/hoc",
+          "meta": "A1-C1 · 6 điểm · 22 phút đọc",
+          "title": "Đại từ"
+        }
+      ]
+    },
+    {
+      "art": "<svg class=\"ta nbx-r-soc\" data-k=\"swatch\" data-a1=\"do\" data-a2=\"info\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><g transform=\"rotate(-16 40 84)\"><rect class=\"p\" x=\"20\" y=\"10\" width=\"34\" height=\"70\" rx=\"4\"></rect><rect class=\"a1\" x=\"24\" y=\"14\" width=\"26\" height=\"18\"></rect><rect class=\"a2\" x=\"24\" y=\"34\" width=\"26\" height=\"18\"></rect><rect class=\"d\" x=\"24\" y=\"54\" width=\"26\" height=\"18\"></rect></g></g><g class=\"mv\"><g transform=\"rotate(8 70 84)\"><rect class=\"m\" x=\"53\" y=\"13\" width=\"34\" height=\"70\" rx=\"4\"></rect><rect class=\"p\" x=\"50\" y=\"10\" width=\"34\" height=\"70\" rx=\"4\"></rect><rect class=\"m\" x=\"54\" y=\"14\" width=\"26\" height=\"18\"></rect><rect class=\"a1\" x=\"54\" y=\"34\" width=\"26\" height=\"18\"></rect><rect class=\"a2\" x=\"54\" y=\"54\" width=\"26\" height=\"18\"></rect></g><circle class=\"d\" cx=\"100\" cy=\"40\" r=\"11\"></circle><circle class=\"a2\" cx=\"106\" cy=\"66\" r=\"6\"></circle></g></g></svg>",
+      "count": "0/5 đã nắm",
+      "id": "np-grp-tinh-tu-trang-tu",
+      "title": "Tính từ, trạng từ & so sánh",
+      "topics": [
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/tinh-tu",
+          "href": "/ngu-phap/chu-de/tinh-tu/hoc",
+          "meta": "A1-B2 · 4 điểm · 14 phút đọc",
+          "title": "Tính từ"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/trang-tu",
+          "href": "/ngu-phap/chu-de/trang-tu/hoc",
+          "meta": "A1-C1 · 6 điểm · 23 phút đọc",
+          "title": "Trạng từ"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/tu-loai",
+          "href": "/ngu-phap/chu-de/tu-loai/hoc",
+          "meta": "A2 · 1 điểm · 8 phút đọc",
+          "title": "Từ loại và hậu tố"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/so-sanh",
+          "href": "/ngu-phap/chu-de/so-sanh/hoc",
+          "meta": "A1-C1 · 5 điểm · 20 phút đọc",
+          "title": "So sánh"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/muc-do",
+          "href": "/ngu-phap/chu-de/muc-do/hoc",
+          "meta": "B1-B2 · 2 điểm · 10 phút đọc",
+          "title": "Mức độ: too, so, enough, such"
+        }
+      ]
+    },
+    {
+      "art": "<svg class=\"ta nbx-r-ref\" data-k=\"dictbook\" data-a1=\"soc\" data-a2=\"do\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><path class=\"d\" d=\"M8 26l52 6 52-6v54l-52 6-52-6z\"></path><path class=\"p\" d=\"M13 22q25-4 46 5v53q-21-8-46-5z\"></path><path class=\"p\" d=\"M61 27q21-9 46-5v53q-25-3-46 5z\"></path><text class=\"tx\" x=\"26\" y=\"38\">Aa</text><rect class=\"k2\" x=\"19\" y=\"44\" width=\"33\" height=\"2.6\"></rect><rect class=\"k2\" x=\"19\" y=\"50\" width=\"28\" height=\"2.6\"></rect><rect class=\"k2\" x=\"19\" y=\"56\" width=\"33\" height=\"2.6\"></rect><rect class=\"k2\" x=\"19\" y=\"62\" width=\"23\" height=\"2.6\"></rect><rect class=\"a2\" x=\"65\" y=\"40\" width=\"22\" height=\"7\"></rect><rect class=\"k2\" x=\"67\" y=\"32\" width=\"32\" height=\"2.6\"></rect><rect class=\"k\" x=\"67\" y=\"42\" width=\"18\" height=\"3\"></rect><rect class=\"k2\" x=\"67\" y=\"52\" width=\"33\" height=\"2.6\"></rect><rect class=\"k2\" x=\"67\" y=\"58\" width=\"26\" height=\"2.6\"></rect><rect class=\"k2\" x=\"67\" y=\"64\" width=\"31\" height=\"2.6\"></rect></g><g class=\"mv\"><path class=\"a1\" d=\"M90 19h7v70l-3.5-4-3.5 4z\"></path></g></g></svg>",
+      "count": "0/5 đã nắm",
+      "id": "np-grp-menh-de",
+      "title": "Mệnh đề",
+      "topics": [
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/lien-tu-trang-ngu",
+          "href": "/ngu-phap/chu-de/lien-tu-trang-ngu/hoc",
+          "meta": "A1-C1 · 4 điểm · 20 phút đọc",
+          "title": "Liên từ và mệnh đề trạng ngữ"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/noi-cau-dau-cau",
+          "href": "/ngu-phap/chu-de/noi-cau-dau-cau/hoc",
+          "meta": "B1 · 1 điểm · 9 phút đọc",
+          "title": "Nối câu và dấu câu"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/menh-de-danh-ngu",
+          "href": "/ngu-phap/chu-de/menh-de-danh-ngu/hoc",
+          "meta": "A2-B2 · 2 điểm · 12 phút đọc",
+          "title": "Mệnh đề danh ngữ"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/menh-de-quan-he",
+          "href": "/ngu-phap/chu-de/menh-de-quan-he/hoc",
+          "meta": "A2-B2 · 5 điểm · 22 phút đọc",
+          "title": "Mệnh đề quan hệ"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/cum-phan-tu",
+          "href": "/ngu-phap/chu-de/cum-phan-tu/hoc",
+          "meta": "B1-C2 · 2 điểm · 11 phút đọc",
+          "title": "Cụm phân từ"
+        }
+      ]
+    },
+    {
+      "art": "<svg class=\"ta nbx-r-do\" data-k=\"idea\" data-a1=\"do\" data-a2=\"soc\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><g transform=\"rotate(-8 28 56)\"><rect class=\"a2\" x=\"10\" y=\"40\" width=\"34\" height=\"34\"></rect><rect class=\"k2\" x=\"16\" y=\"49\" width=\"20\" height=\"2.6\"></rect><rect class=\"k2\" x=\"16\" y=\"55\" width=\"14\" height=\"2.6\"></rect></g><g transform=\"rotate(10 96 62)\"><rect class=\"m\" x=\"80\" y=\"46\" width=\"32\" height=\"32\"></rect><rect class=\"k2\" x=\"86\" y=\"55\" width=\"18\" height=\"2.6\"></rect></g></g><g class=\"mv\"><path class=\"sp\" d=\"M60 6v-5M38 16l-4-4M82 16l4-4M30 36h-6M90 36h6\"></path><path class=\"d\" d=\"M60 14a22 22 0 0 0-13 40v8h26v-8a22 22 0 0 0-13-40z\" transform=\"translate(2 2)\"></path><path class=\"a1\" d=\"M60 14a22 22 0 0 0-13 40v8h26v-8a22 22 0 0 0-13-40z\"></path><path class=\"ln\" d=\"M55 56v-8a5 5 0 0 1 10 0v8\"></path><rect class=\"k2\" x=\"47\" y=\"64\" width=\"26\" height=\"6\" rx=\"2\"></rect><rect class=\"k2\" x=\"50\" y=\"72\" width=\"20\" height=\"6\" rx=\"2\"></rect></g></g></svg>",
+      "count": "0/2 đã nắm",
+      "id": "np-grp-dieu-kien-gia-dinh",
+      "title": "Điều kiện & giả định",
+      "topics": [
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/cau-dieu-kien",
+          "href": "/ngu-phap/chu-de/cau-dieu-kien/hoc",
+          "meta": "A2-C2 · 6 điểm · 26 phút đọc",
+          "title": "Câu điều kiện"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/cau-uoc-gia-dinh",
+          "href": "/ngu-phap/chu-de/cau-uoc-gia-dinh/hoc",
+          "meta": "B2-C1 · 2 điểm · 10 phút đọc",
+          "title": "Câu ước và giả định"
+        }
+      ]
+    },
+    {
+      "art": "<svg class=\"ta nbx-r-ivory\" data-k=\"settings\" data-a1=\"info\" data-a2=\"do\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><rect class=\"m\" x=\"53\" y=\"21\" width=\"58\" height=\"60\" rx=\"4\"></rect><rect class=\"p\" x=\"50\" y=\"18\" width=\"58\" height=\"60\" rx=\"4\"></rect><rect class=\"k2\" x=\"58\" y=\"32\" width=\"42\" height=\"3\" rx=\"1.5\"></rect><rect class=\"k2\" x=\"58\" y=\"48\" width=\"42\" height=\"3\" rx=\"1.5\"></rect><rect class=\"k2\" x=\"58\" y=\"64\" width=\"42\" height=\"3\" rx=\"1.5\"></rect><circle class=\"a2\" cx=\"70\" cy=\"33.5\" r=\"5\"></circle><circle class=\"d\" cx=\"92\" cy=\"49.5\" r=\"5\"></circle><circle class=\"a2\" cx=\"80\" cy=\"65.5\" r=\"5\"></circle></g><g class=\"mv\"><circle class=\"gear1\" cx=\"34\" cy=\"46\" r=\"22\"></circle><circle class=\"a1\" cx=\"34\" cy=\"46\" r=\"19\"></circle><circle class=\"p\" cx=\"34\" cy=\"46\" r=\"7.5\"></circle></g></g></svg>",
+      "count": "0/3 đã nắm",
+      "id": "np-grp-bi-dong-cau-khien",
+      "title": "Bị động & cầu khiến",
+      "topics": [
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/bi-dong-co-ban",
+          "href": "/ngu-phap/chu-de/bi-dong-co-ban/hoc",
+          "meta": "A1-B2 · 5 điểm · 17 phút đọc",
+          "title": "Bị động qua các thì"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/bi-dong-nang-cao",
+          "href": "/ngu-phap/chu-de/bi-dong-nang-cao/hoc",
+          "meta": "B2-C1 · 4 điểm · 16 phút đọc",
+          "title": "Bị động nâng cao"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/cau-khien",
+          "href": "/ngu-phap/chu-de/cau-khien/hoc",
+          "meta": "A2-B2 · 2 điểm · 9 phút đọc",
+          "title": "Thể cầu khiến"
+        }
+      ]
+    },
+    {
+      "art": "<svg class=\"ta nbx-r-goal\" data-k=\"media\" data-a1=\"do\" data-a2=\"heat\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><g transform=\"rotate(-8 34 44)\"><rect class=\"p\" x=\"6\" y=\"12\" width=\"56\" height=\"66\" rx=\"2\"></rect><rect class=\"k\" x=\"12\" y=\"18\" width=\"40\" height=\"6\"></rect><rect class=\"a2\" x=\"12\" y=\"30\" width=\"20\" height=\"16\"></rect><rect class=\"k2\" x=\"35\" y=\"30\" width=\"20\" height=\"2.6\"></rect><rect class=\"k2\" x=\"35\" y=\"36\" width=\"18\" height=\"2.6\"></rect><rect class=\"k2\" x=\"35\" y=\"42\" width=\"20\" height=\"2.6\"></rect><rect class=\"k2\" x=\"12\" y=\"52\" width=\"43\" height=\"2.6\"></rect><rect class=\"k2\" x=\"12\" y=\"58\" width=\"38\" height=\"2.6\"></rect><rect class=\"k2\" x=\"12\" y=\"64\" width=\"43\" height=\"2.6\"></rect></g></g><g class=\"mv\"><path class=\"ln\" d=\"M74 32 64 16M88 32l12-16\"></path><rect class=\"m\" x=\"55\" y=\"35\" width=\"60\" height=\"46\" rx=\"6\"></rect><rect class=\"d\" x=\"52\" y=\"32\" width=\"60\" height=\"46\" rx=\"6\"></rect><rect class=\"a1\" x=\"58\" y=\"38\" width=\"40\" height=\"34\" rx=\"3\"></rect><circle class=\"p\" cx=\"105\" cy=\"45\" r=\"3\"></circle><circle class=\"p\" cx=\"105\" cy=\"56\" r=\"3\"></circle><rect class=\"d\" x=\"62\" y=\"78\" width=\"6\" height=\"8\"></rect><rect class=\"d\" x=\"96\" y=\"78\" width=\"6\" height=\"8\"></rect></g></g></svg>",
+      "count": "0/1 đã nắm",
+      "id": "np-grp-loi-noi-gian-tiep",
+      "title": "Lời nói gián tiếp",
+      "topics": [
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/cau-tuong-thuat",
+          "href": "/ngu-phap/chu-de/cau-tuong-thuat/hoc",
+          "meta": "B1-B2 · 3 điểm · 19 phút đọc",
+          "title": "Câu tường thuật"
+        }
+      ]
+    },
+    {
+      "art": "<svg class=\"ta nbx-r-do\" data-k=\"action\" data-a1=\"do\" data-a2=\"info\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><circle class=\"m\" cx=\"63\" cy=\"48\" r=\"36\"></circle><circle class=\"a1\" cx=\"60\" cy=\"45\" r=\"36\"></circle></g><g class=\"mv\"><circle class=\"k\" cx=\"68\" cy=\"20\" r=\"6.5\"></circle><path class=\"run\" d=\"M64 30 56 52l14 10-6 18M58 38l14 6 8-8M56 52l-14 4-6 10M62 34l-14 4-6 8\"></path><path class=\"sp\" d=\"M16 40h16M10 52h18M18 64h14\"></path></g></g></svg>",
+      "count": "0/1 đã nắm",
+      "id": "np-grp-mau-dong-tu",
+      "title": "Mẫu động từ (to V / V-ing)",
+      "topics": [
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/to-v-v-ing",
+          "href": "/ngu-phap/chu-de/to-v-v-ing/hoc",
+          "meta": "A1-B2 · 6 điểm · 21 phút đọc",
+          "title": "Động từ + to V / V-ing"
+        }
+      ]
+    },
+    {
+      "art": "<svg class=\"ta nbx-r-do\" data-k=\"city\" data-a1=\"heat\" data-a2=\"info\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><rect class=\"m\" x=\"10\" y=\"42\" width=\"22\" height=\"44\"></rect><rect class=\"p\" x=\"14\" y=\"48\" width=\"5\" height=\"6\"></rect><rect class=\"p\" x=\"23\" y=\"48\" width=\"5\" height=\"6\"></rect><rect class=\"p\" x=\"14\" y=\"60\" width=\"5\" height=\"6\"></rect><rect class=\"p\" x=\"23\" y=\"60\" width=\"5\" height=\"6\"></rect><rect class=\"d\" x=\"34\" y=\"20\" width=\"28\" height=\"66\"></rect><path class=\"p\" d=\"M39 27h6v7h-6zM51 27h6v7h-6zM39 40h6v7h-6zM51 40h6v7h-6zM39 53h6v7h-6zM51 53h6v7h-6zM39 66h6v7h-6zM51 66h6v7h-6z\"></path><rect class=\"p\" x=\"64\" y=\"36\" width=\"22\" height=\"50\"></rect><path class=\"k2\" d=\"M68 42h14v3H68zM68 50h14v3H68zM68 58h14v3H68zM68 66h14v3H68z\"></path><rect class=\"a1\" x=\"88\" y=\"52\" width=\"24\" height=\"34\"></rect><rect class=\"d\" x=\"96\" y=\"72\" width=\"8\" height=\"14\"></rect><rect class=\"k2\" x=\"4\" y=\"85\" width=\"112\" height=\"3\"></rect></g><g class=\"mv\"><path class=\"a2\" d=\"M48 16c-5-7-8-11-8-15a8 8 0 0 1 16 0c0 4-3 8-8 15z\" transform=\"translate(0 6)\"></path><circle class=\"p\" cx=\"48\" cy=\"7\" r=\"3.2\"></circle></g></g></svg>",
+      "count": "0/1 đã nắm",
+      "id": "np-grp-gioi-tu-cum-dong-tu",
+      "title": "Giới từ & cụm động từ",
+      "topics": [
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/gioi-tu-cum-dong-tu",
+          "href": "/ngu-phap/chu-de/gioi-tu-cum-dong-tu/hoc",
+          "meta": "A1-C1 · 5 điểm · 22 phút đọc",
+          "title": "Giới từ và cụm động từ"
+        }
+      ]
+    },
+    {
+      "art": "<svg class=\"ta nbx-r-peach\" data-k=\"grammar\" data-a1=\"do\" data-a2=\"ok\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><g transform=\"rotate(-4 48 46)\"><rect class=\"p\" x=\"12\" y=\"6\" width=\"68\" height=\"80\" rx=\"3\"></rect><circle class=\"f\" cx=\"22\" cy=\"12\" r=\"2.2\"></circle><circle class=\"f\" cx=\"34\" cy=\"12\" r=\"2.2\"></circle><circle class=\"f\" cx=\"46\" cy=\"12\" r=\"2.2\"></circle><circle class=\"f\" cx=\"58\" cy=\"12\" r=\"2.2\"></circle><circle class=\"f\" cx=\"70\" cy=\"12\" r=\"2.2\"></circle><path class=\"rl\" d=\"M16 32h60M16 48h60M16 64h60M16 80h60\"></path><rect class=\"box\" x=\"19\" y=\"21\" width=\"9\" height=\"9\" rx=\"1.5\"></rect><rect class=\"k\" x=\"33\" y=\"23\" width=\"36\" height=\"4.5\"></rect><path class=\"tick\" d=\"M20.5 25l3.5 3.5 7-9\"></path><path class=\"a1\" d=\"M31 37.5l42-1.5v9l-42 1.5z\"></path><rect class=\"box\" x=\"19\" y=\"37\" width=\"9\" height=\"9\" rx=\"1.5\"></rect><rect class=\"k\" x=\"33\" y=\"39\" width=\"28\" height=\"4.5\"></rect><rect class=\"box\" x=\"19\" y=\"53\" width=\"9\" height=\"9\" rx=\"1.5\"></rect><rect class=\"k2\" x=\"33\" y=\"55\" width=\"22\" height=\"4.5\"></rect></g></g><g class=\"mv\"><g transform=\"rotate(-38 95 56)\"><rect class=\"d\" x=\"80\" y=\"52\" width=\"30\" height=\"8\"></rect><rect class=\"m\" x=\"110\" y=\"52\" width=\"5\" height=\"8\"></rect><rect class=\"a2\" x=\"115\" y=\"52\" width=\"5\" height=\"8\" rx=\"1\"></rect><path class=\"p\" d=\"M80 52l-10 4 10 4z\"></path><path class=\"k\" d=\"M73.5 54.6 70 56l3.5 1.4z\"></path></g></g></g></svg>",
+      "count": "0/6 đã nắm",
+      "id": "np-grp-cau-truc-cau",
+      "title": "Cấu trúc câu & nhấn mạnh",
+      "topics": [
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/mau-cau",
+          "href": "/ngu-phap/chu-de/mau-cau/hoc",
+          "meta": "A1-A2 · 3 điểm · 12 phút đọc",
+          "title": "Mẫu câu và câu cảm thán"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/cau-menh-lenh",
+          "href": "/ngu-phap/chu-de/cau-menh-lenh/hoc",
+          "meta": "A1-C1 · 2 điểm · 13 phút đọc",
+          "title": "Câu mệnh lệnh"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/chu-ngu-gia",
+          "href": "/ngu-phap/chu-de/chu-ngu-gia/hoc",
+          "meta": "A1-B2 · 5 điểm · 19 phút đọc",
+          "title": "Chủ ngữ giả it, there"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/hoa-hop-chu-vi",
+          "href": "/ngu-phap/chu-de/hoa-hop-chu-vi/hoc",
+          "meta": "B2 · 1 điểm · 10 phút đọc",
+          "title": "Hoà hợp chủ ngữ - động từ"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/nhan-manh",
+          "href": "/ngu-phap/chu-de/nhan-manh/hoc",
+          "meta": "B1-C2 · 3 điểm · 14 phút đọc",
+          "title": "Nhấn mạnh và đưa lên đầu"
+        },
+        {
+          "current": false,
+          "doc": "/ngu-phap/tai-lieu/mach-van-ngu-vuc",
+          "href": "/ngu-phap/chu-de/mach-van-ngu-vuc/hoc",
+          "meta": "C2 · 4 điểm · 24 phút đọc",
+          "title": "Mạch văn và ngữ vực"
+        }
+      ]
+    }
+  ],
+  "tenses": [
+    {
+      "en": "Simple",
+      "href": "/ngu-phap/chu-de/thi-hien-tai-don/hoc",
+      "label": "Đơn",
+      "level": "A1-C1",
+      "title": "Hiện tại đơn"
+    },
+    {
+      "en": "Continuous",
+      "href": "/ngu-phap/chu-de/thi-hien-tai-tiep-dien/hoc",
+      "label": "Tiếp diễn",
+      "level": "A1-A2",
+      "title": "Hiện tại tiếp diễn"
+    },
+    {
+      "en": "Perfect",
+      "href": "/ngu-phap/chu-de/thi-hien-tai-hoan-thanh/hoc",
+      "label": "Hoàn thành",
+      "level": "A2-B1",
+      "title": "Hiện tại hoàn thành"
+    },
+    {
+      "en": "Perfect Continuous",
+      "href": "/ngu-phap/chu-de/thi-hien-tai-hoan-thanh-tiep-dien/hoc",
+      "label": "Hoàn thành tiếp diễn",
+      "level": "B1-B2",
+      "title": "Hiện tại hoàn thành tiếp diễn"
+    },
+    {
+      "en": "Simple",
+      "href": "/ngu-phap/chu-de/thi-qua-khu-don/hoc",
+      "label": "Đơn",
+      "level": "A1-A2",
+      "title": "Quá khứ đơn"
+    },
+    {
+      "en": "Continuous",
+      "href": "/ngu-phap/chu-de/thi-qua-khu-tiep-dien/hoc",
+      "label": "Tiếp diễn",
+      "level": "A2",
+      "title": "Quá khứ tiếp diễn"
+    },
+    {
+      "en": "Perfect",
+      "href": "/ngu-phap/chu-de/thi-qua-khu-hoan-thanh/hoc",
+      "label": "Hoàn thành",
+      "level": "B1-C1",
+      "title": "Quá khứ hoàn thành"
+    },
+    {
+      "en": "Perfect Continuous",
+      "href": "/ngu-phap/chu-de/thi-qua-khu-hoan-thanh-tiep-dien/hoc",
+      "label": "Hoàn thành tiếp diễn",
+      "level": "B2",
+      "title": "Quá khứ hoàn thành tiếp diễn"
+    },
+    {
+      "en": "Simple",
+      "href": "/ngu-phap/chu-de/thi-tuong-lai-don/hoc",
+      "label": "Đơn",
+      "level": "A2-C1",
+      "title": "Tương lai đơn"
+    },
+    {
+      "en": "Continuous",
+      "href": "/ngu-phap/chu-de/thi-tuong-lai-tiep-dien/hoc",
+      "label": "Tiếp diễn",
+      "level": "B1-B2",
+      "title": "Tương lai tiếp diễn"
+    },
+    {
+      "en": "Perfect",
+      "href": "/ngu-phap/chu-de/thi-tuong-lai-hoan-thanh/hoc",
+      "label": "Hoàn thành",
+      "level": "B2-C1",
+      "title": "Tương lai hoàn thành"
+    },
+    {
+      "en": "Perfect Continuous",
+      "href": "/ngu-phap/chu-de/thi-tuong-lai-hoan-thanh-tiep-dien/hoc",
+      "label": "Hoàn thành tiếp diễn",
+      "level": "B2",
+      "title": "Tương lai hoàn thành tiếp diễn"
+    }
+  ],
+  "tensesArt": "<svg class=\"ta nbx-r-info\" data-k=\"timecount\" data-a1=\"do\" data-a2=\"heat\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><rect class=\"m\" x=\"13\" y=\"13\" width=\"56\" height=\"60\" rx=\"4\"></rect><rect class=\"p\" x=\"10\" y=\"10\" width=\"56\" height=\"60\" rx=\"4\"></rect><rect class=\"d\" x=\"10\" y=\"10\" width=\"56\" height=\"13\" rx=\"4\"></rect><circle class=\"p\" cx=\"22\" cy=\"10\" r=\"3\"></circle><circle class=\"p\" cx=\"54\" cy=\"10\" r=\"3\"></circle><path class=\"k2\" d=\"M16 30h8v7h-8zM28 30h8v7h-8zM40 30h8v7h-8zM52 30h8v7h-8zM16 41h8v7h-8zM28 41h8v7h-8zM52 41h8v7h-8zM16 52h8v7h-8zM28 52h8v7h-8zM40 52h8v7h-8z\"></path><rect class=\"a2\" x=\"40\" y=\"41\" width=\"8\" height=\"7\"></rect></g><g class=\"mv\"><rect class=\"a1\" x=\"52\" y=\"58\" width=\"20\" height=\"20\" rx=\"3\"></rect><text class=\"tx\" x=\"62\" y=\"72.5\">1</text><rect class=\"a2\" x=\"74\" y=\"58\" width=\"20\" height=\"20\" rx=\"3\"></rect><text class=\"tx\" x=\"84\" y=\"72.5\">2</text><rect class=\"d\" x=\"96\" y=\"58\" width=\"20\" height=\"20\" rx=\"3\"></rect><text class=\"tx on\" x=\"106\" y=\"72.5\">3</text><rect class=\"m\" x=\"74\" y=\"36\" width=\"20\" height=\"20\" rx=\"3\"></rect><text class=\"tx\" x=\"84\" y=\"50.5\">+</text></g></g></svg>"
+}

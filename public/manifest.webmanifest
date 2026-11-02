@@ -1,0 +1,25 @@
+{
+  "name": "AIO English",
+  "short_name": "AIO",
+  "description": "Mọi thứ về tiếng Anh, trong một ứng dụng.",
+  "lang": "vi",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#f3f2eb",
+  "background_color": "#f3f2eb",
+  "icons": [
+    {
+      "src": "/sites/aioenglish/brand/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/sites/aioenglish/brand/apple-touch-icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

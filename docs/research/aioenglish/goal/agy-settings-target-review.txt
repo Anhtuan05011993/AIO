@@ -1,0 +1,186 @@
+Here is the detailed review of the local UI components, focusing on concrete state, validation, and keyboard bugs with code evidence.
+
+---
+
+### 1. State & Data Parsing Bugs
+
+#### 1.1 IELTS Score Parsing Mismatch Causes Total Selection Failure & Unreachable Group
+* **Code Reference:**
+  ```tsx
+  const [ielts, setIelts] = useState(
+    initial.goal.startsWith("IELTS") ? initial.goal.match(/\d+(?:\.\d+)?/)?.[0] || "5.5" : "5.5"
+  );
+  // ...
+  const BANDS = [
+    { level: "B1", scores: ["4.0", "4.5", "5.0"] },
+    { level: "B2", scores: ["5.5", "6.0", "6.5"] },
+    { level: "C1", scores: ["7.0", "7.5", "8.0"] },
+    { level: "C2", scores: ["8.5", "9.0"] }
+  ];
+  ```
+* **Bug Evidence & Cause:** 
+  If `DemoUser.goal` contains an integer band score (e.g. `"IELTS Band 6"`, `"IELTS Band 7"`), the regex extracts `"6"` or `"7"`. However, every score string in `BANDS` is formatted with a single decimal place (`"6.0"`, `"7.0"`).
+* **Impact:**
+  - `band === ielts` evaluates to `false` for every single band button in the radiogroup.
+  - None of the buttons receive `aria-checked="true"` or `.is-on`.
+  - **Critical Keyboard Trap:** Every button receives `tabIndex={-1}`. Because no button has `tabIndex={0}`, keyboard users pressing `Tab` cannot focus or navigate into the IELTS radiogroup at all.
+  - Furthermore, `ieltsLevel` (`BANDS.find(group => group.scores.includes(ielts))?.level || "B2"`) fails to find the score and falls back to `"B2"` (e.g., Band 7 is falsely shown as equivalent to B2 instead of C1).
+
+---
+
+#### 1.2 Asymmetric & Strict Exam Detection in `SettingsLevel`
+* **Code Reference:**
+  ```tsx
+  const exam = view ?? (
+    level.includes("TOEIC") || level.includes("220")
+      ? "TOEIC"
+      : IELTS.includes(level)
+      ? "IELTS"
+      : "Chưa rõ / Chỉ muốn học"
+  );
+  ```
+* **Bug Evidence & Cause:**
+  - For TOEIC, detection uses substring matching (`level.includes("TOEIC") || level.includes("220")`).
+  - For IELTS, it checks exact array membership (`IELTS.includes(level)`).
+  - The `IELTS` array only contains range strings with Unicode en-dashes (`"IELTS 3.0–3.5"`, `"IELTS 5.5–6.5"`).
+* **Impact:**
+  If `level` contains `"IELTS"` with a standard ASCII hyphen (e.g. `"IELTS 5.5-6.5"`), or is a single band (e.g. `"IELTS 6.5"` or `"IELTS Band 6.5"`), `IELTS.includes(level)` returns `false`. The component erroneously falls back to `"Chưa rõ / Chỉ muốn học"` and presents CEFR rows instead of the IELTS bands.
+
+---
+
+#### 1.3 CEFR Goal Matching Can Silently Downgrade Goals
+* **Code Reference:**
+  ```tsx
+  const [cefr, setCefr] = useState(LEVELS.find(level => initial.goal.endsWith(level)) || "B1");
+  ```
+* **Bug Evidence & Cause:**
+  `LEVELS` only contains `["A1", "A2", "B1", "B2", "C1"]`. If a user previously achieved or entered a higher CEFR level (e.g., `"Hoàn thành C2"` or `"C2"`), `LEVELS.find()` returns `undefined`.
+* **Impact:**
+  The state silently falls back to `"B1"`, immediately downgrading the user's goal upon opening the dialog and falsely flagging the form as `dirty` (`preview` becomes `"Hoàn thành B1"`).
+
+---
+
+### 2. Validation & Numerical Logic Bugs
+
+#### 2.1 TOEIC Level Index Out-of-Bounds Logic for Valid Scores (10–119)
+* **Code Reference:**
+  ```tsx
+  const MARKS = [120, 225, 550, 785, 945];
+  const LEVELS = ["A1", "A2", "B1", "B2", "C1"];
+  // ...
+  const levelIndex = score === null ? 0 : Math.max(0, MARKS.findLastIndex(mark => score >= mark));
+  const toeicLevel = LEVELS[levelIndex];
+  // ...
+  <>TOEIC {score} tương đương khoảng {toeicLevel} (từ {MARKS[levelIndex]})</>
+  ```
+* **Bug Evidence & Cause:**
+  - `targetToeic` allows any score between 10 and 990 (`score >= 10 && score <= 990`).
+  - For scores below 120 (e.g. `50` or `100`), `score >= mark` is `false` for every element in `MARKS`, so `findLastIndex` returns `-1`.
+  - `Math.max(0, -1)` clamps the index to `0`.
+* **Impact:**
+  The equivalence text renders:
+  `TOEIC 50 tương đương khoảng A1 (từ 120)`
+  This falsely claims a score of 50 meets the A1 threshold ("từ 120") when it is strictly below A1.
+
+---
+
+#### 2.2 Date 2-Year Range Calculation Fails on Leap Years
+* **Code Reference:**
+  ```tsx
+  const start = Date.parse(`${today}T00:00:00Z`);
+  if (date.getTime() < start) return { iso: "", error: "Ngày thi không được ở quá khứ." };
+  if (date.getTime() > start + 730 * 86400000) return { iso: "", error: "Chọn ngày thi trong vòng 2 năm tới." };
+  // ...
+  const maxDate = new Date(Date.parse(`${today}T00:00:00Z`) + 730 * 86400000).toISOString().slice(0, 10);
+  ```
+* **Bug Evidence & Cause:**
+  The calculation assumes 2 years is always `730 * 86400000` ms (365 × 2). Whenever the 2-year window spans a leap year (e.g., 2026 to 2028), the actual duration is 731 days.
+* **Impact:**
+  Selecting the 2-year boundary date (e.g., picking November 2, 2028 when today is November 2, 2026) fails validation with `"Chọn ngày thi trong vòng 2 năm tới."`, and the native picker `max` attribute prematurely truncates the selectable range by 1 day.
+
+---
+
+### 3. Keyboard & Accessibility Bugs
+
+#### 3.1 Focusing `aria-hidden="true"` Fallback on Native Date Picker
+* **Code Reference:**
+  ```tsx
+  <button
+    type="button"
+    className="nbc-eye"
+    aria-label="Chọn ngày trên lịch"
+    onClick={() => {
+      try {
+        nativeDate.current?.showPicker();
+      } catch {
+        nativeDate.current?.focus();
+      }
+    }}
+  >
+    <Art kind="calendar"/>
+  </button>
+  <input
+    ref={nativeDate}
+    type="date"
+    className="ptd-native"
+    tabIndex={-1}
+    aria-hidden="true"
+    min={today}
+    max={maxDate}
+    value={checkedDate.iso}
+    onChange={event => setDate(targetDateLabel(event.target.value))}
+  />
+  ```
+* **Bug Evidence & Cause:**
+  When `showPicker()` is unavailable or throws (e.g., in unsupported browsers or permissions policies), execution enters the `catch` block and calls `nativeDate.current?.focus()`.
+* **Impact:**
+  The input explicitly specifies `tabIndex={-1}` and `aria-hidden="true"`. Focusing an element with `aria-hidden="true"` violates W3C WAI-ARIA authoring rules, causing screen readers to lose context or report focus on an invisible node not present in the accessibility tree.
+
+---
+
+#### 3.2 Focus Dropping when Clearing Exam Date
+* **Code Reference:**
+  ```tsx
+  <button
+    type="button"
+    className={`nbc-btn is-soft is-sm${date ? "" : " is-gone"}`}
+    tabIndex={date ? 0 : -1}
+    aria-hidden={!date}
+    aria-label="Bỏ ngày thi"
+    data-testid="goal-date-clear"
+    onClick={() => setDate("")}
+  >
+    <Art kind="x"/><span {...s} className="ptd-clr-t">Bỏ ngày thi</span>
+  </button>
+  ```
+* **Bug Evidence & Cause:**
+  When a keyboard user focuses the "Bỏ ngày thi" button and activates it (`Space` or `Enter`), `setDate("")` sets `date` to `""`. On re-render, the button receives `tabIndex={-1}` and `aria-hidden="true"`.
+* **Impact:**
+  Because the active element is rendered non-focusable and hidden from the accessibility tree without moving focus, focus drops to `document.body` or the `<dialog>` container, disrupting keyboard navigation. Focus should be redirected back to the date input (`#${id}-date`).
+
+---
+
+#### 3.3 Missing Radiogroup Semantics & Arrow Key Navigation in `SettingsLevel`
+* **Code Reference:**
+  ```tsx
+  <div {...s} className="lvc-rows" role="group" aria-labelledby="settings-current-level-label">
+    {bands.map((band, index) =>
+      <button
+        key={band}
+        type="button"
+        className={`lv-row nbc-opt${selected === band ? " is-on" : ""}`}
+        aria-pressed={selected === band}
+        onClick={() => { onChange(band); setView(null); }}
+      >
+        <span {...s} className="nbc-rd" aria-hidden="true"/>
+        <span {...s} className="nbc-nw">{exam === "Chưa rõ / Chỉ muốn học" ? CEFR_LABELS[index] : band}</span>
+      </button>
+    )}
+  </div>
+  ```
+* **Bug Evidence & Cause:**
+  - The rows visually present radio buttons (`<span className="nbc-rd" aria-hidden="true"/>`), but are marked as `role="group"` with `aria-pressed` toggle buttons.
+  - Every button has `tabIndex={0}`.
+  - There are no `onKeyDown` handlers for `ArrowUp` / `ArrowDown`.
+* **Impact:**
+  Violates WAI-ARIA Radio Group pattern for single-select lists. Keyboard users must Tab through all options individually rather than using arrow keys, and screen reader users hear confusing "toggle button" announcements for mutually exclusive radio choices.

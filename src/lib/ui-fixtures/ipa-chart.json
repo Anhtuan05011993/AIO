@@ -1,0 +1,588 @@
+{
+  "deco": "<span class=\"nbx-hdeco\" aria-hidden=\"true\" data-nb-shapes=\"voc\" data-nb-skin-ok=\"shape angle (D9 board: the cut shapes keep their angle in both skins)\"><i class=\"nbx-a\" style=\"--nb-x-m: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20100%20100'%3E%3Cpath%20d%3D'M50%202C54%2036%2064%2046%2098%2050C64%2054%2054%2064%2050%2098C46%2064%2036%2054%202%2050C36%2046%2046%2036%2050%202Z'%2F%3E%3C%2Fsvg%3E&quot;); --nb-x-w: 196px; --nb-x-x: 320px; --nb-x-y: -60px; --nb-x-r: 8deg;\"></i><i class=\"nbx-b\" style=\"--nb-x-m: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20100%20100'%3E%3Cpath%20d%3D'M50%202C54%2036%2064%2046%2098%2050C64%2054%2054%2064%2050%2098C46%2064%2036%2054%202%2050C36%2046%2046%2036%2050%202Z'%2F%3E%3C%2Fsvg%3E&quot;); --nb-x-w: 60px; --nb-x-x: 250px; --nb-x-y: 92px; --nb-x-r: -12deg;\"></i><i class=\"nbx-c\" style=\"--nb-x-m: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20100%20100'%3E%3Cpath%20d%3D'M50%202C54%2036%2064%2046%2098%2050C64%2054%2054%2064%2050%2098C46%2064%2036%2054%202%2050C36%2046%2046%2036%2050%202Z'%2F%3E%3C%2Fsvg%3E&quot;); --nb-x-w: 30px; --nb-x-x: 560px; --nb-x-y: 20px; --nb-x-r: 18deg;\"></i></span>",
+  "groups": [
+    {
+      "difficulty": "Dễ",
+      "slug": "i-long",
+      "symbols": [
+        "iː",
+        "ɑː",
+        "uː",
+        "aɪ",
+        "ɔɪ",
+        "aʊ",
+        "p",
+        "b",
+        "k",
+        "ɡ",
+        "h",
+        "m",
+        "n",
+        "j",
+        "w"
+      ],
+      "title": "Âm quen với người Việt"
+    },
+    {
+      "difficulty": "Vừa",
+      "slug": "e",
+      "symbols": [
+        "e",
+        "ɒ",
+        "ɔː",
+        "ʌ",
+        "eɪ",
+        "əʊ",
+        "t",
+        "d",
+        "f",
+        "v",
+        "s",
+        "z",
+        "ŋ"
+      ],
+      "title": "Âm hay đọc lệch"
+    },
+    {
+      "difficulty": "Khó",
+      "slug": "i-short",
+      "symbols": [
+        "ɪ",
+        "æ",
+        "ʊ",
+        "ɜː",
+        "ə",
+        "ɪə",
+        "eə",
+        "ʊə",
+        "θ",
+        "ð",
+        "ʃ",
+        "ʒ",
+        "tʃ",
+        "dʒ",
+        "l",
+        "r",
+        "-t",
+        "-k",
+        "-s",
+        "-(e)s",
+        "-ed",
+        "-st"
+      ],
+      "title": "Âm khó và âm cuối"
+    }
+  ],
+  "headerArt": "<svg class=\"ta nbx-r-info\" data-k=\"voice\" data-a1=\"heat\" data-a2=\"do\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><path class=\"p\" d=\"M70 6h40a5 5 0 0 1 5 5v20a5 5 0 0 1-5 5H86l-8 8v-8h-8a5 5 0 0 1-5-5V11a5 5 0 0 1 5-5z\"></path><text class=\"tx\" x=\"90\" y=\"25\">/æ/</text></g><g class=\"mv\"><path class=\"ln\" d=\"M28 46a22 22 0 0 0 44 0M50 68v12\"></path><rect class=\"d\" x=\"34\" y=\"80\" width=\"32\" height=\"7\" rx=\"3\"></rect><rect class=\"m\" x=\"40\" y=\"15\" width=\"24\" height=\"44\" rx=\"12\"></rect><rect class=\"a1\" x=\"38\" y=\"12\" width=\"24\" height=\"44\" rx=\"12\"></rect><path class=\"lw\" d=\"M43 24h14M43 31h14M43 38h14\"></path><path class=\"ln2\" d=\"M80 52q6 8 0 16M88 46q10 14 0 28M20 52q-6 8 0 16\"></path></g></g></svg>",
+  "panels": [
+    {
+      "caption": "",
+      "className": "nbc-lv1 is-dots pc-panel pc-vow",
+      "gridClass": "pc-grid pc-grid-vow",
+      "labels": [
+        {
+          "style": "--r: 1;",
+          "text": "Dài"
+        },
+        {
+          "style": "--r: 2;",
+          "text": "Ngắn"
+        }
+      ],
+      "tiles": [
+        {
+          "diff": "easy",
+          "difficulty": "Dễ",
+          "keyword": "<span>sh<span class=\"kw-mark\" data-kw-mark=\"\">ee</span>p</span>",
+          "label": "Học âm /iː/, từ khoá sheep",
+          "slug": "i-long",
+          "style": "--r: 1; --c: 2;",
+          "symbol": "iː"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span>sh<span class=\"kw-mark\" data-kw-mark=\"\">i</span>p</span>",
+          "label": "Học âm /ɪ/, từ khoá ship",
+          "slug": "i-short",
+          "style": "--r: 2; --c: 2;",
+          "symbol": "ɪ"
+        },
+        {
+          "diff": "easy",
+          "difficulty": "Dễ",
+          "keyword": "<span>f<span class=\"kw-mark\" data-kw-mark=\"\">oo</span>d</span>",
+          "label": "Học âm /uː/, từ khoá food",
+          "slug": "u-long",
+          "style": "--r: 1; --c: 3;",
+          "symbol": "uː"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span>b<span class=\"kw-mark\" data-kw-mark=\"\">oo</span>k</span>",
+          "label": "Học âm /ʊ/, từ khoá book",
+          "slug": "u-short",
+          "style": "--r: 2; --c: 3;",
+          "symbol": "ʊ"
+        },
+        {
+          "diff": "medium",
+          "difficulty": "Vừa",
+          "keyword": "<span>s<span class=\"kw-mark\" data-kw-mark=\"\">aw</span></span>",
+          "label": "Học âm /ɔː/, từ khoá saw",
+          "slug": "o-long",
+          "style": "--r: 1; --c: 4;",
+          "symbol": "ɔː"
+        },
+        {
+          "diff": "medium",
+          "difficulty": "Vừa",
+          "keyword": "<span>h<span class=\"kw-mark\" data-kw-mark=\"\">o</span>t</span>",
+          "label": "Học âm /ɒ/, từ khoá hot",
+          "slug": "o-short",
+          "style": "--r: 2; --c: 4;",
+          "symbol": "ɒ"
+        },
+        {
+          "diff": "easy",
+          "difficulty": "Dễ",
+          "keyword": "<span>c<span class=\"kw-mark\" data-kw-mark=\"\">ar</span></span>",
+          "label": "Học âm /ɑː/, từ khoá car",
+          "slug": "a-long",
+          "style": "--r: 1; --c: 5;",
+          "symbol": "ɑː"
+        },
+        {
+          "diff": "medium",
+          "difficulty": "Vừa",
+          "keyword": "<span>c<span class=\"kw-mark\" data-kw-mark=\"\">u</span>p</span>",
+          "label": "Học âm /ʌ/, từ khoá cup",
+          "slug": "uh",
+          "style": "--r: 2; --c: 5;",
+          "symbol": "ʌ"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span>b<span class=\"kw-mark\" data-kw-mark=\"\">ir</span>d</span>",
+          "label": "Học âm /ɜː/, từ khoá bird",
+          "slug": "er-long",
+          "style": "--r: 1; --c: 6;",
+          "symbol": "ɜː"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">a</span>bout</span>",
+          "label": "Học âm /ə/, từ khoá about",
+          "slug": "schwa",
+          "style": "--r: 2; --c: 6;",
+          "symbol": "ə"
+        },
+        {
+          "diff": "medium",
+          "difficulty": "Vừa",
+          "keyword": "<span>b<span class=\"kw-mark\" data-kw-mark=\"\">e</span>d</span>",
+          "label": "Học âm /e/, từ khoá bed",
+          "slug": "e",
+          "style": "--r: 2; --c: 7;",
+          "symbol": "e"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span>c<span class=\"kw-mark\" data-kw-mark=\"\">a</span>t</span>",
+          "label": "Học âm /æ/, từ khoá cat",
+          "slug": "ae",
+          "style": "--r: 2; --c: 8;",
+          "symbol": "æ"
+        }
+      ],
+      "title": "Nguyên âm"
+    },
+    {
+      "caption": "8 âm",
+      "className": "nbc-lv1 is-kraft pc-panel pc-dip",
+      "gridClass": "pc-grid pc-grid-dip",
+      "labels": [],
+      "tiles": [
+        {
+          "diff": "medium",
+          "difficulty": "Vừa",
+          "keyword": "<span>f<span class=\"kw-mark\" data-kw-mark=\"\">a</span>ce</span>",
+          "label": "Học âm /eɪ/, từ khoá face",
+          "slug": "ei",
+          "style": "--r: 1; --c: 1;",
+          "symbol": "eɪ"
+        },
+        {
+          "diff": "easy",
+          "difficulty": "Dễ",
+          "keyword": "<span>m<span class=\"kw-mark\" data-kw-mark=\"\">y</span></span>",
+          "label": "Học âm /aɪ/, từ khoá my",
+          "slug": "ai",
+          "style": "--r: 1; --c: 2;",
+          "symbol": "aɪ"
+        },
+        {
+          "diff": "easy",
+          "difficulty": "Dễ",
+          "keyword": "<span>b<span class=\"kw-mark\" data-kw-mark=\"\">oy</span></span>",
+          "label": "Học âm /ɔɪ/, từ khoá boy",
+          "slug": "oi",
+          "style": "--r: 1; --c: 3;",
+          "symbol": "ɔɪ"
+        },
+        {
+          "diff": "medium",
+          "difficulty": "Vừa",
+          "keyword": "<span>g<span class=\"kw-mark\" data-kw-mark=\"\">o</span></span>",
+          "label": "Học âm /əʊ/, từ khoá go",
+          "slug": "ou-uk",
+          "style": "--r: 1; --c: 4;",
+          "symbol": "əʊ"
+        },
+        {
+          "diff": "easy",
+          "difficulty": "Dễ",
+          "keyword": "<span>n<span class=\"kw-mark\" data-kw-mark=\"\">ow</span></span>",
+          "label": "Học âm /aʊ/, từ khoá now",
+          "slug": "au",
+          "style": "--r: 2; --c: 1;",
+          "symbol": "aʊ"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">ear</span></span>",
+          "label": "Học âm /ɪə/, từ khoá ear",
+          "slug": "ia",
+          "style": "--r: 2; --c: 2;",
+          "symbol": "ɪə"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span>h<span class=\"kw-mark\" data-kw-mark=\"\">air</span></span>",
+          "label": "Học âm /eə/, từ khoá hair",
+          "slug": "ea",
+          "style": "--r: 2; --c: 3;",
+          "symbol": "eə"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span>t<span class=\"kw-mark\" data-kw-mark=\"\">ou</span>r</span>",
+          "label": "Học âm /ʊə/, từ khoá tour",
+          "slug": "ua",
+          "style": "--r: 2; --c: 4;",
+          "symbol": "ʊə"
+        }
+      ],
+      "title": "Nguyên âm đôi"
+    },
+    {
+      "caption": "",
+      "className": "nbc-lv1 is-kraft pc-panel pc-con",
+      "gridClass": "pc-grid pc-grid-con",
+      "labels": [
+        {
+          "style": "--r: 1;",
+          "text": "Vô thanh"
+        },
+        {
+          "style": "--r: 2;",
+          "text": "Hữu thanh"
+        },
+        {
+          "style": "--r: 3;",
+          "text": "Không cặp"
+        }
+      ],
+      "tiles": [
+        {
+          "diff": "easy",
+          "difficulty": "Dễ",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">p</span>en</span>",
+          "label": "Học âm /p/, từ khoá pen",
+          "slug": "p",
+          "style": "--r: 1; --c: 2;",
+          "symbol": "p"
+        },
+        {
+          "diff": "easy",
+          "difficulty": "Dễ",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">b</span>ag</span>",
+          "label": "Học âm /b/, từ khoá bag",
+          "slug": "b",
+          "style": "--r: 2; --c: 2;",
+          "symbol": "b"
+        },
+        {
+          "diff": "medium",
+          "difficulty": "Vừa",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">t</span>ea</span>",
+          "label": "Học âm /t/, từ khoá tea",
+          "slug": "t",
+          "style": "--r: 1; --c: 3;",
+          "symbol": "t"
+        },
+        {
+          "diff": "medium",
+          "difficulty": "Vừa",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">d</span>ay</span>",
+          "label": "Học âm /d/, từ khoá day",
+          "slug": "d",
+          "style": "--r: 2; --c: 3;",
+          "symbol": "d"
+        },
+        {
+          "diff": "easy",
+          "difficulty": "Dễ",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">k</span>ey</span>",
+          "label": "Học âm /k/, từ khoá key",
+          "slug": "k",
+          "style": "--r: 1; --c: 4;",
+          "symbol": "k"
+        },
+        {
+          "diff": "easy",
+          "difficulty": "Dễ",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">g</span>o</span>",
+          "label": "Học âm /ɡ/, từ khoá go",
+          "slug": "g",
+          "style": "--r: 2; --c: 4;",
+          "symbol": "ɡ"
+        },
+        {
+          "diff": "medium",
+          "difficulty": "Vừa",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">f</span>ine</span>",
+          "label": "Học âm /f/, từ khoá fine",
+          "slug": "f",
+          "style": "--r: 1; --c: 5;",
+          "symbol": "f"
+        },
+        {
+          "diff": "medium",
+          "difficulty": "Vừa",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">v</span>oice</span>",
+          "label": "Học âm /v/, từ khoá voice",
+          "slug": "v",
+          "style": "--r: 2; --c: 5;",
+          "symbol": "v"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">th</span>ink</span>",
+          "label": "Học âm /θ/, từ khoá think",
+          "slug": "th-voiceless",
+          "style": "--r: 1; --c: 6;",
+          "symbol": "θ"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">th</span>is</span>",
+          "label": "Học âm /ð/, từ khoá this",
+          "slug": "th-voiced",
+          "style": "--r: 2; --c: 6;",
+          "symbol": "ð"
+        },
+        {
+          "diff": "medium",
+          "difficulty": "Vừa",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">s</span>ee</span>",
+          "label": "Học âm /s/, từ khoá see",
+          "slug": "s",
+          "style": "--r: 1; --c: 7;",
+          "symbol": "s"
+        },
+        {
+          "diff": "medium",
+          "difficulty": "Vừa",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">z</span>oo</span>",
+          "label": "Học âm /z/, từ khoá zoo",
+          "slug": "z",
+          "style": "--r: 2; --c: 7;",
+          "symbol": "z"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">sh</span>e</span>",
+          "label": "Học âm /ʃ/, từ khoá she",
+          "slug": "sh",
+          "style": "--r: 1; --c: 8;",
+          "symbol": "ʃ"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span>mea<span class=\"kw-mark\" data-kw-mark=\"\">s</span>ure</span>",
+          "label": "Học âm /ʒ/, từ khoá measure",
+          "slug": "zh",
+          "style": "--r: 2; --c: 8;",
+          "symbol": "ʒ"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">ch</span>air</span>",
+          "label": "Học âm /tʃ/, từ khoá chair",
+          "slug": "ch",
+          "style": "--r: 1; --c: 9;",
+          "symbol": "tʃ"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">j</span>ob</span>",
+          "label": "Học âm /dʒ/, từ khoá job",
+          "slug": "dzh",
+          "style": "--r: 2; --c: 9;",
+          "symbol": "dʒ"
+        },
+        {
+          "diff": "easy",
+          "difficulty": "Dễ",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">m</span>an</span>",
+          "label": "Học âm /m/, từ khoá man",
+          "slug": "m",
+          "style": "--r: 3; --c: 2;",
+          "symbol": "m"
+        },
+        {
+          "diff": "easy",
+          "difficulty": "Dễ",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">n</span>o</span>",
+          "label": "Học âm /n/, từ khoá no",
+          "slug": "n",
+          "style": "--r: 3; --c: 3;",
+          "symbol": "n"
+        },
+        {
+          "diff": "medium",
+          "difficulty": "Vừa",
+          "keyword": "<span>si<span class=\"kw-mark\" data-kw-mark=\"\">ng</span></span>",
+          "label": "Học âm /ŋ/, từ khoá sing",
+          "slug": "ng",
+          "style": "--r: 3; --c: 4;",
+          "symbol": "ŋ"
+        },
+        {
+          "diff": "easy",
+          "difficulty": "Dễ",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">h</span>ouse</span>",
+          "label": "Học âm /h/, từ khoá house",
+          "slug": "h",
+          "style": "--r: 3; --c: 5;",
+          "symbol": "h"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">l</span>ight</span>",
+          "label": "Học âm /l/, từ khoá light",
+          "slug": "l",
+          "style": "--r: 3; --c: 6;",
+          "symbol": "l"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">r</span>ed</span>",
+          "label": "Học âm /r/, từ khoá red",
+          "slug": "r",
+          "style": "--r: 3; --c: 7;",
+          "symbol": "r"
+        },
+        {
+          "diff": "easy",
+          "difficulty": "Dễ",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">y</span>es</span>",
+          "label": "Học âm /j/, từ khoá yes",
+          "slug": "y",
+          "style": "--r: 3; --c: 8;",
+          "symbol": "j"
+        },
+        {
+          "diff": "easy",
+          "difficulty": "Dễ",
+          "keyword": "<span><span class=\"kw-mark\" data-kw-mark=\"\">w</span>e</span>",
+          "label": "Học âm /w/, từ khoá we",
+          "slug": "w",
+          "style": "--r: 3; --c: 9;",
+          "symbol": "w"
+        }
+      ],
+      "title": "Phụ âm"
+    },
+    {
+      "caption": "",
+      "className": "nbc-lv1 is-grid20 pc-panel pc-fin",
+      "gridClass": "pc-grid pc-grid-fin",
+      "labels": [],
+      "tiles": [
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span>ca<span class=\"kw-mark\" data-kw-mark=\"\">t</span></span>",
+          "label": "Học âm /-t/, từ khoá cat",
+          "slug": "final-t-d",
+          "style": "--r: 1; --c: 1;",
+          "symbol": "-t"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span>ba<span class=\"kw-mark\" data-kw-mark=\"\">ck</span></span>",
+          "label": "Học âm /-k/, từ khoá back",
+          "slug": "final-k-g",
+          "style": "--r: 1; --c: 2;",
+          "symbol": "-k"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span>ri<span class=\"kw-mark\" data-kw-mark=\"\">ce</span></span>",
+          "label": "Học âm /-s/, từ khoá rice",
+          "slug": "final-s-z",
+          "style": "--r: 2; --c: 1;",
+          "symbol": "-s"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span>cat<span class=\"kw-mark\" data-kw-mark=\"\">s</span></span>",
+          "label": "Học âm /-(e)s/, từ khoá cats",
+          "slug": "final-s-es",
+          "style": "--r: 2; --c: 2;",
+          "symbol": "-(e)s"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span>play<span class=\"kw-mark\" data-kw-mark=\"\">ed</span></span>",
+          "label": "Học âm /-ed/, từ khoá played",
+          "slug": "final-ed",
+          "style": "--r: 3; --c: 1;",
+          "symbol": "-ed"
+        },
+        {
+          "diff": "hard",
+          "difficulty": "Khó",
+          "keyword": "<span>pa<span class=\"kw-mark\" data-kw-mark=\"\">st</span></span>",
+          "label": "Học âm /-st/, từ khoá past",
+          "slug": "final-cluster",
+          "style": "--r: 3; --c: 2;",
+          "symbol": "-st"
+        }
+      ],
+      "title": "Âm cuối"
+    }
+  ],
+  "routeArt": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-route-icon\" aria-hidden=\"true\" focusable=\"false\"><circle cx=\"6\" cy=\"19\" r=\"3\"></circle><path d=\"M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15\"></path><circle cx=\"18\" cy=\"5\" r=\"3\"></circle></svg>"
+}

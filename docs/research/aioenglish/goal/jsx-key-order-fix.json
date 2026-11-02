@@ -1,0 +1,32 @@
+[
+  {
+    "file": "src\\components\\sites\\aioenglish\\dictionary\\DictionaryHub.tsx",
+    "changes": 7,
+    "before": "2df18b6addad55065c1626ada50560b70cf0f6497829de71a521185ca66eae67",
+    "after": "3a82e331b94baf40029ba2c19b06781e7ac7aa424d7f613647f73afaea61df41"
+  },
+  {
+    "file": "src\\components\\sites\\aioenglish\\grammar\\GrammarTopicFrame.tsx",
+    "changes": 1,
+    "before": "a3cd84f53b1e907fd201751b0f9d621f4d38bad1e9299fd46a479675f97d5df2",
+    "after": "3ff7dd5531a2ed1984fbfe629379b97257f156fe5dbffb6b97a03271ed607ad2"
+  },
+  {
+    "file": "src\\components\\sites\\aioenglish\\lesson\\LessonNavigationDrawer.tsx",
+    "changes": 1,
+    "before": "fe7afc895dcbec0703b5241d52b93c7472293c9adc97b49c3c92a79879c9a3a0",
+    "after": "54f7b67286052ec5fd7fd58d5fced3b49ad7bc873cfa47d0d0fe56503607aa51"
+  },
+  {
+    "file": "src\\components\\sites\\aioenglish\\reading\\PressLibrary.tsx",
+    "changes": 3,
+    "before": "49d9db6f528421e234f7a196b6ddf3f3870318a9c0ad6c1a9d573480415fd203",
+    "after": "ac8d26745a3dbda90331dea2ee09b798c5c0db3ef95c4e7b7a3cf1c58fb4086c"
+  },
+  {
+    "file": "src\\components\\sites\\aioenglish\\reading\\ReadingCatalog.tsx",
+    "changes": 3,
+    "before": "d181d1fe29b3d42dab299b0a4d42847ed522049feca9ee2ae309f78d9a14f08f",
+    "after": "9de672193facb162562aa6e6b1af0744f302dae9258ddc189cb7daf9af203c9c"
+  }
+]

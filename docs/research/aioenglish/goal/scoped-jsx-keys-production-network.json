@@ -1,0 +1,340 @@
+[
+  {
+    "path": "/tu-dien?q=apple",
+    "since": "2026-11-02T11:02:14.773Z",
+    "assets": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-f0fdcf32385f69f8.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/go-cau/page-184d914939301beb.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/tu-vung/page-7ea4007bdc611160.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/ngu-phap/page-6adf43432ae11769.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/luyen-dich-thuat/page-852eabf3d6f11e13.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/ban-be/page-52eb3163f17c0a07.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/lo-trinh/page-1cced7d03aec9e21.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/luyen-thi/page-b981bfded452c212.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/yeu-cau-tinh-nang/page-86062e36a73b9b50.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/cai-dat/page-991ec1fd4712b4f6.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-fd558ee1d7e333da.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/tu-dien/page-de03006e73652a2e.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-f0fdcf32385f69f8.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/tu-vung/page-7ea4007bdc611160.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/go-cau/page-184d914939301beb.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/ngu-phap/page-6adf43432ae11769.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/luyen-dich-thuat/page-852eabf3d6f11e13.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/lo-trinh/page-1cced7d03aec9e21.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/luyen-thi/page-b981bfded452c212.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/ban-be/page-52eb3163f17c0a07.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/yeu-cau-tinh-nang/page-86062e36a73b9b50.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/cai-dat/page-991ec1fd4712b4f6.js",
+        "status": 200,
+        "fromServiceWorker": false
+      }
+    ],
+    "logs": []
+  },
+  {
+    "path": "/luyen-dich-thuat/bao/the-guardian",
+    "since": "2026-11-02T11:02:16.219Z",
+    "assets": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-f0fdcf32385f69f8.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/tu-vung/page-7ea4007bdc611160.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/go-cau/page-184d914939301beb.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/ngu-phap/page-6adf43432ae11769.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/luyen-dich-thuat/page-852eabf3d6f11e13.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/luyen-thi/page-b981bfded452c212.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/lo-trinh/page-1cced7d03aec9e21.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/ban-be/page-52eb3163f17c0a07.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/yeu-cau-tinh-nang/page-86062e36a73b9b50.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/cai-dat/page-991ec1fd4712b4f6.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-fd558ee1d7e333da.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/luyen-dich-thuat/bao/%5Bpaper%5D/page-7c5363be10ee4b1c.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-f0fdcf32385f69f8.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/go-cau/page-184d914939301beb.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/tu-vung/page-7ea4007bdc611160.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/ngu-phap/page-6adf43432ae11769.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/luyen-dich-thuat/page-852eabf3d6f11e13.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/lo-trinh/page-1cced7d03aec9e21.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/luyen-thi/page-b981bfded452c212.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/ban-be/page-52eb3163f17c0a07.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/yeu-cau-tinh-nang/page-86062e36a73b9b50.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/cai-dat/page-991ec1fd4712b4f6.js",
+        "status": 200,
+        "fromServiceWorker": false
+      }
+    ],
+    "logs": []
+  },
+  {
+    "path": "/luyen-dich-thuat/chu-de",
+    "since": "2026-11-02T11:02:17.500Z",
+    "assets": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-fd558ee1d7e333da.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/luyen-dich-thuat/chu-de/%5B%5B...topic%5D%5D/page-15ee0119937898b7.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-f0fdcf32385f69f8.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/go-cau/page-184d914939301beb.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/tu-vung/page-7ea4007bdc611160.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/ngu-phap/page-6adf43432ae11769.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/luyen-dich-thuat/page-852eabf3d6f11e13.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/lo-trinh/page-1cced7d03aec9e21.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/luyen-thi/page-b981bfded452c212.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/ban-be/page-52eb3163f17c0a07.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/yeu-cau-tinh-nang/page-86062e36a73b9b50.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/cai-dat/page-991ec1fd4712b4f6.js",
+        "status": 200,
+        "fromServiceWorker": false
+      }
+    ],
+    "logs": []
+  },
+  {
+    "path": "/ngu-phap/chu-de/thi-hien-tai-don/hoc",
+    "since": "2026-11-02T11:02:18.593Z",
+    "assets": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/ngu-phap/page-6adf43432ae11769.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/ngu-phap/%5Bnode%5D/luyen-tap/page-fcee856093db427a.js",
+        "status": 200,
+        "fromServiceWorker": true
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-fd558ee1d7e333da.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/ngu-phap/chu-de/%5Btopic%5D/hoc/page-1c166991d7ce7266.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/ngu-phap/page-6adf43432ae11769.js",
+        "status": 200,
+        "fromServiceWorker": false
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/ngu-phap/%5Bnode%5D/luyen-tap/page-fcee856093db427a.js",
+        "status": 200,
+        "fromServiceWorker": false
+      }
+    ],
+    "logs": []
+  }
+]

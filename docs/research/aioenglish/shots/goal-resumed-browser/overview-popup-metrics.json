@@ -1,0 +1,138 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "source": {
+      "box": {
+        "bottom": 352.625,
+        "height": 227,
+        "left": 247.671875,
+        "right": 631.671875,
+        "top": 125.625,
+        "width": 384,
+        "x": 247.671875,
+        "y": 125.625
+      },
+      "text": "My/maɪ/Từ hạn địnhcủa tôiTừ hạn địnhcủa tôi"
+    },
+    "local": {
+      "box": {
+        "bottom": 352.625,
+        "height": 182.5,
+        "left": 247.671875,
+        "right": 631.671875,
+        "top": 170.125,
+        "width": 384,
+        "x": 247.671875,
+        "y": 170.125
+      },
+      "overflow": false,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    }
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "source": {
+      "box": {
+        "bottom": 445.96875,
+        "height": 227,
+        "left": 8,
+        "right": 392,
+        "top": 218.96875,
+        "width": 384,
+        "x": 8,
+        "y": 218.96875
+      },
+      "text": "My/maɪ/Từ hạn địnhcủa tôiTừ hạn địnhcủa tôi"
+    },
+    "local": {
+      "box": {
+        "bottom": 445.96875,
+        "height": 182.5,
+        "left": 8,
+        "right": 392,
+        "top": 263.46875,
+        "width": 384,
+        "x": 8,
+        "y": 263.46875
+      },
+      "overflow": false,
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    }
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "source": {
+      "box": {
+        "bottom": 824,
+        "height": 175,
+        "left": 15.59375,
+        "right": 374.390625,
+        "top": 649,
+        "width": 358.796875,
+        "x": 15.59375,
+        "y": 649
+      },
+      "text": "My/maɪ/Từ hạn địnhcủa tôiTừ hạn địnhcủa tôi"
+    },
+    "local": {
+      "box": {
+        "bottom": 824,
+        "height": 190.5,
+        "left": 15.59375,
+        "right": 374.390625,
+        "top": 633.5,
+        "width": 358.796875,
+        "x": 15.59375,
+        "y": 633.5
+      },
+      "overflow": false,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    }
+  },
+  {
+    "width": 360,
+    "height": 844,
+    "source": {
+      "box": {
+        "bottom": 824,
+        "height": 175,
+        "left": 14.40625,
+        "right": 345.59375,
+        "top": 649,
+        "width": 331.1875,
+        "x": 14.40625,
+        "y": 649
+      },
+      "text": "My/maɪ/Từ hạn địnhcủa tôiTừ hạn địnhcủa tôi"
+    },
+    "local": {
+      "box": {
+        "bottom": 824,
+        "height": 211.5,
+        "left": 14.40625,
+        "right": 345.59375,
+        "top": 612.5,
+        "width": 331.1875,
+        "x": 14.40625,
+        "y": 612.5
+      },
+      "overflow": false,
+      "viewport": {
+        "height": 844,
+        "width": 360
+      }
+    }
+  }
+]

@@ -1,0 +1,72 @@
+.lp-app .ui-ipa {
+  min-width: 0;
+  font-size: 15px;
+  line-height: normal;
+}
+.ui-ipa .pc-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+}
+.ui-ipa .ui-ipa-deco {
+  display: contents;
+}
+.ui-ipa .nbc-hd {
+  margin: 0;
+}
+.ui-ipa .pc-st {
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+}
+.ui-ipa .pt-link {
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.ui-ipa .pt-link:focus-visible {
+  outline: 3px solid var(--nb-ink);
+  outline-offset: 2px;
+}
+.ui-ipa .pt-speak svg {
+  width: 13px;
+  height: 13px;
+}
+.ui-ipa .nbc-hd-wide {
+  display: inline;
+}
+.ui-ipa .nbc-hd-narrow {
+  display: none;
+}
+@media (max-width: 639px) {
+  .ui-ipa .pc-page {
+    gap: 14px;
+  }
+  .ui-ipa .nbc-hd-wide {
+    display: none;
+  }
+  .ui-ipa .nbc-hd-narrow {
+    display: inline;
+  }
+}
+
+.lp-app:has(.ui-ipa) .lp-main {
+  margin-inline: 0;
+}
+.ui-ipa .nbc-hd .pc-cont {
+  background-color: #ffffffeb;
+  color: var(--nb-ink);
+  box-shadow:
+    inset 0 0 0 1.5px #7459cc,
+    0 10px 18px -12px #7459cc99;
+}
+.ui-ipa .kw-mark {
+  text-decoration: underline;
+  text-decoration-color: var(--nb-paper-oaihuong-line);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 1px;
+}
+
+.ui-ipa .nbc-hd .nbc-hd-cta .pc-cont {background:#ffffffeb !important;color:var(--nb-ink) !important;box-shadow:inset 0 0 0 1.5px #7459cc,0 10px 18px -12px #7459cc99 !important;}

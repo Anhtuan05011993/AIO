@@ -1,0 +1,174 @@
+[
+  {
+    "width": 1440,
+    "maxDelta": 0,
+    "overflow": false,
+    "blocks": [
+      {
+        "class": "nbc-hd nbx-f-vid",
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "class": "nbx-blk nbx-r-ivory vdh-mine",
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0.0
+        }
+      },
+      {
+        "class": "vah",
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0.0
+        }
+      },
+      {
+        "class": "hnst",
+        "delta": {
+          "x": 0,
+          "y": 0.0,
+          "w": 0,
+          "h": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "maxDelta": 2,
+    "overflow": false,
+    "blocks": [
+      {
+        "class": "nbc-hd nbx-f-vid",
+        "delta": {
+          "x": 0,
+          "y": 2,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "class": "nbx-blk nbx-r-ivory vdh-mine",
+        "delta": {
+          "x": 0,
+          "y": 2,
+          "w": 0,
+          "h": 0.0
+        }
+      },
+      {
+        "class": "vah",
+        "delta": {
+          "x": 0,
+          "y": 2,
+          "w": 0,
+          "h": 0.0
+        }
+      },
+      {
+        "class": "hnst",
+        "delta": {
+          "x": 0,
+          "y": 2.0,
+          "w": 0,
+          "h": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "maxDelta": 0,
+    "overflow": false,
+    "blocks": [
+      {
+        "class": "nbc-hd nbx-f-vid",
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "class": "nbx-blk nbx-r-ivory vdh-mine",
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0.0
+        }
+      },
+      {
+        "class": "vah",
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0.0
+        }
+      },
+      {
+        "class": "hnst",
+        "delta": {
+          "x": 0,
+          "y": 0.0,
+          "w": 0,
+          "h": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "width": 360,
+    "maxDelta": 0,
+    "overflow": false,
+    "blocks": [
+      {
+        "class": "nbc-hd nbx-f-vid",
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "class": "nbx-blk nbx-r-ivory vdh-mine",
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0.0
+        }
+      },
+      {
+        "class": "vah",
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0.0
+        }
+      },
+      {
+        "class": "hnst",
+        "delta": {
+          "x": 0,
+          "y": 0.0,
+          "w": 0,
+          "h": 0.0
+        }
+      }
+    ]
+  }
+]

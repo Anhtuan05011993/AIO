@@ -1,0 +1,134 @@
+{
+ "api": {
+  "a2-past-simple": {
+   "/api/ngu-phap/node/a2-past-simple": {
+    "status": 200,
+    "preview": "<!DOCTYPE html><html  lang=\"vi\" data-app=\"tienganh\" data-feature=\"go-cau\" data-nb-page=\"welcome:flow\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#f3f2eb\"><title>Chào mừng · AIO English</title><"
+   },
+   "/api/ngu-phap/a2-past-simple": {
+    "status": 200,
+    "preview": "<!DOCTYPE html><html  lang=\"vi\" data-app=\"tienganh\" data-feature=\"go-cau\" data-nb-page=\"welcome:flow\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#f3f2eb\"><title>Chào mừng · AIO English</title><"
+   },
+   "/api/ngu-phap/lesson/a2-past-simple": {
+    "status": 200,
+    "preview": "<!DOCTYPE html><html  lang=\"vi\" data-app=\"tienganh\" data-feature=\"go-cau\" data-nb-page=\"welcome:flow\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#f3f2eb\"><title>Chào mừng · AIO English</title><"
+   },
+   "/api/ngu-phap/nodes/a2-past-simple": {
+    "status": 200,
+    "preview": "{\"lesson\":{\"v\":2,\"nodeId\":\"a2-past-simple\",\"level\":\"A2\",\"title\":\"Quá khứ đơn: phủ định và câu hỏi\",\"guided\":[{\"t\":\"teach\",\"cardId\":\"a2-past-simple-start\"},{\"t\":\"teach\",\"cardId\":\"a2-past-simple-rule-1\"},{\"t\":\"item\",\"itemId\":\"a2-past-simple-g2-t01\"},{\"t\":\"item\",\"itemId\":\"a2-past-simple-g2-c01\"},{\"t\":\""
+   },
+   "/api/ngu-phap/content/a2-past-simple": {
+    "status": 200,
+    "preview": "<!DOCTYPE html><html  lang=\"vi\" data-app=\"tienganh\" data-feature=\"go-cau\" data-nb-page=\"welcome:flow\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#f3f2eb\"><title>Chào mừng · AIO English</title><"
+   },
+   "/api/grammar/node/a2-past-simple": {
+    "status": 200,
+    "preview": "<!DOCTYPE html><html  lang=\"vi\" data-app=\"tienganh\" data-feature=\"go-cau\" data-nb-page=\"welcome:flow\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#f3f2eb\"><title>Chào mừng · AIO English</title><"
+   }
+  },
+  "b2-inversion-so-neither": {
+   "/api/ngu-phap/node/b2-inversion-so-neither": {
+    "status": 200,
+    "preview": "<!DOCTYPE html><html  lang=\"vi\" data-app=\"tienganh\" data-feature=\"go-cau\" data-nb-page=\"welcome:flow\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#f3f2eb\"><title>Chào mừng · AIO English</title><"
+   },
+   "/api/ngu-phap/b2-inversion-so-neither": {
+    "status": 200,
+    "preview": "<!DOCTYPE html><html  lang=\"vi\" data-app=\"tienganh\" data-feature=\"go-cau\" data-nb-page=\"welcome:flow\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#f3f2eb\"><title>Chào mừng · AIO English</title><"
+   },
+   "/api/ngu-phap/lesson/b2-inversion-so-neither": {
+    "status": 200,
+    "preview": "<!DOCTYPE html><html  lang=\"vi\" data-app=\"tienganh\" data-feature=\"go-cau\" data-nb-page=\"welcome:flow\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#f3f2eb\"><title>Chào mừng · AIO English</title><"
+   },
+   "/api/ngu-phap/nodes/b2-inversion-so-neither": {
+    "status": 200,
+    "preview": "{\"lesson\":{\"v\":2,\"nodeId\":\"b2-inversion-so-neither\",\"level\":\"B1\",\"title\":\"Đáp ngắn: So do I, Neither do I\",\"guided\":[{\"t\":\"teach\",\"cardId\":\"b2-inversion-so-neither-start\"},{\"t\":\"teach\",\"cardId\":\"b2-inversion-so-neither-so\"},{\"t\":\"item\",\"itemId\":\"b2-inversion-so-neither-g2-t01\"},{\"t\":\"item\",\"itemId\":"
+   },
+   "/api/ngu-phap/content/b2-inversion-so-neither": {
+    "status": 200,
+    "preview": "<!DOCTYPE html><html  lang=\"vi\" data-app=\"tienganh\" data-feature=\"go-cau\" data-nb-page=\"welcome:flow\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#f3f2eb\"><title>Chào mừng · AIO English</title><"
+   },
+   "/api/grammar/node/b2-inversion-so-neither": {
+    "status": 200,
+    "preview": "<!DOCTYPE html><html  lang=\"vi\" data-app=\"tienganh\" data-feature=\"go-cau\" data-nb-page=\"welcome:flow\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#f3f2eb\"><title>Chào mừng · AIO English</title><"
+   }
+  },
+  "c1-modality-obligation": {
+   "/api/ngu-phap/node/c1-modality-obligation": {
+    "status": 200,
+    "preview": "<!DOCTYPE html><html  lang=\"vi\" data-app=\"tienganh\" data-feature=\"go-cau\" data-nb-page=\"welcome:flow\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#f3f2eb\"><title>Chào mừng · AIO English</title><"
+   },
+   "/api/ngu-phap/c1-modality-obligation": {
+    "status": 200,
+    "preview": "<!DOCTYPE html><html  lang=\"vi\" data-app=\"tienganh\" data-feature=\"go-cau\" data-nb-page=\"welcome:flow\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#f3f2eb\"><title>Chào mừng · AIO English</title><"
+   },
+   "/api/ngu-phap/lesson/c1-modality-obligation": {
+    "status": 200,
+    "preview": "<!DOCTYPE html><html  lang=\"vi\" data-app=\"tienganh\" data-feature=\"go-cau\" data-nb-page=\"welcome:flow\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#f3f2eb\"><title>Chào mừng · AIO English</title><"
+   },
+   "/api/ngu-phap/nodes/c1-modality-obligation": {
+    "status": 200,
+    "preview": "{\"lesson\":{\"v\":2,\"nodeId\":\"c1-modality-obligation\",\"level\":\"C1\",\"title\":\"ought, needn't have, shall\",\"guided\":[{\"t\":\"teach\",\"cardId\":\"c1-modality-obligation-start\"},{\"t\":\"teach\",\"cardId\":\"c1-modality-obligation-rule-1\"},{\"t\":\"item\",\"itemId\":\"c1-modality-obligation-g2-g01\"},{\"t\":\"item\",\"itemId\":\"c1-m"
+   },
+   "/api/ngu-phap/content/c1-modality-obligation": {
+    "status": 200,
+    "preview": "<!DOCTYPE html><html  lang=\"vi\" data-app=\"tienganh\" data-feature=\"go-cau\" data-nb-page=\"welcome:flow\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#f3f2eb\"><title>Chào mừng · AIO English</title><"
+   },
+   "/api/grammar/node/c1-modality-obligation": {
+    "status": 200,
+    "preview": "<!DOCTYPE html><html  lang=\"vi\" data-app=\"tienganh\" data-feature=\"go-cau\" data-nb-page=\"welcome:flow\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#f3f2eb\"><title>Chào mừng · AIO English</title><"
+   }
+  },
+  "c2-adjective-order": {
+   "/api/ngu-phap/node/c2-adjective-order": {
+    "status": 200,
+    "preview": "<!DOCTYPE html><html  lang=\"vi\" data-app=\"tienganh\" data-feature=\"go-cau\" data-nb-page=\"welcome:flow\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#f3f2eb\"><title>Chào mừng · AIO English</title><"
+   },
+   "/api/ngu-phap/c2-adjective-order": {
+    "status": 200,
+    "preview": "<!DOCTYPE html><html  lang=\"vi\" data-app=\"tienganh\" data-feature=\"go-cau\" data-nb-page=\"welcome:flow\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#f3f2eb\"><title>Chào mừng · AIO English</title><"
+   },
+   "/api/ngu-phap/lesson/c2-adjective-order": {
+    "status": 200,
+    "preview": "<!DOCTYPE html><html  lang=\"vi\" data-app=\"tienganh\" data-feature=\"go-cau\" data-nb-page=\"welcome:flow\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#f3f2eb\"><title>Chào mừng · AIO English</title><"
+   },
+   "/api/ngu-phap/nodes/c2-adjective-order": {
+    "status": 200,
+    "preview": "{\"lesson\":{\"v\":2,\"nodeId\":\"c2-adjective-order\",\"level\":\"B1\",\"title\":\"Trật tự tính từ\",\"guided\":[{\"t\":\"teach\",\"cardId\":\"c2-adjective-order-start\"},{\"t\":\"teach\",\"cardId\":\"c2-adjective-order-order\"},{\"t\":\"item\",\"itemId\":\"c2-adjective-order-g2-f01\"},{\"t\":\"item\",\"itemId\":\"c2-adjective-order-g2-g01\"},{\"t\""
+   },
+   "/api/ngu-phap/content/c2-adjective-order": {
+    "status": 200,
+    "preview": "<!DOCTYPE html><html  lang=\"vi\" data-app=\"tienganh\" data-feature=\"go-cau\" data-nb-page=\"welcome:flow\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#f3f2eb\"><title>Chào mừng · AIO English</title><"
+   },
+   "/api/grammar/node/c2-adjective-order": {
+    "status": 200,
+    "preview": "<!DOCTYPE html><html  lang=\"vi\" data-app=\"tienganh\" data-feature=\"go-cau\" data-nb-page=\"welcome:flow\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#f3f2eb\"><title>Chào mừng · AIO English</title><"
+   }
+  }
+ },
+ "html": {
+  "a2-past-simple": {
+   "status": 200,
+   "length": 20933,
+   "hasNuxtData": true,
+   "marker": "id không thấy trong HTML"
+  },
+  "b2-inversion-so-neither": {
+   "status": 200,
+   "length": 20933,
+   "hasNuxtData": true,
+   "marker": "id không thấy trong HTML"
+  },
+  "c1-modality-obligation": {
+   "status": 200,
+   "length": 20933,
+   "hasNuxtData": true,
+   "marker": "id không thấy trong HTML"
+  },
+  "c2-adjective-order": {
+   "status": 200,
+   "length": 20933,
+   "hasNuxtData": true,
+   "marker": "id không thấy trong HTML"
+  }
+ }
+}

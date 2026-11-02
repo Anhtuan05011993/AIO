@@ -1,0 +1,12 @@
+{
+  "saveEdited": {
+    "disabled": false,
+    "visible": true
+  },
+  "saveUnchanged": {
+    "disabled": true,
+    "wrap": "visible"
+  },
+  "goalModal": "     - radio \"Hoàn thành A2\"\n      - text: Hoàn thành A2\n      - radio \"Hoàn thành B1\" [checked]\n      - text: Hoàn thành B1\n      - radio \"Hoàn thành B2\"\n      - text: Hoàn thành B2\n      - radio \"Hoàn thành C1\"\n      - text: Hoàn thành C1\n    - button \"Lưu mục tiêu\"\n- button \"Tiện ích\": ⌘\n- navigation \"Điều hướng nhanh\":\n  - link \"Trang chủ\":\n    - /url: /\n    - generic: Trang chủ\n  - link \"Gõ câu\":\n    - /url: /go-cau\n    - generic: Gõ câu\n  - link \"Từ vựng\":\n    - /url: /tu-vung\n    - generic: Từ vựng\n  - link \"Ngữ pháp\":\n    - /url: /ngu-phap\n    - generic: Ngữ pháp\n  - button \"Mở điều hướng\":\n    - generic: ☰\n    - generic: Menu\n- alert",
+  "profileEditedNotSubmitted": true
+}

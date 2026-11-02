@@ -1,0 +1,97 @@
+Here is a targeted review of the `DictionaryHub` controller across all required dimensions.
+
+---
+
+### 1. IME (Input Method Editor)
+
+* **Premature Submit on IME Confirmation (Critical)**:
+  * **Issue**: When composing text (e.g., Vietnamese Telex, Japanese, Chinese), pressing <kbd>Enter</kbd> to confirm the composition string fires `compositionend` *before* or simultaneously with the form's `submit` / <kbd>Enter</kbd> `keydown`.
+  * **Failure point**: `composing.current` is set to `false` in `onCompositionEnd`, so by the time `onSubmit` executes, `!composing.current` evaluates to `true`. This causes the form to submit and immediately pick/navigate away while the user only intended to confirm their IME candidate.
+  * **Fix**: Guard `onKeyDown` against `e.nativeEvent.isComposing` or check if the <kbd>Enter</kbd> key was the composition-ending key (e.g. `keyCode === 229` or tracking a timestamp/microtask delay on `compositionend` before allowing submit).
+
+---
+
+### 2. Keyboard & Focus Management
+
+* **ArrowUp Off-by-One Bug from Unselected State (`active === -1`)**:
+  * **Issue**:
+    ```ts
+    setActive(
+      e.key === "ArrowDown"
+        ? (active + 1) % suggestions.length
+        : (active + suggestions.length - 1) % suggestions.length,
+    );
+    ```
+    When `active === -1` and the user presses <kbd>ArrowUp</kbd>:
+    `(-1 + len - 1) % len` = `(len - 2) % len`.
+    For 8 suggestions, `(-1 + 8 - 1) % 8 = 6` (index 6, the 7th item). **The last item (index 7) is skipped entirely.**
+  * **Fix**: Explicitly handle the initial `-1` state:
+    ```ts
+    if (e.key === "ArrowUp") {
+      setActive(active <= 0 ? suggestions.length - 1 : active - 1);
+    } else {
+      setActive(active >= suggestions.length - 1 ? 0 : active + 1);
+    }
+    ```
+
+* **Trap in Suggestions Loop (Cannot Unselect Back to Typed Query)**:
+  * Neither <kbd>ArrowDown</kbd> nor <kbd>ArrowUp</kbd> allows returning to `-1`. Standard combobox navigation cycles `typed query (-1) -> 0 -> ... -> N-1 -> typed query (-1)`. Once in the list, the user cannot revert to what they actually typed without pressing <kbd>Escape</kbd>.
+
+* **Mouse Hover Jitter Overrides Keyboard Navigation**:
+  * `<button onPointerMove={() => setActive(i)}>` continuously overrides the keyboard's `active` index whenever the cursor happens to rest over the suggestions container or suffers sub-pixel pointer jitter.
+
+* **CTA Button Ignores Highlighted Suggestion**:
+  * Submitting via <kbd>Enter</kbd> selects `suggestions[active]?.word ?? query`.
+  * Clicking the CTA button (`nbc-btn is-ink`) invokes `pick(query)` unconditionally, ignoring whatever suggestion was actively highlighted.
+
+---
+
+### 3. Suggestion ARIA & Combobox Contract
+
+* **Invalid Element for `role="option"`**:
+  * Suggestions are rendered as `<button role="option">`. The WAI-ARIA Combobox pattern specifies that elements with `role="option"` must not be interactive focusable elements (like `<button>`). Screen readers often misannounce nested interactive controls in listboxes. Use `<div role="option">` or `<li role="option">`.
+* **Missing `aria-haspopup`**:
+  * `<input role="combobox">` specifies `aria-autocomplete="list"` and `aria-expanded`, but is missing `aria-haspopup="listbox"`, which is required by the ARIA 1.2 Combobox specification.
+* **No Dynamic Screen Reader Announcements**:
+  * When suggestions appear or update, there is no `aria-live` region notifying assistive tech users of the count of available results.
+
+---
+
+### 4. URL & History (Back / Forward)
+
+* **Deep Linking Ignored on Initial Mount**:
+  * `useEffect` sets up a `popstate` listener, but `popstate` only fires on browser navigation actions (Back/Forward). If a user opens `/?q=example` directly, `sync()` never runs. If the parent does not pre-parse the URL and pass it into `initialQuery`, the URL parameter is ignored on initial load.
+* **Back Button Corrupts History Stack (`td-bk`)**:
+  * The back link overrides default navigation and runs `pick("")`:
+    ```ts
+    onClick={(e) => {
+      if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
+      e.preventDefault();
+      pick("");
+    }}
+    ```
+    This calls `window.history.pushState()`, pushing a *new forward* history entry where `q` is deleted, rather than moving backwards. Clicking the browser's native Back button afterward immediately brings the user back to the word they just tried to leave.
+* **Duplicate History Entries on Repeated Submissions**:
+  * Submitting the same word multiple times repeatedly pushes identical `q=<word>` entries onto `window.history`.
+* **Popstate Leaves Modal Dialog State Dangling**:
+  * When navigating Back/Forward, `sync()` resets query/selected/suggest, but does not reset `save` or `saveStatus`. If the user has the save dialog open, navigating back leaves the dialog open with potentially mismatched entry details.
+
+---
+
+### 5. Concrete State, Debounce & Rapid Typing
+
+* **Stale Suggestions Flash During Rapid Typing**:
+  * `debounced` lags behind `query` by 150ms.
+  * `show = suggest && !!query.trim() && suggestions.length > 0;`
+  * If a user types quickly (e.g. typing "cat" after "car"), `query` immediately becomes "cat", but `suggestions` still shows matches for "car" for up to 150ms.
+* **Unnecessary Debounced Execution on `pick()`**:
+  * `pick()` calls `setQuery(value)`. This restarts the 150ms timer, causing `debounced` to change 150ms later and triggering `searchDictionary(value, 8)` in the background even though the dropdown is closed (`suggest === false`).
+* **Hardcoded Fallback Masking Empty State on Initial Blank Query**:
+  * `resolveWord(selected || "adrenaline")` resolves `"adrenaline"` whenever `selected === ""`. Consequently, a blank search state never displays a blank/landing view; it always falls back to `"adrenaline"`, while the empty view (`ui-dict-empty`) only triggers when an actual non-matching query is resolved.
+
+---
+
+### 6. Pointer & Event Handling
+
+* **`preventDefault` on `onPointerDown` Risks Suppressing Mobile Clicks**:
+  * Suggestion items use `onPointerDown={(e) => e.preventDefault()}` to keep focus on the `<input>`. On mobile WebKit / Android Chrome touch interfaces, preventing default on pointerdown can suppress synthetic `click` events, making dropdown items intermittently unresponsive to taps. Use `onMouseDown={(e) => e.preventDefault()}` instead to preserve touch click generation while preventing desktop input blur.

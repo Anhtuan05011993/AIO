@@ -1,0 +1,259 @@
+{
+  "art": {
+    "vocab-decks-h": "<span class=\"ta-tile is-head ta-plate nbx-r-goal nbx-bh-art\" aria-hidden=\"true\"><svg class=\"ta nbx-r-goal\" data-k=\"cards\" data-a1=\"peach\" data-a2=\"do\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g transform=\"translate(10 0)\"><g class=\"mv2\"><rect class=\"a1\" x=\"40\" y=\"22\" width=\"40\" height=\"58\" rx=\"5\" transform=\"rotate(-22 60 86)\"></rect></g><rect class=\"m\" x=\"40\" y=\"22\" width=\"40\" height=\"58\" rx=\"5\" transform=\"rotate(-6 60 86)\"></rect><g class=\"mv\"><g transform=\"rotate(12 60 86)\"><rect class=\"p\" x=\"40\" y=\"22\" width=\"40\" height=\"58\" rx=\"5\"></rect><rect class=\"k\" x=\"46\" y=\"33\" width=\"22\" height=\"5.5\"></rect><rect class=\"k2\" x=\"46\" y=\"43\" width=\"28\" height=\"3\"></rect><rect class=\"k2\" x=\"46\" y=\"49\" width=\"18\" height=\"3\"></rect><circle class=\"a2\" cx=\"71\" cy=\"70\" r=\"5\"></circle><rect class=\"t\" x=\"52\" y=\"17\" width=\"17\" height=\"7\" transform=\"rotate(-8 60 20)\"></rect></g></g></g></g></svg></span>",
+    "vocab-due-h": "<span class=\"ta-tile is-head ta-plate nbx-r-goal nbx-bh-art\" aria-hidden=\"true\"><svg class=\"ta nbx-r-goal\" data-k=\"hourglass\" data-a1=\"do\" data-a2=\"info\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><rect class=\"m\" x=\"62\" y=\"20\" width=\"40\" height=\"56\" rx=\"4\" transform=\"rotate(10 82 48)\"></rect><g transform=\"rotate(4 78 46)\"><rect class=\"p\" x=\"58\" y=\"18\" width=\"40\" height=\"56\" rx=\"4\"></rect><rect class=\"k\" x=\"64\" y=\"28\" width=\"22\" height=\"4.5\"></rect><rect class=\"k2\" x=\"64\" y=\"37\" width=\"28\" height=\"2.6\"></rect></g></g><g class=\"mv\"><rect class=\"d\" x=\"18\" y=\"8\" width=\"44\" height=\"7\" rx=\"2\"></rect><rect class=\"d\" x=\"18\" y=\"77\" width=\"44\" height=\"7\" rx=\"2\"></rect><path class=\"p\" d=\"M24 15h32c0 14-12 20-12 31s12 17 12 31H24c0-14 12-20 12-31s-12-17-12-31z\"></path><path class=\"a1\" d=\"M30 24h20c-2 7-8 10-10 14-2-4-8-7-10-14zM27 73c3-10 8-12 13-14 5 2 10 4 13 14z\"></path><rect class=\"a1\" x=\"39\" y=\"44\" width=\"2\" height=\"12\"></rect></g><rect class=\"t\" x=\"92\" y=\"10\" width=\"18\" height=\"7\" transform=\"rotate(24 101 13)\"></rect></g></svg></span>",
+    "vocab-goals-h": "<span class=\"ta-tile is-head ta-plate nbx-r-info nbx-bh-art\" aria-hidden=\"true\"><svg class=\"ta nbx-r-info\" data-k=\"ielts\" data-a1=\"do\" data-a2=\"heat\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><g transform=\"rotate(-6 50 44)\"><rect class=\"m\" x=\"13\" y=\"13\" width=\"76\" height=\"58\" rx=\"2\"></rect><rect class=\"p\" x=\"10\" y=\"10\" width=\"76\" height=\"58\" rx=\"2\"></rect><rect class=\"fr\" x=\"15\" y=\"15\" width=\"66\" height=\"48\"></rect><rect class=\"k\" x=\"28\" y=\"23\" width=\"40\" height=\"5\"></rect><rect class=\"k2\" x=\"22\" y=\"34\" width=\"52\" height=\"2.6\"></rect><rect class=\"k2\" x=\"26\" y=\"40\" width=\"44\" height=\"2.6\"></rect><rect class=\"k2\" x=\"22\" y=\"54\" width=\"20\" height=\"2.6\"></rect></g></g><g class=\"mv\"><path class=\"a2\" d=\"M84 62l-8 24 9-5 5 8 5-26zM98 62l8 24-9-5-5 8-5-26z\"></path><circle class=\"ray2\" cx=\"91\" cy=\"58\" r=\"15\"></circle><circle class=\"a1\" cx=\"91\" cy=\"58\" r=\"12\"></circle><circle class=\"p\" cx=\"91\" cy=\"58\" r=\"6\"></circle></g></g></svg></span>",
+    "vocab-ipa-h": "<span class=\"ta-tile is-head ta-plate nbx-r-info nbx-bh-art\" aria-hidden=\"true\"><svg class=\"ta nbx-r-info\" data-k=\"voice\" data-a1=\"heat\" data-a2=\"do\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><path class=\"p\" d=\"M70 6h40a5 5 0 0 1 5 5v20a5 5 0 0 1-5 5H86l-8 8v-8h-8a5 5 0 0 1-5-5V11a5 5 0 0 1 5-5z\"></path><text class=\"tx\" x=\"90\" y=\"25\">/æ/</text></g><g class=\"mv\"><path class=\"ln\" d=\"M28 46a22 22 0 0 0 44 0M50 68v12\"></path><rect class=\"d\" x=\"34\" y=\"80\" width=\"32\" height=\"7\" rx=\"3\"></rect><rect class=\"m\" x=\"40\" y=\"15\" width=\"24\" height=\"44\" rx=\"12\"></rect><rect class=\"a1\" x=\"38\" y=\"12\" width=\"24\" height=\"44\" rx=\"12\"></rect><path class=\"lw\" d=\"M43 24h14M43 31h14M43 38h14\"></path><path class=\"ln2\" d=\"M80 52q6 8 0 16M88 46q10 14 0 28M20 52q-6 8 0 16\"></path></g></g></svg></span>"
+  },
+  "cards": [
+    {
+      "art": "<span data-v-33ecd40a=\"\" class=\"ta-tile is-bare vhs-art\" aria-hidden=\"true\"><svg class=\"ta nbx-r-goal\" data-k=\"mine\" data-a1=\"do\" data-a2=\"heat\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><rect class=\"d\" x=\"31\" y=\"11\" width=\"60\" height=\"76\" rx=\"4\"></rect><rect class=\"m\" x=\"28\" y=\"8\" width=\"60\" height=\"76\" rx=\"4\"></rect><rect class=\"d\" x=\"28\" y=\"8\" width=\"9\" height=\"76\" rx=\"2\"></rect><rect class=\"p\" x=\"46\" y=\"22\" width=\"32\" height=\"18\" rx=\"2\"></rect><rect class=\"k2\" x=\"51\" y=\"28\" width=\"22\" height=\"2.6\"></rect><rect class=\"k2\" x=\"51\" y=\"33\" width=\"15\" height=\"2.6\"></rect><rect class=\"d\" x=\"76\" y=\"8\" width=\"4\" height=\"76\"></rect><path class=\"a1\" transform=\"translate(52 54) scale(.8)\" d=\"M0 -10L2.47 -3.4L9.51 -3.09L3.99 1.3L5.88 8.09L0 4.2L-5.88 8.09L-3.99 1.3L-9.51 -3.09L-2.47 -3.4z\"></path></g><g class=\"mv\"><path class=\"a1\" d=\"M62 0h10v36l-5-5-5 5z\"></path><g transform=\"rotate(-38 98 66)\"><rect class=\"a2\" x=\"80\" y=\"62\" width=\"36\" height=\"8\" rx=\"2\"></rect><path class=\"p\" d=\"M80 62l-9 4 9 4z\"></path><path class=\"k\" d=\"M74 64.7 71 66l3 1.3z\"></path><rect class=\"d\" x=\"106\" y=\"62\" width=\"4\" height=\"8\"></rect></g></g></g></svg></span>",
+      "className": "nbx-card nbx-vdeck nbx-r-goal vhs-fc vhs-gate is-empty",
+      "count": "",
+      "description": "Chưa có từ nào. Lưu từ khi đang học hoặc tự tạo bộ từ của riêng bạn.",
+      "href": "#",
+      "level": "",
+      "levelClass": "",
+      "title": "Của bạn"
+    },
+    {
+      "art": "<span data-v-33ecd40a=\"\" class=\"ta-tile is-bare vhs-art\" aria-hidden=\"true\"><svg class=\"ta nbx-r-ok\" data-k=\"ox3000\" data-a1=\"do\" data-a2=\"info\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><rect class=\"a2\" x=\"80\" y=\"16\" width=\"10\" height=\"9\" rx=\"2\"></rect><rect class=\"a1\" x=\"80\" y=\"30\" width=\"10\" height=\"9\" rx=\"2\"></rect><rect class=\"a2\" x=\"80\" y=\"44\" width=\"10\" height=\"9\" rx=\"2\"></rect><rect class=\"p\" x=\"76\" y=\"12\" width=\"10\" height=\"70\"></rect><path class=\"rl\" d=\"M78 18v58M81 18v58M84 18v58\"></path></g><g class=\"mv\"><rect class=\"d\" x=\"27\" y=\"9\" width=\"54\" height=\"76\" rx=\"4\"></rect><rect class=\"m\" x=\"24\" y=\"6\" width=\"54\" height=\"76\" rx=\"4\"></rect><rect class=\"d\" x=\"24\" y=\"6\" width=\"10\" height=\"76\" rx=\"2\"></rect><rect class=\"p\" x=\"40\" y=\"26\" width=\"32\" height=\"22\" rx=\"2\"></rect><text class=\"tx\" x=\"56\" y=\"41\">3000</text><rect class=\"k2\" x=\"42\" y=\"56\" width=\"28\" height=\"2.6\"></rect><rect class=\"k2\" x=\"46\" y=\"62\" width=\"20\" height=\"2.6\"></rect><path class=\"a1\" d=\"M60 82h7v8l-3.5-3-3.5 3z\"></path></g><rect class=\"t\" x=\"16\" y=\"2\" width=\"18\" height=\"7\" transform=\"rotate(-18 25 5)\"></rect></g></svg></span>",
+      "className": "nbx-card nbx-vdeck vhs-fc nbx-r-ok",
+      "count": "2.979 từ",
+      "description": "3000 từ tiếng Anh cốt lõi quan trọng nhất, xếp theo cấp độ CEFR.",
+      "href": "/tu-vung/oxford-3000",
+      "level": "A1-B2",
+      "levelClass": "nbx-chip nbx-lvl nbx-lv-a1",
+      "title": "Oxford 3000"
+    },
+    {
+      "art": "<span data-v-33ecd40a=\"\" class=\"ta-tile is-bare vhs-art\" aria-hidden=\"true\"><svg class=\"ta nbx-r-peach\" data-k=\"ox5000\" data-a1=\"do\" data-a2=\"goal\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><g transform=\"rotate(-14 30 84)\"><rect class=\"a2\" x=\"14\" y=\"18\" width=\"26\" height=\"66\" rx=\"3\"></rect><rect class=\"p\" x=\"18\" y=\"28\" width=\"18\" height=\"4\"></rect><rect class=\"p\" x=\"18\" y=\"70\" width=\"18\" height=\"4\"></rect></g></g><g class=\"mv\"><rect class=\"d\" x=\"45\" y=\"13\" width=\"44\" height=\"74\" rx=\"4\"></rect><rect class=\"m\" x=\"42\" y=\"10\" width=\"44\" height=\"74\" rx=\"4\"></rect><rect class=\"d\" x=\"42\" y=\"10\" width=\"8\" height=\"74\" rx=\"2\"></rect><rect class=\"p\" x=\"54\" y=\"30\" width=\"28\" height=\"20\" rx=\"2\"></rect><text class=\"tx\" x=\"68\" y=\"44\">5000</text><rect class=\"k2\" x=\"56\" y=\"58\" width=\"24\" height=\"2.6\"></rect></g><g class=\"mv2\"><path class=\"d\" transform=\"translate(98 22) scale(1.55)\" d=\"M0 -10L2.47 -3.4L9.51 -3.09L3.99 1.3L5.88 8.09L0 4.2L-5.88 8.09L-3.99 1.3L-9.51 -3.09L-2.47 -3.4z\"></path><path class=\"a1\" transform=\"translate(97 20) scale(1.55)\" d=\"M0 -10L2.47 -3.4L9.51 -3.09L3.99 1.3L5.88 8.09L0 4.2L-5.88 8.09L-3.99 1.3L-9.51 -3.09L-2.47 -3.4z\"></path></g></g></svg></span>",
+      "className": "nbx-card nbx-vdeck vhs-fc nbx-r-peach",
+      "count": "1.975 từ",
+      "description": "2000 từ mở rộng ngoài Oxford 3000, dành cho trình độ B2-C1.",
+      "href": "/tu-vung/oxford-5000-nang-cao",
+      "level": "B2-C1",
+      "levelClass": "nbx-chip nbx-lvl nbx-lv-b2",
+      "title": "Oxford 5000 nâng cao"
+    },
+    {
+      "art": "<span data-v-33ecd40a=\"\" class=\"ta-tile is-bare vhs-art is-sm\" aria-hidden=\"true\"><svg class=\"ta nbx-r-info\" data-k=\"travel\" data-a1=\"do\" data-a2=\"heat\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><g transform=\"rotate(-9 36 28)\"><path class=\"p\" d=\"M6 12h58v10a4 4 0 0 0 0 8v10H6z\"></path><rect class=\"a2\" x=\"6\" y=\"12\" width=\"11\" height=\"28\"></rect><rect class=\"k\" x=\"22\" y=\"18\" width=\"22\" height=\"4.5\"></rect><rect class=\"k2\" x=\"22\" y=\"26\" width=\"16\" height=\"2.6\"></rect><rect class=\"k2\" x=\"22\" y=\"31.5\" width=\"26\" height=\"2.6\"></rect><path class=\"perf\" d=\"M54 14v24\"></path><rect class=\"t\" x=\"38\" y=\"6\" width=\"17\" height=\"7\" transform=\"rotate(10 46 10)\"></rect></g></g><g class=\"mv\"><rect class=\"m\" x=\"52\" y=\"34\" width=\"56\" height=\"49\" rx=\"7\"></rect><rect class=\"d\" x=\"50\" y=\"31\" width=\"56\" height=\"49\" rx=\"7\"></rect><path class=\"ln\" d=\"M67 31v-7h22v7\"></path><rect class=\"a1\" x=\"58\" y=\"31\" width=\"6\" height=\"49\"></rect><rect class=\"a1\" x=\"92\" y=\"31\" width=\"6\" height=\"49\"></rect><circle class=\"p\" cx=\"78\" cy=\"55\" r=\"8\"></circle><circle class=\"a2\" cx=\"78\" cy=\"55\" r=\"3.4\"></circle><circle class=\"k\" cx=\"60\" cy=\"84\" r=\"3\"></circle><circle class=\"k\" cx=\"96\" cy=\"84\" r=\"3\"></circle></g><g class=\"mv2\"><g transform=\"rotate(9 40 66)\"><rect class=\"a2\" x=\"26\" y=\"48\" width=\"27\" height=\"35\" rx=\"3\"></rect><circle class=\"lw\" cx=\"39.5\" cy=\"62\" r=\"7\"></circle><path class=\"lw\" d=\"M32.5 62h14M39.5 55c-4 4-4 10 0 14M39.5 55c4 4 4 10 0 14\"></path><rect class=\"p\" x=\"31\" y=\"74\" width=\"17\" height=\"3\"></rect></g></g></g></svg></span>",
+      "className": "nbx-card nbx-vdeck nbx-r-ivory",
+      "count": "146 từ",
+      "description": "Từ vựng chủ đề du lịch, giao thông, khách sạn.",
+      "href": "/tu-vung/chu-de-travel",
+      "level": "A1-C1",
+      "levelClass": "nbx-chip nbx-lvl nbx-lv-a1",
+      "title": "Du lịch"
+    },
+    {
+      "art": "<span data-v-33ecd40a=\"\" class=\"ta-tile is-bare vhs-art is-sm\" aria-hidden=\"true\"><svg class=\"ta nbx-r-heat\" data-k=\"business\" data-a1=\"do\" data-a2=\"info\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><g transform=\"rotate(12 82 30)\"><rect class=\"p\" x=\"60\" y=\"6\" width=\"44\" height=\"44\" rx=\"2\"></rect><path class=\"chart\" d=\"M66 38l9-8 8 4 15-16\"></path><rect class=\"k2\" x=\"66\" y=\"12\" width=\"18\" height=\"2.6\"></rect></g></g><g class=\"mv\"><path class=\"ln\" d=\"M38 36v-8a4 4 0 0 1 4-4h18a4 4 0 0 1 4 4v8\"></path><rect class=\"m\" x=\"17\" y=\"39\" width=\"72\" height=\"47\" rx=\"6\"></rect><rect class=\"d\" x=\"14\" y=\"36\" width=\"72\" height=\"47\" rx=\"6\"></rect><rect class=\"p\" x=\"14\" y=\"54\" width=\"72\" height=\"4\"></rect><rect class=\"a1\" x=\"44\" y=\"50\" width=\"12\" height=\"12\" rx=\"2\"></rect></g><rect class=\"t\" x=\"2\" y=\"30\" width=\"18\" height=\"7\" transform=\"rotate(-30 11 33)\"></rect></g></svg></span>",
+      "className": "nbx-card nbx-vdeck nbx-r-ivory",
+      "count": "203 từ",
+      "description": "Từ vựng chủ đề kinh doanh, công sở, tài chính.",
+      "href": "/tu-vung/chu-de-business",
+      "level": "A1-C1",
+      "levelClass": "nbx-chip nbx-lvl nbx-lv-a1",
+      "title": "Kinh doanh"
+    },
+    {
+      "art": "<span data-v-33ecd40a=\"\" class=\"ta-tile is-bare vhs-art is-sm\" aria-hidden=\"true\"><svg class=\"ta nbx-r-do\" data-k=\"daily\" data-a1=\"heat\" data-a2=\"info\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv\"><path class=\"d\" d=\"M20 26a11 11 0 0 1 16-10zM72 16a11 11 0 0 1 16 10z\"></path><path class=\"ln\" d=\"M30 80l-6 7M78 80l6 7\"></path><circle class=\"m\" cx=\"57\" cy=\"52\" r=\"29\"></circle><circle class=\"a1\" cx=\"54\" cy=\"49\" r=\"29\"></circle><circle class=\"p\" cx=\"54\" cy=\"49\" r=\"21\"></circle><path class=\"ln\" d=\"M54 49V35M54 49l10 6\"></path><circle class=\"k\" cx=\"54\" cy=\"49\" r=\"2.4\"></circle></g><g class=\"mv2\"><path class=\"sp\" d=\"M95 50c-3-4 3-6 0-10M103 50c-3-4 3-6 0-10\"></path><path class=\"ln\" d=\"M110 62a6 6 0 0 1 0 12\"></path><rect class=\"a2\" x=\"88\" y=\"56\" width=\"22\" height=\"28\" rx=\"3\"></rect><rect class=\"p\" x=\"88\" y=\"64\" width=\"22\" height=\"4\"></rect></g></g></svg></span>",
+      "className": "nbx-card nbx-vdeck nbx-r-ivory",
+      "count": "174 từ",
+      "description": "Từ vựng gia đình, nhà cửa, quần áo, đồ dùng.",
+      "href": "/tu-vung/chu-de-daily-life",
+      "level": "A1-C1",
+      "levelClass": "nbx-chip nbx-lvl nbx-lv-a1",
+      "title": "Đời sống hằng ngày"
+    },
+    {
+      "art": "<span data-v-33ecd40a=\"\" class=\"ta-tile is-bare vhs-art is-sm\" aria-hidden=\"true\"><svg class=\"ta nbx-r-info\" data-k=\"tech\" data-a1=\"ok\" data-a2=\"do\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><rect class=\"m\" x=\"19\" y=\"15\" width=\"70\" height=\"48\" rx=\"4\"></rect><rect class=\"d\" x=\"16\" y=\"12\" width=\"70\" height=\"48\" rx=\"4\"></rect><rect class=\"k\" x=\"21\" y=\"17\" width=\"60\" height=\"38\" rx=\"2\"></rect><rect class=\"a1\" x=\"26\" y=\"23\" width=\"20\" height=\"3.4\"></rect><rect class=\"p\" x=\"49\" y=\"23\" width=\"14\" height=\"3.4\"></rect><rect class=\"a2\" x=\"32\" y=\"30\" width=\"16\" height=\"3.4\"></rect><rect class=\"p\" x=\"51\" y=\"30\" width=\"22\" height=\"3.4\"></rect><rect class=\"a1\" x=\"32\" y=\"37\" width=\"24\" height=\"3.4\"></rect><rect class=\"p\" x=\"26\" y=\"44\" width=\"10\" height=\"3.4\"></rect><path class=\"m\" d=\"M8 60h86l-6 12H14z\"></path></g><g class=\"mv\"><circle class=\"gear\" cx=\"98\" cy=\"62\" r=\"13\"></circle><circle class=\"a2\" cx=\"98\" cy=\"62\" r=\"11\"></circle><circle class=\"p\" cx=\"98\" cy=\"62\" r=\"4.4\"></circle></g><rect class=\"t\" x=\"4\" y=\"8\" width=\"18\" height=\"7\" transform=\"rotate(-22 13 11)\"></rect></g></svg></span>",
+      "className": "nbx-card nbx-vdeck nbx-r-ivory",
+      "count": "107 từ",
+      "description": "Từ vựng máy tính, internet, công nghệ.",
+      "href": "/tu-vung/chu-de-technology",
+      "level": "A1-C1",
+      "levelClass": "nbx-chip nbx-lvl nbx-lv-a1",
+      "title": "Công nghệ"
+    },
+    {
+      "art": "<span data-v-33ecd40a=\"\" class=\"ta-tile is-bare vhs-art is-sm\" aria-hidden=\"true\"><svg class=\"ta nbx-r-ok\" data-k=\"health\" data-a1=\"heat\" data-a2=\"info\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><g transform=\"rotate(6 76 44)\"><rect class=\"p\" x=\"52\" y=\"10\" width=\"50\" height=\"68\" rx=\"3\"></rect><rect class=\"m\" x=\"66\" y=\"5\" width=\"22\" height=\"9\" rx=\"2\"></rect><path class=\"pl\" d=\"M57 40h10l4-10 6 20 5-14 3 4h12\"></path><rect class=\"k2\" x=\"58\" y=\"56\" width=\"36\" height=\"2.6\"></rect><rect class=\"k2\" x=\"58\" y=\"62\" width=\"28\" height=\"2.6\"></rect><rect class=\"t\" x=\"90\" y=\"4\" width=\"17\" height=\"7\" transform=\"rotate(24 98 8)\"></rect></g></g><g class=\"mv\"><path class=\"ln\" d=\"M26 42v-6h20v6\"></path><rect class=\"m\" x=\"12\" y=\"45\" width=\"50\" height=\"40\" rx=\"5\"></rect><rect class=\"d\" x=\"10\" y=\"42\" width=\"50\" height=\"40\" rx=\"5\"></rect><path class=\"a1\" d=\"M30 51h10v8h8v10h-8v8H30v-8h-8V59h8z\"></path></g><g class=\"mv2\"><g transform=\"rotate(-35 92 74)\"><path class=\"a1\" d=\"M80 68h12v12H80a6 6 0 0 1 0-12z\"></path><path class=\"p\" d=\"M92 68h12a6 6 0 0 1 0 12H92z\"></path></g></g></g></svg></span>",
+      "className": "nbx-card nbx-vdeck nbx-r-ivory",
+      "count": "169 từ",
+      "description": "Từ vựng sức khỏe, y tế, cơ thể.",
+      "href": "/tu-vung/chu-de-health",
+      "level": "A1-C1",
+      "levelClass": "nbx-chip nbx-lvl nbx-lv-a1",
+      "title": "Sức khỏe"
+    },
+    {
+      "art": "<span data-v-33ecd40a=\"\" class=\"ta-tile is-bare vhs-art is-sm\" aria-hidden=\"true\"><svg class=\"ta nbx-r-peach\" data-k=\"food\" data-a1=\"ok\" data-a2=\"do\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><g transform=\"rotate(7 88 34)\"><rect class=\"p\" x=\"68\" y=\"6\" width=\"42\" height=\"54\" rx=\"2\"></rect><rect class=\"k\" x=\"74\" y=\"13\" width=\"22\" height=\"4.5\"></rect><rect class=\"k2\" x=\"74\" y=\"23\" width=\"30\" height=\"2.6\"></rect><rect class=\"k2\" x=\"74\" y=\"29\" width=\"24\" height=\"2.6\"></rect><rect class=\"k2\" x=\"74\" y=\"35\" width=\"30\" height=\"2.6\"></rect><rect class=\"k2\" x=\"74\" y=\"41\" width=\"20\" height=\"2.6\"></rect><rect class=\"t\" x=\"80\" y=\"1\" width=\"17\" height=\"7\" transform=\"rotate(-6 88 5)\"></rect></g></g><g class=\"mv\"><g transform=\"rotate(-24 82 30)\"><rect class=\"k\" x=\"44\" y=\"28\" width=\"62\" height=\"3.4\" rx=\"1.5\"></rect><rect class=\"k\" x=\"44\" y=\"34\" width=\"62\" height=\"3.4\" rx=\"1.5\"></rect></g><path class=\"a2\" d=\"M14 51c3-13 19-20 38-20s35 7 38 20z\"></path><path class=\"nd2\" d=\"M22 47c5-6 9 4 14-2s9 4 14-2 9 4 14-2 9 4 14-2M30 40c5-5 9 3 14-2s9 3 14-2 9 3 13-1\"></path><circle class=\"p\" cx=\"38\" cy=\"40\" r=\"8.5\"></circle><circle class=\"a2\" cx=\"39.5\" cy=\"40\" r=\"4\"></circle><path class=\"a1\" d=\"M58 38c5-9 14-9 18-6-5 7-12 9-18 6z\"></path><path class=\"d\" d=\"M8 50h88c-3 22-20 34-44 34S11 72 8 50z\"></path><rect class=\"p\" x=\"18\" y=\"58\" width=\"68\" height=\"4\"></rect></g></g></svg></span>",
+      "className": "nbx-card nbx-vdeck nbx-r-ivory",
+      "count": "151 từ",
+      "description": "Từ vựng đồ ăn, nấu nướng, thức uống.",
+      "href": "/tu-vung/chu-de-food",
+      "level": "A1-C1",
+      "levelClass": "nbx-chip nbx-lvl nbx-lv-a1",
+      "title": "Ẩm thực"
+    },
+    {
+      "art": "<span data-v-33ecd40a=\"\" class=\"ta-tile is-bare vhs-art is-sm\" aria-hidden=\"true\"><svg class=\"ta nbx-r-goal\" data-k=\"education\" data-a1=\"do\" data-a2=\"info\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><rect class=\"d\" x=\"14\" y=\"72\" width=\"76\" height=\"13\" rx=\"2\"></rect><rect class=\"p\" x=\"80\" y=\"74\" width=\"8\" height=\"9\"></rect><rect class=\"a2\" x=\"20\" y=\"59\" width=\"68\" height=\"13\" rx=\"2\"></rect><rect class=\"p\" x=\"22\" y=\"61\" width=\"7\" height=\"9\"></rect><rect class=\"a1\" x=\"16\" y=\"46\" width=\"70\" height=\"13\" rx=\"2\"></rect><rect class=\"p\" x=\"77\" y=\"48\" width=\"7\" height=\"9\"></rect></g><g class=\"mv\"><path class=\"d\" d=\"M40 30v12c8 6 30 6 38 0V30z\"></path><path class=\"k\" d=\"M24 26 59 12l35 14-35 14z\"></path><path class=\"tas\" d=\"M59 26l26 6v20\"></path><rect class=\"a1\" x=\"82\" y=\"50\" width=\"6\" height=\"11\" rx=\"1.5\"></rect></g><rect class=\"t\" x=\"96\" y=\"60\" width=\"18\" height=\"7\" transform=\"rotate(-26 105 63)\"></rect></g></svg></span>",
+      "className": "nbx-card nbx-vdeck nbx-r-ivory",
+      "count": "112 từ",
+      "description": "Từ vựng trường học, học tập, giáo dục.",
+      "href": "/tu-vung/chu-de-education",
+      "level": "A1-C1",
+      "levelClass": "nbx-chip nbx-lvl nbx-lv-a1",
+      "title": "Giáo dục"
+    },
+    {
+      "art": "<span data-v-33ecd40a=\"\" class=\"ta-tile is-bare vhs-art is-sm\" aria-hidden=\"true\"><svg class=\"ta nbx-r-ok\" data-k=\"nature\" data-a1=\"info\" data-a2=\"do\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><circle class=\"m\" cx=\"50\" cy=\"48\" r=\"32\"></circle><circle class=\"a1\" cx=\"47\" cy=\"45\" r=\"32\"></circle><path class=\"m\" d=\"M28 30c8-6 16-2 14 6s-10 6-8 14-10 6-12-2 0-14 6-18zM58 24c8 0 14 6 12 12s-8 4-10 10-8 4-8-4 0-18 6-18zM56 62c6-2 12 2 10 8s-10 6-12 2 0-8 2-10z\"></path></g><g class=\"mv\"><path class=\"d\" d=\"M80 86c-10-20 0-40 30-46 4 24-8 42-30 46z\"></path><path class=\"lw\" d=\"M82 82c6-12 14-22 24-36\"></path><path class=\"a2\" d=\"M78 86c-14-6-20-18-14-30 12 4 18 16 14 30z\"></path></g><rect class=\"t\" x=\"6\" y=\"8\" width=\"18\" height=\"7\" transform=\"rotate(-30 15 11)\"></rect></g></svg></span>",
+      "className": "nbx-card nbx-vdeck nbx-r-ivory",
+      "count": "127 từ",
+      "description": "Từ vựng môi trường, thiên nhiên, khí hậu.",
+      "href": "/tu-vung/chu-de-environment",
+      "level": "A1-C1",
+      "levelClass": "nbx-chip nbx-lvl nbx-lv-a1",
+      "title": "Môi trường"
+    }
+  ],
+  "goals": [
+    {
+      "art": "<span data-v-33ecd40a=\"\" class=\"ta-tile is-bare vhs-art is-xs\" aria-hidden=\"true\"><svg class=\"ta nbx-r-info\" data-k=\"ielts\" data-a1=\"do\" data-a2=\"heat\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><g transform=\"rotate(-6 50 44)\"><rect class=\"m\" x=\"13\" y=\"13\" width=\"76\" height=\"58\" rx=\"2\"></rect><rect class=\"p\" x=\"10\" y=\"10\" width=\"76\" height=\"58\" rx=\"2\"></rect><rect class=\"fr\" x=\"15\" y=\"15\" width=\"66\" height=\"48\"></rect><rect class=\"k\" x=\"28\" y=\"23\" width=\"40\" height=\"5\"></rect><rect class=\"k2\" x=\"22\" y=\"34\" width=\"52\" height=\"2.6\"></rect><rect class=\"k2\" x=\"26\" y=\"40\" width=\"44\" height=\"2.6\"></rect><rect class=\"k2\" x=\"22\" y=\"54\" width=\"20\" height=\"2.6\"></rect></g></g><g class=\"mv\"><path class=\"a2\" d=\"M84 62l-8 24 9-5 5 8 5-26zM98 62l8 24-9-5-5 8-5-26z\"></path><circle class=\"ray2\" cx=\"91\" cy=\"58\" r=\"15\"></circle><circle class=\"a1\" cx=\"91\" cy=\"58\" r=\"12\"></circle><circle class=\"p\" cx=\"91\" cy=\"58\" r=\"6\"></circle></g></g></svg></span>",
+      "cards": [
+        {
+          "count": "898 từ",
+          "href": "/tu-vung/ielts-band-1-25",
+          "level": "A1",
+          "levelClass": "nbx-chip nbx-lvl nbx-lv-a1",
+          "subtitle": "",
+          "title": "IELTS 1.0-2.5"
+        },
+        {
+          "count": "803 từ",
+          "href": "/tu-vung/ielts-band-3-35",
+          "level": "A2",
+          "levelClass": "nbx-chip nbx-lvl nbx-lv-a2",
+          "subtitle": "",
+          "title": "IELTS 3.0-3.5"
+        },
+        {
+          "count": "768 từ",
+          "href": "/tu-vung/ielts-band-4-5",
+          "level": "B1",
+          "levelClass": "nbx-chip nbx-lvl nbx-lv-b1",
+          "subtitle": "",
+          "title": "IELTS 4.0-5.0"
+        },
+        {
+          "count": "1.570 từ",
+          "href": "/tu-vung/ielts-band-55-65",
+          "level": "B2",
+          "levelClass": "nbx-chip nbx-lvl nbx-lv-b2",
+          "subtitle": "",
+          "title": "IELTS 5.5-6.5"
+        },
+        {
+          "count": "1.414 từ",
+          "href": "/tu-vung/ielts-band-7-plus",
+          "level": "C1",
+          "levelClass": "nbx-chip nbx-lvl nbx-lv-c1",
+          "subtitle": "",
+          "title": "IELTS 7.0+"
+        }
+      ],
+      "title": "IELTS · 5 bộ"
+    },
+    {
+      "art": "<span data-v-33ecd40a=\"\" class=\"ta-tile is-bare vhs-art is-xs\" aria-hidden=\"true\"><svg class=\"ta nbx-r-do\" data-k=\"toeic\" data-a1=\"info\" data-a2=\"heat\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><g transform=\"rotate(-5 46 46)\"><rect class=\"m\" x=\"17\" y=\"9\" width=\"58\" height=\"78\" rx=\"2\"></rect><rect class=\"p\" x=\"14\" y=\"6\" width=\"58\" height=\"78\" rx=\"2\"></rect><rect class=\"k\" x=\"20\" y=\"12\" width=\"26\" height=\"4.5\"></rect><g class=\"bub\"><circle cx=\"26\" cy=\"28\" r=\"3.6\"></circle><circle cx=\"36\" cy=\"28\" r=\"3.6\"></circle><circle cx=\"46\" cy=\"28\" r=\"3.6\"></circle><circle cx=\"56\" cy=\"28\" r=\"3.6\"></circle><circle cx=\"26\" cy=\"40\" r=\"3.6\"></circle><circle cx=\"36\" cy=\"40\" r=\"3.6\"></circle><circle cx=\"46\" cy=\"40\" r=\"3.6\"></circle><circle cx=\"56\" cy=\"40\" r=\"3.6\"></circle><circle cx=\"26\" cy=\"52\" r=\"3.6\"></circle><circle cx=\"36\" cy=\"52\" r=\"3.6\"></circle><circle cx=\"46\" cy=\"52\" r=\"3.6\"></circle><circle cx=\"56\" cy=\"52\" r=\"3.6\"></circle><circle cx=\"26\" cy=\"64\" r=\"3.6\"></circle><circle cx=\"36\" cy=\"64\" r=\"3.6\"></circle><circle cx=\"46\" cy=\"64\" r=\"3.6\"></circle><circle cx=\"56\" cy=\"64\" r=\"3.6\"></circle></g><circle class=\"d\" cx=\"36\" cy=\"28\" r=\"3.6\"></circle><circle class=\"d\" cx=\"56\" cy=\"40\" r=\"3.6\"></circle><circle class=\"d\" cx=\"26\" cy=\"52\" r=\"3.6\"></circle><circle class=\"d\" cx=\"46\" cy=\"64\" r=\"3.6\"></circle><rect class=\"t\" x=\"50\" y=\"1\" width=\"18\" height=\"7\" transform=\"rotate(16 59 4)\"></rect></g></g><g class=\"mv\"><g transform=\"rotate(-50 92 52)\"><rect class=\"a1\" x=\"70\" y=\"47\" width=\"40\" height=\"10\"></rect><rect class=\"m\" x=\"110\" y=\"47\" width=\"5\" height=\"10\"></rect><rect class=\"a2\" x=\"115\" y=\"47\" width=\"5\" height=\"10\" rx=\"1\"></rect><path class=\"p\" d=\"M70 47l-12 5 12 5z\"></path><path class=\"k\" d=\"M62 50.3 58 52l4 1.7z\"></path></g></g></g></svg></span>",
+      "cards": [
+        {
+          "count": "898 từ",
+          "href": "/tu-vung/toeic-band-120-224",
+          "level": "A1",
+          "levelClass": "nbx-chip nbx-lvl nbx-lv-a1",
+          "subtitle": "",
+          "title": "TOEIC 120-224"
+        },
+        {
+          "count": "794 từ",
+          "href": "/tu-vung/toeic-band-225-549",
+          "level": "A2",
+          "levelClass": "nbx-chip nbx-lvl nbx-lv-a2",
+          "subtitle": "",
+          "title": "TOEIC 225-549"
+        },
+        {
+          "count": "695 từ",
+          "href": "/tu-vung/toeic-band-550-784",
+          "level": "B1",
+          "levelClass": "nbx-chip nbx-lvl nbx-lv-b1",
+          "subtitle": "",
+          "title": "TOEIC 550-784"
+        },
+        {
+          "count": "2.584 từ",
+          "href": "/tu-vung/toeic-band-785-plus",
+          "level": "B2-C1",
+          "levelClass": "nbx-chip nbx-lvl nbx-lv-b2",
+          "subtitle": "",
+          "title": "TOEIC 785+"
+        }
+      ],
+      "title": "TOEIC · 4 bộ"
+    },
+    {
+      "art": "<span data-v-33ecd40a=\"\" class=\"ta-tile is-bare vhs-art is-xs\" aria-hidden=\"true\"><svg class=\"ta nbx-r-peach\" data-k=\"expand\" data-a1=\"ok\" data-a2=\"goal\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><g transform=\"rotate(-8 38 44)\"><path class=\"m\" d=\"M12 22h22a7 7 0 1 1 14 0h14v18a7 7 0 1 0 0 14v18H12V54a7 7 0 1 1 0-14z\"></path></g></g><g class=\"mv\"><g transform=\"rotate(10 80 52)\"><path class=\"d\" d=\"M63 34h20a7 7 0 1 1 14 0h14v40H97a7 7 0 1 0-14 0H63V60a7 7 0 1 0 0-14z\"></path><path class=\"a1\" d=\"M60 31h20a7 7 0 1 1 14 0h14v40H94a7 7 0 1 0-14 0H60V57a7 7 0 1 0 0-14z\"></path></g></g><rect class=\"t\" x=\"2\" y=\"64\" width=\"18\" height=\"7\" transform=\"rotate(24 11 67)\"></rect></g></svg></span>",
+      "cards": [
+        {
+          "count": "1.330 từ",
+          "href": "/tu-vung/phrasal-verbs-thong-dung",
+          "level": "",
+          "levelClass": "",
+          "subtitle": "A1-C2",
+          "title": "Cụm động từ thông dụng"
+        },
+        {
+          "count": "2.836 từ",
+          "href": "/tu-vung/collocations-hoc-thuat",
+          "level": "",
+          "levelClass": "",
+          "subtitle": "A2-C1",
+          "title": "Cụm từ cố định học thuật"
+        },
+        {
+          "count": "1.543 từ",
+          "href": "/tu-vung/idioms-thong-dung",
+          "level": "",
+          "levelClass": "",
+          "subtitle": "A2-C2",
+          "title": "Thành ngữ thông dụng"
+        },
+        {
+          "count": "570 từ",
+          "href": "/tu-vung/awl-sublist",
+          "level": "",
+          "levelClass": "",
+          "subtitle": "Sublist 1-10",
+          "title": "Academic Word List"
+        }
+      ],
+      "title": "Mở rộng · 4 bộ"
+    }
+  ],
+  "headerArt": "<svg class=\"ta nbx-r-goal\" data-k=\"cards\" data-a1=\"peach\" data-a2=\"do\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g transform=\"translate(10 0)\"><g class=\"mv2\"><rect class=\"a1\" x=\"40\" y=\"22\" width=\"40\" height=\"58\" rx=\"5\" transform=\"rotate(-22 60 86)\"></rect></g><rect class=\"m\" x=\"40\" y=\"22\" width=\"40\" height=\"58\" rx=\"5\" transform=\"rotate(-6 60 86)\"></rect><g class=\"mv\"><g transform=\"rotate(12 60 86)\"><rect class=\"p\" x=\"40\" y=\"22\" width=\"40\" height=\"58\" rx=\"5\"></rect><rect class=\"k\" x=\"46\" y=\"33\" width=\"22\" height=\"5.5\"></rect><rect class=\"k2\" x=\"46\" y=\"43\" width=\"28\" height=\"3\"></rect><rect class=\"k2\" x=\"46\" y=\"49\" width=\"18\" height=\"3\"></rect><circle class=\"a2\" cx=\"71\" cy=\"70\" r=\"5\"></circle><rect class=\"t\" x=\"52\" y=\"17\" width=\"17\" height=\"7\" transform=\"rotate(-8 60 20)\"></rect></g></g></g></g></svg>",
+  "tabs": [
+    {
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-bookmark-icon nbx-ic\" aria-hidden=\"true\" focusable=\"false\"><path d=\"m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z\"></path></svg>",
+      "label": "Từ vựng của tôi"
+    },
+    {
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-list-icon nbx-ic\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M3 12h.01\"></path><path d=\"M3 18h.01\"></path><path d=\"M3 6h.01\"></path><path d=\"M8 12h13\"></path><path d=\"M8 18h13\"></path><path d=\"M8 6h13\"></path></svg>",
+      "label": "Từ vựng"
+    },
+    {
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-volume2-icon nbx-ic\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z\"></path><path d=\"M16 9a5 5 0 0 1 0 6\"></path><path d=\"M19.364 18.364a9 9 0 0 0 0-12.728\"></path></svg>",
+      "label": "Bảng âm IPA"
+    }
+  ]
+}

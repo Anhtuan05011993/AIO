@@ -1,0 +1,75 @@
+/* Source app uses a viewport-height main scroll area, not document scrolling. */
+.lp-app[data-ui-scroll] {
+  height: 100dvh;
+  min-height: 0;
+  overflow: hidden;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 236px minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr);
+  gap: 0;
+  align-items: stretch;
+}
+.lp-app[data-ui-scroll] .lp-main {
+  grid-column: 2;
+  width: 100%;
+  max-width: none;
+  min-height: 0;
+  height: 100dvh;
+  margin: 0;
+  padding: 16px 10px 40px 22px;
+  overflow: auto;
+  scrollbar-gutter: stable;
+  scroll-padding-bottom: 24px;
+  gap: 0;
+}
+.lp-app[data-ui-scroll] .lp-main > * {
+  flex-shrink: 0;
+  min-width: 0;
+}
+@media (min-width: 1024px) {
+  .lp-app[data-ui-scroll] .lp-rail {
+    position: fixed;
+    left: 16px;
+    top: 16px;
+    bottom: 16px;
+    width: 220px;
+    height: calc(100dvh - 32px);
+  }
+}
+@media (min-width: 640px) and (max-width: 1023px) {
+  .lp-app[data-ui-scroll] {
+    grid-template-columns: 88px minmax(0, 1fr);
+  }
+  .lp-app[data-ui-scroll] .lp-main {
+    padding: 14px 6px 36px 18px;
+    scroll-padding-bottom: 22px;
+  }
+}
+@media (max-width: 639px) {
+  .lp-app[data-ui-scroll] {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .lp-app[data-ui-scroll] .lp-main {
+    grid-column: 1;
+    padding: 0 12px 93px;
+    scrollbar-width: none;
+    scroll-padding-bottom: 77px;
+  }
+  .lp-app[data-ui-scroll] .lp-main::-webkit-scrollbar {
+    display: none;
+  }
+  .lp-app[data-ui-scroll] .ui-mobile-bar {
+    position: static;
+    inset: auto;
+    width: 100%;
+    height: 48px;
+    margin: 0 0 4px;
+    padding: 0;
+    flex-shrink: 0;
+  }
+  .lp-app[data-ui-scroll] .ui-bottom-nav a[href="/video"][aria-current="page"] {
+    background: #f1b0c8;
+    box-shadow: 0 8px 14px -10px #c23a70;
+  }
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "a1",
+    "viewport": [
+      1440,
+      900
+    ],
+    "maxDelta": 0,
+    "sourcePose": "width: 760px; height: 4040px; transform: translate(64px, 40px) scale(1);",
+    "localPose": "transform: translate(64px, 40px) scale(1); width: 760px; height: 4040px;"
+  },
+  {
+    "id": "a1",
+    "viewport": [
+      768,
+      1024
+    ],
+    "maxDelta": 0,
+    "sourcePose": "width: 760px; height: 4040px; transform: translate(-58px, 40px) scale(1);",
+    "localPose": "transform: translate(-58px, 40px) scale(1); width: 760px; height: 4040px;"
+  },
+  {
+    "id": "a1",
+    "viewport": [
+      390,
+      844
+    ],
+    "maxDelta": 38.39999389648435,
+    "sourcePose": "width: 760px; height: 4040px; transform: translate(-83px, 49.3px) scale(0.7);",
+    "localPose": "transform: translate(-45px, 40px) scale(0.6); width: 760px; height: 4040px;"
+  },
+  {
+    "id": "a1",
+    "viewport": [
+      360,
+      844
+    ],
+    "maxDelta": 45.60000610351565,
+    "sourcePose": "width: 760px; height: 4040px; transform: translate(-93.5px, 51.4px) scale(0.7);",
+    "localPose": "transform: translate(-60px, 40px) scale(0.6); width: 760px; height: 4040px;"
+  },
+  {
+    "id": "a2",
+    "viewport": [
+      1440,
+      900
+    ],
+    "maxDelta": 0,
+    "sourcePose": "width: 760px; height: 5000px; transform: translate(64px, 40px) scale(1);",
+    "localPose": "transform: translate(64px, 40px) scale(1); width: 760px; height: 5000px;"
+  },
+  {
+    "id": "a2",
+    "viewport": [
+      768,
+      1024
+    ],
+    "maxDelta": 0,
+    "sourcePose": "width: 760px; height: 5000px; transform: translate(-58px, 40px) scale(1);",
+    "localPose": "transform: translate(-58px, 40px) scale(1); width: 760px; height: 5000px;"
+  },
+  {
+    "id": "a2",
+    "viewport": [
+      390,
+      844
+    ],
+    "maxDelta": 38.39999389648435,
+    "sourcePose": "width: 760px; height: 5000px; transform: translate(-83px, 49.3px) scale(0.7);",
+    "localPose": "transform: translate(-45px, 40px) scale(0.6); width: 760px; height: 5000px;"
+  },
+  {
+    "id": "a2",
+    "viewport": [
+      360,
+      844
+    ],
+    "maxDelta": 45.60000610351565,
+    "sourcePose": "width: 760px; height: 5000px; transform: translate(-93.5px, 51.4px) scale(0.7);",
+    "localPose": "transform: translate(-60px, 40px) scale(0.6); width: 760px; height: 5000px;"
+  },
+  {
+    "id": "b1",
+    "viewport": [
+      1440,
+      900
+    ],
+    "maxDelta": 0,
+    "sourcePose": "width: 760px; height: 4782px; transform: translate(64px, 40px) scale(1);",
+    "localPose": "transform: translate(64px, 40px) scale(1); width: 760px; height: 4782px;"
+  },
+  {
+    "id": "b1",
+    "viewport": [
+      768,
+      1024
+    ],
+    "maxDelta": 0,
+    "sourcePose": "width: 760px; height: 4782px; transform: translate(-58px, 40px) scale(1);",
+    "localPose": "transform: translate(-58px, 40px) scale(1); width: 760px; height: 4782px;"
+  },
+  {
+    "id": "b1",
+    "viewport": [
+      390,
+      844
+    ],
+    "maxDelta": 38.39999389648435,
+    "sourcePose": "width: 760px; height: 4782px; transform: translate(-83px, 49.3px) scale(0.7);",
+    "localPose": "transform: translate(-45px, 40px) scale(0.6); width: 760px; height: 4782px;"
+  },
+  {
+    "id": "b1",
+    "viewport": [
+      360,
+      844
+    ],
+    "maxDelta": 45.60000610351565,
+    "sourcePose": "width: 760px; height: 4782px; transform: translate(-93.5px, 51.4px) scale(0.7);",
+    "localPose": "transform: translate(-60px, 40px) scale(0.6); width: 760px; height: 4782px;"
+  },
+  {
+    "id": "b2",
+    "viewport": [
+      1440,
+      900
+    ],
+    "maxDelta": 0,
+    "sourcePose": "width: 760px; height: 4040px; transform: translate(64px, 40px) scale(1);",
+    "localPose": "transform: translate(64px, 40px) scale(1); width: 760px; height: 4040px;"
+  },
+  {
+    "id": "b2",
+    "viewport": [
+      768,
+      1024
+    ],
+    "maxDelta": 0,
+    "sourcePose": "width: 760px; height: 4040px; transform: translate(-58px, 40px) scale(1);",
+    "localPose": "transform: translate(-58px, 40px) scale(1); width: 760px; height: 4040px;"
+  },
+  {
+    "id": "b2",
+    "viewport": [
+      390,
+      844
+    ],
+    "maxDelta": 38.39999389648435,
+    "sourcePose": "width: 760px; height: 4040px; transform: translate(-83px, 49.3px) scale(0.7);",
+    "localPose": "transform: translate(-45px, 40px) scale(0.6); width: 760px; height: 4040px;"
+  },
+  {
+    "id": "b2",
+    "viewport": [
+      360,
+      844
+    ],
+    "maxDelta": 45.60000610351565,
+    "sourcePose": "width: 760px; height: 4040px; transform: translate(-93.5px, 51.4px) scale(0.7);",
+    "localPose": "transform: translate(-60px, 40px) scale(0.6); width: 760px; height: 4040px;"
+  },
+  {
+    "id": "c1",
+    "viewport": [
+      1440,
+      900
+    ],
+    "maxDelta": 0,
+    "sourcePose": "width: 760px; height: 3312px; transform: translate(64px, 40px) scale(1);",
+    "localPose": "transform: translate(64px, 40px) scale(1); width: 760px; height: 3312px;"
+  },
+  {
+    "id": "c1",
+    "viewport": [
+      768,
+      1024
+    ],
+    "maxDelta": 0,
+    "sourcePose": "width: 760px; height: 3312px; transform: translate(-58px, 40px) scale(1);",
+    "localPose": "transform: translate(-58px, 40px) scale(1); width: 760px; height: 3312px;"
+  },
+  {
+    "id": "c1",
+    "viewport": [
+      390,
+      844
+    ],
+    "maxDelta": 38.39999389648435,
+    "sourcePose": "width: 760px; height: 3312px; transform: translate(-83px, 49.3px) scale(0.7);",
+    "localPose": "transform: translate(-45px, 40px) scale(0.6); width: 760px; height: 3312px;"
+  },
+  {
+    "id": "c1",
+    "viewport": [
+      360,
+      844
+    ],
+    "maxDelta": 45.60000610351565,
+    "sourcePose": "width: 760px; height: 3312px; transform: translate(-93.5px, 51.4px) scale(0.7);",
+    "localPose": "transform: translate(-60px, 40px) scale(0.6); width: 760px; height: 3312px;"
+  },
+  {
+    "id": "c2",
+    "viewport": [
+      1440,
+      900
+    ],
+    "maxDelta": 0,
+    "sourcePose": "width: 760px; height: 1624px; transform: translate(64px, 40px) scale(1);",
+    "localPose": "transform: translate(64px, 40px) scale(1); width: 760px; height: 1624px;"
+  },
+  {
+    "id": "c2",
+    "viewport": [
+      768,
+      1024
+    ],
+    "maxDelta": 0,
+    "sourcePose": "width: 760px; height: 1624px; transform: translate(-58px, 40px) scale(1);",
+    "localPose": "transform: translate(-58px, 40px) scale(1); width: 760px; height: 1624px;"
+  },
+  {
+    "id": "c2",
+    "viewport": [
+      390,
+      844
+    ],
+    "maxDelta": 38.39999389648435,
+    "sourcePose": "width: 760px; height: 1624px; transform: translate(-83px, 49.3px) scale(0.7);",
+    "localPose": "transform: translate(-45px, 40px) scale(0.6); width: 760px; height: 1624px;"
+  },
+  {
+    "id": "c2",
+    "viewport": [
+      360,
+      844
+    ],
+    "maxDelta": 45.60000610351565,
+    "sourcePose": "width: 760px; height: 1624px; transform: translate(-93.5px, 51.4px) scale(0.7);",
+    "localPose": "transform: translate(-60px, 40px) scale(0.6); width: 760px; height: 1624px;"
+  }
+]

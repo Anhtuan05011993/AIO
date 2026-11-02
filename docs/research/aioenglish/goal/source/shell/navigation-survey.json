@@ -1,0 +1,212 @@
+[
+  {
+    "path": "/tu-dien",
+    "footer": 0,
+    "links": [
+      {
+        "current": null,
+        "href": "/",
+        "label": "Trang chủ"
+      },
+      {
+        "current": null,
+        "href": "/go-cau",
+        "label": "Gõ câu"
+      },
+      {
+        "current": null,
+        "href": "/tu-vung",
+        "label": "Từ vựng"
+      },
+      {
+        "current": "page",
+        "href": "/tu-dien",
+        "label": "Từ điển"
+      }
+    ],
+    "menu": {
+      "cl": "nbb-tab nbx-f-home",
+      "current": null
+    }
+  },
+  {
+    "path": "/lo-trinh",
+    "footer": 0,
+    "links": [
+      {
+        "current": null,
+        "href": "/",
+        "label": "Trang chủ"
+      },
+      {
+        "current": null,
+        "href": "/go-cau",
+        "label": "Gõ câu"
+      },
+      {
+        "current": null,
+        "href": "/tu-vung",
+        "label": "Từ vựng"
+      },
+      {
+        "current": "page",
+        "href": "/lo-trinh",
+        "label": "Lộ trình"
+      }
+    ],
+    "menu": {
+      "cl": "nbb-tab nbx-f-home",
+      "current": null
+    }
+  },
+  {
+    "path": "/luyen-thi",
+    "footer": 0,
+    "links": [
+      {
+        "current": null,
+        "href": "/",
+        "label": "Trang chủ"
+      },
+      {
+        "current": null,
+        "href": "/go-cau",
+        "label": "Gõ câu"
+      },
+      {
+        "current": null,
+        "href": "/tu-vung",
+        "label": "Từ vựng"
+      },
+      {
+        "current": "page",
+        "href": "/luyen-thi",
+        "label": "Luyện thi"
+      }
+    ],
+    "menu": {
+      "cl": "nbb-tab nbx-f-home",
+      "current": null
+    }
+  },
+  {
+    "path": "/ban-be",
+    "footer": 0,
+    "links": [
+      {
+        "current": null,
+        "href": "/",
+        "label": "Trang chủ"
+      },
+      {
+        "current": null,
+        "href": "/go-cau",
+        "label": "Gõ câu"
+      },
+      {
+        "current": null,
+        "href": "/tu-vung",
+        "label": "Từ vựng"
+      },
+      {
+        "current": "page",
+        "href": "/ban-be",
+        "label": "Bạn bè"
+      }
+    ],
+    "menu": {
+      "cl": "nbb-tab nbx-f-home",
+      "current": null
+    }
+  },
+  {
+    "path": "/yeu-cau-tinh-nang",
+    "footer": 0,
+    "links": [
+      {
+        "current": null,
+        "href": "/",
+        "label": "Trang chủ"
+      },
+      {
+        "current": null,
+        "href": "/go-cau",
+        "label": "Gõ câu"
+      },
+      {
+        "current": null,
+        "href": "/tu-vung",
+        "label": "Từ vựng"
+      },
+      {
+        "current": "page",
+        "href": "/yeu-cau-tinh-nang",
+        "label": "Ý tưởng"
+      }
+    ],
+    "menu": {
+      "cl": "nbb-tab nbx-f-home",
+      "current": null
+    }
+  },
+  {
+    "path": "/ngu-phap",
+    "footer": 0,
+    "links": [
+      {
+        "current": null,
+        "href": "/",
+        "label": "Trang chủ"
+      },
+      {
+        "current": null,
+        "href": "/go-cau",
+        "label": "Gõ câu"
+      },
+      {
+        "current": null,
+        "href": "/tu-vung",
+        "label": "Từ vựng"
+      },
+      {
+        "current": "page",
+        "href": "/ngu-phap",
+        "label": "Ngữ pháp"
+      }
+    ],
+    "menu": {
+      "cl": "nbb-tab nbx-f-home",
+      "current": null
+    }
+  },
+  {
+    "path": "/cai-dat",
+    "footer": 0,
+    "links": [
+      {
+        "current": null,
+        "href": "/",
+        "label": "Trang chủ"
+      },
+      {
+        "current": null,
+        "href": "/go-cau",
+        "label": "Gõ câu"
+      },
+      {
+        "current": null,
+        "href": "/tu-vung",
+        "label": "Từ vựng"
+      },
+      {
+        "current": null,
+        "href": "/ngu-phap",
+        "label": "Ngữ pháp"
+      }
+    ],
+    "menu": {
+      "cl": "nbb-tab nbx-f-home",
+      "current": null
+    }
+  }
+]

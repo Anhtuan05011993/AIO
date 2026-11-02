@@ -1,0 +1,24 @@
+.lp-app .ui-map-panel {
+  position:absolute; inset:auto 0 0; z-index:5; max-height:70%; display:flex; flex-direction:column;
+  border-top:1.5px solid var(--nb-hair); border-radius:var(--r-card) var(--r-card) 0 0;
+  background:hsl(var(--surface)); outline:none; min-width:0;
+}
+.lp-app .ui-map-panel-grip {width:40px;height:4px;margin:8px auto 0;border-radius:999px;background:hsl(var(--border));flex:none;}
+.lp-app .ui-map-panel .mp-head {display:flex;align-items:flex-start;gap:10px;padding:14px 16px;background:hsl(var(--panel-zone)/var(--zone-wash-a,.35));flex-shrink:0;}
+.lp-app .ui-map-panel .ndp-lv {display:flex;align-items:center;justify-content:center;flex:none;height:28px;padding:0 8px;border:1.5px solid hsl(var(--panel-ink));border-radius:8px;background:hsl(var(--surface));color:hsl(var(--panel-ink));font-size:12px;font-weight:800;}
+.lp-app .ui-map-panel-heading {min-width:0;flex:1;}
+.lp-app .ui-map-panel h2 {font-family:var(--font-display);font-size:18.7008px;font-weight:800;line-height:1.25;letter-spacing:normal;margin:0;color:hsl(var(--fg));}
+.lp-app .ui-map-panel-heading p {font-size:12px;font-weight:600;line-height:16px;color:hsl(var(--fg-muted));white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:2px 0 0;}
+.lp-app .ui-map-panel-close {margin:-4px -4px 0 0;flex:none;}
+.lp-app .ui-map-panel .mp-body {display:flex;flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;flex-direction:column;}
+.lp-app .ui-map-panel .mp-foot {display:grid;gap:8px;flex:none;padding:12px 14px;}
+.lp-app .ui-map-panel .mp-foot .nb-btn {min-width:0;display:flex;justify-content:center;align-items:center;gap:8px;}
+.lp-app .ui-map-done-desktop {display:none;}
+@media(min-width:768px) {
+  .lp-app .ui-map-panel {inset:0 0 0 auto;width:360px;max-height:none;border-top:0;border-left:1.5px solid var(--nb-hair);border-radius:0;}
+  .lp-app .ui-map-panel-grip {display:none;}
+  .lp-app .ui-map-panel .mp-head {padding:16px 20px;}
+  .lp-app .ui-map-panel .mp-foot {grid-template-columns:repeat(2,minmax(0,1fr));padding:16px 20px;}
+  .lp-app .ui-map-done-mobile {display:none;}
+  .lp-app .ui-map-done-desktop {display:inline;}
+}

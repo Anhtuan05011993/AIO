@@ -1,0 +1,379 @@
+/* reading.css — Agent F2: trang /luyen-dich-thuat (hub + reader dịch có chấm điểm).
+ *
+ * Widget dùng lại class gốc nbx-* trong entry.css:
+ *  - Hub: nbx-hc + nbx-hb (container), nbx-blk + nbx-r-* (palette accent),
+ *    nbx-dots, nbx-row-flex, nbx-tile nbx-f-read, nbx-disp, nbx-sp, nbx-chip
+ *    (nbx-plain), nbx-kv2, nbx-bh + nbx-bh-sub, nbx-lvh/nbx-lvn/nbx-lvd,
+ *    nbx-lessons + nbx-row, nbx-s30, nbx-num.
+ *  - Reader (scope .nbx-dc của trang dictation nguồn): nbx-d-prac/nbx-d-stage/
+ *    nbx-d-top/nbx-d-tag/nbx-d-vi/nbx-d-ctx/nbx-d-ans/nbx-d-res/nbx-d-rh/
+ *    nbx-d-bar/nbx-d-tok(s)/nbx-d-legend/nbx-d-note/nbx-d-steps/nbx-d-n/
+ *    nbx-d-meter/nbx-d-tally/nbx-d-xp/nbx-d-done-h/nbx-d-pass/nbx-d-lines/
+ *    nbx-d-line, nbx-seg, nbx-btn (nbx-sm/nbx-b-pri), nbx-ic.
+ *
+ * Chỉ những gì KHÔNG có rule gốc mới viết ở đây với tiền tố lp-* (layout trang,
+ * grid chủ đề, nút segment <button>, textarea .nbx-d-ans, trạng thái demo...).
+ * Màu đều lấy biến gốc --nb-x-* (tương thích dark theme + skin).
+ */
+
+/* ------------------------------------------------------------------ */
+/* 1. Layout chung (hub + reader)                                       */
+/* ------------------------------------------------------------------ */
+
+.lp-reading,
+.lp-reader {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+}
+
+.lp-reading h1.nbx-disp,
+.lp-reader h1.nbx-disp {
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.lp-reading .lp-lede,
+.lp-reader .nbx-lvd {
+  margin: 0;
+  max-width: 76ch;
+}
+
+/* Hàng chip meta dưới tiêu đề reader */
+.lp-meta {
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.lp-meta .nbx-chip .nbx-ic {
+  width: 13px;
+  height: 13px;
+}
+
+/* Chip "Nội dung demo" — cao hơn chip gốc chút để chữ không bị ép */
+.lp-demo-chip {
+  height: auto;
+  padding: 3px 10px;
+  font-size: 11px;
+  flex: none;
+}
+
+/* Hàng quay về (giống reader ngữ pháp) */
+.lp-backrow {
+  display: flex;
+}
+
+.lp-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--nb-x-ink2);
+  font-size: 13.5px;
+  font-weight: 800;
+  text-decoration: none;
+  min-height: 34px;
+}
+
+.lp-back:hover {
+  color: var(--nb-x-ink);
+}
+
+.lp-back-ic {
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  background: var(--nb-x-row-h);
+  border: 1.5px solid color-mix(in srgb, var(--nb-x-ink) 12%, transparent);
+  display: grid;
+  place-items: center;
+}
+
+.lp-back-ic svg {
+  width: 15px;
+  height: 15px;
+}
+
+/* ------------------------------------------------------------------ */
+/* 2. Hub — grid chủ đề + card bài                                      */
+/* ------------------------------------------------------------------ */
+
+.lp-topics {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
+  align-items: start;
+}
+
+.lp-topic {
+  gap: 12px;
+}
+
+.lp-topic .nbx-lvh {
+  min-height: 0;
+  gap: 10px;
+}
+
+.lp-topic-tt {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
+
+.lp-topic-tt .nbx-lvn {
+  display: block;
+}
+
+/* Bài trong card chủ đề: 1 cột, cho phép tiêu đề/mô tả xuống dòng
+   (.nbx-row .nbx-tt gốc là nowrap ellipsis) */
+.lp-topic .nbx-lessons {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.lp-topic .nbx-lessons .nbx-tt b,
+.lp-topic .nbx-lessons .nbx-tt small {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  line-height: 1.35;
+}
+
+.lp-nodes .nbx-row {
+  cursor: pointer;
+}
+
+.lp-go-chip {
+  flex: none;
+  gap: 4px;
+}
+
+/* Hai cách học */
+.lp-modes {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+  align-items: start;
+}
+
+.lp-mode {
+  gap: 10px;
+}
+
+.lp-mode .nbx-lvd {
+  margin: 0;
+}
+
+.lp-mode .nbx-lvn {
+  font-size: 15px;
+}
+
+/* ------------------------------------------------------------------ */
+/* 3. Switch chế độ (nbx-seg chỉ style <a> gốc — bổ sung cho <button>)  */
+/* ------------------------------------------------------------------ */
+
+.lp-switch {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+}
+
+.lp-switch .nbx-seg {
+  flex-wrap: wrap;
+}
+
+.lp-switch .nbx-seg > button {
+  white-space: nowrap;
+  height: 36px;
+  color: var(--nb-x-ink2);
+  align-items: center;
+  gap: 6px;
+  padding: 0 14px;
+  font-family: inherit;
+  font-size: 13.5px;
+  font-weight: 800;
+  border: 0;
+  background: transparent;
+  border-radius: var(--nb-x-rc);
+  cursor: pointer;
+  display: inline-flex;
+}
+
+.lp-switch .nbx-seg > button.nbx-on {
+  background: var(--nb-x-fb);
+  color: var(--nb-x-ink);
+}
+
+/* Meter tiến độ dùng nbx-d-meter (scope .nbx-dc) — cho lên cùng hàng */
+.lp-switch .nbx-d-meter {
+  flex: 1 1 220px;
+  justify-content: flex-end;
+}
+
+/* ------------------------------------------------------------------ */
+/* 4. Reader — chế độ Đọc                                               */
+/* ------------------------------------------------------------------ */
+
+.lp-doc {
+  gap: 12px;
+}
+
+.lp-doc-tools {
+  gap: 8px;
+}
+
+.lp-line-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.lp-line-en {
+  margin: 0;
+  font-size: 16.5px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.lp-line-vi {
+  margin: 0;
+  color: var(--nb-x-ink2);
+  font-weight: 700;
+  font-size: 14.5px;
+  line-height: 1.45;
+}
+
+.lp-reveal {
+  flex: none;
+}
+
+/* Chú thích ngữ pháp từng câu (chỉ bài thật có) */
+.lp-line-note {
+  margin: 4px 0 0;
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--nb-x-mut);
+}
+
+/* Ngắt đoạn trong chế độ Đọc (bài thật có field paragraph) */
+.lp-newpara {
+  margin-top: 1.4rem;
+  padding-top: 1rem;
+  border-top: 1px dashed color-mix(in srgb, var(--nb-x-ink) 10%, transparent);
+}
+
+/* Hub: ghi chú "còn N bài nữa" trong topic card */
+.lp-topic-more {
+  margin: 6px 0 0;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--nb-x-mut);
+}
+
+/* Topic card kho demo — mờ nhẹ để phân biệt với bài thật */
+.lp-topic-fb {
+  opacity: 0.82;
+}
+
+/* ------------------------------------------------------------------ */
+/* 5. Reader — chế độ Dịch có chấm điểm                                 */
+/* ------------------------------------------------------------------ */
+
+.lp-practice {
+  min-width: 0;
+}
+
+.lp-side {
+  min-width: 0;
+}
+
+.lp-side .nbx-d-steps li {
+  cursor: pointer;
+}
+
+/* Textarea .nbx-d-ans — gốc chỉ có font/padding/min-height, bổ sung viền */
+.lp-ans.nbx-d-ans {
+  width: 100%;
+  resize: vertical;
+  background: var(--nb-x-row-h);
+  border: 1.75px solid var(--nb-x-line);
+  border-radius: var(--nb-x-r2);
+}
+
+.lp-ans.nbx-d-ans:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--nb-x-ink) 28%, transparent);
+  outline-offset: 1px;
+}
+
+.lp-ans.nbx-d-ans:disabled {
+  opacity: 0.72;
+}
+
+.lp-ans.nbx-d-ans::placeholder {
+  color: var(--nb-x-mut);
+  font-weight: 600;
+}
+
+/* Khối "Bản mẫu" sau khi chấm */
+.lp-sample {
+  padding: 10px 12px;
+  border-radius: var(--nb-x-r3);
+  background: var(--nb-x-row-h);
+}
+
+.lp-sample p {
+  font-size: 15px;
+}
+
+/* Hàng nút cuối stage có thể tràn trên mobile */
+.nbx-d-bar {
+  flex-wrap: wrap;
+}
+
+/* Card tổng kết */
+.lp-done {
+  gap: 14px;
+}
+
+.lp-done .nbx-d-bar {
+  gap: 8px;
+}
+
+/* ------------------------------------------------------------------ */
+/* 6. Mobile                                                            */
+/* ------------------------------------------------------------------ */
+
+@media (max-width: 599px) {
+  .lp-reading,
+  .lp-reader {
+    gap: 14px;
+  }
+
+  .lp-topics {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .lp-modes {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .lp-reading h1.nbx-disp,
+  .lp-reader h1.nbx-disp {
+    font-size: 21px;
+  }
+
+  .lp-switch .nbx-d-meter {
+    flex-basis: 100%;
+    justify-content: flex-start;
+  }
+
+  .lp-line-en {
+    font-size: 15.5px;
+  }
+}

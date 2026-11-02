@@ -1,0 +1,118 @@
+[
+  {
+    "viewport": [
+      1440,
+      900
+    ],
+    "columns": 3,
+    "firstGroup": {
+      "height": 998,
+      "width": 373.328125,
+      "x": 258,
+      "y": 443
+    },
+    "groups": 14,
+    "header": {
+      "height": 125,
+      "width": 1160,
+      "x": 258,
+      "y": 16
+    },
+    "overflow": false,
+    "tenses": {
+      "height": 262,
+      "width": 1160,
+      "x": 258,
+      "y": 161
+    },
+    "topics": 51,
+    "maxDelta": 0
+  },
+  {
+    "viewport": [
+      768,
+      1024
+    ],
+    "columns": 1,
+    "firstGroup": {
+      "height": 998,
+      "width": 644,
+      "x": 106,
+      "y": 721.390625
+    },
+    "groups": 14,
+    "header": {
+      "height": 125,
+      "width": 644,
+      "x": 106,
+      "y": 14
+    },
+    "overflow": false,
+    "tenses": {
+      "height": 542.390625,
+      "width": 644,
+      "x": 106,
+      "y": 159
+    },
+    "topics": 51,
+    "maxDelta": 0
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "columns": 1,
+    "firstGroup": {
+      "height": 998,
+      "width": 366,
+      "x": 12,
+      "y": 733.390625
+    },
+    "groups": 14,
+    "header": {
+      "height": 115,
+      "width": 366,
+      "x": 12,
+      "y": 52
+    },
+    "overflow": false,
+    "tenses": {
+      "height": 538.390625,
+      "width": 366,
+      "x": 12,
+      "y": 181
+    },
+    "topics": 51,
+    "maxDelta": 0
+  },
+  {
+    "viewport": [
+      360,
+      844
+    ],
+    "columns": 1,
+    "firstGroup": {
+      "height": 998,
+      "width": 336,
+      "x": 12,
+      "y": 733.390625
+    },
+    "groups": 14,
+    "header": {
+      "height": 115,
+      "width": 336,
+      "x": 12,
+      "y": 52
+    },
+    "overflow": false,
+    "tenses": {
+      "height": 538.390625,
+      "width": 336,
+      "x": 12,
+      "y": 181
+    },
+    "topics": 51,
+    "maxDelta": 0
+  }
+]

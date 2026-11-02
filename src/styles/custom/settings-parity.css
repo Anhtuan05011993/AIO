@@ -1,0 +1,28 @@
+.ui-settings {width:100%;min-width:0;}
+.ui-settings>.cd-wrap {display:flex;flex-direction:column;container:nbpage/inline-size;}
+.ui-settings .ui-settings-columns {grid-template-columns:minmax(0,1fr);gap:22px;}
+@container nbpage (width >= 880px) {.ui-settings .ui-settings-columns {grid-template-columns:minmax(0,1fr) minmax(0,1fr);}}
+.ui-settings .ui-settings-alias {position:absolute;inset:0 auto auto 0;scroll-margin-top:14px;}
+.ui-settings .sts {position:relative;}
+.ui-settings .nbc-hd h1 {margin:-.2em 0 -.16em;}
+.ui-settings .nbc-hd-ic .ui-nav-art {display:block;width:44px;height:44px;}
+.ui-settings .nbc-hd-ic .ui-nav-art svg {width:100%;height:100%;}
+.ui-settings #hoso form {display:contents;}
+.ui-settings-avatar {display:inline-flex;width:74px;height:74px;flex:none;overflow:hidden;border-radius:999px;border:2px solid var(--nb-ink);}
+.ui-settings-avatar .ui-critter-avatar,.ui-settings-avatar .ui-critter-avatar>span,.ui-settings-avatar svg {display:block;width:100%;height:100%;}
+.ui-settings #hoso .apc-field label {margin:0;font-size:13px;}
+.ui-settings #hoso input {min-width:0;}
+
+
+/* Current source selected controls use a white field and the accent ring. */
+.ui-settings [data-nb-accent] {
+ --nb-x-pri-bd:var(--nb-x-fd,var(--nb-x-ivory-d));
+ --nb-x-cur-ring:inset 0 0 0 2px var(--nb-x-pri-bd);
+}
+:root[data-skin="sotay"] .ui-settings :is(.nbc-pill,.nbc-opt,.nbc-btn.is-soft).is-on:not(#nbx) {
+ background:var(--nb-x-row-h);
+ box-shadow:var(--nb-x-cur-ring);
+ border-color:transparent;
+}
+.ui-settings .nbc-srow > span > p {margin:2px 0 0;}
+.ui-settings .nbc-seg > button svg {margin-right:6px;}

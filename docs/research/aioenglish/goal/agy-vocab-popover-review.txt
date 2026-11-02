@@ -1,0 +1,28 @@
+### 1. Focus Bugs
+* **Focus stolen on prop update:** The cleanup function runs whenever `anchor` or `width` changes, executing `anchor.focus()`. If `width` or `anchor` updates while the popover is open, focus is abruptly ripped away from the popover content back to the anchor.
+  * *Fix:* Restore focus only on component unmount (e.g., in a separate empty-dependency `useEffect`).
+* **Permanent loss of focus restoration:** Once an outside click occurs, `restoreFocus.current` is set to `false`. If the popover remains mounted across re-renders or prop changes, it never resets to `true`.
+
+---
+
+### 2. Escape Key Bugs
+* **Global event hijacking:** `document.addEventListener("keydown", key, true)` listens in the **capture phase** globally. Pressing `Escape` anywhere on the page (even inside an unrelated form input, modal, or dropdown) will unconditionally prevent default, stop propagation, close this popover, and pull focus to `anchor`.
+  * *Fix:* Only handle `Escape` if the active element is within the popover or the anchor (`ref.current?.contains(document.activeElement) || anchor.contains(document.activeElement)`), or omit capture and stopPropagation if global dismiss is desired.
+
+---
+
+### 3. Outside-Click Bugs
+* **Fires on non-primary clicks:** `pointerdown` triggers on any pointer interaction, including right-clicks (context menu) and middle-clicks.
+  * *Fix:* Check `if (e.button !== 0) return;`.
+* **Detached target false positives:** If an interaction inside the popover causes the clicked child element to unmount or re-render before the document listener runs, `ref.current?.contains(target)` returns `false`, erroneously triggering an outside click.
+  * *Fix:* Check `target.isConnected` before treating it as an outside click.
+
+---
+
+### 4. Positioning & Resize Bugs
+* **Viewport bottom overflow:** The panel has `maxHeight: "calc(100dvh - 16px)"`, but the container is positioned at `top`. When placed below the anchor (e.g., `top = 400px`), the total height (`top + maxHeight`) exceeds the viewport, pushing content off-screen.
+  * *Fix:* Constrain panel `maxHeight` dynamically based on available height (`innerHeight - top - 8` when below, or `a.top - 16` when flipped above).
+* **Horizontal scrollbar overlap:** Calculation uses `innerWidth`, which includes OS/browser vertical scrollbars. On non-overlay scrollbar platforms (Windows default), the popover can render beneath the scrollbar or force horizontal document scrolling.
+  * *Fix:* Use `document.documentElement.clientWidth` instead of `innerWidth`.
+* **Missing content/anchor resize tracking:** Only `window.resize` and `scroll` are tracked. If the anchor shifts due to DOM changes/CSS transitions, or if popover content resizes dynamically (fonts, images, accordion), position and flipped state become stale.
+  * *Fix:* Observe both `anchor` and `panel` via `ResizeObserver`.

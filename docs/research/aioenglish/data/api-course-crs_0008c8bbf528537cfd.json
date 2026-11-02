@@ -1,0 +1,2295 @@
+{
+  "course": {
+    "id": "crs_0008c8bbf528537cfd",
+    "slug": "unit-1-part-3",
+    "title": "Đã đi hay đang ở đó",
+    "packSlug": "lo-trinh-b1",
+    "packTitle": "Tiếng Anh trung cấp (B1)",
+    "targetLanguage": "en",
+    "nextCourseId": "crs_854f922c7ae581c8c7",
+    "statementCount": 25,
+    "availableTiers": [
+      "word",
+      "chunk",
+      "combinedChunk",
+      "sentence"
+    ],
+    "ownerUserId": null,
+    "vocabCount": 31
+  },
+  "statements": [
+    {
+      "id": "stmt_b2d7ca07c7ab154baa",
+      "text": "I have been to the museum",
+      "pinyin": null,
+      "translation": "Tôi đã từng đến bảo tàng.",
+      "acceptedAnswers": [
+        "I have been to the museum",
+        "I've been to the museum"
+      ],
+      "audioUrl": null,
+      "ipa": "/aɪ/ /hæv/ /biːn/ /tə/ /ðə/ /mjuˈziːəm/",
+      "targetLanguage": "en",
+      "targetText": "I have been to the museum",
+      "displayText": "I have been to the museum.",
+      "pronunciationGuide": "/aɪ/ /hæv/ /biːn/ /tə/ /ðə/ /mjuˈziːəm/",
+      "pronunciationGuideUs": "/aɪ/ /hæv/ /bɪn/ /tə/ /ðə/ /mjuˈziːəm/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "I",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ nhất số ít."
+        },
+        {
+          "id": "w1",
+          "unitText": "have",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - tạo thì hiện tại hoàn thành (present perfect), dùng với 'I/you/we/they'."
+        },
+        {
+          "id": "w2",
+          "unitText": "been",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'be'; 'have been to' = \"đã từng đến (rồi trở về)\"."
+        },
+        {
+          "id": "w3",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w4",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w5",
+          "unitText": "museum",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "to the museum",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'to' + danh từ trung tâm 'museum', chỉ nơi đến."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_842fbdd30dcff1873d",
+      "text": "We have been to the museum twice",
+      "pinyin": null,
+      "translation": "Chúng tôi đã từng đến bảo tàng hai lần.",
+      "acceptedAnswers": [
+        "We have been to the museum twice",
+        "We've been to the museum twice"
+      ],
+      "audioUrl": null,
+      "ipa": "/wiː/ /hæv/ /biːn/ /tə/ /ðə/ /mjuˈziːəm/ /twaɪs/",
+      "targetLanguage": "en",
+      "targetText": "We have been to the museum twice",
+      "displayText": "We have been to the museum twice.",
+      "pronunciationGuide": "/wiː/ /hæv/ /biːn/ /tə/ /ðə/ /mjuˈziːəm/ /twaɪs/",
+      "pronunciationGuideUs": "/wiː/ /hæv/ /bɪn/ /tə/ /ðə/ /mjuˈziːəm/ /twaɪs/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "We",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ nhất số nhiều."
+        },
+        {
+          "id": "w1",
+          "unitText": "have",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - tạo thì hiện tại hoàn thành (present perfect), dùng với 'I/you/we/they'."
+        },
+        {
+          "id": "w2",
+          "unitText": "been",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'be'; 'have been to' = \"đã từng đến (rồi trở về)\"."
+        },
+        {
+          "id": "w3",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w4",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w5",
+          "unitText": "museum",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w6",
+          "unitText": "twice",
+          "unitType": "word",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "adverb",
+          "explanationVi": "Trạng ngữ (adverbial) - trạng từ chỉ số lần (adverb of frequency) 'twice'."
+        },
+        {
+          "id": "p0",
+          "unitText": "to the museum",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'to' + danh từ trung tâm 'museum', chỉ nơi đến."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_35904385f299b20c4d",
+      "text": "She has been to the market",
+      "pinyin": null,
+      "translation": "Cô ấy đã từng đến chợ.",
+      "acceptedAnswers": [
+        "She has been to the market",
+        "She's been to the market"
+      ],
+      "audioUrl": null,
+      "ipa": "/ʃiː/ /hæz/ /biːn/ /tə/ /ðə/ /ˈmɑːkɪt/",
+      "targetLanguage": "en",
+      "targetText": "She has been to the market",
+      "displayText": "She has been to the market.",
+      "pronunciationGuide": "/ʃiː/ /hæz/ /biːn/ /tə/ /ðə/ /ˈmɑːkɪt/",
+      "pronunciationGuideUs": "/ʃiː/ /hæz/ /bɪn/ /tə/ /ðə/ /ˈmɑːrkɪt/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "She",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số ít giống nữ."
+        },
+        {
+          "id": "w1",
+          "unitText": "has",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - tạo thì hiện tại hoàn thành (present perfect), dùng với ngôi thứ ba số ít."
+        },
+        {
+          "id": "w2",
+          "unitText": "been",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'be'; 'has been to' = \"đã từng đến (rồi trở về)\"."
+        },
+        {
+          "id": "w3",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w4",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w5",
+          "unitText": "market",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "to the market",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'to' + danh từ trung tâm 'market', chỉ nơi đến."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_d2688ddaa6dc77d976",
+      "text": "He has been to that cafe",
+      "pinyin": null,
+      "translation": "Anh ấy đã từng đến quán cà phê đó.",
+      "acceptedAnswers": [
+        "He has been to that cafe",
+        "He's been to that cafe"
+      ],
+      "audioUrl": null,
+      "ipa": "/hiː/ /hæz/ /biːn/ /tə/ /ðæt/ /ˈkæfeɪ/",
+      "targetLanguage": "en",
+      "targetText": "He has been to that cafe",
+      "displayText": "He has been to that cafe.",
+      "pronunciationGuide": "/hiː/ /hæz/ /biːn/ /tə/ /ðæt/ /ˈkæfeɪ/",
+      "pronunciationGuideUs": "/hiː/ /hæz/ /bɪn/ /tə/ /ðæt/ /kæˈfeɪ/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "He",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số ít giống nam."
+        },
+        {
+          "id": "w1",
+          "unitText": "has",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - tạo thì hiện tại hoàn thành (present perfect), dùng với ngôi thứ ba số ít."
+        },
+        {
+          "id": "w2",
+          "unitText": "been",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'be'; 'has been to' = \"đã từng đến (rồi trở về)\"."
+        },
+        {
+          "id": "w3",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w4",
+          "unitText": "that",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "determiner"
+        },
+        {
+          "id": "w5",
+          "unitText": "cafe",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "to that cafe",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'to' + cụm danh từ 'that cafe' (từ chỉ định 'that' + danh từ 'cafe'), chỉ nơi đến."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_3c79a9c767e18d32ce",
+      "text": "They have been to the beach",
+      "pinyin": null,
+      "translation": "Họ đã từng đến bãi biển.",
+      "acceptedAnswers": [
+        "They have been to the beach",
+        "They've been to the beach"
+      ],
+      "audioUrl": null,
+      "ipa": "/ðeɪ/ /hæv/ /biːn/ /tə/ /ðə/ /biːtʃ/",
+      "targetLanguage": "en",
+      "targetText": "They have been to the beach",
+      "displayText": "They have been to the beach.",
+      "pronunciationGuide": "/ðeɪ/ /hæv/ /biːn/ /tə/ /ðə/ /biːtʃ/",
+      "pronunciationGuideUs": "/ðeɪ/ /hæv/ /bɪn/ /tə/ /ðə/ /biːtʃ/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "They",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số nhiều."
+        },
+        {
+          "id": "w1",
+          "unitText": "have",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - tạo thì hiện tại hoàn thành (present perfect), dùng với 'I/you/we/they'."
+        },
+        {
+          "id": "w2",
+          "unitText": "been",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'be'; 'have been to' = \"đã từng đến (rồi trở về)\"."
+        },
+        {
+          "id": "w3",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w4",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w5",
+          "unitText": "beach",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "to the beach",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'to' + danh từ trung tâm 'beach', chỉ nơi đến."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_ab002fd977539c381c",
+      "text": "You have been to the gym",
+      "pinyin": null,
+      "translation": "Bạn đã từng đến phòng gym.",
+      "acceptedAnswers": [
+        "You have been to the gym",
+        "You've been to the gym"
+      ],
+      "audioUrl": null,
+      "ipa": "/juː/ /hæv/ /biːn/ /tə/ /ðə/ /dʒɪm/",
+      "targetLanguage": "en",
+      "targetText": "You have been to the gym",
+      "displayText": "You have been to the gym.",
+      "pronunciationGuide": "/juː/ /hæv/ /biːn/ /tə/ /ðə/ /dʒɪm/",
+      "pronunciationGuideUs": "/juː/ /hæv/ /bɪn/ /tə/ /ðə/ /dʒɪm/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "You",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ hai."
+        },
+        {
+          "id": "w1",
+          "unitText": "have",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - tạo thì hiện tại hoàn thành (present perfect), dùng với 'I/you/we/they'."
+        },
+        {
+          "id": "w2",
+          "unitText": "been",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'be'; 'have been to' = \"đã từng đến (rồi trở về)\"."
+        },
+        {
+          "id": "w3",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w4",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w5",
+          "unitText": "gym",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "to the gym",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'to' + danh từ trung tâm 'gym', chỉ nơi đến."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_63c4b916c6a737a440",
+      "text": "My brother has been to the park",
+      "pinyin": null,
+      "translation": "Anh trai tôi đã từng đến công viên.",
+      "acceptedAnswers": [
+        "My brother has been to the park"
+      ],
+      "audioUrl": null,
+      "ipa": "/maɪ/ /ˈbrʌðə(r)/ /hæz/ /biːn/ /tə/ /ðə/ /pɑːk/",
+      "targetLanguage": "en",
+      "targetText": "My brother has been to the park",
+      "displayText": "My brother has been to the park.",
+      "pronunciationGuide": "/maɪ/ /ˈbrʌðə(r)/ /hæz/ /biːn/ /tə/ /ðə/ /pɑːk/",
+      "pronunciationGuideUs": "/maɪ/ /ˈbrʌðər/ /hæz/ /bɪn/ /tə/ /ðə/ /pɑːrk/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "My",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "determiner"
+        },
+        {
+          "id": "w1",
+          "unitText": "brother",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w2",
+          "unitText": "has",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - tạo thì hiện tại hoàn thành (present perfect), dùng với ngôi thứ ba số ít."
+        },
+        {
+          "id": "w3",
+          "unitText": "been",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'be'; 'has been to' = \"đã từng đến (rồi trở về)\"."
+        },
+        {
+          "id": "w4",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w5",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w6",
+          "unitText": "park",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "My brother",
+          "unitType": "phrase",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Chủ ngữ (subject) - cụm danh từ (noun phrase), danh từ trung tâm 'brother'; 'My' là tính từ sở hữu (possessive determiner) bổ nghĩa."
+        },
+        {
+          "id": "p1",
+          "unitText": "to the park",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'to' + danh từ trung tâm 'park', chỉ nơi đến."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_55c399af501320e720",
+      "text": "My parents have been to the beach twice",
+      "pinyin": null,
+      "translation": "Bố mẹ tôi đã từng đến bãi biển hai lần.",
+      "acceptedAnswers": [
+        "My parents have been to the beach twice"
+      ],
+      "audioUrl": null,
+      "ipa": "/maɪ/ /ˈpeərənts/ /hæv/ /biːn/ /tə/ /ðə/ /biːtʃ/ /twaɪs/",
+      "targetLanguage": "en",
+      "targetText": "My parents have been to the beach twice",
+      "displayText": "My parents have been to the beach twice.",
+      "pronunciationGuide": "/maɪ/ /ˈpeərənts/ /hæv/ /biːn/ /tə/ /ðə/ /biːtʃ/ /twaɪs/",
+      "pronunciationGuideUs": "/maɪ/ /ˈperənts/ /hæv/ /bɪn/ /tə/ /ðə/ /biːtʃ/ /twaɪs/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "My",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "determiner"
+        },
+        {
+          "id": "w1",
+          "unitText": "parents",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w2",
+          "unitText": "have",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - tạo thì hiện tại hoàn thành (present perfect), dùng với 'I/you/we/they'."
+        },
+        {
+          "id": "w3",
+          "unitText": "been",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'be'; 'have been to' = \"đã từng đến (rồi trở về)\"."
+        },
+        {
+          "id": "w4",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w5",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w6",
+          "unitText": "beach",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w7",
+          "unitText": "twice",
+          "unitType": "word",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "adverb",
+          "explanationVi": "Trạng ngữ (adverbial) - trạng từ chỉ số lần (adverb of frequency) 'twice'."
+        },
+        {
+          "id": "p0",
+          "unitText": "My parents",
+          "unitType": "phrase",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Chủ ngữ (subject) - cụm danh từ (noun phrase), danh từ trung tâm 'parents'; 'My' là tính từ sở hữu (possessive determiner) bổ nghĩa."
+        },
+        {
+          "id": "p1",
+          "unitText": "to the beach",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'to' + danh từ trung tâm 'beach', chỉ nơi đến."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_c8876bbf50a11362d5",
+      "text": "Have you ever been to the cinema",
+      "pinyin": null,
+      "translation": "Bạn đã từng đến rạp chiếu phim chưa?",
+      "acceptedAnswers": [
+        "Have you ever been to the cinema"
+      ],
+      "audioUrl": null,
+      "ipa": "/hæv/ /juː/ /ˈevə(r)/ /biːn/ /tə/ /ðə/ /ˈsɪnəmə/",
+      "targetLanguage": "en",
+      "targetText": "Have you ever been to the cinema",
+      "displayText": "Have you ever been to the cinema?",
+      "pronunciationGuide": "/hæv/ /juː/ /ˈevə(r)/ /biːn/ /tə/ /ðə/ /ˈsɪnəmə/",
+      "pronunciationGuideUs": "/hæv/ /juː/ /ˈevər/ /bɪn/ /tə/ /ðə/ /ˈsɪnəmə/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "Have",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - đảo lên trước chủ ngữ để tạo câu hỏi yes/no ở thì hiện tại hoàn thành."
+        },
+        {
+          "id": "w1",
+          "unitText": "you",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ hai."
+        },
+        {
+          "id": "w2",
+          "unitText": "ever",
+          "unitType": "word",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "adverb",
+          "explanationVi": "Trạng ngữ (adverbial) - trạng từ (adverb) 'ever', dùng trong câu hỏi hiện tại hoàn thành, nghĩa \"đã từng\"."
+        },
+        {
+          "id": "w3",
+          "unitText": "been",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'be'; 'have been to' = \"đã từng đến (rồi trở về)\"."
+        },
+        {
+          "id": "w4",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w5",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w6",
+          "unitText": "cinema",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "to the cinema",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'to' + danh từ trung tâm 'cinema', chỉ nơi đến."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_8dea4bb6b038cd6476",
+      "text": "Has she ever been to the theatre",
+      "pinyin": null,
+      "translation": "Cô ấy đã từng đến nhà hát chưa?",
+      "acceptedAnswers": [
+        "Has she ever been to the theatre"
+      ],
+      "audioUrl": null,
+      "ipa": "/hæz/ /ʃiː/ /ˈevə(r)/ /biːn/ /tə/ /ðə/ /ˈθɪətə(r)/",
+      "targetLanguage": "en",
+      "targetText": "Has she ever been to the theatre",
+      "displayText": "Has she ever been to the theatre?",
+      "pronunciationGuide": "/hæz/ /ʃiː/ /ˈevə(r)/ /biːn/ /tə/ /ðə/ /ˈθɪətə(r)/",
+      "pronunciationGuideUs": "/hæz/ /ʃiː/ /ˈevər/ /bɪn/ /tə/ /ðə/ /ˈθiːətər/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "Has",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - đảo lên trước chủ ngữ để tạo câu hỏi yes/no ở thì hiện tại hoàn thành."
+        },
+        {
+          "id": "w1",
+          "unitText": "she",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số ít giống nữ."
+        },
+        {
+          "id": "w2",
+          "unitText": "ever",
+          "unitType": "word",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "adverb",
+          "explanationVi": "Trạng ngữ (adverbial) - trạng từ (adverb) 'ever', dùng trong câu hỏi hiện tại hoàn thành, nghĩa \"đã từng\"."
+        },
+        {
+          "id": "w3",
+          "unitText": "been",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'be'; 'has been to' = \"đã từng đến (rồi trở về)\"."
+        },
+        {
+          "id": "w4",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w5",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w6",
+          "unitText": "theatre",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "to the theatre",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'to' + danh từ trung tâm 'theatre', chỉ nơi đến."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_764b59b05e09e30106",
+      "text": "My parents have gone on holiday",
+      "pinyin": null,
+      "translation": "Bố mẹ tôi đã đi nghỉ mát rồi.",
+      "acceptedAnswers": [
+        "My parents have gone on holiday"
+      ],
+      "audioUrl": null,
+      "ipa": "/maɪ/ /ˈpeərənts/ /hæv/ /ɡɒn/ /ɒn/ /ˈhɒlədeɪ/",
+      "targetLanguage": "en",
+      "targetText": "My parents have gone on holiday",
+      "displayText": "My parents have gone on holiday.",
+      "pronunciationGuide": "/maɪ/ /ˈpeərənts/ /hæv/ /ɡɒn/ /ɒn/ /ˈhɒlədeɪ/",
+      "pronunciationGuideUs": "/maɪ/ /ˈperənts/ /hæv/ /ɡɔːn/ /ɑːn/ /ˈhɑːlədeɪ/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "My",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "determiner"
+        },
+        {
+          "id": "w1",
+          "unitText": "parents",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w2",
+          "unitText": "have",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - tạo thì hiện tại hoàn thành (present perfect), dùng với 'I/you/we/they'."
+        },
+        {
+          "id": "w3",
+          "unitText": "gone",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'go'; 'have gone on holiday' = \"đã đi (chưa trở về)\"."
+        },
+        {
+          "id": "w4",
+          "unitText": "on",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w5",
+          "unitText": "holiday",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "My parents",
+          "unitType": "phrase",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Chủ ngữ (subject) - cụm danh từ (noun phrase), danh từ trung tâm 'parents'; 'My' là tính từ sở hữu (possessive determiner) bổ nghĩa."
+        },
+        {
+          "id": "p1",
+          "unitText": "on holiday",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'on holiday'; cụm cố định 'go on holiday' = \"đi nghỉ mát\"."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_3e1790dad5d97fbd5b",
+      "text": "My sister has gone to bed",
+      "pinyin": null,
+      "translation": "Chị gái tôi đã đi ngủ rồi.",
+      "acceptedAnswers": [
+        "My sister has gone to bed"
+      ],
+      "audioUrl": null,
+      "ipa": "/maɪ/ /ˈsɪstə(r)/ /hæz/ /ɡɒn/ /tə/ /bed/",
+      "targetLanguage": "en",
+      "targetText": "My sister has gone to bed",
+      "displayText": "My sister has gone to bed.",
+      "pronunciationGuide": "/maɪ/ /ˈsɪstə(r)/ /hæz/ /ɡɒn/ /tə/ /bed/",
+      "pronunciationGuideUs": "/maɪ/ /ˈsɪstər/ /hæz/ /ɡɔːn/ /tə/ /bed/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "My",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "determiner"
+        },
+        {
+          "id": "w1",
+          "unitText": "sister",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w2",
+          "unitText": "has",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - tạo thì hiện tại hoàn thành (present perfect), dùng với ngôi thứ ba số ít."
+        },
+        {
+          "id": "w3",
+          "unitText": "gone",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'go'; 'has gone to bed' = \"đã đi (chưa trở về)\"."
+        },
+        {
+          "id": "w4",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w5",
+          "unitText": "bed",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "My sister",
+          "unitType": "phrase",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Chủ ngữ (subject) - cụm danh từ (noun phrase), danh từ trung tâm 'sister'; 'My' là tính từ sở hữu (possessive determiner) bổ nghĩa."
+        },
+        {
+          "id": "p1",
+          "unitText": "to bed",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) trong cụm cố định 'go to bed' = \"đi ngủ\", chỉ nơi đến."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_295ea1062288fd4c3c",
+      "text": "My brother has gone to the bank",
+      "pinyin": null,
+      "translation": "Anh trai tôi đã đi ngân hàng rồi.",
+      "acceptedAnswers": [
+        "My brother has gone to the bank"
+      ],
+      "audioUrl": null,
+      "ipa": "/maɪ/ /ˈbrʌðə(r)/ /hæz/ /ɡɒn/ /tə/ /ðə/ /bæŋk/",
+      "targetLanguage": "en",
+      "targetText": "My brother has gone to the bank",
+      "displayText": "My brother has gone to the bank.",
+      "pronunciationGuide": "/maɪ/ /ˈbrʌðə(r)/ /hæz/ /ɡɒn/ /tə/ /ðə/ /bæŋk/",
+      "pronunciationGuideUs": "/maɪ/ /ˈbrʌðər/ /hæz/ /ɡɔːn/ /tə/ /ðə/ /bæŋk/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "My",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "determiner"
+        },
+        {
+          "id": "w1",
+          "unitText": "brother",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w2",
+          "unitText": "has",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - tạo thì hiện tại hoàn thành (present perfect), dùng với ngôi thứ ba số ít."
+        },
+        {
+          "id": "w3",
+          "unitText": "gone",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'go'; 'has gone to' = \"đã đi (chưa trở về)\"."
+        },
+        {
+          "id": "w4",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w5",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w6",
+          "unitText": "bank",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "My brother",
+          "unitType": "phrase",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Chủ ngữ (subject) - cụm danh từ (noun phrase), danh từ trung tâm 'brother'; 'My' là tính từ sở hữu (possessive determiner) bổ nghĩa."
+        },
+        {
+          "id": "p1",
+          "unitText": "to the bank",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'to' + danh từ trung tâm 'bank', chỉ nơi đến."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_dcafaa34d259ba7393",
+      "text": "They have gone out for dinner",
+      "pinyin": null,
+      "translation": "Họ đã ra ngoài ăn tối rồi.",
+      "acceptedAnswers": [
+        "They have gone out for dinner",
+        "They've gone out for dinner"
+      ],
+      "audioUrl": null,
+      "ipa": "/ðeɪ/ /hæv/ /ɡɒn/ /aʊt/ /fɔː(r)/ /ˈdɪnə(r)/",
+      "targetLanguage": "en",
+      "targetText": "They have gone out for dinner",
+      "displayText": "They have gone out for dinner.",
+      "pronunciationGuide": "/ðeɪ/ /hæv/ /ɡɒn/ /aʊt/ /fɔː(r)/ /ˈdɪnə(r)/",
+      "pronunciationGuideUs": "/ðeɪ/ /hæv/ /ɡɔːn/ /aʊt/ /fɔːr/ /ˈdɪnər/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "They",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số nhiều."
+        },
+        {
+          "id": "w1",
+          "unitText": "have",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - tạo thì hiện tại hoàn thành (present perfect), dùng với 'I/you/we/they'."
+        },
+        {
+          "id": "w2",
+          "unitText": "gone out",
+          "unitType": "word",
+          "grammarTags": [
+            "verb",
+            "phrasal-verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - cụm động từ (phrasal verb) 'go out' = \"ra ngoài\"; 'gone' là quá khứ phân từ."
+        },
+        {
+          "id": "w3",
+          "unitText": "for",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w4",
+          "unitText": "dinner",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "for dinner",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'for' + danh từ 'dinner', chỉ mục đích."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_a77c1e5e39a7727f13",
+      "text": "He has gone to the station",
+      "pinyin": null,
+      "translation": "Anh ấy đã ra ga rồi.",
+      "acceptedAnswers": [
+        "He has gone to the station",
+        "He's gone to the station"
+      ],
+      "audioUrl": null,
+      "ipa": "/hiː/ /hæz/ /ɡɒn/ /tə/ /ðə/ /ˈsteɪʃn/",
+      "targetLanguage": "en",
+      "targetText": "He has gone to the station",
+      "displayText": "He has gone to the station.",
+      "pronunciationGuide": "/hiː/ /hæz/ /ɡɒn/ /tə/ /ðə/ /ˈsteɪʃn/",
+      "pronunciationGuideUs": "/hiː/ /hæz/ /ɡɔːn/ /tə/ /ðə/ /ˈsteɪʃn/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "He",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số ít giống nam."
+        },
+        {
+          "id": "w1",
+          "unitText": "has",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - tạo thì hiện tại hoàn thành (present perfect), dùng với ngôi thứ ba số ít."
+        },
+        {
+          "id": "w2",
+          "unitText": "gone",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'go'; 'has gone to' = \"đã đi (chưa trở về)\"."
+        },
+        {
+          "id": "w3",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w4",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w5",
+          "unitText": "station",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "to the station",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'to' + danh từ trung tâm 'station', chỉ nơi đến."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_ca6dbee179a7f93230",
+      "text": "My mum has gone to the market",
+      "pinyin": null,
+      "translation": "Mẹ tôi đã đi chợ rồi.",
+      "acceptedAnswers": [
+        "My mum has gone to the market"
+      ],
+      "audioUrl": null,
+      "ipa": "/maɪ/ /mʌm/ /hæz/ /ɡɒn/ /tə/ /ðə/ /ˈmɑːkɪt/",
+      "targetLanguage": "en",
+      "targetText": "My mum has gone to the market",
+      "displayText": "My mum has gone to the market.",
+      "pronunciationGuide": "/maɪ/ /mʌm/ /hæz/ /ɡɒn/ /tə/ /ðə/ /ˈmɑːkɪt/",
+      "pronunciationGuideUs": "/maɪ/ /mʌm/ /hæz/ /ɡɔːn/ /tə/ /ðə/ /ˈmɑːrkɪt/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "My",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "determiner"
+        },
+        {
+          "id": "w1",
+          "unitText": "mum",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w2",
+          "unitText": "has",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - tạo thì hiện tại hoàn thành (present perfect), dùng với ngôi thứ ba số ít."
+        },
+        {
+          "id": "w3",
+          "unitText": "gone",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'go'; 'has gone to' = \"đã đi (chưa trở về)\"."
+        },
+        {
+          "id": "w4",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w5",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w6",
+          "unitText": "market",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "My mum",
+          "unitType": "phrase",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Chủ ngữ (subject) - cụm danh từ (noun phrase), danh từ trung tâm 'mum'; 'My' là tính từ sở hữu (possessive determiner) bổ nghĩa."
+        },
+        {
+          "id": "p1",
+          "unitText": "to the market",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'to' + danh từ trung tâm 'market', chỉ nơi đến."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_6f01891738cd5678b8",
+      "text": "She has gone to the supermarket",
+      "pinyin": null,
+      "translation": "Cô ấy đã đi siêu thị rồi.",
+      "acceptedAnswers": [
+        "She has gone to the supermarket",
+        "She's gone to the supermarket"
+      ],
+      "audioUrl": null,
+      "ipa": "/ʃiː/ /hæz/ /ɡɒn/ /tə/ /ðə/ /ˈsuːpəmɑːkɪt/",
+      "targetLanguage": "en",
+      "targetText": "She has gone to the supermarket",
+      "displayText": "She has gone to the supermarket.",
+      "pronunciationGuide": "/ʃiː/ /hæz/ /ɡɒn/ /tə/ /ðə/ /ˈsuːpəmɑːkɪt/",
+      "pronunciationGuideUs": "/ʃiː/ /hæz/ /ɡɔːn/ /tə/ /ðə/ /ˈsuːpərmɑːrkɪt/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "She",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số ít giống nữ."
+        },
+        {
+          "id": "w1",
+          "unitText": "has",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - tạo thì hiện tại hoàn thành (present perfect), dùng với ngôi thứ ba số ít."
+        },
+        {
+          "id": "w2",
+          "unitText": "gone",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'go'; 'has gone to' = \"đã đi (chưa trở về)\"."
+        },
+        {
+          "id": "w3",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w4",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w5",
+          "unitText": "supermarket",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "to the supermarket",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'to' + danh từ trung tâm 'supermarket', chỉ nơi đến."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_2b4bac358f97db7fb5",
+      "text": "The children have gone to the park",
+      "pinyin": null,
+      "translation": "Bọn trẻ đã đi công viên rồi.",
+      "acceptedAnswers": [
+        "The children have gone to the park"
+      ],
+      "audioUrl": null,
+      "ipa": "/ðə/ /ˈtʃɪldrən/ /hæv/ /ɡɒn/ /tə/ /ðə/ /pɑːk/",
+      "targetLanguage": "en",
+      "targetText": "The children have gone to the park",
+      "displayText": "The children have gone to the park.",
+      "pronunciationGuide": "/ðə/ /ˈtʃɪldrən/ /hæv/ /ɡɒn/ /tə/ /ðə/ /pɑːk/",
+      "pronunciationGuideUs": "/ðə/ /ˈtʃɪldrən/ /hæv/ /ɡɔːn/ /tə/ /ðə/ /pɑːrk/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "The",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w1",
+          "unitText": "children",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w2",
+          "unitText": "have",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - tạo thì hiện tại hoàn thành (present perfect), dùng với 'I/you/we/they'."
+        },
+        {
+          "id": "w3",
+          "unitText": "gone",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'go'; 'have gone to' = \"đã đi (chưa trở về)\"."
+        },
+        {
+          "id": "w4",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w5",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w6",
+          "unitText": "park",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "The children",
+          "unitType": "phrase",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Chủ ngữ (subject) - cụm danh từ (noun phrase), danh từ trung tâm 'children' (số nhiều bất quy tắc của 'child'); 'The' là mạo từ xác định (definite article)."
+        },
+        {
+          "id": "p1",
+          "unitText": "to the park",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'to' + danh từ trung tâm 'park', chỉ nơi đến."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_f4297744637012aa38",
+      "text": "She has gone to the hospital",
+      "pinyin": null,
+      "translation": "Cô ấy đã đi bệnh viện rồi.",
+      "acceptedAnswers": [
+        "She has gone to the hospital",
+        "She's gone to the hospital"
+      ],
+      "audioUrl": null,
+      "ipa": "/ʃiː/ /hæz/ /ɡɒn/ /tə/ /ðə/ /ˈhɒspɪtl/",
+      "targetLanguage": "en",
+      "targetText": "She has gone to the hospital",
+      "displayText": "She has gone to the hospital.",
+      "pronunciationGuide": "/ʃiː/ /hæz/ /ɡɒn/ /tə/ /ðə/ /ˈhɒspɪtl/",
+      "pronunciationGuideUs": "/ʃiː/ /hæz/ /ɡɔːn/ /tə/ /ðə/ /ˈhɑːspɪtl/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "She",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) đứng đầu câu."
+        },
+        {
+          "id": "w1",
+          "unitText": "has",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - thì hiện tại hoàn thành (present perfect), chia cho chủ ngữ ngôi thứ ba số ít."
+        },
+        {
+          "id": "w2",
+          "unitText": "gone",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'go', đứng sau trợ động từ 'has'."
+        },
+        {
+          "id": "w3",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w4",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w5",
+          "unitText": "hospital",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "to the hospital",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) gồm giới từ 'to' và cụm danh từ 'the hospital', chỉ nơi đến của hành động."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_3a1803f90122bbad36",
+      "text": "My dad has gone to work, so he is not here",
+      "pinyin": null,
+      "translation": "Bố tôi đã đi làm rồi nên ông ấy không ở đây.",
+      "acceptedAnswers": [
+        "My dad has gone to work, so he is not here",
+        "My dad has gone to work, so he isn't here",
+        "My dad has gone to work, so he's not here"
+      ],
+      "audioUrl": null,
+      "ipa": "/maɪ/ /dæd/ /hæz/ /ɡɒn/ /tə/ /wɜːk/ /səʊ/ /hiː/ /ɪz/ /nɒt/ /hɪə(r)/",
+      "targetLanguage": "en",
+      "targetText": "My dad has gone to work, so he is not here",
+      "displayText": "My dad has gone to work, so he is not here.",
+      "pronunciationGuide": "/maɪ/ /dæd/ /hæz/ /ɡɒn/ /tə/ /wɜːk/ /səʊ/ /hiː/ /ɪz/ /nɒt/ /hɪə(r)/",
+      "pronunciationGuideUs": "/maɪ/ /dæd/ /hæz/ /ɡɔːn/ /tə/ /wɜːrk/ /soʊ/ /hiː/ /ɪz/ /nɑːt/ /hɪr/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "My",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "determiner"
+        },
+        {
+          "id": "w1",
+          "unitText": "dad",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w2",
+          "unitText": "has",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - 'has' + quá khứ phân từ 'gone' tạo thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w3",
+          "unitText": "gone",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'go'; 'has gone to work' nghĩa là đã đi làm và chưa về."
+        },
+        {
+          "id": "w4",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w5",
+          "unitText": "work",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w6",
+          "unitText": "so",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "conjunction",
+          "explanationVi": "Liên từ kết hợp (coordinating conjunction) - nối mệnh đề đứng sau chỉ kết quả."
+        },
+        {
+          "id": "w7",
+          "unitText": "he",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) thay cho 'my dad'."
+        },
+        {
+          "id": "w8",
+          "unitText": "is",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - động từ 'be' chia ở hiện tại cho chủ ngữ 'he', chỉ trạng thái 'ở'."
+        },
+        {
+          "id": "w9",
+          "unitText": "not",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "adverb",
+          "explanationVi": "Trạng từ phủ định (negative adverb) - phủ định cho 'is here'."
+        },
+        {
+          "id": "w10",
+          "unitText": "here",
+          "unitType": "word",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "adverb",
+          "explanationVi": "Trạng ngữ (adverbial) - trạng từ chỉ nơi chốn (adverb of place)."
+        },
+        {
+          "id": "p0",
+          "unitText": "My dad",
+          "unitType": "phrase",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Chủ ngữ (subject) - cụm danh từ, danh từ trung tâm 'dad'; 'My' là tính từ sở hữu (possessive determiner)."
+        },
+        {
+          "id": "p1",
+          "unitText": "to work",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) chỉ nơi đến: giới từ 'to' + danh từ 'work'."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_2b3f7542c79793b68b",
+      "text": "Has Tom gone to the airport",
+      "pinyin": null,
+      "translation": "Tom đã ra sân bay chưa?",
+      "acceptedAnswers": [
+        "Has Tom gone to the airport"
+      ],
+      "audioUrl": null,
+      "ipa": "/hæz/ /tɒm/ /ɡɒn/ /tə/ /ði/ /ˈeəpɔːt/",
+      "targetLanguage": "en",
+      "targetText": "Has Tom gone to the airport",
+      "displayText": "Has Tom gone to the airport?",
+      "pronunciationGuide": "/hæz/ /tɒm/ /ɡɒn/ /tə/ /ði/ /ˈeəpɔːt/",
+      "pronunciationGuideUs": "/hæz/ /tɑːm/ /ɡɔːn/ /tə/ /ðə/ /ˈerpɔːrt/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "Has",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - đảo lên trước chủ ngữ để tạo câu hỏi yes/no ở thì hiện tại hoàn thành."
+        },
+        {
+          "id": "w1",
+          "unitText": "Tom",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Chủ ngữ (subject) - danh từ riêng (proper noun) chỉ tên người."
+        },
+        {
+          "id": "w2",
+          "unitText": "gone",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'go'; 'has gone to' = \"đã đi (chưa trở về)\"."
+        },
+        {
+          "id": "w3",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w4",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w5",
+          "unitText": "airport",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "to the airport",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'to' + danh từ trung tâm 'airport', chỉ nơi đến."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_eef1d785905bb7873b",
+      "text": "Where has Tom gone with my laptop",
+      "pinyin": null,
+      "translation": "Tom đã đi đâu với laptop của tôi rồi?",
+      "acceptedAnswers": [
+        "Where has Tom gone with my laptop"
+      ],
+      "audioUrl": null,
+      "ipa": "/weə(r)/ /hæz/ /tɒm/ /ɡɒn/ /wɪð/ /maɪ/ /ˈlæptɒp/",
+      "targetLanguage": "en",
+      "targetText": "Where has Tom gone with my laptop",
+      "displayText": "Where has Tom gone with my laptop?",
+      "pronunciationGuide": "/weə(r)/ /hæz/ /tɒm/ /ɡɒn/ /wɪð/ /maɪ/ /ˈlæptɒp/",
+      "pronunciationGuideUs": "/wer/ /hæz/ /tɑːm/ /ɡɔːn/ /wɪð/ /maɪ/ /ˈlæptɑːp/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "Where",
+          "unitType": "word",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "adverb",
+          "explanationVi": "Trạng ngữ (adverbial) - trạng từ nghi vấn (interrogative adverb) chỉ nơi chốn, mở đầu câu hỏi."
+        },
+        {
+          "id": "w1",
+          "unitText": "has",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - đảo lên trước chủ ngữ để tạo câu hỏi ở thì hiện tại hoàn thành."
+        },
+        {
+          "id": "w2",
+          "unitText": "Tom",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Chủ ngữ (subject) - danh từ riêng (proper noun) chỉ tên người."
+        },
+        {
+          "id": "w3",
+          "unitText": "gone",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'go'; 'has gone' = \"đã đi (chưa trở về)\"."
+        },
+        {
+          "id": "w4",
+          "unitText": "with",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w5",
+          "unitText": "my",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "determiner"
+        },
+        {
+          "id": "w6",
+          "unitText": "laptop",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "with my laptop",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'with' + cụm danh từ 'my laptop', chỉ vật đi kèm."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_df84ef506a9b6c72bf",
+      "text": "Has Anna gone to the library",
+      "pinyin": null,
+      "translation": "Anna đã đi thư viện chưa?",
+      "acceptedAnswers": [
+        "Has Anna gone to the library"
+      ],
+      "audioUrl": null,
+      "ipa": "/hæz/ /ˈænə/ /ɡɒn/ /tə/ /ðə/ /ˈlaɪbrəri/",
+      "targetLanguage": "en",
+      "targetText": "Has Anna gone to the library",
+      "displayText": "Has Anna gone to the library?",
+      "pronunciationGuide": "/hæz/ /ˈænə/ /ɡɒn/ /tə/ /ðə/ /ˈlaɪbrəri/",
+      "pronunciationGuideUs": "/hæz/ /ˈænə/ /ɡɔːn/ /tə/ /ðə/ /ˈlaɪbreri/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "Has",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - đảo lên trước chủ ngữ để tạo câu hỏi yes/no ở thì hiện tại hoàn thành."
+        },
+        {
+          "id": "w1",
+          "unitText": "Anna",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Chủ ngữ (subject) - danh từ riêng (proper noun) chỉ tên người."
+        },
+        {
+          "id": "w2",
+          "unitText": "gone",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'go'; 'has gone to' = \"đã đi (chưa trở về)\"."
+        },
+        {
+          "id": "w3",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w4",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w5",
+          "unitText": "library",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "to the library",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'to' + danh từ trung tâm 'library', chỉ nơi đến."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_99846bc1bc1178828b",
+      "text": "Have they gone to the concert",
+      "pinyin": null,
+      "translation": "Họ đã đi buổi hoà nhạc chưa?",
+      "acceptedAnswers": [
+        "Have they gone to the concert"
+      ],
+      "audioUrl": null,
+      "ipa": "/hæv/ /ðeɪ/ /ɡɒn/ /tə/ /ðə/ /ˈkɒnsət/",
+      "targetLanguage": "en",
+      "targetText": "Have they gone to the concert",
+      "displayText": "Have they gone to the concert?",
+      "pronunciationGuide": "/hæv/ /ðeɪ/ /ɡɒn/ /tə/ /ðə/ /ˈkɒnsət/",
+      "pronunciationGuideUs": "/hæv/ /ðeɪ/ /ɡɔːn/ /tə/ /ðə/ /ˈkɑːnsərt/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "Have",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - đảo lên trước chủ ngữ để tạo câu hỏi yes/no ở thì hiện tại hoàn thành."
+        },
+        {
+          "id": "w1",
+          "unitText": "they",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số nhiều."
+        },
+        {
+          "id": "w2",
+          "unitText": "gone",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'go'; 'have gone to' = \"đã đi (chưa trở về)\"."
+        },
+        {
+          "id": "w3",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w4",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w5",
+          "unitText": "concert",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "to the concert",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'to' + danh từ trung tâm 'concert', chỉ nơi đến."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_4b761a76fb554c8ae9",
+      "text": "Has Anna gone to the dentist",
+      "pinyin": null,
+      "translation": "Anna đã đi nha sĩ chưa?",
+      "acceptedAnswers": [
+        "Has Anna gone to the dentist"
+      ],
+      "audioUrl": null,
+      "ipa": "/hæz/ /ˈænə/ /ɡɒn/ /tə/ /ðə/ /ˈdentɪst/",
+      "targetLanguage": "en",
+      "targetText": "Has Anna gone to the dentist",
+      "displayText": "Has Anna gone to the dentist?",
+      "pronunciationGuide": "/hæz/ /ˈænə/ /ɡɒn/ /tə/ /ðə/ /ˈdentɪst/",
+      "pronunciationGuideUs": "/hæz/ /ˈænə/ /ɡɔːn/ /tə/ /ðə/ /ˈdentɪst/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "Has",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - đảo lên đầu câu hỏi yes/no, thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w1",
+          "unitText": "Anna",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Chủ ngữ (subject) - danh từ riêng (proper noun) chỉ tên người."
+        },
+        {
+          "id": "w2",
+          "unitText": "gone",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - quá khứ phân từ (past participle) của 'go', đứng sau trợ động từ 'Has'."
+        },
+        {
+          "id": "w3",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w4",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w5",
+          "unitText": "dentist",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "to the dentist",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) gồm giới từ 'to' và cụm danh từ 'the dentist', chỉ nơi đến của hành động."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    }
+  ],
+  "mastered": [],
+  "lastIndex": 0,
+  "completed": false,
+  "completedModes": [],
+  "doneSteps": []
+}

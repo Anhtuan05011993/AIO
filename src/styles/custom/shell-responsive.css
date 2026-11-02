@@ -1,0 +1,140 @@
+/* Shared tablet rail; verified on source Go cau and Vocabulary at 768x1024. */
+.ui-rail-short {
+  display: none;
+}
+@media (min-width: 640px) and (max-width: 1023px) {
+  .lp-app {
+    grid-template-columns: 76px minmax(0, 1fr);
+    gap: 18px;
+    padding: 14px 18px 40px 12px;
+  }
+  .lp-app .ui-mobile-bar,
+  .lp-app .ui-bottom-nav {
+    display: none;
+  }
+  .lp-app .lp-main {
+    width: calc(100vw - 124px);
+    max-width: none;
+    margin: 0;
+    padding-top: 2px;
+    padding-bottom: 0;
+  }
+  .lp-app .lp-rail {
+    display: block;
+    position: fixed;
+    left: 12px;
+    top: 14px;
+    bottom: 14px;
+    width: 76px;
+    height: calc(100dvh - 28px);
+  }
+  .lp-app .lp-rail .nbx-rail-in {
+    padding: 34px 12px 14px;
+    overflow: hidden;
+    gap: 4px;
+  }
+  .lp-app .nbx-brand {
+    height: 50px;
+    min-height: 50px;
+    padding: 0;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 52px;
+  }
+  .lp-app .nbx-brand svg {
+    width: 94px;
+    min-width: 94px;
+    max-width: none;
+    height: 20px;
+  }
+  .lp-app .nbx-ni {
+    height: 58px;
+    min-height: 58px;
+    padding: 6px 2px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+  }
+  .lp-app .ui-rail-short {
+    display: block;
+    font-size: 10.5px;
+    font-weight: 800;
+    line-height: 1.15;
+    white-space: nowrap;
+    letter-spacing: -0.2px;
+  }
+  .lp-app .nbx-ni .nbx-ell {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+  .lp-app .nbx-ni .lp-soon {
+    display: none;
+  }
+  .lp-app .nbx-me {
+    padding: 6px;
+    min-height: 88px;
+    width: 52px;
+  }
+  .lp-app .nbx-me .nbx-who {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+  .lp-app .nbx-me .nbx-tt,
+  .lp-app .nbx-me .nbx-st {
+    display: none;
+  }
+  .lp-app .nbx-me .lp-more {
+    margin: 0;
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+  }
+  .lp-app .ui-fab {
+    bottom: 18px;
+  }
+}
+@media (min-width: 640px) and (max-width: 1023px) {
+  .lp-app .lp-main {
+    grid-column: 2;
+  }
+}
+@media (min-width: 640px) and (max-width: 1023px) {
+  .lp-app {
+    display: grid;
+  }
+}
+
+/* Mobile header: sizes measured from source .nmt. Keep logo sizing away from icons. */
+@media (max-width: 639px) {
+  .lp-app .ui-mobile-bar { position: absolute; inset: 0 12px auto; height: 48px; padding: 0; gap: 8px; background: transparent; border: 0; }
+  .lp-app .ui-mobile-bar > a:first-child { display: flex; flex: 0 0 132px; width: 132px; }
+  .lp-app .ui-mobile-bar > a:first-child svg { width: 132px; height: 28px; }
+  .lp-app .ui-mobile-streak { display: flex; flex: 0 0 auto; align-items: center; gap: 6px; height: 32px; padding: 0 11px; font-size: 12.5px; color: #97301a; background: #f5ae98b3; }
+  .lp-app .ui-mobile-streak svg { width: 16px; height: 16px; flex: 0 0 16px; }
+  .lp-app .ui-mobile-user { display: flex; align-items: center; gap: 8px; height: 40px; min-width: 0; max-width: 136px; flex: 0 1 auto; }
+  .lp-app .ui-mobile-avatar { display: flex; flex: 0 0 32px; width: 32px; height: 32px; }
+  .lp-app .ui-mobile-avatar svg { width: 32px; height: 32px; }
+  .lp-app .ui-mobile-user-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .lp-app .ui-mobile-user-text b { font-size: 12.5px; line-height: 16px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+  .lp-app .ui-mobile-user-text small { font-size: 11.5px; line-height: 16px; height: 16px; white-space: nowrap; padding: 0 6px; }
+  .lp-app .ui-bottom-nav a[aria-current="page"] { background: var(--nb-info-soft, #b8daec); }
+}
+
+.ui-brand-slim, .ui-tablet-streak { display: none; }
+@media (min-width: 640px) and (max-width: 1023px) {
+  .lp-app .nbx-brand { align-items: flex-start; }
+  .lp-app .nbx-brand > svg:not(.ui-brand-slim) { display: none; }
+  .lp-app .nbx-brand > svg.ui-brand-slim { display: block; width: 52px; min-width: 52px; height: 30px; margin-top: 5px; }
+  .lp-app .nbx-me { display: flex; flex-direction: column; gap: 8px; }
+  .lp-app .nbx-me .nbx-who { order: -1; }
+  .lp-app .nbx-me .lp-more { display: none; }
+  .lp-app .ui-tablet-streak { display: flex; align-items: center; justify-content: center; gap: 4px; width: 38px; height: 24px; margin-inline: auto; border-radius: 10px; background: #fff9; color: #b34b36; font-size: 12px; font-weight: 800; }
+}
+@media(max-width:639px){
+ .lp-app .ui-bottom-nav a[href="/tu-vung"][aria-current="page"] {background:#cdbff3;box-shadow:0 8px 14px -10px #7459cc;}
+}

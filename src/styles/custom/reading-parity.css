@@ -1,0 +1,91 @@
+.lp-app[data-ui-scroll] > main > .ldh {
+  flex: none;
+  min-width: 0;
+}
+.ui-reading-topic-group { display: contents; }
+.lp-app .ldt .nbx-d-mode > .nbx-st { font-size: 13px; }
+dialog.ui-dialog.ui-reading-dialog {
+  position: fixed;
+  inset: 16px 16px calc(16px + 10vh);
+  margin: auto;
+  width: 512px;
+  max-width: calc(100vw - 32px);
+  height: fit-content;
+  max-height: calc(90dvh - 32px);
+  box-sizing: border-box;
+  padding: 0;
+  border: 2px solid transparent;
+  overflow: auto;
+}
+dialog.ui-dialog.ui-reading-dialog.is-press {
+  width: 384px;
+}
+.ui-reading-dialog .ui-dialog-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 0;
+  padding: 20px 20px 0;
+}
+.ui-reading-dialog .dlg-title {
+  min-width: 0;
+  margin: 0;
+  font: 800 22px/1.2 var(--nb-font-head);
+  letter-spacing: -0.01em;
+}
+.ui-reading-dialog .ui-dialog-head button {
+  flex: none;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  background: var(--surface);
+  box-shadow: none;
+}
+.ui-reading-form {
+  margin: 0;
+  outline: none;
+}
+.ui-reading-dialog-body {
+  padding: 12px 20px 16px;
+}
+.ui-reading-dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 20px 20px;
+}
+.ui-reading-dialog .field-ink {
+  box-sizing: border-box;
+}
+.ui-reading-dialog [role="combobox"], .ui-reading-dialog [data-ui-sel-menu] { background: #fffaf0; }
+.ui-reading-dialog p {
+  margin: 0;
+}
+.ui-reading-dialog p.mb-2 {
+  margin: 0 0 8px;
+}
+.ui-reading-dialog p.mt-2 {
+  margin: 8px 0 0;
+}
+.ui-reading-error {
+  margin-top: 12px;
+  color: #a33424;
+  font-size: 13px;
+}
+.ui-reading-status {
+  margin-top: 12px;
+  font-size: 13px;
+}
+.ui-reading-dialog .ui-reading-error, .ui-reading-dialog .ui-reading-status { margin-top: 12px; }
+body:has(.ui-reading-dialog[open]) {
+  overflow: hidden;
+}
+.ldh [data-nb-primary] {
+  background: #ffffffeb !important;
+  color: var(--nb-ink) !important;
+  box-shadow:
+    inset 0 0 0 1.5px #8d7d58,
+    0 10px 18px -12px #8d7d5899 !important;
+}

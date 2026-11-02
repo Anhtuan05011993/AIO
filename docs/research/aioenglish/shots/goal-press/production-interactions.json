@@ -1,0 +1,11 @@
+{
+  "page8": "8",
+  "back": "7",
+  "empty": true,
+  "reset": {
+    "disabled": true,
+    "opacity": "0.5"
+  },
+  "topic": "true",
+  "focus": "press-topic-trigger"
+}

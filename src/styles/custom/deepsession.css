@@ -1,0 +1,12 @@
+/* Phase-4 additions: Nạp sâu (lp-ds), Kiểm tra lên cấp (lp-lt), Profile — reuse lp-v/lp-* base. */
+
+.lp-dsroot,
+.lp-ltroot {
+  background-color: hsl(var(--paper));
+  min-height: 100%;
+}
+
+.lp-dsroot section,
+.lp-ltroot section {
+  min-height: 12rem;
+}

@@ -1,0 +1,197 @@
+.lp-app .ui-go-cau {
+  min-width: 0;
+  font-size: 15px;
+  line-height: normal;
+}
+.lp-app .ui-go-cau .gch-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+}
+.lp-app .ui-go-cau .gch-art-host {
+  display: contents;
+}
+.lp-app .ui-go-cau .nbc-hd {
+  margin: 0;
+  padding: 14px 20px 14px 22px;
+  gap: 12px;
+}
+.lp-app .ui-go-cau .nbc-hd > .gch-art-host {
+  display: contents;
+}
+.lp-app .ui-go-cau .nbc-hd-tt {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.lp-app .ui-go-cau .nbc-hd h1 {
+  font-size: 32px;
+  line-height: 1.1;
+  margin: 0;
+}
+.lp-app .ui-go-cau .nbc-hd-art {
+  width: 60px;
+  height: 45px;
+}
+.lp-app .ui-go-cau .nbc-hd-art svg {
+  width: 56px;
+  height: 42px;
+}
+.lp-app .ui-go-cau .gch-cta {
+  min-height: 44px;
+  height: 44px;
+}
+.lp-app .ui-go-cau :is(.gcpa, .gcs-page) {
+  padding: 20px 22px;
+  gap: 14px;
+}
+.lp-app .ui-go-cau .nbx-bh h2 {
+  font-family: var(--nb-font-head);
+  font-size: 21px;
+  line-height: 1.15;
+  font-weight: 800;
+  margin: 0;
+}
+.lp-app .ui-go-cau .gcpa-lvls {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.lp-app .ui-go-cau .gcpa-lvls > li::before {
+  content: none;
+}
+.lp-app .ui-go-cau .gcpa-lv {
+  min-width: 0;
+}
+.lp-app .ui-go-cau .gcs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  align-items: start;
+}
+.lp-app .ui-go-cau .nbx-sets {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+.lp-app .ui-go-cau .gcsr {
+  width: 100%;
+  min-width: 0;
+}
+.lp-app .ui-go-cau .gch-shelf-note {
+  font-size: 12.5px;
+  line-height: 1.4;
+  margin: 0;
+  color: var(--nb-mut);
+}
+.lp-app .ui-go-cau .gch-loading-head,
+.lp-app .ui-go-cau .gch-loading-path {
+  background: #ddd6c855;
+  border-radius: 24px;
+  min-height: 140px;
+}
+.lp-app .ui-go-cau .gch-loading-path {
+  min-height: 375px;
+  margin-top: 20px;
+}
+@media (max-width: 899px) {
+  .lp-app .ui-go-cau .gcs {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media (max-width: 719px) {
+  .lp-app .ui-go-cau .gch-wrap,
+  .lp-app .ui-go-cau .gch-col {
+    gap: 14px;
+  }
+  .lp-app .ui-go-cau :is(.gcpa, .gcs-page) {
+    padding: 16px;
+  }
+  .lp-app .ui-go-cau .nbc-hd {
+    padding: 12px 14px;
+  }
+  .lp-app .ui-go-cau .nbc-hd h1 {
+    font-size: 26px;
+  }
+  .lp-app .ui-go-cau .nbc-hd-art {
+    width: 44px;
+    height: 34px;
+  }
+  .lp-app .ui-go-cau .nbc-hd-art svg {
+    width: 44px;
+    height: 34px;
+  }
+  .lp-app .ui-go-cau .nbc-hd-tt {
+    gap: 6px;
+  }
+  .lp-app .ui-go-cau .nbx-sets {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+.lp-app .ui-go-cau .nbc-hd h1 {
+  font-size: 30px;
+  line-height: 1.05;
+}
+.lp-app .ui-go-cau .nbc-sub {
+  line-height: 1.4;
+}
+.lp-app .ui-go-cau .gch-cta {
+  background: #fffffff0;
+  color: var(--nb-ink);
+  box-shadow:
+    inset 0 0 0 1.5px #357bb5,
+    0 10px 18px -12px #357bb599;
+  border: 1px solid transparent;
+  border-radius: 13px;
+  padding: 0 18px;
+}
+.lp-app .ui-go-cau .gcpa-go .nbx-btn {
+  background: #fffffff0;
+  color: var(--nb-ink);
+  box-shadow:
+    inset 0 0 0 1.5px var(--nb-x-ft, #2a8259),
+    0 10px 18px -12px #2a825999;
+  border: 0;
+  border-radius: 999px;
+  height: 40px;
+  padding: 0 14px;
+  font-size: 13.5px;
+  line-height: 1;
+}
+.lp-app .ui-go-cau .gch-cta:hover,
+.lp-app .ui-go-cau .gcpa-go .nbx-btn:hover {
+  background: #fff;
+  translate: 0 -1px;
+}
+@media (max-width: 719px) {
+  .lp-app .ui-go-cau .nbc-hd h1 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 599px) {
+  .lp-app .ui-go-cau .nbc-hd {
+    padding: 10.5px 14px;
+  }
+  .lp-app .ui-go-cau .gch-cta {
+    min-height: 40px;
+    height: 40px;
+    padding: 0 12px;
+    font-size: 13px;
+  }
+  .lp-app .ui-go-cau :is(.gcpa, .gcs-page) {
+    padding: 16px 14px;
+    gap: 12px;
+  }
+  .lp-app .ui-go-cau .nbx-bh h2 {
+    font-size: 18.5px;
+    line-height: 1.15;
+  }
+}
+.lp-app .ui-go-cau .nbc-hd .nbc-hd-cta .gch-cta {
+  background: #fffffff0 !important;
+  color: var(--nb-ink) !important;
+  box-shadow:
+    inset 0 0 0 1.5px #357bb5,
+    0 10px 18px -12px #357bb599 !important;
+}

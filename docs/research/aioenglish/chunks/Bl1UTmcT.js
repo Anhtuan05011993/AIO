@@ -1,0 +1,1 @@
+var e=/[\u0000-\u001f\u007f]/,t=/^\/(?![/\\])/,n=[`/auth`,`/chao-mung`];function r(e){let t=(e.split(`#`)[0]??``).split(`?`)[0]??``;return t.length>1&&t.endsWith(`/`)?t.slice(0,-1):t}function i(i,a=`/`){if(typeof i!=`string`||i===``||e.test(i)||!t.test(i))return a;let o=r(i);for(let e of n)if(o===e||o.startsWith(e+`/`))return a;return i}export{i as t};

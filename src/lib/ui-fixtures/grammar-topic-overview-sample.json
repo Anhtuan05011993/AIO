@@ -1,0 +1,93 @@
+{
+  "thi-hien-tai-don": {
+    "body": "Thì hiện tại đơn (present simple) là thì dùng động từ nguyên thể, thêm -s/-es khi chủ ngữ là he/she/it, để nói thói quen và sự thật (I walk to school · She lives in Leeds). Chủ đề đi lần lượt: hiện tại đơn với I/you/we/they, với he/she/it, rồi thì hiện tại trong văn học thuật.",
+    "examples": [
+      {
+        "en": "My mum goes to the gym on Mondays.",
+        "focus": [
+          "goes"
+        ],
+        "vi": "Thứ Hai nào mẹ tôi cũng đi tập gym."
+      },
+      {
+        "en": "We don't watch TV in the morning.",
+        "focus": [
+          "don't",
+          "watch"
+        ],
+        "vi": "Buổi sáng chúng tôi không xem TV."
+      },
+      {
+        "en": "Do they live near the school?",
+        "focus": [
+          "Do",
+          "they",
+          "live"
+        ],
+        "vi": "Họ có sống gần trường không?"
+      }
+    ],
+    "outline": [
+      {
+        "current": true,
+        "label": "Tổng quan",
+        "sub": false,
+        "title": "Thì hiện tại đơn"
+      },
+      {
+        "current": false,
+        "label": "Chương 1",
+        "sub": false,
+        "title": "Hiện tại đơn với I/you/we/they"
+      },
+      {
+        "current": false,
+        "label": "Quy tắc 1",
+        "sub": true,
+        "title": "Giữ nguyên động từ sau I/you/we/they"
+      },
+      {
+        "current": false,
+        "label": "Quy tắc 2",
+        "sub": true,
+        "title": "Phủ định bằng don't + động từ nguyên thể"
+      },
+      {
+        "current": false,
+        "label": "Quy tắc 3",
+        "sub": true,
+        "title": "Hỏi bằng Do và trả lời ngắn"
+      },
+      {
+        "current": false,
+        "label": "Quy tắc 4",
+        "sub": true,
+        "title": "Nói thói quen và sự thật bằng hiện tại đơn"
+      },
+      {
+        "current": false,
+        "label": "Lỗi hay mắc",
+        "sub": true,
+        "title": "Tránh I am go và Are you like"
+      },
+      {
+        "current": false,
+        "label": "Kiểm tra cuối",
+        "sub": true,
+        "title": "5 câu, không gợi ý"
+      },
+      {
+        "current": false,
+        "label": "Chương 2",
+        "sub": false,
+        "title": "Hiện tại đơn với he/she/it"
+      },
+      {
+        "current": false,
+        "label": "Chương 3",
+        "sub": false,
+        "title": "Thì hiện tại trong văn học thuật"
+      }
+    ]
+  }
+}

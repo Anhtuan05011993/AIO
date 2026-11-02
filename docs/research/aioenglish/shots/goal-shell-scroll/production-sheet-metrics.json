@@ -1,0 +1,40 @@
+[
+  {
+    "width": 390,
+    "box": {
+      "h": 555,
+      "w": 390,
+      "x": 0,
+      "y": 289
+    },
+    "items": [
+      "Luyện ngữ pháp",
+      "ENVILuyện đọc & dịch",
+      "AaTừ điển chuyên sâu",
+      "Lộ trình học",
+      "Luyện thiSắp có",
+      "Tiến độ & Bạn bè",
+      "Yêu cầu tính năng",
+      "Cài đặt"
+    ]
+  },
+  {
+    "width": 360,
+    "box": {
+      "h": 555,
+      "w": 360,
+      "x": 0,
+      "y": 289
+    },
+    "items": [
+      "Luyện ngữ pháp",
+      "ENVILuyện đọc & dịch",
+      "AaTừ điển chuyên sâu",
+      "Lộ trình học",
+      "Luyện thiSắp có",
+      "Tiến độ & Bạn bè",
+      "Yêu cầu tính năng",
+      "Cài đặt"
+    ]
+  }
+]

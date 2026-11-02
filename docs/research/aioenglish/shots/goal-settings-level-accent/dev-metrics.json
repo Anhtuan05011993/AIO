@@ -1,0 +1,1306 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "source": {
+      "giong": {
+        "box": {
+          "bottom": 628.640625,
+          "height": 204.84375,
+          "left": 849,
+          "right": 1418,
+          "top": 423.796875,
+          "width": 569,
+          "x": 849,
+          "y": 423.796875
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 486.796875,
+              "height": 44,
+              "left": 870,
+              "right": 1397,
+              "top": 442.796875,
+              "width": 527,
+              "x": 870,
+              "y": 442.796875
+            },
+            "c": "nbc-bh sts-bh"
+          },
+          {
+            "box": {
+              "bottom": 607.640625,
+              "height": 76,
+              "left": 870,
+              "right": 1397,
+              "top": 531.640625,
+              "width": 527,
+              "x": 870,
+              "y": 531.640625
+            },
+            "c": "apc-grid"
+          },
+          {
+            "box": {
+              "bottom": 603.640625,
+              "height": 72,
+              "left": 870,
+              "right": 1127.5,
+              "top": 531.640625,
+              "width": 257.5,
+              "x": 870,
+              "y": 531.640625
+            },
+            "c": "is-on nbc-opt is-soft apc-card"
+          },
+          {
+            "box": {
+              "bottom": 603.640625,
+              "height": 72,
+              "left": 1137.5,
+              "right": 1395,
+              "top": 531.640625,
+              "width": 257.5,
+              "x": 1137.5,
+              "y": 531.640625
+            },
+            "c": "nbc-opt is-soft apc-card"
+          }
+        ]
+      },
+      "muctieu": {
+        "box": {
+          "bottom": 401.796875,
+          "height": 240.796875,
+          "left": 849,
+          "right": 1418,
+          "top": 161,
+          "width": 569,
+          "x": 849,
+          "y": 161
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 224,
+              "height": 44,
+              "left": 870,
+              "right": 1397,
+              "top": 180,
+              "width": 527,
+              "x": 870,
+              "y": 180
+            },
+            "c": "nbc-bh sts-bh"
+          }
+        ]
+      },
+      "trinhdo": {
+        "box": {
+          "bottom": 1631.21875,
+          "height": 566.03125,
+          "left": 258,
+          "right": 827,
+          "top": 1065.1875,
+          "width": 569,
+          "x": 258,
+          "y": 1065.1875
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 1159.03125,
+              "height": 74.84375,
+              "left": 279,
+              "right": 806,
+              "top": 1084.1875,
+              "width": 527,
+              "x": 279,
+              "y": 1084.1875
+            },
+            "c": "nbc-bh sts-bh"
+          },
+          {
+            "box": {
+              "bottom": 1610.21875,
+              "height": 439.1875,
+              "left": 279,
+              "right": 806,
+              "top": 1171.03125,
+              "width": 527,
+              "x": 279,
+              "y": 1171.03125
+            },
+            "c": "lvc"
+          },
+          {
+            "box": {
+              "bottom": 1244.625,
+              "height": 44,
+              "left": 279,
+              "right": 806,
+              "top": 1200.625,
+              "width": 527,
+              "x": 279,
+              "y": 1200.625
+            },
+            "c": "nbc-pills lvc-certs"
+          },
+          {
+            "box": {
+              "bottom": 1610.21875,
+              "height": 318,
+              "left": 279,
+              "right": 806,
+              "top": 1292.21875,
+              "width": 527,
+              "x": 279,
+              "y": 1292.21875
+            },
+            "c": "lvc-rows"
+          }
+        ]
+      }
+    },
+    "local": {
+      "giong": {
+        "box": {
+          "bottom": 628.640625,
+          "height": 204.84375,
+          "left": 849,
+          "right": 1418,
+          "top": 423.796875,
+          "width": 569,
+          "x": 849,
+          "y": 423.796875
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 486.796875,
+              "height": 44,
+              "left": 870,
+              "right": 1397,
+              "top": 442.796875,
+              "width": 527,
+              "x": 870,
+              "y": 442.796875
+            },
+            "c": "nbc-bh sts-bh"
+          },
+          {
+            "box": {
+              "bottom": 607.640625,
+              "height": 76,
+              "left": 870,
+              "right": 1397,
+              "top": 531.640625,
+              "width": 527,
+              "x": 870,
+              "y": 531.640625
+            },
+            "c": "apc-grid"
+          },
+          {
+            "box": {
+              "bottom": 603.640625,
+              "height": 72,
+              "left": 870,
+              "right": 1127.5,
+              "top": 531.640625,
+              "width": 257.5,
+              "x": 870,
+              "y": 531.640625
+            },
+            "c": "is-on nbc-opt is-soft apc-card"
+          },
+          {
+            "box": {
+              "bottom": 603.640625,
+              "height": 72,
+              "left": 1137.5,
+              "right": 1395,
+              "top": 531.640625,
+              "width": 257.5,
+              "x": 1137.5,
+              "y": 531.640625
+            },
+            "c": "nbc-opt is-soft apc-card"
+          }
+        ]
+      },
+      "muctieu": {
+        "box": {
+          "bottom": 401.796875,
+          "height": 240.796875,
+          "left": 849,
+          "right": 1418,
+          "top": 161,
+          "width": 569,
+          "x": 849,
+          "y": 161
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 224,
+              "height": 44,
+              "left": 870,
+              "right": 1397,
+              "top": 180,
+              "width": 527,
+              "x": 870,
+              "y": 180
+            },
+            "c": "nbc-bh sts-bh"
+          }
+        ]
+      },
+      "trinhdo": {
+        "box": {
+          "bottom": 1630.078125,
+          "height": 566.03125,
+          "left": 258,
+          "right": 827,
+          "top": 1064.046875,
+          "width": 569,
+          "x": 258,
+          "y": 1064.046875
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 1157.890625,
+              "height": 74.84375,
+              "left": 279,
+              "right": 806,
+              "top": 1083.046875,
+              "width": 527,
+              "x": 279,
+              "y": 1083.046875
+            },
+            "c": "nbc-bh sts-bh"
+          },
+          {
+            "box": {
+              "bottom": 1609.078125,
+              "height": 439.1875,
+              "left": 279,
+              "right": 806,
+              "top": 1169.890625,
+              "width": 527,
+              "x": 279,
+              "y": 1169.890625
+            },
+            "c": "lvc"
+          },
+          {
+            "box": {
+              "bottom": 1243.484375,
+              "height": 44,
+              "left": 279,
+              "right": 806,
+              "top": 1199.484375,
+              "width": 527,
+              "x": 279,
+              "y": 1199.484375
+            },
+            "c": "nbc-pills lvc-certs"
+          },
+          {
+            "box": {
+              "bottom": 1609.078125,
+              "height": 318,
+              "left": 279,
+              "right": 806,
+              "top": 1291.078125,
+              "width": 527,
+              "x": 279,
+              "y": 1291.078125
+            },
+            "c": "lvc-rows"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "source": {
+      "giong": {
+        "box": {
+          "bottom": 2089.265625,
+          "height": 204.84375,
+          "left": 106,
+          "right": 750,
+          "top": 1884.421875,
+          "width": 644,
+          "x": 106,
+          "y": 1884.421875
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 1947.421875,
+              "height": 44,
+              "left": 127,
+              "right": 729,
+              "top": 1903.421875,
+              "width": 602,
+              "x": 127,
+              "y": 1903.421875
+            },
+            "c": "nbc-bh sts-bh"
+          },
+          {
+            "box": {
+              "bottom": 2068.265625,
+              "height": 76,
+              "left": 127,
+              "right": 729,
+              "top": 1992.265625,
+              "width": 602,
+              "x": 127,
+              "y": 1992.265625
+            },
+            "c": "apc-grid"
+          },
+          {
+            "box": {
+              "bottom": 2064.265625,
+              "height": 72,
+              "left": 127,
+              "right": 422,
+              "top": 1992.265625,
+              "width": 295,
+              "x": 127,
+              "y": 1992.265625
+            },
+            "c": "is-on nbc-opt is-soft apc-card"
+          },
+          {
+            "box": {
+              "bottom": 2064.265625,
+              "height": 72,
+              "left": 432,
+              "right": 727,
+              "top": 1992.265625,
+              "width": 295,
+              "x": 432,
+              "y": 1992.265625
+            },
+            "c": "nbc-opt is-soft apc-card"
+          }
+        ]
+      },
+      "muctieu": {
+        "box": {
+          "bottom": 1862.421875,
+          "height": 240.796875,
+          "left": 106,
+          "right": 750,
+          "top": 1621.625,
+          "width": 644,
+          "x": 106,
+          "y": 1621.625
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 1684.625,
+              "height": 44,
+              "left": 127,
+              "right": 729,
+              "top": 1640.625,
+              "width": 602,
+              "x": 127,
+              "y": 1640.625
+            },
+            "c": "nbc-bh sts-bh"
+          }
+        ]
+      },
+      "trinhdo": {
+        "box": {
+          "bottom": 1599.625,
+          "height": 536.4375,
+          "left": 106,
+          "right": 750,
+          "top": 1063.1875,
+          "width": 644,
+          "x": 106,
+          "y": 1063.1875
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 1157.03125,
+              "height": 74.84375,
+              "left": 127,
+              "right": 729,
+              "top": 1082.1875,
+              "width": 602,
+              "x": 127,
+              "y": 1082.1875
+            },
+            "c": "nbc-bh sts-bh"
+          },
+          {
+            "box": {
+              "bottom": 1578.625,
+              "height": 409.59375,
+              "left": 127,
+              "right": 729,
+              "top": 1169.03125,
+              "width": 602,
+              "x": 127,
+              "y": 1169.03125
+            },
+            "c": "lvc"
+          },
+          {
+            "box": {
+              "bottom": 1213.03125,
+              "height": 44,
+              "left": 206.796875,
+              "right": 565.265625,
+              "top": 1169.03125,
+              "width": 358.46875,
+              "x": 206.796875,
+              "y": 1169.03125
+            },
+            "c": "nbc-pills lvc-certs"
+          },
+          {
+            "box": {
+              "bottom": 1578.625,
+              "height": 318,
+              "left": 127,
+              "right": 729,
+              "top": 1260.625,
+              "width": 602,
+              "x": 127,
+              "y": 1260.625
+            },
+            "c": "lvc-rows"
+          }
+        ]
+      }
+    },
+    "local": {
+      "giong": {
+        "box": {
+          "bottom": 2088.125,
+          "height": 204.84375,
+          "left": 106,
+          "right": 750,
+          "top": 1883.28125,
+          "width": 644,
+          "x": 106,
+          "y": 1883.28125
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 1946.28125,
+              "height": 44,
+              "left": 127,
+              "right": 729,
+              "top": 1902.28125,
+              "width": 602,
+              "x": 127,
+              "y": 1902.28125
+            },
+            "c": "nbc-bh sts-bh"
+          },
+          {
+            "box": {
+              "bottom": 2067.125,
+              "height": 76,
+              "left": 127,
+              "right": 729,
+              "top": 1991.125,
+              "width": 602,
+              "x": 127,
+              "y": 1991.125
+            },
+            "c": "apc-grid"
+          },
+          {
+            "box": {
+              "bottom": 2063.125,
+              "height": 72,
+              "left": 127,
+              "right": 422,
+              "top": 1991.125,
+              "width": 295,
+              "x": 127,
+              "y": 1991.125
+            },
+            "c": "is-on nbc-opt is-soft apc-card"
+          },
+          {
+            "box": {
+              "bottom": 2063.125,
+              "height": 72,
+              "left": 432,
+              "right": 727,
+              "top": 1991.125,
+              "width": 295,
+              "x": 432,
+              "y": 1991.125
+            },
+            "c": "nbc-opt is-soft apc-card"
+          }
+        ]
+      },
+      "muctieu": {
+        "box": {
+          "bottom": 1861.28125,
+          "height": 240.796875,
+          "left": 106,
+          "right": 750,
+          "top": 1620.484375,
+          "width": 644,
+          "x": 106,
+          "y": 1620.484375
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 1683.484375,
+              "height": 44,
+              "left": 127,
+              "right": 729,
+              "top": 1639.484375,
+              "width": 602,
+              "x": 127,
+              "y": 1639.484375
+            },
+            "c": "nbc-bh sts-bh"
+          }
+        ]
+      },
+      "trinhdo": {
+        "box": {
+          "bottom": 1598.484375,
+          "height": 536.4375,
+          "left": 106,
+          "right": 750,
+          "top": 1062.046875,
+          "width": 644,
+          "x": 106,
+          "y": 1062.046875
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 1155.890625,
+              "height": 74.84375,
+              "left": 127,
+              "right": 729,
+              "top": 1081.046875,
+              "width": 602,
+              "x": 127,
+              "y": 1081.046875
+            },
+            "c": "nbc-bh sts-bh"
+          },
+          {
+            "box": {
+              "bottom": 1577.484375,
+              "height": 409.59375,
+              "left": 127,
+              "right": 729,
+              "top": 1167.890625,
+              "width": 602,
+              "x": 127,
+              "y": 1167.890625
+            },
+            "c": "lvc"
+          },
+          {
+            "box": {
+              "bottom": 1211.890625,
+              "height": 44,
+              "left": 206.796875,
+              "right": 565.265625,
+              "top": 1167.890625,
+              "width": 358.46875,
+              "x": 206.796875,
+              "y": 1167.890625
+            },
+            "c": "nbc-pills lvc-certs"
+          },
+          {
+            "box": {
+              "bottom": 1577.484375,
+              "height": 318,
+              "left": 127,
+              "right": 729,
+              "top": 1259.484375,
+              "width": 602,
+              "x": 127,
+              "y": 1259.484375
+            },
+            "c": "lvc-rows"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "source": {
+      "giong": {
+        "box": {
+          "bottom": 2235.046875,
+          "height": 276.84375,
+          "left": 12,
+          "right": 378,
+          "top": 1958.203125,
+          "width": 366,
+          "x": 12,
+          "y": 1958.203125
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 2017.203125,
+              "height": 44,
+              "left": 27,
+              "right": 363,
+              "top": 1973.203125,
+              "width": 336,
+              "x": 27,
+              "y": 1973.203125
+            },
+            "c": "nbc-bh sts-bh"
+          },
+          {
+            "box": {
+              "bottom": 2220.046875,
+              "height": 158,
+              "left": 27,
+              "right": 363,
+              "top": 2062.046875,
+              "width": 336,
+              "x": 27,
+              "y": 2062.046875
+            },
+            "c": "apc-grid"
+          },
+          {
+            "box": {
+              "bottom": 2134.046875,
+              "height": 72,
+              "left": 27,
+              "right": 361,
+              "top": 2062.046875,
+              "width": 334,
+              "x": 27,
+              "y": 2062.046875
+            },
+            "c": "is-on nbc-opt is-soft apc-card"
+          },
+          {
+            "box": {
+              "bottom": 2216.046875,
+              "height": 72,
+              "left": 27,
+              "right": 361,
+              "top": 2144.046875,
+              "width": 334,
+              "x": 27,
+              "y": 2144.046875
+            },
+            "c": "nbc-opt is-soft apc-card"
+          }
+        ]
+      },
+      "muctieu": {
+        "box": {
+          "bottom": 1944.203125,
+          "height": 283.796875,
+          "left": 12,
+          "right": 378,
+          "top": 1660.40625,
+          "width": 366,
+          "x": 12,
+          "y": 1660.40625
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 1719.40625,
+              "height": 44,
+              "left": 27,
+              "right": 363,
+              "top": 1675.40625,
+              "width": 336,
+              "x": 27,
+              "y": 1675.40625
+            },
+            "c": "nbc-bh sts-bh"
+          }
+        ]
+      },
+      "trinhdo": {
+        "box": {
+          "bottom": 1638.40625,
+          "height": 608.03125,
+          "left": 12,
+          "right": 378,
+          "top": 1030.375,
+          "width": 366,
+          "x": 12,
+          "y": 1030.375
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 1120.21875,
+              "height": 74.84375,
+              "left": 27,
+              "right": 363,
+              "top": 1045.375,
+              "width": 336,
+              "x": 27,
+              "y": 1045.375
+            },
+            "c": "nbc-bh sts-bh"
+          },
+          {
+            "box": {
+              "bottom": 1623.40625,
+              "height": 491.1875,
+              "left": 27,
+              "right": 363,
+              "top": 1132.21875,
+              "width": 336,
+              "x": 27,
+              "y": 1132.21875
+            },
+            "c": "lvc"
+          },
+          {
+            "box": {
+              "bottom": 1257.8125,
+              "height": 96,
+              "left": 27,
+              "right": 363,
+              "top": 1161.8125,
+              "width": 336,
+              "x": 27,
+              "y": 1161.8125
+            },
+            "c": "nbc-pills lvc-certs"
+          },
+          {
+            "box": {
+              "bottom": 1623.40625,
+              "height": 318,
+              "left": 27,
+              "right": 363,
+              "top": 1305.40625,
+              "width": 336,
+              "x": 27,
+              "y": 1305.40625
+            },
+            "c": "lvc-rows"
+          }
+        ]
+      }
+    },
+    "local": {
+      "giong": {
+        "box": {
+          "bottom": 2225.90625,
+          "height": 276.84375,
+          "left": 12,
+          "right": 378,
+          "top": 1949.0625,
+          "width": 366,
+          "x": 12,
+          "y": 1949.0625
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 2008.0625,
+              "height": 44,
+              "left": 27,
+              "right": 363,
+              "top": 1964.0625,
+              "width": 336,
+              "x": 27,
+              "y": 1964.0625
+            },
+            "c": "nbc-bh sts-bh"
+          },
+          {
+            "box": {
+              "bottom": 2210.90625,
+              "height": 158,
+              "left": 27,
+              "right": 363,
+              "top": 2052.90625,
+              "width": 336,
+              "x": 27,
+              "y": 2052.90625
+            },
+            "c": "apc-grid"
+          },
+          {
+            "box": {
+              "bottom": 2124.90625,
+              "height": 72,
+              "left": 27,
+              "right": 361,
+              "top": 2052.90625,
+              "width": 334,
+              "x": 27,
+              "y": 2052.90625
+            },
+            "c": "is-on nbc-opt is-soft apc-card"
+          },
+          {
+            "box": {
+              "bottom": 2206.90625,
+              "height": 72,
+              "left": 27,
+              "right": 361,
+              "top": 2134.90625,
+              "width": 334,
+              "x": 27,
+              "y": 2134.90625
+            },
+            "c": "nbc-opt is-soft apc-card"
+          }
+        ]
+      },
+      "muctieu": {
+        "box": {
+          "bottom": 1935.0625,
+          "height": 283.796875,
+          "left": 12,
+          "right": 378,
+          "top": 1651.265625,
+          "width": 366,
+          "x": 12,
+          "y": 1651.265625
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 1710.265625,
+              "height": 44,
+              "left": 27,
+              "right": 363,
+              "top": 1666.265625,
+              "width": 336,
+              "x": 27,
+              "y": 1666.265625
+            },
+            "c": "nbc-bh sts-bh"
+          }
+        ]
+      },
+      "trinhdo": {
+        "box": {
+          "bottom": 1637.265625,
+          "height": 608.03125,
+          "left": 12,
+          "right": 378,
+          "top": 1029.234375,
+          "width": 366,
+          "x": 12,
+          "y": 1029.234375
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 1119.078125,
+              "height": 74.84375,
+              "left": 27,
+              "right": 363,
+              "top": 1044.234375,
+              "width": 336,
+              "x": 27,
+              "y": 1044.234375
+            },
+            "c": "nbc-bh sts-bh"
+          },
+          {
+            "box": {
+              "bottom": 1622.265625,
+              "height": 491.1875,
+              "left": 27,
+              "right": 363,
+              "top": 1131.078125,
+              "width": 336,
+              "x": 27,
+              "y": 1131.078125
+            },
+            "c": "lvc"
+          },
+          {
+            "box": {
+              "bottom": 1256.671875,
+              "height": 96,
+              "left": 27,
+              "right": 363,
+              "top": 1160.671875,
+              "width": 336,
+              "x": 27,
+              "y": 1160.671875
+            },
+            "c": "nbc-pills lvc-certs"
+          },
+          {
+            "box": {
+              "bottom": 1622.265625,
+              "height": 318,
+              "left": 27,
+              "right": 363,
+              "top": 1304.265625,
+              "width": 336,
+              "x": 27,
+              "y": 1304.265625
+            },
+            "c": "lvc-rows"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "width": 360,
+    "height": 844,
+    "source": {
+      "giong": {
+        "box": {
+          "bottom": 2253.890625,
+          "height": 276.84375,
+          "left": 12,
+          "right": 348,
+          "top": 1977.046875,
+          "width": 336,
+          "x": 12,
+          "y": 1977.046875
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 2036.046875,
+              "height": 44,
+              "left": 27,
+              "right": 333,
+              "top": 1992.046875,
+              "width": 306,
+              "x": 27,
+              "y": 1992.046875
+            },
+            "c": "nbc-bh sts-bh"
+          },
+          {
+            "box": {
+              "bottom": 2238.890625,
+              "height": 158,
+              "left": 27,
+              "right": 333,
+              "top": 2080.890625,
+              "width": 306,
+              "x": 27,
+              "y": 2080.890625
+            },
+            "c": "apc-grid"
+          },
+          {
+            "box": {
+              "bottom": 2152.890625,
+              "height": 72,
+              "left": 27,
+              "right": 331,
+              "top": 2080.890625,
+              "width": 304,
+              "x": 27,
+              "y": 2080.890625
+            },
+            "c": "is-on nbc-opt is-soft apc-card"
+          },
+          {
+            "box": {
+              "bottom": 2234.890625,
+              "height": 72,
+              "left": 27,
+              "right": 331,
+              "top": 2162.890625,
+              "width": 304,
+              "x": 27,
+              "y": 2162.890625
+            },
+            "c": "nbc-opt is-soft apc-card"
+          }
+        ]
+      },
+      "muctieu": {
+        "box": {
+          "bottom": 1963.046875,
+          "height": 283.796875,
+          "left": 12,
+          "right": 348,
+          "top": 1679.25,
+          "width": 336,
+          "x": 12,
+          "y": 1679.25
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 1738.25,
+              "height": 44,
+              "left": 27,
+              "right": 333,
+              "top": 1694.25,
+              "width": 306,
+              "x": 27,
+              "y": 1694.25
+            },
+            "c": "nbc-bh sts-bh"
+          }
+        ]
+      },
+      "trinhdo": {
+        "box": {
+          "bottom": 1657.25,
+          "height": 608.03125,
+          "left": 12,
+          "right": 348,
+          "top": 1049.21875,
+          "width": 336,
+          "x": 12,
+          "y": 1049.21875
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 1139.0625,
+              "height": 74.84375,
+              "left": 27,
+              "right": 333,
+              "top": 1064.21875,
+              "width": 306,
+              "x": 27,
+              "y": 1064.21875
+            },
+            "c": "nbc-bh sts-bh"
+          },
+          {
+            "box": {
+              "bottom": 1642.25,
+              "height": 491.1875,
+              "left": 27,
+              "right": 333,
+              "top": 1151.0625,
+              "width": 306,
+              "x": 27,
+              "y": 1151.0625
+            },
+            "c": "lvc"
+          },
+          {
+            "box": {
+              "bottom": 1276.65625,
+              "height": 96,
+              "left": 27,
+              "right": 333,
+              "top": 1180.65625,
+              "width": 306,
+              "x": 27,
+              "y": 1180.65625
+            },
+            "c": "nbc-pills lvc-certs"
+          },
+          {
+            "box": {
+              "bottom": 1642.25,
+              "height": 318,
+              "left": 27,
+              "right": 333,
+              "top": 1324.25,
+              "width": 306,
+              "x": 27,
+              "y": 1324.25
+            },
+            "c": "lvc-rows"
+          }
+        ]
+      }
+    },
+    "local": {
+      "giong": {
+        "box": {
+          "bottom": 2243.890625,
+          "height": 276.84375,
+          "left": 12,
+          "right": 348,
+          "top": 1967.046875,
+          "width": 336,
+          "x": 12,
+          "y": 1967.046875
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 2026.046875,
+              "height": 44,
+              "left": 27,
+              "right": 333,
+              "top": 1982.046875,
+              "width": 306,
+              "x": 27,
+              "y": 1982.046875
+            },
+            "c": "nbc-bh sts-bh"
+          },
+          {
+            "box": {
+              "bottom": 2228.890625,
+              "height": 158,
+              "left": 27,
+              "right": 333,
+              "top": 2070.890625,
+              "width": 306,
+              "x": 27,
+              "y": 2070.890625
+            },
+            "c": "apc-grid"
+          },
+          {
+            "box": {
+              "bottom": 2142.890625,
+              "height": 72,
+              "left": 27,
+              "right": 331,
+              "top": 2070.890625,
+              "width": 304,
+              "x": 27,
+              "y": 2070.890625
+            },
+            "c": "is-on nbc-opt is-soft apc-card"
+          },
+          {
+            "box": {
+              "bottom": 2224.890625,
+              "height": 72,
+              "left": 27,
+              "right": 331,
+              "top": 2152.890625,
+              "width": 304,
+              "x": 27,
+              "y": 2152.890625
+            },
+            "c": "nbc-opt is-soft apc-card"
+          }
+        ]
+      },
+      "muctieu": {
+        "box": {
+          "bottom": 1953.046875,
+          "height": 283.796875,
+          "left": 12,
+          "right": 348,
+          "top": 1669.25,
+          "width": 336,
+          "x": 12,
+          "y": 1669.25
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 1728.25,
+              "height": 44,
+              "left": 27,
+              "right": 333,
+              "top": 1684.25,
+              "width": 306,
+              "x": 27,
+              "y": 1684.25
+            },
+            "c": "nbc-bh sts-bh"
+          }
+        ]
+      },
+      "trinhdo": {
+        "box": {
+          "bottom": 1655.25,
+          "height": 608.03125,
+          "left": 12,
+          "right": 348,
+          "top": 1047.21875,
+          "width": 336,
+          "x": 12,
+          "y": 1047.21875
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 1137.0625,
+              "height": 74.84375,
+              "left": 27,
+              "right": 333,
+              "top": 1062.21875,
+              "width": 306,
+              "x": 27,
+              "y": 1062.21875
+            },
+            "c": "nbc-bh sts-bh"
+          },
+          {
+            "box": {
+              "bottom": 1640.25,
+              "height": 491.1875,
+              "left": 27,
+              "right": 333,
+              "top": 1149.0625,
+              "width": 306,
+              "x": 27,
+              "y": 1149.0625
+            },
+            "c": "lvc"
+          },
+          {
+            "box": {
+              "bottom": 1274.65625,
+              "height": 96,
+              "left": 27,
+              "right": 333,
+              "top": 1178.65625,
+              "width": 306,
+              "x": 27,
+              "y": 1178.65625
+            },
+            "c": "nbc-pills lvc-certs"
+          },
+          {
+            "box": {
+              "bottom": 1640.25,
+              "height": 318,
+              "left": 27,
+              "right": 333,
+              "top": 1322.25,
+              "width": 306,
+              "x": 27,
+              "y": 1322.25
+            },
+            "c": "lvc-rows"
+          }
+        ]
+      }
+    }
+  }
+]

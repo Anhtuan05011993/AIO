@@ -1,0 +1,199 @@
+.lp-app .ui-grammar-hub {
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+}
+.lp-app .ui-grammar-hub > .nbc-hd {
+  margin: 0;
+  min-height: 125px;
+  padding: 20px 22px;
+  gap: 14px;
+}
+.lp-app .ui-grammar-hub .nbc-hd-tt {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+.lp-app .ui-grammar-hub .nbc-hd-tt h1 {
+  font-size: 30px;
+  line-height: 1.05;
+  margin: -.2em 0 -.16em;
+  white-space: nowrap;
+}
+.lp-app .ui-grammar-hub .nbc-hd-art {
+  width: 60px;
+  height: 46px;
+}
+.lp-app .ui-grammar-hub .nbc-hd-art svg {
+  width: 56px;
+  height: 42px;
+}
+.lp-app .ui-grammar-hub .nbc-hd-tools {
+  margin: 0;
+}
+.lp-app .ui-grammar-hub .ghl {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.lp-app .ui-grammar-hub .ghl-open {
+  padding: 20px 22px;
+  gap: 18px;
+}
+.lp-app .ui-grammar-hub .ghl-cols {
+  display: block;
+  columns: 3;
+  column-gap: 12px;
+}
+.lp-app .ui-grammar-hub .nbx-chap {
+  break-inside: avoid;
+  margin: 0 0 12px;
+  display: block;
+}
+.lp-app .ui-grammar-hub .ghl-rows {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.lp-app .ui-grammar-hub .ghl-row {
+  min-width: 0;
+}
+.lp-app .ui-grammar-hub .ghl-pt {
+  min-width: 0;
+}
+.lp-app .ui-grammar-hub .ghl-next {
+  padding: 20px 22px;
+}
+@media (max-width: 1100px) {
+  .lp-app .ui-grammar-hub .ghl-cols {
+    columns: 2;
+  }
+}
+@media (max-width: 719px) {
+  .lp-app .ui-grammar-hub {
+    gap: 14px;
+  }
+  .lp-app .ui-grammar-hub > .nbc-hd {
+    padding: 14px;
+    min-height: 110px;
+  }
+  .lp-app .ui-grammar-hub .nbc-hd-tt h1 {
+    font-size: 26px;
+  }
+  .lp-app .ui-grammar-hub .nbc-hd-art {
+    width: 44px;
+    height: 36px;
+  }
+  .lp-app .ui-grammar-hub .nbc-hd-art svg {
+    width: 44px;
+    height: 34px;
+  }
+  .lp-app .ui-grammar-hub .nbc-hd-chips {
+    display: none;
+  }
+  .lp-app .ui-grammar-hub .ghl-cols {
+    columns: 1;
+  }
+  .lp-app .ui-grammar-hub .ghl-open,
+  .lp-app .ui-grammar-hub .ghl-next {
+    padding: 16px;
+  }
+  .lp-app .ui-grammar-hub .ghl-row {
+    flex-wrap: nowrap;
+  }
+}
+.lp-app .ui-grammar-hub > .nbc-hd {
+  min-height: 0;
+  padding: 14px 20px 14px 22px;
+  gap: 10px;
+}
+.lp-app .ui-grammar-hub > .nbc-hd > span {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.lp-app .ui-grammar-hub .nbc-hd-row {
+  height: 45px;
+}
+.lp-app .ui-grammar-hub .nbc-hd-art {
+  height: 45px;
+}
+.lp-app .ui-grammar-hub .ghl-open {
+  gap: 14px;
+}
+.lp-app .ui-grammar-hub .ghl-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: 0 -8px;
+}
+.lp-app .ui-grammar-hub .ghl-row {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr) auto auto;
+  gap: 9px;
+  font-size: 13px;
+  padding: 0 8px;
+}
+.lp-app .ui-grammar-hub .ghl-row::before {
+  content: none;
+}
+.lp-app .ui-grammar-hub .ghl-tt {
+  gap: 0;
+}
+.lp-app .ui-grammar-hub .nbx-ch-h {
+  min-height: 0;
+}
+.lp-app .ui-grammar-hub .ghl-rows .ghk {
+  width: 18px;
+  height: 18px;
+}
+@media (max-width: 719px) {
+  .lp-app .ui-grammar-hub > .nbc-hd {
+    padding: 12px 14px;
+  }
+  .lp-app .ui-grammar-hub .nbc-hd-row {
+    height: auto;
+    min-height: 40px;
+  }
+  .lp-app .ui-grammar-hub .nbc-hd-tt {
+    gap: 6px;
+  }
+  .lp-app .ui-grammar-hub .nbc-hd-cta a {
+    padding: 0 9px;
+    font-size: 12px;
+  }
+}
+.lp-app .ui-grammar-hub {
+  font-size: 15px;
+}
+.lp-app .ui-grammar-hub .nbc-hd-tools {
+  margin: -6px;
+}
+.lp-app .ui-grammar-hub .nbx-chap {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+@media (max-width: 719px) {
+  .lp-app .ui-grammar-hub .nbc-hd-art {
+    height: 34px;
+  }
+  .lp-app .ui-grammar-hub .nbc-hd-art svg {
+    height: 34px;
+  }
+}
+.lp-app .ui-grammar-hub .nbc-hd-cta > .nbx-btn {
+  background: rgba(255,255,255,.92) !important;
+  color: #1d1c27 !important;
+  box-shadow: inset 0 0 0 1.5px #d0702a, 0 10px 18px -12px #d0702a99 !important;
+}
+@media (max-width: 719px) {
+  .lp-app .ui-grammar-hub > .nbc-hd { padding: 10.5px 14px; gap: 8px; line-height: 1.4; }
+  .lp-app .ui-grammar-hub .nbc-hd-tt h1 { font-size: min(26px, 6.4vw); }
+  .lp-app .ui-grammar-hub .nbc-hd-cta a { padding: 0 18px; font-size: 14.5px; }
+  .lp-app .ui-grammar-hub .ghl-open { padding: 16px 14px; gap: 12px; }
+  .lp-app .ui-grammar-hub .ghl-cols > .nbx-chap:last-child { margin-bottom: 0; }
+}

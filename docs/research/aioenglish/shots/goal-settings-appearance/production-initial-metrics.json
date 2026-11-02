@@ -1,0 +1,1426 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "source": {
+      "giaodien": {
+        "box": {
+          "bottom": 944.640625,
+          "height": 294,
+          "left": 849,
+          "right": 1418,
+          "top": 650.640625,
+          "width": 569,
+          "x": 849,
+          "y": 650.640625
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 767.640625,
+              "height": 40,
+              "left": 870,
+              "right": 1397,
+              "top": 727.640625,
+              "width": 527,
+              "x": 870,
+              "y": 727.640625
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 819.640625,
+              "height": 40,
+              "left": 870,
+              "right": 1397,
+              "top": 779.640625,
+              "width": 527,
+              "x": 870,
+              "y": 779.640625
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 871.640625,
+              "height": 40,
+              "left": 870,
+              "right": 1397,
+              "top": 831.640625,
+              "width": 527,
+              "x": 870,
+              "y": 831.640625
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 923.640625,
+              "height": 40,
+              "left": 870,
+              "right": 1397,
+              "top": 883.640625,
+              "width": 527,
+              "x": 870,
+              "y": 883.640625
+            },
+            "c": "cd-row"
+          }
+        ]
+      },
+      "legal": {
+        "bottom": 1643.03125,
+        "height": 40,
+        "left": 849,
+        "right": 1418,
+        "top": 1603.03125,
+        "width": 569,
+        "x": 849,
+        "y": 1603.03125
+      },
+      "overflow": false,
+      "riengtu": {
+        "box": {
+          "bottom": 1308.78125,
+          "height": 342.140625,
+          "left": 849,
+          "right": 1418,
+          "top": 966.640625,
+          "width": 569,
+          "x": 849,
+          "y": 966.640625
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 1139.78125,
+              "height": 63.140625,
+              "left": 870,
+              "right": 1397,
+              "top": 1076.640625,
+              "width": 527,
+              "x": 870,
+              "y": 1076.640625
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          },
+          {
+            "box": {
+              "bottom": 1213.78125,
+              "height": 62,
+              "left": 870,
+              "right": 1397,
+              "top": 1151.78125,
+              "width": 527,
+              "x": 870,
+              "y": 1151.78125
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          },
+          {
+            "box": {
+              "bottom": 1287.78125,
+              "height": 62,
+              "left": 870,
+              "right": 1397,
+              "top": 1225.78125,
+              "width": 527,
+              "x": 870,
+              "y": 1225.78125
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          }
+        ]
+      },
+      "taikhoan": {
+        "box": {
+          "bottom": 1581.03125,
+          "height": 250.25,
+          "left": 849,
+          "right": 1418,
+          "top": 1330.78125,
+          "width": 569,
+          "x": 849,
+          "y": 1330.78125
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 1447.78125,
+              "height": 40,
+              "left": 870,
+              "right": 1397,
+              "top": 1407.78125,
+              "width": 527,
+              "x": 870,
+              "y": 1407.78125
+            },
+            "c": "cd-out"
+          },
+          {
+            "box": {
+              "bottom": 1560.03125,
+              "height": 100.25,
+              "left": 870,
+              "right": 1397,
+              "top": 1459.78125,
+              "width": 527,
+              "x": 870,
+              "y": 1459.78125
+            },
+            "c": "nbc-danger"
+          }
+        ]
+      },
+      "viewport": {
+        "h": 900,
+        "w": 1440
+      }
+    },
+    "production": {
+      "giaodien": {
+        "box": {
+          "bottom": 944.640625,
+          "height": 294,
+          "left": 849,
+          "right": 1418,
+          "top": 650.640625,
+          "width": 569,
+          "x": 849,
+          "y": 650.640625
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 767.640625,
+              "height": 40,
+              "left": 870,
+              "right": 1397,
+              "top": 727.640625,
+              "width": 527,
+              "x": 870,
+              "y": 727.640625
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 819.640625,
+              "height": 40,
+              "left": 870,
+              "right": 1397,
+              "top": 779.640625,
+              "width": 527,
+              "x": 870,
+              "y": 779.640625
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 871.640625,
+              "height": 40,
+              "left": 870,
+              "right": 1397,
+              "top": 831.640625,
+              "width": 527,
+              "x": 870,
+              "y": 831.640625
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 923.640625,
+              "height": 40,
+              "left": 870,
+              "right": 1397,
+              "top": 883.640625,
+              "width": 527,
+              "x": 870,
+              "y": 883.640625
+            },
+            "c": "cd-row"
+          }
+        ]
+      },
+      "legal": {
+        "bottom": 1641.890625,
+        "height": 40,
+        "left": 849,
+        "right": 1418,
+        "top": 1601.890625,
+        "width": 569,
+        "x": 849,
+        "y": 1601.890625
+      },
+      "overflow": false,
+      "riengtu": {
+        "box": {
+          "bottom": 1307.640625,
+          "height": 341,
+          "left": 849,
+          "right": 1418,
+          "top": 966.640625,
+          "width": 569,
+          "x": 849,
+          "y": 966.640625
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 1138.640625,
+              "height": 62,
+              "left": 870,
+              "right": 1397,
+              "top": 1076.640625,
+              "width": 527,
+              "x": 870,
+              "y": 1076.640625
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          },
+          {
+            "box": {
+              "bottom": 1212.640625,
+              "height": 62,
+              "left": 870,
+              "right": 1397,
+              "top": 1150.640625,
+              "width": 527,
+              "x": 870,
+              "y": 1150.640625
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          },
+          {
+            "box": {
+              "bottom": 1286.640625,
+              "height": 62,
+              "left": 870,
+              "right": 1397,
+              "top": 1224.640625,
+              "width": 527,
+              "x": 870,
+              "y": 1224.640625
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          }
+        ]
+      },
+      "taikhoan": {
+        "box": {
+          "bottom": 1579.890625,
+          "height": 250.25,
+          "left": 849,
+          "right": 1418,
+          "top": 1329.640625,
+          "width": 569,
+          "x": 849,
+          "y": 1329.640625
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 1446.640625,
+              "height": 40,
+              "left": 870,
+              "right": 1397,
+              "top": 1406.640625,
+              "width": 527,
+              "x": 870,
+              "y": 1406.640625
+            },
+            "c": "cd-out"
+          },
+          {
+            "box": {
+              "bottom": 1558.890625,
+              "height": 100.25,
+              "left": 870,
+              "right": 1397,
+              "top": 1458.640625,
+              "width": 527,
+              "x": 870,
+              "y": 1458.640625
+            },
+            "c": "nbc-danger"
+          }
+        ]
+      },
+      "viewport": {
+        "h": 900,
+        "w": 1440
+      }
+    }
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "source": {
+      "giaodien": {
+        "box": {
+          "bottom": 2405.265625,
+          "height": 294,
+          "left": 106,
+          "right": 750,
+          "top": 2111.265625,
+          "width": 644,
+          "x": 106,
+          "y": 2111.265625
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 2228.265625,
+              "height": 40,
+              "left": 127,
+              "right": 729,
+              "top": 2188.265625,
+              "width": 602,
+              "x": 127,
+              "y": 2188.265625
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 2280.265625,
+              "height": 40,
+              "left": 127,
+              "right": 729,
+              "top": 2240.265625,
+              "width": 602,
+              "x": 127,
+              "y": 2240.265625
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 2332.265625,
+              "height": 40,
+              "left": 127,
+              "right": 729,
+              "top": 2292.265625,
+              "width": 602,
+              "x": 127,
+              "y": 2292.265625
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 2384.265625,
+              "height": 40,
+              "left": 127,
+              "right": 729,
+              "top": 2344.265625,
+              "width": 602,
+              "x": 127,
+              "y": 2344.265625
+            },
+            "c": "cd-row"
+          }
+        ]
+      },
+      "legal": {
+        "bottom": 3103.65625,
+        "height": 40,
+        "left": 106,
+        "right": 750,
+        "top": 3063.65625,
+        "width": 644,
+        "x": 106,
+        "y": 3063.65625
+      },
+      "overflow": false,
+      "riengtu": {
+        "box": {
+          "bottom": 2769.40625,
+          "height": 342.140625,
+          "left": 106,
+          "right": 750,
+          "top": 2427.265625,
+          "width": 644,
+          "x": 106,
+          "y": 2427.265625
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 2600.40625,
+              "height": 63.140625,
+              "left": 127,
+              "right": 729,
+              "top": 2537.265625,
+              "width": 602,
+              "x": 127,
+              "y": 2537.265625
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          },
+          {
+            "box": {
+              "bottom": 2674.40625,
+              "height": 62,
+              "left": 127,
+              "right": 729,
+              "top": 2612.40625,
+              "width": 602,
+              "x": 127,
+              "y": 2612.40625
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          },
+          {
+            "box": {
+              "bottom": 2748.40625,
+              "height": 62,
+              "left": 127,
+              "right": 729,
+              "top": 2686.40625,
+              "width": 602,
+              "x": 127,
+              "y": 2686.40625
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          }
+        ]
+      },
+      "taikhoan": {
+        "box": {
+          "bottom": 3041.65625,
+          "height": 250.25,
+          "left": 106,
+          "right": 750,
+          "top": 2791.40625,
+          "width": 644,
+          "x": 106,
+          "y": 2791.40625
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 2908.40625,
+              "height": 40,
+              "left": 127,
+              "right": 729,
+              "top": 2868.40625,
+              "width": 602,
+              "x": 127,
+              "y": 2868.40625
+            },
+            "c": "cd-out"
+          },
+          {
+            "box": {
+              "bottom": 3020.65625,
+              "height": 100.25,
+              "left": 127,
+              "right": 729,
+              "top": 2920.40625,
+              "width": 602,
+              "x": 127,
+              "y": 2920.40625
+            },
+            "c": "nbc-danger"
+          }
+        ]
+      },
+      "viewport": {
+        "h": 1024,
+        "w": 768
+      }
+    },
+    "production": {
+      "giaodien": {
+        "box": {
+          "bottom": 2404.125,
+          "height": 294,
+          "left": 106,
+          "right": 750,
+          "top": 2110.125,
+          "width": 644,
+          "x": 106,
+          "y": 2110.125
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 2227.125,
+              "height": 40,
+              "left": 127,
+              "right": 729,
+              "top": 2187.125,
+              "width": 602,
+              "x": 127,
+              "y": 2187.125
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 2279.125,
+              "height": 40,
+              "left": 127,
+              "right": 729,
+              "top": 2239.125,
+              "width": 602,
+              "x": 127,
+              "y": 2239.125
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 2331.125,
+              "height": 40,
+              "left": 127,
+              "right": 729,
+              "top": 2291.125,
+              "width": 602,
+              "x": 127,
+              "y": 2291.125
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 2383.125,
+              "height": 40,
+              "left": 127,
+              "right": 729,
+              "top": 2343.125,
+              "width": 602,
+              "x": 127,
+              "y": 2343.125
+            },
+            "c": "cd-row"
+          }
+        ]
+      },
+      "legal": {
+        "bottom": 3101.375,
+        "height": 40,
+        "left": 106,
+        "right": 750,
+        "top": 3061.375,
+        "width": 644,
+        "x": 106,
+        "y": 3061.375
+      },
+      "overflow": false,
+      "riengtu": {
+        "box": {
+          "bottom": 2767.125,
+          "height": 341,
+          "left": 106,
+          "right": 750,
+          "top": 2426.125,
+          "width": 644,
+          "x": 106,
+          "y": 2426.125
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 2598.125,
+              "height": 62,
+              "left": 127,
+              "right": 729,
+              "top": 2536.125,
+              "width": 602,
+              "x": 127,
+              "y": 2536.125
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          },
+          {
+            "box": {
+              "bottom": 2672.125,
+              "height": 62,
+              "left": 127,
+              "right": 729,
+              "top": 2610.125,
+              "width": 602,
+              "x": 127,
+              "y": 2610.125
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          },
+          {
+            "box": {
+              "bottom": 2746.125,
+              "height": 62,
+              "left": 127,
+              "right": 729,
+              "top": 2684.125,
+              "width": 602,
+              "x": 127,
+              "y": 2684.125
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          }
+        ]
+      },
+      "taikhoan": {
+        "box": {
+          "bottom": 3039.375,
+          "height": 250.25,
+          "left": 106,
+          "right": 750,
+          "top": 2789.125,
+          "width": 644,
+          "x": 106,
+          "y": 2789.125
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 2906.125,
+              "height": 40,
+              "left": 127,
+              "right": 729,
+              "top": 2866.125,
+              "width": 602,
+              "x": 127,
+              "y": 2866.125
+            },
+            "c": "cd-out"
+          },
+          {
+            "box": {
+              "bottom": 3018.375,
+              "height": 100.25,
+              "left": 127,
+              "right": 729,
+              "top": 2918.125,
+              "width": 602,
+              "x": 127,
+              "y": 2918.125
+            },
+            "c": "nbc-danger"
+          }
+        ]
+      },
+      "viewport": {
+        "h": 1024,
+        "w": 768
+      }
+    }
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "source": {
+      "giaodien": {
+        "box": {
+          "bottom": 2666.546875,
+          "height": 417.5,
+          "left": 12,
+          "right": 378,
+          "top": 2249.046875,
+          "width": 366,
+          "x": 12,
+          "y": 2249.046875
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 2391.046875,
+              "height": 69,
+              "left": 27,
+              "right": 363,
+              "top": 2322.046875,
+              "width": 336,
+              "x": 27,
+              "y": 2322.046875
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 2472.046875,
+              "height": 69,
+              "left": 27,
+              "right": 363,
+              "top": 2403.046875,
+              "width": 336,
+              "x": 27,
+              "y": 2403.046875
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 2553.046875,
+              "height": 69,
+              "left": 27,
+              "right": 363,
+              "top": 2484.046875,
+              "width": 336,
+              "x": 27,
+              "y": 2484.046875
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 2651.546875,
+              "height": 86.5,
+              "left": 27,
+              "right": 363,
+              "top": 2565.046875,
+              "width": 336,
+              "x": 27,
+              "y": 2565.046875
+            },
+            "c": "cd-row"
+          }
+        ]
+      },
+      "legal": {
+        "bottom": 3495.625,
+        "height": 84,
+        "left": 12,
+        "right": 378,
+        "top": 3411.625,
+        "width": 366,
+        "x": 12,
+        "y": 3411.625
+      },
+      "overflow": false,
+      "riengtu": {
+        "box": {
+          "bottom": 3092.125,
+          "height": 411.578125,
+          "left": 12,
+          "right": 378,
+          "top": 2680.546875,
+          "width": 366,
+          "x": 12,
+          "y": 2680.546875
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 2868.53125,
+              "height": 81.984375,
+              "left": 27,
+              "right": 363,
+              "top": 2786.546875,
+              "width": 336,
+              "x": 27,
+              "y": 2786.546875
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          },
+          {
+            "box": {
+              "bottom": 2972.828125,
+              "height": 92.296875,
+              "left": 27,
+              "right": 363,
+              "top": 2880.53125,
+              "width": 336,
+              "x": 27,
+              "y": 2880.53125
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          },
+          {
+            "box": {
+              "bottom": 3077.125,
+              "height": 92.296875,
+              "left": 27,
+              "right": 363,
+              "top": 2984.828125,
+              "width": 336,
+              "x": 27,
+              "y": 2984.828125
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          }
+        ]
+      },
+      "taikhoan": {
+        "box": {
+          "bottom": 3397.625,
+          "height": 291.5,
+          "left": 12,
+          "right": 378,
+          "top": 3106.125,
+          "width": 366,
+          "x": 12,
+          "y": 3106.125
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 3250.125,
+              "height": 71,
+              "left": 27,
+              "right": 363,
+              "top": 3179.125,
+              "width": 336,
+              "x": 27,
+              "y": 3179.125
+            },
+            "c": "cd-out"
+          },
+          {
+            "box": {
+              "bottom": 3382.625,
+              "height": 120.5,
+              "left": 27,
+              "right": 363,
+              "top": 3262.125,
+              "width": 336,
+              "x": 27,
+              "y": 3262.125
+            },
+            "c": "nbc-danger"
+          }
+        ]
+      },
+      "viewport": {
+        "h": 844,
+        "w": 390
+      }
+    },
+    "production": {
+      "giaodien": {
+        "box": {
+          "bottom": 2665.40625,
+          "height": 417.5,
+          "left": 12,
+          "right": 378,
+          "top": 2247.90625,
+          "width": 366,
+          "x": 12,
+          "y": 2247.90625
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 2389.90625,
+              "height": 69,
+              "left": 27,
+              "right": 363,
+              "top": 2320.90625,
+              "width": 336,
+              "x": 27,
+              "y": 2320.90625
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 2470.90625,
+              "height": 69,
+              "left": 27,
+              "right": 363,
+              "top": 2401.90625,
+              "width": 336,
+              "x": 27,
+              "y": 2401.90625
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 2551.90625,
+              "height": 69,
+              "left": 27,
+              "right": 363,
+              "top": 2482.90625,
+              "width": 336,
+              "x": 27,
+              "y": 2482.90625
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 2650.40625,
+              "height": 86.5,
+              "left": 27,
+              "right": 363,
+              "top": 2563.90625,
+              "width": 336,
+              "x": 27,
+              "y": 2563.90625
+            },
+            "c": "cd-row"
+          }
+        ]
+      },
+      "legal": {
+        "bottom": 3492.484375,
+        "height": 84,
+        "left": 12,
+        "right": 378,
+        "top": 3408.484375,
+        "width": 366,
+        "x": 12,
+        "y": 3408.484375
+      },
+      "overflow": false,
+      "riengtu": {
+        "box": {
+          "bottom": 3088.984375,
+          "height": 409.578125,
+          "left": 12,
+          "right": 378,
+          "top": 2679.40625,
+          "width": 366,
+          "x": 12,
+          "y": 2679.40625
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 2865.390625,
+              "height": 79.984375,
+              "left": 27,
+              "right": 363,
+              "top": 2785.40625,
+              "width": 336,
+              "x": 27,
+              "y": 2785.40625
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          },
+          {
+            "box": {
+              "bottom": 2969.6875,
+              "height": 92.296875,
+              "left": 27,
+              "right": 363,
+              "top": 2877.390625,
+              "width": 336,
+              "x": 27,
+              "y": 2877.390625
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          },
+          {
+            "box": {
+              "bottom": 3073.984375,
+              "height": 92.296875,
+              "left": 27,
+              "right": 363,
+              "top": 2981.6875,
+              "width": 336,
+              "x": 27,
+              "y": 2981.6875
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          }
+        ]
+      },
+      "taikhoan": {
+        "box": {
+          "bottom": 3394.484375,
+          "height": 291.5,
+          "left": 12,
+          "right": 378,
+          "top": 3102.984375,
+          "width": 366,
+          "x": 12,
+          "y": 3102.984375
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 3246.984375,
+              "height": 71,
+              "left": 27,
+              "right": 363,
+              "top": 3175.984375,
+              "width": 336,
+              "x": 27,
+              "y": 3175.984375
+            },
+            "c": "cd-out"
+          },
+          {
+            "box": {
+              "bottom": 3379.484375,
+              "height": 120.5,
+              "left": 27,
+              "right": 363,
+              "top": 3258.984375,
+              "width": 336,
+              "x": 27,
+              "y": 3258.984375
+            },
+            "c": "nbc-danger"
+          }
+        ]
+      },
+      "viewport": {
+        "h": 844,
+        "w": 390
+      }
+    }
+  },
+  {
+    "width": 360,
+    "height": 844,
+    "source": {
+      "giaodien": {
+        "box": {
+          "bottom": 2685.390625,
+          "height": 417.5,
+          "left": 12,
+          "right": 348,
+          "top": 2267.890625,
+          "width": 336,
+          "x": 12,
+          "y": 2267.890625
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 2409.890625,
+              "height": 69,
+              "left": 27,
+              "right": 333,
+              "top": 2340.890625,
+              "width": 306,
+              "x": 27,
+              "y": 2340.890625
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 2490.890625,
+              "height": 69,
+              "left": 27,
+              "right": 333,
+              "top": 2421.890625,
+              "width": 306,
+              "x": 27,
+              "y": 2421.890625
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 2571.890625,
+              "height": 69,
+              "left": 27,
+              "right": 333,
+              "top": 2502.890625,
+              "width": 306,
+              "x": 27,
+              "y": 2502.890625
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 2670.390625,
+              "height": 86.5,
+              "left": 27,
+              "right": 333,
+              "top": 2583.890625,
+              "width": 306,
+              "x": 27,
+              "y": 2583.890625
+            },
+            "c": "cd-row"
+          }
+        ]
+      },
+      "legal": {
+        "bottom": 3535.46875,
+        "height": 84,
+        "left": 12,
+        "right": 348,
+        "top": 3451.46875,
+        "width": 336,
+        "x": 12,
+        "y": 3451.46875
+      },
+      "overflow": false,
+      "riengtu": {
+        "box": {
+          "bottom": 3131.96875,
+          "height": 432.578125,
+          "left": 12,
+          "right": 348,
+          "top": 2699.390625,
+          "width": 336,
+          "x": 12,
+          "y": 2699.390625
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 2908.375,
+              "height": 81.984375,
+              "left": 27,
+              "right": 333,
+              "top": 2826.390625,
+              "width": 306,
+              "x": 27,
+              "y": 2826.390625
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          },
+          {
+            "box": {
+              "bottom": 3012.671875,
+              "height": 92.296875,
+              "left": 27,
+              "right": 333,
+              "top": 2920.375,
+              "width": 306,
+              "x": 27,
+              "y": 2920.375
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          },
+          {
+            "box": {
+              "bottom": 3116.96875,
+              "height": 92.296875,
+              "left": 27,
+              "right": 333,
+              "top": 3024.671875,
+              "width": 306,
+              "x": 27,
+              "y": 3024.671875
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          }
+        ]
+      },
+      "taikhoan": {
+        "box": {
+          "bottom": 3437.46875,
+          "height": 291.5,
+          "left": 12,
+          "right": 348,
+          "top": 3145.96875,
+          "width": 336,
+          "x": 12,
+          "y": 3145.96875
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 3289.96875,
+              "height": 71,
+              "left": 27,
+              "right": 333,
+              "top": 3218.96875,
+              "width": 306,
+              "x": 27,
+              "y": 3218.96875
+            },
+            "c": "cd-out"
+          },
+          {
+            "box": {
+              "bottom": 3422.46875,
+              "height": 120.5,
+              "left": 27,
+              "right": 333,
+              "top": 3301.96875,
+              "width": 306,
+              "x": 27,
+              "y": 3301.96875
+            },
+            "c": "nbc-danger"
+          }
+        ]
+      },
+      "viewport": {
+        "h": 844,
+        "w": 360
+      }
+    },
+    "production": {
+      "giaodien": {
+        "box": {
+          "bottom": 2683.390625,
+          "height": 417.5,
+          "left": 12,
+          "right": 348,
+          "top": 2265.890625,
+          "width": 336,
+          "x": 12,
+          "y": 2265.890625
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 2407.890625,
+              "height": 69,
+              "left": 27,
+              "right": 333,
+              "top": 2338.890625,
+              "width": 306,
+              "x": 27,
+              "y": 2338.890625
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 2488.890625,
+              "height": 69,
+              "left": 27,
+              "right": 333,
+              "top": 2419.890625,
+              "width": 306,
+              "x": 27,
+              "y": 2419.890625
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 2569.890625,
+              "height": 69,
+              "left": 27,
+              "right": 333,
+              "top": 2500.890625,
+              "width": 306,
+              "x": 27,
+              "y": 2500.890625
+            },
+            "c": "cd-row"
+          },
+          {
+            "box": {
+              "bottom": 2668.390625,
+              "height": 86.5,
+              "left": 27,
+              "right": 333,
+              "top": 2581.890625,
+              "width": 306,
+              "x": 27,
+              "y": 2581.890625
+            },
+            "c": "cd-row"
+          }
+        ]
+      },
+      "legal": {
+        "bottom": 3531.46875,
+        "height": 84,
+        "left": 12,
+        "right": 348,
+        "top": 3447.46875,
+        "width": 336,
+        "x": 12,
+        "y": 3447.46875
+      },
+      "overflow": false,
+      "riengtu": {
+        "box": {
+          "bottom": 3127.96875,
+          "height": 430.578125,
+          "left": 12,
+          "right": 348,
+          "top": 2697.390625,
+          "width": 336,
+          "x": 12,
+          "y": 2697.390625
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 2904.375,
+              "height": 79.984375,
+              "left": 27,
+              "right": 333,
+              "top": 2824.390625,
+              "width": 306,
+              "x": 27,
+              "y": 2824.390625
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          },
+          {
+            "box": {
+              "bottom": 3008.671875,
+              "height": 92.296875,
+              "left": 27,
+              "right": 333,
+              "top": 2916.375,
+              "width": 306,
+              "x": 27,
+              "y": 2916.375
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          },
+          {
+            "box": {
+              "bottom": 3112.96875,
+              "height": 92.296875,
+              "left": 27,
+              "right": 333,
+              "top": 3020.671875,
+              "width": 306,
+              "x": 27,
+              "y": 3020.671875
+            },
+            "c": "nbc-lv3 is-w nbc-srow"
+          }
+        ]
+      },
+      "taikhoan": {
+        "box": {
+          "bottom": 3433.46875,
+          "height": 291.5,
+          "left": 12,
+          "right": 348,
+          "top": 3141.96875,
+          "width": 336,
+          "x": 12,
+          "y": 3141.96875
+        },
+        "parts": [
+          {
+            "box": {
+              "bottom": 3285.96875,
+              "height": 71,
+              "left": 27,
+              "right": 333,
+              "top": 3214.96875,
+              "width": 306,
+              "x": 27,
+              "y": 3214.96875
+            },
+            "c": "cd-out"
+          },
+          {
+            "box": {
+              "bottom": 3418.46875,
+              "height": 120.5,
+              "left": 27,
+              "right": 333,
+              "top": 3297.96875,
+              "width": 306,
+              "x": 27,
+              "y": 3297.96875
+            },
+            "c": "nbc-danger"
+          }
+        ]
+      },
+      "viewport": {
+        "h": 844,
+        "w": 360
+      }
+    }
+  }
+]

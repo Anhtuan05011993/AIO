@@ -1,0 +1,1 @@
+import{gt as e,ht as t,pt as n,z as r}from"./12Oibn0q.js";function i(i){let a=e(!1);{let e,t=()=>{a.value=!!e?.matches};r(()=>{e=window.matchMedia(i),t(),e.addEventListener(`change`,t)}),n(()=>e?.removeEventListener(`change`,t))}return t(a)}export{i as t};

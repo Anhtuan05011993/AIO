@@ -1,0 +1,42 @@
+/* Vocab flashcard styles (prefix lp-v) — precompiled-CSS-safe replacements. */
+
+.lp-vroot {
+  background-color: hsl(var(--paper));
+  min-height: 100%;
+}
+
+.lp-vback {
+  min-height: 2rem;
+}
+
+.lp-vbar {
+  min-width: 6rem;
+}
+
+.lp-vtopic {
+  white-space: nowrap;
+}
+
+.lp-vcard {
+  min-height: 16rem;
+  cursor: pointer;
+}
+
+.lp-vgrade {
+  min-height: 3.4rem;
+  transition: transform 0.12s var(--ease-out-soft, ease), background-color 0.15s ease;
+}
+
+.lp-vgrade:active {
+  transform: scale(0.97);
+}
+
+.lp-g-again { color: hsl(var(--danger)); }
+.lp-g-hard { color: hsl(var(--warning)); }
+.lp-g-good { color: hsl(var(--success)); }
+.lp-g-easy { color: hsl(var(--info)); }
+
+.lp-vgrade.lp-g-again:hover { background-color: hsl(var(--danger) / 0.08); }
+.lp-vgrade.lp-g-hard:hover { background-color: hsl(var(--warning) / 0.08); }
+.lp-vgrade.lp-g-good:hover { background-color: hsl(var(--success) / 0.08); }
+.lp-vgrade.lp-g-easy:hover { background-color: hsl(var(--info) / 0.08); }

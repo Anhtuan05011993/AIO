@@ -1,0 +1,71 @@
+
+:where(.ui-lesson-navigation) .nbr-item { text-decoration: none; position: relative; }
+:where(.ui-lesson-navigation) .nbr-item.nbx-ni { gap: 8px; padding-right: 2px; }
+:where(.ui-lesson-navigation) .nbr-label { overflow-clip-margin: 0.35em; text-overflow: ellipsis; flex: 1 1 auto; min-width: 0px; overflow: clip; }
+:where(.ui-lesson-navigation) .nbr-item:active { scale: 0.97; }
+:where(.ui-lesson-navigation) .nbr-item:focus-visible { outline: 3px solid var(--nb-x-ink); outline-offset: -3px; }
+:where(.ui-lesson-navigation) .nbr-count, :where(.ui-lesson-navigation) .nbr-tag { min-width: 22px; height: 22px; font: 800 11.5px/1 var(--nb-font-body); border-radius: 999px; flex: 0 0 auto; place-items: center; padding: 0px 7px; display: inline-grid; }
+:where(.ui-lesson-navigation) .nbr-tag { background: var(--nb-x-goal); color: var(--nb-x-goal-t); box-shadow: inset 0 0 0 calc(1px*var(--nb-edge-k)) var(--nb-x-goal-m); }
+:where(.ui-lesson-navigation) .nbr-count { background: var(--nb-x-heat-m); color: var(--nb-x-ink); }
+:where(.ui-lesson-navigation) .nbr-sr { clip-path: inset(50%); white-space: nowrap; border: 0px; width: 1px; min-width: 0px; height: 1px; margin: -1px; padding: 0px; position: absolute; overflow: hidden; }
+@media (max-width: 1179.98px) {
+:where(.ui-lesson-navigation) :root .sb-rail .nbr-item.nbx-ni.nbx-ni { padding: 6px 2px; }
+:where(.ui-lesson-navigation) .sb-rail .nbr-item { text-align: center; flex-direction: column; justify-content: center; gap: 3px; min-height: 58px; font-size: 11px; }
+:where(.ui-lesson-navigation) .sb-rail .nbr-label.nbr-label, :where(.ui-lesson-navigation) .sb-rail .nbr-tag.nbr-tag { clip-path: inset(50%); white-space: nowrap; width: 1px; min-width: 0px; height: 1px; box-shadow: none; border: 0px; margin: -1px; padding: 0px; position: absolute; overflow: hidden; }
+:where(.ui-lesson-navigation) .sb-rail .nbr-slim { white-space: nowrap; font-weight: 800; line-height: 1.1; display: block; }
+:where(.ui-lesson-navigation) .sb-rail .nbr-count { min-width: 18px; height: 18px; padding: 0px 5px; font-size: 10.5px; position: absolute; top: 2px; right: 6px; }}
+:where(.ui-lesson-navigation) .nbr-group[data-v-fc002a5b] { flex-direction: column; gap: 2px; display: flex; }
+:where(.ui-lesson-navigation) .nbu-row { grid-template-columns: 36px minmax(0px, 1fr) auto; align-items: center; gap: 9px; display: grid; }
+:where(.ui-lesson-navigation) .nbu-av { border-radius: 50%; display: inline-flex; }
+:where(.ui-lesson-navigation) .nbu-text { min-width: 0px; }
+:where(.ui-lesson-navigation) .nbu-name { font: 800 14px/18px var(--nb-font-body); color: var(--nb-x-ink); }
+:where(.ui-lesson-navigation) .nbu-name, :where(.ui-lesson-navigation) .nbu-sub { overflow-clip-margin: 0.35em; text-overflow: ellipsis; white-space: nowrap; margin: 0px; overflow: clip; }
+:where(.ui-lesson-navigation) .nbu-sub { font: 700 12px/16px var(--nb-font-body); color: var(--nb-x-mut); }
+:where(.ui-lesson-navigation) .nbu-gear { width: 40px; height: 40px; color: var(--nb-x-ink2); transition: background-color .22s var(--nb-x-ease); border-radius: 12px; place-items: center; display: none; }
+:where(.ui-lesson-navigation) .nbu-gear svg { transition: rotate .36s var(--nb-x-ease); }
+:where(.ui-lesson-navigation) .nbu-settings { white-space: nowrap; min-height: 44px; }
+:where(.ui-lesson-navigation) .nbu-stats { display: none; }
+:where(.ui-lesson-navigation) .nbu-st { flex-direction: column; display: flex; }
+:where(.ui-lesson-navigation) .nbu-stats.is-pending .nbu-st > * { visibility: hidden; }
+:where(.ui-lesson-navigation) .nbu-st b { font-variant-numeric: tabular-nums; font-family: var(--nb-font-head); }
+:where(.ui-lesson-navigation) .nbu-st small { white-space: nowrap; font-size: 11.5px; }
+:where(.ui-lesson-navigation) .nbu-flame { flex: 0 0 auto; }
+:where(.ui-lesson-navigation) .sb-rail .nbu-gear { display: inline-grid; }
+:where(.ui-lesson-navigation) .sb-rail .nbu-settings { display: none; }
+:where(.ui-lesson-navigation) .sb-rail .nbu-stats { display: grid; }
+@media (hover: hover) {
+:where(.ui-lesson-navigation) .nbu-gear:hover { background: var(--nb-x-row-h); }
+:where(.ui-lesson-navigation) .nbu-gear:hover svg { rotate: calc(30deg*var(--nb-x-tilt-k,1)); }}
+@media (hover: hover) and (max-width: 1179.98px) {
+:where(.ui-lesson-navigation) .sb-rail .nbu-gear:hover { background: 0px 0px; }}
+@media (min-width: 1180px) and (max-height: 760px) {
+:where(.ui-lesson-navigation) .sb-rail .nbu-stats { display: none; }}
+@media (max-width: 1179.98px) {
+:where(.ui-lesson-navigation) .sb-rail .nbx-me .nbu-row { grid-template-rows: 36px; grid-template-columns: 40px; place-items: center; display: grid; }
+:where(.ui-lesson-navigation) .sb-rail .nbu-av { grid-area: 1 / 1; }
+:where(.ui-lesson-navigation) .sb-rail .nbu-gear { z-index: 1; background: 0px 0px; border-radius: 50%; grid-area: 1 / 1; }
+:where(.ui-lesson-navigation) .sb-rail .nbu-gear svg, :where(.ui-lesson-navigation) .sb-rail .nbu-text { display: none; }
+:where(.ui-lesson-navigation) .sb-rail .nbu-stats { grid-template-columns: 1fr; }
+:where(.ui-lesson-navigation) .sb-rail .nbu-st small, :where(.ui-lesson-navigation) .sb-rail .nbu-st:not(.is-streak) { display: none; }
+:where(.ui-lesson-navigation) .sb-rail .nbu-st { padding: 4px 8px; }}
+:where(.ui-lesson-navigation) .nbr[data-v-865472da] { height: 100%; padding: calc(16px + env(safe-area-inset-top,0px)) 0 calc(16px + env(safe-area-inset-bottom,0px)) 16px; color: var(--nb-x-ink); font-family: var(--nb-font-body); font-size-adjust: none; --nb-focus: var(--nb-x-ink); display: flex; }
+:where(.ui-lesson-navigation) .nbr.sb-drawer[data-v-865472da] { padding: calc(12px + env(safe-area-inset-top,0px)) 12px calc(12px + env(safe-area-inset-bottom,0px)); }
+:where(.ui-lesson-navigation) .nbr-sheet[data-v-865472da] { flex: 1 1 auto; min-width: 0px; height: auto; min-height: 0px; position: relative; top: auto; }
+:where(.ui-lesson-navigation) .nbr-head[data-v-865472da] { align-items: center; min-height: 44px; padding: 0px 8px 12px; display: flex; }
+:where(.ui-lesson-navigation) .nbr-head[data-v-865472da] .sb-logo > * { width: 9.25rem; height: auto; }
+:where(.ui-lesson-navigation) .nbr-logo-slim[data-v-865472da] { display: none; }
+:where(.ui-lesson-navigation) .nbr-mark[data-v-865472da] { width: auto; height: 30px; }
+:where(.ui-lesson-navigation) .nbr-nav[data-v-865472da] { overscroll-behavior: contain; will-change: scroll-position; scrollbar-width: none; flex-direction: column; flex: 0 1 auto; gap: 4px; min-height: 0px; margin: -6px -8px; padding: 6px 8px 12px; display: flex; overflow-y: auto; }
+:where(.ui-lesson-navigation) .nbr-nav[data-v-865472da]::-webkit-scrollbar { width: 0px; height: 0px; }
+:where(.ui-lesson-navigation) .nbr-foot[data-v-865472da] { flex: 0 0 auto; margin-top: auto; }
+:where(.ui-lesson-navigation) .nbr-rule[data-v-865472da] { flex: 0 0 auto; }
+@media (max-width: 1179.98px) {
+:where(.ui-lesson-navigation) .nbr.sb-rail[data-v-865472da] { padding: calc(14px + env(safe-area-inset-top,0px)) 0 calc(14px + env(safe-area-inset-bottom,0px)) 12px; }
+:where(.ui-lesson-navigation) .sb-rail .nbr-head[data-v-865472da] { justify-content: center; padding: 0px 0px 10px; }
+:where(.ui-lesson-navigation) .sb-rail .nbr-logo-full[data-v-865472da] { display: none; }
+:where(.ui-lesson-navigation) .sb-rail .nbr-logo-slim[data-v-865472da] { justify-content: center; align-items: center; min-width: 40px; min-height: 40px; display: inline-flex; }
+:where(.ui-lesson-navigation) .sb-rail .nbr-nav[data-v-865472da] { gap: 2px; margin: -6px -4px; padding: 6px 4px 10px; }}
+:where(.ui-lesson-navigation) .slide-enter-active[data-v-42443427], :where(.ui-lesson-navigation) .slide-leave-active[data-v-42443427] { transition: transform var(--nb-d-state) var(--nb-e-drop),opacity var(--nb-d-state) var(--nb-e-drop); }
+:where(.ui-lesson-navigation) .slide-enter-from[data-v-42443427], :where(.ui-lesson-navigation) .slide-leave-to[data-v-42443427] { opacity: 0.6; transform: translate(-100%); }
+@media (prefers-reduced-motion: reduce) {
+:where(.ui-lesson-navigation) .slide-enter-active[data-v-42443427], :where(.ui-lesson-navigation) .slide-leave-active[data-v-42443427] { transition: none; }}

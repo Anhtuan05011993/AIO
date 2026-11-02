@@ -1,0 +1,13 @@
+/* Learner drawer: native modal supplies focus containment and Escape semantics. */
+dialog.ui-lesson-navigation { position:fixed; inset:0 auto 0 0; margin:0; padding:0; width:240px; max-width:80vw; height:100dvh; max-height:100dvh; border:0; border-radius:0; background:transparent; overflow:hidden; outline:none; }
+dialog.ui-lesson-navigation::backdrop { background:#201f1b73; backdrop-filter:blur(8px); }
+.ui-lesson-navigation .nbu-av { width:36px; height:36px; overflow:hidden; border-radius:999px; border:1.75px solid var(--nb-x-ink); }
+.ui-lesson-navigation .ui-critter-avatar,.ui-lesson-navigation .ui-critter-avatar>span { display:block; width:100%; height:100%; }
+.ui-lesson-navigation .ui-critter-avatar svg { width:100%; height:100%; }
+.ui-lesson-navigation .nbr-tile { background:var(--nb-x-fb); }
+.ui-lesson-navigation .nbx-on .nbr-tile { background:#ffffffb3; }
+.ui-lesson-navigation .nbx-on { background:var(--nb-x-fb); box-shadow:0 8px 14px -10px var(--nb-x-fc); }
+.ui-lesson-navigation a:focus-visible { outline:3px solid var(--nb-x-ink); outline-offset:-3px; }
+
+.ui-lesson-navigation .nbu-av { flex:0 0 36px; }
+.ui-lesson-navigation .nbr-nav { will-change:auto; }

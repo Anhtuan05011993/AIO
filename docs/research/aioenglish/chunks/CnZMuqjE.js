@@ -1,0 +1,1 @@
+function e(e){return e.replace(/^\/(.+)\/$/,`$1`).replace(/^\[(.+)\]$/,`$1`)}export{e as t};

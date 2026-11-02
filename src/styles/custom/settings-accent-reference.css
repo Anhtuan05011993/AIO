@@ -1,0 +1,22 @@
+/* Observed source scoped rules; original styles/source untouched. */
+.af[data-v-2efdf94d] { flex-shrink: 0; width: 36px; height: 24px; display: block; }
+.af-ring[data-v-2efdf94d] { stroke: hsl(var(--fg)/.18); stroke-width: 0.5px; }
+.ap-wrap[data-v-e138966a] { container-type: inline-size; }
+.ap-grid[data-v-e138966a] { grid-template-columns: 1fr; gap: 8px; display: grid; }
+@container (width >= 31rem) {
+.ap-grid[data-v-e138966a] { grid-template-columns: 1fr 1fr; }
+}
+.ap-card[data-v-e138966a] { align-items: center; gap: 12px; width: 100%; min-height: 64px; padding: 10px 56px 10px 16px; display: flex; }
+.ap-card.btn-ink[data-v-e138966a] { background-color: hsl(var(--surface-2)); border-width: 2px; border-radius: 16px; }
+.ap-card.btn-ink.is-on[data-v-e138966a] { background-color: hsl(var(--gold)); border-color: hsl(var(--gold-edge)); --fg: var(--ink-fixed); }
+.ap-card.is-on[data-v-e138966a] { --ipa-fg: var(--fg-muted); --ipa-slash: 41 7.8% 40%; }
+.ap-text[data-v-e138966a] { flex-direction: column; gap: 2px; min-width: 0px; display: flex; }
+.ap-card[data-v-e138966a]:disabled { cursor: not-allowed; }
+.ap-ipa[data-v-e138966a] { margin-left: 6px; }
+.ap-play[data-v-e138966a] { width: 40px; height: 40px; position: absolute; top: 50%; right: 8px; transform: translateY(-50%); }
+.apc-grid[data-v-e138966a] { grid-template-columns: minmax(0px, 1fr); gap: 10px; padding: 0px 2px 4px 0px; display: grid; }
+.apc-card[data-v-e138966a] { min-height: 72px; padding: 10px 60px 10px 14px; }
+.apc-l[data-v-e138966a] { white-space: nowrap; align-items: baseline; gap: 8px; display: flex; }
+.apc-l > b[data-v-e138966a] { font-size: 15px; font-weight: 800; }
+.apc-ipa[data-v-e138966a] { align-items: baseline; font-size: 13px; font-weight: 700; display: flex; }
+.apc-ipa[data-v-e138966a] .ipa-slash { color: var(--nb-mut); }

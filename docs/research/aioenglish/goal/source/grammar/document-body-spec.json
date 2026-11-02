@@ -1,0 +1,826 @@
+[
+  {
+    "blocks": [
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "gdr-dot",
+        "headers": [],
+        "items": 3,
+        "rows": 0,
+        "tag": "UL",
+        "tone": null
+      }
+    ],
+    "id": "sec-tldr",
+    "title": "Tổng quan"
+  },
+  {
+    "blocks": [
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "gdr-dot",
+        "headers": [],
+        "items": 2,
+        "rows": 0,
+        "tag": "UL",
+        "tone": null
+      }
+    ],
+    "id": "sec-use-ps",
+    "title": "Dùng khi nào: Hiện tại đơn với I/you/we/they"
+  },
+  {
+    "blocks": [
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "gdr-dot",
+        "headers": [],
+        "items": 2,
+        "rows": 0,
+        "tag": "UL",
+        "tone": null
+      }
+    ],
+    "id": "sec-use-3p",
+    "title": "Dùng khi nào: Hiện tại đơn với he/she/it"
+  },
+  {
+    "blocks": [
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "gdr-dot",
+        "headers": [],
+        "items": 4,
+        "rows": 0,
+        "tag": "UL",
+        "tone": null
+      }
+    ],
+    "id": "sec-use-c1",
+    "title": "Dùng khi nào: Thì hiện tại trong văn học thuật"
+  },
+  {
+    "blocks": [
+      {
+        "class": "gdr-tbl",
+        "headers": [
+          "Điểm",
+          "Khẳng định",
+          "Phủ định",
+          "Câu hỏi"
+        ],
+        "items": 0,
+        "rows": 2,
+        "tag": "DIV",
+        "tone": null
+      },
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "gdr-h3",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "H3",
+        "tone": null
+      },
+      {
+        "class": "doc-fml nbc-lv3 is-w gdr-fml",
+        "formula": [
+          "S + V/V-s + that + mệnh đề",
+          "Research + has + V3 + that + mệnh đề",
+          "In + năm, Tên + V2 + that + mệnh đề"
+        ],
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      }
+    ],
+    "id": "sec-formula",
+    "title": "Công thức"
+  },
+  {
+    "blocks": [
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-fml nbc-lv3 is-w gdr-fml",
+        "formula": [
+          "I/you/we/they + V",
+          "Danh từ số nhiều + V"
+        ],
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      },
+      {
+        "class": "gdr-exs",
+        "headers": [],
+        "items": 2,
+        "rows": 0,
+        "tag": "UL",
+        "tone": null
+      },
+      {
+        "class": "gdr-chips",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      }
+    ],
+    "id": "sec-rule-ps-affirm",
+    "node": "a1-present-simple",
+    "title": "I/you/we/they + động từ nguyên thể"
+  },
+  {
+    "blocks": [
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-fml nbc-lv3 is-w gdr-fml",
+        "formula": [
+          "S + don't + V",
+          "S + do not + V"
+        ],
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      },
+      {
+        "class": "gdr-exs",
+        "headers": [],
+        "items": 2,
+        "rows": 0,
+        "tag": "UL",
+        "tone": null
+      },
+      {
+        "class": "doc-call nbc-lv3 gdr-call",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": "tip"
+      },
+      {
+        "class": "gdr-chips",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      }
+    ],
+    "id": "sec-rule-ps-negative",
+    "node": "a1-present-simple",
+    "title": "Phủ định: don't + V"
+  },
+  {
+    "blocks": [
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-fml nbc-lv3 is-w gdr-fml",
+        "formula": [
+          "Do + S + V?",
+          "Yes, S + do.",
+          "No, S + don't."
+        ],
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      },
+      {
+        "class": "gdr-exs",
+        "headers": [],
+        "items": 3,
+        "rows": 0,
+        "tag": "UL",
+        "tone": null
+      },
+      {
+        "class": "doc-call nbc-lv3 gdr-call is-cur",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": "warn"
+      },
+      {
+        "class": "gdr-chips",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      }
+    ],
+    "id": "sec-rule-ps-question",
+    "node": "a1-present-simple",
+    "title": "Câu hỏi Do…? và trả lời ngắn"
+  },
+  {
+    "blocks": [
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-fml nbc-lv3 is-w gdr-fml",
+        "formula": [
+          "S + V + every day/week"
+        ],
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      },
+      {
+        "class": "gdr-exs",
+        "headers": [],
+        "items": 2,
+        "rows": 0,
+        "tag": "UL",
+        "tone": null
+      },
+      {
+        "class": "gdr-chips",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      }
+    ],
+    "id": "sec-rule-ps-use",
+    "node": "a1-present-simple",
+    "title": "Dùng cho thói quen và sự thật"
+  },
+  {
+    "blocks": [
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-fml nbc-lv3 is-w gdr-fml",
+        "formula": [
+          "he/she/it + V-s",
+          "he/she/it + V-es / V-ies",
+          "he/she/it + has"
+        ],
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      },
+      {
+        "class": "gdr-exs",
+        "headers": [],
+        "items": 3,
+        "rows": 0,
+        "tag": "UL",
+        "tone": null
+      },
+      {
+        "class": "doc-call nbc-lv3 gdr-call",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": "note"
+      },
+      {
+        "class": "gdr-chips",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      }
+    ],
+    "id": "sec-rule-3p-affirm",
+    "node": "a1-present-third-person",
+    "title": "he/she/it + V-s/-es"
+  },
+  {
+    "blocks": [
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-fml nbc-lv3 is-w gdr-fml",
+        "formula": [
+          "he/she/it + doesn't + V",
+          "he/she/it + does not + V"
+        ],
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      },
+      {
+        "class": "gdr-exs",
+        "headers": [],
+        "items": 2,
+        "rows": 0,
+        "tag": "UL",
+        "tone": null
+      },
+      {
+        "class": "doc-call nbc-lv3 gdr-call is-cur",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": "warn"
+      },
+      {
+        "class": "gdr-chips",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      }
+    ],
+    "id": "sec-rule-3p-negative",
+    "node": "a1-present-third-person",
+    "title": "Phủ định: doesn't + V nguyên thể"
+  },
+  {
+    "blocks": [
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-fml nbc-lv3 is-w gdr-fml",
+        "formula": [
+          "Does + he/she/it + V?",
+          "Yes, he/she/it + does.",
+          "No, he/she/it + doesn't."
+        ],
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      },
+      {
+        "class": "gdr-exs",
+        "headers": [],
+        "items": 3,
+        "rows": 0,
+        "tag": "UL",
+        "tone": null
+      },
+      {
+        "class": "gdr-chips",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      }
+    ],
+    "id": "sec-rule-3p-question",
+    "node": "a1-present-third-person",
+    "title": "Câu hỏi Does…? và trả lời ngắn"
+  },
+  {
+    "blocks": [
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-fml nbc-lv3 is-w gdr-fml",
+        "formula": [
+          "S + V/V-s + that + mệnh đề",
+          "In + năm, Tên + V2 + that + mệnh đề"
+        ],
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      },
+      {
+        "class": "gdr-exs",
+        "headers": [],
+        "items": 3,
+        "rows": 0,
+        "tag": "UL",
+        "tone": null
+      },
+      {
+        "class": "doc-call nbc-lv3 gdr-call",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": "tip"
+      },
+      {
+        "class": "gdr-chips",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      }
+    ],
+    "id": "sec-rule-c1-reporting",
+    "node": "c1-present-advanced",
+    "title": "Động từ tường thuật: hiện tại đơn hay quá khứ đơn"
+  },
+  {
+    "blocks": [
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-fml nbc-lv3 is-w gdr-fml",
+        "formula": [
+          "Tóm tắt, cốt truyện: S + V/V-s + O",
+          "Tiêu đề: S + V/V-s + O"
+        ],
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      },
+      {
+        "class": "gdr-exs",
+        "headers": [],
+        "items": 3,
+        "rows": 0,
+        "tag": "UL",
+        "tone": null
+      },
+      {
+        "class": "doc-call nbc-lv3 gdr-call",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": "note"
+      },
+      {
+        "class": "gdr-chips",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      }
+    ],
+    "id": "sec-rule-c1-summary",
+    "node": "c1-present-advanced",
+    "title": "Hiện tại đơn để tóm tắt, kể cốt truyện, viết tiêu đề báo"
+  },
+  {
+    "blocks": [
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      },
+      {
+        "class": "doc-fml nbc-lv3 is-w gdr-fml",
+        "formula": [
+          "Research + has + V3 + that + mệnh đề",
+          "Studies + have + V3 + that + mệnh đề"
+        ],
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      },
+      {
+        "class": "gdr-exs",
+        "headers": [],
+        "items": 2,
+        "rows": 0,
+        "tag": "UL",
+        "tone": null
+      },
+      {
+        "class": "gdr-chips",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": null
+      }
+    ],
+    "id": "sec-rule-c1-perfect",
+    "node": "c1-present-advanced",
+    "title": "Hiện tại hoàn thành cho tổng quan nghiên cứu"
+  },
+  {
+    "blocks": [
+      {
+        "class": "gdr-exs",
+        "headers": [],
+        "items": 6,
+        "rows": 0,
+        "tag": "UL",
+        "tone": null
+      }
+    ],
+    "id": "sec-examples",
+    "title": "Ví dụ"
+  },
+  {
+    "blocks": [
+      {
+        "class": "gdr-dot",
+        "headers": [],
+        "items": 4,
+        "rows": 0,
+        "tag": "UL",
+        "tone": null
+      }
+    ],
+    "id": "sec-signals",
+    "title": "Dấu hiệu nhận biết"
+  },
+  {
+    "blocks": [
+      {
+        "class": "gdr-tbl",
+        "headers": [
+          "Sai",
+          "Đúng",
+          "Vì sao"
+        ],
+        "items": 0,
+        "rows": 3,
+        "tag": "DIV",
+        "tone": null
+      },
+      {
+        "class": "doc-call nbc-lv3 gdr-call",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": "note"
+      }
+    ],
+    "id": "sec-mistakes-ps",
+    "title": "Lỗi hay mắc: Hiện tại đơn với I/you/we/they"
+  },
+  {
+    "blocks": [
+      {
+        "class": "gdr-tbl",
+        "headers": [
+          "Sai",
+          "Đúng",
+          "Vì sao"
+        ],
+        "items": 0,
+        "rows": 4,
+        "tag": "DIV",
+        "tone": null
+      },
+      {
+        "class": "doc-call nbc-lv3 gdr-call",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "DIV",
+        "tone": "note"
+      }
+    ],
+    "id": "sec-mistakes-3p",
+    "title": "Lỗi hay mắc: Hiện tại đơn với he/she/it"
+  },
+  {
+    "blocks": [
+      {
+        "class": "gdr-tbl",
+        "headers": [
+          "Sai",
+          "Đúng",
+          "Vì sao"
+        ],
+        "items": 0,
+        "rows": 3,
+        "tag": "DIV",
+        "tone": null
+      },
+      {
+        "class": "doc-p gdr-p whitespace-pre-line",
+        "headers": [],
+        "items": 0,
+        "rows": 0,
+        "tag": "P",
+        "tone": null
+      }
+    ],
+    "id": "sec-mistakes-c1",
+    "title": "Lỗi hay mắc: Thì hiện tại trong văn học thuật"
+  },
+  {
+    "blocks": [
+      {
+        "class": "gdr-dot",
+        "headers": [],
+        "items": 3,
+        "rows": 0,
+        "tag": "UL",
+        "tone": null
+      }
+    ],
+    "id": "sec-recap",
+    "title": "Tổng kết"
+  }
+]

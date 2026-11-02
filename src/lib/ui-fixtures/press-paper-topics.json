@@ -1,0 +1,140 @@
+{
+  "the-guardian": [
+    {
+      "count": 2,
+      "label": "Thế giới"
+    },
+    {
+      "count": 0,
+      "label": "Chính trị"
+    },
+    {
+      "count": 5,
+      "label": "Kinh tế & Kinh doanh"
+    },
+    {
+      "count": 29,
+      "label": "Công nghệ"
+    },
+    {
+      "count": 70,
+      "label": "Khoa học"
+    },
+    {
+      "count": 24,
+      "label": "Sức khoẻ"
+    },
+    {
+      "count": 116,
+      "label": "Môi trường & Khí hậu"
+    },
+    {
+      "count": 51,
+      "label": "Văn hoá & Nghệ thuật"
+    },
+    {
+      "count": 9,
+      "label": "Giáo dục"
+    },
+    {
+      "count": 2,
+      "label": "Thể thao"
+    },
+    {
+      "count": 13,
+      "label": "Xã hội & Đời sống"
+    }
+  ],
+  "the-conversation": [
+    {
+      "count": 0,
+      "label": "Thế giới"
+    },
+    {
+      "count": 1,
+      "label": "Chính trị"
+    },
+    {
+      "count": 3,
+      "label": "Kinh tế & Kinh doanh"
+    },
+    {
+      "count": 29,
+      "label": "Công nghệ"
+    },
+    {
+      "count": 76,
+      "label": "Khoa học"
+    },
+    {
+      "count": 62,
+      "label": "Sức khoẻ"
+    },
+    {
+      "count": 66,
+      "label": "Môi trường & Khí hậu"
+    },
+    {
+      "count": 56,
+      "label": "Văn hoá & Nghệ thuật"
+    },
+    {
+      "count": 9,
+      "label": "Giáo dục"
+    },
+    {
+      "count": 3,
+      "label": "Thể thao"
+    },
+    {
+      "count": 11,
+      "label": "Xã hội & Đời sống"
+    }
+  ],
+  "the-atlantic": [
+    {
+      "count": 0,
+      "label": "Thế giới"
+    },
+    {
+      "count": 8,
+      "label": "Chính trị"
+    },
+    {
+      "count": 10,
+      "label": "Kinh tế & Kinh doanh"
+    },
+    {
+      "count": 59,
+      "label": "Công nghệ"
+    },
+    {
+      "count": 8,
+      "label": "Khoa học"
+    },
+    {
+      "count": 19,
+      "label": "Sức khoẻ"
+    },
+    {
+      "count": 16,
+      "label": "Môi trường & Khí hậu"
+    },
+    {
+      "count": 55,
+      "label": "Văn hoá & Nghệ thuật"
+    },
+    {
+      "count": 15,
+      "label": "Giáo dục"
+    },
+    {
+      "count": 1,
+      "label": "Thể thao"
+    },
+    {
+      "count": 32,
+      "label": "Xã hội & Đời sống"
+    }
+  ]
+}

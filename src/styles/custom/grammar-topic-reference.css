@@ -1,0 +1,469 @@
+.gr-actions { z-index: 2; padding: .75rem 1.25rem calc(.75rem + env(safe-area-inset-bottom)); border-top: 1px solid hsl(var(--border)); background: hsl(var(--surface)); flex-direction: column; margin-top: auto; position: sticky; bottom: 0px; }
+.gr-actions, .gr-aids { gap: 0.5rem; display: flex; }
+.gr-aids { flex-wrap: wrap; }
+.gr-aids > * { flex: 1 1 auto; }
+.gr-nav { gap: 0.5rem; display: flex; }
+.gr-nav > :last-child:not([data-testid="btn-back-card"]) { flex: 1 1 0%; min-width: 0px; }
+@media (min-width: 1024px) {
+  .gr-actions { border-radius: 0 0 var(--r-in-lg) var(--r-in-lg); flex-direction: row; align-items: center; gap: 0.75rem; padding: 1rem 2.25rem 1.125rem; }
+  .gr-aids > * { flex: 0 0 auto; }
+  .gr-nav { margin-left: auto; }
+  .gr-nav > :last-child:not([data-testid="btn-back-card"]) { flex: 0 0 auto; }
+}
+.gr-kick { border-radius: var(--r-pill); background: linear-gradient(hsl(var(--feat)/.16),hsl(var(--feat)/.16)),hsl(var(--surface)); font: 700 12.5px/1 var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; align-items: center; padding: 5px 12px; display: inline-flex; }
+.gr-fml, .gr-kick { border: 2px solid hsl(var(--border-strong)); color: hsl(var(--fg)); }
+.gr-fml { background: hsl(var(--bg)); border-radius: 14px; padding: 8px 16px; font-size: 15px; font-weight: 600; line-height: 1.6; }
+.gr-fml > * { border-bottom: 1.5px dashed hsl(var(--border)); overflow-wrap: anywhere; margin: 0px; padding: 4px 0px; display: block; }
+.gr-fml > :last-child { border-bottom: 0px; }
+.gr-q { background: hsl(var(--bg)); border: 2px solid hsl(var(--border-strong)); border-radius: 14px; padding: 12px 16px; }
+.gr-spk { background: hsl(var(--feat)); width: 40px; height: 40px; color: hsl(var(--feat-on)); border: 2px solid hsl(var(--feat-edge)); border-radius: 12px; flex: 0 0 auto; justify-content: center; display: inline-flex; }
+.gr-opt, .gr-spk { align-items: center; }
+.gr-opt { text-align: left; background: hsl(var(--surface)); border: var(--bw) solid hsl(var(--border-strong)); min-height: 52px; color: hsl(var(--fg)); --fx-sx: var(--sh-1); --fx-sy: var(--sh-1); --fx-sc: hsl(var(--sh-self,var(--sh-color))); box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--fx-sx) var(--fx-sy) 0 0 var(--fx-sc); border-radius: 14px; gap: 12px; padding: 6px 14px; font-size: 16px; font-weight: 700; line-height: 1.3; display: flex; }
+.gr-opt.is-ok { background: linear-gradient(hsl(var(--success)/.14),hsl(var(--success)/.14)),hsl(var(--surface)); border-color: hsl(var(--success)); --fx-sc: hsl(var(--success)); }
+.gr-opt.is-no { background: linear-gradient(hsl(var(--danger)/.1),hsl(var(--danger)/.1)),hsl(var(--surface)); border-color: hsl(var(--danger)); --fx-sc: hsl(var(--danger)); }
+.gr-pad { padding: 24px 20px 20px; }
+.gr-padx { padding-left: 20px; padding-right: 20px; }
+.gr-num { border: 2px solid hsl(var(--border-strong)); background: hsl(var(--bg)); min-width: 28px; height: 28px; font: 700 12.5px/1 var(--font-display); border-radius: 8px; flex: 0 0 auto; justify-content: center; align-items: center; display: inline-flex; }
+@media (min-width: 1024px) {
+  .gr-fml { padding: 12px 18px; font-size: 17px; line-height: 1.7; }
+  .gr-opt { min-height: 56px; padding: 6px 16px; font-size: 18px; }
+  .gr-pad { padding: 28px 36px; }
+  .gr-padx { padding-left: 36px; padding-right: 36px; }
+}
+@media (min-width: 1024px) and (max-height: 799.98px) {
+  .gr-pad { padding-top: 16px; padding-bottom: 12px; }
+  .gr-actions { padding-top: 10px; padding-bottom: 12px; }
+}
+.gr-doc-frame { --dlg-lift: 0px; }
+:root, :where(:root[data-theme="dark"]) :where(.bg-\[hsl\(var\(--feat\)\)\]), :where(:root[data-theme="dark"]) :where(.bg-\[hsl\(var\(--gold\)\)\]), :where(:root[data-theme="dark"]) :where(.bg-accent), :where(:root[data-theme="dark"]) :where(.bg-accent-soft), :where(:root[data-theme="dark"]) :where(.bg-ban-be), :where(:root[data-theme="dark"]) :where(.bg-ban-be-soft), :where(:root[data-theme="dark"]) :where(.bg-danger), :where(:root[data-theme="dark"]) :where(.bg-danger-soft), :where(:root[data-theme="dark"]) :where(.bg-gold), :where(:root[data-theme="dark"]) :where(.bg-info), :where(:root[data-theme="dark"]) :where(.bg-info-soft), :where(:root[data-theme="dark"]) :where(.bg-primary), :where(:root[data-theme="dark"]) :where(.bg-primary-soft), :where(:root[data-theme="dark"]) :where(.bg-success), :where(:root[data-theme="dark"]) :where(.bg-success-soft), :where(:root[data-theme="dark"]) :where(.bg-surface), :where(:root[data-theme="dark"]) :where(.bg-surface-2), :where(:root[data-theme="dark"]) :where(.bg-surface-3), :where(:root[data-theme="dark"]) :where(.bg-surface-eng), :where(:root[data-theme="dark"]) :where(.bg-warning), :where(:root[data-theme="dark"]) :where(.bg-warning-soft), :where(:root[data-theme="dark"]) :where(.btn-ink), :where(:root[data-theme="dark"]) :where(.btn-ink-cta), :where(:root[data-theme="dark"]) :where(.card), :where(:root[data-theme="dark"]) :where(.chip), :where(:root[data-theme="dark"]) :where(.face-light), :where(:root[data-theme="dark"]) :where(.field-ink), :where(:root[data-theme="dark"]) :where(.gr-fml), :where(:root[data-theme="dark"]) :where(.gr-kick), :where(:root[data-theme="dark"]) :where(.gr-num), :where(:root[data-theme="dark"]) :where(.gr-opt), :where(:root[data-theme="dark"]) :where(.gr-q), :where(:root[data-theme="dark"]) :where(.gr-spk), :where(:root[data-theme="dark"]) :where(.ink-card), :where(:root[data-theme="dark"]) :where(.ink-panel), :where(:root[data-theme="dark"]) :where(.isle), :where(:root[data-theme="dark"]) :where(.lh-tooltip), :where(:root[data-theme="dark"]) :where(.nav-item-active), :where(:root[data-theme="dark"]) :where(.pop-tail), :where(:root[data-theme="dark"]) :where(.stage-paper), :where(:root[data-theme="dark"]) :where(.toast-card) { --ink: 48 8% 11.6%; --paper: 52.5 25% 93.7%; --rail: 48 21.7% 91%; --gold: 40 85% 56.1%; --hero-paper: 48 86% 88.6%; --hero-grass: 68 48% 74%; --bg: var(--paper); --bg-2: var(--rail); --surface: 0 0% 100%; --surface-2: 51.4 30.4% 95.5%; --surface-3: var(--rail); --surface-eng: 48 71% 98.6%; --fg: var(--ink); --fg-muted: 42 8% 25.1%; --fg-subtle: 44 7% 31.2%; --border: 40 12% 80.8%; --border-strong: 38 12.9% 54.5%; --chrome-edge: var(--border-strong); --chrome-bw: var(--bw); --ink-fixed: var(--ink); --paper-fixed: var(--paper); --feat-go-cau: 234 50% 53.9%; --feat-video: 21 71% 39.5%; --feat-tu-vung: 90 40% 30%; --feat-ngu-phap: 347 45% 48.5%; --feat-doc-dich: 177 43% 32.1%; --feat-tu-dien: 40 85% 56.1%; --feat-lo-trinh: 260 46% 42.4%; --feat-ban-be: 205 69% 39%; --feat-ink-ban-be: 206 71% 35%; --feat-soft-ban-be: 207 63% 91.6%; --vt-dict: 255 69.2% 89.8%; --vt-dict-on: 252.2 50.7% 28.6%; --vt-dict-halo: 255 75% 93.7%; --vt-dict-halo-2: 255.3 64.4% 85.7%; --vt-dict-card: 235.3 37.2% 26.9%; --vt-shad: 349.6 76.5% 86.7%; --vt-shad-on: 344.6 57.4% 26.7%; --vt-shad-halo: 348.5 72.3% 81.6%; --vt-rand: 155.2 42.6% 21.2%; --vt-rand-card: 18.9 57% 50.8%; --vt-mine: 45.9 88.6% 69%; --vt-mine-2: 45.4 86% 63.5%; --vt-mine-card: 176.7 43.4% 32.5%; --vt-mine-card-2: 233.8 49.8% 53.9%; --vt-mine-card-3: 20.9 70.6% 41.4%; --vt-quiz: 32.6 85% 68.6%; --vt-quiz-on: 28.2 79% 20.6%; --vt-quiz-halo: 34.7 87.2% 75.5%; --vt-quiz-star: 24.3 75% 43.9%; --vt-chill: 71.5 58.4% 75.5%; --vt-chill-on: 83.5 61.4% 16.3%; --vt-chill-halo: 71.3 60.9% 82.9%; --vt-chill-sh: 85.2 36.5% 33.3%; --primary-fg: 0 0% 100%; --primary-soft: 44 60% 96%; --accent: var(--gold); --accent-soft: 40 85% 92%; --success: 152 58% 28%; --success-soft: 152 45% 92%; --warning: 30 78% 32%; --warning-soft: 38 80% 91%; --danger: 356 62% 42%; --danger-soft: 356 70% 94%; --info: 215 55% 36%; --info-soft: 215 60% 93%; --toast-ok: 88 53.6% 89%; --toast-err: 347.5 64% 91.4%; --nudge-paper: 39.7 80% 82.2%; --td-coll: 196.6 61.7% 90.8%; --td-fam: 348.9 77.1% 93.1%; --td-syn: 88 53.6% 89%; --mark-pv: 45 96% 50%; --mark-colloc: 205 90% 45%; --mark-idiom: 280 70% 55%; --mark-vocab: 151 55% 32%; --type-error: 0 80% 47%; --type-idle-fg: 222 12% 35%; --type-idle-border: 220 13% 80%; --streak: 18 90% 40.5%; --praise-x: 38 95% 38%; --ling-blue: 228 68% 43%; --ling-teal: 188 68% 23.5%; --ling-green: 151 68% 22%; --ling-leaf: 88 68% 21.5%; --ling-gold: 48 68% 23%; --ling-orange: 23 68% 30.5%; --ling-rose: 350 68% 36.5%; --ling-violet: 271 68% 43.5%; --ling-blue-bg: 228 46% 56.5%; --ling-teal-bg: 188 46% 37.5%; --ling-green-bg: 151 42% 36.5%; --ling-leaf-bg: 88 42% 35%; --ling-gold-bg: 48 50% 31.5%; --ling-orange-bg: 23 52% 44%; --ling-rose-bg: 350 48% 53.5%; --ling-violet-bg: 271 42% 49.5%; --ling-on: 0 0% 100%; --ling-slate: 32 13% 31.5%; --ling-slate-bg: 32 10.5% 38%; --mastery-0: 220 15% 70%; --mastery-1: 203 91% 66%; --mastery-2: 206 86% 58%; --mastery-3: 155 60% 50%; --mastery-4: 272 85% 75%; --mastery-edge-0: 220 15% 54%; --mastery-edge-1: 203 91% 50%; --mastery-edge-2: 206 86% 42%; --mastery-edge-3: 155 60% 34%; --mastery-edge-4: 272 85% 59%; --medal-1: 43 88% 50%; --medal-2: 213 20% 58%; --medal-3: 27 62% 55%; --zone-1: 151 72% 85%; --zone-2: 105 72% 85%; --zone-3: 228 72% 85%; --zone-4: 271 72% 85%; --zone-5: 23 72% 85%; --zone-6: 327 72% 85%; --zone-1-ink: 151 68% 26%; --zone-2-ink: 105 68% 26%; --zone-3-ink: 228 68% 44%; --zone-4-ink: 271 68% 44%; --zone-5-ink: 23 68% 34%; --zone-6-ink: 327 68% 38%; --land-1: 151 72% 85%; --land-2: 271 72% 88%; --land-3: 23 72% 85%; --land-4: 228 72% 87%; --land-5: 327 72% 87%; --land-1-ink: 151 68% 24%; --land-2-ink: 271 68% 44%; --land-3-ink: 23 68% 32%; --land-4-ink: 228 68% 44%; --land-5-ink: 327 68% 38%; --frq-new: 228 72% 85%; --frq-planned: 271 72% 85%; --frq-building: 23 72% 85%; --frq-done: 151 72% 85%; --frq-declined: 327 72% 85%; --frq-new-ink: 228 68% 44%; --frq-planned-ink: 271 68% 44%; --frq-building-ink: 23 68% 34%; --frq-done-ink: 151 68% 26%; --frq-declined-ink: 327 68% 38%; --mode-typing: var(--feat-go-cau); --mode-video: var(--feat-video); --mode-vocab: var(--feat-tu-vung); --mode-translate: var(--feat-doc-dich); --stage-cream-a: .26; --ipa-fg: 41 7.8% 40%; --ipa-slash: 42 14.8% 69.6%; --lightningcss-light: initial; --lightningcss-dark: ; color-scheme: light; }
+:where(.bg-\[hsl\(var\(--feat\)\)\]):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.bg-\[hsl\(var\(--gold\)\)\]):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.bg-accent):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.bg-accent-soft):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.bg-ban-be):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.bg-ban-be-soft):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.bg-danger):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.bg-danger-soft):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.bg-gold):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.bg-info):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.bg-info-soft):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.bg-primary):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.bg-primary-soft):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.bg-success):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.bg-success-soft):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.bg-surface):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.bg-surface-2):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.bg-surface-3):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.bg-surface-eng):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.bg-warning):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.bg-warning-soft):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.btn-ink):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.btn-ink-cta):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.card):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.chip):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.face-light):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.field-ink):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.gr-fml):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.gr-kick):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.gr-num):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.gr-opt):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.gr-q):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.gr-spk):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.ink-card):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.ink-panel):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.isle):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.lh-tooltip):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.nav-item-active):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.pop-tail):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.stage-paper):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *), :where(.toast-card):where(:root[data-theme="dark"] *):not(:where(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *):is(body *) { color: hsl(var(--fg)); --sh-self: var(--sh-mid); --cta-edge-self: var(--cta-edge-dark); }
+:root, :where(:root[data-theme="dark"]) :where(.bg-\[hsl\(var\(--feat\)\)\]), :where(:root[data-theme="dark"]) :where(.bg-\[hsl\(var\(--gold\)\)\]), :where(:root[data-theme="dark"]) :where(.bg-accent), :where(:root[data-theme="dark"]) :where(.bg-accent-soft), :where(:root[data-theme="dark"]) :where(.bg-ban-be), :where(:root[data-theme="dark"]) :where(.bg-ban-be-soft), :where(:root[data-theme="dark"]) :where(.bg-danger), :where(:root[data-theme="dark"]) :where(.bg-danger-soft), :where(:root[data-theme="dark"]) :where(.bg-gold), :where(:root[data-theme="dark"]) :where(.bg-info), :where(:root[data-theme="dark"]) :where(.bg-info-soft), :where(:root[data-theme="dark"]) :where(.bg-primary), :where(:root[data-theme="dark"]) :where(.bg-primary-soft), :where(:root[data-theme="dark"]) :where(.bg-success), :where(:root[data-theme="dark"]) :where(.bg-success-soft), :where(:root[data-theme="dark"]) :where(.bg-surface), :where(:root[data-theme="dark"]) :where(.bg-surface-2), :where(:root[data-theme="dark"]) :where(.bg-surface-3), :where(:root[data-theme="dark"]) :where(.bg-surface-eng), :where(:root[data-theme="dark"]) :where(.bg-warning), :where(:root[data-theme="dark"]) :where(.bg-warning-soft), :where(:root[data-theme="dark"]) :where(.btn-ink), :where(:root[data-theme="dark"]) :where(.btn-ink-cta), :where(:root[data-theme="dark"]) :where(.card), :where(:root[data-theme="dark"]) :where(.chip), :where(:root[data-theme="dark"]) :where(.face-light), :where(:root[data-theme="dark"]) :where(.field-ink), :where(:root[data-theme="dark"]) :where(.gr-fml), :where(:root[data-theme="dark"]) :where(.gr-kick), :where(:root[data-theme="dark"]) :where(.gr-num), :where(:root[data-theme="dark"]) :where(.gr-opt), :where(:root[data-theme="dark"]) :where(.gr-q), :where(:root[data-theme="dark"]) :where(.gr-spk), :where(:root[data-theme="dark"]) :where(.ink-card), :where(:root[data-theme="dark"]) :where(.ink-panel), :where(:root[data-theme="dark"]) :where(.isle), :where(:root[data-theme="dark"]) :where(.lh-tooltip), :where(:root[data-theme="dark"]) :where(.nav-item-active), :where(:root[data-theme="dark"]) :where(.pop-tail), :where(:root[data-theme="dark"]) :where(.stage-paper), :where(:root[data-theme="dark"]) :where(.toast-card), [data-feature], [data-tint] { --feat-ink: var(--feat-ink-l); --primary: var(--feat-ink); --primary-hover: var(--feat-ink); --primary-ring: var(--feat-ink); --type-active: var(--primary); --sh-color: var(--sh-tint); --praise-grad: linear-gradient(96deg, hsl(var(--primary)) 0%, hsl(var(--primary-hover)) 100%); }
+:root[data-theme="dark"], :root[data-theme="dark"] :is([data-feature], [data-tint]):not(:is(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]), :is(.isle, .ink-card, .ink-panel, .btn-ink, .btn-ink-cta, .face-light, .chip, .card, .field-ink, .nav-item-active, .stage-paper, .gr-kick, .gr-spk, .gr-opt, .gr-fml, .gr-q, .gr-num, .lh-tooltip, .toast-card, .pop-tail, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-primary, .bg-gold, .bg-accent, .bg-danger, .bg-success, .bg-warning, .bg-info, .bg-ban-be, .bg-primary-soft, .bg-accent-soft, .bg-success-soft, .bg-warning-soft, .bg-danger-soft, .bg-info-soft, .bg-ban-be-soft, .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\]) *) { --feat-ink: var(--feat-ink-d); --sh-color: var(--sh-mid); }
+@supports (color:color-mix(in srgb,red,white)) {
+  :root, :where(:root[data-theme="dark"]) :where(.bg-\[hsl\(var\(--feat\)\)\]), :where(:root[data-theme="dark"]) :where(.bg-\[hsl\(var\(--gold\)\)\]), :where(:root[data-theme="dark"]) :where(.bg-accent), :where(:root[data-theme="dark"]) :where(.bg-accent-soft), :where(:root[data-theme="dark"]) :where(.bg-ban-be), :where(:root[data-theme="dark"]) :where(.bg-ban-be-soft), :where(:root[data-theme="dark"]) :where(.bg-danger), :where(:root[data-theme="dark"]) :where(.bg-danger-soft), :where(:root[data-theme="dark"]) :where(.bg-gold), :where(:root[data-theme="dark"]) :where(.bg-info), :where(:root[data-theme="dark"]) :where(.bg-info-soft), :where(:root[data-theme="dark"]) :where(.bg-primary), :where(:root[data-theme="dark"]) :where(.bg-primary-soft), :where(:root[data-theme="dark"]) :where(.bg-success), :where(:root[data-theme="dark"]) :where(.bg-success-soft), :where(:root[data-theme="dark"]) :where(.bg-surface), :where(:root[data-theme="dark"]) :where(.bg-surface-2), :where(:root[data-theme="dark"]) :where(.bg-surface-3), :where(:root[data-theme="dark"]) :where(.bg-surface-eng), :where(:root[data-theme="dark"]) :where(.bg-warning), :where(:root[data-theme="dark"]) :where(.bg-warning-soft), :where(:root[data-theme="dark"]) :where(.btn-ink), :where(:root[data-theme="dark"]) :where(.btn-ink-cta), :where(:root[data-theme="dark"]) :where(.card), :where(:root[data-theme="dark"]) :where(.chip), :where(:root[data-theme="dark"]) :where(.face-light), :where(:root[data-theme="dark"]) :where(.field-ink), :where(:root[data-theme="dark"]) :where(.gr-fml), :where(:root[data-theme="dark"]) :where(.gr-kick), :where(:root[data-theme="dark"]) :where(.gr-num), :where(:root[data-theme="dark"]) :where(.gr-opt), :where(:root[data-theme="dark"]) :where(.gr-q), :where(:root[data-theme="dark"]) :where(.gr-spk), :where(:root[data-theme="dark"]) :where(.ink-card), :where(:root[data-theme="dark"]) :where(.ink-panel), :where(:root[data-theme="dark"]) :where(.isle), :where(:root[data-theme="dark"]) :where(.lh-tooltip), :where(:root[data-theme="dark"]) :where(.nav-item-active), :where(:root[data-theme="dark"]) :where(.pop-tail), :where(:root[data-theme="dark"]) :where(.stage-paper), :where(:root[data-theme="dark"]) :where(.toast-card), [data-feature], [data-tint] { --praise-grad: linear-gradient(96deg, color-mix(in srgb, hsl(var(--primary)) 85%, #fff) 0%, color-mix(in srgb, hsl(var(--primary)) 70%, #fff) 50%, color-mix(in srgb, hsl(var(--primary)) 52%, #fff) 100%); }
+}
+:root[data-webfont-wait] .nbl-lx > :not(.nbl-bar) { visibility: hidden; }
+.nbl-lx { --nbl-gap: 20px; --nbl-pt: 22px; min-width: 0px; padding: calc(var(--nbl-pt) + env(safe-area-inset-top,0px)) 8px calc(36px + env(safe-area-inset-bottom,0px)) 20px; flex-direction: column; display: flex; }
+.nbl-lx > .nbl-bar { margin-bottom: var(--nbl-gap); }
+@media (max-width: 1179.98px) {
+  .nbl-lx { --nbl-pt: 12px; }
+}
+@media (max-width: 639.98px) {
+  .nbl-lx { --nbl-gap: 12px; --nbl-pt: 8px; padding: calc(var(--nbl-pt) + env(safe-area-inset-top,0px)) 12px calc(16px + env(safe-area-inset-bottom,0px)); }
+}
+.nbc-hd.nbl-bar { --nbl-bar-py: 9px; --nbl-bar-pl: 14px; --nbl-bar-pr: 16px; --nbl-bar-ctl: 44px; --nbl-bar-min: calc(var(--nbl-bar-ctl) + var(--nbl-bar-py)*2 + 3px); height: auto; min-height: var(--nbl-bar-min); padding: var(--nbl-bar-py) var(--nbl-bar-pr) var(--nbl-bar-py) var(--nbl-bar-pl); font-family: var(--nb-font-body); font-size-adjust: none; color: var(--nb-ink); flex-direction: row; justify-content: flex-start; align-items: center; gap: 14px; font-size: 15px; line-height: 1.4; }
+.nbl-bar > .nbl-tape { --nb-tape-r: -3deg; top: -11px; left: 47%; }
+.nbl-lead, .nbl-tools { flex-shrink: 0; align-items: center; min-width: 0px; display: flex; }
+.nbl-lead { gap: 14px; }
+.nbl-tools { gap: 8px; }
+.nbl-ttl { flex: 0 1 340px; gap: 3px; }
+.nbl-prog, .nbl-ttl { flex-direction: column; min-width: 0px; display: flex; }
+.nbl-prog { flex: 1 1 auto; gap: 7px; position: relative; }
+.nbl-bk { background: var(--nb-x-row-h); max-width: 230px; height: 44px; color: var(--nb-x-ink); white-space: nowrap; box-shadow: 0 8px 14px -10px color-mix(in srgb,var(--nb-x-fd,var(--nb-x-ivory-d)) 90%,transparent); transition: translate var(--nb-d-hover) var(--nb-e-hover),box-shadow var(--nb-d-hover) var(--nb-e-hover),scale var(--nb-d-quick) var(--nb-e-hover); border: 1.75px solid rgba(0, 0, 0, 0); border-radius: 13px; flex-shrink: 0; align-items: center; gap: 7px; padding: 0px 14px 0px 10px; font-size: 14px; font-weight: 800; line-height: 1.3; text-decoration: none; display: inline-flex; }
+.nbl-bk > span { text-overflow: ellipsis; min-width: 0px; overflow: hidden; }
+.nbl-bk svg { flex-shrink: 0; width: 19px; height: 19px; }
+@media (hover: hover) {
+  .nbl-bk:hover { box-shadow: 0 12px 18px -10px color-mix(in srgb,var(--nb-x-fd,var(--nb-x-ivory-d)) 90%,transparent); translate: 0px -2px; }
+}
+.nbl-bk:active { scale: var(--nb-press); }
+.nbl-bk:focus-visible { outline: 3px solid var(--nb-ink); outline-offset: 3px; }
+.nbl-bar .nbl-ib { background: color-mix(in srgb,var(--nb-veil-c) 80%,transparent); border: 1.5px solid color-mix(in srgb,var(--nb-ink) 18%,transparent); width: 44px; height: 44px; color: var(--nb-ink); box-shadow: none; border-radius: 13px; }
+.nbl-bar .nbl-ib svg { width: 19px; height: 19px; }
+.nbl-k { min-width: 0px; color: var(--nb-a-ink2,var(--nb-ink-2)); white-space: nowrap; align-items: center; gap: 7px; margin: 0px; font-size: 12.5px; font-weight: 800; line-height: 1.3; display: flex; }
+.nbl-k > * { flex: 0 0 auto; }
+.nbl-k > .nbl-sep { font-weight: 500; }
+.nbl-k > .nbl-cut { flex: 0 1 auto; }
+.nbl-bar .nbl-t, .nbl-k > .nbl-cut { text-overflow: ellipsis; min-width: 0px; overflow: hidden; }
+.nbl-bar .nbl-t { font-family: var(--nb-font-head); letter-spacing: -0.02em; white-space: nowrap; margin: -0.2em 0px; padding: 0.2em 0px; font-size: 30px; font-weight: 800; line-height: 1.1; }
+.nbl-prog-h { color: var(--nb-a-ink2,var(--nb-ink-2)); white-space: nowrap; justify-content: space-between; gap: 12px; margin: 0px; font-size: 12.5px; font-weight: 700; line-height: 22px; display: flex; }
+.nbl-prog-c { display: none; }
+.nbl-prog-h > * { height: 22px; }
+.nbl-prog-h b { font-family: var(--nb-font-head); color: var(--nb-ink); font-size: 17px; font-weight: 800; }
+.nbl-pbar { background: color-mix(in srgb,var(--nb-veil-c) 75%,transparent); border: 1.5px solid color-mix(in srgb,var(--nb-a-line,var(--nb-ink)) 55%,transparent); border-radius: 99px; height: 12px; position: relative; }
+.nbl-pbar > i { background: var(--nb-a-line,var(--nb-ink)); max-width: calc(100% - 2px); transition: width var(--nb-d-state) var(--nb-e-drop); border-radius: 99px; position: absolute; inset: 1px auto 1px 1px; }
+.nbl-pbar > b { translate: var(--nbl-at,0) 0; pointer-events: none; transition: translate var(--nb-d-state) var(--nb-e-drop); position: absolute; inset: 0px; }
+.nbl-pbar > b::after { content: ""; background: var(--nb-field); border: 2px solid var(--nb-a-line,var(--nb-x-do-d)); border-radius: 6px; width: 14px; height: 22px; position: absolute; top: 50%; left: 0px; translate: -50% -50%; }
+.nbl-timer { background: var(--nb-a-bg,var(--nb-paper-kraft-bg)); height: 44px; color: var(--nb-ink); font-family: var(--nb-font-head); font-variant-numeric: tabular-nums; white-space: nowrap; border-radius: 13px; flex-shrink: 0; align-items: center; gap: 7px; padding: 0px 14px; font-size: 18px; font-weight: 800; line-height: 1; display: inline-flex; }
+.nbl-timer svg { width: 18px; height: 18px; }
+@media (max-width: 1179.98px) {
+  .nbc-hd.nbl-bar { grid-template-columns: auto minmax(0px, 1fr) auto; grid-template-areas: "lead ttl tools" "prog prog prog"; gap: 8px 14px; display: grid; }
+  .nbl-bar .nbl-t { font-size: 26px; }
+  .nbl-lead { grid-area: lead; }
+  .nbl-ttl { grid-area: ttl; }
+  .nbl-prog { grid-area: prog; }
+  .nbl-tools { grid-area: tools; justify-self: end; }
+  .nbl-bar:has(> .nbl-prog:empty) { grid-template-areas: "lead ttl tools"; row-gap: 0px; }
+  .nbl-prog:is(:has(> .nbl-prog-h + .nbl-pbar), :has(> .ddp-h + .ddp-bar)) { flex-direction: row; align-items: center; gap: 10px; }
+  .nbl-prog > :is(.nbl-prog-h, .ddp-h):has(+ :is(.nbl-pbar, .ddp-bar)) { display: contents; }
+  .nbl-prog > :is(.nbl-prog-h + .nbl-pbar, .ddp-h + .ddp-bar) { flex: 1 1 auto; order: 1; min-width: 64px; margin-top: 0px; }
+  .nbl-prog > :is(.nbl-prog-h, .ddp-h):has(+ :is(.nbl-pbar, .ddp-bar)) > span:last-child:not(:first-child) { order: 2; }
+}
+@media (max-width: 639.98px) {
+  .nbc-hd.nbl-bar { --nbl-bar-py: 8px; --nbl-bar-pl: 10px; --nbl-bar-pr: 10px; --nbl-bar-ctl: 40px; gap: 6px 8px; }
+  .nbl-bar .nbl-k { display: none; }
+  .nbl-bar:has(> .nbl-prog > :is(.nbl-prog-h + .nbl-pbar, .ddp-h + .ddp-bar)) { grid-template-columns: minmax(0px, 1fr) auto auto; grid-template-areas: "lead tools tools" "ttl ttl prog"; column-gap: 10px; }
+  .nbl-bar:has(> .nbl-prog:empty) { grid-template-columns: minmax(0px, 1fr) auto; grid-template-areas: "lead tools" "ttl ttl"; row-gap: 6px; }
+  .nbl-bar.is-ttl-row:not(#nbl-ttl-row) { grid-template-columns: minmax(0px, 1fr) auto; grid-template-areas: "lead tools" "ttl ttl"; row-gap: 6px; }
+  .nbl-bar.is-ttl-row:not(#nbl-ttl-row) > .nbl-prog { display: none; }
+  .nbl-prog { gap: 5px; }
+  .nbl-prog-h .nbl-prog-l { clip-path: inset(50%); white-space: nowrap; width: 1px; height: 1px; margin: -1px; position: absolute; overflow: hidden; }
+  .nbl-prog-h .nbl-prog-c { color: var(--nb-ink); align-items: center; gap: 2px; font-weight: 800; display: inline-flex; }
+  .nbl-prog > .nbl-prog-h + .nbl-pbar { min-width: 56px; }
+  .nbl-bar > .nbl-tape { --nb-tape-r: 3deg; width: 80px; top: -10px; left: 52%; }
+  .nbl-lead, .nbl-tools { gap: 6px; }
+  .nbl-bk { flex-shrink: 1; min-width: 40px; max-width: 150px; height: 40px; padding: 0px 12px 0px 8px; font-size: 13.5px; }
+  .nbl-bk.is-long { flex-shrink: 0; justify-content: center; width: 44px; padding: 0px; }
+  .nbl-bk.is-long > span { display: none; }
+  .nbl-bar .nbl-ib { border-radius: 12px; width: 40px; height: 40px; }
+  .nbl-timer { height: 40px; padding: 0px 11px; font-size: 16px; }
+  .nbl-bar .nbl-t { font-size: 20px; }
+  .nbl-bar .nbl-ph-hide { display: none; }
+}
+@media (min-width: 640px) and (max-width: 899.98px) {
+  .nbl-bk.is-long { justify-content: center; width: 44px; padding: 0px; }
+  .nbl-bk.is-long > span { display: none; }
+}
+@media (max-width: 379.98px) {
+  .nbl-bk { flex-shrink: 0; justify-content: center; width: 44px; padding: 0px; }
+  .nbl-bk > span { display: none; }
+}
+.nbl-stage { min-width: 0px; margin: 0px 6px 0px 0px; position: relative; }
+.nbl-stage > .nbl-tape { --nb-tape-r: -5deg; top: -12px; left: 34px; }
+.nbl-tape { mix-blend-mode: normal; }
+.nbl-under { border-radius: var(--nb-cv-r1); background-image: var(--nb-deco-cv-grain); opacity: 0.9; pointer-events: none; border: 0px; position: absolute; inset: 0px; }
+.nbl-under.is-u1 { background-color: var(--nb-a-under,var(--nb-paper-kraft-under)); transform: rotate(calc(-.9deg*var(--nb-x-tilt-k))) translate(-6px,9px); }
+.nbl-under.is-u2 { display: none; }
+.nbl-sheet, :root[data-nb-page] .nb-lesson .nbl-stage > .nbl-sheet.lwa { border-radius: var(--nb-cv-r1); background-color: var(--nb-paper-nga-card); background-image: var(--nb-deco-cv-grain),repeating-linear-gradient(180deg,transparent 0 43px,color-mix(in srgb,var(--nb-a-line,var(--nb-paper-xanhtroi-line)) 16%,transparent) 43px 44px); min-width: 0px; min-height: 420px; box-shadow: var(--nb-x-sh); border: 1.5px solid rgba(0, 0, 0, 0); flex-direction: column; align-items: center; gap: 30px; padding: 22px 32px 26px; display: flex; position: relative; }
+.nbl-stk { z-index: 4; pointer-events: none; transition: opacity var(--nb-d-state) var(--nb-e-hover); display: flex; position: absolute; top: -10px; right: 30px; }
+.nbl-stk > span { text-align: center; width: 82px; height: 82px; box-shadow: 0 0 0 4px var(--nb-deco-edge),0 10px 16px -8px color-mix(in srgb,var(--nb-shd) 45%,transparent); border-radius: 50%; flex-direction: column; justify-content: center; align-items: center; margin-left: -4px; line-height: 1; display: flex; }
+.nbl-stk b { font-family: var(--nb-font-head); letter-spacing: -0.02em; font-variant-numeric: tabular-nums; font-size: 27px; }
+.nbl-stk b, .nbl-stk i { font-weight: 800; display: block; }
+.nbl-stk i { letter-spacing: 0.04em; white-space: nowrap; margin-top: 3px; font-size: 9.5px; font-style: normal; }
+.nbl-stk > .is-s1 { background: var(--nb-goal); color: var(--nb-on-deep); rotate: calc(-6deg*var(--nb-x-tilt-k)); }
+.nbl-stk > .is-s2 { background: var(--nb-goal-p); color: var(--nb-goal-t); rotate: calc(4deg*var(--nb-x-tilt-k)); }
+.nbl-stk > .is-s3 { background: var(--nb-ok-p); color: var(--nb-ok-t); rotate: calc(-3deg*var(--nb-x-tilt-k)); }
+.nbl-chips { align-self: stretch; align-items: center; gap: 8px; min-width: 0px; display: flex; position: relative; }
+.nbl-chips .nbc-chip { height: 36px; transition: opacity var(--nb-d-state) var(--nb-e-hover); padding: 0px 13px; font-size: 13.5px; }
+.nbl-chips .nbc-chip.is-kraft { background: var(--nb-a-bg,var(--nb-paper-kraft-bg)); border-color: color-mix(in srgb,var(--nb-ink) 12%,transparent); }
+.nbl-modebtn { border-radius: var(--nb-x-rc); min-height: 40px; color: inherit; cursor: pointer; background: 0px 0px; border: 0px; align-items: center; gap: 8px; margin: -2px 0px; padding: 0px; display: inline-flex; }
+.nbl-modebtn .nbc-chip { transition: transform .45s var(--nb-x-ease),box-shadow .45s var(--nb-x-ease),background-color .35s var(--nb-x-ease); }
+.nbl-modebtn .nbl-modebtn-chev { color: var(--nb-x-ink2); transition: transform .45s var(--nb-x-ease); flex-shrink: 0; margin-right: -3px; }
+@media (hover: hover) {
+  .nbl-modebtn:hover .nbc-chip { box-shadow: 0 8px 14px -9px color-mix(in srgb,var(--nb-x-fd,var(--nb-x-info-d)) 85%,transparent); transform: translateY(-2px); }
+  .nbl-modebtn:hover .nbl-modebtn-chev { transform: translateY(2px); }
+}
+.nbl-modebtn:active .nbc-chip { transform: scale(0.96); }
+.nbl-modebtn:focus-visible { outline: 2.5px solid var(--nb-x-fc,var(--nb-x-info-d)); outline-offset: 3px; }
+.nbl-sheet > .nbl-keys { position: relative; }
+.nbl-instr { z-index: 2; border-radius: var(--nb-x-rc); background: color-mix(in srgb,var(--nb-x-info,var(--nb-x-row-h)) 88%,transparent); width: max-content; max-width: min(100%, 640px); font-family: var(--nb-font-body); color: var(--nb-x-ink); text-align: center; text-wrap: balance; opacity: 0; pointer-events: none; transition: opacity .8s var(--nb-x-ease),translate .8s var(--nb-x-ease); justify-content: center; align-items: center; gap: 8px; margin: 0px; padding: 7px 14px; font-size: 14px; font-weight: 700; line-height: 1.3; display: flex; position: absolute; bottom: calc(100% + 12px); left: 50%; translate: -50% 6px; }
+.nbl-instr.is-on { opacity: 1; translate: -50%; }
+[data-testid="gc-bottom-bar"] > .nbl-instr { bottom: calc(100% + 36px); }
+.nbl-instr > svg { width: 17px; height: 17px; color: var(--nb-x-info-d); flex-shrink: 0; }
+.nbl-instr > span { min-width: 0px; }
+@media (prefers-reduced-motion: reduce) {
+  .nbl-modebtn .nbc-chip, .nbl-modebtn .nbl-modebtn-chev { transition: none; }
+  .nbl-modebtn:hover .nbl-modebtn-chev, .nbl-modebtn:is(:hover, :active) .nbc-chip { transform: none; }
+  .nbl-instr { transition: none; translate: -50%; }
+}
+.nbl-sheet > .nbl-keys { margin-top: auto; }
+.nbl-kt, .nbl-navc { color: var(--nb-ink); background: var(--nb-field); border: 1.5px solid color-mix(in srgb,var(--nb-ink) 16%,transparent); box-shadow: 0 6px 10px -8px color-mix(in srgb,var(--nb-x-fd,var(--nb-x-ivory-d)) 70%,transparent); cursor: pointer; transition: translate var(--nb-d-hover) var(--nb-e-hover),scale var(--nb-d-quick) var(--nb-e-hover),background-color var(--nb-d-hover) var(--nb-e-hover); flex-shrink: 0; }
+.nbl-kt { height: 48px; font-family: var(--nb-font-body); white-space: nowrap; border-radius: 14px; align-items: center; gap: 9px; padding: 0px 16px 0px 9px; font-size: 14.5px; font-weight: 800; line-height: 1; display: inline-flex; }
+.nbl-kt .nbl-ks { gap: 4px; display: flex; }
+.nbl-kt .nbc-kbd { min-width: 34px; height: 28px; font-family: inherit; font-size: 12px; }
+.nbl-kt.is-act { border: 2px solid var(--nb-x-pri-bd); box-shadow: var(--nb-x-pri-drop); }
+.nbl-kt.is-fill { background: var(--nb-x-pri); color: var(--nb-x-pri-t); box-shadow: var(--nb-x-pri-sh); border-color: rgba(0, 0, 0, 0); }
+.nbl-navc { border-radius: 50%; place-items: center; width: 46px; height: 46px; padding: 0px; display: grid; }
+.nbl-navc svg { width: 20px; height: 20px; }
+.nbl-navc.is-off { visibility: hidden; }
+@media (hover: hover) {
+  .nbl-kt:hover, .nbl-navc:hover { translate: var(--nb-hover-shift-btn); }
+}
+.nbl-kt:active, .nbl-navc:active { scale: var(--nb-press); }
+:is(.nbl-kt:focus-visible, .nbl-navc:focus-visible) { outline: 3px solid var(--nb-ink); outline-offset: 3px; }
+@media (max-width: 639.98px) {
+  .nbl-stage { margin: 6px 4px 0px 0px; }
+  .nbl-under.is-u1 { transform: rotate(calc(-1.2deg*var(--nb-x-tilt-k))) translate(-4px,7px); }
+  .nbl-sheet, :root[data-nb-page] .nb-lesson .nbl-stage > .nbl-sheet.lwa { background-image: var(--nb-deco-cv-grain),repeating-linear-gradient(180deg,transparent 0 39px,color-mix(in srgb,var(--nb-a-line,var(--nb-paper-xanhtroi-line)) 16%,transparent) 39px 40px); gap: 18px; min-height: 0px; padding: 16px 14px; }
+  .nbl-stk { top: 0px; right: 14px; }
+  .nbl-stk > span { width: 52px; height: 52px; box-shadow: 0 0 0 3px var(--nb-deco-edge),0 8px 12px -6px color-mix(in srgb,var(--nb-shd) 45%,transparent); margin-left: -3px; }
+  .nbl-stk b { font-size: 17px; }
+  .nbl-stk i { letter-spacing: 0.03em; margin-top: 2px; font-size: 7px; }
+  .nbl-chips { gap: 6px; }
+  .nbl-chips .nbc-chip { height: 32px; padding: 0px 10px; font-size: 12.5px; }
+  .nbl-stk ~ .nbl-sheet .nbl-chips { margin-top: -8px; padding-right: 104px; }
+  .nbl-stk ~ .nbl-sheet .nbl-modebtn { flex-wrap: nowrap; }
+  @media (max-width: 399.98px) {
+  .nbl-stk { right: 10px; }
+  .nbl-stk ~ .nbl-sheet .nbl-modebtn { gap: 6px; }
+  .nbl-stk ~ .nbl-sheet .nbl-chips .nbc-chip { padding: 0px 8px; font-size: 12px; }
+  .nbl-stk ~ .nbl-sheet .nbl-modebtn .nbc-chip.is-kraft > svg { display: none; }
+}
+  .nbl-instr { gap: 6px; padding: 5px 11px; font-size: 12.5px; bottom: calc(100% + 8px); }
+  .nbl-instr > svg { width: 15px; height: 15px; }
+  .nbl-kt { height: 44px; padding: 0px 12px; font-size: 14px; }
+  .nbl-navc { width: 44px; height: 44px; }
+}
+.nbl-below { margin-top: var(--nbl-gap,22px); grid-template-columns: minmax(0px, 7fr) minmax(0px, 5fr); align-items: start; gap: 22px; display: grid; }
+@media (max-width: 1023.98px) {
+  .nbl-below { grid-template-columns: minmax(0px, 1fr); }
+}
+.nbl-toc { flex-direction: column; gap: 7px; margin: 0px; padding: 0px; list-style: none; display: flex; }
+.nbl-tr { text-align: left; width: 100%; min-height: 48px; color: var(--nb-ink); cursor: pointer; grid-template-columns: 30px minmax(0px, 1fr) auto; align-items: center; gap: 11px; padding: 0px 12px 0px 9px; font-family: inherit; font-size: 14px; display: grid; }
+.nbl-tr:disabled { cursor: default; }
+.nbl-tr .nbl-n { background: var(--nb-field); border: 1.5px solid color-mix(in srgb,var(--nb-ink) 20%,transparent); border-radius: 50%; place-items: center; width: 30px; height: 30px; font-size: 12.5px; font-weight: 800; display: grid; }
+.nbl-tr .nbl-trt { white-space: nowrap; text-overflow: ellipsis; min-width: 0px; font-weight: 700; overflow: hidden; }
+.nbl-tr .nbl-trs { white-space: nowrap; font-size: 12.5px; font-weight: 800; }
+.nbl-tr.is-done .nbl-n { background: var(--nb-x-ok-m); color: var(--nb-x-ok-t); border-color: rgba(0, 0, 0, 0); }
+.nbl-tr.is-done .nbl-trt { color: var(--nb-ink-2); }
+.nbl-tr.is-cur { background: var(--nb-a-bg,var(--nb-x-do)); border: 2px solid color-mix(in srgb,var(--nb-a-line,var(--nb-x-do-d)) 60%,transparent); box-shadow: 0 8px 14px -10px color-mix(in srgb,var(--nb-a-line,var(--nb-x-do-d)) 80%,transparent); cursor: default; }
+.nbl-tr.is-cur .nbl-n { background: var(--nb-field); border-color: color-mix(in srgb,var(--nb-a-line,var(--nb-x-do-d)) 70%,transparent); }
+.nbl-tr { transition: translate var(--nb-d-hover) var(--nb-e-hover),scale var(--nb-d-quick) var(--nb-e-hover); }
+@media (hover: hover) {
+  .nbl-tr:not(.is-cur):not(:disabled):hover { translate: 2px; }
+}
+.nbl-tr:not(.is-cur):not(:disabled):active { scale: var(--nb-press); }
+.nbl-tr:focus-visible { outline: 3px solid var(--nb-ink); outline-offset: 2px; }
+.nbl-ft { border-top: 1.5px dashed color-mix(in srgb,var(--nb-ink) 14%,transparent); justify-content: space-between; align-items: center; gap: 12px; margin-top: 14px; padding-top: 12px; display: flex; }
+.nbl-sumgrid { grid-template-columns: minmax(0px, 7fr) minmax(0px, 5fr); align-items: start; gap: 26px; width: 100%; display: grid; }
+.nbl-stage > .nbl-peek { z-index: 3; pointer-events: none; line-height: 0; position: absolute; bottom: 100%; right: 64px; }
+.nbl-sheet.is-sum, :root[data-nb-page] .nb-lesson .nbl-stage > .nbl-sheet.is-sum { align-items: stretch; gap: 34px; min-height: 0px; padding: 34px 34px 30px; }
+.nbl-rh { justify-content: space-between; align-items: flex-end; gap: 16px; min-width: 0px; display: flex; }
+.nbl-rh h2 { font-family: var(--nb-font-head); letter-spacing: -0.025em; margin: -0.12em 0px 0px; padding-top: 0.12em; font-size: 44px; font-weight: 800; line-height: 1; }
+.nbl-rh p { color: var(--nb-ink-2); white-space: nowrap; margin: 8px 0px 0px; font-size: 16px; font-weight: 700; }
+.nbl-rh .nbl-chips { flex-shrink: 0; align-self: auto; }
+.nbl-rmid { flex-wrap: wrap; align-items: center; gap: 26px; display: flex; }
+.nbl-rmid > .nbl-stats { flex: 0 0 auto; }
+.nbl-rmid > .nbl-band { flex: 1 1 240px; }
+.nbl-stats { gap: 4px; padding-left: 6px; display: flex; }
+.nbl-stats > span { text-align: center; width: 140px; height: 140px; box-shadow: 0 0 0 4px var(--nb-deco-edge),0 12px 18px -8px color-mix(in srgb,var(--nb-shd) 45%,transparent); border-radius: 50%; flex-direction: column; justify-content: center; align-items: center; line-height: 1; display: flex; }
+.nbl-stats b { font-family: var(--nb-font-head); letter-spacing: -0.02em; font-variant-numeric: tabular-nums; font-size: 37px; }
+.nbl-stats b, .nbl-stats i { font-weight: 800; display: block; }
+.nbl-stats i { letter-spacing: 0.05em; white-space: nowrap; margin-top: 5px; font-size: 10.5px; font-style: normal; }
+.nbl-stats > .is-s1 { background: color-mix(in srgb,var(--nb-a-line) 62%,var(--nb-a-bg)); color: var(--nb-ink); rotate: calc(-6deg*var(--nb-x-tilt-k)); }
+.nbl-stats > .is-s2 { background: var(--nb-a-under,var(--nb-a-bg)); color: var(--nb-ink); rotate: calc(4deg*var(--nb-x-tilt-k)); }
+.nbl-stats > .is-s3 { background: var(--nb-a-bg); color: var(--nb-a-ink2,var(--nb-ink)); rotate: calc(-3deg*var(--nb-x-tilt-k)); }
+.nbl-band { flex-direction: column; align-items: flex-start; gap: 4px; min-width: 0px; padding: 16px 18px; display: flex; }
+.nbl-band .nbl-bw { font-family: var(--nb-font-head); white-space: nowrap; font-size: 30px; font-weight: 800; line-height: 1.05; }
+.nbl-band .nbl-bn { color: var(--nb-a-ink2,var(--nb-ink-2)); font-size: 14px; font-weight: 700; line-height: 1.35; }
+.nbl-band .nbl-bt { border-top: 1.5px dashed color-mix(in srgb,var(--nb-a-line,var(--nb-ink)) 35%,transparent); white-space: nowrap; align-self: stretch; align-items: center; gap: 6px; margin-top: 10px; padding-top: 10px; font-size: 14px; font-weight: 800; display: inline-flex; }
+.nbl-band .nbl-bt svg { width: 16px; height: 16px; }
+.nbl-acts { border-top: 1.5px dashed color-mix(in srgb,var(--nb-ink) 14%,transparent); align-items: center; gap: 10px; padding-top: 16px; display: flex; }
+.nbl-acts > .nbl-sp { flex: 1 1 auto; }
+.nbl-side { flex-direction: column; gap: 26px; min-width: 0px; display: flex; }
+.nbl-side .nbc-bh h2 { font-size: 21px; }
+.nbl-miss { flex-direction: column; gap: 8px; margin: 0px; padding: 0px; list-style: none; display: flex; }
+.nbl-mr { grid-template-columns: 30px minmax(0px, 1fr) 40px; align-items: center; gap: 12px; padding: 9px 10px; display: grid; }
+.nbl-mr .nbl-n { background: var(--nb-field); border: 1.5px solid color-mix(in srgb,var(--nb-ink) 20%,transparent); border-radius: 50%; place-items: center; width: 30px; height: 30px; font-size: 12.5px; font-weight: 800; display: grid; }
+.nbl-mr p { margin: 0px; font-size: 14.5px; font-weight: 700; line-height: 1.35; }
+.nbl-mr small { color: var(--nb-ink-2); margin-top: 2px; font-size: 13px; font-weight: 700; display: block; }
+.nbl-prop { color: var(--nb-mut); white-space: nowrap; align-items: center; gap: 6px; font-size: 12px; font-weight: 800; display: inline-flex; }
+@media (max-width: 1023.98px) {
+  .nbl-sumgrid { grid-template-columns: minmax(0px, 1fr); }
+}
+@media (max-width: 639.98px) {
+  .nbl-sumgrid { gap: 20px; }
+  .nbl-stage > .nbl-peek { right: 34px; }
+  .nbl-sheet.is-sum, :root[data-nb-page] .nb-lesson .nbl-stage > .nbl-sheet.is-sum { gap: 20px; padding: 22px 16px 18px; }
+  .nbl-rh { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .nbl-rh h2 { font-size: 34px; }
+  .nbl-rh p { font-size: 14.5px; }
+  .nbl-rmid { flex-direction: column; align-items: stretch; gap: 18px; }
+  .nbl-rmid > .nbl-band { flex: 0 0 auto; }
+  .nbl-stats { justify-content: center; gap: 0px; padding-left: 0px; }
+  .nbl-stats > span + span { margin-left: -4px; }
+  .nbl-stats > span { aspect-ratio: 1 / 1; width: min(104px, 33.3333% + 2.66667px); height: auto; box-shadow: 0 0 0 3px var(--nb-deco-edge),0 10px 14px -8px color-mix(in srgb,var(--nb-shd) 45%,transparent); align-self: center; }
+  .nbl-stats b { font-size: 27px; }
+  .nbl-stats i { letter-spacing: 0.04em; margin-top: 4px; font-size: 8.5px; }
+  .nbl-band { flex-flow: wrap; align-items: baseline; gap: 2px 10px; padding: 12px 14px; }
+  .nbl-band .nbl-bw { font-size: 24px; }
+  .nbl-band .nbl-bt { flex-basis: 100%; margin-top: 8px; padding-top: 8px; }
+  .nbl-acts { grid-template-columns: minmax(0px, 1fr) minmax(0px, 1fr); gap: 8px; display: grid; }
+  .nbl-acts > .nbl-sp { display: none; }
+  .nbl-acts > .is-full { grid-column: 1 / -1; }
+  .nbl-side { gap: 20px; }
+  .nbl-side .nbc-bh h2 { font-size: 19px; }
+}
+:root:not([data-skin="sotay"]) .nbl-bar .nbl-ib, :root:not([data-skin="sotay"]) .nbl-bk, :root:not([data-skin="sotay"]) .nbl-kt, :root:not([data-skin="sotay"]) .nbl-navc { border-color: var(--nb-x-line); box-shadow: var(--nb-x-off-s); }
+@media (hover: hover) {
+  :root:not([data-skin="sotay"]) .nbl-bk:hover { box-shadow: var(--nb-x-off); translate: -1px -1px; }
+}
+:root:not([data-skin="sotay"]) .nbl-kt.is-act, :root:not([data-skin="sotay"]) .nbl-kt.is-fill { background: var(--nb-x-pri); border-color: var(--nb-x-pri-bd); box-shadow: var(--nb-x-pri-drop); }
+:root:not([data-skin="sotay"]) .nbl-mr .nbl-n, :root:not([data-skin="sotay"]) .nbl-pbar, :root:not([data-skin="sotay"]) .nbl-tr .nbl-n { border-color: var(--nb-x-line); }
+:root:not([data-skin="sotay"]) .nbl-under { display: none; }
+:root:not([data-skin="sotay"]) .nbl-sheet, :root:not([data-skin="sotay"])[data-nb-page] .nb-lesson .nbl-stage > .nbl-sheet.lwa { border-color: var(--nb-x-line); box-shadow: var(--nb-x-off); background-image: none; }
+:root:not([data-skin="sotay"]) .nbl-stats > span, :root:not([data-skin="sotay"]) .nbl-stk > span { box-shadow: inset 0 0 0 2px var(--nb-x-line),var(--nb-x-off-s); }
+:root:not([data-skin="sotay"]) .nbl-tr.is-cur { border-color: color-mix(in srgb,var(--nb-a-line,var(--nb-x-do-d)) var(--nb-x-line-k),transparent); box-shadow: 2px 2px 0 color-mix(in srgb,var(--nb-a-line,var(--nb-x-do-d)) var(--nb-x-off-k),transparent); }
+#main-content :has(> [data-nb-header]):not(.nbl-lx) { row-gap: 20px; }
+@media (max-width: 599px) {
+  .nbx-main { gap: 14px; }
+  #main-content :has(> [data-nb-header]):not(.nbl-lx) { row-gap: 14px; }
+  #main-content :has(> [data-nb-header]):not(.nbl-lx) :is(div, section):has(> :is(.nbc-lv1, .nbx-blk, .nbc-pile)) { row-gap: 14px; }
+  .nbx-blk { gap: 12px; padding: 16px 14px; }
+  .nbx-hd { max-height: none; padding: 14px; }
+  .nbx-hd h1 { font-size: 23px; }
+  .nbx-bh h2 { font-size: 18.5px; }
+  .nbx-hd .nbx-t1 > .nbx-tile { display: none; }
+  .nbx-hd .nbx-t1 { gap: 10px; }
+  .nbx-hd .nbx-lbl, .nbx-hd .nbx-vp { display: none; }
+  .nbx-home-hd .nbx-acts { width: 100%; }
+  .nbx-vp { font-size: 13.5px; }
+}
+:root[data-skin="sotay"] :is(.nbx-row, .nbx-gain, .nbx-b-sec, .nbx-inp, .nbx-me, .nbx-seg, .nbu-st, .nbc-seg, .nbx-empty, .nbx-kv2 span, .nbx-mast li, .den-ex, .dipn-row, .fpi-ex, .ph-stat, .ds-input, .tb-row, .tq-row, .tm-row, .fp-cell, .nb-rbody, .fp-label, .fp-tip, .nbl-bk, .dm-opt, .vmp-opt, .vmp-level, .nbx-d-sc, .nbx-d-mode, .nbx-d-type, [data-tc-row]):not(#nbx) { background-image: var(--nb-x-grain-row); }
+:root[data-skin="sotay"] :is(.nbx-chip, .nbx-tile, .nbx-num, .nbx-lvg, .nbr-tag, .nbc-pill, .nbc-opt, .nbc-inp, .nbc-tag, .nbc-chip, .nbc-lv3, .nb-pill, .nb-btn-soft, .hnst, .pace-seg, .xp-pill, .vsb-in, .nbc-stp.is-cur, .nbx-row.nbx-on, .htp-row, .rb-row, .pci-it, .nbc-linkbox, .fpi, .nbx-b-pri, .nbx-b-mine, .nbx-seg a.nbx-on, .nbx-ni.nbx-on, .nbx-vcard, .nbc-btn, .nb-btn, .nb-pop:not(.nb-dlg), [role="dialog"]:not(.nbx-d-dlg), .nbx-mast li.nbx-on, .frq-vote, .rb-tab.nbx-on, .hck-fb, .hck-cta, .nbc-danger, .pci-n, .nbc-stp.is-done, .nbx-stat4 > *, .hck, .fid-top, .fab-ink, [data-testid="video-filter-trigger"], .tb-need, .th-tab, .ts-tile, .nb-stk, .nb-chip, .fs-chip, .fs-flag, .slink, .nb-back, .tq-go, .tm-mini, .pg-goal, .pg-stk, .nb-seal, .ar-sk, .fp-stamp, .fp-choice, article.mk, .mb-tabs > a, .hs-tabs a, .fp-seg > button[aria-pressed="true"], section.sc, section.mc, .mb-op.is-on, .hs-chip.is-on, .tr-day-h, .nb-row, .mk-ans, .btn-ink, .hck-ok, .lt-pos, .qr-rate, .ovb-step, .qr-reveal, .bank-chip.is-on, .lt-head, .pc-pin, .gcpl-go, .sp-note, .gt-chip, .npc-fml, .npc-exs, .lwa.isle, .nbc-sk, .pos-ink, .vm-lg, .vst-bub, .pls-bub, .rbs-rec, .gr-spk, .gr-kick, .vmp-lesson, .rg-cell, .rn-go, .rk-link, .rk-ttb, .ro-note, .rs-note, .rk-q, .rf-row, .nbl-kt, .nbc-kbd, .nbx-d-n, [data-tc-row].nbx-on, .nbc-back, .nbx-d-tops > .router-link-exact-active, .rounded-card.border-bw.bg-surface, .search-box input, .nbc-hd-tt > a):not(#nbx) { background-image: var(--nb-x-grain-sm); }
+:root[data-skin="sotay"] :is(.nbl-pbar > i, .gcpd-bar > i, .gcpc-bar > i, .vtc:not(.is-done) .vtc-fill):not(#nbx) { background: repeating-linear-gradient(-58deg,color-mix(in srgb,var(--nb-x-fc) 88%,transparent) 0 1.6px,transparent 1.6px 4.2px),color-mix(in srgb,var(--nb-x-fc) 30%,transparent); box-shadow: inset -2px 0 0 color-mix(in srgb,var(--nb-x-fc) 90%,transparent); }
+:root:where([data-nb-page="lo-trinh:lam"]) .nbl-bk:not(#nbx) { background: var(--nb-x-row-h); color: var(--nb-x-ink); border-color: rgba(0, 0, 0, 0); }
+:root[data-skin="sotay"][data-nb-page="lo-trinh:lam"] .nbl-bk:not(#nbx) { box-shadow: 0 6px 12px -9px color-mix(in srgb,var(--nb-x-fd,var(--nb-x-ivory-d)) 90%,transparent); }
+:root:where(:not([data-skin="sotay"]))[data-nb-page="lo-trinh:lam"] .nbl-bk:not(#nbx) { border: 1.5px solid var(--nb-x-line); box-shadow: var(--nb-x-off-s); }
+@container style(--sl-on: 2) {
+  .bg-\[hsl\(var\(--feat\)\)\], .bg-\[hsl\(var\(--gold\)\)\], .bg-accent, .bg-accent-soft, .bg-ban-be, .bg-ban-be-soft, .bg-danger, .bg-danger-soft, .bg-gold, .bg-info, .bg-info-soft, .bg-primary, .bg-primary-soft, .bg-success, .bg-success-soft, .bg-surface, .bg-surface-2, .bg-surface-3, .bg-surface-eng, .bg-warning, .bg-warning-soft, .btn-ink, .btn-ink-cta, .card, .chip, .face-light, .field-ink, .gr-fml, .gr-kick, .gr-num, .gr-opt, .gr-q, .gr-spk, .ink-card, .ink-panel, .isle, .lh-tooltip, .nav-item-active, .pop-tail, .stage-paper, .toast-card { --border-strong: 42.4 35% 77.1%; }
+}
+.nbl-k[data-v-969b182c] .nbc-sk { border-radius: 7px; }
+.nbl-fs[data-v-969b182c] { order: 1; }
+.gs-rung:empty + .nbl-bt[data-v-cca5299c] { border-top: 0px; margin-top: 0px; padding-top: 0px; }
+.gr-outline[data-v-f948927d] { flex-direction: column; min-height: 0px; display: flex; }
+.gr-head[data-v-f948927d] { flex: 0 0 auto; }
+.gr-ol[data-v-f948927d] { will-change: scroll-position; overscroll-behavior: contain; flex-direction: column; gap: 6px; min-height: 0px; margin: -4px -8px -8px -4px; padding: 4px 8px 8px 4px; list-style: none; display: flex; overflow-y: auto; }
+.gr-li[data-v-f948927d] { min-width: 0px; position: relative; }
+.gr-clamp[data-v-f948927d] { -webkit-line-clamp: 2; -webkit-box-orient: vertical; display: -webkit-box; overflow: hidden; }
+.gr-clamp.is-open[data-v-f948927d] { -webkit-line-clamp: 4; }
+.npc-oexp.is-l1[data-v-f948927d] { margin-left: 50px; }
+.gr-lx[data-v-898db0d9] { --gr-free: calc(100dvh - 156px); min-height: 100%; }
+.gr-grid[data-v-898db0d9] { flex-direction: column; flex: 1 1 auto; gap: 14px; width: 100%; min-width: 0px; display: flex; }
+.gr-aside[data-v-898db0d9] { display: none; }
+.gr-main[data-v-898db0d9] { gap: 14px; width: 100%; min-width: 0px; }
+.gr-main[data-v-898db0d9], .gr-stage[data-v-898db0d9] { flex-direction: column; flex: 1 1 auto; display: flex; }
+.gr-stage[data-v-898db0d9] { --nb-ur: .8deg; --nb-ux: 7px; --nb-uy: 8px; margin-right: 8px; }
+.gr-card[data-v-898db0d9] { flex-direction: column; flex: 1 1 auto; min-width: 0px; display: flex; }
+.gr-peek[data-v-898db0d9] { z-index: 0; pointer-events: none; position: absolute; top: -38px; right: 64px; }
+.gr-peek ~ .gr-card[data-v-898db0d9] { z-index: 1; }
+@media (max-width: 1023.98px) {
+  .gr-peek[data-v-898db0d9] { display: none; }
+}
+.gr-peek-note[data-v-898db0d9] { margin: 0px; padding-top: 18px; }
+.gr-peek-note .nbc-chip[data-v-898db0d9] { gap: 6px; height: 30px; padding: 0px 12px; font-size: 12.5px; }
+.gr-card[data-v-898db0d9] > .step-swap > [data-step-swap] { flex-direction: column; flex: 1 1 auto; min-width: 0px; display: flex; }
+.gr-card[data-v-898db0d9] > .step-swap > .step-leave-active { bottom: 0px; }
+.gr-pills[data-v-898db0d9] { will-change: scroll-position; scrollbar-width: none; gap: 8px; margin: -6px -12px -6px -6px; padding: 6px 12px 6px 6px; display: flex; overflow-x: auto; }
+@media (min-width: 640px) {
+  .gr-pills[data-v-898db0d9] { margin-right: -8px; padding-right: 8px; }
+}
+.gr-pills[data-v-898db0d9]::-webkit-scrollbar { display: none; }
+.gr-pill[data-v-898db0d9] { white-space: nowrap; flex: 0 0 auto; gap: 6px; height: 40px; padding: 0px 14px; font-size: 13.5px; }
+.gr-pill.is-todo[data-v-898db0d9] { color: var(--nb-mut); }
+button.gr-pill[data-v-898db0d9] { cursor: pointer; }
+@media (min-width: 1024px) {
+  .gr-grid[data-v-898db0d9] { grid-template-columns: 300px minmax(0px, 1fr); align-items: start; gap: 22px; display: grid; }
+  .gr-aside[data-v-898db0d9] { will-change: scroll-position; overscroll-behavior: contain; flex-direction: column; max-height: calc(100dvh - 32px); display: flex; position: sticky; top: 16px; overflow-y: auto; }
+  .gr-stage[data-v-898db0d9] { flex: 0 0 auto; }
+  .gr-pills[data-v-898db0d9] { display: none; }
+  .gr-card[data-v-898db0d9] { min-height: var(--gr-free); flex: 0 0 auto; }
+}
+@media (min-width: 1920px) {
+  .gr-grid[data-v-898db0d9] { grid-template-columns: 340px minmax(0px, 1fr); }
+}
+@media (min-width: 2400px) {
+  .gr-grid[data-v-898db0d9] { grid-template-columns: 380px minmax(0px, 1fr); gap: 28px; }
+}
+@media (max-width: 639.98px) {
+  .gr-lx[data-v-898db0d9] { --gr-free: auto; }
+  .gr-stage[data-v-898db0d9] { margin-right: 6px; }
+}
+.gr-doc-scroll[data-v-898db0d9] { will-change: scroll-position; overscroll-behavior: contain; max-height: calc(92dvh - 9rem); overflow-y: auto; }
+@media (min-width: 1024px) {
+  .gr-doc-scroll[data-v-898db0d9] { max-height: calc(100dvh - 11rem); }
+}
+.np-lesson { --font-ui: var(--nb-font-body); --font-display: var(--nb-font-head); font-family: var(--nb-font-body); }
+.npc-lvt { background: var(--nb-x-row-h); height: 19px; color: var(--nb-x-ink); border-radius: 5px; flex: 0 0 auto; place-items: center; padding: 0px 6px; font-size: 11px; font-weight: 800; line-height: 1; display: inline-grid; }
+.npc-ol { padding: 16px 14px 14px; }
+.npc-oh { color: var(--nb-ink); justify-content: space-between; align-items: baseline; margin: 0px; padding: 0px 4px; font-size: 14px; font-weight: 800; display: flex; }
+.npc-oh b { font-family: var(--nb-font-head); font-variant-numeric: tabular-nums; font-size: 16px; }
+.npc-ol .nbc-bar { height: 10px; margin: 8px 4px 12px; }
+.npc-ol .nbc-bar > i { transition: width var(--nb-d-state) var(--nb-e-drop); }
+.npc-orows { flex-direction: column; gap: 6px; margin: 0px; padding: 0px; list-style: none; display: flex; }
+.npc-orow { text-align: left; width: 100%; min-height: 48px; font: inherit; color: var(--nb-ink); grid-template-columns: 22px minmax(0px, 1fr); align-items: start; gap: 10px; padding: 8px 10px; display: grid; }
+.npc-orow small { color: var(--nb-mut); white-space: nowrap; text-overflow: ellipsis; font-size: 11.5px; font-weight: 800; line-height: 1.35; display: block; overflow: clip visible; }
+.npc-orow b { font-size: 13.5px; font-weight: 700; line-height: 1.3; display: block; }
+.npc-orow.is-todo b { color: var(--nb-mut); }
+.npc-orow.is-l1 { width: calc(100% - 18px); margin-left: 18px; }
+.npc-orow.is-cur { background: var(--nb-field); border-color: color-mix(in srgb,var(--nb-x-fc) 60%,transparent); box-shadow: 0 8px 14px -10px color-mix(in srgb,var(--nb-x-fd) 85%,transparent); }
+.npc-orow.is-cur small { color: var(--nb-a-ink2,var(--nb-ink-2)); }
+button.npc-orow { cursor: pointer; transition: border-color var(--nb-d-hover) var(--nb-e-hover),translate var(--nb-d-hover) var(--nb-e-hover); }
+@media (hover: hover) {
+  button.npc-orow:not(.is-cur):hover { translate: 0px -2px; }
+}
+button.npc-orow:active { scale: var(--nb-press); }
+button.npc-orow:focus-visible { outline: 3px solid var(--nb-ink); outline-offset: 2px; }
+.npc-mk { border: 2px solid color-mix(in srgb,var(--nb-ink) 25%,transparent); background: var(--nb-field); width: 22px; height: 22px; color: var(--nb-on-deep); border-radius: 50%; place-items: center; margin-top: 2px; display: grid; }
+.npc-mk.is-done { background: var(--nb-x-fc); border-color: var(--nb-x-fc); color: var(--nb-x-on-d); }
+.npc-mk.is-cur { border-color: var(--nb-x-fc); background: var(--nb-x-fb); }
+.npc-mk svg { width: 12px; height: 12px; }
+.npc-oexp { gap: 8px; margin: 6px 0px 2px 32px; display: grid; }
+.npc-oexp > p { color: var(--nb-ink); margin: 0px; font-size: 12.5px; font-weight: 800; }
+.npc-fml { background: var(--nb-field); border: 1.5px dashed color-mix(in srgb,var(--nb-a-line,var(--nb-ink)) 70%,transparent); border-radius: 12px; margin: 0px; padding: 0px; list-style: none; overflow: hidden; }
+.npc-fml > * { overflow-wrap: anywhere; margin: 0px; padding: 6px 11px; font-size: 14px; font-weight: 700; line-height: 1.4; display: block; }
+.npc-fml > * + * { border-top: 1px dashed color-mix(in srgb,var(--nb-ink) 14%,transparent); }
+.npc-exs { background: var(--nb-field); border: 1px solid color-mix(in srgb,var(--nb-ink) 10%,transparent); border-radius: 12px; flex-direction: column; margin: 0px; padding: 2px 10px; list-style: none; display: flex; }
+.npc-exs > li { padding: 7px 0px; }
+.npc-exs > li + li { border-top: 1px dashed color-mix(in srgb,var(--nb-ink) 16%,transparent); }
+.npc-card { flex-direction: column; min-width: 0px; display: flex; }
+.npc-kick { background: var(--nb-a-bg); height: 26px; color: var(--nb-a-ink2,var(--nb-ink-2)); white-space: nowrap; border-radius: 8px; align-items: center; padding: 0px 10px; font-size: 12.5px; font-weight: 800; display: inline-flex; }
+.npc-rl { flex-direction: column; gap: 8px; margin: 18px 0px 0px; padding: 0px; list-style: none; display: flex; }
+.npc-rl > li { grid-template-columns: 34px minmax(0px, 1fr); align-items: center; gap: 12px; min-height: 56px; padding: 12px 14px; display: grid; }
+.npc-rl > li > b { font-size: 16px; font-weight: 800; line-height: 1.3; }
+.npc-n { background: var(--nb-a-bg); width: 34px; height: 34px; font-family: var(--nb-font-head); color: var(--nb-ink); border-radius: 10px; font-size: 15px; font-weight: 800; }
+.npc-done, .npc-n { place-items: center; display: grid; }
+.npc-done { background: var(--nb-ok); width: 44px; height: 44px; color: var(--nb-on-deep); border-radius: 13px; flex: 0 0 auto; }
+.npc-done svg { width: 22px; height: 22px; }
+:root[data-nb-page] .np-lesson .gr-q { border-radius: var(--nb-cv-r3); background: var(--nb-a-row,var(--nb-a-card)); border: 1px solid color-mix(in srgb,var(--nb-a-line,var(--nb-ink)) 18%,transparent); padding: 14px 18px; }
+:root[data-nb-page] .np-lesson .gr-q [data-testid="en-vi-en"] { font-family: var(--nb-font-head); letter-spacing: -0.01em; font-size: 24px; font-weight: 700; line-height: 1.3; }
+:root[data-nb-page] .np-lesson .gr-q [data-testid="en-vi-vi"] { color: var(--nb-mut); margin-top: 3px; font-size: 14px; font-weight: 700; }
+@media (max-width: 639.98px) {
+  :root[data-nb-page] .np-lesson .gr-q [data-testid="en-vi-en"] { font-size: 20px; }
+  :root[data-nb-page] .np-lesson .gr-q [data-testid="en-vi-vi"] { font-size: 13px; }
+}
+.npc-exs [data-testid="en-vi-en"] { font-size: 13px; font-weight: 800; line-height: 1.35; }
+.npc-exs [data-testid="en-vi-vi"] { color: var(--nb-mut); font-size: 12.5px; font-weight: 600; }
+:root[data-nb-page] .np-lesson .gr-fml { background: var(--nb-field); border: 1.5px dashed color-mix(in srgb,var(--nb-a-line,var(--nb-ink)) 70%,transparent); border-radius: 12px; }
+:root[data-nb-page] .np-lesson .gr-fml > * { border-bottom-color: color-mix(in srgb,var(--nb-ink) 14%,transparent); }
+:root[data-nb-page] .np-lesson .gr-kick { background: var(--nb-a-bg); min-height: 26px; color: var(--nb-a-ink2,var(--nb-ink-2)); letter-spacing: 0px; text-transform: none; border: 0px; border-radius: 8px; padding: 0px 10px; font-size: 12.5px; }
+:root[data-nb-page] .np-lesson .gr-spk { background: var(--nb-a-bg); color: var(--nb-ink); border: 1.5px solid color-mix(in srgb,var(--nb-a-line,var(--nb-ink)) 45%,transparent); }
+:root[data-nb-page] .np-lesson .gr-opt { background: var(--nb-field); border: 1.5px solid color-mix(in srgb,var(--nb-ink) 16%,transparent); border-radius: var(--nb-cv-r3); box-shadow: 0 2px 0 color-mix(in srgb,var(--nb-shd) 8%,transparent); }
+:root[data-nb-page] .np-lesson .gr-opt.is-ok { background: var(--nb-ok-p); border-color: var(--nb-ok); box-shadow: 0 2px 0 color-mix(in srgb,var(--nb-ok) 40%,transparent); }
+:root[data-nb-page] .np-lesson .gr-opt.is-no { background: var(--nb-bad-p); border-color: var(--nb-bad); box-shadow: 0 2px 0 color-mix(in srgb,var(--nb-bad) 40%,transparent); }
+:root[data-nb-page] .np-lesson .gr-num { background: var(--nb-a-bg); border: 1.5px solid color-mix(in srgb,var(--nb-ink) 18%,transparent); }
+:root[data-nb-page] .np-lesson mark[data-diff="add"] { background: var(--nb-a-bg); color: var(--nb-a-ink2,var(--nb-ink)); }
+:root[data-nb-page] .np-lesson [data-testid="worked-result"] { background: color-mix(in srgb,var(--nb-a-bg) 55%,var(--nb-field)); border-color: color-mix(in srgb,var(--nb-a-line) 55%,transparent); }
+:root[data-nb-page] .np-lesson [data-testid="worked-result"] mark[data-diff="add"] { background: var(--nb-a-under,var(--nb-a-bg)); }
+:root[data-nb-page] .np-lesson .gr-actions { background-color: var(--nb-paper-nga-card); background-image: var(--nb-deco-cv-grain); border-top: 0px; }
+.np-lesson .dict-word:focus-visible { z-index: 1; position: relative; }
+.np-lesson [data-testid="en-vi-en"] { line-height: 1.35; }
+@media (max-width: 639.98px) {
+  .np-lesson [data-testid="en-vi-en"] { line-height: 1.6; }
+}
+@media (min-width: 1024px) {
+  :root[data-nb-page] .np-lesson .nbl-t { font-size: 22px; }
+}
+.np-lesson .nbl-bar .nbl-k { min-height: 19px; }
+@media (min-width: 1024px) {
+  :root[data-nb-page] .np-lesson .gr-actions { border-radius: 0 0 var(--nb-cv-r1) var(--nb-cv-r1); padding: 18px 30px 22px; }
+  :root[data-nb-page] .np-lesson .gr-pad { padding: 26px 30px 8px; }
+  :root[data-nb-page] .np-lesson .gr-padx { padding-left: 30px; padding-right: 30px; }
+}
+@media (min-width: 1024px) {
+  .np-sum-body { flex: 1 1 auto; justify-content: safe center; gap: clamp(28px, 4.2vh, 56px); padding-bottom: 26px; }
+  .np-sum .nbl-rh h2 { font-size: clamp(44px, 5.6vh, 64px); }
+  .np-sum .np-sum-stats > span { width: clamp(140px, 20vh, 224px); height: clamp(140px, 20vh, 224px); }
+  .np-sum-stats > span > b { font-size: clamp(37px, 5.2vh, 58px); }
+  .np-sum-stats > span > i { font-size: clamp(10.5px, 1.3vh, 14px); }
+}
+:root:not([data-skin="sotay"]) .npc-orow.is-cur { border-color: var(--nb-x-line); box-shadow: var(--nb-x-off-s); }
+:root:not([data-skin="sotay"]) .npc-exs, :root:not([data-skin="sotay"]) .npc-fml, :root:not([data-skin="sotay"]) .npc-mk { border-color: var(--nb-neo-line-c); }
+:root:not([data-skin="sotay"]) .npc-done, :root:not([data-skin="sotay"]) .npc-n { box-shadow: inset 0 0 0 1.5px var(--nb-neo-line-c); }
+:root:not([data-skin="sotay"])[data-nb-page] .np-lesson .gr-fml, :root:not([data-skin="sotay"])[data-nb-page] .np-lesson .gr-q, :root:not([data-skin="sotay"])[data-nb-page] .np-lesson .gr-spk { border-color: var(--nb-neo-line-c); }
+:root:not([data-skin="sotay"])[data-nb-page] .np-lesson .gr-opt { border-color: var(--nb-neo-line-c); box-shadow: var(--nb-neo-sh3); }
+:root:not([data-skin="sotay"])[data-nb-page] .np-lesson .gr-opt.is-ok { border-color: var(--nb-ok); }
+:root:not([data-skin="sotay"])[data-nb-page] .np-lesson .gr-opt.is-no { border-color: var(--nb-bad); }
+:root:not([data-skin="sotay"])[data-nb-page] .np-lesson .gr-num { border-color: var(--nb-neo-line-c); }
+:root:not([data-skin="sotay"])[data-nb-page] .np-lesson .gr-actions { background-color: var(--nb-neo-face,var(--nb-paper-nga-card)); }
+.np-route[data-v-c3d140c5] { --lesson-bar-h: 0px; flex-direction: column; min-height: 100%; display: flex; }
+.np-route[data-v-c3d140c5] > .nbl-lx { flex: 1 1 auto; }

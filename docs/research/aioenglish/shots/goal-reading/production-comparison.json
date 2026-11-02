@@ -1,0 +1,82 @@
+[
+  {
+    "name": "hub",
+    "width": 1440,
+    "maxBoxDelta": 0
+  },
+  {
+    "name": "ai",
+    "width": 1440,
+    "maxBoxDelta": 0
+  },
+  {
+    "name": "paste",
+    "width": 1440,
+    "maxBoxDelta": 0.0
+  },
+  {
+    "name": "press",
+    "width": 1440,
+    "maxBoxDelta": 0
+  },
+  {
+    "name": "hub",
+    "width": 768,
+    "maxBoxDelta": 0
+  },
+  {
+    "name": "ai",
+    "width": 768,
+    "maxBoxDelta": 0
+  },
+  {
+    "name": "paste",
+    "width": 768,
+    "maxBoxDelta": 0.0
+  },
+  {
+    "name": "press",
+    "width": 768,
+    "maxBoxDelta": 0
+  },
+  {
+    "name": "hub",
+    "width": 390,
+    "maxBoxDelta": 0.0
+  },
+  {
+    "name": "ai",
+    "width": 390,
+    "maxBoxDelta": 0
+  },
+  {
+    "name": "paste",
+    "width": 390,
+    "maxBoxDelta": 0.0
+  },
+  {
+    "name": "press",
+    "width": 390,
+    "maxBoxDelta": 0
+  },
+  {
+    "name": "hub",
+    "width": 360,
+    "maxBoxDelta": 0.0
+  },
+  {
+    "name": "ai",
+    "width": 360,
+    "maxBoxDelta": 0
+  },
+  {
+    "name": "paste",
+    "width": 360,
+    "maxBoxDelta": 0.0
+  },
+  {
+    "name": "press",
+    "width": 360,
+    "maxBoxDelta": 0
+  }
+]

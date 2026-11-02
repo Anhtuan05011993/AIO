@@ -1,0 +1,93 @@
+### 1. Node Association Issues
+
+* **Topic-level sections silently collapse to `nodes[0]` in integration:**
+  * In the generator, `owner(section)` only returns a node if `section.node` exists or if `section.id` matches `^sec-(?:use|mistakes)-(ps|3p|c1)$`. Topic-level sections (`sec-examples`, `sec-signals`, `sec-recap`) have no node owner, so `sectionNodes[section.id]` is never populated.
+  * In the integration excerpt:
+    ```tsx
+    const nodeId = (localBlocks.sectionNodes as Record<string, Record<string, string>>)[slug]?.[section.id]
+      ?? section.id.replace(/^sec-/, "");
+    const node = nodes.find(node => node.id === nodeId) ?? nodes[0];
+    ```
+    For `sec-examples`, `nodeId` falls back to `"examples"`. Because `"examples"` is not in `nodes`, `nodes.find()` returns `undefined` and defaults to `nodes[0]`. Consequently, `sec-examples`, `sec-signals`, and `sec-recap` mistakenly take `summaries[nodes[0].id]?.intro` instead of general topic data.
+* **Rule sections depend entirely on undeclared `section.node` in spec:**
+  * `owner(section)` only regex-matches `use` and `mistakes`. If `document-body-spec.json` does not explicitly set `section.node` on `sec-rule-*` sections, `owner` returns `undefined`. This prevents `sectionNodes` from being set and leaves `data === undefined` in `ruleData`.
+* **Rigid positional prefix mapping:**
+  * `prefixes = { ps: topic.nodeIds[0], '3p': topic.nodeIds[1], c1: topic.nodeIds[2] }` assumes `topic.nodeIds` always contains at least three nodes in that exact positional sequence. If topic node order shifts, `use` and `mistakes` sections associate with the wrong lessons.
+
+---
+
+### 2. Missing Blocks & Block Resolution Gaps
+
+* **Integration drops blocks for preview sections entirely:**
+  * The generator skips sections present in `samples[slug].preview`:
+    ```javascript
+    if (exact[slug]?.[section.id] || samples[slug].preview.some(p => p.id === section.id)) continue;
+    ```
+  * In the integration excerpt:
+    ```tsx
+    const preview = sample?.preview.find((x) => x.id === section.id);
+    const blocks = (blockSamples as ...)[slug]?.[section.id]
+      ?? (localBlocks.topics as ...)[slug]?.[section.id];
+    ```
+    `preview` is retrieved but **never used** to resolve `blocks`. For any preview section skipped by the generator, both `blockSamples` and `localBlocks.topics` are `undefined`, leaving `blocks === undefined` at runtime.
+* **Brittle hardcoded count assertion:**
+  * `if (Object.keys(sections).length !== 14) throw Error(...)` crashes if the spec changes, sections are added/removed, or sample coverage shifts.
+* **Unsupported block types throw immediately:**
+  * The generator strictly maps `gdr-p`, `gdr-fml`, `gdr-exs`, `gdr-call`, `gdr-chips`, `gdr-tbl`, and `gdr-dot`. If the spec contains standard presentation blocks like headings (`gdr-h2`, `gdr-h3`), dividers, or media, the generator throws `Unsupported observed block`.
+
+---
+
+### 3. Data-Shape & Runtime Risks
+
+* **Unhandled `TypeError` when non-rule sections contain `gdr-exs`:**
+  * `data` is only computed for rule sections:
+    ```javascript
+    const data = node && section.id.startsWith('sec-rule-') ? ruleData(section, node) : undefined;
+    ```
+  * Inside `gdr-exs`:
+    ```javascript
+    if (section.id === 'sec-examples') { ... }
+    else {
+      const selected = data.items.filter(...) // Throws TypeError if data is undefined!
+    ```
+    If `sec-use-ps` or any other non-rule section specifies an examples block, `data` is `undefined` and evaluating `data.items` crashes the process.
+* **Strict length assertions crash on surplus data:**
+  * In `sec-examples`:
+    ```javascript
+    items = topic.nodeIds.flatMap(id => real[id].start.examples.map(...));
+    if (items.length !== block.items) throw Error(`Not enough existing examples: ${section.id}`);
+    ```
+    All examples across all topic nodes are collected without `.slice(0, block.items)`. If the combined pool contains 6 examples but `block.items` is 4, it throws `Not enough existing examples` despite having more than enough items.
+  * In `sec-recap`:
+    `lines = topic.nodeIds.map(id => demo[id].intro[0]);` always has length equal to `topic.nodeIds.length` (3). If `block.items !== 3`, it crashes.
+* **Unsafe catalog and exercises property access:**
+  * `gdr-chips`: `catalog.nodes.find(n => n.id === node)` is dereferenced directly (`entry.title`). If `node` is undefined or not found in `catalog.nodes`, it throws `TypeError: Cannot read properties of undefined (reading 'title')`.
+  * `gdr-tbl`: `real[node].exercises.fix` assumes `exercises.fix` is always defined. If a node lacks a `fix` array, calling `.slice(0, block.rows)` throws.
+* **TOC `scrollTo` target reference risk:**
+  * In the JSX click handler:
+    ```tsx
+    scroller.scrollTo({top: scroller.scrollTop + target.getBoundingClientRect().top - scroller.getBoundingClientRect().top - (toc.current?.offsetHeight ?? 52) - 8, behavior: "auto"});
+    ```
+    If `target` refers to the click event target/anchor element rather than the section element, it calculates the offset of the TOC link itself. If `target` is resolved elsewhere and is `null`, `.getBoundingClientRect()` throws.
+
+---
+
+### 4. Concrete Fidelity Mistakes
+
+* **Repeated identical text in multi-paragraph sections:**
+  * In `gdr-p`, `paragraph++` only advances indices into `data?.paragraphs`. For non-rule sections (or rule sections where `data.paragraphs` has fewer entries than `block` requests), every paragraph falls back to `demo[node]?.intro[0] ?? real[node]?.start.body`. Sections with multiple paragraph blocks will render identical repeated sentences.
+* **Loss of focus tokens for `choice` exercises:**
+  * `example(item)` extracts focus via:
+    ```javascript
+    focus: unique((item.gaps ?? []).map(g => g.word))
+    ```
+    `choice` exercises do not define `item.gaps`. Any example selected from `choice` yields `focus: []`, losing all keyword/blank highlighting in the UI.
+* **Callout text duplication & topic intro leak:**
+  * `gdr-call` always accesses `data?.hints[0]`. Multiple callout blocks in the same section will render identical text.
+  * If `hints` is empty, it falls back to `demo[node]?.intro.at(-1)`. For single-sentence intros, the callout duplicates the exact sentence already rendered in the section's paragraph block.
+* **Inconsistent bullet list language and format (`gdr-dot`):**
+  * `sec-signals` yields English sentences (`item.target`).
+  * `sec-recap` yields full Vietnamese topic introduction paragraphs (`demo[id].intro[0]`).
+  This causes jarring structural and language mismatch across lists using the same `gdr-dot` presentation component.
+* **Provenance tracking omission:**
+  * In `sec-examples`, examples are mapped directly from `real[id].start.examples`, but their IDs are never pushed to `used`. `provenance['sec-examples'].existingExerciseIds` is emitted as an empty array `[]`.

@@ -1,0 +1,918 @@
+/* Source-derived dashboard structure, isolated from the other app routes. */
+.lp-app [data-dashboard] {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.lp-app [data-dashboard] .ui-dashboard-pair,
+.lp-app [data-dashboard] .ui-home-bottom {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 20px;
+  align-items: stretch;
+}
+.lp-app [data-dashboard] :is(.htp, .hp, .rb, .ft) {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 20px 22px;
+  border: 0;
+  border-radius: 24px;
+  margin: 0;
+  position: relative;
+}
+.lp-app [data-dashboard] .htp {
+  background-color: #f3e9d3;
+}
+.lp-app [data-dashboard] .hp {
+  background-color: #ece5fb;
+}
+.lp-app [data-dashboard] .rb {
+  background-color: #fde0d6;
+}
+.lp-app [data-dashboard] .ft {
+  background-color: #fbe2eb;
+}
+.lp-app [data-dashboard] .nbx-bh {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  min-height: 38px;
+}
+.lp-app [data-dashboard] :is(.nbx-bh h2, .ft-h2) {
+  font-size: 21px;
+  line-height: 1.15;
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: -0.42px;
+}
+.lp-app [data-dashboard] .nbx-act {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+.lp-app [data-dashboard] .nbx-bh-art {
+  width: 50px;
+  height: 38px;
+  padding: 2px 3px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.lp-app [data-dashboard] .nbx-bh-art svg {
+  width: 44px;
+  height: 34px;
+  display: block;
+}
+.lp-app [data-dashboard] .htp-head {
+  min-height: 58px;
+}
+.lp-app [data-dashboard] .htp-stamp {
+  width: 58px;
+  height: 58px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  font-size: 19px;
+  line-height: 1;
+}
+.lp-app [data-dashboard] .htp-stamp small {
+  font-size: 11px;
+}
+.lp-app [data-dashboard] .htp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.lp-app [data-dashboard] .htp-row {
+  gap: 12px;
+  min-height: 56.5px;
+  padding: 9px 12px;
+  border: 0;
+  border-radius: 13px;
+  background: color-mix(in srgb, #fbf7ec 72%, transparent);
+}
+.lp-app [data-dashboard] .htp-row.nbx-on {
+  background: #e2cd9f;
+  box-shadow: inset 0 0 0 1.5px #9c7c3e73;
+}
+.lp-app [data-dashboard] .htp-row .nbx-tile {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  flex: none;
+  background: #fbf7eceb;
+  border-radius: 9px;
+}
+.lp-app [data-dashboard] .htp-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  flex: 1;
+  min-width: 0;
+}
+.lp-app [data-dashboard] .htp-txt small {
+  font-size: 12.5px;
+  line-height: 17.5px;
+  font-weight: 700;
+  color: #69665e;
+}
+.lp-app [data-dashboard] .htp-go {
+  z-index: 1;
+  position: relative;
+}
+.lp-app [data-dashboard] .htp-go:after {
+  display: none;
+}
+.lp-app [data-dashboard] .htp-go b {
+  font-size: 14.5px;
+  line-height: 20.3px;
+  font-weight: 800;
+  display: block;
+}
+.lp-app [data-dashboard] .htp-st {
+  font-size: 12px;
+  white-space: nowrap;
+}
+.lp-app [data-dashboard] .htp-more {
+  width: 28px;
+  height: 32px;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: 0;
+  border-radius: 9px;
+  display: grid;
+  place-items: center;
+}
+.lp-app [data-dashboard] .htp-day {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 44px;
+  padding-top: 4px;
+  margin-top: auto;
+  font-size: 13px;
+}
+.lp-app [data-dashboard] .htp-day .nbx-bar {
+  height: 10px;
+  min-width: 24px;
+}
+.lp-app [data-dashboard] .htp-day .nbx-nw {
+  white-space: nowrap;
+  font-weight: 800;
+}
+.lp-app [data-dashboard] .htp-pace {
+  font-size: 12px;
+  font-weight: 800;
+  white-space: nowrap;
+  min-height: 36px;
+}
+.lp-app [data-dashboard] .hp .nbx-pct {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 2px 0 0;
+}
+.lp-app [data-dashboard] .hp .nbx-pct > .nbx-num {
+  font-size: 40px;
+  line-height: 0.9;
+  font-weight: 850;
+}
+.lp-app [data-dashboard] .hp .nbx-pct > .nbx-b {
+  font-size: 12px;
+  font-weight: 800;
+}
+.lp-app [data-dashboard] .hp .nbx-kv2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+}
+.lp-app [data-dashboard] .hp .nbx-kv2 > span:last-child {
+  display: none;
+}
+.lp-app [data-dashboard] .hp .nbx-kv2 > span {
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: #fbf7ec80;
+}
+.lp-app [data-dashboard] .hp .nbx-kv2 small {
+  font-size: 11px;
+}
+.lp-app [data-dashboard] .hp .nbx-kv2 b {
+  font-size: 18px;
+  line-height: 1.2;
+  display: block;
+}
+.lp-app [data-dashboard] .hp .nbx-lvbar {
+  height: 30px;
+  margin: 0;
+  position: relative;
+}
+.lp-app [data-dashboard] .hp .nbx-bar {
+  height: 10px;
+}
+.lp-app [data-dashboard] .hp .nbx-lvbar .nbx-mark {
+  display: none;
+}
+.lp-app [data-dashboard] .hp-tgt {
+  background: #fbf7ec80;
+  min-height: 58px;
+  border-radius: 12px;
+  padding: 9px 10px;
+  gap: 8px;
+}
+.lp-app [data-dashboard] .hp-tgt .nbx-tt {
+  flex: 1;
+  text-align: left;
+}
+.lp-app [data-dashboard] .hp-tgt b {
+  font-size: 13px;
+}
+.lp-app [data-dashboard] .hp-tgt small {
+  font-size: 11.5px;
+}
+.lp-app [data-dashboard] .hp-test {
+  min-height: 44px;
+  font-size: 12.5px;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 8px 0;
+  gap: 6px;
+}
+.lp-app [data-dashboard] .hp-test .nbx-mut {
+  font-size: 10.5px;
+}
+.lp-app [data-dashboard] .hp-wk {
+  display: grid;
+  gap: 8px;
+  margin-top: auto;
+}
+.lp-app [data-dashboard] .nbx-wk-h {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 11px;
+  white-space: nowrap;
+}
+.lp-app [data-dashboard] .nbx-wk-b {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+  height: 62px;
+}
+.lp-app [data-dashboard] .nbx-wk-b > span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+  font-size: 10px;
+}
+.lp-app [data-dashboard] .nbx-wk-b i {
+  height: 38px;
+  width: 100%;
+  border-radius: 5px;
+  background: #bca6d629;
+}
+.lp-app [data-dashboard] .nbx-wk-b .nbx-on i {
+  background: #bca6d657;
+}
+.lp-app [data-dashboard] .nbx-home-hd.nbc-hd.is-home {
+  height: auto;
+  min-height: 113px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10.5px 16px 10.5px 18px;
+  position: relative;
+}
+.lp-app [data-dashboard] .nbx-home-hd.nbc-hd.is-home .nbc-hd-lead {
+  display: flex !important;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 8px;
+  position: static;
+  padding: 0;
+  min-height: 44px;
+}
+.lp-app [data-dashboard] .nbx-home-hd.nbc-hd.is-home .nbc-hd-row.is-top {
+  display: flex !important;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: center;
+  position: static;
+  min-height: 40px;
+}
+.lp-app [data-dashboard] .nbx-home-hd.nbc-hd.is-home .nbc-hd-head {
+  display: block !important;
+  min-width: 0;
+  position: static;
+  padding: 0;
+}
+.lp-app [data-dashboard] .nbx-home-hd.nbc-hd.is-home h1 {
+  font-size: 28px;
+  line-height: 1.05;
+  padding: 0.2em 0 0.16em;
+  letter-spacing: -0.9px;
+  white-space: nowrap;
+}
+.lp-app [data-dashboard] .nbx-home-hd.nbc-hd.is-home .nbc-hd-cta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0;
+  position: relative;
+  transform: none;
+  min-width: 0;
+}
+.lp-app [data-dashboard] .nbx-nextl {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-width: 310px;
+  text-align: right;
+  font-size: 12px;
+  line-height: 1.3;
+}
+.lp-app [data-dashboard] .nbx-nextl b {
+  font-weight: 800;
+}
+.lp-app [data-dashboard] .nbx-nextl small {
+  font-size: 11px;
+}
+.lp-app [data-dashboard] .ui-home-mascot {
+  top: -45px;
+  right: 18px;
+}
+.lp-app [data-dashboard] .nbc-hd-cta .nbc-btn {
+  min-height: 40px;
+  height: 40px;
+  font-size: 14px;
+  padding: 0 16px;
+  white-space: nowrap;
+}
+.lp-app [data-dashboard] .hck {
+  display: flex;
+  width: auto;
+  max-width: none;
+  gap: 12px;
+  padding: 0 5px 0 4px;
+  height: 44px;
+  flex-wrap: nowrap;
+}
+.lp-app [data-dashboard] .hck-days {
+  display: flex;
+  gap: 5px;
+}
+.lp-app [data-dashboard] .hck-dc {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  align-items: center;
+}
+.lp-app [data-dashboard] .hck-wd {
+  font-size: 10px;
+}
+.lp-app [data-dashboard] .hck-fb {
+  width: 36px;
+  height: 36px;
+}
+.lp-app [data-dashboard] .hck-num {
+  display: flex;
+}
+.lp-app [data-dashboard] .hck-nu {
+  font-size: 12px;
+  font-weight: 850;
+  white-space: nowrap;
+}
+.lp-app [data-dashboard] .hck-cta {
+  min-width: 140px;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 850;
+}
+.lp-app [data-dashboard] .nbx-today-h {
+  margin: 0;
+  min-height: 33.6px;
+}
+.lp-app [data-dashboard] .nbx-today-h h2 {
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 850;
+  margin: 0;
+}
+.lp-app [data-dashboard] .nbx-mnote {
+  font-size: 21px;
+}
+.lp-app [data-dashboard] .nbx-deck {
+  gap: 14px;
+}
+.lp-app [data-dashboard] .hnc {
+  height: auto;
+  min-height: 214px;
+  padding: 12px 11px 0;
+  flex: 1;
+  gap: 4px;
+}
+.lp-app [data-dashboard] .hnc b {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-top: 6px;
+  font-weight: 800;
+}
+.lp-app [data-dashboard] .hnc small {
+  font-size: 13px;
+  line-height: 1.35;
+  font-weight: 700;
+}
+.lp-app [data-dashboard] .hnc .nbx-fart {
+  margin: 0;
+}
+.lp-app [data-dashboard] .hnc .nbx-chip {
+  font-size: 11px;
+  min-height: 26px;
+  line-height: 1.4;
+  padding: 0 8px;
+}
+.ui-critter-avatar {
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #fff8;
+}
+.ui-critter-avatar > .ca {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.ui-critter-avatar svg {
+  width: 100%;
+  height: 100%;
+}
+.lp-app .nbx-av:has(.ui-critter-avatar) {
+  background: #fbf7ec;
+}
+.lp-app [data-dashboard] .rb-scroll {
+  max-height: 368px;
+  min-height: 336px;
+}
+.lp-app [data-dashboard] .rb-row {
+  min-height: 46px;
+  gap: 10px;
+}
+.lp-app [data-dashboard] .rb-av {
+  width: 32px;
+  height: 32px;
+  flex: none;
+}
+.lp-app [data-dashboard] .rb-name {
+  font-size: 13px;
+}
+.lp-app [data-dashboard] .rb-self {
+  min-height: 46px;
+  background: #fff8;
+}
+.lp-app [data-dashboard] .rb-ring {
+  overflow: visible;
+}
+.lp-app [data-dashboard] .rb-crown {
+  font-size: 30px;
+  line-height: 1;
+  color: #b08c27;
+}
+.lp-app [data-dashboard] .rb-podium {
+  padding-top: 12px;
+}
+.lp-app [data-dashboard] .ft-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.lp-app [data-dashboard] .nbc-bh-t {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.lp-app [data-dashboard] .ft-head .nbx-bh-art {
+  width: 36px;
+}
+.lp-app [data-dashboard] .ft-mode {
+  font-size: 11px;
+}
+.lp-app [data-dashboard] .ft-scroll {
+  max-height: 720px;
+  min-height: 0;
+  flex: 1;
+}
+.lp-app [data-dashboard] .fi-face {
+  display: block;
+  width: 44px;
+  height: 44px;
+}
+.lp-app [data-dashboard] .fi-face .ui-critter-avatar {
+  width: 44px;
+  height: 44px;
+}
+.lp-app [data-dashboard] .fi {
+  min-height: 68px;
+}
+.lp-app [data-dashboard] .ft-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.lp-app [data-dashboard] .ft-open {
+  margin-top: auto;
+  font-size: 12px;
+}
+.lp-app [data-dashboard] .fpi-act {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.lp-app [data-dashboard] .fpi-act .nbc-btn {
+  font-size: 12px;
+  min-height: 36px;
+  padding: 6px 12px;
+}
+@media (max-width: 1100px) {
+  .lp-app [data-dashboard] .nbx-nextl {
+    display: none;
+  }
+  .lp-app [data-dashboard] .ui-dashboard-pair,
+  .lp-app [data-dashboard] .ui-home-bottom {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  }
+}
+@media (max-width: 1023px) {
+  .lp-app [data-dashboard] .ui-dashboard-pair,
+  .lp-app [data-dashboard] .ui-home-bottom {
+    grid-template-columns: 1fr;
+  }
+  .lp-app [data-dashboard] .hp {
+    min-height: 420px;
+  }
+  .lp-app [data-dashboard] .hp .nbx-kv2 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .lp-app [data-dashboard] .hp .nbx-kv2 > span:last-child {
+    display: block;
+  }
+  .lp-app [data-dashboard] .ft {
+    max-height: 844px;
+  }
+}
+@media (max-width: 719px) {
+  .lp-app [data-dashboard] {
+    gap: 14px;
+  }
+  .lp-app [data-dashboard] :is(.htp, .hp, .rb, .ft) {
+    padding: 16px;
+    border-radius: 22px;
+  }
+  .lp-app [data-dashboard] .nbx-home-hd.nbc-hd.is-home {
+    min-height: 110px;
+    height: 110px;
+    padding: 11px 14px;
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+    grid-template-rows: 34px 44px;
+    gap: 5px 10px;
+  }
+  .lp-app [data-dashboard] .nbx-home-hd.nbc-hd.is-home .nbc-hd-lead {
+    grid-row: 2;
+    grid-column: 1;
+    min-height: 0;
+  }
+  .lp-app [data-dashboard] .nbx-home-hd.nbc-hd.is-home .nbc-hd-row.is-top {
+    display: contents !important;
+  }
+  .lp-app [data-dashboard] .nbx-home-hd.nbc-hd.is-home .nbc-hd-head {
+    grid-row: 1;
+    grid-column: 1/-1;
+  }
+  .lp-app [data-dashboard] .nbx-home-hd.nbc-hd.is-home .nbc-hd-cta {
+    grid-row: 2;
+    grid-column: 2;
+  }
+  .lp-app [data-dashboard] .nbx-home-hd.nbc-hd.is-home h1 {
+    font-size: 26px;
+    line-height: 1.1;
+    padding: 0;
+  }
+  .lp-app [data-dashboard] .hm-tt-tail {
+    display: none;
+  }
+  .lp-app [data-dashboard] .ui-home-mascot {
+    width: 52px;
+    height: 41px;
+    right: 16px;
+    top: -43px;
+  }
+  .lp-app [data-dashboard] .nbx-nextl {
+    display: none;
+  }
+  .lp-app [data-dashboard] .nbx-home-hd.nbc-hd.is-home .hm-date {
+    display: none !important;
+  }
+  .lp-app [data-dashboard] .hck {
+    height: 44px;
+    width: 100%;
+    gap: 2px;
+    position: relative;
+  }
+  .lp-app [data-dashboard] .hck-flame {
+    gap: 0;
+  }
+  .lp-app [data-dashboard] .hck-fb {
+    width: 34px;
+    height: 34px;
+  }
+  .lp-app [data-dashboard] .hck-num {
+    position: absolute;
+    top: 0;
+    left: 42px;
+  }
+  .lp-app [data-dashboard] .hck-nu {
+    font-size: 10px;
+  }
+  .lp-app [data-dashboard] .hck-days {
+    display: flex;
+    gap: 1px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  .lp-app [data-dashboard] .hck-d {
+    width: 5px;
+    height: 5px;
+    border-width: 1px;
+  }
+  .lp-app [data-dashboard] .hck-wd {
+    display: none;
+  }
+  .lp-app [data-dashboard] .hck-end {
+    flex: 1;
+    align-self: flex-end;
+  }
+  .lp-app [data-dashboard] .hck-cta {
+    min-width: 0;
+    font-size: 11px;
+    min-height: 24px;
+    padding: 2px 5px;
+  }
+  .lp-app [data-dashboard] .nbc-hd-cta .nbc-btn {
+    padding: 0 10px;
+    font-size: 13px;
+    min-height: 40px;
+  }
+  .lp-app [data-dashboard] .nbx-today-h {
+    height: 28px;
+    min-height: 28px;
+  }
+  .lp-app [data-dashboard] .nbx-today-h h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .lp-app [data-dashboard] .nbx-mnote {
+    display: none;
+  }
+  .lp-app [data-dashboard] .nbx-deck {
+    gap: 10px;
+  }
+  .lp-app [data-dashboard] .hnc {
+    min-height: 212.28125px;
+    padding: 14px 14px 0;
+  }
+  .lp-app [data-dashboard] .hnb-li:nth-child(5) .hnc,
+  .lp-app [data-dashboard] .hnb-li:nth-child(6) .hnc {
+    min-height: 194.734375px;
+  }
+  .lp-app [data-dashboard] .hnb-li:last-child {
+    grid-column: 1/-1;
+  }
+  .lp-app [data-dashboard] .hnb-li:last-child .hnc {
+    min-height: 202.734375px;
+  }
+  .lp-app [data-dashboard] .htp-txt small {
+    font-size: 11px;
+  }
+  .lp-app [data-dashboard] .htp-go b {
+    font-size: 13px;
+  }
+  .lp-app [data-dashboard] .htp-row {
+    gap: 8px;
+    padding: 9px 10px;
+    min-height: 56.5px;
+  }
+  .lp-app [data-dashboard] .htp-row .nbx-tile {
+    display: none;
+  }
+  .lp-app [data-dashboard] .htp-day {
+    gap: 6px;
+    font-size: 11px;
+  }
+  .lp-app [data-dashboard] .htp-pace {
+    font-size: 10px;
+  }
+  .lp-app [data-dashboard] .nbx-bh h2 {
+    font-size: 20px;
+  }
+  .lp-app [data-dashboard] .hp .nbx-kv2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .lp-app [data-dashboard] .hp .nbx-kv2 > span:last-child {
+    display: none;
+  }
+  .lp-app [data-dashboard] .rb-scroll {
+    min-height: 300px;
+  }
+  .lp-app [data-dashboard] .nbx-wk-h {
+    font-size: 11px;
+  }
+  .lp-app [data-dashboard] .ft {
+    max-height: 844px;
+  }
+}
+[data-theme="dark"] .lp-app [data-dashboard] :is(.htp, .hp, .rb, .ft) {
+  background-color: var(--nb-x-fa);
+}
+
+/* The live application uses Nunito; the public landing keeps its own font. */
+.lp-app {
+  --nb-font-body: Nunito, "Nunito Fallback", system-ui, sans-serif;
+  --nb-font-head:
+    "Bricolage Grotesque", "Bricolage Fallback", Nunito, system-ui, sans-serif;
+  font-family: Nunito, "Nunito Fallback", system-ui, sans-serif;
+}
+.lp-app [data-dashboard] .nbx-home-hd.nbc-hd.is-home .nbc-hd-lead {
+  justify-content: flex-start;
+}
+.lp-app .nbx-ni {
+  font-size: 13px;
+  letter-spacing: normal;
+}
+.lp-app [data-dashboard] .hnc::before {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .lp-app .lp-main {
+    width: calc(100vw - 280px);
+  }
+}
+@media (min-width: 720px) and (min-height: 700px) {
+  .lp-app [data-dashboard] .nbx-home-hd.nbc-hd.is-home {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.lp-app {
+  font-size-adjust: none;
+}
+
+.lp-app [data-dashboard] .ui-home-bottom {
+  align-items: start;
+}
+.lp-app [data-dashboard] .ui-home-bottom > .ft {
+  height: var(--dashboard-rank-height, 844.5px);
+  max-height: none;
+  min-height: 0;
+}
+.lp-app [data-dashboard] .rb-podium {
+  padding-top: 0;
+}
+@media (max-width: 1023px) {
+  .lp-app [data-dashboard] .ui-home-bottom > .ft {
+    height: auto;
+    max-height: 844px;
+    min-height: 0;
+  }
+}
+
+.lp-app * {
+  font-size-adjust: none;
+}
+.lp-app [data-dashboard] .htp-txt {
+  gap: 0;
+}
+.lp-app [data-dashboard] .htp-go b {
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.lp-app .nbx-rail-in {
+  padding: 34px 12px 14px;
+  gap: 4px;
+}
+.lp-app .nbx-brand {
+  height: 44px;
+  min-height: 44px;
+  padding: 0 8px 12px;
+  align-items: flex-start;
+}
+.lp-app .nbx-brand svg {
+  width: 148px;
+  height: auto;
+}
+.lp-app .lp-nav {
+  gap: 2px;
+}
+.lp-app .nbx-ni {
+  min-height: 42px;
+  padding: 6px 8px;
+  gap: 8px;
+  font-size: 14px;
+}
+.lp-app .nbx-ell {
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: clip;
+}
+.lp-app .nbx-me {
+  margin-top: auto;
+  padding: 10px;
+  background: #fbf7ec99;
+  border-radius: 18px;
+}
+.lp-app .nbx-me .nbx-who {
+  gap: 8px;
+}
+.lp-app .nbx-me .nbx-av {
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+}
+.lp-app .nbx-me .nbx-tt b {
+  font-size: 13px;
+  font-weight: 800;
+}
+.lp-app .nbx-me .nbx-tt small {
+  font-size: 11px;
+}
+.lp-app .nbx-me .nbx-st {
+  padding: 0;
+  gap: 6px;
+  margin-top: 10px;
+}
+.lp-app .nbx-me .nbx-st > span {
+  padding: 6px 7px;
+  background: #fff9;
+  border-radius: 10px;
+  flex: 1;
+}
+.lp-app .nbx-me .nbx-st b {
+  font-size: 14px;
+}
+@media (min-width: 1024px) {
+  .lp-app [data-dashboard] [data-home-rank] > .ft:not(#nbx) {
+    height: var(--dashboard-rank-height, 844.5px);
+    max-height: none;
+    min-height: 0;
+  }
+}
+.lp-app .lp-nav {
+  overflow-x: hidden;
+}
+.lp-app .nbx-ni > .nbx-tile {
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
+}
+.lp-app .nbx-ni > .nbx-tile svg {
+  width: 30px;
+  height: 30px;
+}

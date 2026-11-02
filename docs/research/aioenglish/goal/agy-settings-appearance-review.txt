@@ -1,0 +1,145 @@
+Here is the review of the three components focused on concrete state, ARIA, and runtime issues, honoring the architectural constraints (parent callback persistence, native `UiDialog` behavior, local-only notices, and `role="group"` with `aria-pressed` buttons).
+
+---
+
+### 1. Concrete State & Data-Binding Bugs
+
+#### [Bug 1] Mismatched / Localized Values for Motion Options Corrupts Persisted State
+* **Location:** `SettingsAppearance`
+* **Evidence:**
+  ```tsx
+  options={[
+    { value: "system", label: "Theo hệ thống" },
+    { value: "Đầy đủ", label: "Đầy đủ" },
+    { value: "Giảm", label: "Giảm" }
+  ]}
+  ```
+* **Problem:** 
+  The first option uses a canonical English key (`"system"`), but options 2 and 3 mistakenly assign localized Vietnamese display strings (`"Đầy đủ"`, `"Giảm"`) directly to `value` instead of canonical tokens (e.g. `"full"` and `"reduced"` / `"reduce"`).
+* **Impact:** 
+  When the parent store passes standard motion keys (such as `motion="full"` or `motion="reduce"`), `value === option.value` evaluates to `false` across all buttons. No button receives `is-on` and all have `aria-pressed={false}`. When a user selects an option, `onMotion("Đầy đủ")` emits localized Vietnamese strings with diacritics into the parent persistence layer, corrupting the stored settings.
+
+---
+
+#### [Bug 2] Missing State Modifier Class on Switch (`role="switch"`)
+* **Location:** `SettingsPrivacy`
+* **Evidence:**
+  ```tsx
+  <button {...s} type="button" role="switch" className="nbc-sw" aria-checked={hidden} ...>
+  ```
+* **Problem:** 
+  In the `nbc-*` styling system, toggles and segments require the active modifier `.is-on` (as seen in `Segment`: `className={value === option.value ? "is-on" : ""}`). The switch element hardcodes `className="nbc-sw"` regardless of `hidden`.
+* **Impact:** 
+  Unless the CSS exclusively targets `[aria-checked="true"]` (inconsistent with `nbc-*` conventions), the switch thumb will never visually animate or reflect the active toggle state when `hidden` is `true`.
+* **Remedy:** Use `className={`nbc-sw ${hidden ? "is-on" : ""}`}`.
+
+---
+
+#### [Bug 3] Omitted `attribute` Prop on Motion Segment
+* **Location:** `SettingsAppearance`
+* **Evidence:** 
+  Theme, Skin, and Sound segments explicitly pass data attributes:
+  * `attribute="data-theme-opt"`
+  * `attribute="data-skin-opt"`
+  * `attribute="data-key-sound-opt"`
+  Motion completely omits `attribute`.
+* **Impact:** 
+  The motion segment buttons do not receive `[data-motion-opt]`, breaking automated testing hooks, styling selectors, or telemetry that expect matching `data-*-opt` attributes.
+
+---
+
+### 2. ARIA & Accessibility Issues
+
+#### [Bug 4] Absence of Roving `tabIndex` Breaks Keyboard Navigation in `Segment`
+* **Location:** `Segment`
+* **Evidence:**
+  ```tsx
+  <button key={option.value} type="button" className={...} aria-pressed={...} onKeyDown={...}>
+  ```
+* **Problem:** 
+  `onKeyDown` implements arrow key navigation (`ArrowLeft`, `ArrowRight`, `ArrowUp`, `ArrowDown`, `Home`, `End`) to move focus and select items, but none of the buttons specify a `tabIndex`. In HTML, buttons default to `tabIndex={0}`.
+* **Impact:**
+  1. **Tab Stop Pollution:** Keyboard users must press `Tab` through every single button in every segment (10 consecutive tab stops in appearance alone) instead of 1 tab stop per segment group.
+  2. **Focus Desynchronization:** If a user tabs into a segment, focus always lands on the first button (`index 0`) rather than the currently active button (`aria-pressed={true}`). If they then press an arrow key, the index calculates relative to `0` rather than the user's active choice.
+* **Remedy:** Apply roving tabindex:
+  ```tsx
+  tabIndex={value === option.value ? 0 : -1}
+  ```
+  *(with a fallback to `0` on the first option if none match).*
+
+---
+
+#### [Bug 5] Ambiguous Accessible Name for Export Action
+* **Location:** `SettingsPrivacy`
+* **Evidence:**
+  ```tsx
+  {/* Row 2: Export */}
+  <button type="button" className="nbc-btn is-soft is-sm" data-testid="privacy-export" onClick={download}>
+    <SettingsArt kind="download"/> Tải xuống
+  </button>
+
+  {/* Row 3: Revoke (Properly labeled) */}
+  <button type="button" className="nbc-btn is-soft is-sm" data-testid="privacy-revoke-open" aria-label="Đăng xuất thiết bị khác" onClick={onRevoke}>
+  ```
+* **Impact:** 
+  While row 3 explicitly provides `aria-label="Đăng xuất thiết bị khác"`, row 2 relies solely on the inner text `"Tải xuống"`. When navigating via a screen reader's Rotor or form controls list, hearing "Tải xuống" (Download) without context is ambiguous. It should provide `aria-label="Tải dữ liệu của tôi"`.
+
+---
+
+#### [Bug 6] Missing `aria-describedby` on Destructive Alert in `SettingsActionDialog`
+* **Location:** `SettingsActionDialog`
+* **Evidence:**
+  ```tsx
+  <p {...s} className="cd-dlg-warn">Không thể hoàn tác.</p>
+  ```
+* **Impact:** 
+  The warning "Không thể hoàn tác" (Irreversible) has no `id` and is not linked via `aria-describedby` to the dialog container or confirm button. Assistive technologies entering the modal will read the title ("Xoá tài khoản?") but will not automatically announce the irreversible loss warning unless the user manually traverses the dialog contents.
+
+---
+
+### 3. Runtime & DOM Interaction Issues
+
+#### [Bug 7] Brittle DOM Query Traversal on Arrow Key Navigation
+* **Location:** `Segment.onKeyDown`
+* **Evidence:**
+  ```tsx
+  change(options[next].value);
+  event.currentTarget.parentElement?.querySelectorAll<HTMLButtonElement>("button")[next]?.focus();
+  ```
+* **Problem:** 
+  Focus movement relies on `parentElement?.querySelectorAll<HTMLButtonElement>("button")[next]`.
+* **Impact:**
+  1. Directly dispatching `change(...)` triggers parent state updates and React re-rendering. Invoking synchronous `.focus()` on a DOM `NodeList` query alongside React rendering batches risks focus loss or misalignment if children structure or reconciliation order shifts.
+  2. If an option's icon (`SettingsArt`) or any future child ever renders an internal `<button>`, the query index will immediately desynchronize.
+
+---
+
+#### [Bug 8] Scoped Attribute (`data-v-*`) Mismatches in `SettingsActionDialog`
+* **Location:** `SettingsActionDialog`
+* **Evidence:**
+  ```tsx
+  const s = { "data-v-45fbf440": "" };
+  ...
+  {removing ? (
+    <><p {...s} className="cd-dlg-p">...</p><p {...s} className="cd-dlg-warn">...</p></>
+  ) : (
+    <p className="psc-dlg-p">Các thiết bị khác sẽ phải đăng nhập lại.</p>
+  )}
+  ```
+* **Problem:** 
+  `data-v-45fbf440` is the scoped attribute used by `SettingsAppearance`. The `psc-*` styles belong to `settings-privacy-reference.css` (which uses `data-v-3860d508`). In the revoke branch (`!removing`), `<p className="psc-dlg-p">` receives neither `{...s}` nor the privacy scope attribute.
+* **Impact:** 
+  If the scoped stylesheet selectors require the simulated attribute (e.g., `.psc-dlg-p[data-v-3860d508]`), the revoke description will render unstyled.
+
+---
+
+#### [Bug 9] Missing Inline Text Spacing Next to Confirm Icon
+* **Location:** `SettingsActionDialog`
+* **Evidence:**
+  ```tsx
+  {removing && <SettingsArt kind="trash"/>}{removing ? "Xoá vĩnh viễn" : "Đăng xuất"}
+  ```
+* **Problem:** 
+  In `Segment`, inline icon spacing is explicitly handled (`{option.icon && <SettingsArt .../>} {option.label}`). In `SettingsActionDialog`, the trash icon and the string `"Xoá vĩnh viễn"` are directly adjacent with no whitespace delimiter.
+* **Impact:** 
+  Unless the trash SVG or `nbc-btn` has explicit CSS margin/gap, the text will cling directly to the icon edge.

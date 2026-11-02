@@ -1,0 +1,157 @@
+{
+  "ban-be": {
+    "historicalHtml": [
+      "docs/research/aioenglish/shots/ui-completion/source-ban-be.html"
+    ],
+    "historicalViewports": {
+      "1440": "docs/research/aioenglish/shots/ui-completion/source-ban-be-1440.jpg",
+      "390": "docs/research/aioenglish/shots/ui-completion/source-ban-be-390.jpg",
+      "768": "docs/research/aioenglish/shots/ui-completion/source-ban-be-768.jpg"
+    },
+    "status": "Historical source evidence only; current source/local/production acceptance pending"
+  },
+  "cai-dat": {
+    "historicalHtml": [
+      "docs/research/aioenglish/shots/ui-completion/source-cai-dat.html"
+    ],
+    "historicalViewports": {
+      "1440": "docs/research/aioenglish/shots/ui-completion/source-cai-dat-1440.jpg",
+      "390": "docs/research/aioenglish/shots/ui-completion/source-cai-dat-390.jpg",
+      "768": "docs/research/aioenglish/shots/ui-completion/source-cai-dat-768.jpg"
+    },
+    "status": "Historical source evidence only; current source/local/production acceptance pending"
+  },
+  "go-cau": {
+    "historicalHtml": [
+      "docs/research/aioenglish/shots/ui-completion/source-go-cau.html"
+    ],
+    "historicalViewports": {
+      "1440": "docs/research/aioenglish/shots/ui-completion/source-go-cau-1440.jpg",
+      "390": "docs/research/aioenglish/shots/ui-completion/source-go-cau-390.jpg",
+      "768": "docs/research/aioenglish/shots/ui-completion/source-go-cau-768.jpg"
+    },
+    "status": "Historical source evidence only; current source/local/production acceptance pending"
+  },
+  "home": {
+    "historicalHtml": [
+      "docs/research/aioenglish/shots/ui-completion/source-home.html"
+    ],
+    "historicalViewports": {
+      "1440": "docs/research/aioenglish/shots/ui-completion/source-home-1440.jpg",
+      "390": "docs/research/aioenglish/shots/ui-completion/source-home-390.jpg",
+      "768": "docs/research/aioenglish/shots/ui-completion/source-home-768.jpg"
+    },
+    "status": "Historical source evidence only; current source/local/production acceptance pending"
+  },
+  "ipa": {
+    "historicalHtml": [],
+    "historicalViewports": {
+      "1440": "docs/research/aioenglish/shots/ui-completion/source-ipa-1440.jpg"
+    },
+    "status": "Historical source evidence only; current source/local/production acceptance pending"
+  },
+  "lo-trinh": {
+    "historicalHtml": [
+      "docs/research/aioenglish/shots/ui-completion/source-lo-trinh.html"
+    ],
+    "historicalViewports": {
+      "1440": "docs/research/aioenglish/shots/ui-completion/source-lo-trinh-1440.jpg",
+      "390": "docs/research/aioenglish/shots/ui-completion/source-lo-trinh-390.jpg",
+      "768": "docs/research/aioenglish/shots/ui-completion/source-lo-trinh-768.jpg"
+    },
+    "status": "Historical source evidence only; current source/local/production acceptance pending"
+  },
+  "luyen-dich-thuat": {
+    "historicalHtml": [
+      "docs/research/aioenglish/shots/ui-completion/source-luyen-dich-thuat.html"
+    ],
+    "historicalViewports": {
+      "1440": "docs/research/aioenglish/shots/ui-completion/source-luyen-dich-thuat-1440.jpg",
+      "390": "docs/research/aioenglish/shots/ui-completion/source-luyen-dich-thuat-390.jpg",
+      "768": "docs/research/aioenglish/shots/ui-completion/source-luyen-dich-thuat-768.jpg"
+    },
+    "status": "Historical source evidence only; current source/local/production acceptance pending"
+  },
+  "luyen-thi": {
+    "historicalHtml": [
+      "docs/research/aioenglish/shots/ui-completion/source-luyen-thi.html"
+    ],
+    "historicalViewports": {
+      "1440": "docs/research/aioenglish/shots/ui-completion/source-luyen-thi-1440.jpg",
+      "390": "docs/research/aioenglish/shots/ui-completion/source-luyen-thi-390.jpg",
+      "768": "docs/research/aioenglish/shots/ui-completion/source-luyen-thi-768.jpg"
+    },
+    "status": "Historical source evidence only; current source/local/production acceptance pending"
+  },
+  "ngu-phap": {
+    "historicalHtml": [
+      "docs/research/aioenglish/shots/ui-completion/source-ngu-phap.html"
+    ],
+    "historicalViewports": {
+      "1440": "docs/research/aioenglish/shots/ui-completion/source-ngu-phap-1440.jpg",
+      "390": "docs/research/aioenglish/shots/ui-completion/source-ngu-phap-390.jpg",
+      "768": "docs/research/aioenglish/shots/ui-completion/source-ngu-phap-768.jpg"
+    },
+    "status": "Historical source evidence only; current source/local/production acceptance pending"
+  },
+  "path": {
+    "historicalHtml": [],
+    "historicalViewports": {
+      "1440": "docs/research/aioenglish/shots/ui-completion/source-path-1440.jpg"
+    },
+    "status": "Historical source evidence only; current source/local/production acceptance pending"
+  },
+  "tu-dien": {
+    "historicalHtml": [
+      "docs/research/aioenglish/shots/ui-completion/source-tu-dien.html"
+    ],
+    "historicalViewports": {
+      "1440": "docs/research/aioenglish/shots/ui-completion/source-tu-dien-1440.jpg",
+      "390": "docs/research/aioenglish/shots/ui-completion/source-tu-dien-390.jpg",
+      "768": "docs/research/aioenglish/shots/ui-completion/source-tu-dien-768.jpg"
+    },
+    "status": "Historical source evidence only; current source/local/production acceptance pending"
+  },
+  "tu-vung": {
+    "historicalHtml": [
+      "docs/research/aioenglish/shots/ui-completion/source-tu-vung.html"
+    ],
+    "historicalViewports": {
+      "1440": "docs/research/aioenglish/shots/ui-completion/source-tu-vung-1440.jpg",
+      "390": "docs/research/aioenglish/shots/ui-completion/source-tu-vung-390.jpg",
+      "768": "docs/research/aioenglish/shots/ui-completion/source-tu-vung-768.jpg"
+    },
+    "status": "Historical source evidence only; current source/local/production acceptance pending"
+  },
+  "tu-vung-phat-am": {
+    "historicalHtml": [],
+    "historicalViewports": {
+      "1440": "docs/research/aioenglish/shots/ui-completion/source-tu-vung-phat-am-1440.jpg",
+      "390": "docs/research/aioenglish/shots/ui-completion/source-tu-vung-phat-am-390.jpg",
+      "768": "docs/research/aioenglish/shots/ui-completion/source-tu-vung-phat-am-768.jpg"
+    },
+    "status": "Historical source evidence only; current source/local/production acceptance pending"
+  },
+  "video": {
+    "historicalHtml": [
+      "docs/research/aioenglish/shots/ui-completion/source-video.html"
+    ],
+    "historicalViewports": {
+      "1440": "docs/research/aioenglish/shots/ui-completion/source-video-1440.jpg",
+      "390": "docs/research/aioenglish/shots/ui-completion/source-video-390.jpg",
+      "768": "docs/research/aioenglish/shots/ui-completion/source-video-768.jpg"
+    },
+    "status": "Historical source evidence only; current source/local/production acceptance pending"
+  },
+  "yeu-cau-tinh-nang": {
+    "historicalHtml": [
+      "docs/research/aioenglish/shots/ui-completion/source-yeu-cau-tinh-nang.html"
+    ],
+    "historicalViewports": {
+      "1440": "docs/research/aioenglish/shots/ui-completion/source-yeu-cau-tinh-nang-1440.jpg",
+      "390": "docs/research/aioenglish/shots/ui-completion/source-yeu-cau-tinh-nang-390.jpg",
+      "768": "docs/research/aioenglish/shots/ui-completion/source-yeu-cau-tinh-nang-768.jpg"
+    },
+    "status": "Historical source evidence only; current source/local/production acceptance pending"
+  }
+}

@@ -1,0 +1,126 @@
+[
+  {
+    "boxes": [
+      {
+        "cls": "nbc-hd nbx-f-voc",
+        "r": "{\"bottom\":141,\"height\":125,\"left\":258,\"right\":1418,\"top\":16,\"width\":1160,\"x\":258,\"y\":16}"
+      },
+      {
+        "cls": "nbc-pile pc-route",
+        "r": "{\"bottom\":441,\"height\":280,\"left\":258,\"right\":1418,\"top\":161,\"width\":1160,\"x\":258,\"y\":161}"
+      },
+      {
+        "cls": "nbc-lv1 is-dots pc-panel pc-vow",
+        "r": "{\"bottom\":716.6875,\"height\":253.6875,\"left\":258,\"right\":982.171875,\"top\":463,\"width\":724.171875,\"x\":258,\"y\":463}"
+      },
+      {
+        "cls": "nbc-lv1 is-kraft pc-panel pc-dip",
+        "r": "{\"bottom\":716.6875,\"height\":253.6875,\"left\":1004.171875,\"right\":1418,\"top\":463,\"width\":413.828125,\"x\":1004.171875,\"y\":463}"
+      },
+      {
+        "cls": "nbc-lv1 is-kraft pc-panel pc-con",
+        "r": "{\"bottom\":1088.21875,\"height\":349.53125,\"left\":258,\"right\":1127.015625,\"top\":738.6875,\"width\":869.015625,\"x\":258,\"y\":738.6875}"
+      },
+      {
+        "cls": "nbc-lv1 is-grid20 pc-panel pc-fin",
+        "r": "{\"bottom\":1088.21875,\"height\":349.53125,\"left\":1149.015625,\"right\":1417.984375,\"top\":738.6875,\"width\":268.96875,\"x\":1149.015625,\"y\":738.6875}"
+      }
+    ],
+    "h": 900,
+    "overflow": false,
+    "w": 1440
+  },
+  {
+    "boxes": [
+      {
+        "cls": "nbc-hd nbx-f-voc",
+        "r": "{\"bottom\":141,\"height\":125,\"left\":106,\"right\":750,\"top\":16,\"width\":644,\"x\":106,\"y\":16}"
+      },
+      {
+        "cls": "nbc-pile pc-route",
+        "r": "{\"bottom\":664,\"height\":503,\"left\":106,\"right\":750,\"top\":161,\"width\":644,\"x\":106,\"y\":161}"
+      },
+      {
+        "cls": "nbc-lv1 is-dots pc-panel pc-vow",
+        "r": "{\"bottom\":939.6875,\"height\":253.6875,\"left\":106,\"right\":750,\"top\":686,\"width\":644,\"x\":106,\"y\":686}"
+      },
+      {
+        "cls": "nbc-lv1 is-kraft pc-panel pc-dip",
+        "r": "{\"bottom\":1215.375,\"height\":253.6875,\"left\":106,\"right\":750,\"top\":961.6875,\"width\":644,\"x\":106,\"y\":961.6875}"
+      },
+      {
+        "cls": "nbc-lv1 is-kraft pc-panel pc-con",
+        "r": "{\"bottom\":1586.90625,\"height\":349.53125,\"left\":106,\"right\":750,\"top\":1237.375,\"width\":644,\"x\":106,\"y\":1237.375}"
+      },
+      {
+        "cls": "nbc-lv1 is-grid20 pc-panel pc-fin",
+        "r": "{\"bottom\":1862.59375,\"height\":253.6875,\"left\":106,\"right\":750,\"top\":1608.90625,\"width\":644,\"x\":106,\"y\":1608.90625}"
+      }
+    ],
+    "h": 1024,
+    "overflow": false,
+    "w": 768
+  },
+  {
+    "boxes": [
+      {
+        "cls": "nbc-hd nbx-f-voc",
+        "r": "{\"bottom\":163,\"height\":111,\"left\":12,\"right\":378,\"top\":52,\"width\":366,\"x\":12,\"y\":52}"
+      },
+      {
+        "cls": "nbc-pile pc-route",
+        "r": "{\"bottom\":576.890625,\"height\":399.890625,\"left\":12,\"right\":378,\"top\":177,\"width\":366,\"x\":12,\"y\":177}"
+      },
+      {
+        "cls": "nbc-lv1 is-dots pc-panel pc-vow",
+        "r": "{\"bottom\":924.9375,\"height\":334.046875,\"left\":12,\"right\":378,\"top\":590.890625,\"width\":366,\"x\":12,\"y\":590.890625}"
+      },
+      {
+        "cls": "nbc-lv1 is-kraft pc-panel pc-dip",
+        "r": "{\"bottom\":1181.5,\"height\":242.5625,\"left\":12,\"right\":378,\"top\":938.9375,\"width\":366,\"x\":12,\"y\":938.9375}"
+      },
+      {
+        "cls": "nbc-lv1 is-kraft pc-panel pc-con",
+        "r": "{\"bottom\":1812,\"height\":608.5,\"left\":12,\"right\":378,\"top\":1203.5,\"width\":366,\"x\":12,\"y\":1203.5}"
+      },
+      {
+        "cls": "nbc-lv1 is-grid20 pc-panel pc-fin",
+        "r": "{\"bottom\":2068.5625,\"height\":242.5625,\"left\":12,\"right\":378,\"top\":1826,\"width\":366,\"x\":12,\"y\":1826}"
+      }
+    ],
+    "h": 844,
+    "overflow": false,
+    "w": 390
+  },
+  {
+    "boxes": [
+      {
+        "cls": "nbc-hd nbx-f-voc",
+        "r": "{\"bottom\":163,\"height\":111,\"left\":12,\"right\":348,\"top\":52,\"width\":336,\"x\":12,\"y\":52}"
+      },
+      {
+        "cls": "nbc-pile pc-route",
+        "r": "{\"bottom\":609.890625,\"height\":432.890625,\"left\":12,\"right\":348,\"top\":177,\"width\":336,\"x\":12,\"y\":177}"
+      },
+      {
+        "cls": "nbc-lv1 is-dots pc-panel pc-vow",
+        "r": "{\"bottom\":957.9375,\"height\":334.046875,\"left\":12,\"right\":348,\"top\":623.890625,\"width\":336,\"x\":12,\"y\":623.890625}"
+      },
+      {
+        "cls": "nbc-lv1 is-kraft pc-panel pc-dip",
+        "r": "{\"bottom\":1214.5,\"height\":242.5625,\"left\":12,\"right\":348,\"top\":971.9375,\"width\":336,\"x\":12,\"y\":971.9375}"
+      },
+      {
+        "cls": "nbc-lv1 is-kraft pc-panel pc-con",
+        "r": "{\"bottom\":1845,\"height\":608.5,\"left\":12,\"right\":348,\"top\":1236.5,\"width\":336,\"x\":12,\"y\":1236.5}"
+      },
+      {
+        "cls": "nbc-lv1 is-grid20 pc-panel pc-fin",
+        "r": "{\"bottom\":2101.5625,\"height\":242.5625,\"left\":12,\"right\":348,\"top\":1859,\"width\":336,\"x\":12,\"y\":1859}"
+      }
+    ],
+    "h": 844,
+    "overflow": false,
+    "w": 360
+  }
+]

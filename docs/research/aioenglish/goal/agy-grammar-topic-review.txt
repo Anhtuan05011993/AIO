@@ -1,0 +1,75 @@
+Here is a focused review of the definite **accessibility**, **focus**, **URL**, and **effect lifecycle** bugs identified in the provided React component.
+
+---
+
+### 1. Accessibility (a11y) Bugs
+
+* **Missing `aria-expanded` and `aria-haspopup` on Dialog Triggers**:
+  * **Menu button**: `aria-label="Menu điều hướng"` toggles `menu` without `aria-haspopup="dialog"` or `aria-expanded={menu}`.
+  * **Document button**: `aria-label="Xem lại tài liệu"` toggles `documentOpen` without `aria-haspopup="dialog"` or `aria-expanded={documentOpen}`.
+  * **TOC button**: The button inside `nav.gr-pills` toggles `toc` without `aria-haspopup="dialog"` or `aria-expanded={toc}`.
+* **Missing `aria-current` on Active Outline Item**:
+  * In the `<ol className="gr-ol">`, the active chapter is indicated purely via CSS (`is-cur`) and `data-state={row.current ? "current" : "todo"}`. It lacks `aria-current="step"` (or `aria-current="true"`), leaving screen reader users without awareness of their current position.
+* **Flawed Live Region Lifecycle for `fullError`**:
+  * `{fullError && <p role="status">{fullError}</p>}` conditionally mounts the `<p role="status">` only after an error occurs. Screen readers frequently fail to announce dynamic text if the `role="status"` / `aria-live` container was not already present in the DOM prior to the content insertion.
+* **Static `aria-label` and Missing `aria-pressed` on Fullscreen Button**:
+  * The button label is statically set to `aria-label="Toàn màn hình"` ("Fullscreen"). When fullscreen is active, clicking exits fullscreen, but the label does not toggle to "Thoát toàn màn hình" ("Exit Fullscreen"), and `aria-pressed` is not provided.
+* **Non-semantic `<nav>` Child Structure**:
+  * `<nav className="gr-pills" aria-label="Các chặng của bài">` contains raw `<span className="... gr-pill">` and `<button className="... gr-pill">` elements rather than navigation links (`<a>`), an ordered list (`<ol>`), or tablist semantics (`role="tablist"` / `role="tab"`).
+* **Unannounced / Confusing Visual Shortcut Glyphs**:
+  * The `Tiếp tục` link embeds `<span className="hidden lg:inline"> ↵</span>` without `aria-hidden="true"`. Screen readers announce the literal Unicode character (e.g., "carriage return symbol") as part of the link text.
+
+---
+
+### 2. Focus Management Bugs
+
+* **Orphaned `tabIndex={-1}` on `<main>`**:
+  * `<main id="main-content" tabIndex={-1}>` removes the main container from standard tab order under the premise of programmatic focusing (e.g., for skip links or route changes). However, there is no skip link pointing to `#main-content`, and no `ref` or effect ever focuses it.
+* **Missing Focus Restoration upon Closing Modals**:
+  * When any `UiDialog` (`menu`, `toc`, `documentOpen`) closes via `onClose={() => set*(false)}`, focus is not returned to the triggering button. Focus defaults to `document.body`, breaking keyboard navigation flow.
+* **False Keyboard Shortcut Cue (`↵`) without Key Listener**:
+  * The `Tiếp tục` button displays `↵`, signaling to users that pressing `Enter` will advance. However, pressing `Enter` will not activate the link unless it already possesses native DOM focus.
+* **Grammar Token Highlighting (`example.focus`) Tokenizer Bugs**:
+  * `example.focus?.includes(word)` matches against `example.en.split(/(\s+)/)`.
+    * If `word` includes trailing punctuation (e.g., `"doctor."`), matching against `example.focus` (e.g., `"doctor"`) evaluates to `false`.
+    * If `example.focus` is a string (e.g., `"together"`), `string.includes(word)` executes substring checks, incorrectly highlighting partial matches (e.g., `"to"`).
+
+---
+
+### 3. URL & Routing Bugs
+
+* **TOC Ignores `reference` Mode**:
+  * `nextHref` correctly accounts for `reference`:
+    ```tsx
+    const nextHref = first ? `/ngu-phap/${first.id}${reference ? "" : "/luyen-tap"}` : "/ngu-phap";
+    ```
+  * However, the Table of Contents modal hardcodes practice URLs regardless of `reference`:
+    ```tsx
+    <Link key={node.id} href={`/ngu-phap/${node.id}/luyen-tap`}>
+    ```
+    If a user is in reference mode (`reference === true`), selecting any chapter forcibly redirects them into practice mode (`/luyen-tap`).
+* **Unencoded Dynamic URL Segments**:
+  * Dynamic segments (`node.id`, `first.id`) are concatenated directly into strings without `encodeURIComponent(...)` (e.g., `/ngu-phap/${node.id}/luyen-tap`), which breaks routing if IDs contain special characters or spaces.
+* **Dead Outline Elements**:
+  * Items in `<aside className="gr-aside">` render inert `<div>` elements instead of `<Link>` elements, preventing navigation to chapters directly from the sidebar.
+
+---
+
+### 4. Effect Lifecycle Bugs
+
+* **Leaked Speech Audio on Unmount**:
+  * The speaker button triggers `speak(example.en)` via Web Speech API. There is no `useEffect` cleanup hook (e.g., `window.speechSynthesis.cancel()`) on component unmount. When the user navigates away or clicks "Tiếp tục", speech synthesis keeps playing in the background.
+* **Missing `fullscreenchange` Event Listener**:
+  * Fullscreen is toggled imperatively via `requestFullscreen()` / `exitFullscreen()`. Because there is no `useEffect` subscribing to `fullscreenchange` on `document`, pressing `Escape` or exiting via browser controls leaves component state and icons desynchronized from the actual DOM state.
+* **Unmounted State Update in Async Catch Block**:
+  * In the fullscreen toggle handler:
+    ```tsx
+    document.documentElement.requestFullscreen().catch(() =>
+      setFullError("Không thể mở toàn màn hình trong cửa sổ này.")
+    );
+    ```
+    If the user clicks fullscreen and immediately navigates away before the Promise settles, `setFullError` is called on an unmounted component.
+* **Stale State on Route / `slug` Prop Change**:
+  * When Next.js navigates between topics without unmounting `GrammarTopicFrame`, local state (`menu`, `toc`, `documentOpen`, `fullError`) does not reset. Dialogs or error banners opened on a previous topic remain open on the new topic.
+* **Permanent `fullError` Display**:
+  * `fullError` has no auto-dismissal timeout (with `clearTimeout` in an effect cleanup) and provides no dismiss button, causing error messages to persist indefinitely once triggered.

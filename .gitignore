@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+data/server/
+.ui-*/
+_dict-tmp/
+build-*.txt
+tsc-out.txt
+*.log
+.env*.local
+

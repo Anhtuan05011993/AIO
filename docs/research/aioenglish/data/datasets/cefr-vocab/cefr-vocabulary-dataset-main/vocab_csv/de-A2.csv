@@ -1,0 +1,726 @@
+id,lemma,language,cefr_level,pos,ipa,definition_target,audio_url,source,created_at,updated_at
+0037f9e9-3be9-481f-afdd-1f6333ddcc9d,die Katze,de,A2,Noun,/ˈkatsə/,"house cat, Felis silvestris catus",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+0069b81a-076e-4937-b42e-79057c1bd295,das Tablet,de,A2,Noun,/ˈtɛblət/,tablet,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+007a66ca-8a97-459b-9194-0a1f42f158b4,die Portion,de,A2,Noun,/pɔrˈtsjoːn/,"portion, an allocated amount,  a portion of food, a serving, helping",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+007c44b1-2194-4184-81ff-d63a1bb18c2b,basteln,de,A2,Verb,/ˈbastəln/,"to perform handicrafts or DIY, to build, to craft (especially something from paper, fabric, and related materials, by cutting, folding, gluing, etc., e.g. such objects as kites, lanterns, calendars, greeting cards),",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+024d5249-2bf2-4df0-bd45-4534e6fb03b7,romantisch,de,A2,Adjective,/ʁomantɪʃ/,romantic,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:43:11.690083+00
+02a16235-1e1a-4eb1-81a6-8b6ce8b8b716,die Sendung,de,A2,Noun,/ˈzɛndʊŋ/,delivery,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+0337b35b-7ad3-4d0c-856b-ceefe5883708,stören,de,A2,Verb,/ʃtøːɐ̯n/,"to disturb, to interfere, to bother",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+037ec091-e3b3-42c0-a89d-9b8d0437d195,entschuldigt,de,A2,Participle,/əntʃʊldɪgt/,past participle of entschuldigen,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:41:55.627002+00
+03ae7c6b-bd66-4b63-bdb3-1129b5fb6019,der Unfall,de,A2,Noun,/ˈʊnˌfal/,accident,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+03caddc7-2b2a-4e75-a408-6ed29995a1e1,der Durst (Sing.),de,A2,noun,/dʊʁst sɪŋ./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+0491a6f4-2512-4a93-a3c0-94044d1dff28,ausgehen,de,A2,Verb,/ˈʔaʊ̯sɡeːən/,to go out (to leave one's abode to go to public places),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+049e06c8-1777-4a7a-82f6-873fd318ab1b,buchen,de,A2,Adjective,/bʊxən/,beech,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:39:25.504313+00
+052f0c2c-e0e6-4c96-b1b4-f732e4aaeba8,die Butter (Sg.),de,A2,noun,/bʊttəʁ sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+05c47444-2290-4a69-8293-1ecd48c67c1e,dringend,de,A2,Participle,/dʁɪŋənd/,present participle of dringen,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:41:52.885782+00
+0718020a-40b8-4ae7-91b2-29f0b49034f1,das Klavier,de,A2,Noun,/klaˈviːɐ̯/,piano,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+0777c373-2b0d-4ac1-9cc2-fa75eea05cff,das Projekt,de,A2,Noun,/pʁoˈjɛkt/,project,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+080a150f-a88a-401e-8a8e-2ed651238be3,fertig sein,de,A2,,/fəʁtɪg saɪn/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+08ae82d3-ec58-44b7-94a7-7a9739cfa117,ist dafür/dagegen,de,A2,,/ɪst dafyʁ/dagəgən/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+08d14264-b0e3-43d8-9ad1-7826c153ded7,nass,de,A2,Adjective,/nas/,wet (soaked with liquid),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+08e32006-96da-404e-8441-e72c77d83358,die Pommes frites (Pl.),de,A2,noun,/pomməs fʁɪtəs pl./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+0955f3a5-658d-477c-ba85-ed07a9fbd788,diskutieren,de,A2,Verb,/dɪskuˈtiːʁən/,"to discuss .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with über (+ accusative) ‘&lt;someone/something&gt;’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+0a065f05-ba71-4f13-8a67-da9df1afc608,streiten (sich),de,A2,Verb,/ˈʃtʁaɪ̯tən/,to argue; to fight; to quarrel,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+0aa68e73-c1a5-459e-8949-6403bba13b65,die Torte,de,A2,Noun,/ˈtɔrtə/,"a typically multilayered, often round cake with fillings of all kinds, often with icing and garnish",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+0ac68cd5-dfe9-44a3-b59b-98d393dd1865,witzig,de,A2,Adjective,/ˈvɪtsɪç/,"funny, humorous, witty",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:54:04.261188+00
+0b5ded77-99af-4027-b667-94b45bd917e3,die Lüge,de,A2,Noun,/ˈlyːɡə/,lie,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+0b6552c2-8d43-41a3-b72e-7f76c6a0e729,frisch,de,A2,Adjective,/fʁɪʃ/,fresh,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+0b93bddf-9efa-43ae-b42a-52c4042938e7,die Bluse,de,A2,Noun,/bluːzə/,blouse,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:43:07.573724+00
+0bb1c866-04f3-4308-b411-61fbc0ae981a,trainieren,de,A2,Verb,/tʁɛˈniːʁən/,"to work out, to exercise, to train",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+0ce3365a-3dab-4adb-8718-552ca36f57e0,die Situation,de,A2,Noun,[zitʊ̯aˈt͡si̯oːn],"situation, circumstances",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+0d21ba76-124c-473e-951b-f08031bb663a,die Ruhe (Sg.),de,A2,noun,/ʁʊhə sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+0d29ab25-57ce-4c2d-9c99-13dd43d969fd,beraten,de,A2,Verb,[bəˈʁaːtn̩],to discuss,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:27:51.033903+00
+0dd12ec3-3548-4e2f-9ef0-edc82ec2d118,sogar,de,A2,Adverb,/zoˈɡaːɐ̯/,"(usable with nouns, verbs or modifiers) even, actually, in fact",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+0e143aea-c0aa-496c-87d3-64dafeffa77e,das Schiff,de,A2,Proper noun,/ʃɪf/,"Schiff: a surname originating as an occupation The occupational surname taken up by mariners and boatmen.
+a Jewish surname from Yiddish [in turn from German]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+0eaf6616-1eea-4fca-bd79-b5f6dc625cad,die Zahl,de,A2,Noun,/tsaːl/,"number, numeral, figure",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+0f26693a-cb28-4730-a4ae-e34e41fada7c,der Zucker (Sg.),de,A2,noun,/tsʊckəʁ sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+0f8784fe-9e0c-4503-813e-e1f0580c5ff5,aufhören,de,A2,Verb,/ˈaʊ̯fˌhøːrən/,to listen up,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+0fbb81e0-1e58-4dca-bda0-6f415760cada,stressig,de,A2,Adjective,/ʃtʁəssɪg/,stressful,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:43:15.799635+00
+0fca0bf9-1208-43a5-889e-da8925baf5cb,die Ferien (Pl.),de,A2,noun,/fəʁiːn pl./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+10243bda-8e9f-4ac1-82f3-d3bce4a1b64e,hat geduscht,de,A2,,/hat gədʊʃt/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+1042b328-974d-45f9-8560-e749d8fba1c7,die Krankheit,de,A2,Noun,[ˈkʁaŋkˌhaɪ̯t],"sickness, illness",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+104bf608-8d15-4b9a-8e4d-7c43948fb178,unterhalten (sich),de,A2,Verb,/ˌʊntəʁˈhaltən/,to maintain,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+10af21e8-6982-42c5-81ea-2c910da5dce8,die Postkarte,de,A2,Noun,/ˈpɔstˌkaʁtə/,postcard,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+10b936ec-53ec-44f6-9186-391ce661a2ad,die Ausbildung,de,A2,Noun,/ˈaʊ̯sˌbɪldʊŋ/,"training, apprenticeship, vocational education, education",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+11797839-04ef-4b52-b2e8-d9f37aa8d15b,die Apotheke,de,A2,Noun,/apoˈteːkə/,pharmacy,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+119b4105-5166-455d-8963-4d56140816dd,träumen,de,A2,Verb,/ˈtʁɔɪ̯mən/,"to dream .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[ with reflexive dative]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+11d241e2-46a9-4284-8024-014b25423448,endlich,de,A2,Adjective,/ˈɛntlɪç/,"finite, limited",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+11e8c8c3-2969-4ef4-a32e-8b8e615c4542,das T-Shirt,de,A2,Noun,/ˈtiːˌʃøːɐ̯t/,"T-shirt, tee",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+12670c4d-004c-438c-87ca-7c79cd4ed1cc,unbedingt,de,A2,Adjective,/ˈʊnbəˌdɪŋt/,absolute,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+128a89b5-a1cf-454e-9ae2-bdf471441d77,der Apparat,de,A2,Noun,/apaˈʁaːt/,"apparatus, device, machine (complex instrument)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+12be7843-f6c8-4407-967a-442a7952fd7c,der Babysitter,de,A2,Noun,/ˈbeːbiˌsɪtɐ/,babysitter,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+12ccee22-feec-4505-a3c7-02311d15f222,das Tennis (Sg.),de,A2,noun,/tənnɪs sg./,tennis,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-06-06 15:58:48.884121+00
+12cea7f8-0c93-4ce0-aece-4d2c68aa1199,die Leute (Pl.),de,A2,noun,/lɔɪtə pl./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+12e1a6a0-f79c-4e36-9798-d2aaf6a503ed,husten,de,A2,Verb,/ˈhuːstən/,to cough,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+1305a7a6-aa7a-4342-b638-c46d5377973e,herein/rein,de,A2,,/həʁaɪn/ʁaɪn/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+1305cd5e-5a90-40d9-8d50-46d857e3d650,ausgeben,de,A2,Verb,/ˈaʊ̯sɡeːbən/,"to spend, to expend; to pay out .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with accusative ‘money, etc.’ and für (+ accusative) ‘on someone/something’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+137df63d-18ed-47cc-ab56-f6eea94b6763,der/das Laptop,de,A2,,/dəʁ/das laptop/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+13f06302-5842-477e-9802-831db09f9a97,das Gegenteil,de,A2,Noun,/ˈɡeːɡn̩taɪ̯l/,opposite (contrary thing),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+145a613c-f5fd-4073-9cb5-f5df389c72af,der Krimi,de,A2,Noun,/ˈkʁɪ.mi/,"crime story, crime thriller",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+14915bed-0738-4a97-900e-2bb472a36011,leihen,de,A2,Verb,/ˈlaɪ̯ən/,to borrow,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+14b515a8-19ad-43be-9b8b-a6c09f9f1783,schlimm,de,A2,Adjective,/ʃlɪm/,"bad, terrible, serious , dire, horrible, awful",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+15f3b18f-57d2-434f-b127-47893003245d,die Ferien,de,A2,Noun,/ˈfeːri̯ən/,"holidays during which an institution (especially a school, university) or a business is closed; break (usually three days or more)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:43:07.573724+00
+163a943e-11da-4dbb-9dce-1ed55eb76296,gesund,de,A2,Adjective,/ɡəˈzʊnt/,healthy (enjoying health),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+1642773b-856a-47d1-bf17-316529098731,merken,de,A2,Verb,/ˈmɛʁkŋ̍/,"to notice, to sense, to be able to tell",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+16764bc4-9342-4811-aada-18b9ba59447e,begründen,de,A2,Verb,[bəˈɡʁʏn(d)n̩],"to justify, to explain (to give a reason for a chosen course of action) .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with mit (+ dative) ‘by doing something, with an argument’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+167cdd72-92fa-45fb-b405-d3b9f4872ed2,an sein / aus sein,de,A2,,/an saɪn / aʊs saɪn/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+16d5d064-c13e-4a53-be2e-51015993444a,bedanken (sich),de,A2,Verb,/bədankən/,"to thank, to express thanks [with bei (+ dative) ‘(to) someone’ and für (+ accusative) ‘for something’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:39:22.307722+00
+17818a05-11db-498a-bb9e-1c67f7d8506f,die Kunst,de,A2,Noun,/kʊnst/,art,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+17cf5c7d-1c88-40fe-94d6-52b3ed38320a,treffen (sich),de,A2,Verb,/ˈtʁɛfən/,to meet; to encounter,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+18313290-4f13-43af-8ce6-d77afdd952a3,schimpfen,de,A2,Verb,/ˈʃɪmpfən/,"to tell off, to scold, to yell at .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with mit (+ dative) ‘someone’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+185ba39d-bc69-42f4-bc45-ba592824423c,zumachen,de,A2,Verb,[ˈtsuːmaxn̩],to close; to shut,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:54:04.261188+00
+1887b33b-48a0-422a-84e4-22d5218d3f03,untersuchen,de,A2,Verb,/ʊntərˈzuːxən/,"to examine, investigate (inspect or study carefully in order to reach a conclusion)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+18e1015e-e29e-49b9-a183-6f82a19d7609,der Supermarkt,de,A2,Noun,/ˈzuːpɐˌmaʁkt/,supermarket,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+190e33c3-95fb-422b-8f5a-c4adffa435e3,erkältet sein,de,A2,Verb,/ˈan zaɪ̯n/,to have a cold,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+1913d5f5-cdfe-409e-8927-8d6b9f8b2992,blond,de,A2,Adjective,/blɔnt/,"blond; fair; unlike English, not commonly used of anything other than hair (except beer, see hereunder)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+1956e54b-cdb8-4434-bd8d-96738d37db25,die Freizeit (Sg.),de,A2,noun,/fʁaɪtsaɪt sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+1a4ab5e1-7e9a-4a5c-bd26-271526e46861,kühl,de,A2,Adjective,/kyːl/,cool,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+1aa161ef-4391-41a0-8842-251a2415737a,die Qualität,de,A2,Noun,/ˌkvaliˈtɛːt/,"quality (level of excellence, level of being free from defects)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+1abd890b-3e97-4eee-adc9-12251b94c5b2,vorgestern,de,A2,Adverb,/foʁgəstəʁn/,"ereyesterday, the day before yesterday",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:43:21.293716+00
+1b0b98ca-9aa3-4748-809a-e3bea79e7ed9,schwach,de,A2,Adjective,/ˈʃvax/,"weak, lacking in strength",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+1b0e9ff1-f882-4fe7-b159-9e5433b9c324,wecken,de,A2,Verb,/ˈvɛkŋ̩/,"to wake, to wake up",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+1b0f7728-5dfb-41af-be75-7bbc599a7c6e,komisch,de,A2,Adjective,/ˈkoːmɪʃ/,"comedic, comic, pertaining to comedy",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+1c386420-efd2-461b-a94f-0e7f78ffc504,der Star,de,A2,Noun,/ʃtaːr/,starling,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+1c6fdcef-9a9b-4989-9f2f-d3a6f5ae352e,die Datei,de,A2,Noun,/daˈtaɪ̯/,file,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:43:07.573724+00
+1cf2bb4d-2a83-46e4-b8e8-2f01876f20a3,der Wald,de,A2,Noun,/valt/,forest; woods; woodland,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+1d262df8-0d3a-4e65-b013-272a2bb6b8bb,der Ring,de,A2,Noun,/ʁɪŋ/,"a ring (a circular and hollow object, made of any material.)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+1d338636-93dd-4f00-8fd4-6676f68b84cb,der Himmel (Sg.),de,A2,noun,/hɪmməl sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+1d4492fe-3e53-40df-93a8-4df937fad657,chatten,de,A2,Verb,/ˈtʃɛtn̩/,to chat,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+1d4a6a6f-45e8-4d52-bd7c-3be4b21164af,die (E-)Mail,de,A2,Noun,/ˈiːˌmɛɪ̯l/,e-mail (system; letter),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+1dcb70df-536d-4600-bc8e-53e328cde790,war dafür/dagegen,de,A2,,/vaʁ dafyʁ/dagəgən/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+1dfe19ec-ba8f-4480-bf06-b1c06b5bb99d,hat eingepackt,de,A2,,/hat aɪŋəpackt/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+1e05896d-2010-4ffa-b714-91df1bbffe13,die Angst,de,A2,Noun,/aŋst/,fear; fright; anxiety,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+1e943727-a16c-4c4a-b15d-4d5e084dac78,besonders,de,A2,Adverb,[bəˈzɔndɐs],"especially, particularly",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+1f23ba65-696d-4e9a-8a8a-660507979b84,außer,de,A2,Preposition,/ˈaʊ̯sɐ/,except; besides; apart from,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+1fa67dd2-d60f-4af8-8541-901720f13a60,das Gewitter,de,A2,Noun,/ɡəˈvɪtɐ/,"thunderstorm, lightning storm",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+1faed4d2-969e-48a0-a960-fc59368ef36e,die Ermäßigung,de,A2,Noun,/ɛɐ̯ˈmɛːsɪɡʊŋ/,discount,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:43:07.573724+00
+1fedc926-b304-4c6f-9f5d-3e990e84d4cb,verabredet sein,de,A2,,/fəʁabʁədət saɪn/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+201c20b1-8658-4213-8c63-64f5c70acd34,das Pferd,de,A2,Noun,/pfeːrt/,horse,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+204ef660-8e97-4989-a66b-fb5a2850d10c,rechnen,de,A2,Verb,/ˈʁɛçnən/,"to count, reckon, calculate, compute",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+206f2ab4-cd27-430f-868e-5e40ba11a903,tschüs,de,A2,Interjection,/tʃyːs/,alternative form of tschüss,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+20ae55e4-e175-48d1-8b91-ff34bc0b34b2,aufmachen,de,A2,Verb,/ˈaʊ̯fˌmaxən/,"to open (a container, a door or window)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+20bab7dc-27f5-414d-946f-55a739354d19,die Geschichte,de,A2,Noun,/ɡəˈʃɪçtə/,history,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:43:07.573724+00
+213ddc9d-1a9e-4e04-8e65-cc2447fb8cfc,weg/weg-,de,A2,,/vəg/vəg-/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+22d08ce0-ed58-4fe6-b6ef-411fad4e62b9,drüben,de,A2,Adverb,/ˈdryːbən/,over (implying some distance from the listener),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+235b1e36-eef5-4f7a-968b-9746c203d3ab,der Spaß (Sg.),de,A2,noun,/ʃpas sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+23bcac7f-7984-467f-8110-1d411b7d7adc,das Rathaus,de,A2,Noun,[ˈʁaːthaʊ̯s],"city hall, town hall (city council meeting house)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+23d0fecc-c103-4ad3-858d-cf343ca250cf,das Team,de,A2,Noun,/tiːm/,team,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+23d3e67e-7daa-4a52-a93f-534db3adec29,einziehen,de,A2,Verb,/ˈaɪ̯nˌt͡siːə̯n/,"to thread (elastic, thread etc.) [auxiliary haben]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+23d79dae-b043-4cbc-8441-a8a3447a5e8f,wirklich,de,A2,Adjective,/ˈvɪʁklɪç/,real,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:54:04.261188+00
+23db538a-08af-481b-8605-80a25e8cf422,interessieren (sich),de,A2,Verb,/ˌɪn.tə.ʁɛˈsiː.ʁən/,to interest,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+24011e35-4e8b-4137-825c-ddddc911eb9d,der Käse (Sg.),de,A2,noun,/kɛsə sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+24c154ca-e5aa-4ba1-ba32-98b5aef1219d,fleißig,de,A2,Adjective,/ˈflaɪ̯sɪç/,"diligent, hard-working, industrious, busy, assiduous, sedulous",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+25329d46-3928-4d7e-9f04-92b9c8d7c2e1,wegen,de,A2,Preposition,/ˈveːɡən/,"for, because of",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+25b52608-a616-40d1-b4f6-525d95cd39a6,dick,de,A2,Adjective,/dɪk/,thick,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+25ff5fce-df7c-4523-985d-307ef83b5b27,beliebt,de,A2,Participle,/bəˈliːpt/,past participle of belieben,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:27:51.033903+00
+2662348b-f869-44b1-a699-c7995ba5ebd1,die Universität,de,A2,Noun,/ˌuni.vɛʁ.ziˈtɛːt/,university,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+272fe6de-16b2-4803-8ac6-c5f43b531431,aufregend,de,A2,Participle,/ˈaʊ̯fˌʁeːɡn̩t/,present participle of aufregen,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+27b0a49a-a8fb-427f-9a23-80bd1f8f4bf0,außerhalb,de,A2,Preposition,/ˈaʊ̯sɐhalp/,"outside (of), beyond",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+2859b93b-d083-4aca-a3d8-05f5fe8447fa,der Hamburger,de,A2,Adjective,/ˈhamˌbʊʁɡɐ/,of Hamburg,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+28a08f4a-2fed-4ca0-9ebe-cf3b0845027a,teilen,de,A2,Verb,/ˈtaɪ̯lən/,"to split, to share",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+28ba9c32-ba13-43f9-a87b-411032a03420,ist erkältet gewesen,de,A2,,/ɪst əʁkɛltət gəvəsən/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+28c77b1c-69d2-42a9-b071-0987ba105cf2,austragen,de,A2,Verb,[ˈaʊsˌtʁaːɡən],"to (go from house to house and) deliver sth.,",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+295ae581-f0e1-44b9-ad12-f6bed8982c9d,der Anzug,de,A2,Noun,/ˈantsuːk/,verbal noun of anziehen,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+29723b35-da22-4648-9522-4e822477028e,die Seife,de,A2,Noun,/ˈzaɪ̯fə/,soap (substance),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+29a3544a-7e19-4273-b70c-9b98a537f708,die Kosmetik (Sg.),de,A2,noun,/kosmətɪk sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+2cd7a4a2-47a1-4c53-a6ca-8b5f53c8ee2a,der Traum,de,A2,Noun,/tʁaʊ̯m/,dream,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+2cfabbe3-c5ef-491f-8b41-f082baaa71ef,ganz,de,A2,Adjective,/ɡan(t)s/,"entire, whole, complete",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+2d89c25a-48d9-48a8-9cd5-628c1de9b396,jeder,de,A2,Pronoun,/ˈjeːdɐ/,each,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+2e348131-e18e-40f4-a905-37026189660f,die Krankenkasse,de,A2,Noun,[ˈkʁaŋkənˌkasə],health insurance company,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+2e557a12-d45d-4429-8780-ee4c037f9876,notwendig,de,A2,Adjective,/ˈnoːtˌvɛndɪç/,"necessary; essential; indispensable .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with für (+ accusative) ‘for something’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+2e84b938-b00b-4564-b08a-5628a2c8d6b0,abschließen,de,A2,Verb,/ˈʔapʃliːsn̩/,"to end, to finish or complete (one's studies, a task)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:27:36.966006+00
+2ee5ab4c-e1d6-4367-ae55-15fa2cec170e,der Körper,de,A2,Noun,/ˈkœrpər/,"body (of a person, animal, etc.)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+2f065dba-8866-4951-aced-cf98bbe1f2ef,fett,de,A2,Adjective,/fɛt/,fat,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+2f667a96-ddc3-4e9c-9779-3ec930a3075a,die Zeitschrift,de,A2,Noun,/ˈt͡saɪ̯tˌʃʁɪft/,magazine (published in regular intervals),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+306128ef-860e-4cab-9227-316a2052e7e2,die Tasse,de,A2,Noun,/ˈtasə/,"cup, mug (drinking vessel)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+309dbaf8-c235-486e-b557-5fb5d10493a6,die Seite,de,A2,Noun,/ˈzaɪ̯tə/,side (a bounding straight edge of a two-dimensional shape),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+30cedf39-186b-4e34-899a-77c59cb6ab95,das Ausland (Sg.),de,A2,noun,/aʊsland sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+310864bf-f825-4c5c-a333-1b9a909d54f9,notieren,de,A2,Verb,/noˈtiːʁən/,"to note, to note down, to write down, to jot down",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+3141272c-578f-47c3-8eda-6584dec0a204,der Müll (Sg.),de,A2,noun,/myll sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+3167daf0-cf1b-4057-8bce-aed45462add0,egal,de,A2,Adjective,/eˈɡaːl/,"all the same, unimportant",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+31f76705-9764-4336-bee1-71a91c38d5d7,deutlich,de,A2,Adjective,/dɔɪtlɪç/,"articulate, clear",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:39:47.898001+00
+32bbcc0f-3b38-43c7-a578-ad8b1bf8e08b,einpacken,de,A2,Verb,/ˈʔaɪ̯nˌpakŋ̩/,"to wrap up; to pack up (a gift, etc.)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+33235fd1-267a-42a7-a727-28f0207056e1,die Kreuzung,de,A2,Noun,/ˈkʁɔɪ̯t͡sʊŋ/,"crossing, intersection",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+33bb4b19-44b3-4c95-af1e-f691b0e0a4aa,geehrt-,de,A2,Participle,/ɡəˈeːʁt/,past participle of ehren,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:42:02.469409+00
+345fb025-0afa-4e44-b9b0-1b7a731085ec,sammeln,de,A2,Verb,/ˈzaml̩n/,to gather; to assemble; to collect,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+347c6294-3060-4efc-8c75-d2c46fafd0b8,braten,de,A2,Verb,/ˈbʁaːtən/,to pan-fry,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+34f4ae3d-f721-4ceb-8b53-fb4513902b2d,freundlich,de,A2,Adjective,/ˈfʁɔɪ̯ntlɪç/,"friendly, benign",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+3532dd69-dd71-43ce-9010-3aa3601cb590,das Wohnzimmer,de,A2,Noun,/ˈvoːnˌt͡sɪmɐ/,living room,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+35ed151a-54e2-4644-b824-90a65adf6fd1,german word,de,A2,,/gəʁman voʁd/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+362fa543-733e-489a-83d1-29951d337d4d,verlieren,de,A2,Verb,[fɛɐ̯ˈliːʁən],"to lose (something, or a game)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+36ca4354-9802-4369-a9d8-0435d573a23b,der Strand,de,A2,Noun,/ʃtʁant/,beach,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+374fe506-adcf-4b44-932a-7bcff2ce16e1,die Hose,de,A2,Noun,/ˈhoːzə/,trousers,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+3819800b-65aa-4cc5-975a-aeabdb5c728d,manch-,de,A2,Pronoun,/manç/,many a; many; some,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:42:17.097788+00
+3887c4fb-e80e-449c-b69a-e79166cbcd68,auspacken,de,A2,Verb,/ˈaʊ̯sˌpakn̩/,"to unbox, to unpack, to unwrap (a package, gift, etc.)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+38b88f4e-785b-4048-a3ad-e8f6deceb393,welcher,de,A2,Determiner,/ˈvɛlçər/,which; what,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+38eb2309-a5d0-47cb-8701-bacdc6951582,direkt,de,A2,Adjective,/diˈʁɛkt/,"direct, straight, without deviation or interruption",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+3906860c-4d40-40f3-8a8f-638f793f3f8c,das Hemd,de,A2,Noun,/hɛmt/,"shirt, or in particular a dress shirt",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+39149020-c90b-46cc-a8bc-6907c78f06ec,total,de,A2,Adjective,/toˈtaːl/,"total, absolute, complete, utter",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+392972c5-3062-4926-8708-88190e1fd7cc,die Idee,de,A2,Noun,/iˈdeː/,idea,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+39625d01-76a3-4196-b720-0ca5bf6d1c0b,meistens,de,A2,Adverb,/ˈmaɪ̯stn̩s/,mostly (for the most part),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+39baa502-9681-4143-b74d-8db9aa0626b9,die Feier,de,A2,Noun,/ˈfa̯ɪɐ/,celebration,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:43:07.573724+00
+3b81ce1f-b863-4247-bc29-9159d9ea9892,die Partnerin,de,A2,Noun,/ˈpaʁtnəʁɪn/,female equivalent of Partner,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+3b8770d6-e844-4ad0-8222-fbdceb032c41,kündigen,de,A2,Verb,[ˈkʏndɪɡən],"to cancel, to terminate (a continuous obligation) .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with dative or accusative]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+3bbc7212-d83e-441a-b9d8-0a22e3ade8eb,das Alter (Sg.),de,A2,noun,/altəʁ sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+3cfe7285-7ecd-414a-a92d-439dc2d373d2,der Vorschlag,de,A2,Noun,[ˈfoːɐ̯ʃlaːk],"suggestion, proposal (something proposed)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+3d26f178-450c-4433-9b39-c04a0d1718fe,hängen,de,A2,Verb,/ˈhɛŋən/,"to hang, to be suspended .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with an (+ dative) ‘on something’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+3d5d80f0-53e3-42e9-abc2-cc9c45c76289,eintragen (sich),de,A2,Verb,/ˈaɪ̯nˌtʁaːɡən/,to endorse,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+3db06b2a-b9d7-4b0f-8cf7-61e06d60bd4b,beenden,de,A2,Verb,[bəˈʔɛndn̩],"to finish, to complete, to (bring/put to an) end",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+3ddf1ed9-7144-471b-9a8c-20fe675b5525,das Stockwerk,de,A2,Noun,[ˈʃtɔkˌvɛʁk],"floor, storey, level (of a building)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+3de3e77e-03d7-4bc2-b77d-e7114c0852a3,die Grippe (Sg.),de,A2,noun,/gʁɪppə sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+3ebf9c20-32bd-4358-9c73-1ebdb2f81cca,einverstanden sein,de,A2,,/aɪnfəʁstandən saɪn/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+3f5f73ac-ab3a-4660-9c86-927640014813,das Gemüse (Sg.),de,A2,noun,/gəmysə sg./,vegetable; vegetables (kinds of plants),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-26 08:41:37.931014+00
+3f841e6f-dbbe-428d-b7e6-ee0e94d1b03d,die Verspätung,de,A2,Noun,/fɛɐ̯ˈʃpɛːtʊŋ/,"delay, lateness, late arrival",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+403ae82f-2a7c-4002-b16f-f5ea660d23a5,fotografieren,de,A2,Verb,/fotoɡʁaˈfiːʁən/,to photograph,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+40b7380b-9c2f-4b2a-8cf6-80cfb26e3d2f,der Park,de,A2,Noun,/paʁk/,"park (piece of ground in or near a city or town, enclosed and kept for ornament and recreation)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+414df14a-7a8f-4164-b51d-19f67748da96,das Obst (Sg.),de,A2,noun,/oːpst/,fruit (food),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-20 16:43:35.247726+00
+4186fb64-c17a-4724-8e61-54c9c84e995b,steigt ein,de,A2,Verb,/ʃtaɪgt aɪn/,"inflection of einsteigen:
+third-person singular present
+second-person plural present
+plural imperative",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:43:15.339093+00
+4200f581-3a66-4ecd-bc8a-cf53bd54dad1,hat gedauert,de,A2,,/hat gədaʊəʁt/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+421b74f6-fc3b-4240-a434-fe9a8aabdec9,ansehen,de,A2,Verb,/ˈʔanˌzeːən/,"to look at, to have a look at",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+436f461f-3baf-409f-8f34-6c21de3a64a7,wach,de,A2,Adjective,/vax/,awake,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+43e7fa61-2d28-40eb-a38f-3cb5be0ee8bf,online,de,A2,Adjective,/ˈɔnlaɪ̯n/,online,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+441f836f-f9e4-466d-8a3e-a4072e785765,lügen,de,A2,Verb,/ˈlyːɡən/,to tell a lie; to lie (to intentionally give false information),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+447d89ce-8c9e-4a22-8303-3e21a8b717b2,die Homepage,de,A2,Noun,/ˈhɔʊ̯mpeːt͡ʃ/,homepage,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+455f87e2-aff1-4de7-b11c-2a2b0323da34,der Rücken,de,A2,Noun,/ˈʁʏkn̩/,back,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+45600e21-d1e0-40ff-9a9a-3c9e2a3727fe,der Bescheid,de,A2,Noun,/bəˈʃaɪ̯t/,"notification, information",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+45ddf24d-7ec3-4430-9661-d3efedebb4cb,zuletzt,de,A2,Adverb,/t͡suˈlɛt͡st/,finally; lastly; in the end,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:54:04.261188+00
+45ee7dd7-a1de-461f-a4e5-86dbd9188f3e,das Schwein,de,A2,Noun,/ʃvaɪ̯n/,"swine, pig",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+4671e49b-ba0b-4a5d-a6bc-c4ecb00c1842,dafür/dagegen sein,de,A2,,/dafyʁ/dagəgən saɪn/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+4681cf76-7eb6-46a0-85a0-7755efa73321,langweilig,de,A2,Adjective,/ˈlaŋvaɪ̯lɪç/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+46e01c2c-8d86-4c5c-bc6e-0b081e9e6768,der Tipp,de,A2,Noun,[tɪp],"tip, hint",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+47cd2fae-f5ad-45a4-a2f6-555c9f96f25e,kalt,de,A2,Adjective,/kalt/,"cold, chilly; the physical perception of something (objects, weather, body etc.) to have a low temperature",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+4953116e-9aa0-474e-b186-f84488cc3e03,zurück- (fahren,de,A2,,/tsʊʁyck- fahʁən/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+49ac13e1-6fac-4e83-bb52-8057fad57774,fantastisch,de,A2,Adjective,[fanˈtastɪʃ],fantastic,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+4bb78cc2-bed5-4dc6-893e-18e915fcc8a3,die Heimat (Sg.),de,A2,noun,/haɪmat sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+4bced242-d278-447f-8c08-3d3867588b47,hoffen,de,A2,Verb,/ˈhɔfən/,"to hope .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with auf (+ accusative) ‘for something’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+4c215cff-19a6-4f85-ac6f-4c6e251989fc,die Papiere (Pl.),de,A2,noun,/papiːʁə pl./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+4cf0adb2-64de-435f-80e8-60e8bf3a0178,die Heizung,de,A2,Noun,[ˈhaɪ̯t͡sʊŋ],heating (a system that raises the temperature of a room or building),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+4dc5d616-fbcb-4746-9da6-5a9b978bc8aa,der Titel,de,A2,Noun,/ˈtiːtl/,title,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+4e1a924d-2d2b-4fd7-a866-931256491bcc,nächste,de,A2,Adjective,/ˈnɛːçstə/,"inflection of nah:
+strong/mixed nominative/accusative feminine singular superlative degree
+strong nominative/accusative plural superlative degree
+weak nominative all-gender singular superlative degree
+weak accusative feminine/neuter singular superlative degree",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+4e5da02c-6761-47e7-a504-4f5a0ed7d885,pro,de,A2,Preposition,/pʁo/,"per, each",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:43:08.955646+00
+4e7437ba-ec8a-46fb-a324-462b7c7b4b8e,das Produkt,de,A2,Noun,[pʁoˈdʊkt],product,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+4f26064a-3bd9-4c01-bc51-76f46de225dc,zuhören,de,A2,Verb,/ˈt͡suːˌhøːʁən/,"to listen .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with dative ‘to someone/something’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:54:04.261188+00
+4f261e2e-8171-4b10-81a0-f7d666de37b4,vereinbaren,de,A2,Verb,/fɛʁˈaɪ̯nbaːʁən/,to agree upon,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+5027108d-64f6-467d-95af-e8574fb91e03,die Kleidung (Sg.),de,A2,noun,/klaɪdʊŋ sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+502a191d-ccc9-4c8d-affc-cf8ebf61c4fc,der Hals,de,A2,Noun,/hals/,neck,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+5092f580-81b4-4ad0-ab5a-bf0296451451,bewölkt,de,A2,Participle,[bəˈvœlkt],past participle of bewölken,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+50a1c303-2627-4c14-8df7-f1540dd75f9a,der Rock,de,A2,Noun,/ʁɔk/,skirt,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+50f9acef-8d7d-4508-bdf7-bbd2ae56e392,die Reihe,de,A2,Noun,/ˈʁaɪ̯ə/,row,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+514f2b7e-5d28-4f74-b88f-80c3b97943ab,aufpassen,de,A2,Verb,[ˈaʊ̯fpasən],"to watch out, to be alert",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+51740bd2-cd36-46c2-bad2-1ec25c76792d,das Ding,de,A2,Noun,/dɪŋ/,thing,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+51a1c621-3832-4826-9796-e9813a248d97,das Ohr,de,A2,Noun,/oːr/,ear (the auditory organ),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+51a4fed9-a469-42ff-a7ed-e782d2955c16,hin/hin-/-hin,de,A2,,/hɪn/hɪn-/-hɪn/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+51a607e8-179f-41f3-9681-d04ac03f445e,das Radio,de,A2,Noun,/ˈraːdi̯o/,radio (technology that allows broadcasters to transmit audio programs; such programs),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+52420a91-e46e-4d42-8165-e15e28a8c1f8,hat gechattet,de,A2,,/hat gəçattət/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+533200e3-e465-4177-ab14-f0b886a1ed4a,drinnen,de,A2,Adverb,/ˈdʁɪnən/,inside (a room),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+53322c80-801a-41c3-8600-b787aacde6b8,surfen,de,A2,Verb,/ˈsœʁfn̩/,to surf,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+5338721a-b2b3-4215-b1d0-d78d75607f56,verschieben,de,A2,Verb,/fɛrˈʃiːbən/,"to move, to shift",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+539e32d6-253c-4c8f-b494-bb60dd8a1943,die Möbel (Pl.),de,A2,noun,/møbəl pl./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+53b43f04-c6fa-48f8-ac7f-7dd190375bdc,prüfen,de,A2,Verb,/ˈpʁyːfn̩/,"to check, test, examine
+to subject (something) to an inspection or review",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+542ec9bf-bfed-4cd7-b74e-65cffc70a63b,rufen,de,A2,Verb,/ˈʁuːfən/,"to call out, to shout, to cry",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+545b41b0-cf7e-4443-a40c-1c1199e5c355,die Ausstellung,de,A2,Noun,/ˈaʊ̯sʃtɛlʊŋ/,exhibition,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+547aa8cc-a4c3-4ddc-98db-3555cab239f5,das Interview,de,A2,Noun,/ˈɪntɐˌvjuː/,interview (journalistic dialogue),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+5493fdda-cfa8-447c-9457-eb43b03d294c,die Wäsche,de,A2,Noun,/ˈvɛʃə/,"wash, washing, laundry (the act of cleaning with water; an instance thereof)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+54ddbbb2-1afa-4aba-b849-1052d1d74693,die Baustelle,de,A2,Noun,/ˈbaʊ̯ʃtɛlə/,"building site, construction site",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:43:07.573724+00
+551839d0-19d1-42ff-a935-5b16af88e6b1,hart,de,A2,Adjective,/hart/,hard,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+5543c25d-28be-4ef1-9c41-9ea9aa543bec,intelligent,de,A2,Adjective,/ʔɪntɛliˈɡɛnt/,intelligent,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+5580eb3a-8edf-44f3-b913-a4b284617346,jemand,de,A2,Pronoun,/ˈjeːmant/,"someone, somebody",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+55d49624-4f6e-49c4-a347-599936916d14,einig-,de,A2,Pronoun,/ˈaɪ̯nɪç/,"some, a few, plenty",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:41:53.798931+00
+5605379b-9340-45a3-9fe9-8ccad94cc212,ist erlaubt gewesen,de,A2,,/ɪst əʁlaʊbt gəvəsən/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+56274607-ebf9-4e0c-974b-2179a08090ee,das Geld (Sg.),de,A2,noun,/ɡɛlt/,money,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-20 16:44:08.356152+00
+566a5b38-b56b-42c6-a297-7c9b94bd2a1c,zuerst,de,A2,Adverb,/tsuˈʔeːɐ̯st/,"first, firstly",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:54:04.261188+00
+57792300-79d3-4588-b53c-e9a88386d94f,die Tafel,de,A2,Noun,/ˈtaːfl̩/,"panel, board (e.g., wooden panel)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+58455e2b-758e-4c0e-99b3-46bab2b058e0,die Cafeteria,de,A2,Noun,[kafeteˈʀiːa],cafeteria,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:43:07.573724+00
+589ec616-5557-4bf5-be17-ac57754d28d2,fit sein,de,A2,,/fɪt saɪn/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+59501c77-697c-4562-b61d-645437415f15,der Zettel,de,A2,Noun,/ˈt͡sɛtəl/,"a small or loose piece of paper, slip",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+5a7d1c09-5b3d-49f5-b7a4-d418ad3bdca0,die Kenntnisse (Pl.),de,A2,noun,/kənntnɪssə pl./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+5b0699dd-9b0d-41d7-b45d-dfdfa7d3643a,vorbereiten,de,A2,Verb,/ˈfoːʁbəˌʁaɪ̯tən/,to prepare,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+5b09c099-5098-4288-bb7d-1143d9497884,fährt (ab),de,A2,Verb,/fɛhʁt ab/,third-person singular present of abfahren,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:41:59.275124+00
+5bca2d03-55c1-4516-994c-73a70d366456,die Garage,de,A2,Noun,/ɡaˈʁaːʒə/,"garage (building used to store cars, tools, etc.)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:43:07.573724+00
+5ccbeb48-a8bd-4f58-9f36-52a3b9f86d12,das Tier,de,A2,Noun,/tiːr/,animal,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+5d1abbc1-abb7-44fd-b779-e38a7e7dd910,anmelden (sich),de,A2,Verb,/ˈʔanmɛldn̩/,"to announce, declare",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+5daef278-25fc-473a-a3ce-dd827a06a3f4,offen,de,A2,Adjective,/ˈɔfən/,open,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+5dbbb535-a6d2-445b-be8d-5fa33cd2b36a,hässlich,de,A2,Adjective,/ˈhɛslɪç/,ugly,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+5ded95b4-d971-4ee1-a663-f030ff3881dd,schneien,de,A2,Verb,[ˈʃnaɪən],to snow [auxiliary haben],,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+5e068767-abc3-4540-8933-76c3d539987f,das Eis (Sg.),de,A2,noun,/aɪs sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+5e684b84-2ffd-4398-9534-57bc220c05d9,ist dabei gewesen,de,A2,,/ɪst dabaɪ gəvəsən/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+5e7a8eec-4f82-4f39-ad35-2bdda481a164,neben,de,A2,Preposition,/ˈneːbən/,"next to, beside, alongside, adjacent to, near, near to",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+5ea26048-e729-45e7-a29c-5e1ebd4d29de,das Büro,de,A2,Noun,/byˈroː/,office (room for working),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+5ea5542e-9769-4d54-94a9-4082b683125c,versuchen,de,A2,Verb,/fɛɐ̯ˈzuːxən/,"to try, to attempt  .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with zu (+ infinitive) ‘to do something’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+5f640722-9158-4add-adfd-8bd87b9cbdfc,gern,de,A2,Adverb,/ɡɛrn/,"willingly; gladly; with pleasure; usually expressed verbally in English, with like, enjoy etc.",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+606c2e85-59d0-4456-b3bd-eea933d3f64b,modern,de,A2,Verb,/ˈmoːdɐn/,"to rot, to molder",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+60810921-b1a1-4ce5-8f12-4b893359e5e3,ist erkältet,de,A2,,/ɪst əʁkɛltət/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+60d2b60b-9ee6-45d4-9498-8cf9599d4255,das Studium (Sg.),de,A2,noun,/ʃtʊdɪʊm sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+6159080e-092d-491d-a041-136af658b608,die Webseite,de,A2,Noun,/ˈvɛpˌzaɪ̯tə/,web page,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+6178a7fa-90fb-4ee4-8c4a-6be73fdbf9cb,der Link,de,A2,Noun,/ˈliŋk/,hyperlink,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+64390ef6-91f6-4143-8cc7-620b3e6cf2f4,beschreiben,de,A2,Verb,/bəˈʃʁaɪ̯bm̩/,to describe,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:27:51.033903+00
+64974098-0d27-49c6-8187-44915983d571,das Rezept,de,A2,Noun,/ʁeˈt͡sɛpt/,recipe,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+64af77ea-1ff9-4638-8c3f-3476d96175ec,war erkältet,de,A2,,/vaʁ əʁkɛltət/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+650411a6-5ce5-4425-950b-0e016370fb01,furchtbar,de,A2,Adjective,/ˈfuʁçtbaːɐ̯/,terrible,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+6588bdf9-0321-41c6-a54f-dcf75f725363,der Fernseher,de,A2,Noun,/ˈfɛʁnzeːɐ/,"a television set, a TV",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+66303a0e-cdb1-4d69-a8c5-1c6fe7c632af,rund,de,A2,Adjective,/rʊnt/,"round, rounded, similar as in English, especially:
+circular
+spherical, globular",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+665c88aa-5345-4187-8431-05f0004389db,die Orange,de,A2,Noun,/oˈrãːʒə/,orange,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+669401c5-8ea5-44eb-b5e1-a0f6a7179944,der Stift,de,A2,Noun,/ˈʃtɪft/,"pin (short rod of metal, wood etc., used e.g. for fastening)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+66b2055b-8371-4dc3-a76f-f7066994deee,aufräumen,de,A2,Verb,[ˈʔaʊ̯fʁɔʏ̯mən],to tidy up,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+66e8cd2a-5b57-4f82-99c0-49c185ca8ded,nützlich,de,A2,Adjective,/ˈnʏtslɪç/,useful; helpful,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+67476816-96e7-445f-9987-461c203d29cd,die Kultur,de,A2,Noun,/kʊlˈtuːɐ̯/,culture,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+674ec473-ce79-40b9-b784-abf731e78bde,reich,de,A2,Adjective,/ʁaɪ̯ç/,"rich, wealthy (having a lot of money and possessions)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+680aaf0d-dee3-45b9-9d17-24947150cb9c,war dabei,de,A2,,/vaʁ dabaɪ/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+6941077d-bb38-4ecd-a412-a4895d64401a,wenn,de,A2,Conjunction,/vɛn/,"when, whenever",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+69da9125-6a9e-4ee2-8b94-c7a8b95eee13,denken,de,A2,Verb,/ˈdɛŋkən/,"to think [with an (+ accusative) ‘about something’ or  accusative ‘something, e.g. a thought’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+6a09bde4-1b02-4d64-8524-8cc47da77144,die Sprechstunde,de,A2,Noun,/ˈʃprɛçʃtʊndə/,office hours,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+6a71ddb9-ba43-40eb-bbb6-bf7a59fd8308,umsteigen,de,A2,Verb,/ˈʔʊmʃtaɪ̯ɡŋ̩/,"to change, to interchange,  to switch (from one means of transport to another)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+6aced2c4-1aef-4c69-9ad8-cf9b0d955868,freuen (sich),de,A2,Verb,/ˈfʁɔʏ̯ən/,"to gladden, to make glad, to make pleased",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+6c532c69-a1d7-460a-ad3a-4808c3366b9d,das Wetter (Sg.),de,A2,noun,/vəttəʁ sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+6c533aa8-70ff-4712-a3ff-7af062ef3c5b,die Schokolade (Sg.),de,A2,noun,/ʃokoladə sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+6c91da43-749c-4e84-b746-973ce41e1ccb,wählen,de,A2,Verb,/ˈvɛːlən/,"to choose, to select",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+6cce9de6-1274-469f-8619-df0a9809d9de,ist dafür/dagegen gewesen,de,A2,,/ɪst dafyʁ/dagəgən gəvəsən/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+6cfe035d-d5ee-4314-8ec2-cd7211add3d0,der Stiefel,de,A2,Noun,/ˈʃtiːfəl/,boot (shoe),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+6d2c8ed6-1654-410c-a3cf-da8f553546fc,eng,de,A2,Adjective,/ɛŋ/,"narrow, tight",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+6d645ca9-750d-431a-822e-558c72006382,ein paar,de,A2,Determiner,[ˌaɪ̯n ˈpaːɐ̯],some; a few; a couple of,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+6d7b544b-6173-4dc6-8c27-89c672bfbdac,der Mitarbeiter,de,A2,Noun,/ˈmɪtarˌbaɪ̯tər/,"employee (person who works, together with others, in a particular business or institution)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+6d92d3df-d951-4c51-a884-2f2ba83c93b0,der Sportplatz,de,A2,Noun,/ˈʃpɔʁtˌplat͡s/,sports field,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+6de077e0-99dc-458d-911c-8ca0f9e44fae,empfiehlt,de,A2,Verb,/əmpfiːhlt/,third-person singular present of empfehlen,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:41:55.16957+00
+6de58037-2046-4859-911f-e348eb096437,die Brille,de,A2,Noun,/ˈbʁɪlə/,"(pair of) glasses, spectacles (frames bearing two lenses worn in front of the eyes to correct vision)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:43:07.573724+00
+6e022b45-f19b-4e0f-9a16-ab1a9f9149fa,hat gedankt,de,A2,,/hat gədankt/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+6e216d92-c909-4926-9c67-6553db079275,super,de,A2,Adjective,/ˈzuːpɐ/,"super, great, awesome",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+6ecc8e28-5321-4297-941d-20642241fac8,das Glück (Sg.),de,A2,noun,/glyck sg./,"happiness, joy, bliss (state or emotion)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-06-09 19:03:53.533269+00
+6edf10ba-3d36-4a13-ba44-1180a3e31c7c,vergessen,de,A2,Verb,/fɛɐ̯ˈɡɛsən/,to forget (lose remembrance of),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+6f5be38f-185b-48f0-a7e1-f3b9fe9847c6,wehtun,de,A2,Verb,[ˈveːtuːn],".mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with dative] to hurt",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+6fae5791-fbe8-4c20-a258-e943289a60cd,das Zentrum,de,A2,Noun,/ˈt͡sɛntʁʊm/,"center, centre
+ central point, the middle, e.g. of a circle",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+6fee7071-7a3f-429a-902b-d0a9c911fb1a,Geburts-(jahr,de,A2,,/gəbʊʁts-jahʁ/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+703bb2b1-5aaa-4b4b-8a15-61d3be4c0f6c,das Interesse,de,A2,Noun,/ˌɪn.təˈrɛsə/,interest (attention and concern),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+70a8fbfc-3af0-4c34-99a1-674833e228e5,auf jeden/keinen Fal,de,A2,,/aʊf jədən/kaɪnən fal/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+7155dd39-c5be-4ca4-b56d-70c3554217f3,die Lampe,de,A2,Noun,/ˈlampə/,"lamp, light (piece of furniture, or fixture mounted on a wall or ceiling, holding one or more electric light sockets)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+72620185-7a95-4d9a-a459-b574eb7566e2,mindestens,de,A2,Adverb,/ˈmɪndəstəns/,at least (at a lower limit),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+72ec0630-c97a-48c8-947c-a12dac3a668e,die Reinigung,de,A2,Noun,/ˈʁaɪ̯niɡʊŋ/,"cleaning, cleansing, purification",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+73742d70-1a4c-45a4-9120-b48eb8ac9263,der Ball,de,A2,Noun,/bal/,"ball (round or roundish object, most commonly used in games)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+73c04f5e-f65a-4305-8973-13e7a86eff46,schwierig,de,A2,Adjective,/ˈʃviːrɪç/,"difficult, hard, challenging, tough",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+74641aef-d7a4-487f-9236-c045826496f1,passen,de,A2,Verb,/ˈpasən/,"to fit .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with dative ‘someone/something’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+74f6ffd9-6367-4e16-b243-ea42832bd6fd,süß,de,A2,Adjective,/zyːs/,sweet,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+7510b917-a77d-4348-8261-5305125f65b9,die Bibliothek,de,A2,Noun,/bibljoˈteːk/,library,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:43:07.573724+00
+75d877ec-3d30-47be-9422-0cbb8bd8e308,der Rucksack,de,A2,Noun,/ˈʁʊkzak/,backpack,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+7734086a-49a6-492d-9cfa-a17251e9ca00,ist eingezogen,de,A2,,/ɪst aɪŋətsogən/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+7791e830-480d-49d6-a3b1-993092163363,der Wagen,de,A2,Noun,/ˈvaːɡən/,"a wheeled vehicle for transporting anything
+a car, an automobile, a vehicle
+
+a railroad car",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+779489f8-9cbe-4e72-ab77-f93c8f8906ba,reservieren,de,A2,Verb,/ʁəsəʁfiːʁən/,to reserve,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:43:11.234424+00
+77d2ece1-9544-43a6-b2ce-b37f32cf7bd8,entschuldigen (sich),de,A2,Verb,/ɛntˈʃʊldɪɡən/,to excuse (something or  someone),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+780f1265-f52e-4051-824e-d097ef250a29,trocken,de,A2,Adjective,/ˈtʁɔkən/,dry (not wet; lacking water),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+783b8fef-8553-4fb1-8a47-42fd0f803d46,das Rätsel,de,A2,Noun,/ˈʁɛːtsəl/,"riddle, puzzle, mystery, enigma",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+78ef0059-7209-4aee-b48d-e630dbd3389d,spannend,de,A2,Participle,/ˈʃpanənt/,present participle of spannen,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+79827c44-bde2-40d6-9266-e4a13bf8a76a,das Gericht,de,A2,Noun,/ɡəˈʁɪçt/,court (of justice),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+7984f247-c6df-4e75-b7d9-4d7239bfb417,dunkel,de,A2,Adjective,/ˈdʊŋkəl/,dark,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+79d852e7-46a8-4504-93a0-db764a9391f5,interessant,de,A2,Adjective,/ˌɪn.tə.ʁɛˈsant/,interesting,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+7a2e92ea-e33f-445a-8454-522fc239a386,leidtun/leid tun,de,A2,,/laɪdtʊn/laɪd tʊn/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+7a31352a-0065-491d-bdd8-92434694a50a,der Löffel,de,A2,Noun,/ˈlœfl̩/,spoon,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+7a76b80f-d59a-4f5b-a65b-7eeee791cd29,sauber,de,A2,Adjective,/ˈzaʊ̯bɐ/,clean,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+7b3e38ae-d3fb-41a3-946e-047b56408253,hat gedacht,de,A2,,/hat gədaxt/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+7bf05fdf-e065-4c9c-8a2d-6a1604525343,üben,de,A2,Verb,/ˈyːbən/,"to practice, to drill, to train",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+7ca01443-17bf-422a-965e-cebadf321063,das Poster,de,A2,Noun,[ˈpoːstɐ],"poster (A picture of a celebrity, an event etc., intended to be attached to a wall.)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+7d488607-8d93-41a9-980c-be2d53c31072,das Mobiltelefon,de,A2,Noun,/mobɪltələfon/,mobile phone (a portable telephone),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:39:31.907304+00
+7e8f2e28-5af8-4e15-b64e-d42a3ab68dbf,waschen (sich),de,A2,Verb,/ˈvaʃən/,to wash,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+7ecdb193-5209-47c1-a808-6173ac66895d,beantworten,de,A2,Verb,/bəˈʔantˌvɔɐ̯tn̩/,to answer (a question),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+7f1b4341-ec22-46da-a7a6-1d48cb5af895,der Keller,de,A2,Noun,/ˈkɛlɐ/,cellar,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+7fb37142-ad25-4aef-bcfa-3606c8425bac,wieder,de,A2,Adverb,/ˈviːdɐ/,again; indicates that the action taking place has happened before,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:54:04.261188+00
+7fd423ad-2eb5-459f-ad47-214d8d1524fa,der Zirkus,de,A2,Noun,/ˈt͡sɪʁkʊs/,circus (arena in Antiquity),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+804d30ad-01b9-4fef-bff7-9bbfabbc0e06,heraus/raus,de,A2,,/həʁaʊs/ʁaʊs/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+806a6e9a-ef99-43aa-bfbd-3387eb15a357,das Stück,de,A2,Noun,/ʃtʏk/,"one, item, piece, unit(of something countable; often untranslated in English)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+807ce664-1d0b-484c-b6b5-dfcbd7bc6203,der Mantel,de,A2,Noun,/ˈmantəl/,"coat, overcoat (long jacket that covers at least part of the thighs)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+80843195-54f7-4c08-a2c9-a7c09c47d086,zeigen,de,A2,Verb,/ˈt͡saɪ̯ɡən/,"to show, make see",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:54:04.261188+00
+80b0aba5-a278-4f1f-b21a-dbfc7a9dce74,speichern,de,A2,Verb,/ˈʃpaɪ̯çɐn/,"to store, save (keep safe for future use)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+80cb7d07-e43f-471f-9921-72dc90003be5,hat eingekauft,de,A2,,/hat aɪŋəkaʊft/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+80df252b-a8ef-4a5d-9d01-3c563cd66d7b,das Instrument,de,A2,Noun,[ˌɪnstʁuˈmɛnt],instrument,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+815209d3-454f-4312-9f08-eae2a54dc8b1,malen,de,A2,Verb,/ˈmaːlən/,to paint (do paintwork),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+81a9d9ef-3362-46e1-a166-81d8b3857371,bunt,de,A2,Adjective,/bʊnt/,"spotted, speckled",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+8259984e-fe91-44bb-8722-a74c37858460,die Pflanze,de,A2,Noun,/ˈpflan(t)sə/,plant,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+826a968d-4a24-4d00-b790-0929aefcd55e,liefern,de,A2,Verb,/ˈliːfɐn/,"to supply, provide .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with accusative ‘goods etc.’ and an (+ accusative) ‘to someone/somewhere’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+8337a47b-b1c3-4927-9d66-3cf86612263a,der Haushalt,de,A2,Noun,/ˈhaʊ̯shalt/,"household (collectively, all the persons who live in a given home)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+83ece7fb-0dff-4d63-8149-84622dae7eec,ist (ab)gefahren,de,A2,,/ɪst abgəfahʁən/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+83f98704-7fe6-4f14-bcd5-345adce7fb1e,hinter,de,A2,Preposition,/ˈhɪntər/,"behind, after",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+840df868-43d3-470e-a788-3db275923cb8,der Zahn,de,A2,Noun,/t͡saːn/,tooth,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+84a16efa-93a3-4a20-98b2-220309f87252,die Suppe,de,A2,Noun,/ˈzʊpə/,soup,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+84cee9c4-fcb2-4749-88ab-7a359140d53e,der Regen (Sg.),de,A2,noun,/ʁəgən sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+85a60163-db54-4225-ad09-b65501323a28,hat eingetragen,de,A2,,/hat aɪŋətʁagən/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+8614b10f-28fc-4a6b-bf04-1c6525c0bc5b,der Rest,de,A2,Noun,/ʁɛst/,"rest, remainder, remnant",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+86350eb3-e17c-413e-8ec3-520559368356,dabei,de,A2,Adverb,/daˑˈbaɪ̯/,"pronominal adverb of bei (replaces bei + demonstrative or personal pronoun, unless referring to people)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+868cc29e-cc0f-4a12-b186-9f29196bdf17,arm,de,A2,Adjective,[aʁm],poor (having little money),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+87176b98-b552-4f95-be72-310eb7417766,das Gehalt,de,A2,Noun,/ɡəˈhalt/,"content, fraction (amount or percentage of some material in a mass)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+87abb05e-4826-473c-81c7-5b4447051a31,überall,de,A2,Adverb,/ˌyːbɐˈʔal/,everywhere,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+87c6e4fb-33a8-459f-a775-1ee8026554b3,die Gesundheit (Sg.),de,A2,noun,/gəsʊndhaɪt sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+87cbcbe5-f38f-44b0-b4b7-9156ad7360ec,fühlen (sich),de,A2,Verb,/ˈfyːlən/,"to feel (a thing, sensation, emotion - a noun)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+885946b9-d0eb-4672-8ff5-836def7f3cbc,das Schlafzimmer,de,A2,Noun,/ˈʃlaːfˌt͡sɪmɐ/,"bedroom (bed-room), bedchamber (bed-chamber)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+886e7755-890d-42e5-b08d-edd117024f25,froh,de,A2,Adjective,/fʁoː/,"glad; (momentarily) happy; (momentarily) cheerful .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with über (+ accusative) or  genitive ‘about/with something’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+88923679-56cb-46f2-a870-5bce57673781,die Geldbörse,de,A2,Noun,/ˈɡɛltˌbœʁzə/,"wallet, purse",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:43:07.573724+00
+890b03ac-a35b-41b4-b7b6-ee5be4d4c672,erreichen,de,A2,Verb,/ɛɐ̯ˈʁaɪ̯çən/,to reach (to attain by stretching),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+898f48e5-ddcb-40b2-a727-cd0d3d86122e,traurig,de,A2,Adjective,/ˈtʁaʊ̯.ʁɪç/,sad,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+89bef4ba-9ca3-4450-85c4-f0861c4a6b7a,das Paket,de,A2,Noun,/paˈkeːt/,"packet, package, parcel (the term is almost exclusively used for packages sent by mail)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+8a47d4ef-357a-4168-bb5b-f9aa8c347946,das Schloss,de,A2,Noun,/ʃlɔs/,"lock, padlock (something used for fastening)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+8a5fc56d-ae82-4430-a7ee-789b86394ec3,die Nähe (Sg.),de,A2,noun,/nɛhə sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+8b52cfaa-901c-457f-964e-259a5b85c298,weil,de,A2,Conjunction,/vaɪ̯l/,"because, given that",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+8b68ef50-718e-4632-b6d1-b28525085378,kauft ein,de,A2,Verb,/kaʊft aɪn/,"inflection of einkaufen:
+third-person singular present
+second-person plural present
+plural imperative",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:42:12.069271+00
+8b6e038b-a33e-45e6-a98e-d1d98301948d,wer (wen,de,A2,,/vəʁ vən/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+8bafdabc-5fb3-4107-b403-ab2f83d75b3f,tragen,de,A2,Verb,/ˈtʁaːɡn̩/,"to carry, to bear (something on one's person)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+8c1de490-9e48-453d-8079-3aa65899d0cd,erinnert,de,A2,Participle,/əʁɪnnəʁt/,past participle of erinnern,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:41:57.449177+00
+8c36edc8-8c61-49ff-b0e2-accbe8182f6b,zeichnen,de,A2,Verb,/ˈt͡saɪ̯çnən/,"to draw, to sketch",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:54:04.261188+00
+8d506611-ec7c-4bdf-8d1b-e21af64c5e9a,wahr,de,A2,Adjective,/vaːr/,"true, real",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+8da43238-75e4-4ffe-a902-18b0e0b9f7be,der Umzug,de,A2,Noun,/ˈʔʊmt͡suːk/,"move, removal, relocation (change of residence)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+8dbf3ba4-bb92-4372-a0cf-d188428570b8,die Sache,de,A2,Noun,/ˈzaxə/,"matter, affair, case, question, issue",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+8dd5fd1c-d555-44d2-bc0e-86210ea0fa13,die Insel,de,A2,Noun,/ˈɪnzəl/,"an island, an isle",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+8dde0470-c326-474d-ae05-ab64bf7fd93e,praktisch,de,A2,Adjective,/ˈpʁaktɪʃ/,practical,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+8e0bc481-7d4b-45db-8c53-26b15cb904e2,der Hunger (Sg.),de,A2,noun,/hʊŋəʁ sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+8e178eae-afa3-4e37-82a5-db116c222e6c,das Fenster,de,A2,Noun,/ˈfɛnstɐ/,window,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+8e435563-53ab-4860-8384-a130bdf3a096,(ab)fahren,de,A2,Verb,[ˈapfaːrən],"to depart, to leave [auxiliary sein]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:27:08.083913+00
+8e5fc7b4-5e4f-4af7-8f12-adba97115c89,der Stadtplan,de,A2,Noun,[ˈʃtatˌplaːn],"street map, city map",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+8e973a9d-7861-4da4-baae-f1b4a61904d9,das Zelt,de,A2,Noun,/t͡sɛlt/,"tent, marquee",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+8ee89e68-8eb6-4f50-80a0-e90517e6fc86,plötzlich,de,A2,Adverb,/ˈplœt͡slɪç/,"suddenly, abruptly .mw-parser-output .defdate{font-size:smaller}",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+8f823ee6-6607-4ddd-9d9b-0c0a6ace9662,die Kirche,de,A2,Noun,/ˈkɪʁçə/,church (building),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+9049b945-9110-4c2f-968b-32ebde43d062,das Fach,de,A2,Noun,/fax/,compartment,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+906b0680-9311-4660-9f4c-299007451f5b,das Rind,de,A2,Noun,/ʁɪnt/,"cow, bull, ox, head of cattle (any bovine animal)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+9088bab0-c755-4848-b43b-4b287825e738,geradeaus,de,A2,Adverb,/ɡəˌʁaːdəˈʔaʊ̯s/,"straight ahead, straightforward (in a forward direction)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+90a0694f-763c-4425-a7f9-30e5631c3835,schaffen,de,A2,Verb,/ˈʃafən/,"to create, to call into being",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+90bab1cb-27b4-48e7-b867-0955cc71989c,die Schere,de,A2,Noun,/ˈʃeːrə/,"a pair of scissors, shears",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+90f3ffc6-cf96-4806-ba3f-0a14a28ff10c,zieht ein,de,A2,Verb,/tsiːht aɪn/,"inflection of einziehen:
+third-person singular present
+second-person plural present
+plural imperative",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:43:23.118464+00
+9114309c-065b-42df-93dc-881431eb378d,die Mannschaft,de,A2,Noun,[ˈmanʃaft],crew members of a ship,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+912fd6bb-a7b4-4962-b1e9-481cad32409d,vergleichen,de,A2,Verb,/fɛʁˈɡlaɪ̯çən/,to compare,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+92534110-0858-4c96-a2ba-172c123c0bad,die Menge,de,A2,Noun,/ˈmɛŋə/,quantity,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+9254fcd2-b75e-4b4b-abd3-8c413f159d74,recht haben,de,A2,Verb,[ˈʁɛçt ˌhaːbn̩],alternative letter-case form of Recht haben,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+925f028a-c50f-4861-b68b-2d8cc6599058,bauen,de,A2,Verb,[ˈbaʊ̯ən],"to build, to construct",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+929cddf6-5288-4837-bcb3-c3d9db7dd29e,der Nachbar,de,A2,Noun,/ˈnaxbaːr/,neighbour,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+92df1d22-3541-481e-95ce-85cec5fbdb78,der Magen,de,A2,Noun,/ˈmaːɡən/,"stomach, maw",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+92eb6b69-4817-47c0-a598-3495300a52bc,das Mineralwasser (Sg.),de,A2,noun,/mɪnəʁalvassəʁ sg./,"mineral water, carbonated water",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-06-12 17:15:30.921269+00
+92f44075-1af0-4b0a-8f94-da7e5707bf9f,die Tour,de,A2,Noun,/tuːr/,"tour, journey",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+943e4abd-3f23-41c1-9428-23b110214f2e,herstellen,de,A2,Verb,[ˈhɛɐ̯ʃtɛln̩],"to produce, manufacture",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+944ff098-6dc5-4d2c-af01-57a6e31590e5,verlieben (sich),de,A2,Verb,/fərˈliːbən/,to fall in love,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+94f6c832-dd5b-4e55-9b18-d208866d1c63,der Besuch,de,A2,Noun,/bəˈzuːχ/,"visit, call .mw-parser-output .defdate{font-size:smaller}",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+952af034-bd97-4be9-9617-14473be0d311,reiten,de,A2,Verb,/ˈʁaɪ̯tən/,to ride; to do horseriding [auxiliary sein],,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+9561ce7e-cc17-486d-bfe8-533c490b6abd,(ab)fliegen,de,A2,Verb,/ˈʔapˌfliːɡŋ̩/,"to take off (from the ground), to fly away",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:27:08.083913+00
+9577de18-5270-4ac9-80bc-c44b73019676,klug,de,A2,Adjective,/kluːk/,"intelligent, prudent, wise, smart, clever",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+9578b327-bfca-4fb4-8a67-c687eeb271e3,der Motorroller,de,A2,Noun,/ˈmoːtoːɐ̯ˌʁɔlɐ/,scooter (motor-scooter),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+9596b51b-6548-424e-868d-19942ca8ca0c,fallen,de,A2,Verb,/ˈfalən/,to fall; to drop,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+96021a8e-e158-43b9-889e-92dddf0d0398,neblig,de,A2,Adjective,/ˈneːblɪç/,foggy,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+960e2b20-62ea-4e4b-8297-9ca6c528d0d1,der Kalender,de,A2,Noun,/kaˈlɛndɐ/,"calendar (means for determining dates, including documents containing date and other time information)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+9693aaf5-2964-426b-98ad-d1f42380dcbc,die Tablette,de,A2,Noun,/tabləttə/,tablet (pill),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:41:44.635711+00
+96b0bdb0-adab-497f-9ed4-372a45542ee7,bestehen,de,A2,Verb,/bəˈʃteːən/,"to succeed, to pass (an exam)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+974640d9-b0ea-4808-94b5-63ec7816d7ab,das Mittel,de,A2,Noun,/ˈmɪtəl/,"agent, appliance",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+97756631-1994-4c80-8d00-41b34534bc2e,sonst,de,A2,Adverb,/zɔnst/,otherwise (under different circumstances),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+97a74f2a-6698-47dd-a3f9-7d5fbc59b3c0,ist gefallen,de,A2,,/ɪst gəfallən/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+97c7d4aa-51e3-42db-b0b9-d6b2b9e98a85,wenigstens,de,A2,Adverb,[ˈveːnɪçstn̩s],at least,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+980a43c5-e5d1-44e1-82fe-42d8bc51e52d,das Messer,de,A2,Noun,/ˈmɛsɐ/,knife,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+9822500a-135e-41dd-aec1-5090a4e809bd,die Freundin,de,A2,Noun,/ˈfʁɔʏ̯ndɪn/,female equivalent of Freund,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:43:07.573724+00
+98724683-30eb-4bfb-9566-f070c3475f4a,die Übersetzung,de,A2,Noun,/ˌyːbɐˈzɛtsʊŋ(k)/,translation,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+990e7bda-8fda-4b29-a327-e320d75a2af6,erlaubt sein,de,A2,,/əʁlaʊbt saɪn/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+9960dcd3-66b6-4133-abae-cb59bfbf251c,die Ahnung,de,A2,Noun,/ˈʔaːnʊŋ/,"anticipation, inkling",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+99e726b7-da15-4c2f-9c6a-dd9ce1767639,das Ziel,de,A2,Noun,/tsiːl/,target,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+9aa3d254-5e4d-4936-9872-06fb036fa1a6,die Meinung,de,A2,Noun,/ˈmaɪ̯nʊŋ/,opinion,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+9acb5b97-020b-4552-aedd-03810f319c2f,das Stipendium,de,A2,Noun,/ʃtiˈpɛndi̯ʊm/,scholarship (grant-in-aid to a student),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+9bb7f32f-e22f-475a-af9b-b0259b41dd1e,der Unterschied,de,A2,Noun,/ˈʔʊntɐˌʃiːt/,difference,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+9bc45c75-3bfb-4709-a827-bf11f206a7c8,die Nachricht,de,A2,Noun,/ˈnaːxrɪçt/,"news, piece of news, notification",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+9bda81a9-c06f-47e7-94eb-9862b69d1ef3,passieren,de,A2,Verb,/paˈsiːʁən/,to happen [auxiliary sein],,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+9cafb977-785e-4ca3-b86a-af999636aa4d,der Wettbewerb,de,A2,Noun,/ˈvɛtbəˌvɛʁp/,competition (contest for a prize or award),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+9cba5af6-a13e-4b31-b231-3abb67ec7aa4,die Mailbox,de,A2,Noun,/ˈmɛɪ̯lˌbɔks/,"mailbox, voice mailbox",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+9d1ff7a8-4ed5-488e-b982-ef8bc9294da5,(an-)/(aus)ziehen,de,A2,,/an-/aʊstsiːhən/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+9d89202f-5770-4c63-97b2-ece86b0b76fa,der Rentner,de,A2,Noun,[ˈʁɛntnɐ],pensioner,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+9d92bf2d-4432-4f25-baca-9b5e4a75cf80,die Kamera,de,A2,Noun,[ˈkaməʁa],camera (device for taking photographs or filming),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+9dd2bee7-2548-4c71-899a-7113cef35bfe,backen,de,A2,Verb,/ˈbakən/,to bake; to roast,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+9ef15487-cb5f-405b-bfdc-9405e645a749,der Reifen,de,A2,Noun,/ˈraɪ̯fən/,tyre; tire,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+9f9cea70-ee3a-4be0-a0a2-04795abaf48a,klappen,de,A2,Verb,/ˈklapən/,"to clap (make a soft clapping sound, particularly of something being closed)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+a09d868d-7606-40e6-93d5-ad5f97b865c1,die Fundsachen,de,A2,noun,/fʊndsaxən/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+a0df1ac7-2170-43e7-b1b4-0b84cf795a76,einzel-,de,A2,Prefix,/aɪntsəl-/,single,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+a0eed617-e9d2-4577-8cc0-eefbf6e40ab9,genau,de,A2,Adjective,/ɡəˈnaʊ̯/,exact,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+a1637c26-316a-4e2c-954b-370991f420c8,manchmal,de,A2,Adverb,/ˈmançmaːl/,sometimes,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+a18e0aed-5a39-4154-8c0b-93ef13defdb9,bequem,de,A2,Adjective,/bəˈkveːm/,"comfortable, convenient",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:27:51.033903+00
+a1a388a4-9ce5-4535-8faf-6a50106ad640,der Spaziergang,de,A2,Noun,/ʃpaˈt͡siːɐ̯ˌɡaŋ/,walk (trip made by walking),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+a1aff670-7d27-47c0-98e7-19e06be0b364,der Schnee (Sg.),de,A2,noun,/ʃnəə sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+a1dbd2d1-60ac-45f3-840d-2d26012ee77d,packen,de,A2,Verb,/ˈpakən/,"to pack (luggage, a bundle, etc.); to get packed",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+a2200a67-0ed5-4297-a984-7b775f4fb57f,das Fest,de,A2,Noun,/fɛst/,"feast, celebration, festival, party",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+a246633d-7e82-4b27-96bf-202e1774b6ca,lassen,de,A2,Verb,[ˈlasn̩],"to allow; to permit; to let .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with infinitive]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+a49fcbd8-580c-4291-99fb-2a45e51c2630,eigen-,de,A2,Adjective,/ˈaɪ̯ɡən/,"own, peculiar or private to someone, idiosyncratic, proper or proprietary",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:41:53.341521+00
+a52957ef-b335-48e5-97d4-5c7ca43cb6dd,hat erlaubt,de,A2,,/hat əʁlaʊbt/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+a64369fd-27d8-441a-91a4-3805b400fa52,das Blatt,de,A2,Noun,/blat/,"leaf (green and flat organ of a plant)
+ petal (one of the parts of the whorl of a flower)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+a643ea54-9493-4776-b88c-aa9b10004c61,privat,de,A2,Adjective,/pʁiˈvaːt/,private,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+a6da2d4d-8349-4952-bb03-1792aec4952e,das Erdgeschoss,de,A2,Noun,/ˈeːɐ̯tɡəˌʃɔs/,"first floor , ground floor",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+a7c6b31e-d054-400e-8107-362cb9fb01b1,freiwillig,de,A2,Adjective,/ˈfʁaɪ̯ˌvɪ.lɪç/,voluntary,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+a7c97ac3-a14f-4401-a92b-f70e11e55d23,das Gerät,de,A2,Noun,/ɡəˈrɛːt/,"device, tool, appliance, machine",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+a7de6720-41c7-49a4-b392-f53a44df7be5,die Musik (Sg.),de,A2,noun,/mʊsɪk sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+a8153405-2b6f-4373-9962-d42c6b98d04c,deshalb,de,A2,Adverb,/ˈdɛshalp/,"therefore; for that (reason), because of that",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+a825a0fd-b603-44d8-8ccf-6c10f5523d26,unterwegs sein,de,A2,,/ʊntəʁvəgs saɪn/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+a838350c-be87-4435-8faa-f4962be5553b,die Jeans (Pl.),de,A2,noun,/(d)ʒiːns/,"A pair of jeans, denim trousers",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-20 16:43:58.378899+00
+a8ec04af-2e55-42a9-b261-6b528e342c3e,außerdem,de,A2,Adverb,[ˈaʊ̯sɐdeːm],"in addition; furthermore, besides",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+a912d673-6b0d-4b6d-a738-94c62562bbfe,unternehmen,de,A2,Verb,/ˌʊntɐˈneːmən/,to undertake,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+aa169e67-494c-49d5-812a-719080e4f27a,die Lebensmittel (Pl.),de,A2,noun,/ləbənsmɪttəl pl./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+aa3ca2f9-1b16-4783-b1b8-ae7877880610,genug,de,A2,Determiner,/ɡəˈnuːk/,"enough, sufficient, an adequate number or amount of",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+aa5b5f59-8fbe-4c1d-b1b2-36182974e004,der Club,de,A2,Noun,/klʊp/,club (association of members),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+aaad6a29-3b13-48a3-b336-ac2517209a58,das Theater,de,A2,Noun,/teˈaːtɐ/,theater (a place or building consisting of a stage and seats),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+aaaf62b1-3ca8-431c-9cea-8cfba1925f4c,verschieden,de,A2,Participle,/fɛɐ̯ˈʃiːdn̩/,past participle of verscheiden,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+aab9b7a9-2c07-4f6b-96d6-15a1bfdce456,hat diskutiert,de,A2,,/hat dɪskʊtiːʁt/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+aaf81563-59fc-4e26-9235-8a65e582ac51,dass,de,A2,Conjunction,/das/,that,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+ab0c7045-952d-4c17-8290-aca220960c23,etwas,de,A2,Pronoun,/ˈɛtvas/,something,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+aba95972-4f51-4af4-9755-fcab2c9ba280,das Passwort,de,A2,Noun,/ˈpasˌvɔrt/,password,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+ac5d0472-bdfa-4217-8247-eb0decc5c152,vorwärts,de,A2,Adverb,/ˈfoːr.vɛrts/,"forwards, forward; onwards, onward",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+ac87f7a9-162f-4a55-962c-26490b0e639e,die Lust (Sg.),de,A2,noun,/lʊst sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+acf041ce-78bc-462c-bf48-768746183f87,dünn,de,A2,Adjective,/dʏn/,"thin, slender, slim",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+ae16d5ad-0b7e-4508-b01f-05645ee98bf7,der Fluss,de,A2,Noun,/flʊs/,river,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+ae8571be-9d3e-4527-b0ac-ff659f3d488d,verletzen (sich),de,A2,Verb,/fɛɐ̯ˈlɛt͡sn̩/,"to hurt, to injure (cause bodily harm to someone)
+ to hurt",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+aea54df7-df18-459a-a80a-298efc71ec08,da(r) (Bsp. darauf,de,A2,,/daʁ bsp. daʁaʊf/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+aeabd45a-8000-430d-a150-1a0b6e4ea5ab,ausruhen (sich),de,A2,Verb,/aʊsʁʊhən/,"to rest, to recover",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:39:20.476178+00
+af14afd4-40ac-4243-8d7c-3007c7b8c17f,der Reis (Sg.),de,A2,noun,/ʁaɪs sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+af309953-cbf9-410b-a611-0b1b800bb1ed,die Gitarre,de,A2,Noun,[ɡiˈtaʁə],guitar,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:43:07.573724+00
+afc5408a-c2c8-48b2-b9a7-dc2926b3e454,der Schirm,de,A2,Noun,/ʃɪʁm/,"screen (movable protective cover)
+umbrella (thin fabric cover stretched on a frame with a longer shaft)
+bill, peak",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+b006a834-9f0c-4f5f-963a-cde6d03e4919,der Fotoapparat,de,A2,Noun,/ˈfoːtoʔapaˌʁaːt/,camera (device for making still pictures),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+b030cf42-5618-4147-91f5-13d76eef8d81,wechseln,de,A2,Verb,[ˈvɛksl̩n],"to change, to exchange",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+b034bcce-334b-47f7-96d6-e5c3d6e5b06a,das Mittagessen,de,A2,Noun,[ˈmɪtakʔɛsn̩],lunch,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+b095bf1d-187f-4758-bdd9-f47198224fd1,der Service (Sg.),de,A2,noun,/ˈsœɐ̯vɪs/,service (e.g. in a restaurant),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-20 14:34:03.757114+00
+b0b2c2c6-9807-49c1-9938-5b546e0d9a57,schneiden (sich),de,A2,Verb,/ˈʃnaɪ̯dn̩/,to cut; to carve; to slice,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+b0c55aad-15ff-46f1-afeb-d454f76e2ee0,die Messe,de,A2,Noun,/ˈmɛsə/,fair (trade exhibition),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+b0f4f04a-626e-45eb-9196-171fc086485f,die Zitrone,de,A2,Noun,/t͡siˈtʁoːnə/,lemon (fruit),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+b1252fb2-005b-4551-9ae3-77c0c618825b,faul,de,A2,Adjective,/faʊ̯l/,"foul, rotten, rancid",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+b1564e37-62f8-42d1-848a-792c39b5f050,das Zeugnis,de,A2,Noun,/ˈtsɔɪ̯k.nɪs/,"testimony, witness declaration",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+b1710ac4-dfce-40fe-920f-bbede5f64b4c,die Band,de,A2,Noun,/bant/,"tape, ribbon",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+b173c6df-823b-4cc9-869a-9a7d3c949c3b,übersetzen,de,A2,Verb,/ˌyːbərˈzɛtsən/,"to translate, to interpret .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with accusative ‘something’, along with in (+ accusative) ‘into a language/etc.’ or aus (+ dative) ‘from a language/etc.’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+b1a5ace1-e305-4e00-88b4-58663009b6d8,windig,de,A2,Adjective,/ˈvɪndɪç/,windy,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:54:04.261188+00
+b1d42360-3551-457b-9b0d-630fa7e6f843,gültig sein,de,A2,,/gyltɪg saɪn/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+b27dc7f0-bf50-455d-9aeb-09d0f6bd0e70,die Hilfe (Sg.),de,A2,noun,/hɪlfə sg./,"help, aid
+ the act of helping, assistance",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-26 08:42:02.741303+00
+b31c6b37-c752-48dd-a23e-6b06183194ec,die Landschaft,de,A2,Noun,/ˈlantʃaft/,"landscape
+land as defined by its geographical (and architectural) features",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+b33188ca-ed88-44ae-a650-ea4f5f4a4696,die Bohne,de,A2,Noun,/ˈboː.nə/,bean,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:43:07.573724+00
+b3eea969-5010-452f-a3a4-4f4135cfd6e6,das Geschirr (Sg.),de,A2,noun,/gəʃɪʁʁ sg./,dishware,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-06-13 14:34:59.288455+00
+b4c400c6-ae69-4dea-862b-56a368815442,bewerben (sich),de,A2,Verb,/bəˈvɛrbən/,"to apply (submit oneself as a candidate) .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with bei (+ dative) ‘to a company, organization, etc.’, along with um (+ accusative) or für (+ accusative) or  auf (+ accusative) ‘for a position’, along with als ‘as a specified role’, along with auf (+ accusative) ‘in response to an advertisement, etc.’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+b51ba545-df20-42e7-8121-1d8f036767aa,der Kredit,de,A2,Noun,/kʁeˈdiːt/,loan or anything afforded to someone in the expectation of return,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+b5335141-6d20-45f5-a0fb-31039d7e32bf,dumm,de,A2,Adjective,/dʊm/,"dumb, stupid",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+b60fd13f-ddb9-4c1f-be9b-219413df18b8,packt ein,de,A2,Verb,/packt aɪn/,"inflection of einpacken:
+third-person singular present
+second-person plural present
+plural imperative",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:42:19.835628+00
+b6251c5e-ed9d-45c0-a84f-538dc976a0e0,duschen (sich),de,A2,Verb,/ˈduːʃən/,to shower,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+b765e493-1fba-496d-a227-8b76c8f1132d,niemand,de,A2,Pronoun,/ˈniːmant/,"nobody, no one",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+b7d16515-e5fd-4a78-85c8-cc4511a74a3d,das Programm,de,A2,Noun,/proˈɡram/,program (set of structured ideas or activities; a list thereof),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+b89b0849-ec6f-4d3a-88a6-4a185da6ba4f,eigentlich,de,A2,Adverb,/ˈaɪ̯ɡəntlɪç/,"Used to frame a statement as being a more (formally) truthful description of the situation in comparison to another claim or assumption
+really, actually, in truth",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+b8c195ef-3e4c-4f77-9241-d4b6388761ac,sonnig,de,A2,Adjective,/ˈzɔnɪç/,sunny,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+b8cbc1d0-bceb-4516-bc45-d7061a58713f,der Stuhl,de,A2,Noun,/ʃtuːl/,a chair (to sit on),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+b96cbdcf-0692-4fa0-b4c5-20664c1f1a10,ist dabei,de,A2,,/ɪst dabaɪ/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+ba5868ee-2464-4add-b3ef-0abda2d67528,das Verkehrsmittel,de,A2,Noun,[fɛɐ̯ˈkeːɐ̯sˌmɪtl̩],(means of) transport,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+ba5ef963-972c-4eb6-afb2-a7c6568e64e0,Achtung (Sg.),de,A2,Noun,[ˈʔaχtʊŋ(k)],attention,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 23:41:14.795472+00
+bad8329f-ebd9-4ed4-b38b-9e0ee88b5738,der Unterricht (Sg.),de,A2,noun,/ʊntəʁʁɪçt sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+bb89177b-108b-4612-bb04-1d6670d09c4b,putzen,de,A2,Verb,[ˈpʰʊtsən],"to clean, especially by rubbing with something wet, to brush (one's teeth)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+bbb6c7f8-71e1-45d3-8ef6-cfcfd63dde83,die Tür,de,A2,Noun,/tyːr/,door (rigid plane on a hinge),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+bbd1db42-4ae6-454d-935c-ac4d91206aea,trägt ein,de,A2,Verb,/tʁɛgt aɪn/,third-person singular present of eintragen,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:43:16.267055+00
+bbee8768-26ed-4917-a3c1-ccecd2b80924,das E-Book,de,A2,Noun,/ˈiːbʊk/,e-book,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+bc0fc031-1bf9-40b0-8f4d-77fef739e323,aussprechen,de,A2,Verb,/ˈaʊ̯sˌʃprɛçən/,"to pronounce (sound a word, give it a pronunciation)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+bc99bf19-16e8-400f-9192-c28cc03fbb95,herunterladen,de,A2,Verb,/hɛˈʁʊntɐˌlaːdən/,to download (to transfer data from a remote computer to a local one),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+bd0b8e4f-f911-4c09-9979-fcefabf62735,verpassen,de,A2,Verb,/fəʁpassən/,to miss (be late for; be unable to use or attend),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:43:18.55789+00
+bd435af8-2ab7-45cb-af2a-bd90c1b1f32a,selbst,de,A2,Particle,/zɛlpst/,"personally, by oneself",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+bd5ecb5e-d18f-4a69-afcd-a23cf4f76a6b,berühmt,de,A2,Participle,[bəˈʁyːmtʰ],past participle of berühmen,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:27:51.033903+00
+bd8b6369-42a1-4721-9dd2-46751528d073,teilnehmen,de,A2,Verb,[ˈtaɪ̯lneːmən],"to participate (in) .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with an (+ dative)]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+bd9974b7-4e0e-4658-ae60-ad814cbd7e2a,der Flug,de,A2,Noun,/fluːk/,flight (in the air),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+be41f384-cfdf-47e5-b276-3e12e0146962,das Taschengeld (Sg.),de,A2,noun,/taʃəŋəld sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+be8a18fe-4463-4da2-8cd2-c1ed22478f72,streng,de,A2,Adjective,/ʃtʁɛŋ/,"strict, rigorous",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+beda7343-aca5-4150-b725-48c565837956,sympathisch,de,A2,Adjective,/zʏmˈpaːtɪʃ/,"friendly, likable even at a first impression",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+bf80439e-6b02-49d3-9ff1-6679bd445c91,der Fan,de,A2,Noun,[fɛn],"fan, devotee",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+c005f09a-26ff-48b2-a27b-adc3d1fa8191,schrecklich,de,A2,Adjective,/ˈʃʁɛklɪç/,"awful, terrible, horrible",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+c067d648-7d17-45aa-a62f-34cf8d53b5ac,die Gabel,de,A2,Noun,/ˈɡaːbəl/,fork,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:43:07.573724+00
+c0a6df78-5d72-4f3e-9824-be2c466dc349,das Internet (Sg.),de,A2,noun,/ɪntəʁnət sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+c10b41da-6a09-46bd-be77-6579930244bc,die Kette,de,A2,Noun,/ˈkɛtə/,"chain (series of interconnected rings, usually of metal)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+c11b2e2a-9c84-42e8-a6dc-11a5e70dac7f,der Tourist,de,A2,Noun,/tuːʁɪst/,tourist,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+c127f2f9-4335-4c26-b77d-e759d0fa5106,raten,de,A2,Verb,/ˈʁaːtn̩/,to advise; to recommend,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+c1311a55-3fea-48f8-bee5-87470a5b3bc0,erinnern (sich),de,A2,Verb,[ʔɛɐ̯ˈʔɪnɐn],"to remind .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with accusative ‘someone’ and an (+ accusative) ‘of someone/something’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+c17f2ea7-0166-4e25-aac3-2d2e2eb9911e,beeilen (sich),de,A2,Verb,/bəˈʔaɪ̯lən/,"to hurry, to hasten, to rush",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+c19876af-1fe6-43f5-9cea-bd2e618f8977,kontrollieren,de,A2,Verb,/kɔntʁɔˈliːʁən/,to check .mw-parser-output .defdate{font-size:smaller},,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+c23dbf01-91fe-4377-92d5-15cc74223ac3,das Parfüm,de,A2,Noun,/paʁˈfyːm/,"perfume (generally only in the sense of “odorous substance”, not “pleasant smell”)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+c2a6ab74-06cb-4aef-b1f7-5ed3a902dfef,kümmern (sich),de,A2,Verb,/ˈkʏ.mɐn/,"to take care, to look after .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with um (+ accusative) ‘of something/someone’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+c2ad564a-0196-4ba8-a999-99a789be8aae,verbieten / verboten sein,de,A2,,/fəʁbiːtən / fəʁbotən saɪn/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+c2b7c477-2450-44ed-abb2-32983b32ab79,das (Fahr)Rad,de,A2,noun,/fahʁʁad/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+c2c4c702-8e12-4b2a-a0c3-a990a813d35b,die Erfahrung,de,A2,Noun,/ɛɐ̯ˈfaːʁʊŋ/,experience (event through which empirical knowledge is gained),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:43:07.573724+00
+c37bb1c9-e79d-4955-b832-5b071dfe9199,ärgern (sich),de,A2,Verb,/ˈʔɛɐ̯ɡɐn/,"to annoy, to make angry",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+c3b2dbe2-d031-48ad-80b2-7f5f1f1ea891,schädlich,de,A2,Adjective,/ˈʃɛːtlɪç/,harmful,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+c419ac55-f9e8-48d1-9b7d-bd917dc01ca3,nett,de,A2,Adjective,/nɛt/,nice; friendly; likable,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+c41b6d6d-10c4-443e-92bc-766495fd4f8d,der Motor,de,A2,Noun,/ˈmoːtoːɐ̯/,engine (mechanical device),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+c41e42f4-14b2-405b-bde2-f8c9ec23e53e,das Quiz (Sg.),de,A2,noun,/kvɪts sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+c47ca17e-4d22-47de-b6e3-5722301679b5,weich,de,A2,Adjective,/vaɪ̯ç/,soft,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+c4a3b573-2e7f-4b81-bb2e-8d8b8c9054dd,sich umziehen,de,A2,Verb,[ˈʊmˌt͡siːən],to move [auxiliary sein],,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+c4ab25f7-663f-4c9d-8cf8-381a8c2b47f9,der Volleyball,de,A2,Noun,/ˈvɔliˌbal/,volleyball (game),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+c517a432-499e-4c1d-8f88-6afb62242623,der Vertrag,de,A2,Noun,/fərˈtraːk/,"contract, agreement",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+c536ee25-fdaf-4af2-b52b-3d9e3db5f538,der Rundgang,de,A2,Noun,/ˈʁʊntˌɡaŋ/,"walk, tour",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+c5a15db3-1e17-4902-9092-1b8fb274b6e8,der Fahrplan,de,A2,Noun,/fahʁplan/,timetable (for transport),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:39:40.585338+00
+c5afb6b7-afd0-44de-8302-ab5038d07440,der Stress (Sg.),de,A2,noun,/ʃtʁəss sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+c5cc3740-6948-4498-963c-40afad1d2b13,stattfinden,de,A2,Verb,[ˈʃtatfɪndn̩],"to take place, to happen",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+c6028db6-6a8d-48ca-b60b-5474c7f8cdec,reden,de,A2,Verb,/ˈʁeːdən/,"to talk, to speak, to orate .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with mit (+ dative) ‘with someone’ or  zu (+ dative) ‘to someone’, along with über (+ accusative) ‘about something’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+c6b09d71-1f0d-46ce-86c5-bd52d0ae42b3,heiß,de,A2,Adjective,/haɪ̯s/,hot (having a high temperature),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+c6fdd505-9b83-4196-b912-06c17f2cc7fc,echt,de,A2,Adjective,/ɛçt/,"authentic, genuine, true",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+c77106fd-eee9-4bcf-bf5a-5b7f2a71d892,weinen,de,A2,Verb,/ˈvaɪ̯nən/,"to weep, cry",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+c79850e9-900b-416b-95c5-f3540f37820e,ist eingestiegen,de,A2,,/ɪst aɪŋəstiːgən/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+c7a360a5-25f2-46e3-82f2-2d531ed912fc,der Wunsch,de,A2,Noun,/vʊnʃ/,wish (an act of wishing),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+c7b090fb-60c6-4b7a-a092-74ddb8b22174,vorn(e),de,A2,Adverb,/ˈfɔʁnə/,at the front,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+c7c03a64-5a36-4486-9d89-83edc56c571f,die Notiz,de,A2,Noun,/noˈtiːts/,note (memorandum),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+c7c15d6b-96a9-4c22-aff0-4bea6de23586,das Wasser (Sg.),de,A2,noun,/vassəʁ sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+c8145349-e17b-4782-843c-f91ef149ec97,die Unterkunft,de,A2,Noun,/ˈʊntɐˌkʊnft/,accommodation (lodging),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+c8527fdc-cf80-4fa4-bda0-77529b1cd210,schmutzig,de,A2,Adjective,/ˈʃmʊt͡sɪç/,"dirty, filthy, grimy",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+c853704b-9081-48fd-b834-bcbb9ad9d434,schriftlich,de,A2,Adjective,/ˈʃʁɪftlɪç/,written,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+c975d893-e915-4bce-94c2-51a5da0daf43,chattet,de,A2,Verb,/xattət/,"inflection of chatten:
+third-person singular present
+second-person plural present
+second-person plural subjunctive I
+plural imperative",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:39:25.960327+00
+c9b7316b-e2c4-4f77-86c5-3d8076ca674b,gefährlich,de,A2,Adjective,/ɡəˈfɛːɐ̯lɪç/,"dangerous, hazardous",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+c9ded637-cb68-4459-b762-6b570bd9e0a8,das Festival,de,A2,Noun,/fəstɪfal/,festival,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:39:30.537527+00
+ca73d373-ef5e-4045-a02b-f6c07870625a,informieren (sich),de,A2,Verb,/ɪnfoʁˈmiːʁən/,"to inform, to update .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with über ‘of/about’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+cb92035a-78b9-4b14-8a08-83fcad38ff10,parken,de,A2,Verb,/paʁkən/,to park,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+cbfd1862-9992-4c24-bf93-11d5da3c2b17,die Werkstatt,de,A2,Noun,/ˈvɛrkˌʃtat/,workshop (room where things are manufactured),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+cc11addc-e131-4848-af14-10de00509964,der Verkehr (Sg.),de,A2,noun,/fəʁkəhʁ sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+cc238fb4-31e9-4fb3-99bf-d37d937d73ad,der Topf,de,A2,Noun,/tɔpf/,"pot (flat-bottomed, open-topped vessel, especially for cooking food)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+ccd943f4-e21f-47cb-ae73-f4af6d5dee62,das Krankenhaus,de,A2,Noun,/ˈkʁaŋkn̩ˌhaʊ̯s/,hospital,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+cd60dc3f-613b-462f-bd51-4ff42ceafa51,bestätigen,de,A2,Verb,/bəˈʃtɛːtɪɡən/,"to confirm, to corroborate",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+ce00c766-9162-4598-9102-9d5baa92cc0b,leer,de,A2,Adjective,/leːɐ̯/,empty,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+ce01adb1-4ba9-463d-a863-2050086f38c2,das Training,de,A2,Noun,/ˈtrɛːnɪŋ/,"training (exercise, chiefly physical)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+cea75c09-ca3a-4915-ab92-3ffec25e737a,der Artikel,de,A2,Noun,/a(ʁ)ˈtɪkəl/,article,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+ced5972d-b17d-4804-b80b-9fa87c6d2962,die Rose,de,A2,Noun,/ˈʁoːzə/,rose,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+cef981a3-bd3b-4b80-a7c6-083a2d9bfb8e,der Dank (Sg.),de,A2,noun,/dank sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+cf65f41a-b8ac-40c3-8d7e-acc9c51ad90e,das Fieber (Sg.),de,A2,noun,/fiːbəʁ sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+cfcdf8fd-a3f1-43ee-b1a4-9760c2895a4a,das Handtuch,de,A2,Noun,/ˈhan(t)ˌtuːχ/,towel (cloth for wiping),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+cfe4d49e-3695-4d5c-bc27-abf2885c6d49,hat erreicht,de,A2,,/hat əʁʁaɪçt/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+cff73707-4092-454c-ab2f-beecda9ccbaa,aktiv,de,A2,Adjective,[akˈtiːf],active,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+d0c26b2e-abfc-43f1-91fb-524dea6a3ad7,wünschen,de,A2,Verb,/ˈvʏnʃən/,to wish for; to make a wish for; to want; to desire,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:54:04.261188+00
+d1042d6a-fd79-4988-87cb-b5c0857f67d8,spazieren gehen,de,A2,Verb,/ʃpaˈtsiːʁən ɡeːn/,"to go for a walk, to stroll, to take a stroll",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+d13100e4-f76c-4475-aed0-5bdb87a2fd56,das Einkaufszentrum,de,A2,Noun,/ˈaɪ̯nkaʊ̯fsˌt͡sɛntʁʊm/,"shopping center, shopping mall",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+d1ce99bd-fc8e-4eb2-a2ea-7d6d4de55cd0,der Markt,de,A2,Noun,/markt/,market (gathering for sale and purchase),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+d3204ca8-8837-4e44-a7e0-849b64e91796,die Veranstaltung,de,A2,Noun,/fɛɐ̯ˈanʃtaltʊŋ/,public event or community gathering with a specific theme or purpose and a specific duration,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+d44c2a1c-872a-4bbe-bcdc-55755b2de2f9,vorbei,de,A2,Adjective,[foːɐ̯ˈbaɪ̯],"over, past, up (of time)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+d46bde06-b539-410b-ba62-fed0736e05c6,stark,de,A2,Adjective,/ʃtark/,"strong (intense, powerful, unyielding)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+d4befe87-d244-42ef-a667-586343d139f9,toll,de,A2,Adjective,/tɔl/,"great, nice, wonderful",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+d5645fa7-7637-4a4a-a98a-3de0126bf653,der Kontakt,de,A2,Noun,/kɔnˈtakt/,contact,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+d5e14af3-3406-432b-bd76-6ff3515b897b,vorsichtig,de,A2,Adjective,/ˈfoːɐ̯ˌzɪçtɪç/,"deliberate (not hasty or sudden); careful, cautious, wary, circumspect",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+d69e07b1-76e5-45e0-ac6e-f6565f1f1535,die Ampel,de,A2,Noun,/ˈʔampl̩/,traffic light,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+d6a6a8e5-e14e-432a-b537-0353f55285ea,mal / das Mal,de,A2,,/mal / das mal/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+d76545ea-72a1-428f-8f46-58ae26462734,erst,de,A2,Adverb,/eːrst/,"first, at first",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+d797535b-afc1-4ec0-9726-034e07920938,das Gesicht,de,A2,Noun,/ɡəˈzɪçt/,face,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+d7d67090-e2e8-4d09-807f-f977f1514620,der Workshop,de,A2,Noun,[ˈvœɐ̯kʃɔp],workshop (course of education),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+d80dcaf0-d7dc-4a22-bd73-95bc00009e32,die Süßigkeiten,de,A2,Noun,/ˈzyːsɪçˌkaɪ̯tn̩/,plural of Süßigkeit,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+d976d184-1ecc-4bbf-bc65-7387823b4450,die Milch (Sg.),de,A2,noun,/mɪlç sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+d9b5cd7d-cf9f-486a-9787-e23e860952c5,die Creme,de,A2,Noun,/krɛːm(ə)/,cream,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:43:07.573724+00
+d9ccc666-48d0-4f93-b3d3-4b06dd3b7e82,hat entschuldigt,de,A2,,/hat əntʃʊldɪgt/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+d9ede3fb-a596-43a5-aa82-6baffc874cc1,der Berg,de,A2,Noun,/bɛrk/,"a mountain, hill",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+d9f07a7c-af82-4bc4-9e85-b40fdf4414a6,die Wurst,de,A2,Noun,/vʊɐ̯st/,sausage,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+da289765-d037-4235-a956-c03dd3dc5634,verreisen,de,A2,Verb,/fɛʁˈʁaɪzn̩/,"to take a trip, travel, go out of town",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+da3831b5-eacc-468e-b399-b10824666298,renovieren,de,A2,Verb,/ʁenoˈviːʁən/,to renovate,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+da60c209-6d24-45b0-a780-ef0f28bc8ac0,erreicht,de,A2,Participle,/əʁʁaɪçt/,past participle of erreichen,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:41:58.820313+00
+da763054-7342-48b5-a298-c837e3af7800,scharf,de,A2,Adjective,/ʃarf/,sharp; able to cut,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+da97cecf-53c9-4ebf-97cf-3f664bd32e16,früh,de,A2,Adjective,/fʁyː/,early,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+dac4a401-e177-407a-8ca0-ec84b548e62e,die Brücke,de,A2,Noun,/ˈbʁʏkə/,bridge,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:43:07.573724+00
+db05ebce-25eb-427b-9495-321ee4e69a74,ändern,de,A2,Verb,/ˈʔɛndɐn/,"to change, to alter",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+db2a4491-c64f-467b-a95a-13379b092b97,hat empfohlen,de,A2,,/hat əmpfohlən/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+db8fcef6-398c-4a52-8fbc-7262739720c4,der Zoo,de,A2,Noun,[t͡soː],zoo,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+dc76c745-cc95-4bac-b33f-9bf113620bbf,damals,de,A2,Adverb,/ˈdaːmaːls/,"at that time (in the past); at the time, then",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+dc930d9b-2ceb-4a19-9003-9096106707e9,das Medikament,de,A2,Noun,[medikaˈmɛnt],"drug, medicine",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+de019406-4cb5-407d-99ab-5ec9f4dcba1f,(aus)tauschen,de,A2,Verb,[ˈaʊ̯sˌtaʊ̯ʃn̩],to exchange,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:27:08.083913+00
+de35d791-6c36-4233-b6de-7d9451717085,als,de,A2,Conjunction,/als/,"at (approximately) the same moment, when, while, as",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+de82076c-1be1-4c96-8fe4-ef7748ca3511,die Jugendherberge,de,A2,Noun,[ˈjuːɡənthɛʁbɛʁɡə],"youth hostel (a supervised, inexpensive lodging place, primarily for young people)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+df32cf63-a169-417a-89ef-fb38bd83456c,mit (+ mitbringen/-kommen/-machen/-nehmen/-spielen),de,A2,,/mɪt + mɪtbʁɪŋən/-kommən/-maxən/-nəhmən/-spiːlən/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+dfc8e109-ef48-41a1-8ad6-e4ffbdec22b2,vorstellen (sich),de,A2,Verb,[ˈfoːɐ̯ʃtɛln̩],"to introduce (someone), to present",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+e01acc6c-4a15-4453-a281-040e9f273660,die Nudel,de,A2,Noun,/ˈnuːdəl/,"a noodle, a string or lump of pasta",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+e052343d-5013-4b59-8372-878738d3472a,sicher,de,A2,Adjective,/ˈzɪçər/,"safe, secure (not dangerous or in danger)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+e0ed7826-0257-4e6c-b68d-a89bce275d4e,nirgends,de,A2,Adverb,/ˈnɪʁɡn̩ts/,nowhere (in no place),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+e0f10f3f-867c-4b43-9547-e5b8b2daf043,hat erinnert,de,A2,,/hat əʁɪnnəʁt/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+e150aebf-e124-41a1-869b-4279c59a7a57,das Gepäck (Sg.),de,A2,noun,/gəpɛck sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+e17e847c-88f7-4579-92eb-e5e0ded58b38,singen,de,A2,Verb,/ˈzɪŋən/,to sing,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+e18fcbe8-b8d0-4bb3-b95e-74e9d0b47dec,setzen (sich),de,A2,Verb,/ˈzɛtsən/,causative of sitzen: to set; to put [auxiliary haben],,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+e251d7c4-3562-45c4-9e92-178d840e8521,die Mode,de,A2,Noun,/ˈmoːdə/,"fashion, trend",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+e27cff7a-02e5-4281-b104-81c71cf64594,planen,de,A2,Verb,/ˈplaːnən/,to plan (some action or event),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+e2a3127f-789e-4a14-9e19-597fa32fb3bf,der Vogel,de,A2,Noun,/ˈfoːɡəl/,a bird,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+e32f9dce-3f38-4140-b793-00a4aae6aa7e,meinen,de,A2,Verb,/ˈmaɪ̯nən/,"to opine, to think; to believe; to suppose",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+e38489ca-6af9-426a-b44a-757c461be5ef,der Führerschein,de,A2,Noun,/ˈfyːrərˌʃaɪ̯n/,"driver's license (US), driver's licence (Aus), driving licence (UK)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+e3ae4bd2-d8c6-49e8-a44d-499a95b6195a,natürlich,de,A2,Adjective,/naˈtyːʁlɪç/,"natural, normal",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+e3aee190-cfd2-4c31-80e6-bc068eed7718,der Pullover,de,A2,Noun,/pʊˈloːvɐ/,sweater; pullover; jumper,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+e42467ae-45d8-4b79-a258-d941ecc8fea5,preiswert,de,A2,Adjective,/ˈpraɪ̯s.veːɐ̯t/,worth its price,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+e47611f6-3030-4d57-a2ee-d5d25b51696a,die Natur (Sg.),de,A2,noun,/natʊʁ sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+e6f0e8df-0657-42d6-bd24-5314a04e8d43,der Sport (Sg.),de,A2,noun,/ʃpɔrt/,sport (athletic activity that uses physical skills competitively under a set of rules),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-20 16:44:16.407158+00
+e717eee4-ff86-417e-bdda-d910ba526064,die Erlaubnis (Sg.),de,A2,noun,/əʁlaʊbnɪs sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+e75552f5-b509-46b7-9306-bbba0b235069,kostenlos,de,A2,Adjective,/ˈkɔstn̩loːs/,"without cost, free",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+e781b5fc-808d-4c04-ae01-0f1866928868,der Flohmarkt,de,A2,Noun,[ˈfloːˌmaʁkt],flea market,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+e7cb46ca-d2cf-48d1-9654-58e2503bb204,das Paar,de,A2,Noun,/paːr/,"pair, couple",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+e80d9926-1b71-4c15-a69b-18f275cc2358,aktuell,de,A2,Adjective,/akˈtu̯ɛl/,"current, currently in action, live (in the sense of broadcasting)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+e84da886-68ad-492d-afdb-06aef2b8a9ce,anders,de,A2,Adverb,/ˈandɐs/,"different, differently",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+e8d459e3-e06f-473a-bf1f-1617f6191eb1,der Schmerz,de,A2,Noun,/ʃmɛʁts/,"physical pain, ache (practically, as a sensation)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+e8da39ce-4212-4837-a8cb-cf806e77ddc9,der/das Blog,de,A2,,/dəʁ/das blog/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+e8e00b79-a23d-4666-bfa9-aee40e89c292,sparen,de,A2,Verb,/ˈʃpaːrən/,"to save up; to accumulate, to put aside (for a specific purpose)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+e9347a15-4e86-4ddd-9889-52b280706d06,schade,de,A2,Adjective,/ˈʃaːdə/,"a pity, a shame; bummer; unfortunate; disappointing",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+e979b344-6ce5-4000-b591-dd77e929b759,der Weg,de,A2,Noun,[veːk],"path, trail, track (usually for foot traffic)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+e9a440bc-3998-4df4-9585-6129fbcf4cd4,joggen,de,A2,Verb,/ˈd͡ʒɔɡən/,to jog,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+ebad18d1-6ead-4b63-82e2-ead2567fa4a8,nervös,de,A2,Adjective,[nɛɐ̯ˈvøːs],nervous (anxious),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+ec29d71d-147a-4155-a048-f12aa9e695cc,die Note,de,A2,Noun,/ˈnoːtə/,note (character indicating the length and pitch of a tone),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+ec7a8370-850f-4e92-a2f0-606c0237e02a,die Polizei (Sg.),de,A2,noun,/polɪtsaɪ sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+edb87166-399d-4a51-a98e-e6a86b515a44,wahrscheinlich,de,A2,Adjective,/vaː(ɐ̯)ˈʃaɪ̯nlɪç/,"likely, probable, plausible",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+edbc721d-e15a-4a6a-8981-b4606b10af52,der Witz,de,A2,Noun,/vɪt͡s/,joke,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+edcfc36e-190e-4e99-b864-fe68074f7962,die Person,de,A2,Noun,/pɛrˈzoːn/,"person, individual",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+ee586ff6-0ea3-40e5-8033-dc3ca7ee69e2,probieren,de,A2,Verb,/pʁoˈbiːʁən/,to try,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+ee6ae241-19a8-4123-8c32-dc96ed5889bc,hat gedruckt,de,A2,,/hat gədʁʊckt/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+ee9e75e6-bc3a-4198-a118-44a086b5a374,sterben,de,A2,Verb,/ˈʃtɛrbən/,to die,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+eed9bb04-367c-4c2d-b19e-98f77d21c3bd,voll,de,A2,Adjective,/fɔl/,full; filled,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+ef2ef529-05c7-4274-a207-8ab9b0357cab,die Wolke,de,A2,Noun,/ˈvɔlkə/,cloud (a visible mass of water droplets suspended in the air),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+ef82a161-1b73-43af-b5cc-0df727973722,sportlich,de,A2,Adjective,/ʃpoʁtlɪç/,"sport; sporting, athletic (of or pertaining to sports)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 22:43:14.882338+00
+ef89cc65-74b0-407a-b0cb-8fbde58b1cb2,das Plakat,de,A2,Noun,/plaˈkaːt/,poster (piece of printed paper),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+f011094f-0de2-403a-b4d4-221519cd653e,der/die Jugendliche,de,A2,,/dəʁ/diː jʊgəndlɪçə/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+f052f202-6545-46fa-bbe1-567b73b19d5a,gegenüber,de,A2,Preposition,[ɡeːɡŋ̍ˈʔyːbɐ],opposite,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+f0fb2d33-3691-448d-8870-f6c74c1cb15d,schwanger,de,A2,Adjective,/ˈʃvaŋər/,"pregnant  .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with mit (+ dative) ‘with a child’ and von (+ dative) ‘from the father’]",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+f10be428-f895-430f-8b79-3cc37c8a6d32,her/her-/-her,de,A2,,/həʁ/həʁ-/-həʁ/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+f140886c-7b53-416d-ae38-df10d0939dbe,der Ski,de,A2,Noun,/ʃiː/,ski,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:40:42.3112+00
+f14763e4-7895-4363-b422-000bbd19166a,das Kleid,de,A2,Noun,/klaɪ̯t/,"dress, gown (kind of woman's garment)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+f16cd413-921b-4bfa-b729-2f0b9e2345eb,der/das Comic,de,A2,,/dəʁ/das comɪc/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+f274d1d3-b8e6-46b3-92d3-719da936eb23,schenken,de,A2,Verb,/ˈʃɛŋkən/,"to give as a present, to gift",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+f278be29-a817-471d-b54e-925f97f2cfe2,die See (Sg),de,A2,noun,/səə sg/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+f3318896-1bb5-4d90-aa6b-535a7cdb21fb,das Museum,de,A2,Noun,/muˈzeːʊm/,"museum (building or institution dedicated to the protection and exhibition of items with scientific, historical, cultural or artistic value)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+f4fea22d-9d37-4805-ae32-d6330b754047,typisch,de,A2,Adjective,/ˈtyːpɪʃ/,typical,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+f5971b82-9ace-443a-a46c-b21fe69cb7bd,warm,de,A2,Adjective,/varm/,warm; mildly hot,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+f5a88966-ec99-4f45-ac5d-e7c1fd32988e,doch,de,A2,Particle,/dɔx/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:47:01.42209+00
+f5c2d02c-ac05-4076-83ce-b2b0619e296d,war erlaubt,de,A2,,/vaʁ əʁlaʊbt/,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+f5e00bd0-ed38-46b6-80a5-0a5f432c219b,das Öl,de,A2,Noun,/øːl/,oil,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+f6322038-6b8f-4d76-883e-09dde6c22df1,die Post (Sg.),de,A2,noun,/post sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+f6bd7177-c0a1-48e4-83cf-67ca9bea83e3,die Bewerbung,de,A2,Noun,/bəˈvɛrbʊŋ/,"application (for a job or position), candidature",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:43:07.573724+00
+f7b41a5e-1d66-4890-9f52-ce4385f1a7d1,die Pizza,de,A2,Noun,/ˈpɪtsa/,pizza,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:45:50.472965+00
+f80cdea1-eecc-48d3-855d-457a1161b0d3,vorher,de,A2,Adverb,[ˈfoːɐ̯.heːɐ̯],"beforehand, previously, before",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+f87975fd-c584-4e3e-907c-da947d281d88,organisieren,de,A2,Verb,/ɔʁɡaniˈziːʁən/,to organize,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+f8f81c60-e9f9-4ba5-b5ba-1ccfe8ffd08a,das Heft,de,A2,Noun,/hɛft/,"notebook, writing booklet, cahier, composition book (book in which notes or memoranda are written)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+f97d7366-743b-4270-bf83-1ea8c9365a29,übermorgen,de,A2,Adverb,/ˈyːbɐˌmɔʁɡn̩/,"overmorrow, the day after tomorrow",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:53:28.698781+00
+f9f910bc-190e-49df-b579-e5661dc3b70f,der Teller,de,A2,Noun,/ˈtɛ.lɐ/,"plate, dish",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:41:56.608227+00
+fa0f18c7-8cb3-4126-9335-112c3067f80b,die Hauptstadt,de,A2,Noun,/ˈhaʊ̯ptˌʃtat/,capital (city),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+fa54aab9-144d-4625-83ac-fdbded123297,hoffentlich,de,A2,Adverb,/ˈhɔfn̩tlɪç/,hopefully,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:49:40.319797+00
+fb91f066-dd2f-4418-9ddb-97ef85ad8768,fast,de,A2,Adverb,/fast/,almost; nearly,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:48:18.124993+00
+fba3401a-ea5f-404d-8aa7-9e8301b1c942,sauer,de,A2,Adjective,/ˈzaʊ̯ər/,sour; acid; acidic,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+fbbdc2f0-aff3-4337-81bc-62e08dea5629,tief,de,A2,Adjective,/tiːf/,"deep (having a long distance to the bottom; of bodies of water, wells, etc.)",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:52:18.519708+00
+fbe9d712-a9b1-4f70-a6a6-7839722ae38d,beschweren (sich),de,A2,Verb,/bəˈʃveːʁən/,"to weight, to weight down",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:27:51.033903+00
+fca12581-7732-497f-85a0-ba7e38c50be3,das Spiel,de,A2,Noun,/ʃpiːl/,a game (instance or way of playing),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:38:10.991084+00
+fcb9274b-e7d2-4345-a1f1-029a69fd7501,zum Beispiel,de,A2,Adverb,/t͡sʊm ˈbaɪ̯ˌʃpiːl/,"for example, for instance",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:54:04.261188+00
+fcc0fa88-6cf3-4a60-b4fa-16180178840e,das Fleisch (Sg.),de,A2,noun,/flaɪʃ sg./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+fcfddbae-8fa0-4c0a-a301-b08a40beba3c,berichten,de,A2,Verb,/bəˈʁɪçtən/,"to relate, to tell, to give an account of",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:27:51.033903+00
+fda2ccfa-f5f3-4b72-8c34-d1ba54d12574,nennen,de,A2,Verb,/ˈnɛnən/,to name (to give a name to),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+fe730c73-7bc9-4570-a56e-56b446601457,das Konzert,de,A2,Noun,/kɔnˈtsɛɐ̯t/,concert (musical event),,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:36:52.246043+00
+fe7ce8bc-70f6-43d0-bd6f-bd705f4d7de4,der Basketball,de,A2,Noun,/ˈbaːskətˌbal/,basketball,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:39:23.974855+00
+fe7f7a00-5aca-49a7-94f4-79da7decabc4,die Fundsachen (Pl.),de,A2,noun,/fʊndsaxən pl./,,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-17 12:49:13.050247+00
+ff58afe7-17f3-4461-80d2-ae9175f563df,die Mütze,de,A2,Noun,/ˈmʏt͡sə/,cap,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:44:31.943166+00
+ff871450-1558-4b40-a4d8-033e6bc9150b,blöd,de,A2,Adjective,/bløːt/,"stupid, dim-witted",,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:35:39.53253+00
+ff96fc30-739e-40be-b095-8b95122ddf46,nebenan,de,A2,Adverb,/ˌneːbənˈan/,next door,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-05-19 21:50:55.469632+00
+ffcfbeb7-4136-4d3a-8236-b77a4b2a48bd,das Frühstück (Sg.),de,A2,noun,/fʁyhstyck sg./,breakfast,,goethe_a2,2026-05-17 12:49:13.050247+00,2026-06-09 19:03:59.610074+00

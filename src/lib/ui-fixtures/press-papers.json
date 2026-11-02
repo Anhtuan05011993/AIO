@@ -1,0 +1,407 @@
+{
+  "the-guardian": {
+    "cards": [
+      {
+        "author": "Bởi Sarah Phillips",
+        "class": "pac nbc-lv1 is-sheet is-s-kraft",
+        "id": "tex_39c94ff9f232b4fa2a",
+        "image": "/api/press/image/tex_39c94ff9f232b4fa2a",
+        "minutes": "2 phút",
+        "title": "How to improve your memory: 10 easy, enjoyable expert tips – from reading a book to getting more sleep",
+        "topic": "Sức khoẻ",
+        "vi": "Cách cải thiện trí nhớ của bạn: 10 mẹo dễ dàng, thú vị từ chuyên gia – từ đọc sách đến ngủ nhiều hơn"
+      },
+      {
+        "author": "Bởi Matthew Pearce",
+        "class": "pac nbc-lv1 is-sheet",
+        "id": "tex_96305f526f510d2ac7",
+        "image": "/api/press/image/tex_96305f526f510d2ac7",
+        "minutes": "4 phút",
+        "title": "‘This is a robust recipe’: the experimental farm bucking the decline in UK birds",
+        "topic": "Môi trường & Khí hậu",
+        "vi": "‘Đây là một công thức vững chắc’: trang trại thử nghiệm chống lại sự suy giảm chim ở Anh"
+      },
+      {
+        "author": "Bởi Ian Sample",
+        "class": "pac nbc-lv1 is-sheet is-s-kraft",
+        "id": "tex_76b8788ecb0ef96bcd",
+        "image": "/api/press/image/tex_76b8788ecb0ef96bcd",
+        "minutes": "5 phút",
+        "title": "From gold rush to cosmic questions: a South Dakota mine and the search for the secrets of the universe",
+        "topic": "Khoa học",
+        "vi": "Từ cơn sốt vàng đến những câu hỏi vũ trụ: một mỏ ở Nam Dakota và hành trình tìm kiếm bí mật của vũ trụ"
+      },
+      {
+        "author": "Bởi Eben Muse",
+        "class": "pac nbc-lv1 is-sheet",
+        "id": "tex_9977037b56cf8c932d",
+        "image": "/api/press/image/tex_9977037b56cf8c932d",
+        "minutes": "2 phút",
+        "title": "Country diary: An impromptu birding trip with a total stranger – and it was magical",
+        "topic": "Môi trường & Khí hậu",
+        "vi": "Nhật ký đồng quê: Một chuyến ngắm chim bất chợt cùng một người hoàn toàn xa lạ – và thật kỳ diệu"
+      },
+      {
+        "author": "Bởi Rebecca Ratcliffe",
+        "class": "pac nbc-lv1 is-sheet is-s-kraft",
+        "id": "tex_5cd0b8aac814293bc5",
+        "image": "/api/press/image/tex_5cd0b8aac814293bc5",
+        "minutes": "5 phút",
+        "title": "Twice as many plants and animals sold in wildlife trade as previously thought, says report",
+        "topic": "Môi trường & Khí hậu",
+        "vi": "Báo cáo: Số lượng thực vật và động vật bị buôn bán trong hoạt động buôn bán động vật hoang dã cao gấp đôi so với ước tính trước đây"
+      },
+      {
+        "author": "Bởi Angela Giuffrida",
+        "class": "pac nbc-lv1 is-sheet",
+        "id": "tex_686fb0850f82f7f483",
+        "image": "/api/press/image/tex_686fb0850f82f7f483",
+        "minutes": "3 phút",
+        "title": "Perfume bottle and child’s necklace among treasures found in Pompeii wardrobe",
+        "topic": "Khoa học",
+        "vi": "Lọ nước hoa và dây chuyền trẻ em nằm trong số báu vật tìm thấy trong tủ quần áo ở Pompeii"
+      },
+      {
+        "author": "Bởi Merryn Glover",
+        "class": "pac nbc-lv1 is-sheet is-s-kraft",
+        "id": "tex_db32c13308a4e9c564",
+        "image": "/api/press/image/tex_db32c13308a4e9c564",
+        "minutes": "2 phút",
+        "title": "Country diary: The light and shade of autumn’s shortening days",
+        "topic": "Môi trường & Khí hậu",
+        "vi": "Nhật ký đồng quê: Sắc sáng và bóng tối trong những ngày thu ngắn dần"
+      },
+      {
+        "author": "Bởi Guardian staff reporter",
+        "class": "pac nbc-lv1 is-sheet",
+        "id": "tex_2aa928929ce6237eee",
+        "image": "/api/press/image/tex_2aa928929ce6237eee",
+        "minutes": "3 phút",
+        "title": "Migrating seabirds face a surprising problem: jet lag",
+        "topic": "Khoa học",
+        "vi": "Chim biển di cư đối mặt với một vấn đề bất ngờ: lệch múi giờ"
+      },
+      {
+        "author": "Bởi Patrick Barkham",
+        "class": "pac nbc-lv1 is-sheet is-s-kraft",
+        "id": "tex_c8cb0fd47d9040934e",
+        "image": "/api/press/image/tex_c8cb0fd47d9040934e",
+        "minutes": "2 phút",
+        "title": "Queen of Spain butterfly invades Britain – but will it become native?",
+        "topic": "Môi trường & Khí hậu",
+        "vi": "Bướm Nữ hoàng Tây Ban Nha xâm nhập nước Anh – liệu có trở thành loài bản địa?"
+      },
+      {
+        "author": "Bởi Andrea Meanwell",
+        "class": "pac nbc-lv1 is-sheet",
+        "id": "tex_43cba9d6b7a8b82011",
+        "image": "/api/press/image/tex_43cba9d6b7a8b82011",
+        "minutes": "2 phút",
+        "title": "Country diary: A new chapter for the farm – we’re going organic",
+        "topic": "Môi trường & Khí hậu",
+        "vi": "Nhật ký đồng quê: Chương mới cho trang trại – chúng tôi chuyển sang hữu cơ"
+      },
+      {
+        "author": "Bởi Nicola Davis",
+        "class": "pac nbc-lv1 is-sheet is-s-kraft",
+        "id": "tex_ee712d8f731fa53b39",
+        "image": "/api/press/image/tex_ee712d8f731fa53b39",
+        "minutes": "4 phút",
+        "title": "‘Ferritin face’: are social media claims about iron deficiency fact – or fiction?",
+        "topic": "Sức khoẻ",
+        "vi": "‘Khuôn mặt ferritin’: những tuyên bố trên mạng xã hội về thiếu sắt là sự thật hay hư cấu?"
+      },
+      {
+        "author": "Bởi Kate Ravilious",
+        "class": "pac nbc-lv1 is-sheet",
+        "id": "tex_41bb619f270d1d0904",
+        "image": "/api/press/image/tex_41bb619f270d1d0904",
+        "minutes": "2 phút",
+        "title": "How rising seas transformed dry land into Venice lagoon",
+        "topic": "Khoa học",
+        "vi": "Biển dâng đã biến đất khô thành đầm phá Venice như thế nào"
+      }
+    ],
+    "decoration": "<span class=\"nbx-hdeco\" aria-hidden=\"true\" data-nb-shapes=\"read\" data-nb-skin-ok=\"shape angle (D9 board: the cut shapes keep their angle in both skins)\"><i class=\"nbx-a\" style=\"--nb-x-m: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20100%20100'%3E%3Cpath%20d%3D'M16%2092V50a34%2034%200%200%201%2068%200v42Z'%2F%3E%3C%2Fsvg%3E&quot;); --nb-x-w: 190px; --nb-x-x: 320px; --nb-x-y: -46px; --nb-x-r: -6deg;\"></i><i class=\"nbx-b\" style=\"--nb-x-m: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20100%20100'%3E%3Cpath%20d%3D'M50%202C54%2036%2064%2046%2098%2050C64%2054%2054%2064%2050%2098C46%2064%2036%2054%202%2050C36%2046%2046%2036%2050%202Z'%2F%3E%3C%2Fsvg%3E&quot;); --nb-x-w: 56px; --nb-x-x: 252px; --nb-x-y: 96px; --nb-x-r: 0deg;\"></i><i class=\"nbx-c\" style=\"--nb-x-m: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20100%20100'%3E%3Cpath%20d%3D'M50%202C54%2036%2064%2046%2098%2050C64%2054%2054%2064%2050%2098C46%2064%2036%2054%202%2050C36%2046%2046%2036%2050%202Z'%2F%3E%3C%2Fsvg%3E&quot;); --nb-x-w: 30px; --nb-x-x: 560px; --nb-x-y: 18px; --nb-x-r: 12deg;\"></i></span>",
+    "hero": {
+      "author": "Guardian staff reporter",
+      "id": "tex_aceea89499b373dea8",
+      "image": "/api/press/image/tex_aceea89499b373dea8",
+      "minutes": "2 phút",
+      "title": "Why you should treat charisma as a red flag",
+      "topic": "Xã hội & Đời sống",
+      "vi": "Vì sao bạn nên coi sức hút cá nhân là một dấu hiệu cảnh báo"
+    },
+    "title": "The Guardian"
+  },
+  "the-conversation": {
+    "cards": [
+      {
+        "author": "Bởi Tara Deans",
+        "class": "pac nbc-lv1 is-sheet is-s-kraft",
+        "id": "tex_c4696e2956183e939b",
+        "image": "/api/press/image/tex_c4696e2956183e939b",
+        "minutes": "6 phút",
+        "title": "Zombies are real – just ask the parasites taking over the bodies and brains of insects and rodents, leading them to their doom",
+        "topic": "Khoa học",
+        "vi": "Zombie là có thật – cứ hỏi lũ ký sinh trùng đang chiếm đoạt cơ thể và não bộ của côn trùng và loài gặm nhấm, dẫn chúng đến chỗ diệt vong"
+      },
+      {
+        "author": "Bởi Philip Mannion",
+        "class": "pac nbc-lv1 is-sheet",
+        "id": "tex_6f960c4d7d1cf606cc",
+        "image": "/api/press/image/tex_6f960c4d7d1cf606cc",
+        "minutes": "5 phút",
+        "title": "How the Sphinx is helping answer a riddle about extinct crocodiles",
+        "topic": "Khoa học",
+        "vi": "Cách tượng Nhân Sư đang giúp giải câu đố về loài cá sấu đã tuyệt chủng"
+      },
+      {
+        "author": "Bởi Alex Dittrich",
+        "class": "pac nbc-lv1 is-sheet is-s-kraft",
+        "id": "tex_f9bdc91aaa70dd12fe",
+        "image": "/api/press/image/tex_f9bdc91aaa70dd12fe",
+        "minutes": "5 phút",
+        "title": "Werewolf mice, ghostly frogs and zombie cockroaches: the animal versions of our Halloween horrors",
+        "topic": "Khoa học",
+        "vi": "Chuột người sói, ếch ma và gián thây ma: phiên bản động vật của những nỗi kinh hoàng Halloween của chúng ta"
+      },
+      {
+        "author": "Bởi Ciro Civile",
+        "class": "pac nbc-lv1 is-sheet",
+        "id": "tex_6073dae6419f89ea53",
+        "image": "/api/press/image/tex_6073dae6419f89ea53",
+        "minutes": "5 phút",
+        "title": "Is sexual objectification hard-wired? Our study used electrical brain stimulation to find out",
+        "topic": "Khoa học",
+        "vi": "Liệu khách thể hóa tình dục có phải là bản năng bẩm sinh? Nghiên cứu của chúng tôi đã dùng kích thích điện não để tìm hiểu"
+      },
+      {
+        "author": "Bởi Alex Bertacchi",
+        "class": "pac nbc-lv1 is-sheet is-s-kraft",
+        "id": "tex_97a9de7e70219aaf88",
+        "image": "/api/press/image/tex_97a9de7e70219aaf88",
+        "minutes": "7 phút",
+        "title": "What animal bones in Malawi teach us about the social lives of people long ago",
+        "topic": "Khoa học",
+        "vi": "Những mảnh xương động vật ở Malawi dạy chúng ta điều gì về đời sống xã hội của con người thuở xa xưa"
+      },
+      {
+        "author": "Bởi Thomas J Bassett",
+        "class": "pac nbc-lv1 is-sheet",
+        "id": "tex_55a16b895ba6f8edad",
+        "image": "/api/press/image/tex_55a16b895ba6f8edad",
+        "minutes": "6 phút",
+        "title": "Who mapped Africa? Debunking the myth that Europeans alone plotted the continent",
+        "topic": "Văn hoá & Nghệ thuật",
+        "vi": "Ai đã lập bản đồ châu Phi? Gỡ bỏ lầm tưởng rằng chỉ người châu Âu vẽ nên lục địa này"
+      },
+      {
+        "author": "Bởi Hannah Wakeford",
+        "class": "pac nbc-lv1 is-sheet is-s-kraft",
+        "id": "tex_3444ff86069ceb4233",
+        "image": "/api/press/image/tex_3444ff86069ceb4233",
+        "minutes": "5 phút",
+        "title": "Scientists map a distant planet’s atmosphere for the first time – and it’s lopsided",
+        "topic": "Khoa học",
+        "vi": "Các nhà khoa học lần đầu tiên lập bản đồ khí quyển của một hành tinh xa xôi – và nó không cân đối"
+      },
+      {
+        "author": "Bởi Kristen Skruber",
+        "class": "pac nbc-lv1 is-sheet",
+        "id": "tex_aa6645426f460a94f9",
+        "image": "/api/press/image/tex_aa6645426f460a94f9",
+        "minutes": "4 phút",
+        "title": "We discovered an organism that lives at blistering temperatures – but what allows it to take the heat?",
+        "topic": "Khoa học",
+        "vi": "Chúng tôi đã phát hiện một sinh vật sống ở nhiệt độ cực cao – nhưng điều gì giúp nó chịu được sức nóng?"
+      },
+      {
+        "author": "Bởi Alex Brown",
+        "class": "pac nbc-lv1 is-sheet is-s-kraft",
+        "id": "tex_079d1e4157642dbcb8",
+        "image": "/api/press/image/tex_079d1e4157642dbcb8",
+        "minutes": "4 phút",
+        "title": "Medieval ghost stories featured rotten flesh, the walking dead and spoon-stealing spirits",
+        "topic": "Văn hoá & Nghệ thuật",
+        "vi": "Truyện ma thời Trung cổ có thịt thối rữa, người chết biết đi và những hồn ma trộm thìa"
+      },
+      {
+        "author": "Bởi Clin Lai",
+        "class": "pac nbc-lv1 is-sheet",
+        "id": "tex_87135fbdfa761e9195",
+        "image": "/api/press/image/tex_87135fbdfa761e9195",
+        "minutes": "6 phút",
+        "title": "AI may quickly generate ideas, but working with people leads to more creative ones",
+        "topic": "Công nghệ",
+        "vi": "AI có thể nhanh chóng tạo ra ý tưởng, nhưng làm việc với con người dẫn đến những ý tưởng sáng tạo hơn"
+      },
+      {
+        "author": "Bởi Jennifer Rich",
+        "class": "pac nbc-lv1 is-sheet is-s-kraft",
+        "id": "tex_1ffaa934958f7dfe1e",
+        "image": "/api/press/image/tex_1ffaa934958f7dfe1e",
+        "minutes": "6 phút",
+        "title": "‘Let nothing be forgotten’: Holocaust survivors’ memorial books honored lives lost and vibrant hometowns",
+        "topic": "Văn hoá & Nghệ thuật",
+        "vi": "‘Không để điều gì bị lãng quên’: Những cuốn sách tưởng niệm của người sống sót sau Holocaust tôn vinh những sinh mạng đã mất và những thị trấn quê hương sôi động"
+      },
+      {
+        "author": "Bởi Kylee Rae Noel",
+        "class": "pac nbc-lv1 is-sheet",
+        "id": "tex_b38194174b8dfd71cf",
+        "image": "/api/press/image/tex_b38194174b8dfd71cf",
+        "minutes": "5 phút",
+        "title": "Where humans build, mosquitoes follow – bringing dengue, West Nile and other diseases with them",
+        "topic": "Sức khoẻ",
+        "vi": "Nơi con người xây dựng, muỗi theo sau – mang theo sốt xuất huyết, West Nile và các bệnh khác"
+      }
+    ],
+    "decoration": "<span class=\"nbx-hdeco\" aria-hidden=\"true\" data-nb-shapes=\"read\" data-nb-skin-ok=\"shape angle (D9 board: the cut shapes keep their angle in both skins)\"><i class=\"nbx-a\" style=\"--nb-x-m: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20100%20100'%3E%3Cpath%20d%3D'M16%2092V50a34%2034%200%200%201%2068%200v42Z'%2F%3E%3C%2Fsvg%3E&quot;); --nb-x-w: 190px; --nb-x-x: 320px; --nb-x-y: -46px; --nb-x-r: -6deg;\"></i><i class=\"nbx-b\" style=\"--nb-x-m: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20100%20100'%3E%3Cpath%20d%3D'M50%202C54%2036%2064%2046%2098%2050C64%2054%2054%2064%2050%2098C46%2064%2036%2054%202%2050C36%2046%2046%2036%2050%202Z'%2F%3E%3C%2Fsvg%3E&quot;); --nb-x-w: 56px; --nb-x-x: 252px; --nb-x-y: 96px; --nb-x-r: 0deg;\"></i><i class=\"nbx-c\" style=\"--nb-x-m: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20100%20100'%3E%3Cpath%20d%3D'M50%202C54%2036%2064%2046%2098%2050C64%2054%2054%2064%2050%2098C46%2064%2036%2054%202%2050C36%2046%2046%2036%2050%202Z'%2F%3E%3C%2Fsvg%3E&quot;); --nb-x-w: 30px; --nb-x-x: 560px; --nb-x-y: 18px; --nb-x-r: 12deg;\"></i></span>",
+    "hero": {
+      "author": "Yjan Gordon",
+      "id": "tex_151fc97754454a8e4d",
+      "image": "/api/press/image/tex_151fc97754454a8e4d",
+      "minutes": "6 phút",
+      "title": "Figuring out where cosmic neutrinos come from is tricky - radio telescopes could help find where these ‘ghost particles’ originate",
+      "topic": "Khoa học",
+      "vi": "Xác định nguồn gốc của neutrino vũ trụ là việc khó khăn - kính viễn vọng vô tuyến có thể giúp tìm ra nơi những 'hạt ma' này bắt nguồn"
+    },
+    "title": "The Conversation"
+  },
+  "the-atlantic": {
+    "cards": [
+      {
+        "author": "Bởi Shirley Li",
+        "class": "pac nbc-lv1 is-sheet is-s-kraft",
+        "id": "tex_072d0787da5c5e66d2",
+        "image": "/api/press/image/tex_072d0787da5c5e66d2",
+        "minutes": "10 phút",
+        "title": "When a Movie Hinges on a Kid’s Performance",
+        "topic": "Văn hoá & Nghệ thuật",
+        "vi": "Khi bộ phim phụ thuộc vào diễn xuất của một đứa trẻ"
+      },
+      {
+        "author": "Bởi Anna Wexler",
+        "class": "pac nbc-lv1 is-sheet",
+        "id": "tex_61727562b100961a5a",
+        "image": "/api/press/image/tex_61727562b100961a5a",
+        "minutes": "6 phút",
+        "title": "AI Is Destroying Academic Publishing",
+        "topic": "Khoa học",
+        "vi": "AI đang hủy hoại ngành xuất bản học thuật"
+      },
+      {
+        "author": "Bởi Luis Parrales",
+        "class": "pac nbc-lv1 is-sheet is-s-kraft",
+        "id": "tex_995296fe3224468461",
+        "image": "/api/press/image/tex_995296fe3224468461",
+        "minutes": "6 phút",
+        "title": "What Horror Films Have to Say About God",
+        "topic": "Văn hoá & Nghệ thuật",
+        "vi": "Những bộ phim kinh dị nói gì về Chúa"
+      },
+      {
+        "author": "Bởi Tove Danovich",
+        "class": "pac nbc-lv1 is-sheet",
+        "id": "tex_eae1f8bad1f0caa1c8",
+        "image": "/api/press/image/tex_eae1f8bad1f0caa1c8",
+        "minutes": "5 phút",
+        "title": "Just Noting That Your Candy Corn Is Made of Bug Secretions",
+        "topic": "Sức khoẻ",
+        "vi": "Chỉ là ghi chú rằng kẹo bắp của bạn được làm từ dịch tiết của côn trùng"
+      },
+      {
+        "author": "Bởi Cecilia Nowell",
+        "class": "pac nbc-lv1 is-sheet is-s-kraft",
+        "id": "tex_465b009876247f0298",
+        "image": "/api/press/image/tex_465b009876247f0298",
+        "minutes": "7 phút",
+        "title": "Doctors Say a Rare Kind of Measles Is on the Rise",
+        "topic": "Sức khoẻ",
+        "vi": "Các bác sĩ cho biết một loại sởi hiếm gặp đang gia tăng"
+      },
+      {
+        "author": "Bởi Ian Bogost",
+        "class": "pac nbc-lv1 is-sheet",
+        "id": "tex_8ea94e11d1bc8ade03",
+        "image": "/api/press/image/tex_8ea94e11d1bc8ade03",
+        "minutes": "8 phút",
+        "title": "The Variety Bag Has Ruined Halloween",
+        "topic": "Văn hoá & Nghệ thuật",
+        "vi": "Túi kẹo đa dạng đã phá hỏng Halloween"
+      },
+      {
+        "author": "Bởi Ross Andersen",
+        "class": "pac nbc-lv1 is-sheet is-s-kraft",
+        "id": "tex_97c92e549e5e4a1dd1",
+        "image": "/api/press/image/tex_97c92e549e5e4a1dd1",
+        "minutes": "12 phút",
+        "title": "The Long, Weird Tale of Comet Ping Pong",
+        "topic": "Văn hoá & Nghệ thuật",
+        "vi": "Câu chuyện dài và kỳ lạ về Comet Ping Pong"
+      },
+      {
+        "author": "Bởi Alexandra Tremayne-Pengelly",
+        "class": "pac nbc-lv1 is-sheet",
+        "id": "tex_63e3cdcb47f3490a4c",
+        "image": "/api/press/image/tex_63e3cdcb47f3490a4c",
+        "minutes": "8 phút",
+        "title": "There Are Too Many Apps for That",
+        "topic": "Công nghệ",
+        "vi": "Có quá nhiều ứng dụng cho việc đó"
+      },
+      {
+        "author": "Bởi Ross Andersen",
+        "class": "pac nbc-lv1 is-sheet is-s-kraft",
+        "id": "tex_41b2c2a5e9f7aa265b",
+        "image": "/api/press/image/tex_41b2c2a5e9f7aa265b",
+        "minutes": "9 phút",
+        "title": "What Should You Do With Your Money in the Age of AI?",
+        "topic": "Kinh tế & Kinh doanh",
+        "vi": "Bạn nên làm gì với tiền của mình trong kỷ nguyên AI?"
+      },
+      {
+        "author": "Bởi Talya Zax",
+        "class": "pac nbc-lv1 is-sheet",
+        "id": "tex_d57999390c11989fae",
+        "image": "/api/press/image/tex_d57999390c11989fae",
+        "minutes": "7 phút",
+        "title": "The Best Kind of Book Adaptation",
+        "topic": "Văn hoá & Nghệ thuật",
+        "vi": "Kiểu chuyển thể sách hay nhất"
+      },
+      {
+        "author": "Bởi Spencer Kornhaber",
+        "class": "pac nbc-lv1 is-sheet is-s-kraft",
+        "id": "tex_b5dae7f10db46c60d5",
+        "image": "/api/press/image/tex_b5dae7f10db46c60d5",
+        "minutes": "6 phút",
+        "title": "Music for the Movie-Brained",
+        "topic": "Văn hoá & Nghệ thuật",
+        "vi": "Âm nhạc cho những tâm trí điện ảnh"
+      },
+      {
+        "author": "Bởi John West",
+        "class": "pac nbc-lv1 is-sheet",
+        "id": "tex_5e9660b8ccdffd1dfd",
+        "image": "/api/press/image/tex_5e9660b8ccdffd1dfd",
+        "minutes": "6 phút",
+        "title": "How Long Until the Internet Breaks?",
+        "topic": "Công nghệ",
+        "vi": "Còn Bao Lâu Nữa Internet Sẽ Sụp Đổ?"
+      }
+    ],
+    "decoration": "<span class=\"nbx-hdeco\" aria-hidden=\"true\" data-nb-shapes=\"read\" data-nb-skin-ok=\"shape angle (D9 board: the cut shapes keep their angle in both skins)\"><i class=\"nbx-a\" style=\"--nb-x-m: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20100%20100'%3E%3Cpath%20d%3D'M16%2092V50a34%2034%200%200%201%2068%200v42Z'%2F%3E%3C%2Fsvg%3E&quot;); --nb-x-w: 190px; --nb-x-x: 320px; --nb-x-y: -46px; --nb-x-r: -6deg;\"></i><i class=\"nbx-b\" style=\"--nb-x-m: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20100%20100'%3E%3Cpath%20d%3D'M50%202C54%2036%2064%2046%2098%2050C64%2054%2054%2064%2050%2098C46%2064%2036%2054%202%2050C36%2046%2046%2036%2050%202Z'%2F%3E%3C%2Fsvg%3E&quot;); --nb-x-w: 56px; --nb-x-x: 252px; --nb-x-y: 96px; --nb-x-r: 0deg;\"></i><i class=\"nbx-c\" style=\"--nb-x-m: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20100%20100'%3E%3Cpath%20d%3D'M50%202C54%2036%2064%2046%2098%2050C64%2054%2054%2064%2050%2098C46%2064%2036%2054%202%2050C36%2046%2046%2036%2050%202Z'%2F%3E%3C%2Fsvg%3E&quot;); --nb-x-w: 30px; --nb-x-x: 560px; --nb-x-y: 18px; --nb-x-r: 12deg;\"></i></span>",
+    "hero": {
+      "author": "Annie Lowrey",
+      "id": "tex_21969f93863352b92e",
+      "image": "/api/press/image/tex_21969f93863352b92e",
+      "minutes": "7 phút",
+      "title": "What the Economy Is Sacrificing to AI",
+      "topic": "Kinh tế & Kinh doanh",
+      "vi": "Nền kinh tế đang hy sinh điều gì cho AI"
+    },
+    "title": "The Atlantic"
+  }
+}

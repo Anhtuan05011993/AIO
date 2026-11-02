@@ -1,0 +1,17 @@
+[
+  {
+    "scope": "src/styles/source",
+    "compared": 23,
+    "changed": []
+  },
+  {
+    "scope": "src/app/api",
+    "compared": 13,
+    "changed": []
+  },
+  {
+    "scope": "src/lib/store",
+    "compared": 2,
+    "changed": []
+  }
+]

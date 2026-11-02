@@ -1,0 +1,105 @@
+### 1. State & React Lifecycle Bugs
+
+#### 1.1 Rule of Hooks Violation in `useEffect`
+* **Evidence:**
+  ```tsx
+  useEffect(() => {
+   const sync = () => setUser(getDemoUser()); sync();
+   const progress = () => setStreak(loadProgress().streakDays); progress();
+   const offUser = useDemoUserSync(sync), offProgress = onProgressChange(progress);
+   // ...
+  }, []);
+  ```
+* **Issue:** `useDemoUserSync` follows the React Hook naming convention (`use*`). Calling a custom hook inside `useEffect` violates the **Rules of Hooks** (hooks can only be called at the top level of a component). If `useDemoUserSync` internally calls React hooks (`useState`, `useEffect`, etc.), React throws a runtime error (`Invalid hook call`). If it is simply an event listener subscription rather than a hook, its contract is being invoked incorrectly as a callback subscription inside an effect while retaining a hook identifier.
+
+---
+
+#### 1.2 Focus Restoration Hijacks Next.js Route Transitions
+* **Evidence:**
+  ```tsx
+  const previous = document.activeElement as HTMLElement | null;
+  // ...
+  return () => { offUser(); offProgress(); dialog?.close(); if (previous?.isConnected) previous.focus(); };
+  ```
+  ```tsx
+  <Link ... href={href} onClick={onClose} ...>
+  ```
+* **Issue:** All navigation items trigger `onClick={onClose}` upon activation, unmounting the drawer while Next.js transitions routes. In the cleanup function, `previous.focus()` unconditionally yanks keyboard focus back to the trigger button of the unmounted page, disrupting expected focus placement on the incoming page. Additionally, native modal `<dialog>` implementations already restore focus automatically when closed via native interactions.
+
+---
+
+#### 1.3 Backdrop Click Detection Fails with Full-Overlay Dialog
+* **Evidence:**
+  ```tsx
+  onClick={e => {
+   if(e.target !== e.currentTarget) return;
+   const r=e.currentTarget.getBoundingClientRect();
+   if(e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) onClose();
+  }}
+  ```
+* **Issue:** With the drawer layout nested as an `<aside className="sb-drawer ...">` inside `<dialog>`, if the `<dialog>` has default or full-screen overlay styles (`inset: 0` / 100vw × 100vh):
+  1. A click on the backdrop outside the 240px sidebar targets `<dialog>` (`e.target === e.currentTarget`).
+  2. However, `e.clientX` and `e.clientY` will fall **inside** `r` (the dialog’s bounding box).
+  3. Consequently, `clientX < r.left || clientX > r.right ...` evaluates to `false`, and `onClose()` is never invoked.
+  4. Conversely, if `<dialog>` itself is styled to 240px width, text dragging/selection starting inside `<dialog>` and released outside will dispatch a `click` on `<dialog>` with coordinates outside `r`, accidentally closing the drawer.
+
+---
+
+#### 1.4 Unchecked `dialog.showModal()` Can Throw `InvalidStateError`
+* **Evidence:**
+  ```tsx
+  const dialog = ref.current; dialog?.showModal(); brand.current?.focus();
+  ```
+* **Issue:** Calling `HTMLDialogElement.showModal()` when the dialog is already open (or if an external trigger or strict cycle mounts without reset) throws a fatal DOMException (`InvalidStateError: The element is already open`). It lacks a defensive state check (`if (dialog && !dialog.open) dialog.showModal()`).
+
+---
+
+### 2. Accessibility (a11y) Bugs
+
+#### 2.1 Flawed and Redundant Tab Focus Trap
+* **Evidence:**
+  ```tsx
+  onKeyDown={e => {
+   if(e.key !== "Tab") return;
+   const links = Array.from(e.currentTarget.querySelectorAll<HTMLAnchorElement>("a[href]"));
+   const first=links[0], last=links[links.length-1];
+   if(e.shiftKey && document.activeElement === first){ e.preventDefault(); last?.focus(); }
+   else if(!e.shiftKey && document.activeElement === last){ e.preventDefault(); first?.focus(); }
+  }}
+  ```
+* **Issue:**
+  1. Native modal dialogs opened via `showModal()` **already** provide native focus trapping and make outside elements inert.
+  2. The custom listener restricts focus targets strictly to `a[href]`. If any button, input, or element with `tabindex` is present, it will be skipped by the manual boundary wrapping.
+  3. If focus rests on `<dialog>` itself (e.g., after clicking non-interactive content or before logo focus completes), pressing `Shift + Tab` bypasses the `document.activeElement === first` check and causes erratic native tab navigation.
+
+---
+
+#### 2.2 Missing Explicit Close / Dismiss Button
+* **Evidence:**
+  ```tsx
+  <dialog ref={ref} className="ui-lesson-navigation nbd-panel nb-frame" aria-label="Menu điều hướng" aria-modal="true" ...>
+  ```
+* **Issue:** The drawer has no visible or screen-reader-accessible close button (`<button aria-label="Đóng">`). While keyboard users can press `Escape`, touchscreen screen reader users (iOS VoiceOver / Android TalkBack) cannot press `Escape` or reliably tap pixel-boundary backdrops. This violates **WCAG 2.1 SC 2.1.2 (No Keyboard Trap)** guidelines for dialog dismissal.
+
+---
+
+#### 2.3 Semantic Landmark Conflict (`<aside>` wrapping Primary `<nav>`)
+* **Evidence:**
+  ```tsx
+  <aside {...s} className="sb-drawer nb-frame nbr" data-testid="app-sidebar">
+   <nav {...s} className="nbr-sheet nbx-rail-in" aria-label="Điều hướng chính">
+  ```
+* **Issue:** An `<aside>` carries the landmark role `complementary`, denoting tangential or secondary content. Wrapping the application's primary navigation (`<nav aria-label="Điều hướng chính">`) inside a complementary landmark within a modal dialog creates conflicting landmark semantics for screen reader navigation rotor/menus.
+
+---
+
+#### 2.4 Missing List Semantics on Navigation Groups
+* **Evidence:**
+  ```tsx
+  <div {...s} className="sb-nav nbr-nav">
+   <div {...group} className="nbr-group">{entries.slice(0,9).map(item)}</div>
+   <hr {...s} className="nbx-nsep nbr-rule"/>
+   <div {...group} className="nbr-group">{entries.slice(9).map(item)}</div>
+  </div>
+  ```
+* **Issue:** The navigation items are rendered as flat links inside unsemantic `<div>` elements rather than standard list elements (`<ul>`/`<li>` or `role="list"`/`role="listitem"`). Screen reader users lose list context (such as total item count and relative position index, e.g., *"item 2 of 11"*).

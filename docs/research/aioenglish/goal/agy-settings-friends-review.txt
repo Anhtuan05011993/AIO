@@ -1,0 +1,80 @@
+Here is a detailed review of the concrete state, accessibility (a11y), and SSR/hydration bugs in `SettingsFriends`.
+
+---
+
+### 1. SSR & Hydration Bugs
+
+* **`host` State Mismatch & Content Flash**
+  * **Location:** `const [host, setHost] = useState("localhost"); useEffect(() => setHost(window.location.host), []);`
+  * **Bug:** During SSR and the initial client hydration pass, the rendered markup displays `localhost`. Once mounted, `useEffect` triggers an asynchronous client re-render with `window.location.host`.
+  * **Impact:** Causes layout shift / visual text swapping in production (e.g. from `localhost` to `app.domain.com`) and forces an unnecessary client render pass.
+* **Discrepancy Between Visual Display and Clipboard Content**
+  * **Location:** `copy()` uses `location.origin + invite`, whereas the display renders `{host}{invite.split("localdemo")[0]}...`.
+  * **Bug:** The UI renders the URL without a protocol scheme (e.g. `example.com/@name?m=localdemo`), while `copy()` copies `https://example.com/@name?m=localdemo`. Furthermore, direct access to global `location.origin` in `copy()` can cause issues if executed in non-standard window contexts.
+
+---
+
+### 2. State & Component Logic Bugs
+
+* **Link Splitting Logic Breaks on Custom Handles (`savedHandle`)**
+  * **Location:** 
+    ```tsx
+    const invite = `/@${encodeURIComponent(savedHandle)}?m=localdemo${linkRevision || ""}`;
+    <span>{host}{invite.split("localdemo")[0]}<b {...s}>localdemo{linkRevision||""}</b></span>
+    ```
+  * **Bug:** `invite.split("localdemo")[0]` splits on the *first* occurrence of `"localdemo"`. If a user's handle contains `"localdemo"` (e.g. `@localdemo`, `@localdemo_user`), the split truncates the handle path itself rather than the query string.
+  * **Impact:** Corrupts the rendered link text in the UI whenever the handle contains `"localdemo"`.
+* **Inverted Switch State (`online` vs. "Ẩn trạng thái online")**
+  * **Location:** 
+    ```tsx
+    <b id={`${id}-hidden`}>Ẩn trạng thái online</b>
+    <button role="switch" aria-checked={online} onClick={() => onOnline(!online)}>
+    ```
+  * **Bug:** The label indicates "Ẩn trạng thái online" (**Hide** online status), but `aria-checked` and `onClick` bind directly to `online` (**Show** online status).
+  * **Impact:** When `online` is `true` (user is visible online), the switch is announced as "checked / ON" for *hiding* online status. Toggling it flips the logic inversely.
+* **Loss of Canonical Enum Keys in `onFeed`**
+  * **Location:**
+    ```tsx
+    const value = feed === "anonymous" ? "Ẩn danh" : MODES.includes(feed) ? feed : "Ẩn danh";
+    // ...
+    onClick={() => onFeed(mode)}
+    ```
+  * **Bug:** `value` translates `"anonymous"` to `"Ẩn danh"`, but the radio handlers pass the localized string `mode` directly to `onFeed`.
+  * **Impact:** If the parent store/API expects canonical keys (e.g. `"anonymous"`), sending localized UI strings (`"Ẩn danh"`) will desynchronize or corrupt store state. Additionally, any valid canonical key other than `"anonymous"` (e.g. `"off"`, `"public"`) silently falls back to `"Ẩn danh"`.
+
+---
+
+### 3. Accessibility (a11y) & Interaction Bugs
+
+* **Help Popover ARIA Role & Focus Trap Missing**
+  * **Location:**
+    ```tsx
+    {help && <span id={`${id}-help`} role="dialog" aria-label="Bảng tin hoạt động thế nào" ...>...</span>}
+    ```
+  * **Bug:** 
+    * `role="dialog"` is assigned to a non-focusable `<span>` containing static text with no focus management. When opened, focus remains on the trigger button; screen reader users are not directed to the dialog content.
+    * The trigger button `<button className="fsc-q">` has `aria-expanded` and `aria-controls`, but is missing `aria-haspopup="dialog"`.
+    * For an inline informational disclosure, `role="dialog"` adds unwarranted modal/dialog semantic overhead. `role="region"` / `role="tooltip"` or associating via `aria-describedby` is standard.
+* **Aggressive Capture-Phase `Escape` Listener**
+  * **Location:** 
+    ```tsx
+    const key = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        event.stopPropagation();
+        setHelp(false);
+        helpButton.current?.focus();
+      }
+    };
+    document.addEventListener("keydown", key, true);
+    ```
+  * **Bug:** Attaching to `document` in the capture phase (`true`) and executing `stopPropagation()` intercepts and blocks the `Escape` key for any parent modal, drawer, or dialog whenever `help` is open.
+* **Dynamic Validation Error Not Announced (`aria-live`)**
+  * **Location:** `<p id={`${id}-msg`} ...>{dirty && !valid ? "ID gồm..." : "..."}</p>`
+  * **Bug:** Although referenced by `aria-describedby`, changes to the validation error text while typing are not announced in real time because the element lacks `aria-live="polite"` or `role="status"`.
+* **Invite Link Container Lacks Semantics**
+  * **Location:** `<p className="nbc-linkbox" data-testid="fs-link">`
+  * **Bug:** The displayed invite link is rendered as plain text inside a `<p>` without being an interactive `<a>`, a readonly `<input>`, or linked to `<span className="nbc-lb">Link mời kết bạn</span>` via `aria-labelledby`. Screen reader users cannot identify it as a link or copyable value.
+* **Switch Missing Description Binding**
+  * **Location:** `<p>Bạn bè không thấy bạn đang học gì.</p>` below the switch header.
+  * **Bug:** The explanatory paragraph is not linked to the switch button via `aria-describedby`, leaving screen reader users without context unless they read through surrounding text.

@@ -1,0 +1,464 @@
+[
+ {
+  "id": "crs_d88d5ac22b47dda563",
+  "title": "Kể lại lời đã nói",
+  "slug": "a2-unit-11-part-4",
+  "statements": 30
+ },
+ {
+  "id": "crs_d361cb571301a511d7",
+  "title": "Kể lại lời phủ định",
+  "slug": "a2-unit-11-part-5",
+  "statements": 29
+ },
+ {
+  "id": "crs_ef0391fd1c5a2d3272",
+  "title": "Kể lại câu hỏi và lời nhờ",
+  "slug": "a2-unit-11-part-6",
+  "statements": 29
+ },
+ {
+  "id": "crs_2e824de174c05b98bc",
+  "title": "Ôn tập chương kể lại lời",
+  "slug": "a2-unit-11-part-7",
+  "statements": 32
+ },
+ {
+  "id": "crs_4f2806bfd37b2d4077",
+  "title": "Điều mà tôi cần",
+  "slug": "a2-unit-12-part-4",
+  "statements": 30
+ },
+ {
+  "id": "crs_825e8ffc58924550a1",
+  "title": "Nơi mà tôi lớn lên",
+  "slug": "a2-unit-12-part-5",
+  "statements": 32
+ },
+ {
+  "id": "crs_e9a518586a7b58ff03",
+  "title": "Ôn tập chương",
+  "slug": "a2-unit-12-part-6",
+  "statements": 30
+ },
+ {
+  "id": "crs_31f958bf1136c6e787",
+  "title": "Việc được làm hằng ngày",
+  "slug": "a2-unit-9-part-1",
+  "statements": 30
+ },
+ {
+  "id": "crs_a9c8c9e57e644c6e71",
+  "title": "Việc đã được làm trong quá khứ",
+  "slug": "a2-unit-9-part-2",
+  "statements": 30
+ },
+ {
+  "id": "crs_317da2688bb7d65293",
+  "title": "Bị động phủ định và câu hỏi",
+  "slug": "a2-unit-9-part-3",
+  "statements": 34
+ },
+ {
+  "id": "crs_fc54ca7603033996ff",
+  "title": "Ôn tập bị động và sai khiến",
+  "slug": "a2-unit-9-part-7",
+  "statements": 35
+ },
+ {
+  "id": "crs_6af8d95af4cf480c2c",
+  "title": "Vẫn đang chờ từ sáng",
+  "slug": "unit-1-part-4",
+  "statements": 28
+ },
+ {
+  "id": "crs_ae1ed2cfc00e37d174",
+  "title": "Bao lâu rồi và chưa xong",
+  "slug": "unit-1-part-5",
+  "statements": 30
+ },
+ {
+  "id": "crs_4fb3d0ed5685677471",
+  "title": "Ôn tập hiện tại hoàn thành",
+  "slug": "unit-1-part-6",
+  "statements": 31
+ },
+ {
+  "id": "crs_5621c62b19b3e86bbd",
+  "title": "Thành phố ngày càng đông",
+  "slug": "unit-10-part-1",
+  "statements": 27
+ },
+ {
+  "id": "crs_31162644eab6c6bef1",
+  "title": "Thiết bị mới nhanh hơn nhiều",
+  "slug": "unit-10-part-2",
+  "statements": 29
+ },
+ {
+  "id": "crs_fa27972b1ce89ab77b",
+  "title": "Càng tập càng giỏi",
+  "slug": "unit-10-part-3",
+  "statements": 30
+ },
+ {
+  "id": "crs_d8d56f70abe8355b63",
+  "title": "Sẽ có lễ hội lớn",
+  "slug": "unit-10-part-4",
+  "statements": 30
+ },
+ {
+  "id": "crs_de9a9c5a200fffad2d",
+  "title": "Hỏi về lễ hội và chỉ dẫn",
+  "slug": "unit-10-part-5",
+  "statements": 27
+ },
+ {
+  "id": "crs_d84dacd2504b8f2e1b",
+  "title": "Ôn tập chương so sánh",
+  "slug": "unit-10-part-6",
+  "statements": 36
+ },
+ {
+  "id": "crs_0ef83967f9698e3175",
+  "title": "Nhờ vả bằng câu hỏi phủ định",
+  "slug": "unit-11-part-1",
+  "statements": 27
+ },
+ {
+  "id": "crs_3fd259d73d9ad55a5e",
+  "title": "Gợi ý bằng câu hỏi phủ định",
+  "slug": "unit-11-part-2",
+  "statements": 31
+ },
+ {
+  "id": "crs_f644220d952e669680",
+  "title": "Phủ định ở mọi thì",
+  "slug": "unit-11-part-3",
+  "statements": 35
+ },
+ {
+  "id": "crs_0c6b2c82f477aacafc",
+  "title": "Không được phép sao",
+  "slug": "unit-11-part-4",
+  "statements": 30
+ },
+ {
+  "id": "crs_5dd82f7d74f7b4faa3",
+  "title": "Ôn tập câu hỏi phủ định",
+  "slug": "unit-11-part-5",
+  "statements": 35
+ },
+ {
+  "id": "crs_9dc1fabbeb6cd0508f",
+  "title": "Chuyến leo núi hụt",
+  "slug": "unit-12-part-1",
+  "statements": 30
+ },
+ {
+  "id": "crs_bc9c7f4c106aa57831",
+  "title": "Đáng lẽ và chắc hẳn",
+  "slug": "unit-12-part-2",
+  "statements": 29
+ },
+ {
+  "id": "crs_ada2ed44bb784b7b56",
+  "title": "Cuộc sống dạo này",
+  "slug": "unit-12-part-4",
+  "statements": 32
+ },
+ {
+  "id": "crs_d1623f14aa1cbb93a6",
+  "title": "Kế hoạch tranh cử",
+  "slug": "unit-12-part-5",
+  "statements": 31
+ },
+ {
+  "id": "crs_c219d37a21758c17b2",
+  "title": "Bản tin lên trang nhất",
+  "slug": "unit-12-part-6",
+  "statements": 30
+ },
+ {
+  "id": "crs_5357e6660bd04a7252",
+  "title": "Nêu ý kiến về xã hội",
+  "slug": "unit-13-part-1",
+  "statements": 30
+ },
+ {
+  "id": "crs_612c16ea28abd6b2e7",
+  "title": "Phản đối lịch sự",
+  "slug": "unit-13-part-2",
+  "statements": 31
+ },
+ {
+  "id": "crs_1794190c6e977f6077",
+  "title": "Khuyên người xin việc",
+  "slug": "unit-13-part-3",
+  "statements": 30
+ },
+ {
+  "id": "crs_44470da82a0d23a360",
+  "title": "Hỏi ý kiến lịch sự",
+  "slug": "unit-13-part-4",
+  "statements": 30
+ },
+ {
+  "id": "crs_ea425b180cca860b84",
+  "title": "Quảng cáo và giá cả",
+  "slug": "unit-13-part-5",
+  "statements": 29
+ },
+ {
+  "id": "crs_854f922c7ae581c8c7",
+  "title": "Chuyện học ngày trước",
+  "slug": "unit-2-part-2",
+  "statements": 28
+ },
+ {
+  "id": "crs_2d19a63f05e546bf60",
+  "title": "Việc đã xong trước đó",
+  "slug": "unit-2-part-3",
+  "statements": 30
+ },
+ {
+  "id": "crs_2f0f90e0bd1c47ea38",
+  "title": "Trước và sau trong quá khứ",
+  "slug": "unit-2-part-4",
+  "statements": 30
+ },
+ {
+  "id": "crs_7110d98abf46c7e602",
+  "title": "Tương lai đang diễn ra",
+  "slug": "unit-2-part-5",
+  "statements": 30
+ },
+ {
+  "id": "crs_30ce0ee017780f165d",
+  "title": "Bão lũ và việc đã xong",
+  "slug": "unit-2-part-6",
+  "statements": 31
+ },
+ {
+  "id": "crs_70fe166265e51810d3",
+  "title": "Có thể làm được gì",
+  "slug": "unit-3-part-1",
+  "statements": 32
+ },
+ {
+  "id": "crs_d934f4746f93b75967",
+  "title": "Bắt buộc và không cần",
+  "slug": "unit-3-part-2",
+  "statements": 33
+ },
+ {
+  "id": "crs_7105a1fa420a801faa",
+  "title": "Lời khuyên nên làm",
+  "slug": "unit-3-part-3",
+  "statements": 28
+ },
+ {
+  "id": "crs_991247355be6da5a8a",
+  "title": "Vừa có thể vừa phải làm",
+  "slug": "unit-3-part-4",
+  "statements": 32
+ },
+ {
+  "id": "crs_e43c881a99a80d0f53",
+  "title": "Khả năng bổn phận lời khuyên",
+  "slug": "unit-3-part-5",
+  "statements": 30
+ },
+ {
+  "id": "crs_694680703b6c19a0b7",
+  "title": "Ôn tập chương khuyết thiếu",
+  "slug": "unit-3-part-6",
+  "statements": 30
+ },
+ {
+  "id": "crs_fb618388d2fbd5eba6",
+  "title": "Điều kiện loại 1 khẳng định",
+  "slug": "unit-4-part-1",
+  "statements": 30
+ },
+ {
+  "id": "crs_335a70fc5dff9ecd75",
+  "title": "Điều kiện loại 1 phủ định",
+  "slug": "unit-4-part-2",
+  "statements": 32
+ },
+ {
+  "id": "crs_15ff9cccf2ba2c12d5",
+  "title": "Điều kiện loại 2 khẳng định",
+  "slug": "unit-4-part-3",
+  "statements": 31
+ },
+ {
+  "id": "crs_7a3e078875f533bb4c",
+  "title": "Điều kiện loại 2 phủ định",
+  "slug": "unit-4-part-4",
+  "statements": 26
+ },
+ {
+  "id": "crs_176e9c3c026bc673ef",
+  "title": "Đáng lẽ đã và chắc hẳn đã",
+  "slug": "unit-4-part-5",
+  "statements": 30
+ },
+ {
+  "id": "crs_c49c32b0946187993e",
+  "title": "Không thể nào đã quên",
+  "slug": "unit-4-part-6",
+  "statements": 28
+ },
+ {
+  "id": "crs_ef0f987c26ac132b77",
+  "title": "Ôn tập đáng lẽ và điều kiện",
+  "slug": "unit-4-part-7",
+  "statements": 32
+ },
+ {
+  "id": "crs_0e965a922bf27f30c2",
+  "title": "Đã được sửa chưa",
+  "slug": "unit-5-part-1",
+  "statements": 29
+ },
+ {
+  "id": "crs_b1bf2f59e1bb6183af",
+  "title": "Bị phạt và được thăng chức",
+  "slug": "unit-5-part-2",
+  "statements": 30
+ },
+ {
+  "id": "crs_02503551599b54f73d",
+  "title": "Ngôi chùa xây từ năm 1890",
+  "slug": "unit-5-part-3",
+  "statements": 28
+ },
+ {
+  "id": "crs_8dc995d491ba26a6bb",
+  "title": "Mệnh đề phân từ hiện tại",
+  "slug": "unit-5-part-4",
+  "statements": 30
+ },
+ {
+  "id": "crs_a8b8a4275b2d5ee34f",
+  "title": "Xong việc rồi mới rời đi",
+  "slug": "unit-5-part-5",
+  "statements": 30
+ },
+ {
+  "id": "crs_eb62e37706d5a84656",
+  "title": "Ôn tập bị động và phân từ",
+  "slug": "unit-5-part-6",
+  "statements": 34
+ },
+ {
+  "id": "crs_8a0db1efac587c7e25",
+  "title": "Khuyên và rủ ai làm gì",
+  "slug": "unit-6-part-1",
+  "statements": 31
+ },
+ {
+  "id": "crs_1a6ae82dc465174a0f",
+  "title": "Biết phải làm gì",
+  "slug": "unit-6-part-2",
+  "statements": 29
+ },
+ {
+  "id": "crs_423d2f32ea56a0d048",
+  "title": "Thật khó để làm gì",
+  "slug": "unit-6-part-3",
+  "statements": 31
+ },
+ {
+  "id": "crs_9d962d666272786d97",
+  "title": "Quá cay để ăn",
+  "slug": "unit-6-part-4",
+  "statements": 26
+ },
+ {
+  "id": "crs_4d8a4fc8491c7fc071",
+  "title": "Ôn tập toàn chương",
+  "slug": "unit-6-part-5",
+  "statements": 35
+ },
+ {
+  "id": "crs_90e6a6edfea17e40e8",
+  "title": "Thuật lại lời yêu cầu",
+  "slug": "unit-7-part-1",
+  "statements": 31
+ },
+ {
+  "id": "crs_7bbc17b9f3b578cde8",
+  "title": "Thuật lại câu hỏi gián tiếp",
+  "slug": "unit-7-part-2",
+  "statements": 28
+ },
+ {
+  "id": "crs_21c27bdc3d01c9b33c",
+  "title": "Tự hỏi liệu có đúng không",
+  "slug": "unit-7-part-3",
+  "statements": 30
+ },
+ {
+  "id": "crs_51994a9b1565cb6222",
+  "title": "Câu hỏi đuôi với lời khẳng định",
+  "slug": "unit-7-part-4",
+  "statements": 31
+ },
+ {
+  "id": "crs_78dc0a38fe9d4d41ab",
+  "title": "Câu hỏi đuôi với lời phủ định",
+  "slug": "unit-7-part-5",
+  "statements": 32
+ },
+ {
+  "id": "crs_bde7e87c46aae1c86f",
+  "title": "Ôn tập tường thuật và câu đuôi",
+  "slug": "unit-7-part-6",
+  "statements": 34
+ },
+ {
+  "id": "crs_0a4e83c6b600617848",
+  "title": "Tôi thực sự có làm",
+  "slug": "unit-8-part-4",
+  "statements": 30
+ },
+ {
+  "id": "crs_a283014fb7c3a9eeb9",
+  "title": "Tôi đã làm thật đấy",
+  "slug": "unit-8-part-5",
+  "statements": 26
+ },
+ {
+  "id": "crs_9e6be663f4f90513e0",
+  "title": "Đồ của tôi hay của bạn",
+  "slug": "unit-9-part-1",
+  "statements": 30
+ },
+ {
+  "id": "crs_fd43c864364a9483fc",
+  "title": "Tự mình làm lấy",
+  "slug": "unit-9-part-2",
+  "statements": 30
+ },
+ {
+  "id": "crs_ebb4f9781611b589ee",
+  "title": "Thật không may",
+  "slug": "unit-9-part-3",
+  "statements": 28
+ },
+ {
+  "id": "crs_a27a94d9b0d02359a8",
+  "title": "Nói thật lòng",
+  "slug": "unit-9-part-4",
+  "statements": 31
+ },
+ {
+  "id": "crs_5757198fa0b1a08b3f",
+  "title": "Ôn tập đại từ và trạng từ",
+  "slug": "unit-9-part-5",
+  "statements": 31
+ }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "paper": "the-guardian",
+    "width": 1440,
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  },
+  {
+    "paper": "the-guardian",
+    "width": 768,
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  },
+  {
+    "paper": "the-guardian",
+    "width": 390,
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  },
+  {
+    "paper": "the-guardian",
+    "width": 360,
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  },
+  {
+    "paper": "the-conversation",
+    "width": 1440,
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  },
+  {
+    "paper": "the-conversation",
+    "width": 768,
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  },
+  {
+    "paper": "the-conversation",
+    "width": 390,
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  },
+  {
+    "paper": "the-conversation",
+    "width": 360,
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  },
+  {
+    "paper": "the-atlantic",
+    "width": 1440,
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  },
+  {
+    "paper": "the-atlantic",
+    "width": 768,
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  },
+  {
+    "paper": "the-atlantic",
+    "width": 390,
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  },
+  {
+    "paper": "the-atlantic",
+    "width": 360,
+    "maxBoxDelta": 0.0,
+    "overflow": false
+  }
+]

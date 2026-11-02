@@ -1,0 +1,266 @@
+[
+  {
+    "page": "dashboard",
+    "width": 1440,
+    "delta": {
+      "main": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0.0781
+      }
+    },
+    "sourcePadding": "16px 10px 40px 22px",
+    "localPadding": "16px 10px 40px 22px",
+    "sourceFooter": 1,
+    "localFooter": 1
+  },
+  {
+    "page": "dashboard",
+    "width": 768,
+    "delta": {
+      "main": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0.0781
+      }
+    },
+    "sourcePadding": "14px 6px 36px 18px",
+    "localPadding": "14px 6px 36px 18px",
+    "sourceFooter": 1,
+    "localFooter": 1
+  },
+  {
+    "page": "dashboard",
+    "width": 390,
+    "delta": {
+      "main": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": -0.1562
+      }
+    },
+    "sourcePadding": "0px 12px 93px",
+    "localPadding": "0px 12px 93px",
+    "sourceFooter": 1,
+    "localFooter": 1
+  },
+  {
+    "page": "dashboard",
+    "width": 360,
+    "delta": {
+      "main": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 2.5469
+      }
+    },
+    "sourcePadding": "0px 12px 93px",
+    "localPadding": "0px 12px 93px",
+    "sourceFooter": 1,
+    "localFooter": 1
+  },
+  {
+    "page": "go-cau",
+    "width": 1440,
+    "delta": {
+      "main": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0.0
+      }
+    },
+    "sourcePadding": "16px 10px 40px 22px",
+    "localPadding": "16px 10px 40px 22px",
+    "sourceFooter": 0,
+    "localFooter": 0
+  },
+  {
+    "page": "go-cau",
+    "width": 768,
+    "delta": {
+      "main": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0.0
+      }
+    },
+    "sourcePadding": "14px 6px 36px 18px",
+    "localPadding": "14px 6px 36px 18px",
+    "sourceFooter": 0,
+    "localFooter": 0
+  },
+  {
+    "page": "go-cau",
+    "width": 390,
+    "delta": {
+      "main": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    "sourcePadding": "0px 12px 92px",
+    "localPadding": "0px 12px 93px",
+    "sourceFooter": 0,
+    "localFooter": 0
+  },
+  {
+    "page": "go-cau",
+    "width": 360,
+    "delta": {
+      "main": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    "sourcePadding": "0px 12px 93px",
+    "localPadding": "0px 12px 93px",
+    "sourceFooter": 0,
+    "localFooter": 0
+  },
+  {
+    "page": "video",
+    "width": 1440,
+    "delta": {
+      "main": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    "sourcePadding": "16px 10px 40px 22px",
+    "localPadding": "16px 10px 40px 22px",
+    "sourceFooter": 0,
+    "localFooter": 0
+  },
+  {
+    "page": "video",
+    "width": 768,
+    "delta": {
+      "main": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    "sourcePadding": "14px 6px 36px 18px",
+    "localPadding": "14px 6px 36px 18px",
+    "sourceFooter": 0,
+    "localFooter": 0
+  },
+  {
+    "page": "video",
+    "width": 390,
+    "delta": {
+      "main": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    "sourcePadding": "0px 12px 93px",
+    "localPadding": "0px 12px 93px",
+    "sourceFooter": 0,
+    "localFooter": 0
+  },
+  {
+    "page": "video",
+    "width": 360,
+    "delta": {
+      "main": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    "sourcePadding": "0px 12px 93px",
+    "localPadding": "0px 12px 93px",
+    "sourceFooter": 0,
+    "localFooter": 0
+  }
+]

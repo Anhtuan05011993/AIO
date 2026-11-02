@@ -1,0 +1,65 @@
+### Keyboard Behavior Review: `role="tab"` and `role="radio"`
+
+---
+
+### 1. Architectural Summary
+
+Both components implement a **roving `tabIndex`** pattern with **automatic activation** (selection updates immediately on Arrow, Home, and End navigation, rather than requiring Space/Enter to activate).
+
+* **Component 1 (`TienDoBanBe` - `role="tab"`)**:
+  * Root: `<div role="tablist">` with child `<button role="tab">` elements.
+  * Focus/Selection: `tabIndex={tab === id ? 0 : -1}` and `aria-selected={tab === id}`.
+  * Keys handled: `ArrowRight` (+1), `ArrowLeft` (-1), `Home` (0), `End` (last). Wrap-around is enabled.
+* **Component 2 (`CaiDat` helper - `role="radio"`)**:
+  * Root: `<div role="radiogroup">` with child `<button role="radio">` elements.
+  * Focus/Selection: `tabIndex={index === Math.max(0, options.indexOf(value)) ? 0 : -1}` and `aria-checked={value === v}`.
+  * Keys handled: `ArrowRight` / `ArrowDown` (+1), `ArrowLeft` / `ArrowUp` (-1), `Home` (0), `End` (last). Wrap-around is enabled.
+
+---
+
+### 2. Concrete Current Bugs (with Evidence)
+
+#### Bug 1: Unconditional Interception of Modifier Keys (OS & Browser Shortcut Hijacking)
+* **Location**:
+  * Component 1: `onKeyDown` (`const step = event.key === "ArrowRight" ? 1 : event.key === "ArrowLeft" ? -1 : 0;`)
+  * Component 2: `onKeyDown` (`const step = event.key === "ArrowRight" || event.key === "ArrowDown" ? 1 ...`)
+* **Evidence**:
+  Neither handler inspects `event.altKey`, `event.ctrlKey`, `event.metaKey`, or `event.shiftKey`.
+* **Concrete Failure**:
+  * On Windows/Linux, pressing <kbd>Alt</kbd> + <kbd>←</kbd> (the standard browser shortcut for "Back") or <kbd>Alt</kbd> + <kbd>→</kbd> ("Forward") while a tab or radio is focused matches `event.key === "ArrowLeft"` / `"ArrowRight"`.
+  * The code immediately executes `event.preventDefault()`, cancelling the browser navigation and instead cycling the active tab/radio.
+  * On macOS, <kbd>Cmd</kbd> + <kbd>←</kbd> / <kbd>→</kbd> or <kbd>Ctrl</kbd> shortcuts are similarly intercepted.
+
+#### Bug 2: Missing `type="button"` Attribute Causing Unintended Form Submissions
+* **Location**:
+  * Component 1: `<button role="tab" ...>`
+  * Component 2: `<button role="radio" ...>`
+* **Evidence**:
+  HTML `<button>` elements default to `type="submit"` when the `type` attribute is omitted.
+* **Concrete Failure**:
+  * In Component 2 (settings radios), if this helper is rendered inside an enclosing `<form>` element, pressing <kbd>Enter</kbd> on any focused radio button will fire native form submission in addition to `onClick`.
+  * In HTML radio inputs (`<input type="radio">`), <kbd>Enter</kbd> submits the form without altering selection; here, it triggers both selection change and submission.
+
+#### Bug 3: Roving `tabIndex` Breakdown on Duplicate Option Values
+* **Location**:
+  * Component 2: `tabIndex={index === Math.max(0, options.indexOf(value)) ? 0 : -1}`
+* **Evidence**:
+  `options.indexOf(value)` performs a strict equality lookup from index 0.
+* **Concrete Failure**:
+  * If `options` ever contains duplicate labels (e.g., `["Tự động", "Bật", "Tự động"]`), selecting the third item (`index === 2`) leaves `options.indexOf(value) === 0`.
+  * As a result, the active/checked radio button receives `tabIndex={-1}`, while the first radio button retains `tabIndex={0}`.
+  * When a user tabs away and returns with <kbd>Tab</kbd> or <kbd>Shift</kbd> + <kbd>Tab</kbd>, keyboard focus enters the wrong (unchecked) radio button rather than the currently selected one, violating the WAI-ARIA Radio Group roving tabindex specification.
+
+---
+
+### 3. Hypothetical Source-Design Gaps (Specification & Architecture)
+
+These items represent discrepancies from full WAI-ARIA Authoring Practices (APG) standards rather than runtime execution crashes:
+
+| Area | Current Implementation | WAI-ARIA Standard / Design Gap |
+| :--- | :--- | :--- |
+| **Tabpanel Semantics** | Component 1 renders arbitrary `<div>` and `<section>` cards for tab contents without `role="tabpanel"`. | Each panel should have `role="tabpanel"`, `id`, and `aria-labelledby="{tabId}"`. Each tab button should have `aria-controls="{panelId}"`. Without these, screen reader virtual navigation cannot associate tabs with panels. |
+| **Manual vs. Automatic Activation** | Component 1 automatically switches tabs on <kbd>←</kbd> / <kbd>→</kbd> and re-renders heavy UI (e.g., `<NewsFeedCard />` or search form). | When tabpanels contain interactive forms or asynchronous network states, WAI-ARIA recommends **Manual Activation**: arrows move focus only (`tabIndex={0}` roves), while <kbd>Space</kbd> or <kbd>Enter</kbd> activates the tab. |
+| **Focus Flow into Panels** | In Component 1, pressing <kbd>Tab</kbd> from the tablist skips directly to the first focusable child inside the active view (`<Link>`). <kbd>↓</kbd> is unhandled and scrolls the page. | Horizontal tablists optionally support <kbd>↓</kbd> to move focus from the active tab directly into the corresponding tabpanel container. |
+| **Hardcoded Order Array** | Component 1 hardcodes `const order = ["plan", "friends", "feed"]` inside `onKeyDown`. | Statically duplicating the IDs decouples keyboard navigation order from the mapped JSX array, risking silent navigation desynchronization if tabs are reordered or dynamically filtered. |
+| **RTL (Bidirectional) Navigation** | `step` is strictly `+1` for <kbd>→</kbd> and `-1` for <kbd>←</kbd>. | In Right-to-Left (RTL) locales, physical arrow keys should invert direction so visual progression remains natural. |

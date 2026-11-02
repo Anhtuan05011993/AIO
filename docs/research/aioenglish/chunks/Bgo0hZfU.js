@@ -1,0 +1,1 @@
+import{gt as e}from"./12Oibn0q.js";function t(t){let n=e(!1),r=e(null);function i(){let e=t();e&&(r.value={level:e.level,system:e.system,target:e.target?{level:e.target.level,reached:e.target.reached}:null,...e.examDate?{examDate:e.examDate}:{}},n.value=!0)}return{tgtOpen:n,tgtCtx:r,openTarget:i}}export{t};

@@ -1,0 +1,972 @@
+{
+  "art": {
+    "vhk-ch": "<span data-v-ecd6b480=\"\" class=\"ta-tile is-head ta-plate nbx-r-goal nbx-bh-art\" aria-hidden=\"true\"><svg class=\"ta nbx-r-goal\" data-k=\"media\" data-a1=\"do\" data-a2=\"heat\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><g transform=\"rotate(-8 34 44)\"><rect class=\"p\" x=\"6\" y=\"12\" width=\"56\" height=\"66\" rx=\"2\"></rect><rect class=\"k\" x=\"12\" y=\"18\" width=\"40\" height=\"6\"></rect><rect class=\"a2\" x=\"12\" y=\"30\" width=\"20\" height=\"16\"></rect><rect class=\"k2\" x=\"35\" y=\"30\" width=\"20\" height=\"2.6\"></rect><rect class=\"k2\" x=\"35\" y=\"36\" width=\"18\" height=\"2.6\"></rect><rect class=\"k2\" x=\"35\" y=\"42\" width=\"20\" height=\"2.6\"></rect><rect class=\"k2\" x=\"12\" y=\"52\" width=\"43\" height=\"2.6\"></rect><rect class=\"k2\" x=\"12\" y=\"58\" width=\"38\" height=\"2.6\"></rect><rect class=\"k2\" x=\"12\" y=\"64\" width=\"43\" height=\"2.6\"></rect></g></g><g class=\"mv\"><path class=\"ln\" d=\"M74 32 64 16M88 32l12-16\"></path><rect class=\"m\" x=\"55\" y=\"35\" width=\"60\" height=\"46\" rx=\"6\"></rect><rect class=\"d\" x=\"52\" y=\"32\" width=\"60\" height=\"46\" rx=\"6\"></rect><rect class=\"a1\" x=\"58\" y=\"38\" width=\"40\" height=\"34\" rx=\"3\"></rect><circle class=\"p\" cx=\"105\" cy=\"45\" r=\"3\"></circle><circle class=\"p\" cx=\"105\" cy=\"56\" r=\"3\"></circle><rect class=\"d\" x=\"62\" y=\"78\" width=\"6\" height=\"8\"></rect><rect class=\"d\" x=\"96\" y=\"78\" width=\"6\" height=\"8\"></rect></g></g></svg></span>",
+    "vhk-ex": "<span data-v-ecd6b480=\"\" class=\"ta-tile is-head ta-plate nbx-r-ref nbx-bh-art\" aria-hidden=\"true\"><svg class=\"ta nbx-r-ref\" data-k=\"search\" data-a1=\"info\" data-a2=\"do\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><g transform=\"rotate(-6 44 46)\"><rect class=\"m\" x=\"17\" y=\"11\" width=\"54\" height=\"74\" rx=\"2\"></rect><rect class=\"p\" x=\"14\" y=\"8\" width=\"54\" height=\"74\" rx=\"2\"></rect><rect class=\"k\" x=\"20\" y=\"15\" width=\"24\" height=\"4.5\"></rect><rect class=\"k2\" x=\"20\" y=\"26\" width=\"40\" height=\"2.6\"></rect><rect class=\"k2\" x=\"20\" y=\"32\" width=\"34\" height=\"2.6\"></rect><rect class=\"k2\" x=\"20\" y=\"38\" width=\"40\" height=\"2.6\"></rect><rect class=\"k2\" x=\"20\" y=\"44\" width=\"28\" height=\"2.6\"></rect><rect class=\"k2\" x=\"20\" y=\"50\" width=\"38\" height=\"2.6\"></rect><rect class=\"k2\" x=\"20\" y=\"56\" width=\"30\" height=\"2.6\"></rect></g></g><g class=\"mv\"><rect class=\"d\" x=\"86\" y=\"64\" width=\"10\" height=\"26\" rx=\"4\" transform=\"rotate(-42 91 77)\"></rect><circle class=\"a1\" cx=\"74\" cy=\"48\" r=\"21\"></circle><circle class=\"p\" cx=\"74\" cy=\"48\" r=\"15\"></circle><circle class=\"a2\" cx=\"74\" cy=\"48\" r=\"15\" opacity=\".35\"></circle><path class=\"lw\" d=\"M64 42a11 11 0 0 1 8-6\"></path></g><rect class=\"t\" x=\"46\" y=\"2\" width=\"18\" height=\"7\" transform=\"rotate(12 55 5)\"></rect></g></svg></span>",
+    "vhm": "<span data-v-074f1064=\"\" class=\"ta-tile is-head ta-plate nbx-r-info nbx-bh-art\" aria-hidden=\"true\"><svg class=\"ta nbx-r-info\" data-k=\"voice\" data-a1=\"heat\" data-a2=\"do\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><path class=\"p\" d=\"M70 6h40a5 5 0 0 1 5 5v20a5 5 0 0 1-5 5H86l-8 8v-8h-8a5 5 0 0 1-5-5V11a5 5 0 0 1 5-5z\"></path><text class=\"tx\" x=\"90\" y=\"25\">/æ/</text></g><g class=\"mv\"><path class=\"ln\" d=\"M28 46a22 22 0 0 0 44 0M50 68v12\"></path><rect class=\"d\" x=\"34\" y=\"80\" width=\"32\" height=\"7\" rx=\"3\"></rect><rect class=\"m\" x=\"40\" y=\"15\" width=\"24\" height=\"44\" rx=\"12\"></rect><rect class=\"a1\" x=\"38\" y=\"12\" width=\"24\" height=\"44\" rx=\"12\"></rect><path class=\"lw\" d=\"M43 24h14M43 31h14M43 38h14\"></path><path class=\"ln2\" d=\"M80 52q6 8 0 16M88 46q10 14 0 28M20 52q-6 8 0 16\"></path></g></g></svg></span>",
+    "vhn": "<span data-v-9eb47d27=\"\" class=\"ta-tile is-head ta-plate nbx-r-do nbx-bh-art\" aria-hidden=\"true\"><svg class=\"ta nbx-r-do\" data-k=\"idea\" data-a1=\"do\" data-a2=\"soc\" viewBox=\"0 0 120 90\" aria-hidden=\"true\" focusable=\"false\"><g class=\"ta-g\" filter=\"url(#nb-ta-grain)\"><g class=\"mv2\"><g transform=\"rotate(-8 28 56)\"><rect class=\"a2\" x=\"10\" y=\"40\" width=\"34\" height=\"34\"></rect><rect class=\"k2\" x=\"16\" y=\"49\" width=\"20\" height=\"2.6\"></rect><rect class=\"k2\" x=\"16\" y=\"55\" width=\"14\" height=\"2.6\"></rect></g><g transform=\"rotate(10 96 62)\"><rect class=\"m\" x=\"80\" y=\"46\" width=\"32\" height=\"32\"></rect><rect class=\"k2\" x=\"86\" y=\"55\" width=\"18\" height=\"2.6\"></rect></g></g><g class=\"mv\"><path class=\"sp\" d=\"M60 6v-5M38 16l-4-4M82 16l4-4M30 36h-6M90 36h6\"></path><path class=\"d\" d=\"M60 14a22 22 0 0 0-13 40v8h26v-8a22 22 0 0 0-13-40z\" transform=\"translate(2 2)\"></path><path class=\"a1\" d=\"M60 14a22 22 0 0 0-13 40v8h26v-8a22 22 0 0 0-13-40z\"></path><path class=\"ln\" d=\"M55 56v-8a5 5 0 0 1 10 0v8\"></path><rect class=\"k2\" x=\"47\" y=\"64\" width=\"26\" height=\"6\" rx=\"2\"></rect><rect class=\"k2\" x=\"50\" y=\"72\" width=\"20\" height=\"6\" rx=\"2\"></rect></g></g></svg></span>"
+  },
+  "channels": [
+    {
+      "images": [
+        "https://i.ytimg.com/vi/h_pvijqmolQ/mqdefault.jpg",
+        "https://i.ytimg.com/vi/JjESWHykTJQ/mqdefault.jpg",
+        "https://i.ytimg.com/vi/tZ-Pbwdqlt0/mqdefault.jpg"
+      ],
+      "initials": "BL",
+      "key": "bbc-learning-english",
+      "level": "B1",
+      "meta": "136 video · 6 phút/bài",
+      "title": "BBC Learning English"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/Cyl3X88KEgg/mqdefault.jpg",
+        "https://i.ytimg.com/vi/zQGOcOUBi6s/mqdefault.jpg",
+        "https://i.ytimg.com/vi/9tbxDgcv74c/mqdefault.jpg"
+      ],
+      "initials": "KI",
+      "key": "kurzgesagt",
+      "level": "B2",
+      "meta": "24 video · 8 phút/bài",
+      "title": "Kurzgesagt – In a Nutshell"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/VsqkTzOVP9U/mqdefault.jpg",
+        "https://i.ytimg.com/vi/jNr_6eINleM/mqdefault.jpg",
+        "https://i.ytimg.com/vi/-i7ixwtCsfI/mqdefault.jpg"
+      ],
+      "initials": "EB",
+      "key": "english-by-jay-sprout-3628b3",
+      "level": "A2",
+      "meta": "9 video · 18 phút/bài",
+      "title": "English by Jay - Sprout"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/N5vJSNXPEwA/mqdefault.jpg",
+        "https://i.ytimg.com/vi/7SWvDHvWXok/mqdefault.jpg",
+        "https://i.ytimg.com/vi/xKxrkht7CpY/mqdefault.jpg"
+      ],
+      "initials": "TE",
+      "key": "ted-ed",
+      "level": "B2",
+      "meta": "129 video · 5 phút/bài",
+      "title": "TED-Ed"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/Z2CZ8mkECpU/mqdefault.jpg",
+        "https://i.ytimg.com/vi/bo47JoSxl1s/mqdefault.jpg",
+        "https://i.ytimg.com/vi/b9OVPcW1gfY/mqdefault.jpg"
+      ],
+      "initials": "VE",
+      "key": "volka-english",
+      "level": "A2",
+      "meta": "41 video · 18 phút/bài",
+      "title": "Volka English"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/cY_Eyw1br8I/mqdefault.jpg",
+        "https://i.ytimg.com/vi/ohkDb6xNSas/mqdefault.jpg",
+        "https://i.ytimg.com/vi/obQgWiSX8tY/mqdefault.jpg"
+      ],
+      "initials": "EW",
+      "key": "english-with-evie",
+      "level": "B1",
+      "meta": "8 video · 16 phút/bài",
+      "title": "English with Evie"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/arj7oStGLkU/mqdefault.jpg",
+        "https://i.ytimg.com/vi/_QdPW8JrYzQ/mqdefault.jpg",
+        "https://i.ytimg.com/vi/eIho2S0ZahI/mqdefault.jpg"
+      ],
+      "initials": "TE",
+      "key": "ted",
+      "level": "B2",
+      "meta": "44 video · 14 phút/bài",
+      "title": "TED"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/W7uzZhZ_m68/mqdefault.jpg",
+        "https://i.ytimg.com/vi/xIK5lX13zNs/mqdefault.jpg",
+        "https://i.ytimg.com/vi/M5YBaGk2d_Q/mqdefault.jpg"
+      ],
+      "initials": "DK",
+      "key": "disney-kids",
+      "level": "A2",
+      "meta": "15 video · 2 phút/bài",
+      "title": "Disney Kids"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/yerpnrz7dFk/mqdefault.jpg",
+        "https://i.ytimg.com/vi/VSnG66cwJaA/mqdefault.jpg",
+        "https://i.ytimg.com/vi/3PnSqqy8DX4/mqdefault.jpg"
+      ],
+      "initials": "IE",
+      "key": "inside-edition",
+      "level": "B1",
+      "meta": "56 video · 1 phút/bài",
+      "title": "Inside Edition"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/JANApS0P4z8/mqdefault.jpg",
+        "https://i.ytimg.com/vi/Uy9V_v-XV8Q/mqdefault.jpg",
+        "https://i.ytimg.com/vi/k7kn2ZRyff0/mqdefault.jpg"
+      ],
+      "initials": "CE",
+      "key": "casually-explained",
+      "level": "B2",
+      "meta": "19 video · 7 phút/bài",
+      "title": "Casually Explained"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/QgjkjsqAzvo/mqdefault.jpg",
+        "https://i.ytimg.com/vi/F99JNqsfxlQ/mqdefault.jpg",
+        "https://i.ytimg.com/vi/XtNni2wLFR4/mqdefault.jpg"
+      ],
+      "initials": "EW",
+      "key": "english-with-lucy",
+      "level": "B1",
+      "meta": "18 video · 11 phút/bài",
+      "title": "English with Lucy"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/89sPhPRGyoM/mqdefault.jpg",
+        "https://i.ytimg.com/vi/dNtLZDsW22A/mqdefault.jpg",
+        "https://i.ytimg.com/vi/ElM4KYvoOA0/mqdefault.jpg"
+      ],
+      "initials": "康軒",
+      "key": "video",
+      "level": "A2",
+      "meta": "25 video · 1 phút/bài",
+      "title": "康軒國中英語教學補充"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/XWq58Abc7zk/mqdefault.jpg",
+        "https://i.ytimg.com/vi/SXR3KPLyyt0/mqdefault.jpg",
+        "https://i.ytimg.com/vi/eYAaLWdx_h0/mqdefault.jpg"
+      ],
+      "initials": "LT",
+      "key": "listening-time",
+      "level": "A2",
+      "meta": "15 video · 5 phút/bài",
+      "title": "Listening Time"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/Dl3yO-PVkH4/mqdefault.jpg",
+        "https://i.ytimg.com/vi/SSAWEDhszA8/mqdefault.jpg",
+        "https://i.ytimg.com/vi/Z1kE702Fu_Q/mqdefault.jpg"
+      ],
+      "initials": "LE",
+      "key": "learn-english-by-pocket-passport",
+      "level": "A2",
+      "meta": "16 video · 2 phút/bài",
+      "title": "Learn English by Pocket Passport"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/t5khm-VjEu4/mqdefault.jpg",
+        "https://i.ytimg.com/vi/yVnlvaxFQ6E/mqdefault.jpg",
+        "https://i.ytimg.com/vi/ps8qwWG8Uio/mqdefault.jpg"
+      ],
+      "initials": "GF",
+      "key": "gkids-films",
+      "level": "A2",
+      "meta": "13 video · 2 phút/bài",
+      "title": "GKIDS Films"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/_fURZYr3pTw/mqdefault.jpg",
+        "https://i.ytimg.com/vi/PFlCciggvyA/mqdefault.jpg",
+        "https://i.ytimg.com/vi/q45h_vKoQm8/mqdefault.jpg"
+      ],
+      "initials": "VT",
+      "key": "vietnam-today",
+      "level": "B1",
+      "meta": "44 video · 2 phút/bài",
+      "title": "Vietnam Today"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/H42zWaD4A4s/mqdefault.jpg",
+        "https://i.ytimg.com/vi/2C8zYFArnKY/mqdefault.jpg",
+        "https://i.ytimg.com/vi/QwbK1GUWN30/mqdefault.jpg"
+      ],
+      "initials": "RC",
+      "key": "ruhi-cenet-documentaries",
+      "level": "B2",
+      "meta": "16 video · 20 phút/bài",
+      "title": "Ruhi Cenet Documentaries"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/9U7_NBIHsQk/mqdefault.jpg",
+        "https://i.ytimg.com/vi/LORyEX_5czg/mqdefault.jpg",
+        "https://i.ytimg.com/vi/i1Nh_3JCFj8/mqdefault.jpg"
+      ],
+      "initials": "MO",
+      "key": "movieclips",
+      "level": "B1",
+      "meta": "17 video · 2 phút/bài",
+      "title": "Movieclips"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/_6mlmRJHxNo/mqdefault.jpg",
+        "https://i.ytimg.com/vi/-_b_G-hAM3o/mqdefault.jpg",
+        "https://i.ytimg.com/vi/1DeQVnSxcLk/mqdefault.jpg"
+      ],
+      "initials": "TF",
+      "key": "the-fable-cottage",
+      "level": "A2",
+      "meta": "11 video · 3 phút/bài",
+      "title": "The Fable Cottage"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/aDRARW93DbY/mqdefault.jpg",
+        "https://i.ytimg.com/vi/mv-Sk7-5ZiA/mqdefault.jpg",
+        "https://i.ytimg.com/vi/qm845DcriKk/mqdefault.jpg"
+      ],
+      "initials": "SN",
+      "key": "snoopy",
+      "level": "A2",
+      "meta": "8 video · 1 phút/bài",
+      "title": "Snoopy"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/p2oIXSgqUjk/mqdefault.jpg",
+        "https://i.ytimg.com/vi/G17jQg_pUJg/mqdefault.jpg",
+        "https://i.ytimg.com/vi/71xBu_VHTfY/mqdefault.jpg"
+      ],
+      "initials": "HP",
+      "key": "harry-potter",
+      "level": "A2",
+      "meta": "7 video · 3 phút/bài",
+      "title": "Harry Potter"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/4Wrc4fHSCpw/mqdefault.jpg",
+        "https://i.ytimg.com/vi/AeJ9q45PfD0/mqdefault.jpg",
+        "https://i.ytimg.com/vi/AF8d72mA41M/mqdefault.jpg"
+      ],
+      "initials": "VE",
+      "key": "veritasium",
+      "level": "B2",
+      "meta": "12 video · 24 phút/bài",
+      "title": "Veritasium"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/pUQB1_MSWno/mqdefault.jpg",
+        "https://i.ytimg.com/vi/LMctTIUSPPc/mqdefault.jpg",
+        "https://i.ytimg.com/vi/FD3JXlyBGoE/mqdefault.jpg"
+      ],
+      "initials": "HO",
+      "key": "howcast",
+      "level": "B1",
+      "meta": "9 video · 2 phút/bài",
+      "title": "Howcast"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/Py8tqhI-pWs/mqdefault.jpg",
+        "https://i.ytimg.com/vi/Vzi1qNykIu0/mqdefault.jpg",
+        "https://i.ytimg.com/vi/lWOySU_hAz0/mqdefault.jpg"
+      ],
+      "initials": "NO",
+      "key": "nature-on-pbs",
+      "level": "B1",
+      "meta": "11 video · 3 phút/bài",
+      "title": "Nature on PBS"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/ImDW2JZGhZA/mqdefault.jpg",
+        "https://i.ytimg.com/vi/ZGpdSACJCVg/mqdefault.jpg",
+        "https://i.ytimg.com/vi/AA4UUeUNGLY/mqdefault.jpg"
+      ],
+      "initials": "RT",
+      "key": "rotten-tomatoes-coming-soon",
+      "level": "B1",
+      "meta": "7 video · 1 phút/bài",
+      "title": "Rotten Tomatoes Coming Soon"
+    },
+    {
+      "images": [
+        "https://i.ytimg.com/vi/TESmBov1DWs/mqdefault.jpg",
+        "https://i.ytimg.com/vi/hg62jdt0t7Q/mqdefault.jpg",
+        "https://i.ytimg.com/vi/N_EvCfEg99c/mqdefault.jpg"
+      ],
+      "initials": "き絵",
+      "key": "kidstube",
+      "level": "A2",
+      "meta": "7 video · 3 phút/bài",
+      "title": "きっずちゅーぶ/絵本読み聞かせ動画チャンネル「KidsTube」"
+    }
+  ],
+  "featured": [
+    {
+      "channel": "English with Evie",
+      "duration": "8:35",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/cY_Eyw1br8I/mqdefault.jpg",
+      "title": "I speak English at native speed",
+      "translation": "",
+      "topics": [
+        "Học ngôn ngữ"
+      ]
+    },
+    {
+      "channel": "English by Jay - Sprout",
+      "duration": "20:28",
+      "level": "A2",
+      "thumbnail": "https://i.ytimg.com/vi/VsqkTzOVP9U/mqdefault.jpg",
+      "title": "My Daily Routine in the Countryside | Learn English with Comprehensible Input",
+      "translation": "",
+      "topics": [
+        "Học ngôn ngữ"
+      ]
+    },
+    {
+      "channel": "Volka English",
+      "duration": "23:43",
+      "level": "A2",
+      "thumbnail": "https://i.ytimg.com/vi/ofPPsEXbEKM/mqdefault.jpg",
+      "title": "Beginner English | Daily Words You’ll Use at Home | Comprehensible input",
+      "translation": "",
+      "topics": [
+        "Học ngôn ngữ"
+      ]
+    },
+    {
+      "channel": "English by Jay - Sprout",
+      "duration": "10:27",
+      "level": "A2",
+      "thumbnail": "https://i.ytimg.com/vi/52t241OQ7Ec/mqdefault.jpg",
+      "title": "Learn English Through My Trip to London | Comprehensible Input",
+      "translation": "",
+      "topics": [
+        "Học ngôn ngữ",
+        "Du lịch & Khám phá"
+      ]
+    },
+    {
+      "channel": "Volka English",
+      "duration": "13:03",
+      "level": "A2",
+      "thumbnail": "https://i.ytimg.com/vi/eX_M_zjze8I/mqdefault.jpg",
+      "title": "LEARN ENGLISH naturally with this Vlog (Comprehensible Input)",
+      "translation": "",
+      "topics": [
+        "Học ngôn ngữ"
+      ]
+    },
+    {
+      "channel": "English by Jay - Sprout",
+      "duration": "25:35",
+      "level": "A2",
+      "thumbnail": "https://i.ytimg.com/vi/q2jiv5mXW4M/mqdefault.jpg",
+      "title": "How I Start My Day in the English Countryside | Comprehensible Input",
+      "translation": "",
+      "topics": [
+        "Học ngôn ngữ"
+      ]
+    }
+  ],
+  "intro": {
+    "channel": "TED-Ed",
+    "duration": "4:27",
+    "level": "B2",
+    "sentences": 72,
+    "thumbnail": "https://i.ytimg.com/vi/OyK0oE5rwFY/mqdefault.jpg",
+    "title": "The benefits of good posture - Murat Dalkilinç"
+  },
+  "latest": [
+    {
+      "channel": "English by Jay - Sprout",
+      "duration": "17:35",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/BJsOHCUPnWY/mqdefault.jpg",
+      "title": "HOTEL ENGLISH All you need to know for travelling abroad",
+      "translation": "",
+      "topics": [
+        "Học ngôn ngữ",
+        "Du lịch & Khám phá"
+      ]
+    },
+    {
+      "channel": "English by Jay - Sprout",
+      "duration": "36:32",
+      "level": "A2",
+      "thumbnail": "https://i.ytimg.com/vi/-cgajIN2k7g/mqdefault.jpg",
+      "title": "Learn English while I travel to Busan | Comprehensible input vlog",
+      "translation": "",
+      "topics": [
+        "Học ngôn ngữ",
+        "Du lịch & Khám phá"
+      ]
+    },
+    {
+      "channel": "English by Jay - Sprout",
+      "duration": "10:27",
+      "level": "A2",
+      "thumbnail": "https://i.ytimg.com/vi/52t241OQ7Ec/mqdefault.jpg",
+      "title": "Learn English Through My Trip to London | Comprehensible Input",
+      "translation": "",
+      "topics": [
+        "Học ngôn ngữ",
+        "Du lịch & Khám phá"
+      ]
+    },
+    {
+      "channel": "English by Jay - Sprout",
+      "duration": "16:12",
+      "level": "A2",
+      "thumbnail": "https://i.ytimg.com/vi/xD2IWnl7I3g/mqdefault.jpg",
+      "title": "Learn English in the Supermarket Comprehensible Input",
+      "translation": "",
+      "topics": [
+        "Học ngôn ngữ",
+        "Ẩm thực & Nấu ăn"
+      ]
+    },
+    {
+      "channel": "English by Jay - Sprout",
+      "duration": "25:35",
+      "level": "A2",
+      "thumbnail": "https://i.ytimg.com/vi/q2jiv5mXW4M/mqdefault.jpg",
+      "title": "How I Start My Day in the English Countryside | Comprehensible Input",
+      "translation": "",
+      "topics": [
+        "Học ngôn ngữ"
+      ]
+    },
+    {
+      "channel": "English by Jay - Sprout",
+      "duration": "17:42",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/l1-z5jJ1uuc/mqdefault.jpg",
+      "title": "Become fluent in English using the Immersion method",
+      "translation": "",
+      "topics": [
+        "Học ngôn ngữ"
+      ]
+    }
+  ],
+  "modeIcons": [
+    "<svg data-v-074f1064=\"\" xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-pen-line-icon nbx-ic\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12 20h9\"></path><path d=\"M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z\"></path></svg>",
+    "<svg data-v-074f1064=\"\" xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mic-icon nbx-ic\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z\"></path><path d=\"M19 10v2a7 7 0 0 1-14 0v-2\"></path><line x1=\"12\" x2=\"12\" y1=\"19\" y2=\"22\"></line></svg>",
+    "<svg data-v-074f1064=\"\" xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-list-checks-icon nbx-ic\" aria-hidden=\"true\" focusable=\"false\"><path d=\"m3 17 2 2 4-4\"></path><path d=\"m3 7 2 2 4-4\"></path><path d=\"M13 6h8\"></path><path d=\"M13 12h8\"></path><path d=\"M13 18h8\"></path></svg>",
+    "<svg data-v-074f1064=\"\" xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-type-icon nbx-ic\" aria-hidden=\"true\" focusable=\"false\"><polyline points=\"4 7 4 4 20 4 20 7\"></polyline><line x1=\"9\" x2=\"15\" y1=\"20\" y2=\"20\"></line><line x1=\"12\" x2=\"12\" y1=\"4\" y2=\"20\"></line></svg>"
+  ],
+  "recommended": [
+    {
+      "channel": "Volka English",
+      "duration": "26:42",
+      "level": "A2",
+      "thumbnail": "https://i.ytimg.com/vi/bDoE4JI0DBg/mqdefault.jpg",
+      "title": "Learn English the EASY way (comprehensible input)",
+      "translation": "Học tiếng Anh theo cách DỄ (comprehensible input)",
+      "topics": [
+        "Học ngôn ngữ"
+      ]
+    },
+    {
+      "channel": "Casually Explained",
+      "duration": "8:33",
+      "level": "B2",
+      "thumbnail": "https://i.ytimg.com/vi/Xp2PCMAZhvs/mqdefault.jpg",
+      "title": "Casually Explained: Gen Z vs Millennials",
+      "translation": "Giải thích nhẹ nhàng: Gen Z vs Millennials",
+      "topics": [
+        "Giải trí & Điện ảnh"
+      ]
+    },
+    {
+      "channel": "Disney Kids",
+      "duration": "3:46",
+      "level": "A1",
+      "thumbnail": "https://i.ytimg.com/vi/W7uzZhZ_m68/mqdefault.jpg",
+      "title": "Hats Enough | A Mickey Mouse Cartoon | Disney Shorts",
+      "translation": "Đủ Mũ Rồi | Phim Hoạt Hình Chuột Mickey | Disney Shorts",
+      "topics": [
+        "Thiếu nhi & Hoạt hình",
+        "Giải trí & Điện ảnh"
+      ]
+    },
+    {
+      "channel": "English by Jay - Sprout",
+      "duration": "16:12",
+      "level": "A2",
+      "thumbnail": "https://i.ytimg.com/vi/xD2IWnl7I3g/mqdefault.jpg",
+      "title": "Learn English in the Supermarket Comprehensible Input",
+      "translation": "Học tiếng Anh trong siêu thị 🛒🍎 Đầu vào dễ hiểu",
+      "topics": [
+        "Học ngôn ngữ",
+        "Ẩm thực & Nấu ăn"
+      ]
+    },
+    {
+      "channel": "TED-Ed",
+      "duration": "4:49",
+      "level": "B2",
+      "thumbnail": "https://i.ytimg.com/vi/f2O6mQkFiiw/mqdefault.jpg",
+      "title": "How to practice effectively...for just about anything - Annie Bosler and Don Greene",
+      "translation": "Cách luyện tập hiệu quả... cho hầu hết mọi thứ - Annie Bosler và Don Greene",
+      "topics": [
+        "Khoa học",
+        "Học thuật"
+      ]
+    },
+    {
+      "channel": "Kurzgesagt – In a Nutshell",
+      "duration": "5:56",
+      "level": "B2",
+      "thumbnail": "https://i.ytimg.com/vi/e-P5IFTqB98/mqdefault.jpg",
+      "title": "Black Holes Explained – From Birth to Death",
+      "translation": "Hố đen được giải thích – Từ sinh đến tử",
+      "topics": [
+        "Khoa học",
+        "Học thuật"
+      ]
+    },
+    {
+      "channel": "TED-Ed",
+      "duration": "4:34",
+      "level": "B2",
+      "thumbnail": "https://i.ytimg.com/vi/N5vJSNXPEwA/mqdefault.jpg",
+      "title": "Can you solve the prisoner hat riddle? - Alex Gendler",
+      "translation": "Bạn có giải được câu đố mũ tù nhân? - Alex Gendler",
+      "topics": [
+        "Khoa học",
+        "Học thuật"
+      ]
+    },
+    {
+      "channel": "Disney Kids",
+      "duration": "4:05",
+      "level": "A2",
+      "thumbnail": "https://i.ytimg.com/vi/xIK5lX13zNs/mqdefault.jpg",
+      "title": "EVERY Disney Princess Dress! | Disney Princess",
+      "translation": "TẤT CẢ Váy Công Chúa Disney! | Disney Princess",
+      "topics": [
+        "Thiếu nhi & Hoạt hình",
+        "Giải trí & Điện ảnh"
+      ]
+    },
+    {
+      "channel": "TED",
+      "duration": "9:38",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/KM4Xe6Dlp0Y/mqdefault.jpg",
+      "title": "Looks aren't everything. Believe me, I'm a model. | Cameron Russell | TED",
+      "translation": "Ngoại hình không là tất cả. Tin tôi đi, tôi là người mẫu. | Cameron Russell | TED",
+      "topics": [
+        "Khoa học",
+        "Học thuật"
+      ]
+    },
+    {
+      "channel": "Volka English",
+      "duration": "17:08",
+      "level": "A2",
+      "thumbnail": "https://i.ytimg.com/vi/m2uOnNe8K3g/mqdefault.jpg",
+      "title": "Learn English at Home (Cooking, Daily life) w/ Comprehensible Input",
+      "translation": "Học tiếng Anh tại nhà (Nấu ăn, đời sống) với Comprehensible Input",
+      "topics": [
+        "Học ngôn ngữ",
+        "Ẩm thực & Nấu ăn"
+      ]
+    },
+    {
+      "channel": "Volka English",
+      "duration": "21:20",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/cqSSuYojAfY/mqdefault.jpg",
+      "title": "Speak With Me and Shadow to Improve Your English (Think in English) | Comprehensible Input",
+      "translation": "Nói cùng tôi và shadow để cải thiện tiếng Anh (Suy nghĩ bằng tiếng Anh) | Comprehensible Input",
+      "topics": [
+        "Học ngôn ngữ"
+      ]
+    },
+    {
+      "channel": "Disney Kids",
+      "duration": "1:19",
+      "level": "A2",
+      "thumbnail": "https://i.ytimg.com/vi/3g_BNTyd7FQ/mqdefault.jpg",
+      "title": "Te Fiti Returns Maui's Hook | Moana | Disney Princess",
+      "translation": "Te Fiti trả lại móc câu cho Maui | Moana | Disney Princess",
+      "topics": [
+        "Thiếu nhi & Hoạt hình",
+        "Giải trí & Điện ảnh"
+      ]
+    },
+    {
+      "channel": "Kurzgesagt – In a Nutshell",
+      "duration": "7:06",
+      "level": "B2",
+      "thumbnail": "https://i.ytimg.com/vi/JyECrGp-Sw8/mqdefault.jpg",
+      "title": "What If We Detonated All Nuclear Bombs at Once?",
+      "translation": "Nếu chúng ta kích nổ tất cả bom hạt nhân cùng lúc thì sao?",
+      "topics": [
+        "Khoa học",
+        "Học thuật"
+      ]
+    },
+    {
+      "channel": "TED",
+      "duration": "11:44",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/R1vskiVDwl4/mqdefault.jpg",
+      "title": "Celeste Headlee: 10 ways to have a better conversation | TED",
+      "translation": "Celeste Headlee: 10 cách để có một cuộc trò chuyện tốt hơn | TED",
+      "topics": [
+        "Khoa học",
+        "Học thuật"
+      ]
+    },
+    {
+      "channel": "Inside Edition",
+      "duration": "1:42",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/5tlmshc2Tho/mqdefault.jpg",
+      "title": "Massive Drop Seen in Tourist Visits to U.S.",
+      "translation": "Lượng khách du lịch đến Mỹ giảm mạnh",
+      "topics": [
+        "Giải trí & Điện ảnh"
+      ]
+    },
+    {
+      "channel": "Kurzgesagt – In a Nutshell",
+      "duration": "13:06",
+      "level": "B2",
+      "thumbnail": "https://i.ytimg.com/vi/n3Xv_g3g-mA/mqdefault.jpg",
+      "title": "Loneliness",
+      "translation": "Sự cô đơn",
+      "topics": [
+        "Khoa học",
+        "Học thuật"
+      ]
+    },
+    {
+      "channel": "BBC Learning English",
+      "duration": "6:17",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/uxtXEuK05-w/mqdefault.jpg",
+      "title": "What is the key to happiness? 6 Minute English",
+      "translation": "Chìa khóa của hạnh phúc là gì? 6 Minute English",
+      "topics": [
+        "Học ngôn ngữ"
+      ]
+    },
+    {
+      "channel": "TED",
+      "duration": "19:04",
+      "level": "B2",
+      "thumbnail": "https://i.ytimg.com/vi/c0KYU2j0TM4/mqdefault.jpg",
+      "title": "The power of introverts | Susan Cain | TED",
+      "translation": "Sức mạnh của người hướng nội | Susan Cain | TED",
+      "topics": [
+        "Khoa học",
+        "Học thuật"
+      ]
+    },
+    {
+      "channel": "Inside Edition",
+      "duration": "1:24",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/u0CBz438zGg/mqdefault.jpg",
+      "title": "First-Ever Birkin Bag Going Up for Auction",
+      "translation": "Túi Birkin đầu tiên được đem ra đấu giá",
+      "topics": [
+        "Giải trí & Điện ảnh"
+      ]
+    }
+  ],
+  "all": [
+    {
+      "channel": "English by Jay - Sprout",
+      "duration": "17:35",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/BJsOHCUPnWY/mqdefault.jpg",
+      "title": "HOTEL ENGLISH All you need to know for travelling abroad",
+      "translation": "TIẾNG ANH KHÁCH SẠN 🏨 Tất tần tật cho chuyến du lịch nước ngoài 🇬🇧✈️",
+      "topics": [
+        "Học ngôn ngữ",
+        "Du lịch & Khám phá"
+      ]
+    },
+    {
+      "channel": "English by Jay - Sprout",
+      "duration": "36:32",
+      "level": "A2",
+      "thumbnail": "https://i.ytimg.com/vi/-cgajIN2k7g/mqdefault.jpg",
+      "title": "Learn English while I travel to Busan | Comprehensible input vlog",
+      "translation": "Học tiếng Anh khi tôi du lịch Busan | Vlog input dễ hiểu",
+      "topics": [
+        "Học ngôn ngữ",
+        "Du lịch & Khám phá"
+      ]
+    },
+    {
+      "channel": "English by Jay - Sprout",
+      "duration": "10:27",
+      "level": "A2",
+      "thumbnail": "https://i.ytimg.com/vi/52t241OQ7Ec/mqdefault.jpg",
+      "title": "Learn English Through My Trip to London | Comprehensible Input",
+      "translation": "Học tiếng Anh qua chuyến đi London của tôi 🇬🇧 | Comprehensible Input",
+      "topics": [
+        "Học ngôn ngữ",
+        "Du lịch & Khám phá"
+      ]
+    },
+    {
+      "channel": "English by Jay - Sprout",
+      "duration": "16:12",
+      "level": "A2",
+      "thumbnail": "https://i.ytimg.com/vi/xD2IWnl7I3g/mqdefault.jpg",
+      "title": "Learn English in the Supermarket Comprehensible Input",
+      "translation": "Học tiếng Anh trong siêu thị 🛒🍎 Đầu vào dễ hiểu",
+      "topics": [
+        "Học ngôn ngữ",
+        "Ẩm thực & Nấu ăn"
+      ]
+    },
+    {
+      "channel": "English by Jay - Sprout",
+      "duration": "25:35",
+      "level": "A2",
+      "thumbnail": "https://i.ytimg.com/vi/q2jiv5mXW4M/mqdefault.jpg",
+      "title": "How I Start My Day in the English Countryside | Comprehensible Input",
+      "translation": "Cách tôi bắt đầu ngày mới ở vùng nông thôn nước Anh | Input dễ hiểu",
+      "topics": [
+        "Học ngôn ngữ"
+      ]
+    },
+    {
+      "channel": "English by Jay - Sprout",
+      "duration": "17:42",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/l1-z5jJ1uuc/mqdefault.jpg",
+      "title": "Become fluent in English using the Immersion method",
+      "translation": "Trở nên thông thạo tiếng Anh bằng phương pháp Immersion",
+      "topics": [
+        "Học ngôn ngữ"
+      ]
+    },
+    {
+      "channel": "English by Jay - Sprout",
+      "duration": "11:54",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/-i7ixwtCsfI/mqdefault.jpg",
+      "title": "British Small Talk for English Learners (easier than you think)",
+      "translation": "Chuyện phiếm kiểu Anh cho người học tiếng Anh (dễ hơn bạn nghĩ)",
+      "topics": [
+        "Học ngôn ngữ"
+      ]
+    },
+    {
+      "channel": "English by Jay - Sprout",
+      "duration": "16:15",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/jNr_6eINleM/mqdefault.jpg",
+      "title": "3 English Speaking Exercises (zero friends needed)",
+      "translation": "3 bài tập nói tiếng Anh (không cần bạn bè)",
+      "topics": [
+        "Học ngôn ngữ"
+      ]
+    },
+    {
+      "channel": "English by Jay - Sprout",
+      "duration": "20:28",
+      "level": "A2",
+      "thumbnail": "https://i.ytimg.com/vi/VsqkTzOVP9U/mqdefault.jpg",
+      "title": "My Daily Routine in the Countryside | Learn English with Comprehensible Input",
+      "translation": "Thói quen hằng ngày của tôi ở nông thôn | Học tiếng Anh với Comprehensible Input",
+      "topics": [
+        "Học ngôn ngữ"
+      ]
+    },
+    {
+      "channel": "Outcast Motivation",
+      "duration": "30:43",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/8YHBJdPK6eY/mqdefault.jpg",
+      "title": "Elon Musk’s 40 Greatest Motivational Speeches | Best Motivation Ever (MUST WATCH)",
+      "translation": "40 bài phát biểu truyền động lực hay nhất của Elon Musk | Động lực tuyệt vời nhất (NHẤT ĐỊNH PHẢI XEM)",
+      "topics": [
+        "Giải trí & Điện ảnh"
+      ]
+    },
+    {
+      "channel": "Inspire Greatness",
+      "duration": "0:23",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/Q8biiSXLjyc/mqdefault.jpg",
+      "title": "When You're Elon Musk You Don't Need a Business Plan - @MindMasteryX",
+      "translation": "Khi Bạn Là Elon Musk, Bạn Không Cần Kế Hoạch Kinh Doanh - @MindMasteryX",
+      "topics": [
+        "Giải trí & Điện ảnh"
+      ]
+    },
+    {
+      "channel": "TED",
+      "duration": "15:20",
+      "level": "B2",
+      "thumbnail": "https://i.ytimg.com/vi/eHJnEHyyN1Y/mqdefault.jpg",
+      "title": "6 Tips on Being a Successful Entrepreneur | John Mullins | TED",
+      "translation": "6 bí quyết để trở thành doanh nhân thành công | John Mullins | TED",
+      "topics": [
+        "Khoa học",
+        "Học thuật"
+      ]
+    },
+    {
+      "channel": "Business Motiversity",
+      "duration": "8:13",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/7TWKKww-F30/mqdefault.jpg",
+      "title": "\"I Got Rich When I Understood This\" | Jeff Bezos",
+      "translation": "\"Tôi Trở Nên Giàu Có Khi Hiểu Điều Này\" | Jeff Bezos",
+      "topics": [
+        "Giải trí & Điện ảnh"
+      ]
+    },
+    {
+      "channel": "Business Motiversity",
+      "duration": "0:24",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/WLHCrYwiRyA/mqdefault.jpg",
+      "title": "START INVESTING IN YOURSELF - Motivational Speech",
+      "translation": "BẮT ĐẦU ĐẦU TƯ VÀO CHÍNH MÌNH - Bài Phát Biểu Truyền Cảm Hứng",
+      "topics": [
+        "Giải trí & Điện ảnh"
+      ]
+    },
+    {
+      "channel": "Money Celebs",
+      "duration": "0:39",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/_-GoW41mK_8/mqdefault.jpg",
+      "title": "Jeff Bezos's Advice to Entrepreneurs and Small Businesses",
+      "translation": "Lời khuyên của Jeff Bezos cho doanh nhân và doanh nghiệp nhỏ",
+      "topics": [
+        "Giải trí & Điện ảnh"
+      ]
+    },
+    {
+      "channel": "Annika",
+      "duration": "23:51",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/86uOQSO_qR0/mqdefault.jpg",
+      "title": "a very realistic day in my life | full routine",
+      "translation": "một ngày rất thực tế trong cuộc sống của tôi | toàn bộ thói quen",
+      "topics": [
+        "Giải trí & Điện ảnh"
+      ]
+    },
+    {
+      "channel": "Radoslav Radev ⎮ Calisthenics Mastery",
+      "duration": "18:53",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/NPfwUl0EOno/mqdefault.jpg",
+      "title": "The Video I Wish Someone Made When I Was Stuck",
+      "translation": "Video tôi ước có ai đó làm khi tôi bị mắc kẹt",
+      "topics": [
+        "Giải trí & Điện ảnh"
+      ]
+    },
+    {
+      "channel": "Alex Hormozi",
+      "duration": "0:20",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/XS1Bqw60VPw/mqdefault.jpg",
+      "title": "A Decade Of Business Advice",
+      "translation": "Satu Dekade Nasihat Bisnis",
+      "topics": [
+        "Giải trí & Điện ảnh"
+      ]
+    },
+    {
+      "channel": "Dominating Motivation",
+      "duration": "0:20",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/znx3sGYx_7k/mqdefault.jpg",
+      "title": "Elon Musk Advice to Young Entrepreneurs",
+      "translation": "Lời khuyên của Elon Musk cho doanh nhân trẻ",
+      "topics": [
+        "Giải trí & Điện ảnh"
+      ]
+    },
+    {
+      "channel": "Money Reel",
+      "duration": "2:46",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/tDb39W_jihw/mqdefault.jpg",
+      "title": "Why Smart People Fail",
+      "translation": "Mengapa Orang Cerdas Gagal",
+      "topics": [
+        "Giải trí & Điện ảnh"
+      ]
+    },
+    {
+      "channel": "Daily English Speech",
+      "duration": "14:13",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/EfAtsfOoh_M/mqdefault.jpg",
+      "title": "Steve Jobs: Stay Hungry, Stay Foolish! - Stanford Commencement | ENGLISH SPEECH with BIG Subtitles",
+      "translation": "Steve Jobs: Hãy cứ khát khao, hãy cứ dại khờ! - Lễ tốt nghiệp Stanford | BÀI PHÁT BIỂU TIẾNG ANH với PHỤ ĐỀ LỚN",
+      "topics": [
+        "Học ngôn ngữ"
+      ]
+    },
+    {
+      "channel": "Z100 New York",
+      "duration": "31:57",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/3G1iv16w6Kg/mqdefault.jpg",
+      "title": "Cortis Talks NYC Dreams, Music, Meaning + Power of Youth",
+      "translation": "Cortis nói về giấc mơ NYC, âm nhạc, ý nghĩa + sức mạnh của tuổi trẻ",
+      "topics": [
+        "Giải trí & Điện ảnh"
+      ]
+    },
+    {
+      "channel": "Apple Music",
+      "duration": "22:11",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/HnwAsh5CeTs/mqdefault.jpg",
+      "title": "CORTIS: COLOR OUTSIDE THE LINES & Musical Influences | Zane Lowe Interview",
+      "translation": "CORTIS: COLOR OUTSIDE THE LINES & Ảnh hưởng âm nhạc | Phỏng vấn Zane Lowe",
+      "topics": [
+        "Giải trí & Điện ảnh"
+      ]
+    },
+    {
+      "channel": "Fandango (Stream)",
+      "duration": "8:55",
+      "level": "B1",
+      "thumbnail": "https://i.ytimg.com/vi/qn2Wq2j4y2k/mqdefault.jpg",
+      "title": "Zootopia 2 Extended Preview (2026)",
+      "translation": "Xem trước mở rộng Zootopia 2 (2026)",
+      "topics": [
+        "Giải trí & Điện ảnh"
+      ]
+    }
+  ]
+}

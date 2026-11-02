@@ -1,0 +1,218 @@
+[
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "source": {
+      "boxes": [
+        {
+          "cls": "nbr-sheet nbx-rail-in",
+          "r": "{\"bottom\":884,\"height\":868,\"left\":16,\"right\":236,\"top\":16,\"width\":220,\"x\":16,\"y\":16}"
+        },
+        {
+          "cls": "nbc-hd nbx-f-go has-gains",
+          "r": "{\"bottom\":157.890625,\"height\":141.890625,\"left\":258,\"right\":1418,\"top\":16,\"width\":1160,\"x\":258,\"y\":16}"
+        },
+        {
+          "cls": "nbx-blk nbx-r-ivory nbx-grid gcpa",
+          "r": "{\"bottom\":553.4375,\"height\":375.546875,\"left\":258,\"right\":1418,\"top\":177.890625,\"width\":1160,\"x\":258,\"y\":177.890625}"
+        },
+        {
+          "cls": "nbx-g nbx-gc-sets gcs",
+          "r": "{\"bottom\":1103.4375,\"height\":530,\"left\":258,\"right\":1418,\"top\":573.4375,\"width\":1160,\"x\":258,\"y\":573.4375}"
+        }
+      ],
+      "fonts": "loaded",
+      "height": 900,
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "production": {
+      "boxes": [
+        {
+          "cls": "nbx-rail-in",
+          "r": "{\"bottom\":884,\"height\":868,\"left\":16,\"right\":236,\"top\":16,\"width\":220,\"x\":16,\"y\":16}"
+        },
+        {
+          "cls": "nbc-hd nbx-f-go has-gains",
+          "r": "{\"bottom\":157.890625,\"height\":141.890625,\"left\":258,\"right\":1418,\"top\":16,\"width\":1160,\"x\":258,\"y\":16}"
+        },
+        {
+          "cls": "nbx-blk nbx-r-ivory nbx-grid gcpa",
+          "r": "{\"bottom\":553.25,\"height\":375.359375,\"left\":258,\"right\":1418,\"top\":177.890625,\"width\":1160,\"x\":258,\"y\":177.890625}"
+        },
+        {
+          "cls": "nbx-g nbx-gc-sets gcs",
+          "r": "{\"bottom\":1103.25,\"height\":530,\"left\":258,\"right\":1418,\"top\":573.25,\"width\":1160,\"x\":258,\"y\":573.25}"
+        }
+      ],
+      "fonts": "loaded",
+      "height": 900,
+      "scrollWidth": 1428,
+      "width": 1440
+    }
+  },
+  {
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "source": {
+      "boxes": [
+        {
+          "cls": "nbr-sheet nbx-rail-in",
+          "r": "{\"bottom\":1010,\"height\":996,\"left\":12,\"right\":88,\"top\":14,\"width\":76,\"x\":12,\"y\":14}"
+        },
+        {
+          "cls": "nbc-hd nbx-f-go has-gains",
+          "r": "{\"bottom\":155.890625,\"height\":141.890625,\"left\":106,\"right\":750,\"top\":14,\"width\":644,\"x\":106,\"y\":14}"
+        },
+        {
+          "cls": "nbx-blk nbx-r-ivory nbx-grid gcpa",
+          "r": "{\"bottom\":1023.71875,\"height\":847.828125,\"left\":106,\"right\":750,\"top\":175.890625,\"width\":644,\"x\":106,\"y\":175.890625}"
+        },
+        {
+          "cls": "nbx-g nbx-gc-sets gcs",
+          "r": "{\"bottom\":2085.71875,\"height\":1042,\"left\":106,\"right\":750,\"top\":1043.71875,\"width\":644,\"x\":106,\"y\":1043.71875}"
+        }
+      ],
+      "fonts": "loaded",
+      "height": 1024,
+      "scrollWidth": 768,
+      "width": 768
+    },
+    "production": {
+      "boxes": [
+        {
+          "cls": "nbx-rail-in",
+          "r": "{\"bottom\":1010,\"height\":996,\"left\":12,\"right\":88,\"top\":14,\"width\":76,\"x\":12,\"y\":14}"
+        },
+        {
+          "cls": "nbc-hd nbx-f-go has-gains",
+          "r": "{\"bottom\":157.890625,\"height\":141.890625,\"left\":106,\"right\":750,\"top\":16,\"width\":644,\"x\":106,\"y\":16}"
+        },
+        {
+          "cls": "nbx-blk nbx-r-ivory nbx-grid gcpa",
+          "r": "{\"bottom\":1023.5625,\"height\":845.671875,\"left\":106,\"right\":750,\"top\":177.890625,\"width\":644,\"x\":106,\"y\":177.890625}"
+        },
+        {
+          "cls": "nbx-g nbx-gc-sets gcs",
+          "r": "{\"bottom\":2085.5625,\"height\":1042,\"left\":106,\"right\":750,\"top\":1043.5625,\"width\":644,\"x\":106,\"y\":1043.5625}"
+        }
+      ],
+      "fonts": "loaded",
+      "height": 1024,
+      "scrollWidth": 756,
+      "width": 768
+    }
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "source": {
+      "boxes": [
+        {
+          "cls": "nbr-sheet nbx-rail-in",
+          "r": "{\"bottom\":0,\"height\":0,\"left\":0,\"right\":0,\"top\":0,\"width\":0,\"x\":0,\"y\":0}"
+        },
+        {
+          "cls": "nbc-hd nbx-f-go has-gains",
+          "r": "{\"bottom\":155,\"height\":103,\"left\":12,\"right\":378,\"top\":52,\"width\":366,\"x\":12,\"y\":52}"
+        },
+        {
+          "cls": "nbx-blk nbx-r-ivory nbx-grid gcpa",
+          "r": "{\"bottom\":967.828125,\"height\":798.828125,\"left\":12,\"right\":378,\"top\":169,\"width\":366,\"x\":12,\"y\":169}"
+        },
+        {
+          "cls": "nbx-g nbx-gc-sets gcs",
+          "r": "{\"bottom\":2599.828125,\"height\":1618,\"left\":12,\"right\":378,\"top\":981.828125,\"width\":366,\"x\":12,\"y\":981.828125}"
+        }
+      ],
+      "fonts": "loaded",
+      "height": 844,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    "production": {
+      "boxes": [
+        {
+          "cls": "nbx-rail-in",
+          "r": "{\"bottom\":0,\"height\":0,\"left\":0,\"right\":0,\"top\":0,\"width\":0,\"x\":0,\"y\":0}"
+        },
+        {
+          "cls": "nbc-hd nbx-f-go has-gains",
+          "r": "{\"bottom\":155,\"height\":103,\"left\":12,\"right\":378,\"top\":52,\"width\":366,\"x\":12,\"y\":52}"
+        },
+        {
+          "cls": "nbx-blk nbx-r-ivory nbx-grid gcpa",
+          "r": "{\"bottom\":967.453125,\"height\":798.453125,\"left\":12,\"right\":378,\"top\":169,\"width\":366,\"x\":12,\"y\":169}"
+        },
+        {
+          "cls": "nbx-g nbx-gc-sets gcs",
+          "r": "{\"bottom\":2599.453125,\"height\":1618,\"left\":12,\"right\":378,\"top\":981.453125,\"width\":366,\"x\":12,\"y\":981.453125}"
+        }
+      ],
+      "fonts": "loaded",
+      "height": 844,
+      "scrollWidth": 390,
+      "width": 390
+    }
+  },
+  {
+    "size": {
+      "width": 360,
+      "height": 844
+    },
+    "source": {
+      "boxes": [
+        {
+          "cls": "nbr-sheet nbx-rail-in",
+          "r": "{\"bottom\":0,\"height\":0,\"left\":0,\"right\":0,\"top\":0,\"width\":0,\"x\":0,\"y\":0}"
+        },
+        {
+          "cls": "nbc-hd nbx-f-go has-gains",
+          "r": "{\"bottom\":155,\"height\":103,\"left\":12,\"right\":348,\"top\":52,\"width\":336,\"x\":12,\"y\":52}"
+        },
+        {
+          "cls": "nbx-blk nbx-r-ivory nbx-grid gcpa",
+          "r": "{\"bottom\":967.828125,\"height\":798.828125,\"left\":12,\"right\":348,\"top\":169,\"width\":336,\"x\":12,\"y\":169}"
+        },
+        {
+          "cls": "nbx-g nbx-gc-sets gcs",
+          "r": "{\"bottom\":2599.828125,\"height\":1618,\"left\":12,\"right\":348,\"top\":981.828125,\"width\":336,\"x\":12,\"y\":981.828125}"
+        }
+      ],
+      "fonts": "loaded",
+      "height": 844,
+      "scrollWidth": 360,
+      "width": 360
+    },
+    "production": {
+      "boxes": [
+        {
+          "cls": "nbx-rail-in",
+          "r": "{\"bottom\":0,\"height\":0,\"left\":0,\"right\":0,\"top\":0,\"width\":0,\"x\":0,\"y\":0}"
+        },
+        {
+          "cls": "nbc-hd nbx-f-go has-gains",
+          "r": "{\"bottom\":155,\"height\":103,\"left\":12,\"right\":348,\"top\":52,\"width\":336,\"x\":12,\"y\":52}"
+        },
+        {
+          "cls": "nbx-blk nbx-r-ivory nbx-grid gcpa",
+          "r": "{\"bottom\":967.453125,\"height\":798.453125,\"left\":12,\"right\":348,\"top\":169,\"width\":336,\"x\":12,\"y\":169}"
+        },
+        {
+          "cls": "nbx-g nbx-gc-sets gcs",
+          "r": "{\"bottom\":2599.453125,\"height\":1618,\"left\":12,\"right\":348,\"top\":981.453125,\"width\":336,\"x\":12,\"y\":981.453125}"
+        }
+      ],
+      "fonts": "loaded",
+      "height": 844,
+      "scrollWidth": 360,
+      "width": 360
+    }
+  }
+]

@@ -1,0 +1,57 @@
+Here is the review of the `DictionaryTranslation` component, focused strictly on concrete defects across the four requested categories:
+
+---
+
+### 1. Loading, Error & Retry Lifecycle
+
+* **Stale Error UI and Delayed Loading on Retry:**  
+  `current` is derived as:
+  ```ts
+  const current = state.term === term ? state : { term, status: "loading" as const, text: "" };
+  ```
+  When the user clicks **"Thử lại"**, `setRetry((v) => v + 1)` triggers a re-render. Because `term` has not changed, `state.term === term` evaluates to `true`, and `current` continues to evaluate to the old `state` (`status: "error"`). The error message and retry button remain rendered until after the commit phase when `useEffect` finally runs `setState(..., "loading")`, triggering an unnecessary second render.
+* **Unnecessary Cascading Re-render on Every Prop Change:**  
+  Inside `useEffect`, `setState({ term, status: "loading", text: "" })` is called unconditionally. On initial mount and whenever `term` changes, `current` is already derived as `"loading"`. Calling `setState` inside the effect forces an extra render cycle before the network request even resolves.
+* **Missing Empty / Whitespace Guard:**  
+  If `term` is empty (`""`) or whitespace (`"   "`), the component still initializes in `"loading"`, issues a POST request with `texts: [term]`, and permanently fails into the `"error"` state with an active "Thử lại" button that can never succeed.
+* **Retry Button Lacks Disabled State:**  
+  The "Thử lại" button does not have a `disabled` attribute. Because `current.status` remains `"error"` immediately upon click, users can rapidly trigger multiple overlapping retries before the effect cleans up and restarts.
+
+---
+
+### 2. Cancellation & Race Conditions
+
+* **UI Tearing / Stale Translation Flash on Rapid Term Switches:**  
+  Because `current` relies strictly on `state.term === term`, if term `"A"` successfully resolved, and the parent rapidly switches to `"B"` and back to `"A"` before the new fetch finishes, `state.term === term` is still `"A"`. The component will momentarily display the previous translation of `"A"` before flashing back to loading once the effect fires, causing visual tearing.
+* **Indistinguishable Timeout Abort:**  
+  The 30-second timer calls `controller.abort()`. When this triggers, `active` is still `true`, so `catch` treats the abort identically to a backend error, rendering the generic failure state without indicating that the request timed out.
+
+---
+
+### 3. Accessibility (a11y)
+
+* **Translation Result Is Never Announced (Screen Reader Silence):**  
+  While loading uses `role="status"` and error uses `role="alert"`, the successful ready state:
+  ```tsx
+  <p data-dict-gtx-text="">{current.text}</p>
+  ```
+  has no `aria-live` attribute, no live role, and no live parent container. When translation completes, the screen reader user hears "Đang dịch…" followed by complete silence; the translated text is never announced.
+* **Invalid `aria-busy` Usage:**  
+  `aria-busy={current.status === "loading"}` is applied to a generic `<div>` with no live region role (`role="status"`, `role="region"`, or `aria-live`). Under the WAI-ARIA specification, assistive technologies ignore `aria-busy` on non-live elements.
+* **Focus Loss on Retry:**  
+  When an error occurs, user focus is on the "Thử lại" `<button>`. Clicking it unmounts the button when loading begins, dropping keyboard and screen reader focus directly to `document.body` and resetting navigation context.
+* **Unreliable Dynamic Live Region Mounting:**  
+  Mounting and unmounting elements that have `role="status"` or `role="alert"` conditionally often fails to trigger announcements in screen readers (such as NVDA or VoiceOver). Live regions must be stably present in the DOM beforehand to reliably announce dynamic changes.
+
+---
+
+### 4. Malformed Responses & Error Handling
+
+* **Runtime `TypeError` on `null` JSON Body:**  
+  ```ts
+  const data = (await response.json()) as { translations?: unknown };
+  const text = Array.isArray(data.translations) ...
+  ```
+  If the API responds with HTTP 200 and a body of `null` (valid JSON), `data.translations` throws `TypeError: Cannot read properties of null`. While caught by `try/catch`, it relies on an uncaught JS runtime exception for flow control rather than defensive checking (`data && typeof data === "object"`).
+* **Misleading Generic Error Message for System/Network Failures:**  
+  All exceptions (network disconnection, 5xx server errors, 30s timeout abort, empty translation array) map to `"Chưa có mục từ phù hợp. Không thể dịch lúc này."` ("No suitable entry found. Cannot translate right now."). If the failure is due to an offline network or an endpoint crash, this falsely informs the user that the vocabulary word does not exist in the dictionary.

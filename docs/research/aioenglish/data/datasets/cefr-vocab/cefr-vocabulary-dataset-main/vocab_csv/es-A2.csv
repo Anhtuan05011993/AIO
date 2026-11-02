@@ -1,0 +1,1024 @@
+id,lemma,language,cefr_level,pos,ipa,definition_target,audio_url,source,created_at,updated_at
+006eacae-b9dd-4464-b256-f17b37bf0abe,paquete,es,A2,noun,/pakete/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+00994a1d-2050-48da-8c6b-db1d5099ad4b,generoso,es,A2,adj,/xeneɾoso/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+00ad499f-f5d4-4864-9026-fd8b73654fd8,estoy,es,A2,Verb,/estoj/,first-person singular present indicative of estar; am,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:39:40.455132+00
+01321135-e402-4de4-890a-54b26d4c2348,pájaro,es,A2,noun,/pajaɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+019a3975-3e0b-4fb9-924c-4019850e11ce,oscuro,es,A2,adj,/oskuɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+019d24dc-109b-41d1-afa6-ee67a0e958cf,estos,es,A2,Determiner,/estos/,masculine plural of este,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:39:39.495027+00
+020782d0-22f7-4028-9125-90978ee8fbbe,mayor,es,A2,noun,/majoɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+03398c59-15eb-4592-8a0a-abf1aeb1a684,descubrir,es,A2,verb,/ðeskuβɾiɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+033d86f7-c954-41cf-86c4-57e4af942e6a,trago,es,A2,noun,/tɾaɡo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+043c99af-8cd6-4876-89b1-195db154b5e6,piloto,es,A2,adj,/piloto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+047b72be-6986-4e07-b722-53c0d1b2db6c,vuestro,es,A2,pron,/βuestɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+04af83c1-ceff-44e3-a73a-9b1e0a6f4f7f,cabina,es,A2,noun,/kaβina/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:39.90496+00
+04efdbd2-5fa1-465b-a3d7-b6334fd65512,oír,es,A2,verb,/oiɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+052d2105-2b29-4a0a-9f37-d3e7f8771195,escritor,es,A2,noun,/eskɾitoɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+059f2599-518f-466e-afe7-de8be2b4d4b8,ventaja,es,A2,noun,/βentaja/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+05b9d6cb-27ec-4ea4-b63b-c77ff5e34402,alcohol,es,A2,noun,/alkool/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:28:15.479389+00
+06227b86-8c09-4e2f-b359-99d8defe3118,amante,es,A2,noun,/amante/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:28:56.991017+00
+0622ab45-8680-4d1d-b6a4-f8ff7e651ff9,hombro,es,A2,noun,/omβɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+065331b9-beff-4449-bcc6-5e671ff96640,escrito,es,A2,adj,/eskɾito/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0663a8d9-08b9-4bdc-aebe-51b8ac50cab1,límite,es,A2,noun,/limite/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0687ca6d-098d-43e8-95d8-d02db7f78514,fotocopiadora,es,A2,noun,/fotokopiaðoɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+06e2f1e0-c3cd-4a42-9930-f33b873d1c20,negocio,es,A2,noun,/neɡoθio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0728ea7d-7968-498b-8f85-d5747d8f2072,aquel,es,A2,pron,/akel/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:30:04.190208+00
+079de917-792d-4f3a-bc2f-41e28fd9649c,infusión,es,A2,noun,/infusion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+07c1b20d-ec40-4778-b7d7-f909284c2bee,jueves,es,A2,noun,/jueβes/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+07cd922b-4a17-4aa7-9a02-7ac8e3c574e6,diferencia,es,A2,noun,/ðifeɾenθia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+08647f46-2319-4829-9076-620aa2124129,dijiste,es,A2,Verb,/ðijiste/,second-person singular preterite indicative of decir,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:34:32.534746+00
+0881cd3e-23e6-468d-af94-c2e253409ce1,matemáticas,es,A2,noun,/matematikas/,mathematics,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-23 18:58:09.970094+00
+091fa09b-1fb7-4eb4-82fd-00b0296919c6,suyo,es,A2,pron,/sujo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+09992f64-008b-44b5-8d0f-25e9b775e210,triste,es,A2,adj,/tɾiste/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+099dd9b7-c1e2-4687-9f68-4f67e48ac0e9,rico,es,A2,adj,/riko/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+09a1eb39-f5cb-4113-8585-e7e6098d07c6,panadero,es,A2,noun,/panaðeɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+09f77a56-9820-4c3d-ad64-53e8ddf7660a,será,es,A2,Verb,/seɾa/,third-person singular future indicative of ser,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:56:29.104562+00
+0a14907b-df5a-4752-80f9-b1dcd333fbff,bienvenido,es,A2,interj,/βienβeniðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:32:34.682561+00
+0a3f7851-e1fa-403b-8ee4-a27dd09022dc,necesidad,es,A2,noun,/neθesiðað/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0a439b4b-9e87-4266-956c-550a548a7d26,he,es,A2,Adverb,/e/,"here is .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with  accusative or aquí or ahí or allí]",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:42:41.409098+00
+0a602048-395c-44d2-893e-d13d89f0d32b,mis,es,A2,adj,/mis/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0a9e8fed-c6f5-4cf8-9b67-581a74dbc82b,olor,es,A2,noun,/oloɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0addce4a-0267-462e-8ece-e15b1bad77b5,excelente,es,A2,adj,/eksθelente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0b495b9a-908e-4b52-a4b0-60f68f18b9d8,parque,es,A2,noun,/paɾke/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0b53b387-a9f8-4c70-9dc7-e1cf2ec6411b,había,es,A2,Verb,/aβia/,first/third-person singular imperfect indicative of haber,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:40:14.704641+00
+0c061dff-3e91-4e4f-bae8-cd408cd39a5c,mínimo,es,A2,noun,/minimo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0c256073-ae84-4907-8885-ed1c43dd823e,violín,es,A2,noun,/βiolin/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0c3d03ba-7733-4bff-9215-abc7ff9a2004,puta,es,A2,noun,/puta/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0c5b84e6-e3cf-456b-956d-2594759c71ee,sujetador,es,A2,noun,/sujetaðoɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0c8ca996-a6da-43c8-a39d-86ddaba6ccd7,hizo,es,A2,,/iθo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0cef2b4f-f6f1-431b-815d-051f2c1583ed,sin,es,A2,prep,/sin/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0cf58dff-7b68-416b-a555-bb7ec4204ac4,haces,es,A2,Noun,/aθes/,plural of haz,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:42:27.245114+00
+0cfb5f61-e95c-4406-ab3c-6038f8a7fd93,inútil,es,A2,adj,/inutil/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0d06245d-9138-4879-afcd-803f95795afd,nacer,es,A2,verb,/naθeɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0dc0351b-1bb0-4c70-9604-8c1620d50556,pérdida,es,A2,noun,/peɾðiða/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0e484eb5-349d-4cae-a812-326931a16fe7,través,es,A2,noun,/tɾaβes/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0e7a70df-c585-4dca-bcd9-757acb3c1a6e,sabe,es,A2,Verb,/saβe/,"inflection of saber:
+third-person singular present indicative
+second-person singular imperative",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:55:55.949029+00
+0eaa49d5-f1e5-481f-9968-6bf40398e356,noticias,es,A2,noun,/notiθias/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0eaac099-7178-41da-b9e0-4a8c9ade993d,fecha,es,A2,noun,/fetʃa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0eab9431-1ad3-4979-83e7-8d8752b39cc9,considerar,es,A2,verb,/konsiðeɾaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0ee200b2-39f9-450f-a62f-f93b1bceb5cf,tolerante,es,A2,adj,/toleɾante/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0f77e0f2-dff2-41e0-ad14-a3c866119895,tarjeta,es,A2,noun,/taɾjeta/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+0fc19ca7-bb7e-4507-ae31-ee3c29b9623c,propósito,es,A2,noun,/pɾoposito/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+10146f52-0750-4b5d-a897-1a8f3b50955a,estómago,es,A2,noun,/estomaɡo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+102b83d5-f1c6-4f36-84b6-788fc14609e7,pierna,es,A2,noun,/pieɾna/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+1044a384-99d7-4c96-8a59-987f5cc89f38,tiempo libre,es,A2,,/tiempo liβɾe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+10500f9a-dd43-4816-b73f-f4a4e6ad0314,responder,es,A2,verb,/responðeɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+10614f05-e249-421c-865d-ddf1ee4fb2d2,complicado,es,A2,adj,/komplikaðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+111d07ec-a1ba-428c-89f1-9e9fcc592b23,cordero,es,A2,noun,/koɾðeɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+113a0ce2-1b3f-4c52-bb8a-998b06728b84,bienvenida,es,A2,noun,/βienβeniða/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:32:34.205703+00
+1158fe90-9e8f-4bc3-961f-7fc4195979d3,hombres,es,A2,,/omβɾes/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+1197d8b3-cad3-4fb9-aed8-665d7dc14649,explicación,es,A2,noun,/eksplikaθion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+11d5acc2-bf3c-4e93-94ca-5224b5529cb0,desaparecer,es,A2,verb,/ðesapaɾeθeɾ/,"to disappear, to go missing, to vanish, to be gone",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-23 18:52:14.103092+00
+1201848b-f651-4b8a-bed1-0adf0ac60c9c,chef,es,A2,noun,/tʃef/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+124ab409-b8d8-4253-9521-d57cfccdfcd5,uso,es,A2,noun,/uso/,use,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-06-15 19:34:36.12807+00
+125948f3-047c-4350-9f58-42d6e3b80c60,pública,es,A2,Adjective,/puβlika/,feminine singular of público,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:53:15.377829+00
+129e9ec0-9524-4e59-9032-5f7e09fe53aa,repasar,es,A2,pron,/repasaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+12a17f32-cae2-4c58-b44f-a83eeb874a14,días,es,A2,noun,/ðias/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+12b70ea9-66a2-4ef3-9b84-d196fc9e3fee,porqué,es,A2,Noun,/poɾke/,a reason (e.g. the reason why something happens),,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:52:50.863072+00
+12bb76b5-7a74-47c7-8296-344205a4dd66,grado,es,A2,noun,/ɡɾaðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+12e35764-4ab4-4c46-82f3-5ba8d6d75155,genial,es,A2,adj,/xenial/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+13249d13-70d7-4b1d-a3c3-b4053fed0f20,invitar,es,A2,verb,/inβitaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+133b1092-9d42-4297-9f39-ea39286e7d0d,demás,es,A2,det,/ðemas/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+13443e87-7e10-409a-bd51-458fc87f616c,gritar,es,A2,verb,/ɡɾitaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+136b47cd-cbbf-462d-a20a-67159f452e02,impresionante,es,A2,adj,/impɾesionante/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+1389019d-aac6-462e-869d-96066fb30776,visita,es,A2,noun,/βisita/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+13a3e271-9157-4123-bd83-83094005f5cc,cárcel,es,A2,noun,/kaɾθel/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:34:32.452494+00
+144682f1-7177-40bc-aede-840e3459910b,ciento,es,A2,noun,/θiento/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+14808b5d-6d32-4bf7-bbb1-561c02e37a4c,dedo,es,A2,noun,/ðeðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+14a6a4ee-0961-4981-950c-e0bcaf478f0f,moda,es,A2,noun,/moða/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+154366b6-a702-43fe-b887-66a727bce80b,tomate,es,A2,noun,/tomate/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+15992601-1c95-4ae6-9f03-62e29d5ed3c3,presión,es,A2,noun,/pɾesion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+16438680-bd2b-4d77-9025-4619e5889f5d,cincuenta,es,A2,noun,/θinkuenta/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+1660249a-9079-432a-a926-fd8a786151ea,gorra,es,A2,noun,/ɡora/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+1680d062-5589-42b4-b509-1133d2f878cd,sucios,es,A2,Adjective,/suθios/,masculine plural of sucio,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:58:27.365348+00
+176f907f-022e-498b-bbc1-0147c3fa7899,de cabeza,es,A2,Adverb,/ðe kaβeθa/,upside down,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:32:23.491191+00
+17a01749-62af-44c8-b522-dbcc7732738d,son,es,A2,noun,/son/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+17dd8998-7e60-40dc-916d-65853a77cc38,raro,es,A2,noun,/raɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+180fede4-51e7-415c-92d6-03156b691126,clave,es,A2,adj,/klaβe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+18317393-c2ce-43c6-9809-58692694b555,ramadán,es,A2,noun,/ramaðan/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+189bece2-2b5b-4520-9125-12a2f3ab4a6c,novela,es,A2,noun,/noβela/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+190b2967-33b1-419f-af7b-c1549c221d78,sin amueblar,es,A2,,/sin amueβlaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+1982187d-05ae-4a87-80dc-3413c4547923,planeta,es,A2,noun,/planeta/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+19b327fd-5026-47f5-b5c4-378ae698b7b1,morir,es,A2,verb,/moɾiɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+1a0dc216-72d0-4fde-bfcc-e1ce77255b71,aperitivo,es,A2,noun,/apeɾitiβo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:29:49.36132+00
+1a8c3bce-c666-473b-b543-a26e57422a71,ha,es,A2,Verb,/a/,third-person singular present indicative of haber,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:40:10.463212+00
+1ad9dac1-8e9c-4516-a5a3-a888fde13bde,seguramente,es,A2,adv,/seɡuɾamente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+1bd77b57-8b16-4727-818d-96cceba3f705,magia,es,A2,noun,/maxia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+1c951214-e54f-4e38-83ce-c7eb775ed50d,impresora,es,A2,noun,/impɾesoɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+1ce58a06-fc84-4917-b9b2-fbdb8a8d08d8,importancia,es,A2,noun,/impoɾtanθia/,importance,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-29 12:17:09.681282+00
+1d56f3af-82dc-46d8-8b23-8d1a5701c230,isla,es,A2,noun,/isla/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+1e7bbd2c-c9f6-4822-8162-052f8d1b9554,doce,es,A2,noun,/ðoθe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+1e8bb280-85db-47ad-a48a-5ee3cc61e2b1,andar,es,A2,verb,/anðaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:29:18.0908+00
+1ec90368-5f95-4240-86ad-ed30af09957a,parecer,es,A2,noun,/paɾeθeɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+1eda2635-7ff3-42bb-8a01-7aff2203f5da,doler,es,A2,verb,/ðoleɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+1f9de890-9fae-425d-bd97-2b220db156da,ver,es,A2,verb,/βeɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+1fa69961-552e-4abe-a7e8-f793f6a6d5c2,ayuntamiento,es,A2,noun,/ajuntamiento/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:31:44.068097+00
+1fec2196-7361-4dd8-a0cc-74c381362144,lista,es,A2,noun,/lista/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+20ed348e-ed95-4ab1-bef4-f1eade5699b4,naturaleza,es,A2,noun,/natuɾaleθa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+2135fa7c-c7a6-40b9-ac45-13d1ca224848,haya,es,A2,noun,/aja/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+21764196-9953-44be-b2ab-a22438105730,intención,es,A2,noun,/intenθion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+218f4db8-a140-4c0e-9837-e2e4530bcad1,pino,es,A2,noun,/pino/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+21973e30-c86f-408a-9bc2-933c69abfb84,ocasión,es,A2,noun,/okasion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+21d0e140-5575-461c-808d-ba58c7e57fdb,máximo,es,A2,noun,/maksimo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+223f7295-c8f8-423b-8e54-97b1da15955a,excepto,es,A2,prep,/eksθepto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+2259694f-9bfb-4578-b987-be317e7a8802,botas,es,A2,Noun,/βotas/,plural of bota,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:03.926097+00
+2259e148-cd08-4b24-9e02-e1cde5c7248c,cielo,es,A2,noun,/θielo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+226c5651-8e55-49fb-a759-93f0a1768d24,afición,es,A2,noun,/afiθion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:27:41.371803+00
+22e9820b-43be-40fc-b634-a600417be7d8,corbata,es,A2,noun,/koɾβata/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+232fec21-addb-48fb-aed4-6570941f1c2b,divorciarse,es,A2,verb,/ðiβoɾθiaɾse/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+237db35e-c962-4aa8-a144-993f1ed1c40e,carácter,es,A2,noun,/kaɾakteɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:34:32.452494+00
+23afda84-d211-4af1-ba13-94c62b28715d,pintor,es,A2,noun,/pintoɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+23ce3c07-95e7-42b9-a4ef-209513d4b400,podría,es,A2,Verb,/poðɾia/,first/third-person singular conditional of poder,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:51:14.71057+00
+242eb8db-67a5-4875-b67c-52ae8c317156,permitir,es,A2,verb,/peɾmitiɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+24538aa0-de1a-4d30-950b-452ee01beafd,oído,es,A2,noun,/oiðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+247693e0-a44a-4dca-8bcd-79add2ade6b0,golpe,es,A2,noun,/ɡolpe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+24fbe541-b6c4-43bf-b225-052e7ec34161,lunes,es,A2,noun,/lunes/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+24fdbb50-d259-43c6-8e96-a5e87022caab,gusta,es,A2,Verb,/ɡusta/,"inflection of gustar:
+third-person singular present indicative
+second-person singular imperative",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:40:06.239618+00
+2556db45-ac91-40ee-b883-624766a7cdf0,siguiente,es,A2,adj,/siɡiente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+265b195d-1b93-470a-937f-edc7530a9647,hambre,es,A2,noun,/amβɾe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+2686948d-9059-4049-ba1c-76d003895b5e,colegio,es,A2,noun,/kolexio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+26abbe1e-f80e-4e23-aee2-e90936d95427,voluntad,es,A2,noun,/βoluntað/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+26e1ef6b-cf33-429f-a347-dfc211e3831c,normalmente,es,A2,adv,/noɾmalmente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+27216e66-8354-422f-b31b-09892d02be34,vosotros,es,A2,pron,/βosotɾos/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+274d55f0-7340-4702-9f18-666e5173794e,éste,es,A2,pron,/este/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+27949ae8-63a3-4f40-903a-6c296a3b4442,tango,es,A2,noun,/tanɡo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+27b4a7c8-7a23-46c5-9d9b-91c08b249261,vainilla,es,A2,noun,/βainiʝa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+27e80241-3627-4935-b448-d054104a0c8b,virus,es,A2,noun,/βiɾus/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+27f9859a-1ede-47b2-a3bd-aa47004009fb,reservar,es,A2,verb,/reseɾβaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+286a12e0-4e76-4129-a25a-5b6b6c036a93,gimnasio,es,A2,noun,/ximnasio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+28712bd4-ff9b-4f4e-8829-6109ff03dcaf,fotografía,es,A2,noun,/fotoɡɾafia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+28adc462-c9f9-46b3-af7f-12b649710a53,dólar,es,A2,noun,/ðolaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+29148e4c-ff7a-43aa-a75c-3ae4537aab36,nueve,es,A2,noun,/nueβe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+2974836c-6344-479c-bc47-2f86e5748600,orgulloso,es,A2,adj,/oɾɡuʝoso/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+297fcef4-88c3-470f-b20e-49f73a0e2300,mandar,es,A2,verb,/manðaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+298fb12b-dce7-4157-98ba-b29fef59e84b,extensión,es,A2,noun,/ekstension/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+29b4f911-2162-40f0-a7f4-da845e8a4072,despacho,es,A2,noun,/ðespatʃo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+29d60e5c-32e1-48c2-be4d-838511971e53,perejil,es,A2,noun,/peɾejil/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+29dc008e-bbb6-44b6-a4dc-15a717c72dcd,manzana,es,A2,noun,/manθana/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+2ae2ffe3-117d-478a-87f7-bae61ee35523,tarjeta telefónica,es,A2,Noun,/taɾjeta telefonika/,phonecard,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:58:44.371777+00
+2ae9633e-e326-4c4f-8005-01d56f94f6c9,unos,es,A2,Article,/unos/,masculine plural of un,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:01:31.481073+00
+2bbfa088-8e26-437c-8a5e-2f995eff410b,fe,es,A2,noun,/fe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+2bcf9e34-be05-4c18-8e7e-dae407baafe0,tuyo,es,A2,pron,/tujo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+2bfb7861-c7c3-4f4a-8800-c0b5a2c66c35,palacio,es,A2,noun,/palaθio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+2bfc6ce2-c558-4e31-80ef-bb0951bc032c,blusa,es,A2,noun,/βlusa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:32:45.199355+00
+2c0543fc-13b4-49db-b29c-1f339955bdfc,cosas,es,A2,Noun,/kosas/,plural of cosa,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:31:44.871232+00
+2c16161a-9c7c-450d-bf68-9f03b6e74b7f,encantar,es,A2,verb,/enkantaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+2c22c005-7522-4a30-ba93-45fe79106276,araña,es,A2,noun,/aɾaɲa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:30:08.508933+00
+2c2bfd32-c97a-409f-a3c6-5a50f41b57ea,deja,es,A2,Noun,/ðeja/,rest (that remaining after cutting textiles),,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:33:42.832568+00
+2c8b43ae-49b5-4e83-9482-6fe09e6a6666,sobrevivir,es,A2,verb,/soβɾeβiβiɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+2ca60537-c43f-4515-a79d-1cc910a918af,kilo,es,A2,noun,/kilo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+2d08c2a0-bc85-4951-bb8d-f3367054c917,era,es,A2,noun,/eɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+2d1461b5-01dd-423b-a7e0-ff5848b11715,bosque,es,A2,noun,/βoske/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:02.006184+00
+2d772439-edbc-4bf1-ab1f-a0d985876a75,sujeto,es,A2,adj,/sujeto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+2d8e89f3-0b54-414c-aca2-11ea096dfd21,problemas,es,A2,Noun,/pɾoβlemas/,plural of problema,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:53:03.613905+00
+2ea0f1e7-72f6-4324-b0e8-3aa5ca8ee4f9,champán,es,A2,noun,/tʃampan/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+2fb30a7a-e599-4356-89c5-377487021373,probarse,es,A2,verb,/pɾoβaɾse/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+30067e09-3fd6-4afb-a979-e000f2419c09,anoche,es,A2,adv,/anotʃe/,last night,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-23 18:53:09.038686+00
+3011d8c7-6694-4711-91e7-2b519fd2154f,necesita,es,A2,Verb,/neθesita/,"inflection of necesitar:
+third-person singular present indicative
+second-person singular imperative",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:48:07.915696+00
+305fc6e4-1ff7-4de2-a449-6d6abb47be3c,medias,es,A2,Adjective,/meðias/,feminine plural of medio,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:45:47.597926+00
+306fb262-9212-405d-9988-134a0533c2fa,peinarse,es,A2,verb,/peinaɾse/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3077abc1-5ea3-4ec9-80ce-096f248e095f,costumbre,es,A2,noun,/kostumβɾe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+30cafce3-ed38-4792-8de5-d7f024cea3dc,barrio,es,A2,noun,/βario/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:32:11.310685+00
+30e448fa-277f-4e1b-ac41-20157d758018,estás,es,A2,Verb,/estas/,"inflection of estar:
+second-person singular present indicative
+second-person singular voseo present indicative",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:39:35.831728+00
+311e2bb8-eccc-43d9-877e-cb669e99bd9a,asegurar,es,A2,verb,/aseɡuɾaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:30:36.871001+00
+312e2c5c-df55-43b3-a68c-7bed8dd08f2c,rápida,es,A2,,/rapiða/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+319f1f94-afab-4a2f-b025-f81a6f01e6e4,placer,es,A2,verb,/plaθeɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+31df9788-1673-424c-8fca-225524a862a6,tener sed,es,A2,,/teneɾ seð/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+31ecc67e-c40b-468d-88ec-deb3c9d924f1,montar en bicicleta,es,A2,,/montaɾ en βiθikleta/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+32336342-e6cd-4ae5-ac2d-0955a24de237,visión,es,A2,noun,/βision/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+32614d89-0f51-456f-a52d-a01b9e3f1dfc,creer,es,A2,verb,/kɾeeɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+326cca87-9836-4749-9f91-1a744b520139,hielo,es,A2,noun,/ielo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+327a8ad7-f8f9-471f-a145-1a377b58b662,vaya,es,A2,Interjection,/βaja/,"expresses surprise: wow!, why, oh!, whoa!, well!, man!, boy!",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:01:40.684882+00
+32dd9f10-770b-4ec1-be49-38a2a6a0e0b7,ponerse,es,A2,verb,/poneɾse/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+32fa1108-b82b-44e7-a4db-8d551468b433,demonio,es,A2,noun,/ðemonio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3314a969-2dab-4c6c-bc88-1b0fdd79a48e,techo,es,A2,noun,/tetʃo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+333f3ed3-1b6f-4b65-9bf6-cb713f69e059,algunos,es,A2,Determiner,/alɡunos/,masculine plural of alguno,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:28:29.549207+00
+33494f18-bd76-4c7a-8617-02b2401228f0,fábrica,es,A2,noun,/faβɾika/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+33b3de53-3410-4d5d-bc26-7a567ef2f539,aparecer,es,A2,verb,/apaɾeθeɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:29:42.091449+00
+33e81a78-68fd-40d8-b728-cb64f70e2ddc,edificio,es,A2,noun,/eðifiθio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+34753cec-6364-42f2-92e6-eb541d43c8d0,decidir,es,A2,verb,/ðeθiðiɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+34f909d6-2987-4f20-944e-6adaf1c7cbdf,da,es,A2,Verb,/ða/,"inflection of dar:
+third-person singular present indicative
+second-person singular imperative
+second-person singular voseo imperative",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:32:12.186982+00
+34fefe0b-47d5-465d-a136-cf4a5ebe8549,viaje,es,A2,noun,/βiaje/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3501265c-eb3d-4584-9bde-4a5e38b14b72,espalda,es,A2,noun,/espalða/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+351f89f1-f17c-4880-9b26-dff9d5a134e0,finalmente,es,A2,adv,/finalmente/,"lastly, finally, in the end",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-06-15 19:34:48.236771+00
+35cd1090-2c41-4e06-8a83-df8864c22408,comercial,es,A2,adj,/komeɾθial/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+362fc903-f24b-4540-ae3b-3862550cfd48,un,es,A2,Article,/un/,an; a,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:01:28.147518+00
+368f4b0d-d3e3-404d-bdd7-a4eb3cb6d472,peatonal,es,A2,adj,/peatonal/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+36a0be04-8ab4-4355-be4a-64b2107cdb15,lejos,es,A2,adv,/lejos/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+372eec00-7029-4f37-b233-a575b21173ec,buscar,es,A2,verb,/βuskaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:30.316342+00
+375c11be-5b31-4cbe-b387-a6f37e1ad1d5,destino,es,A2,noun,/ðestino/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3787004b-dea6-4d18-a2df-b863072167e8,distinto,es,A2,adj,/ðistinto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+378c96f6-138c-466e-9237-dccdacc64b09,tomar,es,A2,verb,/tomaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+37c1869c-a5b0-470c-87d8-58b116648a20,pasta,es,A2,noun,/pasta/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+38344ab5-4769-4262-8bc6-f76cf998967c,poderoso,es,A2,adj,/poðeɾoso/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+384a3bf3-b5ce-4f60-b644-a95d92988c9e,prácticamente,es,A2,adv,/pɾaktikamente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3873d44c-5564-484c-9bbf-2bcae48ec76e,ocho,es,A2,noun,/otʃo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+38d10603-ca9f-46f8-9efa-0e9ff9c897b9,medida,es,A2,noun,/meðiða/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+38e79283-1885-4295-ae0d-b2649dadd27e,sal,es,A2,noun,/sal/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+39314360-99a5-4bde-b28b-460b4f2bbc6f,adónde,es,A2,adv,/aðonðe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:27:33.19554+00
+393f833a-2da5-42df-95ea-3990264e0ef6,necesitar,es,A2,verb,/neθesitaɾ/,to need,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-29 12:16:57.306974+00
+397d1d70-7f48-4bfa-9ae9-b7a63c9b3b29,enorme,es,A2,adj,/enoɾme/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+39af2f05-55f9-4f60-a643-87f024fa997e,piedra,es,A2,noun,/pieðɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3a526536-99c5-4773-b8b1-06c844157b0a,crees,es,A2,Verb,/kɾees/,second-person singular present subjunctive of crear,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:31:52.862841+00
+3a8e5ae8-2274-40f5-8c40-c88a240168c2,increíble,es,A2,adj,/inkɾeiβle/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3ac91290-4ef5-4530-8d23-49b7d61c58e4,mosquito,es,A2,noun,/moskito/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3ad030d7-8361-41cd-99d5-7e6321736d75,veces,es,A2,,/βeθes/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3b23280f-93eb-4651-bc06-8dcfe84b6afe,afeitarse,es,A2,verb,/afeitaɾse/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:27:40.891983+00
+3b248a50-cf19-4a29-95e1-0f1d94ca020d,sardina,es,A2,noun,/saɾðina/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3baddba7-30f6-4bfe-9705-229a19548161,menudo,es,A2,adj,/menuðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3bb156b4-ed66-4261-8bdd-0b5640c53fd8,vegetariano,es,A2,noun,/βexetaɾiano/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3c48caee-69e7-4a0e-a393-c7a65c960939,ves,es,A2,Verb,/βes/,"inflection of ver:
+second-person singular present indicative
+second-person singular voseo present indicative",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:01:52.095371+00
+3c70c0c6-9160-4b25-8e6b-71336890e6fe,bañera,es,A2,noun,/βaɲeɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:32:02.735028+00
+3ca9d330-3073-49b8-b884-d0c606e63797,estamos,es,A2,Verb,/estamos/,first-person plural present indicative of estar,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:37:47.123391+00
+3cd423dc-6bce-4647-b216-4a6dd9a260e7,cualquiera,es,A2,pron,/kualkieɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3d1b3c53-c5c3-4755-9c08-dd808cdb653f,artista,es,A2,noun,/aɾtista/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:30:33.022728+00
+3d8a3f7d-6ced-4eba-b1d3-29181aa4943b,frutería,es,A2,noun,/fɾuteɾia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3e4251ef-fdc9-4e62-9bb6-72c4c52f93f1,éxito,es,A2,noun,/eksito/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3e6c3aa4-4b44-42e4-9d3f-2aa0dcce2eb4,ajo,es,A2,noun,/ajo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:28:07.321331+00
+3f16366e-dcb4-431f-9830-a223928f5c71,gracia,es,A2,noun,/ɡɾaθia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3f28007d-0ce7-4fd5-8ad1-8a2e3d5d25f9,diploma,es,A2,noun,/ðiploma/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3f330774-8402-41a2-9b29-1f5b3b44de7e,cazadora,es,A2,noun,/kaθaðoɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:34:32.452494+00
+3f36bc51-da6e-492d-81de-58f6e9d16078,últimamente,es,A2,adv,/ultimamente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3fad032d-6205-4234-ace4-9dd615353997,cita,es,A2,noun,/θita/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3fbbd16d-82fd-47e7-a7c0-33303072424b,moneda,es,A2,noun,/moneða/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3fd06a52-2c52-4737-a432-13853b2b3440,querer,es,A2,verb,/keɾeɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+3ff1020d-1dae-407a-870b-8a0c673a40e7,socorro,es,A2,noun,/sokoro/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+40147a84-c88c-44f5-aec4-717ff31c132b,presidente,es,A2,noun,/pɾesiðente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+402b7f29-9536-4fe6-afa9-e1cccf4c7dac,enfadado,es,A2,adj,/enfaðaðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+406bb6aa-dbf3-465e-b497-40bd5621394b,utilizar,es,A2,verb,/utiliθaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+409663e2-da42-49a9-8354-bf40f42a3124,novia,es,A2,noun,/noβia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+40c07937-7ff7-4e7f-aaa9-2946061ca9f7,sentarse,es,A2,verb,/sentaɾse/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4152ec34-5175-4c36-aa5a-95eae16115ae,cumpleaños,es,A2,noun,/kumpleaɲos/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4171b2f4-a2d2-42a8-86b3-f1f5d0581498,locura,es,A2,noun,/lokuɾa/,"madness, craziness",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-23 18:58:18.341084+00
+41cad87b-9b98-4f03-be69-28ea6b1f0c82,intentar,es,A2,verb,/intentaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+41f892f7-83f3-4bf8-9136-54a196b8d842,plátano,es,A2,noun,/platano/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+420e09ad-4b7b-4d86-a4b2-8e9dc7814e70,somos,es,A2,Verb,/somos/,first-person plural present indicative of ser,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:58:15.49946+00
+423a0e79-aec4-4b4d-b5e6-8e7c137e3d3f,reunión,es,A2,noun,/reunion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4253c6d9-3259-49bc-b26c-e82279d667d1,noches,es,A2,Noun,/notʃes/,plural of noche,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:48:12.709373+00
+4264931c-55ff-49b8-beca-a6b5845c28ab,ayer,es,A2,Adverb,/ajeɾ/,yesterday,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:31:32.594315+00
+4275daa3-ff77-479d-89c9-c9c5ffb03a0f,receta,es,A2,noun,/reθeta/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4278800d-54d3-4d61-be14-7c9c5b5cc01d,especialmente,es,A2,adv,/espeθialmente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+42d430a1-386f-4b23-8d56-582e1b4e03ec,siete,es,A2,noun,/siete/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+42d504eb-8bed-4238-bdd1-1a5a67d786fa,hubiera,es,A2,Verb,/uβieɾa/,first/third-person singular imperfect subjunctive of haber,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:42:46.121331+00
+42d566db-9097-4ddb-8aa6-f8f1fc318767,inteligencia,es,A2,noun,/intelixenθia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+431dbafe-9c44-405d-9ef9-d5964c45a86d,regalo,es,A2,noun,/reɡalo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+44431b53-8ada-4c37-a578-be8831461e45,confiar,es,A2,verb,/konfiaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+44b766d6-7933-477c-a2a6-e672fb0e3c38,hice,es,A2,Verb,/iθe/,first-person singular preterite indicative of hacer,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:42:43.762727+00
+450d96ba-9c06-4808-b148-f21824f58739,agricultor,es,A2,noun,/aɡɾikultoɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:27:56.7039+00
+452e4e08-1db1-4710-befd-cdd96174a7a8,serrano,es,A2,noun,/serano/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+45412a43-9725-4669-b176-0f582d125600,bajar,es,A2,verb,/βajaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:31:51.725691+00
+45bf862a-1fc4-4500-97d7-322263b057a0,completar,es,A2,verb,/kompletaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+45dc3bad-e701-4937-8c19-790068ca9e3a,tenemos,es,A2,Verb,/tenemos/,first-person plural present indicative of tener,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:58:52.867211+00
+46344908-224a-4dda-961d-5da5ada0044b,ante,es,A2,noun,/ante/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:29:29.603084+00
+4640c068-5a36-4bfa-befa-44cba7a55641,orden,es,A2,noun,/oɾðen/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4697ba61-def1-44c6-9b5a-ffef71919286,bañador,es,A2,noun,/βaɲaðoɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:31:57.9526+00
+46a5f866-2819-43d3-96e7-883611aedf1c,bueno,es,A2,adj,/βueno/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:21.685602+00
+46d6ca1a-be24-48d4-be3d-6529e92d2ca2,lavaplatos,es,A2,noun,/laβaplatos/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4707cea1-dd2e-478b-9e80-d99477326054,naranja,es,A2,adj,/naɾanja/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+473304ef-1820-492f-aff0-023b879b070d,secreto,es,A2,adj,/sekɾeto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4774b69b-8be1-4539-bf36-278d3156ca50,suceder,es,A2,verb,/suθeðeɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+478d3d51-ac19-414a-87ab-19ffb5001fea,claramente,es,A2,adv,/klaɾamente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+478f8e77-6fc5-4a89-8968-0f09974fce64,abajo,es,A2,adv,/aβajo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:26:04.868062+00
+47978988-72b6-4769-b5a4-563a60c57a99,esperanza,es,A2,noun,/espeɾanθa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+47b7e9f4-1bc7-49ec-bfb9-bed0926dac65,ojalá,es,A2,interj,/ojala/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+47c13560-9d47-4462-a22a-1c31caf0ca3d,zanahoria,es,A2,noun,/θanaoɾia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4806cd0c-6fe7-46d6-a166-b76503d24f40,existir,es,A2,verb,/eksistiɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+48137a6e-4913-4c5b-bb7e-acee4062cfc6,gel,es,A2,noun,/xel/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+482e0ef8-aedc-44ca-a71c-007e21a62730,pasó,es,A2,,/paso/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+48baa15c-93e0-4083-8025-9ab5f07f9ae4,solución,es,A2,noun,/soluθion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+49491b74-d36e-4088-9c3c-04184dca3791,aire,es,A2,noun,/aiɾe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:28:04.859056+00
+49ddc062-3025-46f6-91f5-a1ee3e441a37,fue,es,A2,,/fue/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4a66c6c7-8045-49fd-ab28-0ff2047a5b2a,jazz,es,A2,noun,/jaθθ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4ab022ba-e67f-4d70-8450-8dd818b813c9,cava,es,A2,noun,/kaβa/,dig,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-23 18:53:10.051399+00
+4ab1facd-f946-46f6-89db-4292b1327516,lindo,es,A2,adj,/linðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4b5d38b3-433c-4d84-9e59-eb5020037779,misma,es,A2,Adjective,/misma/,feminine singular of mismo,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:47:56.183256+00
+4c083930-f932-40f9-bc27-d7f5bcb5e7b8,hermoso,es,A2,adj,/eɾmoso/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4c734a32-e714-461e-a2db-aef2d57d4d67,idiota,es,A2,adj,/iðiota/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4d54fdaa-8a07-4888-bae8-be9fc5a8bcbd,empleado,es,A2,adj,/empleaðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4d794525-d5c9-4579-9794-525a9308eb63,presente,es,A2,noun,/pɾesente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4d79b764-f4d3-4c79-bc90-e0adb82da2ee,inmediatamente,es,A2,adv,/inmeðiatamente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4dae192a-d2fc-49e6-8819-9122498b5ddb,estrella,es,A2,noun,/estɾeʝa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4db65be3-a7b2-4803-a519-e953cfe1473a,pasear,es,A2,verb,/paseaɾ/,"to stroll, to saunter, to promenade",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-25 22:30:45.980692+00
+4db8814d-526a-4c09-adfe-9202c6100965,separarse,es,A2,verb,/sepaɾaɾse/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4e4da669-d2df-45de-ac3e-443d2426a84b,vaso,es,A2,noun,/βaso/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4e69f571-e799-41ba-b966-bb29664b05a9,simplemente,es,A2,adv,/simplemente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4e7d0dde-6165-4053-948c-dccca3475fa8,alguno,es,A2,Determiner,/alɡuno/,"some, any",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:28:29.068234+00
+4e9554a4-5140-4ec8-9994-55af5eb965b3,repente,es,A2,noun,/repente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4f080947-e98e-411d-895c-7ecc1a85ad37,registro,es,A2,noun,/rexistɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4f24eec7-e917-47e5-b201-d1a35c9ab334,crecer,es,A2,verb,/kɾeθeɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4f2a39ea-710a-4e00-ae79-23212e9cc618,bolsillo,es,A2,noun,/βolsiʝo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:32:52.424843+00
+4f6bd8a5-7927-43bb-b260-21736d72ed2a,manos,es,A2,noun,/manos/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+4f758d3a-60a4-4a06-adbb-9098da19ba8e,asunto,es,A2,noun,/asunto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:30:52.253615+00
+4fba0973-2f95-4953-ae60-5663ff91bf8d,trabajar,es,A2,verb,/tɾaβajaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+50487c80-bc2d-414e-963a-f8e7c8a69a96,voy,es,A2,Verb,/βoj/,first-person singular present indicative of ir,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:02:21.379264+00
+504e5525-02a6-41b8-9740-1f28dd823d14,sonrisa,es,A2,noun,/sonɾisa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+50b218d3-1e59-40b3-a092-40901d283677,academia,es,A2,noun,/akaðemia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:26:52.38871+00
+50f026a1-3e19-4c34-970f-7b2d814204cf,máquina,es,A2,noun,/makina/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5115e14f-d80e-4b07-8277-64401f6962f1,regresar,es,A2,verb,/reɡɾesaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+513d8e4e-a07c-495f-8dce-264923275c65,don,es,A2,noun,/ðon/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+51c0a034-7f33-4d8e-becc-4321f78090fd,probador,es,A2,noun,/pɾoβaðoɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+521b9f93-0e75-47d6-8a63-f764209af28b,juez,es,A2,noun,/jueθ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5233fecb-7a74-4cdd-b5f4-68e900f311d9,nevera,es,A2,noun,/neβeɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+52502f08-6eae-45eb-b4af-96fddb44e00a,enviar,es,A2,verb,/enβiaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+52ac2592-c54e-4a9b-b620-95875ff431da,comienzo,es,A2,noun,/komienθo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+53d2b49e-5980-405a-930e-0755134580d9,vecino,es,A2,noun,/βeθino/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+541db3bd-6eb2-405f-9ada-d24c314dbb72,rato,es,A2,noun,/rato/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+542c9e99-eadb-4741-839b-6085bc1592c6,egoísta,es,A2,adj,/eɡoista/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5446e9dc-69ec-49e5-b3f1-23e3287ea631,guitarra,es,A2,noun,/ɡitara/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+545c234c-f16d-49e3-a824-40353e39ba76,agujero,es,A2,noun,/aɡujeɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:28:00.546414+00
+54823f09-9566-49f5-a490-926a0750aef7,educación,es,A2,noun,/eðukaθion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5499b63f-c28b-4ced-b0b1-511a224b6892,impresión,es,A2,noun,/impɾesion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+54a153fc-74bc-4df9-8586-2939f511573d,perfecto,es,A2,adj,/peɾfekto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+54a616fb-b746-4625-b057-11a1ee01353d,rizado,es,A2,adj,/riθaðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+54d022bc-4046-4ffd-a420-222169b67df0,mamá,es,A2,noun,/mama/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+551d56e4-9dd3-4f5a-b4dd-82aaeb5d95e1,modo,es,A2,noun,/moðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+554aa6cd-1cdc-4d53-85bc-47ba3ab52368,mochila,es,A2,noun,/motʃila/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+558695d2-f7ac-4553-947e-74e96dd34e01,emergencia,es,A2,noun,/emeɾxenθia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+55893d9a-6540-485a-878f-dfc269ce434a,urgencias,es,A2,noun,/uɾxenθias/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5591e28c-e0d4-4023-86c5-043e9f618d7a,caminar,es,A2,verb,/kaminaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:34:32.452494+00
+55987f6d-a927-4486-a943-bbe4aba0a488,pelea,es,A2,noun,/pelea/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+55a367f0-e683-4710-88be-909d65dd3c41,encantado,es,A2,adj,/enkantaðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+55ee2603-34ec-4520-b411-adf6759cb8d7,carga,es,A2,noun,/kaɾɡa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:34:32.452494+00
+560f7852-c115-43da-998f-2839eff8739f,esfuerzo,es,A2,noun,/esfueɾθo/,"effort, endeavor",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-23 18:51:53.203777+00
+56b48785-4337-4f1c-a1ea-cfc49c2b5472,aceite,es,A2,noun,/aθeite/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:26:57.6612+00
+56bd5d20-526b-4aa3-8fd3-9dd4f35ae47f,debería,es,A2,Verb,/ðeβeɾia/,first/third-person singular conditional of deber,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:32:27.730087+00
+56feb2d4-6c17-4d98-bc11-0c332f89216a,posibilidad,es,A2,noun,/posiβiliðað/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+57132c29-38c4-4942-84c5-c70df8b5c512,directamente,es,A2,adv,/ðiɾektamente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+579256f4-80cb-46aa-9b26-cb6ab3c5f161,destruir,es,A2,verb,/ðestɾuiɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+57d1a95d-d3a6-4548-b503-b0688814aa75,partir,es,A2,verb,/paɾtiɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+581347ed-4047-4b2f-8415-b3401f53e8d5,sé,es,A2,Verb,/se/,first-person singular present indicative of saber,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:56:20.632429+00
+583a65ab-8eb3-4fbb-bb28-5c42586e1981,músico,es,A2,noun,/musiko/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+58cec383-c4bf-4afb-bdb4-b7e51f105793,bebida,es,A2,noun,/βeβiða/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:32:21.79899+00
+591b27fd-72e3-4da2-9728-64c570ed69ef,según,es,A2,prep,/seɡun/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+59343249-7d92-4cde-9bc5-0737b42bed4e,atún,es,A2,noun,/atun/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:31:12.41462+00
+59454d82-e26d-43c6-8539-e5731340856c,media pensión,es,A2,Noun,/meðia pension/,half board,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:45:47.129346+00
+59a3eafd-5bbc-4d2d-af0c-46fa0ba14cf3,propietario,es,A2,noun,/pɾopietaɾio/,proprietary,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-25 22:30:30.873059+00
+59c2a274-a74f-4003-bd56-bc9e76755501,toque,es,A2,noun,/toke/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+59c2bccc-483b-4759-9ca0-2b7a214df086,musical,es,A2,adj,/musikal/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5a01b7d1-0682-4a0a-bf47-1da785618cb5,adiós,es,A2,Interjection,/aðios/,"goodbye, farewell",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:27:27.434016+00
+5a6deb59-dfdd-4510-b618-44051b6a9f87,pedir,es,A2,verb,/peðiɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5a861e61-abaa-4caa-801c-80616880ee45,municipal,es,A2,adj,/muniθipal/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5aba5837-01d7-4d5c-96a2-f9b6588cbbb5,minutos,es,A2,Noun,/minutos/,plural of minuto,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:47:48.195654+00
+5abbcdda-2276-4099-a20e-d1f227fbb241,tormenta,es,A2,noun,/toɾmenta/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5b192c8d-584c-48cf-9277-146c4a49dacf,fresa,es,A2,noun,/fɾesa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5b97c66b-201d-49b9-9085-f6c21edc7342,fantasma,es,A2,noun,/fantasma/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5bb3b0e4-75c1-4780-8812-ca813b4d1838,agenda,es,A2,noun,/axenða/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:27:48.575598+00
+5c4d3c54-f24e-4f6d-9c8a-748ecbb2e448,motivo,es,A2,noun,/motiβo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5c762a0d-63ee-4acc-b6cd-39f551e601c5,adolescente,es,A2,adj,/aðolesθente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:27:31.748511+00
+5d145840-0991-47e1-8e96-5fdee50a36ae,digo,es,A2,Interjection,/ðiɡo/,I mean; used to explain or correct a previous utterance,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:34:30.175774+00
+5d52384c-23d9-43c8-9586-3a28814a601a,domingo,es,A2,noun,/ðominɡo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5d93f82f-ea78-4b90-a8b2-d3e0ec7523ae,arte,es,A2,noun,/aɾte/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:30:29.162799+00
+5d9fbe44-9962-4313-8126-52ce30f45ba5,revolución,es,A2,noun,/reβoluθion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5dbbc419-5f54-4672-91e0-59a5ed3d2d59,lenguaje,es,A2,noun,/lenɡuaje/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5dee34e8-22ff-40a7-911f-e32d5ced5146,puedo,es,A2,Verb,/pueðo/,first-person singular present indicative of poder,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:53:23.810934+00
+5e5d110e-99be-43f4-ab6f-45047e50d637,debemos,es,A2,Verb,/ðeβemos/,first-person plural present indicative of deber,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:32:26.318532+00
+5e5db771-7d82-4308-9acf-a3acbdc6613b,librería,es,A2,noun,/liβɾeɾia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5e69622f-fc1b-4422-8fcd-9a1b4fb03c7c,pimienta,es,A2,noun,/pimienta/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5f086608-c034-468f-9118-1bb6b4b07945,perdido,es,A2,adj,/peɾðiðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5f554377-fc4c-4742-9f4b-e19847e9f2a3,despacio,es,A2,interj,/ðespaθio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5f7cfff6-e126-442d-ade0-142124ab0b88,largo,es,A2,noun,/laɾɡo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5f965144-3209-4010-b082-632eef701098,pasillo,es,A2,noun,/pasiʝo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5fa3f7f0-e919-4266-8773-dbb88b25ee40,aula,es,A2,noun,/aula/,classroom,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-25 22:30:38.217262+00
+5fbefb7b-54d4-41ee-b306-6d1105b8c80c,han,es,A2,Verb,/an/,third-person plural present indicative of haber,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:42:34.320125+00
+5fd98f76-48c8-45fa-b590-88e09db3a8c3,sudeste,es,A2,noun,/suðeste/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+5fe7bd3d-fa9a-4890-bbc7-ac82abe8ecad,cabeza,es,A2,noun,/kaβeθa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:38.951214+00
+5fe99fe3-4211-4b54-8bd2-c2c0b4576f65,sea,es,A2,Verb,/sea/,"inflection of ser:
+first/third-person singular present subjunctive
+third-person singular imperative",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:56:21.103693+00
+60b9bf34-a768-4c14-9036-f4ec0c152b9f,abierto,es,A2,adj,/aβieɾto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:26:30.158531+00
+60be9d63-7f6f-4c7b-846c-e7729b75e6f5,jurado,es,A2,noun,/juɾaðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+60f44d87-8636-4808-b8aa-07ba5d58ec6c,lavarse,es,A2,verb,/laβaɾse/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+60fd55c8-8d5d-4c1a-a638-35b8e767268a,promesa,es,A2,noun,/pɾomesa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6124fa01-895a-44ad-9db3-4c5c2fc7b2b5,zoológico,es,A2,adj,/θooloxiko/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+61304139-3168-401d-af04-cb620ecfd345,deseo,es,A2,noun,/ðeseo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6132971e-5f8b-4284-a468-1afe7c70fb26,ciclista,es,A2,noun,/θiklista/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+61b00bd0-3cec-45d2-b2c7-3f4941645fc9,dice,es,A2,Verb,/ðiθe/,third-person singular present indicative of decir,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:34:22.178898+00
+61d4a7f5-400c-4d77-ad20-3a29886f7832,misión,es,A2,noun,/mision/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+61e83560-8efc-4a30-bce6-b419d667d297,marca,es,A2,noun,/maɾka/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+61f52209-990c-4765-94e9-3d62e44b1d5a,billete,es,A2,noun,/βiʝete/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:32:36.593775+00
+6334eed2-58b1-4032-b589-d7c5e2a8d4c5,gorro,es,A2,noun,/ɡoro/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+633ad45e-3401-4a68-97d8-c59ad47dce23,posición,es,A2,noun,/posiθion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+633d92f4-d4ee-4667-8643-a49453920f82,biquini,es,A2,noun,/βikini/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:32:39.937237+00
+6367b884-0203-45dc-827e-6e28f7dc5a58,operación,es,A2,noun,/opeɾaθion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+63f1ec3e-06ea-4eac-8c90-6bcb3d06b520,ginebra,es,A2,noun,/xineβɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+63fbe433-c30e-4214-a109-f3b107d9e21b,recién,es,A2,adv,/reθien/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6422e53a-ada2-453d-b283-cacb32afbc74,amueblado,es,A2,adj,/amueβlaðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:29:12.334351+00
+642e0df2-0977-4dfb-95a1-1d7610d2754e,muchas,es,A2,,/mutʃas/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+643a3f13-f05b-402b-9917-820fc85aaffd,medio,es,A2,noun,/meðio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+643f8b2f-91bc-4157-8aa1-a530471d2f6e,mundo,es,A2,noun,/munðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6474e1b7-c125-4407-9d2f-1b0919237fd7,frase,es,A2,noun,/fɾase/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+649b49fe-15c7-4f57-8842-0ba39e329b26,regalar,es,A2,verb,/reɡalaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6507635c-67a3-4250-85a6-d4acfd35a32e,botella,es,A2,noun,/βoteʝa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:04.90177+00
+6531afe0-42d7-4dca-b50f-511501b9d106,decidido,es,A2,adj,/ðeθiðiðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+654cf4d9-9ad8-4c9a-bcae-b634cd6d8f96,espera,es,A2,noun,/espeɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+65564955-0acf-410a-aab0-db2527b9f02f,droga,es,A2,noun,/ðɾoɡa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+656bd527-8ecb-4fb7-b35b-9939ce9ef5b0,subir,es,A2,verb,/suβiɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6579e40e-5585-4c68-ae98-55e332ef6d60,nuestra,es,A2,Determiner,/nuestɾa/,feminine singular of nuestro,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:48:17.427258+00
+65a1234d-7710-4fe8-9287-0e56b2396123,tercero,es,A2,noun,/teɾθeɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+661af5d4-494b-4a17-9f35-a796032b881e,eléctrica,es,A2,Noun,/elektɾika/,electric company,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:36:57.690754+00
+661ddc79-54ac-4053-a8b9-e38a1c0b5aa8,desgracia,es,A2,noun,/ðesɡɾaθia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+66f5281e-c0d9-4650-9fd1-02be4305fbae,suroeste,es,A2,noun,/suɾoeste/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+67029703-e5c5-4084-8d2a-9d1dcd7c0bd0,industrial,es,A2,adj,/inðustɾial/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6719702c-a999-4f2d-bd15-d393d146cf2b,búsqueda,es,A2,noun,/βuskeða/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:35.114253+00
+67224335-3d34-480a-9389-52329ea35f86,gramos,es,A2,Noun,/ɡɾamos/,plural of gramo,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:40:00.623087+00
+673534d9-a3c0-48d7-9d64-f90bc7660cc0,todos,es,A2,pron,/toðos/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+675cbd63-f949-4983-88e1-f75bd0866857,varios,es,A2,pron,/βaɾios/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+67bb7db1-c01c-4f33-9b92-8d8bbcb2392d,van,es,A2,noun,/βan/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+67f10587-ce8f-41ab-94e4-c378300ea269,vale,es,A2,noun,/βale/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+67f9a9bc-69c7-498c-abc6-c7e9b67d097e,lluvia,es,A2,noun,/ʝuβia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+680ff63c-7cce-4f5a-8d36-df0e38054160,ambulancia,es,A2,noun,/amβulanθia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:29:02.744425+00
+68748149-4a64-4583-abd9-c2f43e8e34f5,abuela,es,A2,noun,/aβuela/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:26:42.308062+00
+68a34a1a-de68-49f4-949d-86b2b923f026,ningún,es,A2,adj,/ninɡun/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+68eb7f7a-a588-4f6c-81e9-0d821fa4746b,caballo,es,A2,noun,/kaβaʝo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:37.995634+00
+68fabf81-69f3-4992-9ef1-52f40a65b049,acaso,es,A2,adv,/akaso/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:26:54.307993+00
+69c7313a-0fce-4492-996b-0bf1b31da04e,evidencia,es,A2,noun,/eβiðenθia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6a11caef-6ac8-4314-8b63-61443e6a8d63,arroz,es,A2,noun,/aroθ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:30:27.718308+00
+6a257b76-90a3-41dd-90ce-c6d815d10227,inglés,es,A2,adj,/inɡles/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6a52dffe-4039-4068-a60f-e652941f7933,evitar,es,A2,verb,/eβitaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6a63c14f-9273-4539-be33-d123a35e22ec,regla,es,A2,noun,/reɡla/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6a862b20-9c81-4795-aa79-016ce7afe9bc,viernes,es,A2,noun,/βieɾnes/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6ad0af6b-93d0-4482-bd81-cf62c93e690a,patata,es,A2,noun,/patata/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6b301a57-51c7-4096-9a6f-cdf11fc1ae12,estas,es,A2,Determiner,/estas/,feminine plural of este,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:39:35.078184+00
+6b37f02d-e5f9-4cb6-aa9e-94970201f9fc,situación,es,A2,noun,/situaθion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6bcd74ce-a354-4372-b06a-b97c676e6814,consultar,es,A2,verb,/konsultaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6c6e5501-54d3-4e0b-a5a4-d121b13b6653,alojamiento,es,A2,noun,/alojamiento/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:28:41.162452+00
+6c77a1c6-1d39-4933-a244-60c59112b283,traer,es,A2,verb,/tɾaeɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6c8dc2d3-9db5-4d03-9564-756b5dc9e999,necesario,es,A2,adj,/neθesaɾio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6c99ff03-ea7c-4dd3-8d27-3805d5e174d4,entero,es,A2,adj,/enteɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6cdd4bda-6206-4f72-9ae7-1e34fba03ff5,coronel,es,A2,noun,/koɾonel/,colonel,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-06-15 19:35:18.173808+00
+6cfafede-aaaf-4fb7-a87b-7489f3a5507b,ejército,es,A2,noun,/ejeɾθito/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6d2a5235-1ad5-49de-b3cd-71bf9c4e6f08,millón,es,A2,noun,/miʝon/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6d5737e8-83df-4898-a89c-dbfd77958a7b,dibujo,es,A2,noun,/ðiβujo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6dda3d37-f9f3-4b12-b430-97562f87a194,visto,es,A2,adj,/βisto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6e325dec-29e6-4c67-b687-58a6993222d7,parece,es,A2,Verb,/paɾeθe/,"inflection of parecer:
+third-person singular present indicative
+second-person singular imperative",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:50:22.560472+00
+6e4d656f-9a15-45d8-8f40-6ee83f6e0031,autoridad,es,A2,noun,/autoɾiðað/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:31:22.504313+00
+6ea41443-7216-46f0-8964-f2af502692c7,cocinar,es,A2,verb,/koθinaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6eb5f300-26a7-4e89-8e41-8e4b3a255861,pelear,es,A2,verb,/peleaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6ef12558-50dd-46e8-93a3-52f845c8a0e2,divertido,es,A2,adj,/ðiβeɾtiðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6f278168-5f1d-42d5-a04b-9f845e4ab805,humano,es,A2,adj,/umano/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+6f95bebe-ecab-4ea4-b062-fb46da0f760a,chalé,es,A2,noun,/tʃale/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+7031f869-701a-4376-b8c0-aa3b45d47965,detalle,es,A2,noun,/ðetaʝe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+70852f02-83a3-4909-8ad6-4ce7176cc3f5,planes,es,A2,Noun,/planes/,plural of plan,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:51:03.963154+00
+70a0120d-7e98-4063-97f4-b1985195c16d,cereales,es,A2,noun,/θeɾeales/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+70a3f8e5-48e8-4815-8a13-71e4a55dae97,chicos,es,A2,Adjective,/tʃikos/,masculine plural of chico,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:29:39.852972+00
+70f7d3cb-30a9-4900-95e5-bbb6f36e0a25,calor,es,A2,noun,/kaloɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:34:32.452494+00
+71507f90-8d02-4e20-9d91-bd5616a6697c,invitación,es,A2,noun,/inβitaθion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+71636c75-79bc-4f5d-87bb-474211112e59,gustaría,es,A2,Verb,/ɡustaɾia/,first/third-person singular conditional of gustar,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:40:08.578954+00
+71a4ad05-ea83-4a06-850b-3895ef91dfff,zoo,es,A2,noun,/θoo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+71cbcd11-657e-4a7d-a8aa-0ecaff35287f,rock,es,A2,noun,/rokk/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+722de352-56b0-4e3d-8cf5-3716c04650e8,vos,es,A2,pron,/βos/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+723dc071-9f42-483f-8be6-e655320dde2e,china,es,A2,noun,/tʃina/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+7255ea8a-987b-41da-af3c-17ee9d15681b,intento,es,A2,noun,/intento/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+7258a53a-51d5-4ded-b52d-6972b5e0cc78,hoja,es,A2,noun,/oja/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+728019ff-8068-46f9-beba-5cafe488c4ae,agradable,es,A2,adj,/aɡɾaðaβle/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:27:53.350344+00
+72c21625-2e30-43ec-b7b1-a0e221a5f73b,perro,es,A2,noun,/pero/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+731498e1-8905-4c6c-ba37-33c910ae1b40,precioso,es,A2,adj,/pɾeθioso/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+73488fa2-312b-4d52-8e3e-5802fd0da7a4,resto,es,A2,noun,/resto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+741e53af-b2ea-40cc-ab0a-0c335748ebf3,elección,es,A2,noun,/elekθion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+749573c7-d87e-4214-8a32-dfc86589b63a,lamento,es,A2,noun,/lamento/,lament,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-06-15 19:34:46.484463+00
+74ffae77-7a8f-457e-ada9-2f11861ebfb5,dijo,es,A2,Verb,/ðijo/,third-person singular preterite indicative of decir,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:34:33.011207+00
+754cd2ce-5b00-4c01-9840-b669a8dd828f,nuevamente,es,A2,adv,/nueβamente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+76f35dfd-3ba6-4141-aae0-dd0112a00ccd,costa,es,A2,noun,/kosta/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+77f4683d-309f-4ded-a5b2-5ec0d287b932,entrada,es,A2,noun,/entɾaða/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+782fe34f-2fad-439c-896d-f769a3d725b8,pop,es,A2,adj,/pop/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+7835f2bc-fc4a-425f-9256-c46943eb21ae,suspender,es,A2,verb,/suspenðeɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+786ac4da-0a35-4c10-917d-a2c1f2912c5f,excursión,es,A2,noun,/ekskuɾsion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+7875824a-e7dd-438b-a604-9d93e2198f16,proyecto,es,A2,noun,/pɾojekto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+78ad96c2-9b7a-448c-b377-7d64ecc7c4ef,haciendo,es,A2,Verb,/aθienðo/,gerund of hacer,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:42:29.619226+00
+78bbe42f-af4e-41f8-accb-6c48ed0c7edf,pasa,es,A2,noun,/pasa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+7901b4a7-277b-4ff0-824f-f266a9e405d2,enseguida,es,A2,adv,/enseɡiða/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+790a5346-f50a-4cf8-a722-3b76327cb0fc,prefijo,es,A2,noun,/pɾefijo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+798bc8cd-cce1-40d2-87b1-19fbefce394c,diferente,es,A2,adj,/ðifeɾente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+79c290ed-30fc-4282-be86-3ae6ca3dea60,tarea,es,A2,noun,/taɾea/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+7a8b4a26-8b66-44ef-a0ac-142da0bbb2c0,estaba,es,A2,Verb,/estaβa/,first/third-person singular imperfect indicative of estar,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:37:42.882587+00
+7b30109d-838e-4fe7-a625-7e587b61a245,alrededor,es,A2,adv,/alɾeðeðoɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:28:44.063689+00
+7ba6225b-8286-4626-a3d3-ca3a36b279c7,ruido,es,A2,noun,/ruiðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+7bedd26c-897b-49f3-8247-bf87670319a4,salvo,es,A2,adj,/salβo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+7c088003-754b-481d-89d0-90f9930df9e7,territorio,es,A2,noun,/teritoɾio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+7c1558a1-9180-4a0e-9530-310ecff39b4f,completo,es,A2,adj,/kompleto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+7c1acddb-d61c-4dfc-90ed-42972a7ce5fa,otros,es,A2,Determiner,/otɾos/,masculine plural of otro,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:50:12.226229+00
+7c461cbe-97d4-4b80-9408-0f4d4e949de5,brazo,es,A2,noun,/βɾaθo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:07.302329+00
+7c71fd9d-4b7a-471e-8ff9-817c63e91945,quiere,es,A2,Verb,/kieɾe/,"inflection of querer:
+third-person singular present indicative
+second-person singular imperative",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:53:47.765734+00
+7c800a6b-8c60-4a47-b2b8-4cf695deeb3a,lengua,es,A2,noun,/lenɡua/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+7d11cdd0-40d0-49ab-803c-523930065755,vaca,es,A2,noun,/βaka/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+7d61b8af-2c95-45f8-bd4d-60111a8d9405,veo,es,A2,,/βeo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+7d77a4fc-f849-4db2-b5a9-03a8ffd32132,olivo,es,A2,noun,/oliβo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+7d7ef5de-d0c2-4258-88b6-933bcd4369b2,vete,es,A2,,/βete/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+7dbd908c-a977-4529-9246-b3e772338e7d,veinte,es,A2,noun,/βeinte/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+7dea3b24-4e4a-4fd2-90e0-efda3604aa51,dices,es,A2,Verb,/ðiθes/,second-person singular present indicative of decir,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:34:23.122562+00
+7e3d3bcf-b2d2-4538-8530-144bd40935d6,todas,es,A2,,/toðas/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+7f231b07-fdf3-4c82-aeba-f3f226904918,sabes,es,A2,Interjection,/saβes/,you know? (rhetorical question),,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:55:58.315654+00
+80bf61e3-a371-4048-8d4d-fd4c9d4dcd71,falta,es,A2,noun,/falta/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+81034c9a-6dd8-4774-9fa0-21047e8dac87,Braga,es,A2,noun,/βɾaɡa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:05.859763+00
+81325518-800e-40e0-8387-aa76b259c717,papelería,es,A2,noun,/papeleɾia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+816a758b-9c4b-460f-92dd-ba34927b6461,llamar,es,A2,verb,/ʝamaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+81be040c-8a12-4f08-8e70-13acfa4e7a9a,científico,es,A2,adj,/θientifiko/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+821db506-a6c0-447e-990a-8c05a664339c,pasión,es,A2,noun,/pasion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+827f5f15-62fe-4d87-b269-caafc3fe47d9,cuanto,es,A2,Pronoun,/kuanto/,"whatever quantity, as much, however much",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:32:02.295714+00
+82abb1a0-bfbe-484a-ab7c-f1935f39d660,juntos,es,A2,Adjective,/juntos/,masculine plural of junto,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:43:14.25097+00
+82c35794-43e5-403a-b1f6-6670cb0b1daf,esta,es,A2,Determiner,/ˈeta/,feminine singular of este,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:37:41.402382+00
+8322152a-5f81-4e26-a43a-9d22d9039df1,amenaza,es,A2,noun,/amenaθa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:29:04.182037+00
+83287a88-9d38-4569-a148-6003b690e3f5,debido,es,A2,adj,/ðeβiðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+838fa36d-128a-4666-99bd-52eee936c784,lata,es,A2,noun,/lata/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8399fa38-4868-42ba-9844-ea99b06fad93,averiguar,es,A2,verb,/aβeɾiɡuaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:31:29.236434+00
+83f8bbd6-3ffd-4a98-a7ea-4560e56b68aa,hace,es,A2,Verb,/aθe/,third-person singular present indicative of hacer,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:40:30.680691+00
+8422a1f6-bd32-4843-85b5-79abb269e9f3,quieres,es,A2,Verb,/kieɾes/,second-person singular present indicative of querer,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:53:48.704106+00
+8442fbd7-be8c-4249-a1cb-7a58b4c586f6,pedazo,es,A2,noun,/peðaθo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+84598df2-79a8-4a7d-9327-43892cacd414,sección,es,A2,noun,/sekθion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+84bd8e9e-3cd7-4705-8ded-a65a60351529,luna,es,A2,noun,/luna/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+84fa61b3-4541-4a17-be1f-d8ffa64f75c4,dejar,es,A2,verb,/ðejaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+850b96d8-3753-4b4f-b4ee-cdc311c35c43,tus,es,A2,Determiner,/tus/,plural of tu,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:01:21.094111+00
+85751b3e-8eb6-4cd1-b705-faead2322535,microondas,es,A2,noun,/mikɾoonðas/,"microwave oven, microwave",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-29 12:16:13.340792+00
+858b1f0a-aa13-4747-99b4-af6e396ab5cb,mira,es,A2,noun,/miɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+85942bc9-4694-406b-8c81-bedeec81c294,encima,es,A2,prep,/enθima/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+861d7324-41b2-4a4f-9ae7-971411925a3e,programa,es,A2,noun,/pɾoɡɾama/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+86837f7c-5887-4590-9b92-0bd7b7f8bc96,sombra,es,A2,noun,/somβɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+868df2ea-1dd9-44d2-93fe-521b8ca465a2,yogur,es,A2,noun,/joɡuɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+869d9c99-3948-4973-90f2-d7c10c97d262,gobernador,es,A2,noun,/ɡoβeɾnaðoɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+86b697da-7aa0-4715-badb-0423c002854e,pañuelo,es,A2,noun,/paɲuelo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+86d93e9e-8cb9-4556-88ca-9d8a6126acae,guerra,es,A2,noun,/ɡera/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+86fd9ee0-c0e4-414b-b985-e9cea9c16b57,resultado,es,A2,noun,/resultaðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8749965b-65b4-4d9a-8d07-51ba79994cf6,calzoncillo,es,A2,noun,/kalθonθiʝo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:34:32.452494+00
+8786e332-7a6f-471d-b6d9-8483ecb1bb62,déjame,es,A2,Verb,/ðejame/,second-person singular imperative of dejar combined with me,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:33:46.16854+00
+879f857e-c072-4431-ad6c-622f1e68b45a,azafata,es,A2,noun,/aθafata/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:31:44.576263+00
+87bf71a9-7b96-4962-884e-37b147ec3d75,humanidad,es,A2,noun,/umaniðað/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+87dde865-758d-4d17-aad7-c07588672526,extraño,es,A2,noun,/ekstɾaɲo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8825fbe6-64cb-427a-8174-8d9cf7b13790,mitad,es,A2,noun,/mitað/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+882cc76f-e282-4785-b32c-31992361ce0a,ambos,es,A2,Adjective,/amβos/,both,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:29:02.263977+00
+883ac453-645f-4ee6-b3fe-11b6a566eee4,mosca,es,A2,noun,/moska/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+88661c7b-ffe0-4d8c-94ef-0336b2bdf710,vas,es,A2,Verb,/βas/,"inflection of ir:
+second-person singular present indicative
+second-person singular voseo present indicative",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:01:40.210764+00
+88912420-0a63-486d-9148-16289dbb6377,horas,es,A2,noun,/oɾas/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+88c020ff-7cb1-483b-81c5-43fc9e5f45a3,empresario,es,A2,noun,/empɾesaɾio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+88fb33da-e4c1-43da-b6ce-0fa8cdfa1477,cualquier,es,A2,adj,/kualkieɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8934088d-3e73-44f6-b794-1a36e19998aa,cruz,es,A2,noun,/kɾuθ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+897b61b8-9eca-4417-9723-98ce4f9d2a7c,gimnasia,es,A2,noun,/ximnasia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+898401ac-1853-4caa-8452-d061add9e8c0,peor,es,A2,adj,/peoɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+89b55500-aff6-4fc2-9c4c-049133599a62,julio,es,A2,noun,/julio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8a243ecc-c152-4bf0-b66c-11f1998bfede,rápidamente,es,A2,adv,/rapiðamente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8a653151-867c-4db4-b199-a2fdd42a5914,mayo,es,A2,noun,/majo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8a861657-d142-4cf1-9c84-c874206780e5,certificado,es,A2,adj,/θeɾtifikaðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8aa01028-b7b8-4c0a-8a5b-f25a4429bd7c,canción,es,A2,noun,/kanθion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:34:32.452494+00
+8ca293c0-1b35-4968-8999-7b81069f572c,odiar,es,A2,verb,/oðiaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8cbfad9b-2680-423e-9eca-89ba5ed51ea3,anterior,es,A2,adj,/anteɾioɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:29:30.561322+00
+8d11bfe7-5a67-4590-a026-f7b39ff560f5,deporte,es,A2,noun,/ðepoɾte/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8d8ec819-1a67-4a02-9e09-0269ecbf336e,navegar,es,A2,verb,/naβeɡaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8d972c21-0cec-4816-bbac-c4f01875faaf,tranquilo,es,A2,adj,/tɾankilo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8dae6d1b-8b12-4f8e-8118-16215485b3e6,tiro,es,A2,noun,/tiɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8e25fc14-f7da-422e-a1ce-b9f894f0843c,podemos,es,A2,Verb,/poðemos/,"inflection of podar:
+first-person plural present subjunctive
+first-person plural imperative",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:51:09.598431+00
+8e79c04e-7d3c-4547-a063-738ad26dc009,nueva,es,A2,noun,/nueβa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8eb89158-a292-4042-9a3a-fafd8b9b61cc,sed,es,A2,noun,/seð/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8ebfc8fd-e621-4c57-95a4-e0a524f63630,peluquería,es,A2,noun,/pelukeɾia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8ed4a7f8-8823-4c0e-8862-faa443b4b926,sargento,es,A2,noun,/saɾxento/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8ed81069-5868-43dc-a610-1fadbce2946c,va,es,A2,Verb,/βa/,third-person singular present indicative of ir,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:01:36.653821+00
+8f0a2d5b-a49a-4d05-b8b7-cd6d349c7572,FALSO,es,A2,adj,/falso/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8f390486-6829-4d25-bce5-d45a57039315,fotógrafo,es,A2,noun,/fotoɡɾafo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8f3fa9e5-9922-4899-be47-00165efacdc2,pintar,es,A2,verb,/pintaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8f50b350-2366-4d1b-8a43-96ae4548e553,tienes,es,A2,,/tienes/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8f5eeb8c-3220-49ca-b7bd-4f84f33fd117,solamente,es,A2,adv,/solamente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8f77da08-d483-467b-a0c1-c041e13aed6f,merluza,es,A2,noun,/meɾluθa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8fb2128f-c477-4352-bdaa-e443d4c5e647,monstruo,es,A2,noun,/monstɾuo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+8fdc5301-db93-4bec-8a9e-ff4a93a1413c,vacío,es,A2,noun,/βaθio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+903ae2c3-e0e1-45c0-bf8c-999606ee6574,auto,es,A2,noun,/auto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:31:18.654694+00
+9057300f-dc1d-4ea4-92cb-ea5bde038549,dolor,es,A2,noun,/ðoloɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+9106a64f-9910-4587-b082-3120bfc48336,sabía,es,A2,Verb,/saβia/,first/third-person singular imperfect indicative of saber,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:55:59.271304+00
+91313c4b-5a4f-4f39-b4e7-80590cdd9435,ése,es,A2,pron,/ese/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+91319714-5839-4369-b36e-28db54b25122,galletas,es,A2,,/ɡaʝetas/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+919c5a75-70ff-4388-a5e5-8cbb4c220133,seguridad social,es,A2,,/seɡuɾiðað soθial/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+91ed4059-3c83-4f54-9023-9e5a39231e7b,entiendo,es,A2,,/entienðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+92b13bda-f7b4-4146-86bd-74bae58bae52,debe,es,A2,noun,/ðeβe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+92bfc079-e96c-49c1-bfae-55544bb45b18,daño,es,A2,noun,/ðaɲo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+92d09061-66cc-4c3e-9f56-6de26bf48005,ninguna,es,A2,Determiner,/ninɡuna/,feminine singular of ninguno,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:48:11.215308+00
+92d71e89-5a01-439f-995f-d3b7e642c69e,optimista,es,A2,adj,/optimista/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+93408942-9246-4059-855b-0c1d93c00f06,calvo,es,A2,adj,/kalβo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:34:32.452494+00
+935c4583-1e32-4df6-a851-0b4781ea12d1,quitarse,es,A2,verb,/kitaɾse/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+937d7ff2-af01-4db1-99b4-2628ffa6750b,papa,es,A2,noun,/papa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+939f32ed-05d2-4f2a-9dc9-f8a838575b46,multinacional,es,A2,noun,/multinaθional/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+93b5757e-9d0d-4bf1-bc3a-2a005e50fe87,reír,es,A2,verb,/reiɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+93d16890-7063-4d66-af03-57a27c1658f2,izquierda,es,A2,noun,/iθkieɾða/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+94229596-5b07-4bf0-85e8-fee0371eba1e,limpiar,es,A2,verb,/limpiaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+942889f4-fb3a-470a-bdd7-7fb21e811756,delante,es,A2,adv,/ðelante/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+942d4191-35b4-4c79-b354-cd6cde37eef0,descansar,es,A2,verb,/ðeskansaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+945183bd-8ad1-4ed6-93d4-8d7efcbe5ea3,piano,es,A2,noun,/piano/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+94cebe3d-ad89-4a1b-b303-59fa394e92ba,caja,es,A2,noun,/kaja/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:51.836527+00
+95182a66-c77b-4f94-9aa7-123f8715c3db,oye,es,A2,interj,/oje/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+953ca4f7-2de5-4e16-acb3-f14ba1c58573,aprobar,es,A2,verb,/apɾoβaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:29:58.44984+00
+963587a8-e25b-4ad8-8768-915c804c875a,taza,es,A2,noun,/taθa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+969840da-c3b5-4a70-a415-b4caab5a4081,cerca,es,A2,adv,/θeɾka/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+969ca7d7-c501-45a2-98b8-b3d2684390b5,socio,es,A2,noun,/soθio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+96ee64fc-6623-49b6-9a01-850e8c486a5a,pueden,es,A2,Verb,/pueðen/,third-person plural present indicative of poder,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:53:22.869342+00
+9709f3b3-13bb-4130-8a21-eb6a261b3060,ópera,es,A2,noun,/opeɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+97b93789-8459-46de-a931-ec85f35edea5,cajero automático,es,A2,,/kajeɾo automatiko/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:53.265524+00
+989eb7f1-9b2c-4282-a637-e240f1ee8d92,humo,es,A2,noun,/umo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+98fd1a06-04a4-43ad-bfae-bfa918ea7e96,controlar,es,A2,verb,/kontɾolaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+9900e1b9-14ac-4944-af66-c5212379dc7b,papá,es,A2,noun,/papa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+994d6494-46af-40e5-99db-15dd72c2c19e,dependiente,es,A2,noun,/ðepenðiente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+9976938e-b9c9-4744-93c4-9f717c4f497c,habla,es,A2,noun,/aβla/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+99b38534-ac8a-449a-9745-ed57d0940a82,ángel,es,A2,noun,/anxel/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:29:20.991528+00
+9a1fc63f-c641-4d83-9afd-9e878ee3859c,sentirse,es,A2,verb,/sentiɾse/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+9a8c8a17-3e26-4958-9428-7bb1901dc7eb,almuerzo,es,A2,noun,/almueɾθo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:28:40.683234+00
+9ac015a1-d36c-4b0c-b5d2-5367c6f5e2a9,castillo,es,A2,noun,/kastiʝo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:34:32.452494+00
+9addce7a-930d-4b1b-bfc7-f9f16b52ec75,niños,es,A2,Noun,/niɲos/,plural of niño,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:48:11.737315+00
+9b257ca4-027a-49ba-bcc5-0da0e32cfcd4,jamás,es,A2,adv,/jamas/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+9b7a4186-c144-4a08-94f5-ce5ef566a6c1,jugar,es,A2,verb,/juɡaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+9bffbb6f-0688-4984-b1fc-be507a77ca60,esposa,es,A2,noun,/esposa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+9c173855-a507-486f-8226-8ee6f10de1ff,cuento,es,A2,noun,/kuento/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+9c66d9f2-9912-4871-aa10-e78a11740e0e,embarazada,es,A2,adj,/emβaɾaθaða/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+9cf8f753-0a64-4d8f-9092-11b594fbe387,esa,es,A2,pron,/esa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+9dc15f9b-35da-4e66-821f-6aa576f11665,joder,es,A2,verb,/joðeɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+9dc28e4e-84e4-4276-ac39-8fb81dce37ba,treinta,es,A2,noun,/tɾeinta/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+9e09778b-bf1b-4ff2-81ca-8d88fcfb0ffe,pijama,es,A2,noun,/pijama/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+9e5031b1-507f-41e1-8c81-b4f33c609fcc,abierta,es,A2,Noun,/aβieɾta/,the act of opening,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:26:29.683587+00
+9e513771-0d4f-4241-8a8e-e3a3f844f12e,mirar,es,A2,verb,/miɾaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+9e7beddc-156c-4ca6-a420-0c06f35bbd47,mala,es,A2,Noun,/mala/,female equivalent of malo,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:45:34.895266+00
+9e92b00c-f019-49aa-983e-750166885c02,vuelo,es,A2,noun,/βuelo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+9ecb754b-5ab0-4f4a-97b6-9017aff794f2,nervioso,es,A2,adj,/neɾβioso/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+9ef8c34f-6f69-4d34-bf7d-5891383384b4,milagro,es,A2,noun,/milaɡɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+9f366bc5-877b-485b-b433-22652791557b,absolutamente,es,A2,adv,/aβsolutamente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:26:39.918471+00
+9f9f05ab-45a5-4f8c-8b79-a326bc0d42ea,mujeres,es,A2,,/mujeɾes/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+9fa35f4b-4994-4981-ad39-25560a997f2e,escucha,es,A2,,/eskutʃa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+9fa8b03d-8102-4c60-a35e-91bb8e33df43,muchacho,es,A2,noun,/mutʃatʃo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+9fc183c4-a396-4156-ad0a-14cff42d99bb,apenas,es,A2,adv,/apenas/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:29:48.882915+00
+9fe103fb-67a8-44dd-a772-5a89f080a585,escuela,es,A2,noun,/eskuela/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a020a031-4e36-43a3-b904-9a2e7851133b,monumento,es,A2,noun,/monumento/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a085fa91-91c6-4bb4-81b1-f8671dba48d4,necesito,es,A2,,/neθesito/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a08df782-4fff-4461-b409-051c74b992ad,nube,es,A2,noun,/nuβe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a0ff1db4-b734-43e7-97e6-0910e0083051,fotos,es,A2,Noun,/fotos/,plural of foto,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:39:55.022371+00
+a1909b77-4a6d-44b9-9297-ccd6944a7662,diez,es,A2,Numeral,/ðieθ/,ten,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:34:25.468627+00
+a268ad99-8add-4e22-b7f8-7f39158d54fb,preocupado,es,A2,adj,/pɾeokupaðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a2c44f7f-c425-45a7-8929-a74f371010f5,sábado,es,A2,noun,/saβaðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a2cb5d75-6c47-40ce-bad3-9b65e43e7c83,ay,es,A2,interj,/aj/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:31:32.116335+00
+a3147caa-4004-4b3e-aeb8-1718b1871813,frontera,es,A2,noun,/fɾonteɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a322c489-200f-42be-8cd9-45fafd5a2ee5,tengo,es,A2,Verb,/tenɡo/,first-person singular present indicative of tener,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:58:56.621572+00
+a3619739-32b9-49fa-a183-f335c3a57888,trato,es,A2,noun,/tɾato/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a3f37e9c-eb47-40d3-89b2-d565298ec5ee,mando,es,A2,noun,/manðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a42d7f1c-8222-459b-8e95-fab88e7b1c87,ustedes,es,A2,pron,/usteðes/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a498ef3e-a613-4251-803a-6b458a463b12,frutero,es,A2,noun,/fɾuteɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a4a96cd2-fc54-4406-bfe4-886017a87f47,mecánico,es,A2,noun,/mekaniko/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a4b3217f-8413-4a93-baf5-089db6b7457e,ven,es,A2,,/βen/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a4bfd3f6-41ed-467e-bee7-01eeffe1fe89,debo,es,A2,Verb,/ðeβo/,first-person singular present indicative of deber,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:32:32.441118+00
+a4d769d3-aa45-4678-957c-0dc6e6cdef7c,rueda,es,A2,noun,/rueða/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a4df9fe8-e0b5-4b83-94f6-86c4865434e0,llama,es,A2,noun,/ʝama/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a61bcbc1-c097-4eaa-b596-9cd0214ccd93,disco,es,A2,noun,/ðisko/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a66c3fd1-af4d-4bec-b434-919640d5967b,fantástico,es,A2,adj,/fantastiko/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a67a84c2-a554-4a0a-900d-3bf96ae9dea3,ropa,es,A2,noun,/ropa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a70a0535-68f0-470f-a648-3799c7c4a726,gracioso,es,A2,adj,/ɡɾaθioso/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a72e3cd1-f8dc-4570-b0e5-46a448579b5f,habitante,es,A2,noun,/aβitante/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a731e8e8-df1f-4a86-a5a6-706157ab5422,beso,es,A2,noun,/βeso/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:32:30.385451+00
+a773519e-fa13-49b0-9a00-20ce3bab6398,escapar,es,A2,verb,/eskapaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a7b6e900-9c55-4dbf-a00b-0eeaf516a0ea,afuera,es,A2,adv,/afueɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:27:44.725267+00
+a7c25d32-4cf4-42b4-9798-d8273642d506,siglo,es,A2,noun,/siɡlo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a86335d5-ac43-4dcc-a54b-c64ed91f5a97,están,es,A2,Verb,/estan/,third-person plural present indicative of estar,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:37:48.061517+00
+a8a516cc-b386-43c9-bbbd-031530425c87,tras,es,A2,prep,/tɾas/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a8b508ac-a200-4b78-a9f2-8fb72f4a4cde,futuro,es,A2,noun,/futuɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a8b90a56-c9b4-465b-8ea6-3a5fa5e7957e,gato,es,A2,noun,/ɡato/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a8f4180f-69cc-450b-8a39-47b7ed513dac,trampa,es,A2,noun,/tɾampa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a9671c6d-4da8-4245-a2a9-b9e21f1b7410,reino,es,A2,noun,/reino/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+a98ff5e7-354d-45df-954e-f300adf17011,fuego,es,A2,noun,/fueɡo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+aa1f3df8-b4e8-4772-8125-a52e997fe4b3,compañero de clase,es,A2,,/kompaɲeɾo ðe klase/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+aa65bfb4-e43f-4f41-8439-78ed37a9c0ca,amo,es,A2,noun,/amo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:29:09.946315+00
+aa9df15a-518c-4db5-b9ec-eb1dcd9792e7,tiene,es,A2,,/tiene/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+aad35070-04d9-47e8-99c4-cab208f97b0c,letra,es,A2,noun,/letɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ab3ad2cd-058f-4801-a937-0c007e2027ab,obra de teatro,es,A2,,/oβɾa ðe teatɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+abef55ea-fc31-4599-bb0d-8ad558f3ae14,interés,es,A2,noun,/inteɾes/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ac44e598-4bd9-4a73-b1ff-0a3c7b5b57d6,hacer,es,A2,verb,/aθeɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ac7c1221-7903-43be-b62a-71861230ebea,servilleta,es,A2,noun,/seɾβiʝeta/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ac90bec8-1385-48ec-8355-9e216b02dee5,preparado,es,A2,noun,/pɾepaɾaðo/,prepared,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-23 18:52:29.871857+00
+acad4ba1-f090-4bc2-92c5-c9ea8b0f3962,estar,es,A2,verb,/estaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+acb29fdf-1a85-44fe-8737-ffc1338a09f3,creo,es,A2,Verb,/kɾeo/,first-person singular present indicative of crear,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:31:55.692767+00
+acc7d363-f5ba-4623-a5d4-e01bcc94765f,contar,es,A2,verb,/kontaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ad3140a5-72a7-471c-a06f-eec457d82416,paraguas,es,A2,noun,/paɾaɡuas/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ada3be62-fc2d-498a-ab56-2c0a84aacfe1,cometer un error,es,A2,,/kometeɾ un eroɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+adcb41ab-f056-44ec-9705-66905f055033,ve,es,A2,Noun,/βe/,The name of the Latin script letter V/v.,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:01:43.534409+00
+ae0d2709-0094-4808-bd8d-880ac09568c4,esquina,es,A2,noun,/eskina/,(exterior) corner,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-23 18:52:13.857951+00
+ae508af2-f4c0-4502-82cf-c913281bf4c7,tenía,es,A2,Verb,/tenia/,first/third-person singular imperfect indicative of tener,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:58:57.095446+00
+aed94f2c-1695-409a-9fa1-47fd143b6396,gloria,es,A2,noun,/ɡloɾia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+af064f9f-e307-4653-9c37-f23543c51143,nordeste,es,A2,adj,/noɾðeste/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+af06b144-c563-44df-8ce4-683fb0a7f879,tecnología,es,A2,noun,/teknoloxia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+af3f0090-98df-4825-a885-3a0bc8902e10,efecto,es,A2,noun,/efekto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+af5bb99e-6109-4f5b-9218-dfadc6009362,sus,es,A2,Determiner,/sus/,"plural of su; one's, his, her, its, their (with plural possessee)",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:58:39.170014+00
+af728752-7ecf-4ee0-915d-5c83d3f1278f,tos,es,A2,noun,/tos/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+af8e4d06-d492-4096-8026-5f052439ad9f,tapa,es,A2,noun,/tapa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b01037ee-e3fd-4d07-b200-89604517fb5a,les,es,A2,pron,/les/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b0113199-b597-4854-89e2-779c852a2e56,desodorante,es,A2,noun,/ðesoðoɾante/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b0150788-fa46-48a9-905b-208be041abab,contento,es,A2,adj,/kontento/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b0c7fb65-e249-41de-ab40-b7c6425c3956,hobby,es,A2,noun,/oββj/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b0cd9135-6d1f-44b5-a680-2f51f0534441,jamón,es,A2,noun,/jamon/,ham (the thigh and buttock of an animal slaughtered for meat),,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-25 22:29:56.414428+00
+b102487e-981d-4e23-81b2-6117cb92440e,lograr,es,A2,verb,/loɡɾaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b1359f47-dda2-42a3-a496-4ce534c4b890,crema,es,A2,noun,/kɾema/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b1b62955-eab6-4d6c-984c-ae2cf91c699c,verdadero,es,A2,adj,/βeɾðaðeɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b25c9de8-d046-44a8-a9f5-c60b3dd33149,puedes,es,A2,Verb,/pueðes/,second-person singular present indicative of poder,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:53:23.339805+00
+b260fd97-c369-4446-a169-294e8d224827,dibujar,es,A2,verb,/ðiβujaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b2a009d4-3fd4-43e8-9c64-626e3d6eb745,bote,es,A2,noun,/βote/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:04.409901+00
+b32f1049-4417-419d-9423-a9de854c8696,traje,es,A2,noun,/tɾaje/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b3340e84-6798-4534-afcd-b1625ce986ff,dispuesto,es,A2,adj,/ðispuesto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b35984fb-2f59-41dd-85c9-bab22ab5be49,muchacha,es,A2,noun,/mutʃatʃa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b392985c-5854-404f-a53d-21512f6550aa,guantes,es,A2,Noun,/ɡuantes/,plural of guante,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:40:03.893315+00
+b3bf9414-167f-43ec-bad0-f6fc2270da77,diablo,es,A2,noun,/ðiaβlo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b4a4c1c2-40a2-4298-bcf6-e8c5ecb8a12a,flamenco,es,A2,noun,/flamenko/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b509d93c-ca2b-46ae-9ceb-e75c9ccef38b,colonia,es,A2,noun,/kolonia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b607f7ef-32aa-4359-8f83-5f43dfda4f4e,piscina,es,A2,noun,/pisθina/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b6141cc2-df6e-4977-9d11-3528243508b5,alumno,es,A2,noun,/alumno/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:28:49.819891+00
+b62031a9-c14e-48b8-9e95-cc5d1988ca43,esos,es,A2,Determiner,/esos/,plural of ese; those,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:37:31.090688+00
+b623d7dc-2029-472f-9d79-ebe2c4095a39,ganas,es,A2,noun,/ɡanas/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b63963cd-3f3c-40c1-a3df-f33f58854d7a,aquello,es,A2,pron,/akeʝo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:30:06.104209+00
+b656062b-b2e8-4052-bef4-7d5e3dbc6a1c,impuestos,es,A2,,/impuestos/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b6933a27-8f7a-469f-bdaf-eeb8bac9201a,sucio,es,A2,adj,/suθio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b6eea1b1-2d86-492a-983e-dda99a32c7b0,litro,es,A2,noun,/litɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b74aac7a-cc58-4c61-a4e0-16385ca7e366,nieve,es,A2,noun,/nieβe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b759345f-7e02-4f5f-8ec8-4afbdaa4f80b,poesía,es,A2,noun,/poesia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b75d1867-26f9-4cf7-8c31-dedf266cdbd7,carnicería,es,A2,noun,/kaɾniθeɾia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:34:32.452494+00
+b76f016b-c6d0-4f4e-b81c-d4f7f16d6419,culo,es,A2,noun,/kulo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b8056a39-7601-4f2c-b7c6-86a236bce58f,efectivo,es,A2,noun,/efektiβo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b848504f-c701-4a4b-aabc-dc69736cf446,llave,es,A2,noun,/ʝaβe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b8f4c794-882a-49ec-bf08-725b37781480,corto,es,A2,adj,/koɾto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+b9892bd9-2b09-45c3-85fb-af52dceaa925,eres,es,A2,,/eɾes/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ba3b79f1-371d-40c9-a333-96c51e7e5eb9,conciencia,es,A2,noun,/konθienθia/,awareness (state of knowing something),,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-23 18:57:48.579732+00
+ba7c42fa-4865-4c64-a2dd-dac410d3ba47,señorita,es,A2,noun,/seɲoɾita/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+bab52a1a-073a-467d-b6c7-ed7f2cf2d673,volar,es,A2,verb,/βolaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+bacf5280-5eb5-40bc-8ace-daf455bdb330,cien,es,A2,noun,/θien/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+bb11e0e8-a7bc-4510-9f5c-dc2fedcdf602,significa,es,A2,Verb,/siɡnifika/,"inflection of significar:
+third-person singular present indicative
+second-person singular imperative",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:57:59.322705+00
+bbccb20a-9049-48c8-b802-9b7703c3e815,mayonesa,es,A2,noun,/majonesa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+bc418dc8-e75c-42e4-a6ab-51d4c7795436,soportar,es,A2,verb,/sopoɾtaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+bcbd5ef9-c515-4772-a7d3-7b494a5e97ec,otra,es,A2,Determiner,/otɾa/,feminine singular of otro,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:50:11.282176+00
+bd67ec75-c3a6-46c4-84a1-b63d249af7b5,moderna,es,A2,Adjective,/moðeɾna/,feminine singular of moderno,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:47:58.059725+00
+bda473ea-3b44-40a9-8021-9f1bf1297b34,medicina,es,A2,noun,/meðiθina/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+bdb181bf-ad15-4be1-baf9-6ba14eb928b8,boca,es,A2,noun,/βoka/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:32:46.156803+00
+be13ce75-4356-485f-8978-2b1cfff89532,margarita,es,A2,noun,/maɾɡaɾita/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+be25aa1c-51c5-44a3-993c-170e639ef6bc,genio,es,A2,noun,/xenio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+be2cb232-ffd6-49f3-87d5-5b1831cba63d,respuesta,es,A2,noun,/respuesta/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+be3585b8-b1aa-4361-b00a-9d9242c5cfa4,teniente,es,A2,noun,/teniente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+be49fbad-dffb-41bf-9ce6-b4eda6ffc795,ninguno,es,A2,pron,/ninɡuno/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+be8093ca-9800-470c-ab2f-7c8335da4226,queso,es,A2,noun,/keso/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+be924f02-0ace-41e1-9c8e-04e5ed69be4d,contacto,es,A2,noun,/kontakto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+be9f42c2-5d98-43a7-9ded-0fa422f849e0,amiga,es,A2,noun,/amiɡa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:29:07.548412+00
+beff2c3f-c460-4a64-baeb-48b1973754ac,cuyo,es,A2,Determiner,/kujo/,whose,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:32:11.719537+00
+bf003a64-632c-42f1-b0ad-31eece5b46b1,supongo,es,A2,Verb,/suponɡo/,first-person singular present indicative of suponer,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:58:38.231382+00
+bfd3187f-fc5a-46e7-83ed-dd3413ffb2e1,fortuna,es,A2,noun,/foɾtuna/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c0181900-fa67-4903-b375-151f3ab3e9d8,anuncio,es,A2,noun,/anunθio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:29:37.298716+00
+c03b49e1-a79a-4401-98f2-b774661270c3,algún,es,A2,adj,/alɡun/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:28:27.634495+00
+c03d6e09-76c7-4596-b4d0-dd57cd133420,princesa,es,A2,noun,/pɾinθesa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c05a9897-5cc9-48dd-9ce1-00b1fc6d6fb2,casar,es,A2,verb,/kasaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:34:32.452494+00
+c09861b6-ef45-492f-ac99-eb17e5a56fba,busca,es,A2,noun,/βuska/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:26.963919+00
+c09b0be5-17b5-4f4b-bb6c-8c05610e1fe7,memorizar,es,A2,verb,/memoɾiθaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c0d2c03c-84b8-4192-8205-7804038aebe8,calidad,es,A2,noun,/kaliðað/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:54.192446+00
+c1146bc8-bead-4f2c-9918-9c2a49e3cc47,culpa,es,A2,noun,/kulpa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c15ea544-8548-46d1-a5cc-c23b7b0e8228,conversación,es,A2,noun,/konβeɾsaθion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c19197d6-f6b1-49ed-82d7-e5cb432245c7,sexo,es,A2,noun,/sekso/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c1bece9f-8066-404e-aaee-15303c4fe34f,preguntar,es,A2,verb,/pɾeɡuntaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c1c30400-8d6a-4a81-a87e-4aa4d9bced9b,ternera,es,A2,noun,/teɾneɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c1c62fcc-1c0a-41f6-8791-ba9c0dccaad0,listo,es,A2,adj,/listo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c239d2d1-bbc7-4c43-818b-e97beecf8324,pensé,es,A2,,/pense/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c23a4595-7385-475e-82ff-6a2b29cc7f0b,cheque,es,A2,noun,/tʃeke/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c2403f95-317b-4ca5-b213-218d9f81cd69,navidad,es,A2,noun,/naβiðað/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c241951c-aff0-4c75-aa31-77fca887a4da,vivo,es,A2,adj,/βiβo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c2723ae5-7186-4f1b-a693-bbed3c52b2f2,debajo,es,A2,adv,/ðeβajo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c2eb8941-85d0-4315-9cc9-5141c8f92bfa,sigue,es,A2,Verb,/siɡe/,"inflection of seguir:
+third-person singular present indicative
+second-person singular imperative",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:58:01.222852+00
+c2ee3f12-9f54-431e-97c2-75e4f9eadaee,cuestión,es,A2,noun,/kuestion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c3954154-5ad8-408c-9ac5-5d32c45dcac3,ama,es,A2,noun,/ama/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:28:51.734708+00
+c4ad2fce-1d09-425c-a8cf-2ee6f707b6a7,cebolla,es,A2,noun,/θeβoʝa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:34:32.452494+00
+c4ee12ac-6561-4fc1-834a-a72113b26268,paciencia,es,A2,noun,/paθienθia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c5777ba4-a272-4fff-b2ff-2a84d8b6789f,ejercicio,es,A2,noun,/ejeɾθiθio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c57d5173-65fc-4ab6-bfc3-249a3b57d0b9,agencia de viajes,es,A2,Noun,/axenθia ðe βiajes/,travel agency (company),,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:27:48.09974+00
+c59da227-2b95-4e59-913c-04f713f53349,acerca,es,A2,Adverb,/aθeɾka/,adjacent,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:27:01.495429+00
+c6439fa8-64aa-4084-baf4-66eed738b828,tocar,es,A2,verb,/tokaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c6851689-a5a3-4ef7-ba7b-e3e7d7e27a3f,azúcar,es,A2,noun,/aθukaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:31:45.527859+00
+c6930431-e6be-425d-a476-c03e3e77a05a,capaz,es,A2,adj,/kapaθ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:34:32.452494+00
+c788dd5e-70bb-4403-9142-bb16a4c358f1,respecto,es,A2,noun,/respekto/,"respect, regard, connection, relation, relationship",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-25 22:30:47.413911+00
+c792cb14-aa2d-43be-ba72-fb4eab2f8514,pobre,es,A2,adj,/poβɾe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c7afeb1f-173d-4bf4-9cfd-af0e38b399b7,decisión,es,A2,noun,/ðeθision/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c7c07df7-0a6c-4666-a6fc-d6f80be4676d,completamente,es,A2,adv,/kompletamente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c84e47b9-9b87-4ccd-8d60-15c265c04636,broma,es,A2,noun,/βɾoma/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:13.535886+00
+c859e3e4-80a3-48fe-812a-c90bdeaa412d,torre,es,A2,noun,/tore/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c917f358-0a8b-4c95-a9eb-de448f15f78d,chino,es,A2,noun,/tʃino/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c956012a-d142-4ee6-a809-9e5538a05bae,rosa,es,A2,noun,/rosa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c967fd7d-fa8f-496e-b097-93472caa8c0f,tesoro,es,A2,noun,/tesoɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c96993bb-6596-47f7-95a3-e904eedd0ec9,hablando,es,A2,Verb,/aβlanðo/,gerund of hablar,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:40:19.873426+00
+c9739df9-f3df-4b06-aad9-00ed76b2e17e,gripe,es,A2,noun,/ɡɾipe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c9852e02-f1dd-431f-81b6-722f74e08788,minuto,es,A2,noun,/minuto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+c9d099e4-795e-465f-af15-3dbc906f47a7,ron,es,A2,noun,/ron/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ca0645d6-c24c-4d65-a0a2-8f4935052c86,fútbol,es,A2,noun,/futβol/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ca3558b3-351f-49b5-9417-d92f820144b1,unión,es,A2,noun,/union/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ca8099ca-685a-474e-b515-cb447e90c77c,polvo,es,A2,noun,/polβo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+cb32f5f6-65cf-4a04-adc7-0e49299332b8,italiano,es,A2,noun,/italiano/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+cb4f1466-5d0a-4d95-b3ff-2014435a6ba1,ejemplo,es,A2,noun,/ejemplo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+cb8e48fd-8bdd-48d0-a579-a28a321de730,mensaje,es,A2,noun,/mensaje/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+cc97bc14-96f6-4a7c-9cd6-83bc1b7ee6f2,tamaño,es,A2,noun,/tamaɲo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ccd5420f-46b3-4699-96f8-1f9e97238d2d,contestar,es,A2,verb,/kontestaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+cd6aea8d-b625-4dc4-8707-e59908e5aa08,pie,es,A2,noun,/pie/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+cd812773-b0a7-4926-917c-48347aa749c2,importa,es,A2,Verb,/impoɾta/,"inflection of importar:
+third-person singular present indicative
+second-person singular imperative",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:42:50.361755+00
+cd8b888d-670b-4767-b3c0-baa414593215,responsabilidad,es,A2,noun,/responsaβiliðað/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ce302388-c484-41c5-bfc7-20002ad78268,nuestros,es,A2,pron,/nuestɾos/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ce99858f-b588-4a3e-b9cd-5b8c0e4c0cb6,famoso,es,A2,adj,/famoso/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+cef45550-8d57-4ab9-ad4e-ed232c899860,bebé,es,A2,noun,/βeβe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:32:19.889119+00
+cf279c8a-50d1-4178-af19-e0cd1b179097,haré,es,A2,Verb,/aɾe/,first-person singular future indicative of hacer,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:42:36.225501+00
+cf59ed67-3090-40d0-b3ac-975a98b58c26,liso,es,A2,adj,/liso/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+cfbc38d8-0d8e-4526-a5aa-39ac4c247b86,cuaderno,es,A2,noun,/kuaðeɾno/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+cff003df-b24a-4432-ad12-fe12bdc479bc,devolver,es,A2,verb,/ðeβolβeɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d04aa5d0-ad6d-4871-b48e-154496999189,gustar,es,A2,verb,/ɡustaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d04fa74a-8b2f-4004-ac52-123eb4058a64,trasero,es,A2,noun,/tɾaseɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d0571161-5e03-4452-9907-6c9d95860754,soy,es,A2,Verb,/soj/,first-person singular present indicative of ser,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:58:20.254963+00
+d05c90d1-73e7-4688-8658-d0b2f4d54bd0,detrás,es,A2,adv,/ðetɾas/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d0afc095-dc11-4fa2-8577-a3e0ccf34b7c,toda,es,A2,,/toða/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d0b2c747-fa0b-47d3-8eed-9e0bd77601f5,buena,es,A2,,/βuena/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:20.251031+00
+d0c7285c-b84b-483a-9b38-d217d4b0495e,prisa,es,A2,noun,/pɾisa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d1d84adc-6507-44ec-82fd-243599d7ae0e,sueño,es,A2,noun,/sueɲo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d236b3b2-eab5-4504-aa4d-f8016a6887bd,oportunidad,es,A2,noun,/opoɾtuniðað/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d2b8da1c-de30-408d-a295-e1172247d861,región,es,A2,noun,/rexion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d3daeba2-278f-4eb0-8236-347996f1cd96,regreso,es,A2,noun,/reɡɾeso/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d443ee39-323d-4bd1-95a1-ebe74811ee0d,borracho,es,A2,adj,/βoratʃo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:32:59.609489+00
+d4bce7cf-bde7-4e79-bc95-de7a7573b861,ciencia,es,A2,noun,/θienθia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d4cd14d2-ace2-4c2e-a042-5b88a9249a32,lavadora,es,A2,noun,/laβaðoɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d536a882-8d3e-43fa-8690-c3d7a7fe1a2f,derecha,es,A2,noun,/ðeɾetʃa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d596c474-e93d-4006-8c4c-65193f7a25e2,clásica,es,A2,Adjective,/klasika/,feminine singular of clásico,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:29:47.852934+00
+d5cf3407-19b1-4d2a-9c92-c396d593ed7e,abrigo,es,A2,noun,/aβɾiɡo/,overcoat,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-29 12:17:08.942382+00
+d5dc4d9a-8e0f-454a-be49-41d7eea8f063,americano,es,A2,noun,/ameɾikano/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:29:06.584214+00
+d5f1a1a2-8ab5-4036-8aee-f2b4a154c908,arquitecto,es,A2,noun,/aɾkitekto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:30:18.606652+00
+d5f46f37-4827-4de8-aecc-5b12dcf7a9a9,patio,es,A2,noun,/patio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d5fcbbfb-ec93-4ce6-b5e3-25a579d4d78f,tía,es,A2,noun,/tia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d60f4c15-47b4-4fcb-ad4b-b4430a5828aa,ingrediente,es,A2,noun,/inɡɾeðiente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d69bca9a-5dc9-4ef3-bae2-7a9aa4fb456f,menor,es,A2,Adjective,/menoɾ/,comparative degree of pequeño: smaller,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:45:51.34165+00
+d6d2af66-58de-4983-94e9-e3c26405ce24,suelo,es,A2,noun,/suelo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d72c4326-9659-4152-8aba-fb48b144c21b,exposición,es,A2,noun,/eksposiθion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d8032bbd-fbd9-4eb1-8671-ed7c90e836b4,reconocer,es,A2,verb,/rekonoθeɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d805836f-d42f-4239-abc4-68b9f0a4cf82,aparte,es,A2,noun,/apaɾte/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:29:46.967233+00
+d806b065-c74b-4b72-97c6-0eb5e03a4ee2,disculpa,es,A2,noun,/ðiskulpa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d80b94db-8210-4f9b-86cd-a9fd9ebc35d9,sido,es,A2,Participle,/siðo/,past participle of ser,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:57:51.753615+00
+d822f4e5-140c-4d41-9088-4ca0e3a3bdde,periodista,es,A2,noun,/peɾioðista/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d82f324d-a7a8-4030-b6fe-9ce2a9a62854,montar,es,A2,verb,/montaɾ/,to mount,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-23 18:58:27.284659+00
+d8ba4880-9dcb-442e-9f32-c5ce9b1918d9,cero,es,A2,noun,/θeɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d949c442-dc0a-42ec-8bed-9951e589039e,carnicero,es,A2,noun,/kaɾniθeɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:34:32.452494+00
+d9957408-ed2e-4ce5-9d8b-a21a8fc3909d,adentro,es,A2,adv,/aðentɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:27:26.472693+00
+d9998c47-dc63-4825-be73-83bae6773577,llamado,es,A2,noun,/ʝamaðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d9a10e4b-0487-4a7c-babf-291c608154e4,política,es,A2,noun,/politika/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+d9ff9b04-6bd2-4969-8e71-ddb6a187f4d1,puede,es,A2,Interjection,/pueðe/,it's possible; could be,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:53:22.399431+00
+da06fddc-d645-4e20-b229-dfe7e3647e5c,frío,es,A2,noun,/fɾio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+dba6a338-4f4b-4d94-a5f5-e86440daf991,cerdo,es,A2,noun,/θeɾðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+dbf4bfbe-c865-47df-95f3-ea10a72cc8c5,venga,es,A2,interj,/βenɡa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+dc147790-5537-46bf-a323-426a831e1f57,totalmente,es,A2,adv,/totalmente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+dc77e299-e6e3-49bb-a0d8-6589481a0d7b,cara,es,A2,noun,/kaɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:34:32.452494+00
+dcd6ce1b-19cc-4190-8206-d92f589b9b83,héroe,es,A2,noun,/eɾoe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+dcec35f6-ed17-4e53-a4d2-95cb3ccbf7ca,riesgo,es,A2,noun,/riesɡo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ddabf3a0-8220-4136-9c65-82ccda2b8bfe,toalla,es,A2,noun,/toaʝa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+de1fc717-04fa-4a04-8464-c4c5a34f3345,probablemente,es,A2,adv,/pɾoβaβlemente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+de974745-0e4b-4588-bb05-53fcc60c7ebe,computadora,es,A2,noun,/komputaðoɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+def9e879-f230-4b96-9508-36c86f5ef985,cerrado,es,A2,adj,/θeraðo/,"shut, closed",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-06-15 19:34:50.312696+00
+df06d6cf-ab35-4df9-b4d7-0ffd5925c97f,bufanda,es,A2,noun,/βufanða/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:22.645705+00
+df1880e0-c32b-43b0-bef1-754351841e73,acá,es,A2,adv,/aka/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:26:46.139394+00
+df1f5f0f-5147-461a-aae0-da193d87dcef,cepillo,es,A2,noun,/θepiʝo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+df2f4b9a-aa3e-4a2f-b6ac-5e5f8b50df8d,favorito,es,A2,noun,/faβoɾito/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+df9d4990-1269-4d6d-85e3-033d8823dee8,exactamente,es,A2,adv,/eksaktamente/,exactly,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-06-15 19:35:14.22962+00
+e01dc864-437f-4c7d-aac0-6c97cf3decc0,antigua,es,A2,Adjective,/antiɡua/,feminine singular of antiguo,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:29:33.446336+00
+e078ef20-9cd4-44ba-8325-936dc680d66f,alergia,es,A2,noun,/aleɾxia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:28:21.804204+00
+e07bb0f3-6a37-4cd3-97e4-ade515c47458,informe,es,A2,noun,/infoɾme/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e088c9e1-6d63-43f3-84ef-dec96c968d07,quería,es,A2,Verb,/keɾia/,first/third-person singular imperfect indicative of querer,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:53:41.666438+00
+e09b44e7-684f-4513-84cb-aff3d3d406ad,hermana,es,A2,noun,/eɾmana/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e11a76b1-fa88-4d42-93b4-60bf2036ba66,oscuridad,es,A2,noun,/oskuɾiðað/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e13db0a8-6b92-4675-9852-7492ce14af62,reservado,es,A2,adj,/reseɾβaðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e1feeb8b-6708-4baf-8562-f0a90d571720,dije,es,A2,Noun,/ðije/,"adorns, locket",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:34:30.646629+00
+e2ad6f40-3bc4-45a2-baa3-1e5dc0cab2d1,sorpresa,es,A2,noun,/soɾpɾesa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e3a57c5d-a96c-4755-be6e-173174323ec4,acceso,es,A2,noun,/akθeso/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:26:55.262966+00
+e3b95270-1cc3-47b1-af53-545408d5ebb2,mantequilla,es,A2,noun,/mantekiʝa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e4dbcd33-75fa-4ce1-8f94-7b33318d122c,guía turístico,es,A2,Noun,/ɡia tuɾistiko/,tour guide,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:40:05.769393+00
+e4f1e089-6860-4d83-9a3c-21c04089cb6f,debes,es,A2,Verb,/ðeβes/,second-person singular present indicative of deber,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:32:29.61531+00
+e535877e-e59f-4267-88d0-aaa9294e063f,ocurrir,es,A2,verb,/okuriɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e55d225d-937f-4655-9a09-34559aa10443,quiero,es,A2,Verb,/kieɾo/,first-person singular present indicative of querer,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:53:49.172723+00
+e5b60d2d-ca7b-4033-a249-763543c0a529,coger,es,A2,verb,/koxeɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e5cf7436-1113-4e18-94a1-c7219c838e2b,pizzería,es,A2,noun,/piθθeɾia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e5e92f04-2102-4f38-aa76-8f23e2fb6152,maletín,es,A2,noun,/maletin/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e61f7646-f1d2-4626-9252-d43bc2920713,recibir,es,A2,verb,/reθiβiɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e66f556e-72a5-46cc-b0c8-040e27a7bc1c,fiebre,es,A2,noun,/fieβɾe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e6973224-242d-4468-ac4a-5d7a0cb021e9,mano,es,A2,noun,/mano/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e6e29d23-3199-4d24-a467-331ce6cf91cd,usar,es,A2,verb,/usaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e6fa7420-1219-49f4-8719-ab9dc66e370f,alguna,es,A2,Determiner,/alɡuna/,feminine singular of alguno,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:28:28.11184+00
+e760a51a-8fae-43e2-b5d6-584acdfb8c7c,imaginar,es,A2,verb,/imaxinaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e789a114-e40e-4cd7-aa3d-7e3a33c0114c,superficie,es,A2,noun,/supeɾfiθie/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e79b6d77-2892-4af0-bbc5-076d41648bd7,entrevista,es,A2,noun,/entɾeβista/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e7cc5dcf-b72b-4fbe-b150-6348317265d8,vi,es,A2,,/βi/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e7da9b14-5af9-46df-96f0-d0f3460a7f9d,salsa,es,A2,noun,/salsa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e85117cd-646c-4317-93c4-a621a5a2916e,pared,es,A2,noun,/paɾeð/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e89c7371-37e3-4555-956e-44d9fc9041d9,maravilloso,es,A2,adj,/maɾaβiʝoso/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e8ec8e2a-e59d-4027-9462-e6f53fa36017,roto,es,A2,adj,/roto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e930fd94-e639-43c1-a2f4-167d814a4359,gobierno,es,A2,noun,/ɡoβieɾno/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+e9fcafa7-3ff3-4fdc-a44c-e4ca61b94764,adivinar,es,A2,verb,/aðiβinaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:27:28.390195+00
+ea2214ec-24fa-4ee6-bff1-a99904e2a75a,pollo,es,A2,noun,/poʝo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ea8e4c2a-013c-48c9-b65a-72cbee9e8a44,presentador,es,A2,noun,/pɾesentaðoɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ea920e78-56c3-458d-ba85-6a42e7797960,esas,es,A2,,/esas/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+eae827d5-a357-496f-8040-3d4a437db210,suficiente,es,A2,adj,/sufiθiente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+eafa6443-e6e5-4018-9ecb-cb44aace44a9,anuncios,es,A2,noun,/anunθios/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:29:37.781549+00
+eb134681-d76b-4f73-83d7-c50d0f8567c7,publicidad,es,A2,noun,/puβliθiðað/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+eb1e065b-0b45-4a2c-8372-579718d0aed6,iba,es,A2,Verb,/iβa/,first/third-person singular imperfect indicative of ir,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:42:48.465617+00
+eb3057a8-4acc-47d3-b21d-8cb425d5f78c,sombrero,es,A2,noun,/somβɾeɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+eb59d349-694e-46d0-b8e4-44927b82bc61,ellos,es,A2,pron,/eʝos/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+eb66975d-80c3-42ec-b1d0-387ce7753377,cambiar,es,A2,verb,/kamβiaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:34:32.452494+00
+eb7c87c3-6452-41ed-9787-67ddd748d4ef,precisamente,es,A2,adv,/pɾeθisamente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+eb83d35b-50d6-416c-b7aa-7238c9058c3a,cuadro,es,A2,noun,/kuaðɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ebee86d1-01a9-40b2-802d-15d030ce0a5d,quizá,es,A2,adv,/kiθa/,"perhaps, maybe",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-29 12:16:13.206706+00
+ebf13518-58a0-4831-924c-7cede834e2fa,funcionario,es,A2,noun,/funθionaɾio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ebf7b916-21e1-4629-bd7d-d9c5a1c7c2f0,aun,es,A2,Adverb,/aun/,even (implying an extreme example in the case mentioned),,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:31:15.781214+00
+ec02cfcd-902c-4a1a-bf75-35a8ba34a2b6,niebla,es,A2,noun,/nieβla/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ec141014-f0f8-45f4-8d87-35dcc70003d8,peligro,es,A2,noun,/peliɡɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ed4f3f8c-8679-4aa3-852c-7e975bf57eec,contrario,es,A2,noun,/kontɾaɾio/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ed69df0e-9a4d-4df8-8b5a-f0782b67a211,cafetería,es,A2,noun,/kafeteɾia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:49.439134+00
+edc1d79b-a77e-4611-b516-dfd35c4a7826,con,es,A2,noun,/kon/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ee15e20b-355c-4edd-b482-77559811b2b8,champú,es,A2,noun,/tʃampu/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ee167321-b5a0-4ba4-aad9-aa97188e62ef,mes,es,A2,noun,/mes/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ee500da7-a70e-48f4-82f0-382f8aee9fb2,hago,es,A2,Verb,/aɡo/,first-person singular present indicative of hacer,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:42:33.849805+00
+eefe5143-6123-4faf-95f5-43d540165ed5,amigos,es,A2,Noun,/amiɡos/,plural of amigo,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:29:08.991233+00
+ef23b4d7-d07a-4f3a-9c17-3c39a6110b3c,visitar,es,A2,verb,/βisitaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ef287853-4c2a-4060-9eb9-dc931d9768b6,calcetines,es,A2,,/kalθetines/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:33:55.180892+00
+ef4bd60d-5bfb-4609-9c98-b4604df0574d,hay,es,A2,noun,/aj/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+eff4e49a-a54b-460c-b041-51868ca30b8f,correr,es,A2,verb,/koreɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f0200e0b-fff9-4db6-9450-750dd1c80513,sería,es,A2,Verb,/seɾia/,first/third-person singular conditional of ser,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:57:47.976892+00
+f05ebd51-ff06-4168-af3a-2fed176ae14b,amable,es,A2,adj,/amaβle/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:28:53.645532+00
+f0bdbc4b-c4d8-4def-9fea-5b31d4712875,fumar,es,A2,verb,/fumaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f11b5c8a-c3e6-4cb6-aaae-e8fe18d09f4c,siento,es,A2,Verb,/siento/,first-person singular present indicative of sentar,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:57:56.476044+00
+f17b00df-83e3-46f6-98d3-ae962b7ad8d5,estanco,es,A2,noun,/estanko/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f18008dd-7f60-42c5-99d6-8163e3f9f055,definitivamente,es,A2,adv,/ðefinitiβamente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f18e7eea-e0a0-42ff-901f-645bb41194fc,lavar,es,A2,verb,/laβaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f1a0a81a-021c-4466-8a23-e2a6683eec88,hemos,es,A2,,/emos/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f1a450c7-901a-4809-aad7-4c98062c8ca9,noroeste,es,A2,adj,/noɾoeste/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f1e1cbc3-cbd9-4581-be3d-b260ba18fba5,has,es,A2,Verb,/as/,"inflection of haber:
+second-person singular present indicative
+second-person singular voseo present indicative",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:42:39.053304+00
+f20188f3-b291-45ab-85c3-d3fc98a26cda,pesar,es,A2,noun,/pesaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f25365eb-483d-4673-adc1-c01a6e7b7d40,nivel,es,A2,noun,/niβel/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f27134be-e2b9-459f-88de-c0c5a09ab1f0,garganta,es,A2,noun,/ɡaɾɡanta/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f30fa9ba-c327-4140-be85-b5e2dbd77253,panadería,es,A2,noun,/panaðeɾia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f31ff00b-9e4a-48d5-9753-66432ddbbe62,instante,es,A2,noun,/instante/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f32408da-2044-44bc-9235-7f4892bfc26e,filete,es,A2,noun,/filete/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f32b6927-57c5-422e-a597-a2e9849da6fd,dar,es,A2,verb,/ðaɾ/,"to give, to give out",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-29 11:27:46.237285+00
+f347860a-f8a1-4222-85c9-9f170513712c,mente,es,A2,noun,/mente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f36236a8-38bf-420d-a384-6703a7d385b0,huir,es,A2,verb,/uiɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f36cf4f9-1ec4-4917-9621-cf0dff65025b,chocolate,es,A2,noun,/tʃokolate/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f3ba729e-9131-44fb-a79c-56449be19805,algo,es,A2,pron,/alɡo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:28:25.197976+00
+f3fc26c0-654e-4d4c-8419-f7200f5e8fa2,uniforme,es,A2,noun,/unifoɾme/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f418bc68-b452-4c1b-ad4a-003c4979447b,lechuga,es,A2,noun,/letʃuɡa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f428a5bc-e003-4914-9ccc-64f18538072d,cocinero,es,A2,noun,/koθineɾo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f4352fda-1550-4b51-b18a-021f1541c581,estatua,es,A2,noun,/estatua/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f4aafacf-6f07-4eae-9162-ad3b1daff2ea,hacerlo,es,A2,Verb,/aθeɾlo/,infinitive of hacer combined with lo,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:42:25.356578+00
+f56f95c7-1c63-483f-992c-8017a0fe8b65,desierto,es,A2,noun,/ðesieɾto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f5a118e7-ac47-4d45-9641-9d21b3480ff4,cosmopolita,es,A2,adj,/kosmopolita/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f5aee60f-264a-470a-b3e8-e482477c2312,seis,es,A2,noun,/seis/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f5e26d16-be3e-4acf-baad-02f58d3e2620,cantidad,es,A2,noun,/kantiðað/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:34:32.452494+00
+f6558f00-fdfb-4c4b-9799-3a2c48c512b5,temprano,es,A2,adv,/tempɾano/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f67f9041-d2ab-4570-8c4b-25abb86d6293,calma,es,A2,noun,/kalma/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:34:32.452494+00
+f69a84a4-4816-4e5e-8691-896c38ba6a5f,tienen,es,A2,Verb,/tienen/,third-person plural present indicative of tener,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-06-15 19:35:12.843118+00
+f6ce8c8d-8dc7-4071-998b-8eae9d30471c,vergüenza,es,A2,noun,/βeɾɡuenθa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f70a2bfe-50ef-4178-bbbc-4982b9070d94,estado,es,A2,noun,/estaðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f71aed43-728a-4e58-8422-f6fc2b738c94,conocido,es,A2,noun,/konoθiðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f731ce91-08df-4370-bf30-fd279a1d5980,estúpido,es,A2,noun,/estupiðo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f73955a1-4a0b-46d9-8df0-7d3519385b68,pez,es,A2,noun,/peθ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f74034d9-3172-4faf-832c-658c0c827a3c,mentira,es,A2,noun,/mentiɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f7568729-a853-4bf0-b659-86f8b7d780fe,japonesa,es,A2,Noun,/japonesa/,female equivalent of japonés,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:43:02.965305+00
+f7b15834-3dbf-44b3-b6e5-726ca35d528b,versión,es,A2,noun,/βeɾsion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f834cef6-264e-4f39-8d06-2a0e4c93631a,informática,es,A2,noun,/infoɾmatika/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f84fcfbd-9234-42d7-9fd1-2ff9f91a44ca,derecho,es,A2,noun,/ðeɾetʃo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f8dcd247-4e2f-4563-bff9-cb5e531e4e92,salmón,es,A2,noun,/salmon/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f8e77fd9-5ee3-4344-9d5f-0934364f4042,zumo,es,A2,noun,/θumo/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f96c125c-096e-40a2-9386-ae46b1e3086e,opción,es,A2,noun,/opθion/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+f9a27e89-9c93-434d-bd6d-9513457e91f5,lleno,es,A2,adj,/ʝeno/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+fa75f328-62ca-41f3-9ce0-a1f22dfd4d3e,junto,es,A2,adv,/junto/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+fab05e16-f5d5-4e0f-bf2b-967bf7654421,paz,es,A2,noun,/paθ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+faf29816-35cc-436e-b943-80d5f7e9e9b9,príncipe,es,A2,noun,/pɾinθipe/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+fb0bcc90-45e5-4352-bb6c-068912fd562d,duda,es,A2,noun,/ðuða/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+fb1f95a4-0616-46cb-af46-f35cc2f77052,literatura,es,A2,noun,/liteɾatuɾa/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+fb401b05-de3e-4f22-9ce6-0bfe6892ba0f,montón,es,A2,noun,/monton/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+fc03cf0c-2a70-4ebc-bddb-ffc501477786,historia,es,A2,noun,/istoɾia/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+fc186849-48f1-4c37-b351-cda2bf1b275a,obviamente,es,A2,adv,/oββiamente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+fd7b8ec8-6303-438e-9ffb-eef5d20b6bbc,actual,es,A2,adj,/aktual/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:27:16.382239+00
+fde10e99-9843-47c4-8728-0e1101735126,espero,es,A2,Verb,/espeɾo/,first-person singular present indicative of esperar,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:37:39.986301+00
+fe245003-586d-428f-8058-37cc81d9e168,viene,es,A2,,/βiene/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+fe499a52-4ede-4f7c-8a15-3bbfe441ca90,casarse,es,A2,verb,/kasaɾse/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 21:34:32.452494+00
+fe6de209-cb99-4b2d-95cd-edd913569823,cliente,es,A2,noun,/kliente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+fe9b3257-fc41-4b30-8eba-1eea8f3b2340,suficientemente,es,A2,adv,/sufiθientemente/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+fe9faf86-c78e-45a2-b109-07bf687a6a5f,limpios,es,A2,Adjective,/limpios/,masculine plural of limpio,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:45:11.801724+00
+fec0269d-6104-4217-b10b-5709bc7b7f06,limpio,es,A2,adj,/limpio/,clean,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-06-15 19:34:36.122062+00
+fedee6de-0eaa-43cc-8306-466105cad714,muela,es,A2,noun,/muela/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ffa6835a-96b7-46d2-82db-3b03b2b292d8,quedar,es,A2,verb,/keðaɾ/,,,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 19:56:03.647271+00
+ffb5c96b-ead0-4ad6-99f4-52fa9b439518,centro comercial,es,A2,Noun,/θentɾo komeɾθial/,"mall, shopping centre",,es_cefr_vocab,2026-05-20 19:56:03.647271+00,2026-05-20 20:29:35.164841+00

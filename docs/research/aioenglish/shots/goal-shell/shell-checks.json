@@ -1,0 +1,30 @@
+{
+  "tablet": [
+    {
+      "page": "dashboard",
+      "view": 768,
+      "metrics": {
+        "navVisible": "none",
+        "overflow": false,
+        "rail": "{\"bottom\":1010,\"height\":996,\"left\":12,\"right\":88,\"top\":14,\"width\":76,\"x\":12,\"y\":14}",
+        "vw": 768
+      }
+    },
+    {
+      "page": "vocab",
+      "view": 768,
+      "metrics": {
+        "navVisible": "none",
+        "overflow": false,
+        "rail": "{\"bottom\":1010,\"height\":996,\"left\":12,\"right\":88,\"top\":14,\"width\":76,\"x\":12,\"y\":14}",
+        "vw": 768
+      }
+    }
+  ],
+  "keyboard": {
+    "shiftTabWrapsToSettings": true,
+    "escapeCloses": true,
+    "focusRestoredToMenu": true
+  },
+  "login": "server session verified via local login UI; no credentials stored in evidence"
+}

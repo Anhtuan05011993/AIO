@@ -1,0 +1,2270 @@
+[
+  {
+    "mode": "Trình độ CEFR",
+    "width": 1440,
+    "height": 900,
+    "source": {
+      "box": {
+        "bottom": 731.5,
+        "height": 653,
+        "left": 384,
+        "right": 1056,
+        "top": 78.5,
+        "width": 672,
+        "x": 384,
+        "y": 78.5
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 713.5,
+            "height": 557,
+            "left": 406,
+            "right": 1034,
+            "top": 156.5,
+            "width": 628,
+            "x": 406,
+            "y": 156.5
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 376.5,
+            "height": 130,
+            "left": 406,
+            "right": 1034,
+            "top": 246.5,
+            "width": 628,
+            "x": 406,
+            "y": 246.5
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 436.5,
+            "height": 46,
+            "left": 406,
+            "right": 1034,
+            "top": 390.5,
+            "width": 628,
+            "x": 406,
+            "y": 390.5
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 550.5,
+            "height": 100,
+            "left": 406,
+            "right": 1034,
+            "top": 450.5,
+            "width": 628,
+            "x": 406,
+            "y": 450.5
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 636.5,
+            "height": 72,
+            "left": 406,
+            "right": 1034,
+            "top": 564.5,
+            "width": 628,
+            "x": 406,
+            "y": 564.5
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 713.5,
+            "height": 59,
+            "left": 406,
+            "right": 1034,
+            "top": 654.5,
+            "width": 628,
+            "x": 406,
+            "y": 654.5
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    },
+    "production": {
+      "box": {
+        "bottom": 723,
+        "height": 636,
+        "left": 384,
+        "right": 1056,
+        "top": 87,
+        "width": 672,
+        "x": 384,
+        "y": 87
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 705,
+            "height": 540,
+            "left": 406,
+            "right": 1034,
+            "top": 165,
+            "width": 628,
+            "x": 406,
+            "y": 165
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 379,
+            "height": 127,
+            "left": 406,
+            "right": 1034,
+            "top": 252,
+            "width": 628,
+            "x": 406,
+            "y": 252
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 439,
+            "height": 46,
+            "left": 406,
+            "right": 1034,
+            "top": 393,
+            "width": 628,
+            "x": 406,
+            "y": 393
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 550,
+            "height": 97,
+            "left": 406,
+            "right": 1034,
+            "top": 453,
+            "width": 628,
+            "x": 406,
+            "y": 453
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 628,
+            "height": 64,
+            "left": 406,
+            "right": 1034,
+            "top": 564,
+            "width": 628,
+            "x": 406,
+            "y": 564
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 705,
+            "height": 59,
+            "left": 406,
+            "right": 1034,
+            "top": 646,
+            "width": 628,
+            "x": 406,
+            "y": 646
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    }
+  },
+  {
+    "mode": "Trình độ CEFR",
+    "width": 768,
+    "height": 1024,
+    "source": {
+      "box": {
+        "bottom": 1024,
+        "height": 661,
+        "left": 0,
+        "right": 768,
+        "top": 363,
+        "width": 768,
+        "x": 0,
+        "y": 363
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 1008,
+            "height": 555,
+            "left": 20,
+            "right": 748,
+            "top": 453,
+            "width": 728,
+            "x": 20,
+            "y": 453
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 673,
+            "height": 130,
+            "left": 20,
+            "right": 748,
+            "top": 543,
+            "width": 728,
+            "x": 20,
+            "y": 543
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 733,
+            "height": 46,
+            "left": 20,
+            "right": 748,
+            "top": 687,
+            "width": 728,
+            "x": 20,
+            "y": 687
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 847,
+            "height": 100,
+            "left": 20,
+            "right": 748,
+            "top": 747,
+            "width": 728,
+            "x": 20,
+            "y": 747
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 933,
+            "height": 72,
+            "left": 20,
+            "right": 748,
+            "top": 861,
+            "width": 728,
+            "x": 20,
+            "y": 861
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 1024,
+            "height": 73,
+            "left": 0,
+            "right": 768,
+            "top": 951,
+            "width": 768,
+            "x": 0,
+            "y": 951
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    },
+    "production": {
+      "box": {
+        "bottom": 1024,
+        "height": 644,
+        "left": 0,
+        "right": 768,
+        "top": 380,
+        "width": 768,
+        "x": 0,
+        "y": 380
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 1008,
+            "height": 538,
+            "left": 20,
+            "right": 748,
+            "top": 470,
+            "width": 728,
+            "x": 20,
+            "y": 470
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 684,
+            "height": 127,
+            "left": 20,
+            "right": 748,
+            "top": 557,
+            "width": 728,
+            "x": 20,
+            "y": 557
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 744,
+            "height": 46,
+            "left": 20,
+            "right": 748,
+            "top": 698,
+            "width": 728,
+            "x": 20,
+            "y": 698
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 855,
+            "height": 97,
+            "left": 20,
+            "right": 748,
+            "top": 758,
+            "width": 728,
+            "x": 20,
+            "y": 758
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 933,
+            "height": 64,
+            "left": 20,
+            "right": 748,
+            "top": 869,
+            "width": 728,
+            "x": 20,
+            "y": 869
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 1024,
+            "height": 73,
+            "left": 0,
+            "right": 768,
+            "top": 951,
+            "width": 768,
+            "x": 0,
+            "y": 951
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    }
+  },
+  {
+    "mode": "Trình độ CEFR",
+    "width": 390,
+    "height": 844,
+    "source": {
+      "box": {
+        "bottom": 844,
+        "height": 753,
+        "left": 0,
+        "right": 390,
+        "top": 91,
+        "width": 390,
+        "x": 0,
+        "y": 91
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 828,
+            "height": 651,
+            "left": 20,
+            "right": 370,
+            "top": 177,
+            "width": 350,
+            "x": 20,
+            "y": 177
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 397,
+            "height": 130,
+            "left": 20,
+            "right": 370,
+            "top": 267,
+            "width": 350,
+            "x": 20,
+            "y": 267
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 471,
+            "height": 60,
+            "left": 20,
+            "right": 370,
+            "top": 411,
+            "width": 350,
+            "x": 20,
+            "y": 411
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 585,
+            "height": 100,
+            "left": 20,
+            "right": 370,
+            "top": 485,
+            "width": 350,
+            "x": 20,
+            "y": 485
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 753,
+            "height": 154,
+            "left": 20,
+            "right": 370,
+            "top": 599,
+            "width": 350,
+            "x": 20,
+            "y": 599
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 844,
+            "height": 73,
+            "left": 0,
+            "right": 390,
+            "top": 771,
+            "width": 390,
+            "x": 0,
+            "y": 771
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    },
+    "production": {
+      "box": {
+        "bottom": 844,
+        "height": 728,
+        "left": 0,
+        "right": 390,
+        "top": 116,
+        "width": 390,
+        "x": 0,
+        "y": 116
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 828,
+            "height": 626,
+            "left": 20,
+            "right": 370,
+            "top": 202,
+            "width": 350,
+            "x": 20,
+            "y": 202
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 416,
+            "height": 127,
+            "left": 20,
+            "right": 370,
+            "top": 289,
+            "width": 350,
+            "x": 20,
+            "y": 289
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 490,
+            "height": 60,
+            "left": 20,
+            "right": 370,
+            "top": 430,
+            "width": 350,
+            "x": 20,
+            "y": 430
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 601,
+            "height": 97,
+            "left": 20,
+            "right": 370,
+            "top": 504,
+            "width": 350,
+            "x": 20,
+            "y": 504
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 753,
+            "height": 138,
+            "left": 20,
+            "right": 370,
+            "top": 615,
+            "width": 350,
+            "x": 20,
+            "y": 615
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 844,
+            "height": 73,
+            "left": 0,
+            "right": 390,
+            "top": 771,
+            "width": 390,
+            "x": 0,
+            "y": 771
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    }
+  },
+  {
+    "mode": "Trình độ CEFR",
+    "width": 360,
+    "height": 844,
+    "source": {
+      "box": {
+        "bottom": 844,
+        "height": 753,
+        "left": 0,
+        "right": 360,
+        "top": 91,
+        "width": 360,
+        "x": 0,
+        "y": 91
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 828,
+            "height": 651,
+            "left": 20,
+            "right": 340,
+            "top": 177,
+            "width": 320,
+            "x": 20,
+            "y": 177
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 397,
+            "height": 130,
+            "left": 20,
+            "right": 340,
+            "top": 267,
+            "width": 320,
+            "x": 20,
+            "y": 267
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 471,
+            "height": 60,
+            "left": 20,
+            "right": 340,
+            "top": 411,
+            "width": 320,
+            "x": 20,
+            "y": 411
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 585,
+            "height": 100,
+            "left": 20,
+            "right": 340,
+            "top": 485,
+            "width": 320,
+            "x": 20,
+            "y": 485
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 753,
+            "height": 154,
+            "left": 20,
+            "right": 340,
+            "top": 599,
+            "width": 320,
+            "x": 20,
+            "y": 599
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 844,
+            "height": 73,
+            "left": 0,
+            "right": 360,
+            "top": 771,
+            "width": 360,
+            "x": 0,
+            "y": 771
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    },
+    "production": {
+      "box": {
+        "bottom": 844,
+        "height": 728,
+        "left": 0,
+        "right": 360,
+        "top": 116,
+        "width": 360,
+        "x": 0,
+        "y": 116
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 828,
+            "height": 626,
+            "left": 20,
+            "right": 340,
+            "top": 202,
+            "width": 320,
+            "x": 20,
+            "y": 202
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 416,
+            "height": 127,
+            "left": 20,
+            "right": 340,
+            "top": 289,
+            "width": 320,
+            "x": 20,
+            "y": 289
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 490,
+            "height": 60,
+            "left": 20,
+            "right": 340,
+            "top": 430,
+            "width": 320,
+            "x": 20,
+            "y": 430
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 601,
+            "height": 97,
+            "left": 20,
+            "right": 340,
+            "top": 504,
+            "width": 320,
+            "x": 20,
+            "y": 504
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 753,
+            "height": 138,
+            "left": 20,
+            "right": 340,
+            "top": 615,
+            "width": 320,
+            "x": 20,
+            "y": 615
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 844,
+            "height": 73,
+            "left": 0,
+            "right": 360,
+            "top": 771,
+            "width": 360,
+            "x": 0,
+            "y": 771
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    }
+  },
+  {
+    "mode": "IELTS",
+    "width": 1440,
+    "height": 900,
+    "source": {
+      "box": {
+        "bottom": 731.5,
+        "height": 653,
+        "left": 384,
+        "right": 1056,
+        "top": 78.5,
+        "width": 672,
+        "x": 384,
+        "y": 78.5
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 713.5,
+            "height": 557,
+            "left": 406,
+            "right": 1034,
+            "top": 156.5,
+            "width": 628,
+            "x": 406,
+            "y": 156.5
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 376.5,
+            "height": 130,
+            "left": 406,
+            "right": 1034,
+            "top": 246.5,
+            "width": 628,
+            "x": 406,
+            "y": 246.5
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 436.5,
+            "height": 46,
+            "left": 406,
+            "right": 1034,
+            "top": 390.5,
+            "width": 628,
+            "x": 406,
+            "y": 390.5
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 550.5,
+            "height": 100,
+            "left": 406,
+            "right": 1034,
+            "top": 450.5,
+            "width": 628,
+            "x": 406,
+            "y": 450.5
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 636.5,
+            "height": 72,
+            "left": 406,
+            "right": 1034,
+            "top": 564.5,
+            "width": 628,
+            "x": 406,
+            "y": 564.5
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 713.5,
+            "height": 59,
+            "left": 406,
+            "right": 1034,
+            "top": 654.5,
+            "width": 628,
+            "x": 406,
+            "y": 654.5
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    },
+    "production": {
+      "box": {
+        "bottom": 723,
+        "height": 636,
+        "left": 384,
+        "right": 1056,
+        "top": 87,
+        "width": 672,
+        "x": 384,
+        "y": 87
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 705,
+            "height": 540,
+            "left": 406,
+            "right": 1034,
+            "top": 165,
+            "width": 628,
+            "x": 406,
+            "y": 165
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 379,
+            "height": 127,
+            "left": 406,
+            "right": 1034,
+            "top": 252,
+            "width": 628,
+            "x": 406,
+            "y": 252
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 439,
+            "height": 46,
+            "left": 406,
+            "right": 1034,
+            "top": 393,
+            "width": 628,
+            "x": 406,
+            "y": 393
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 550,
+            "height": 97,
+            "left": 406,
+            "right": 1034,
+            "top": 453,
+            "width": 628,
+            "x": 406,
+            "y": 453
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 628,
+            "height": 64,
+            "left": 406,
+            "right": 1034,
+            "top": 564,
+            "width": 628,
+            "x": 406,
+            "y": 564
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 705,
+            "height": 59,
+            "left": 406,
+            "right": 1034,
+            "top": 646,
+            "width": 628,
+            "x": 406,
+            "y": 646
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    }
+  },
+  {
+    "mode": "IELTS",
+    "width": 768,
+    "height": 1024,
+    "source": {
+      "box": {
+        "bottom": 1024,
+        "height": 661,
+        "left": 0,
+        "right": 768,
+        "top": 363,
+        "width": 768,
+        "x": 0,
+        "y": 363
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 1008,
+            "height": 555,
+            "left": 20,
+            "right": 748,
+            "top": 453,
+            "width": 728,
+            "x": 20,
+            "y": 453
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 673,
+            "height": 130,
+            "left": 20,
+            "right": 748,
+            "top": 543,
+            "width": 728,
+            "x": 20,
+            "y": 543
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 733,
+            "height": 46,
+            "left": 20,
+            "right": 748,
+            "top": 687,
+            "width": 728,
+            "x": 20,
+            "y": 687
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 847,
+            "height": 100,
+            "left": 20,
+            "right": 748,
+            "top": 747,
+            "width": 728,
+            "x": 20,
+            "y": 747
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 933,
+            "height": 72,
+            "left": 20,
+            "right": 748,
+            "top": 861,
+            "width": 728,
+            "x": 20,
+            "y": 861
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 1024,
+            "height": 73,
+            "left": 0,
+            "right": 768,
+            "top": 951,
+            "width": 768,
+            "x": 0,
+            "y": 951
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    },
+    "production": {
+      "box": {
+        "bottom": 1024,
+        "height": 644,
+        "left": 0,
+        "right": 768,
+        "top": 380,
+        "width": 768,
+        "x": 0,
+        "y": 380
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 1008,
+            "height": 538,
+            "left": 20,
+            "right": 748,
+            "top": 470,
+            "width": 728,
+            "x": 20,
+            "y": 470
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 684,
+            "height": 127,
+            "left": 20,
+            "right": 748,
+            "top": 557,
+            "width": 728,
+            "x": 20,
+            "y": 557
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 744,
+            "height": 46,
+            "left": 20,
+            "right": 748,
+            "top": 698,
+            "width": 728,
+            "x": 20,
+            "y": 698
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 855,
+            "height": 97,
+            "left": 20,
+            "right": 748,
+            "top": 758,
+            "width": 728,
+            "x": 20,
+            "y": 758
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 933,
+            "height": 64,
+            "left": 20,
+            "right": 748,
+            "top": 869,
+            "width": 728,
+            "x": 20,
+            "y": 869
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 1024,
+            "height": 73,
+            "left": 0,
+            "right": 768,
+            "top": 951,
+            "width": 768,
+            "x": 0,
+            "y": 951
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    }
+  },
+  {
+    "mode": "IELTS",
+    "width": 390,
+    "height": 844,
+    "source": {
+      "box": {
+        "bottom": 844,
+        "height": 753,
+        "left": 0,
+        "right": 390,
+        "top": 91,
+        "width": 390,
+        "x": 0,
+        "y": 91
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 828,
+            "height": 651,
+            "left": 20,
+            "right": 370,
+            "top": 177,
+            "width": 350,
+            "x": 20,
+            "y": 177
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 397,
+            "height": 130,
+            "left": 20,
+            "right": 370,
+            "top": 267,
+            "width": 350,
+            "x": 20,
+            "y": 267
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 471,
+            "height": 60,
+            "left": 20,
+            "right": 370,
+            "top": 411,
+            "width": 350,
+            "x": 20,
+            "y": 411
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 585,
+            "height": 100,
+            "left": 20,
+            "right": 370,
+            "top": 485,
+            "width": 350,
+            "x": 20,
+            "y": 485
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 753,
+            "height": 154,
+            "left": 20,
+            "right": 370,
+            "top": 599,
+            "width": 350,
+            "x": 20,
+            "y": 599
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 844,
+            "height": 73,
+            "left": 0,
+            "right": 390,
+            "top": 771,
+            "width": 390,
+            "x": 0,
+            "y": 771
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    },
+    "production": {
+      "box": {
+        "bottom": 844,
+        "height": 728,
+        "left": 0,
+        "right": 390,
+        "top": 116,
+        "width": 390,
+        "x": 0,
+        "y": 116
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 828,
+            "height": 626,
+            "left": 20,
+            "right": 370,
+            "top": 202,
+            "width": 350,
+            "x": 20,
+            "y": 202
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 416,
+            "height": 127,
+            "left": 20,
+            "right": 370,
+            "top": 289,
+            "width": 350,
+            "x": 20,
+            "y": 289
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 490,
+            "height": 60,
+            "left": 20,
+            "right": 370,
+            "top": 430,
+            "width": 350,
+            "x": 20,
+            "y": 430
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 601,
+            "height": 97,
+            "left": 20,
+            "right": 370,
+            "top": 504,
+            "width": 350,
+            "x": 20,
+            "y": 504
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 753,
+            "height": 138,
+            "left": 20,
+            "right": 370,
+            "top": 615,
+            "width": 350,
+            "x": 20,
+            "y": 615
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 844,
+            "height": 73,
+            "left": 0,
+            "right": 390,
+            "top": 771,
+            "width": 390,
+            "x": 0,
+            "y": 771
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    }
+  },
+  {
+    "mode": "IELTS",
+    "width": 360,
+    "height": 844,
+    "source": {
+      "box": {
+        "bottom": 844,
+        "height": 753,
+        "left": 0,
+        "right": 360,
+        "top": 91,
+        "width": 360,
+        "x": 0,
+        "y": 91
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 828,
+            "height": 651,
+            "left": 20,
+            "right": 340,
+            "top": 177,
+            "width": 320,
+            "x": 20,
+            "y": 177
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 397,
+            "height": 130,
+            "left": 20,
+            "right": 340,
+            "top": 267,
+            "width": 320,
+            "x": 20,
+            "y": 267
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 471,
+            "height": 60,
+            "left": 20,
+            "right": 340,
+            "top": 411,
+            "width": 320,
+            "x": 20,
+            "y": 411
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 585,
+            "height": 100,
+            "left": 20,
+            "right": 340,
+            "top": 485,
+            "width": 320,
+            "x": 20,
+            "y": 485
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 753,
+            "height": 154,
+            "left": 20,
+            "right": 340,
+            "top": 599,
+            "width": 320,
+            "x": 20,
+            "y": 599
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 844,
+            "height": 73,
+            "left": 0,
+            "right": 360,
+            "top": 771,
+            "width": 360,
+            "x": 0,
+            "y": 771
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    },
+    "production": {
+      "box": {
+        "bottom": 844,
+        "height": 728,
+        "left": 0,
+        "right": 360,
+        "top": 116,
+        "width": 360,
+        "x": 0,
+        "y": 116
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 828,
+            "height": 626,
+            "left": 20,
+            "right": 340,
+            "top": 202,
+            "width": 320,
+            "x": 20,
+            "y": 202
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 416,
+            "height": 127,
+            "left": 20,
+            "right": 340,
+            "top": 289,
+            "width": 320,
+            "x": 20,
+            "y": 289
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 490,
+            "height": 60,
+            "left": 20,
+            "right": 340,
+            "top": 430,
+            "width": 320,
+            "x": 20,
+            "y": 430
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 601,
+            "height": 97,
+            "left": 20,
+            "right": 340,
+            "top": 504,
+            "width": 320,
+            "x": 20,
+            "y": 504
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 753,
+            "height": 138,
+            "left": 20,
+            "right": 340,
+            "top": 615,
+            "width": 320,
+            "x": 20,
+            "y": 615
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 844,
+            "height": 73,
+            "left": 0,
+            "right": 360,
+            "top": 771,
+            "width": 360,
+            "x": 0,
+            "y": 771
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    }
+  },
+  {
+    "mode": "TOEIC",
+    "width": 1440,
+    "height": 900,
+    "source": {
+      "box": {
+        "bottom": 731.5,
+        "height": 653,
+        "left": 384,
+        "right": 1056,
+        "top": 78.5,
+        "width": 672,
+        "x": 384,
+        "y": 78.5
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 713.5,
+            "height": 557,
+            "left": 406,
+            "right": 1034,
+            "top": 156.5,
+            "width": 628,
+            "x": 406,
+            "y": 156.5
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 376.5,
+            "height": 130,
+            "left": 406,
+            "right": 1034,
+            "top": 246.5,
+            "width": 628,
+            "x": 406,
+            "y": 246.5
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 436.5,
+            "height": 46,
+            "left": 406,
+            "right": 1034,
+            "top": 390.5,
+            "width": 628,
+            "x": 406,
+            "y": 390.5
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 550.5,
+            "height": 100,
+            "left": 406,
+            "right": 1034,
+            "top": 450.5,
+            "width": 628,
+            "x": 406,
+            "y": 450.5
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 636.5,
+            "height": 72,
+            "left": 406,
+            "right": 1034,
+            "top": 564.5,
+            "width": 628,
+            "x": 406,
+            "y": 564.5
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 713.5,
+            "height": 59,
+            "left": 406,
+            "right": 1034,
+            "top": 654.5,
+            "width": 628,
+            "x": 406,
+            "y": 654.5
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    },
+    "production": {
+      "box": {
+        "bottom": 723,
+        "height": 636,
+        "left": 384,
+        "right": 1056,
+        "top": 87,
+        "width": 672,
+        "x": 384,
+        "y": 87
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 705,
+            "height": 540,
+            "left": 406,
+            "right": 1034,
+            "top": 165,
+            "width": 628,
+            "x": 406,
+            "y": 165
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 379,
+            "height": 127,
+            "left": 406,
+            "right": 1034,
+            "top": 252,
+            "width": 628,
+            "x": 406,
+            "y": 252
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 439,
+            "height": 46,
+            "left": 406,
+            "right": 1034,
+            "top": 393,
+            "width": 628,
+            "x": 406,
+            "y": 393
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 550,
+            "height": 97,
+            "left": 406,
+            "right": 1034,
+            "top": 453,
+            "width": 628,
+            "x": 406,
+            "y": 453
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 628,
+            "height": 64,
+            "left": 406,
+            "right": 1034,
+            "top": 564,
+            "width": 628,
+            "x": 406,
+            "y": 564
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 705,
+            "height": 59,
+            "left": 406,
+            "right": 1034,
+            "top": 646,
+            "width": 628,
+            "x": 406,
+            "y": 646
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    }
+  },
+  {
+    "mode": "TOEIC",
+    "width": 768,
+    "height": 1024,
+    "source": {
+      "box": {
+        "bottom": 1024,
+        "height": 661,
+        "left": 0,
+        "right": 768,
+        "top": 363,
+        "width": 768,
+        "x": 0,
+        "y": 363
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 1008,
+            "height": 555,
+            "left": 20,
+            "right": 748,
+            "top": 453,
+            "width": 728,
+            "x": 20,
+            "y": 453
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 673,
+            "height": 130,
+            "left": 20,
+            "right": 748,
+            "top": 543,
+            "width": 728,
+            "x": 20,
+            "y": 543
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 733,
+            "height": 46,
+            "left": 20,
+            "right": 748,
+            "top": 687,
+            "width": 728,
+            "x": 20,
+            "y": 687
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 847,
+            "height": 100,
+            "left": 20,
+            "right": 748,
+            "top": 747,
+            "width": 728,
+            "x": 20,
+            "y": 747
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 933,
+            "height": 72,
+            "left": 20,
+            "right": 748,
+            "top": 861,
+            "width": 728,
+            "x": 20,
+            "y": 861
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 1024,
+            "height": 73,
+            "left": 0,
+            "right": 768,
+            "top": 951,
+            "width": 768,
+            "x": 0,
+            "y": 951
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    },
+    "production": {
+      "box": {
+        "bottom": 1024,
+        "height": 644,
+        "left": 0,
+        "right": 768,
+        "top": 380,
+        "width": 768,
+        "x": 0,
+        "y": 380
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 1008,
+            "height": 538,
+            "left": 20,
+            "right": 748,
+            "top": 470,
+            "width": 728,
+            "x": 20,
+            "y": 470
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 684,
+            "height": 127,
+            "left": 20,
+            "right": 748,
+            "top": 557,
+            "width": 728,
+            "x": 20,
+            "y": 557
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 744,
+            "height": 46,
+            "left": 20,
+            "right": 748,
+            "top": 698,
+            "width": 728,
+            "x": 20,
+            "y": 698
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 855,
+            "height": 97,
+            "left": 20,
+            "right": 748,
+            "top": 758,
+            "width": 728,
+            "x": 20,
+            "y": 758
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 933,
+            "height": 64,
+            "left": 20,
+            "right": 748,
+            "top": 869,
+            "width": 728,
+            "x": 20,
+            "y": 869
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 1024,
+            "height": 73,
+            "left": 0,
+            "right": 768,
+            "top": 951,
+            "width": 768,
+            "x": 0,
+            "y": 951
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    }
+  },
+  {
+    "mode": "TOEIC",
+    "width": 390,
+    "height": 844,
+    "source": {
+      "box": {
+        "bottom": 844,
+        "height": 753,
+        "left": 0,
+        "right": 390,
+        "top": 91,
+        "width": 390,
+        "x": 0,
+        "y": 91
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 828,
+            "height": 651,
+            "left": 20,
+            "right": 370,
+            "top": 177,
+            "width": 350,
+            "x": 20,
+            "y": 177
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 397,
+            "height": 130,
+            "left": 20,
+            "right": 370,
+            "top": 267,
+            "width": 350,
+            "x": 20,
+            "y": 267
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 471,
+            "height": 60,
+            "left": 20,
+            "right": 370,
+            "top": 411,
+            "width": 350,
+            "x": 20,
+            "y": 411
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 585,
+            "height": 100,
+            "left": 20,
+            "right": 370,
+            "top": 485,
+            "width": 350,
+            "x": 20,
+            "y": 485
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 753,
+            "height": 154,
+            "left": 20,
+            "right": 370,
+            "top": 599,
+            "width": 350,
+            "x": 20,
+            "y": 599
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 844,
+            "height": 73,
+            "left": 0,
+            "right": 390,
+            "top": 771,
+            "width": 390,
+            "x": 0,
+            "y": 771
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    },
+    "production": {
+      "box": {
+        "bottom": 844,
+        "height": 728,
+        "left": 0,
+        "right": 390,
+        "top": 116,
+        "width": 390,
+        "x": 0,
+        "y": 116
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 828,
+            "height": 626,
+            "left": 20,
+            "right": 370,
+            "top": 202,
+            "width": 350,
+            "x": 20,
+            "y": 202
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 416,
+            "height": 127,
+            "left": 20,
+            "right": 370,
+            "top": 289,
+            "width": 350,
+            "x": 20,
+            "y": 289
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 490,
+            "height": 60,
+            "left": 20,
+            "right": 370,
+            "top": 430,
+            "width": 350,
+            "x": 20,
+            "y": 430
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 601,
+            "height": 97,
+            "left": 20,
+            "right": 370,
+            "top": 504,
+            "width": 350,
+            "x": 20,
+            "y": 504
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 753,
+            "height": 138,
+            "left": 20,
+            "right": 370,
+            "top": 615,
+            "width": 350,
+            "x": 20,
+            "y": 615
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 844,
+            "height": 73,
+            "left": 0,
+            "right": 390,
+            "top": 771,
+            "width": 390,
+            "x": 0,
+            "y": 771
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    }
+  },
+  {
+    "mode": "TOEIC",
+    "width": 360,
+    "height": 844,
+    "source": {
+      "box": {
+        "bottom": 844,
+        "height": 753,
+        "left": 0,
+        "right": 360,
+        "top": 91,
+        "width": 360,
+        "x": 0,
+        "y": 91
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 828,
+            "height": 651,
+            "left": 20,
+            "right": 340,
+            "top": 177,
+            "width": 320,
+            "x": 20,
+            "y": 177
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 397,
+            "height": 130,
+            "left": 20,
+            "right": 340,
+            "top": 267,
+            "width": 320,
+            "x": 20,
+            "y": 267
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 471,
+            "height": 60,
+            "left": 20,
+            "right": 340,
+            "top": 411,
+            "width": 320,
+            "x": 20,
+            "y": 411
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 585,
+            "height": 100,
+            "left": 20,
+            "right": 340,
+            "top": 485,
+            "width": 320,
+            "x": 20,
+            "y": 485
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 753,
+            "height": 154,
+            "left": 20,
+            "right": 340,
+            "top": 599,
+            "width": 320,
+            "x": 20,
+            "y": 599
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 844,
+            "height": 73,
+            "left": 0,
+            "right": 360,
+            "top": 771,
+            "width": 360,
+            "x": 0,
+            "y": 771
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    },
+    "production": {
+      "box": {
+        "bottom": 844,
+        "height": 728,
+        "left": 0,
+        "right": 360,
+        "top": 116,
+        "width": 360,
+        "x": 0,
+        "y": 116
+      },
+      "parts": [
+        {
+          "box": {
+            "bottom": 828,
+            "height": 626,
+            "left": 20,
+            "right": 340,
+            "top": 202,
+            "width": 320,
+            "x": 20,
+            "y": 202
+          },
+          "c": "nb-dlg nb-pop ptd"
+        },
+        {
+          "box": {
+            "bottom": 416,
+            "height": 127,
+            "left": 20,
+            "right": 340,
+            "top": 289,
+            "width": 320,
+            "x": 20,
+            "y": 289
+          },
+          "c": "ptd-stack"
+        },
+        {
+          "box": {
+            "bottom": 490,
+            "height": 60,
+            "left": 20,
+            "right": 340,
+            "top": 430,
+            "width": 320,
+            "x": 20,
+            "y": 430
+          },
+          "c": "nbc-eta ptd-eq"
+        },
+        {
+          "box": {
+            "bottom": 601,
+            "height": 97,
+            "left": 20,
+            "right": 340,
+            "top": 504,
+            "width": 320,
+            "x": 20,
+            "y": 504
+          },
+          "c": "nbc-fld ptd-date"
+        },
+        {
+          "box": {
+            "bottom": 753,
+            "height": 138,
+            "left": 20,
+            "right": 340,
+            "top": 615,
+            "width": 320,
+            "x": 20,
+            "y": 615
+          },
+          "c": "ptd-prev"
+        },
+        {
+          "box": {
+            "bottom": 844,
+            "height": 73,
+            "left": 0,
+            "right": 360,
+            "top": 771,
+            "width": 360,
+            "x": 0,
+            "y": 771
+          },
+          "c": "ptd-acts nbc-dash-top"
+        }
+      ]
+    }
+  }
+]

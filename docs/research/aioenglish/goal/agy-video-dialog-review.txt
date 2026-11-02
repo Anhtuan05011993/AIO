@@ -1,0 +1,89 @@
+Here is the concrete review of the supplied code focusing strictly on **lifecycle**, **focus**, and **history** bugs, adhering to all specified constraints.
+
+---
+
+### 1. History Bugs
+
+* **Over-consumption of URL Parameters in [`VideoHub`](#):**
+  * **Location:** [`VideoHub`](#) (`sync` inside `useEffect`)
+  * **Issue:** The requirement specifies that `lucky` should open the picker and consume the parameter. However, `sync` executes:
+    ```ts
+    if (lucky) {
+      url.searchParams.delete("lucky");
+      url.searchParams.delete("tab"); // BUG
+      history.replaceState(null, "", `${url.pathname}${url.search}`);
+    }
+    ```
+    Deleting `"tab"` strips the user's active tab selection from history whenever `lucky=1` is resolved, causing unintended loss of tab state.
+* **URL Hash/Fragment Truncation:**
+  * **Location:** [`VideoHub`](#) (`sync` and `selectMine`)
+  * **Issue:** Both `history.replaceState` and `history.pushState` construct the URL as `${url.pathname}${url.search}` without appending `${url.hash}`. Any existing URL anchor/fragment (such as `#video-add-panel` used in the template) is erased from the browser address bar.
+* **Desynchronization on History Traversal (`popstate`):**
+  * **Location:** [`VideoHub`](#) (`sync`)
+  * **Issue:** When the user navigates back or forward via browser buttons, `popstate` fires `sync()`, which unconditionally sets:
+    ```ts
+    setPreview(lucky ? catalog.intro : null);
+    ```
+    If the user opened a preview manually via the library (`onSelect={setPreview}`) or `onAdd`, pressing back/forward to change tabs unexpectedly closes their open preview because `lucky` is not present in the URL.
+
+---
+
+### 2. Lifecycle Bugs
+
+* **Mount-Time Override of `initialLucky` and `initialMine`:**
+  * **Location:** [`VideoHub`](#)
+  * **Issue:** `preview` and `mine` are initialized with `initialLucky` and `initialMine`. However, `useEffect` immediately runs `sync()` synchronously on client mount. If `initialLucky={true}` or `initialMine={true}` was supplied via props (e.g., SSR or parent routing) but the client URL does not contain matching search parameters at that exact moment, `sync()` immediately resets them (`setPreview(null)` and `setMine(false)`), canceling the initial props on the first tick.
+* **Unchecked `showModal()` Invocation (`InvalidStateError`):**
+  * **Location:** [`UiDialog`](#) (`useEffect`)
+  * **Issue:** Calling `dialog?.showModal()` without checking `dialog.open` throws a DOMException `InvalidStateError` if the dialog is already open (e.g., during React 18 StrictMode double-mounting or if a re-render triggers the effect before an asynchronous close completes).
+    * *Fix consideration:* Must guard with `if (dialog && !dialog.open) dialog.showModal();`.
+* **State Race Condition in `onAdd`:**
+  * **Location:** [`VideoHub`](#) (`onAdd`)
+  * **Issue:** `onAdd` calls:
+    ```ts
+    selectMine(false);
+    setPreview(featured);
+    ```
+    Inside `selectMine(false)`, `setPreview(null)` is called. While React 18 batches synchronous state updates within native handlers, having `selectMine` manage unrelated modal state creates an unnecessary conflicting state dispatch that can lead to race conditions if executed asynchronously.
+
+---
+
+### 3. Focus Bugs
+
+* **Focus Restoration Broken by `autoFocus` for Default Hubs:**
+  * **Location:** [`UiDialog`](#)
+  * **Issue:** When `initialFocusRef` is omitted (which is the default for all other hubs), the close button renders with `autoFocus={!initialFocusRef}` (`true`):
+    ```tsx
+    <button autoFocus={!initialFocusRef} ... />
+    ```
+    React commits `autoFocus` during the DOM mutation phase *before* passive effects (`useEffect`) run. Therefore, by the time `useEffect` runs:
+    ```ts
+    const previous = document.activeElement as HTMLElement | null;
+    ```
+    `previous` evaluates to the **close button inside the dialog**, rather than the trigger element that opened it. Upon unmounting, `previous?.focus()` attempts to focus the removed close button, causing focus to drop to `document.body` instead of returning to the opening element.
+* **Conflicting Focus Restoration with Native `showModal`:**
+  * **Location:** [`UiDialog`](#) (`useEffect` cleanup)
+  * **Issue:** Modern browsers implementing native `<dialog>` automatically store the previously focused element upon `showModal()` and restore focus to it when `.close()` is called. Manually calling `previous?.focus()` immediately after `dialog?.close()` collides with native restoration, and worsens the issue described above when `previous` was captured incorrectly.
+* **Hardcoded Initial Focus Index in Roving Radiogroup:**
+  * **Location:** [`VideoModePicker`](#)
+  * **Issue:** `firstButton` is hardcoded to index `0`:
+    ```tsx
+    if (i === 0) firstButton.current = el;
+    ```
+    In `UiDialog`, `initialFocusRef?.current?.focus()` focuses `firstButton`. If `mode` is ever initialized or restored to an index other than `0`, index `0` has `tabIndex={-1}` while the active radio has `tabIndex={0}`. Directing focus to `firstButton` forces focus onto an inactive radio element, violating the WAI-ARIA roving tabindex pattern.
+
+---
+
+### 4. Speculative / Context-Dependent Issues
+
+> [!NOTE]
+> The following issues depend on omitted styles or browser-specific rendering behavior:
+
+* **Backdrop Click Dismissal [Speculation - CSS dependent]:**
+  * In [`UiDialog`](#), backdrop clicks are detected via:
+    ```tsx
+    onClick={(e) => {
+      if (e.target === e.currentTarget) onClose();
+    }}
+    ```
+    If `.ui-dialog` has internal padding or margin rather than delegating all layout to child wrappers, clicking inside the dialog’s empty padding area will evaluate `e.target === e.currentTarget` as true and inadvertently close the dialog.

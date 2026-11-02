@@ -1,0 +1,1 @@
+import{C as e,H as t,K as n,h as r}from"./12Oibn0q.js";var i={key:0,class:`nbx-pp nbx-mnote nbx-mnote-blk`},a={key:1,class:`nbx-pp nbx-mnote`},o=Object.assign(e({__name:`NbDecoNote`,props:{block:{type:Boolean,default:!1}},setup(e){return(o,s)=>e.block?(t(),r(`p`,i,[n(o.$slots,`default`)])):(t(),r(`span`,a,[n(o.$slots,`default`)]))}}),{__name:`NbDecoNote`});export{o as t};

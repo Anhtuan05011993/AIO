@@ -1,0 +1,309 @@
+### Concrete Findings
+
+#### 1. State Bugs
+1. **Cross-Tab State Collision (`text` and `file`)**:
+   - `text` and `file` are shared between Tab 0 (AI prompt + image file) and Tab 2 (TSV paste + spreadsheet file). Switching tabs preserves inputs across completely different formats, allowing an image file or AI text to leak into the spreadsheet parser and vice versa.
+2. **Stale `input.value` on File Removal**:
+   - In Tab 0, `setFile(null)` clears React state but does not reset `input.current.value = ""`. Selecting the same file again fails to trigger `onChange`.
+3. **No File Reset in Tab 2**:
+   - Tab 2 displays `{file && <p>{file.name}</p>}` but provides no way to remove the file once selected or dropped.
+4. **Stale `preview` State on Text Edit**:
+   - In Tab 2, editing `text` does not reset `preview`, keeping outdated or broken preview rows rendered even if `text` is cleared.
+
+---
+
+#### 2. Validation Bugs
+1. **Pasted Text Preview Blocked by File State in Tab 2**:
+   - In Tab 2, `if (file)` check runs before previewing `text`. If a file is selected (or leaked from Tab 0), valid pasted text can never be previewed.
+2. **Unvalidated Drag-and-Drop in Tab 2**:
+   - `onDrop` sets `file` directly without verifying file size (`<= 2MB`) or extension (`.xlsx`, `.csv`), and fails to reset previous errors (`setError("")`).
+3. **Error State Never Cleared on Input**:
+   - In Tab 1, neither `term` nor `meaning` input `onChange` resets `error`, leaving validation or "Tự điền" errors stuck on screen while typing.
+4. **TSV Parsing Ignores CRLF (`\r\n`) and Missing Columns**:
+   - Splitting by `\n` retains `\r` on Windows clipboard copies (Excel/Sheets). Incomplete lines render fewer `<td>` cells than the 2-column `<th>` header.
+
+---
+
+#### 3. Keyboard Bugs
+1. **Missing `type="button"` on Tab Buttons and Actions**:
+   - All tab buttons `<button role="tab">` and inner action buttons (e.g., `＋ Thêm ảnh`, quick presets, file picker) omit `type="button"`. If wrapped in or placed near a `<form>`, pressing Enter triggers unintentional form submissions.
+2. **Hardcoded Tab Indices in Navigation**:
+   - `keyboard()` uses magic numbers `3` and `2` (`(i + 1) % 3`, `(i + 2) % 3`, `End -> 2`) rather than `names.length`.
+
+---
+
+#### 4. ARIA & Accessibility Bugs
+1. **Missing Error Association (`aria-invalid`, `aria-describedby`)**:
+   - Tab 1 inputs lack `aria-invalid` and `aria-describedby={`${id}-error`}` when validation fails. Screen readers navigating the form receive no feedback that fields are invalid.
+2. **`aria-expanded` Without `aria-controls`**:
+   - The "Tạo danh sách mới" button defines `aria-expanded={list}` but has no `aria-controls` linking to the conditionally rendered field.
+3. **Missing `role="tab"` Button Type**:
+   - `<button role="tab">` elements lack explicit `type="button"`.
+
+---
+
+### Minimal Patch Suggestions
+
+```diff
+@@ -10,7 +10,9 @@
+   const [tab, setTab] = useState(0),
+-    [text, setText] = useState(""),
++    [aiText, setAiText] = useState(""),
++    [pasteText, setPasteText] = useState(""),
+     [term, setTerm] = useState(""),
+     [meaning, setMeaning] = useState(""),
+     [list, setList] = useState(false),
+-    [file, setFile] = useState<File | null>(null),
++    [imageFile, setImageFile] = useState<File | null>(null),
++    [sheetFile, setSheetFile] = useState<File | null>(null),
+     [error, setError] = useState(""),
+@@ -20,2 +22,3 @@
+     input = useRef<HTMLInputElement>(null),
++    sheetInput = useRef<HTMLInputElement>(null),
+     tabs = useRef<HTMLDivElement>(null);
+@@ -28,8 +31,8 @@
+   function keyboard(e: KeyboardEvent<HTMLButtonElement>, i: number) {
+     const next =
+       e.key === "ArrowRight"
+-        ? (i + 1) % 3
++        ? (i + 1) % names.length
+         : e.key === "ArrowLeft"
+-          ? (i + 2) % 3
++          ? (i - 1 + names.length) % names.length
+           : e.key === "Home"
+             ? 0
+             : e.key === "End"
+-              ? 2
++              ? names.length - 1
+               : null;
+@@ -37,3 +40,3 @@
+     change(next);
+-    tabs.current?.querySelectorAll<HTMLButtonElement>("button")[next].focus();
++    tabs.current?.querySelectorAll<HTMLButtonElement>('[role="tab"]')[next].focus();
+   }
+@@ -51,2 +54,3 @@
+             <button
++              type="button"
+               key={name}
+@@ -69,5 +73,5 @@
+                 id={`${id}-topic`}
+                 maxLength={3000}
+                 placeholder="Gõ chủ đề, dán một đoạn văn, hoặc dán / thả một ảnh vào đây"
+-                value={text}
+-                onChange={(e) => setText(e.target.value)}
++                value={aiText}
++                onChange={(e) => setAiText(e.target.value)}
+               />
+               <div className="ui-vocab-form-row">
+                 <button
++                  type="button"
+                   className="nbc-btn is-soft is-sm"
+                   onClick={() => input.current?.click()}
+                 >
+                   ＋ Thêm ảnh
+                 </button>
+-                <span>{text.length.toLocaleString("vi-VN")} / 3.000</span>
++                <span>{aiText.length.toLocaleString("vi-VN")} / 3.000</span>
+               </div>
+               <input
+                 ref={input}
+                 type="file"
+                 accept="image/*"
+                 hidden
+-                onChange={(e) => setFile(e.target.files?.[0] ?? null)}
++                onChange={(e) => setImageFile(e.target.files?.[0] ?? null)}
+               />
+-              {file && (
++              {imageFile && (
+                 <p>
+-                  {file.name}{" "}
+-                  <button onClick={() => setFile(null)}>Bỏ ảnh</button>
++                  {imageFile.name}{" "}
++                  <button
++                    type="button"
++                    onClick={() => {
++                      setImageFile(null);
++                      if (input.current) input.current.value = "";
++                    }}
++                  >
++                    Bỏ ảnh
++                  </button>
+                 </p>
+               )}
+@@ -93,2 +106,3 @@
+                     <button
++                      type="button"
+                       className="nbc-btn is-soft is-sm"
+                       key={s}
+                       onClick={() =>
+                         i === 0
+-                          ? setText(s)
++                          ? setAiText(s)
+                           : i === 2
+                             ? input.current?.click()
+                             : document.getElementById(`${id}-topic`)?.focus()
+@@ -107,4 +121,5 @@
+               <button
++                type="button"
+                 className="nbc-btn is-ink"
+-                disabled={!text.trim() && !file}
++                disabled={!aiText.trim() && !imageFile}
+                 onClick={() =>
+@@ -128,4 +143,8 @@
+                   id={`${id}-term`}
+                   required
++                  aria-invalid={!!error && !term.trim()}
++                  aria-describedby={error ? `${id}-error` : undefined}
+                   placeholder="Nhập từ cần thêm…"
+                   value={term}
+-                  onChange={(e) => setTerm(e.target.value)}
++                  onChange={(e) => {
++                    setTerm(e.target.value);
++                    if (error) setError("");
++                  }}
+                 />
+@@ -155,4 +174,8 @@
+                 id={`${id}-meaning`}
+                 required
++                aria-invalid={!!error && !meaning.trim()}
++                aria-describedby={error ? `${id}-error` : undefined}
+                 placeholder="Nghĩa tiếng Việt…"
+                 value={meaning}
+-                onChange={(e) => setMeaning(e.target.value)}
++                onChange={(e) => {
++                  setMeaning(e.target.value);
++                  if (error) setError("");
++                }}
+               />
+@@ -171,2 +194,3 @@
+                 className="nbc-btn is-soft is-sm"
+                 aria-expanded={list}
++                aria-controls={`${id}-new-list`}
+                 onClick={() => setList(!list)}
+               >
+                 ＋ Tạo danh sách mới
+               </button>
+               {list && (
+-                <label>
++                <label id={`${id}-new-list`}>
+                   Tên danh sách mới
+@@ -190,5 +214,6 @@
+             <>
+               <button
++                type="button"
+                 className="ui-vocab-file"
+-                onClick={() => input.current?.click()}
++                onClick={() => sheetInput.current?.click()}
+                 onDragOver={(e) => e.preventDefault()}
+                 onDrop={(e) => {
+                   e.preventDefault();
+                   const f = e.dataTransfer.files[0];
+-                  if (f) setFile(f);
++                  if (!f) return;
++                  if (!/\.(xlsx|csv)$/i.test(f.name)) {
++                    setError("Chỉ chấp nhận tệp .xlsx hoặc .csv.");
++                    return;
++                  }
++                  if (f.size > 2 * 1024 * 1024) {
++                    setError("Tệp tối đa 2 MB.");
++                    return;
++                  }
++                  setSheetFile(f);
++                  setError("");
+                 }}
+               >
+@@ -204,19 +229,38 @@
+               <input
+-                ref={input}
++                ref={sheetInput}
+                 hidden
+                 type="file"
+                 accept=".xlsx,.csv"
+                 onChange={(e) => {
+-                  setFile(e.target.files?.[0] ?? null);
++                  const f = e.target.files?.[0] ?? null;
++                  setSheetFile(f);
+                   setError("");
+                 }}
+               />
+-              {file && <p>{file.name}</p>}
++              {sheetFile && (
++                <p>
++                  {sheetFile.name}{" "}
++                  <button
++                    type="button"
++                    onClick={() => {
++                      setSheetFile(null);
++                      if (sheetInput.current) sheetInput.current.value = "";
++                    }}
++                  >
++                    Bỏ tệp
++                  </button>
++                </p>
++              )}
+               <label htmlFor={`${id}-paste`}>
+                 Hoặc dán từ Excel / Google Sheets
+               </label>
+               <textarea
+                 id={`${id}-paste`}
+-                value={text}
+-                onChange={(e) => setText(e.target.value)}
++                value={pasteText}
++                onChange={(e) => {
++                  setPasteText(e.target.value);
++                  if (preview) setPreview(false);
++                }}
+               />
+               <button
++                type="button"
+                 className="nbc-btn is-ink"
+-                disabled={!text.trim() && !file}
++                disabled={!pasteText.trim() && !sheetFile}
+                 onClick={() => {
+-                  if (file && file.size > 2 * 1024 * 1024) {
+-                    setError("Tệp tối đa 2 MB.");
+-                    return;
+-                  }
+-                  if (file) {
++                  if (sheetFile) {
+                     setError(
+                       "Đọc tệp chưa được kết nối trong bản local. Bạn có thể dán nội dung để xem trước giao diện.",
+                     );
+                     return;
+                   }
+                   setPreview(true);
+                 }}
+               >
+@@ -239,7 +283,7 @@
+                     <tbody>
+-                      {text
++                      {pasteText
+                         .trim()
+-                        .split("\n")
++                        .split(/\r?\n/)
++                        .filter(Boolean)
+                         .slice(0, 5)
+                         .map((row, i) => {
++                          const cells = row.split("\t").slice(0, 2);
++                          return (
+                             <tr key={i}>
+-                            {row
+-                              .split("\t")
+-                              .slice(0, 2)
+-                              .map((cell, j) => (
+-                                <td key={j}>{cell}</td>
+-                              ))}
++                              <td>{cells[0] ?? ""}</td>
++                              <td>{cells[1] ?? ""}</td>
+                             </tr>
+-                          ))}
++                          );
++                        })}
+                     </tbody>
+@@ -282,3 +326,3 @@
+         {error && (
+-          <p role="alert" className="ui-vocab-error">
++          <p role="alert" id={`${id}-error`} className="ui-vocab-error">
+             {error}
+           </p>
+```

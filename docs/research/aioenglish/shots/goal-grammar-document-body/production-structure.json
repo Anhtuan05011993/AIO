@@ -1,0 +1,501 @@
+{
+  "sections": [
+    {
+      "blocks": [
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-dot",
+          "items": 3,
+          "rows": 0
+        }
+      ],
+      "id": "sec-tldr"
+    },
+    {
+      "blocks": [
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-dot",
+          "items": 2,
+          "rows": 0
+        }
+      ],
+      "id": "sec-use-ps"
+    },
+    {
+      "blocks": [
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-dot",
+          "items": 2,
+          "rows": 0
+        }
+      ],
+      "id": "sec-use-3p"
+    },
+    {
+      "blocks": [
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-dot",
+          "items": 4,
+          "rows": 0
+        }
+      ],
+      "id": "sec-use-c1"
+    },
+    {
+      "blocks": [
+        {
+          "class": "gdr-tbl",
+          "items": 0,
+          "rows": 2
+        },
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-h3",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-fml nbc-lv3 is-w gdr-fml",
+          "items": 0,
+          "rows": 0
+        }
+      ],
+      "id": "sec-formula"
+    },
+    {
+      "blocks": [
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-fml nbc-lv3 is-w gdr-fml",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-exs",
+          "items": 2,
+          "rows": 0
+        },
+        {
+          "class": "gdr-chips",
+          "items": 0,
+          "rows": 0
+        }
+      ],
+      "id": "sec-rule-ps-affirm"
+    },
+    {
+      "blocks": [
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-fml nbc-lv3 is-w gdr-fml",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-exs",
+          "items": 2,
+          "rows": 0
+        },
+        {
+          "class": "doc-call nbc-lv3 gdr-call",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-chips",
+          "items": 0,
+          "rows": 0
+        }
+      ],
+      "id": "sec-rule-ps-negative"
+    },
+    {
+      "blocks": [
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-fml nbc-lv3 is-w gdr-fml",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-exs",
+          "items": 3,
+          "rows": 0
+        },
+        {
+          "class": "doc-call nbc-lv3 gdr-call is-cur",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-chips",
+          "items": 0,
+          "rows": 0
+        }
+      ],
+      "id": "sec-rule-ps-question"
+    },
+    {
+      "blocks": [
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-fml nbc-lv3 is-w gdr-fml",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-exs",
+          "items": 2,
+          "rows": 0
+        },
+        {
+          "class": "gdr-chips",
+          "items": 0,
+          "rows": 0
+        }
+      ],
+      "id": "sec-rule-ps-use"
+    },
+    {
+      "blocks": [
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-fml nbc-lv3 is-w gdr-fml",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-exs",
+          "items": 3,
+          "rows": 0
+        },
+        {
+          "class": "doc-call nbc-lv3 gdr-call",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-chips",
+          "items": 0,
+          "rows": 0
+        }
+      ],
+      "id": "sec-rule-3p-affirm"
+    },
+    {
+      "blocks": [
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-fml nbc-lv3 is-w gdr-fml",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-exs",
+          "items": 2,
+          "rows": 0
+        },
+        {
+          "class": "doc-call nbc-lv3 gdr-call is-cur",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-chips",
+          "items": 0,
+          "rows": 0
+        }
+      ],
+      "id": "sec-rule-3p-negative"
+    },
+    {
+      "blocks": [
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-fml nbc-lv3 is-w gdr-fml",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-exs",
+          "items": 3,
+          "rows": 0
+        },
+        {
+          "class": "gdr-chips",
+          "items": 0,
+          "rows": 0
+        }
+      ],
+      "id": "sec-rule-3p-question"
+    },
+    {
+      "blocks": [
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-fml nbc-lv3 is-w gdr-fml",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-exs",
+          "items": 3,
+          "rows": 0
+        },
+        {
+          "class": "doc-call nbc-lv3 gdr-call",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-chips",
+          "items": 0,
+          "rows": 0
+        }
+      ],
+      "id": "sec-rule-c1-reporting"
+    },
+    {
+      "blocks": [
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-fml nbc-lv3 is-w gdr-fml",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-exs",
+          "items": 3,
+          "rows": 0
+        },
+        {
+          "class": "doc-call nbc-lv3 gdr-call",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-chips",
+          "items": 0,
+          "rows": 0
+        }
+      ],
+      "id": "sec-rule-c1-summary"
+    },
+    {
+      "blocks": [
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "doc-fml nbc-lv3 is-w gdr-fml",
+          "items": 0,
+          "rows": 0
+        },
+        {
+          "class": "gdr-exs",
+          "items": 2,
+          "rows": 0
+        },
+        {
+          "class": "gdr-chips",
+          "items": 0,
+          "rows": 0
+        }
+      ],
+      "id": "sec-rule-c1-perfect"
+    },
+    {
+      "blocks": [
+        {
+          "class": "gdr-exs",
+          "items": 6,
+          "rows": 0
+        }
+      ],
+      "id": "sec-examples"
+    },
+    {
+      "blocks": [
+        {
+          "class": "gdr-dot",
+          "items": 4,
+          "rows": 0
+        }
+      ],
+      "id": "sec-signals"
+    },
+    {
+      "blocks": [
+        {
+          "class": "gdr-tbl",
+          "items": 0,
+          "rows": 3
+        },
+        {
+          "class": "doc-call nbc-lv3 gdr-call",
+          "items": 0,
+          "rows": 0
+        }
+      ],
+      "id": "sec-mistakes-ps"
+    },
+    {
+      "blocks": [
+        {
+          "class": "gdr-tbl",
+          "items": 0,
+          "rows": 4
+        },
+        {
+          "class": "doc-call nbc-lv3 gdr-call",
+          "items": 0,
+          "rows": 0
+        }
+      ],
+      "id": "sec-mistakes-3p"
+    },
+    {
+      "blocks": [
+        {
+          "class": "gdr-tbl",
+          "items": 0,
+          "rows": 3
+        },
+        {
+          "class": "doc-p gdr-p whitespace-pre-line",
+          "items": 0,
+          "rows": 0
+        }
+      ],
+      "id": "sec-mistakes-c1"
+    },
+    {
+      "blocks": [
+        {
+          "class": "gdr-dot",
+          "items": 3,
+          "rows": 0
+        }
+      ],
+      "id": "sec-recap"
+    }
+  ],
+  "issues": [],
+  "classDifferences": []
+}

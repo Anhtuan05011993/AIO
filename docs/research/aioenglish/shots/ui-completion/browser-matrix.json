@@ -1,0 +1,340 @@
+[
+  {
+    "route": "/",
+    "size": 1440,
+    "heading": "Chào Học, học tiếp nhé.Chào Học.",
+    "scroll": 1428,
+    "width": 1440,
+    "overlay": false
+  },
+  {
+    "route": "/go-cau",
+    "size": 1440,
+    "heading": "Học qua gõ câu.",
+    "scroll": 1428,
+    "width": 1440,
+    "overlay": false
+  },
+  {
+    "route": "/tu-vung",
+    "size": 1440,
+    "heading": "Từ vựng & Phát âm.",
+    "scroll": 1428,
+    "width": 1440,
+    "overlay": false
+  },
+  {
+    "route": "/ngu-phap",
+    "size": 1440,
+    "heading": "Luyện ngữ pháp.",
+    "scroll": 1428,
+    "width": 1440,
+    "overlay": false
+  },
+  {
+    "route": "/lo-trinh",
+    "size": 1440,
+    "heading": "Lộ trình học.",
+    "scroll": 1428,
+    "width": 1440,
+    "overlay": false
+  },
+  {
+    "route": "/video",
+    "size": 1440,
+    "heading": "Dictation & Shadowing.",
+    "scroll": 1428,
+    "width": 1440,
+    "overlay": false
+  },
+  {
+    "route": "/luyen-dich-thuat",
+    "size": 1440,
+    "heading": "Luyện đọc & dịch.",
+    "scroll": 1428,
+    "width": 1440,
+    "overlay": false
+  },
+  {
+    "route": "/tu-dien",
+    "size": 1440,
+    "heading": "Từ điển chuyên sâu.",
+    "scroll": 1440,
+    "width": 1440,
+    "overlay": false
+  },
+  {
+    "route": "/ban-be",
+    "size": 1440,
+    "heading": "Tiến độ & Bạn bè.",
+    "scroll": 1440,
+    "width": 1440,
+    "overlay": false
+  },
+  {
+    "route": "/cai-dat",
+    "size": 1440,
+    "heading": "Cài đặt.",
+    "scroll": 1428,
+    "width": 1440,
+    "overlay": false
+  },
+  {
+    "route": "/yeu-cau-tinh-nang",
+    "size": 1440,
+    "heading": "Yêu cầu tính năng.",
+    "scroll": 1440,
+    "width": 1440,
+    "overlay": false
+  },
+  {
+    "route": "/luyen-thi",
+    "size": 1440,
+    "heading": "Luyện thi IELTS.",
+    "scroll": 1428,
+    "width": 1440,
+    "overlay": false
+  },
+  {
+    "route": "/tu-vung/phat-am",
+    "size": 1440,
+    "heading": "Phát âm IPA.",
+    "scroll": 1428,
+    "width": 1440,
+    "overlay": false
+  },
+  {
+    "route": "/",
+    "size": 390,
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "route": "/go-cau",
+    "size": 390,
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "route": "/tu-vung",
+    "size": 390,
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "route": "/ngu-phap",
+    "size": 390,
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "route": "/lo-trinh",
+    "size": 390,
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "route": "/video",
+    "size": 390,
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "route": "/luyen-dich-thuat",
+    "size": 390,
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "route": "/tu-dien",
+    "size": 390,
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "route": "/ban-be",
+    "size": 390,
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "route": "/cai-dat",
+    "size": 390,
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "route": "/yeu-cau-tinh-nang",
+    "size": 390,
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "route": "/luyen-thi",
+    "size": 390,
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "route": "/tu-vung/phat-am",
+    "size": 390,
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "route": "/",
+    "size": 768,
+    "scroll": 756,
+    "width": 768
+  },
+  {
+    "route": "/go-cau",
+    "size": 768,
+    "scroll": 756,
+    "width": 768
+  },
+  {
+    "route": "/tu-vung",
+    "size": 768,
+    "scroll": 756,
+    "width": 768
+  },
+  {
+    "route": "/ngu-phap",
+    "size": 768,
+    "scroll": 756,
+    "width": 768
+  },
+  {
+    "route": "/lo-trinh",
+    "size": 768,
+    "scroll": 756,
+    "width": 768
+  },
+  {
+    "route": "/video",
+    "size": 768,
+    "scroll": 756,
+    "width": 768
+  },
+  {
+    "route": "/luyen-dich-thuat",
+    "size": 768,
+    "scroll": 756,
+    "width": 768
+  },
+  {
+    "route": "/tu-dien",
+    "size": 768,
+    "scroll": 768,
+    "width": 768
+  },
+  {
+    "route": "/ban-be",
+    "size": 768,
+    "scroll": 768,
+    "width": 768
+  },
+  {
+    "route": "/cai-dat",
+    "size": 768,
+    "scroll": 756,
+    "width": 768
+  },
+  {
+    "route": "/yeu-cau-tinh-nang",
+    "size": 768,
+    "scroll": 768,
+    "width": 768
+  },
+  {
+    "route": "/luyen-thi",
+    "size": 768,
+    "scroll": 756,
+    "width": 768
+  },
+  {
+    "route": "/tu-vung/phat-am",
+    "size": 768,
+    "scroll": 756,
+    "width": 768
+  },
+  {
+    "route": "/",
+    "size": 360,
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "route": "/go-cau",
+    "size": 360,
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "route": "/tu-vung",
+    "size": 360,
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "route": "/ngu-phap",
+    "size": 360,
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "route": "/lo-trinh",
+    "size": 360,
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "route": "/video",
+    "size": 360,
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "route": "/luyen-dich-thuat",
+    "size": 360,
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "route": "/tu-dien",
+    "size": 360,
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "route": "/ban-be",
+    "size": 360,
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "route": "/cai-dat",
+    "size": 360,
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "route": "/yeu-cau-tinh-nang",
+    "size": 360,
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "route": "/luyen-thi",
+    "size": 360,
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "route": "/tu-vung/phat-am",
+    "size": 360,
+    "scroll": 360,
+    "width": 360
+  }
+]

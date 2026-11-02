@@ -1,0 +1,1 @@
+function e(e,t){let n=e,r=n?.statusCode&&n.statusCode<500?n.data?.statusMessage:``;return typeof r==`string`&&r.trim()||t}export{e as t};

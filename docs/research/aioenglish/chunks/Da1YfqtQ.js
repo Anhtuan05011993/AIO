@@ -1,0 +1,1 @@
+var e={timeout:8e3,retry:1,retryDelay:()=>300+Math.floor(Math.random()*500)};export{e as t};

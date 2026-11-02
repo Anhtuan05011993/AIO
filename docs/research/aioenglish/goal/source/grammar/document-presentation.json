@@ -1,0 +1,58 @@
+{
+  "tones": {
+    "sec-examples": true,
+    "sec-formula": false,
+    "sec-mistakes-3p": false,
+    "sec-mistakes-c1": true,
+    "sec-mistakes-ps": true,
+    "sec-recap": false,
+    "sec-rule-3p-affirm": true,
+    "sec-rule-3p-negative": false,
+    "sec-rule-3p-question": true,
+    "sec-rule-c1-perfect": false,
+    "sec-rule-c1-reporting": false,
+    "sec-rule-c1-summary": true,
+    "sec-rule-ps-affirm": true,
+    "sec-rule-ps-negative": false,
+    "sec-rule-ps-question": true,
+    "sec-rule-ps-use": false,
+    "sec-signals": false,
+    "sec-tldr": false,
+    "sec-use-3p": false,
+    "sec-use-c1": true,
+    "sec-use-ps": true
+  },
+  "embedded": {
+    "current": [
+      "sec-rule-ps-affirm",
+      "sec-rule-ps-negative",
+      "sec-rule-ps-question",
+      "sec-rule-ps-use",
+      "sec-mistakes-ps"
+    ],
+    "focus": "sec-rule-ps-affirm",
+    "tones": {
+      "sec-examples": false,
+      "sec-formula": false,
+      "sec-mistakes-3p": true,
+      "sec-mistakes-c1": false,
+      "sec-mistakes-ps": false,
+      "sec-recap": true,
+      "sec-rule-3p-affirm": false,
+      "sec-rule-3p-negative": true,
+      "sec-rule-3p-question": false,
+      "sec-rule-c1-perfect": true,
+      "sec-rule-c1-reporting": true,
+      "sec-rule-c1-summary": false,
+      "sec-rule-ps-affirm": false,
+      "sec-rule-ps-negative": true,
+      "sec-rule-ps-question": false,
+      "sec-rule-ps-use": true,
+      "sec-signals": true,
+      "sec-tldr": false,
+      "sec-use-3p": false,
+      "sec-use-c1": true,
+      "sec-use-ps": true
+    }
+  }
+}

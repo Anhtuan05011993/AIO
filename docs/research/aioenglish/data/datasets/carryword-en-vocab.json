@@ -1,0 +1,82 @@
+[
+  {
+    "name": ".gitignore",
+    "path": ".gitignore",
+    "sha": "09efee3f7851f9b3b0920b50012b598310166844",
+    "size": 153,
+    "url": "https://api.github.com/repos/carryword/english-vocabulary/contents/.gitignore?ref=main",
+    "html_url": "https://github.com/carryword/english-vocabulary/blob/main/.gitignore",
+    "git_url": "https://api.github.com/repos/carryword/english-vocabulary/git/blobs/09efee3f7851f9b3b0920b50012b598310166844",
+    "download_url": "https://raw.githubusercontent.com/carryword/english-vocabulary/main/.gitignore",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/carryword/english-vocabulary/contents/.gitignore?ref=main",
+      "git": "https://api.github.com/repos/carryword/english-vocabulary/git/blobs/09efee3f7851f9b3b0920b50012b598310166844",
+      "html": "https://github.com/carryword/english-vocabulary/blob/main/.gitignore"
+    }
+  },
+  {
+    "name": "LICENSE",
+    "path": "LICENSE",
+    "sha": "32f93a0da4fbfb0ad2d7933addb85cf192d7b6ba",
+    "size": 1066,
+    "url": "https://api.github.com/repos/carryword/english-vocabulary/contents/LICENSE?ref=main",
+    "html_url": "https://github.com/carryword/english-vocabulary/blob/main/LICENSE",
+    "git_url": "https://api.github.com/repos/carryword/english-vocabulary/git/blobs/32f93a0da4fbfb0ad2d7933addb85cf192d7b6ba",
+    "download_url": "https://raw.githubusercontent.com/carryword/english-vocabulary/main/LICENSE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/carryword/english-vocabulary/contents/LICENSE?ref=main",
+      "git": "https://api.github.com/repos/carryword/english-vocabulary/git/blobs/32f93a0da4fbfb0ad2d7933addb85cf192d7b6ba",
+      "html": "https://github.com/carryword/english-vocabulary/blob/main/LICENSE"
+    }
+  },
+  {
+    "name": "README.md",
+    "path": "README.md",
+    "sha": "f03f07d3c5f8b373c676907e71b4f4e37012ec98",
+    "size": 4317,
+    "url": "https://api.github.com/repos/carryword/english-vocabulary/contents/README.md?ref=main",
+    "html_url": "https://github.com/carryword/english-vocabulary/blob/main/README.md",
+    "git_url": "https://api.github.com/repos/carryword/english-vocabulary/git/blobs/f03f07d3c5f8b373c676907e71b4f4e37012ec98",
+    "download_url": "https://raw.githubusercontent.com/carryword/english-vocabulary/main/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/carryword/english-vocabulary/contents/README.md?ref=main",
+      "git": "https://api.github.com/repos/carryword/english-vocabulary/git/blobs/f03f07d3c5f8b373c676907e71b4f4e37012ec98",
+      "html": "https://github.com/carryword/english-vocabulary/blob/main/README.md"
+    }
+  },
+  {
+    "name": "data",
+    "path": "data",
+    "sha": "7b6f3bfed3a0b42093e74c18941b1c8a1e05a769",
+    "size": 0,
+    "url": "https://api.github.com/repos/carryword/english-vocabulary/contents/data?ref=main",
+    "html_url": "https://github.com/carryword/english-vocabulary/tree/main/data",
+    "git_url": "https://api.github.com/repos/carryword/english-vocabulary/git/trees/7b6f3bfed3a0b42093e74c18941b1c8a1e05a769",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/carryword/english-vocabulary/contents/data?ref=main",
+      "git": "https://api.github.com/repos/carryword/english-vocabulary/git/trees/7b6f3bfed3a0b42093e74c18941b1c8a1e05a769",
+      "html": "https://github.com/carryword/english-vocabulary/tree/main/data"
+    }
+  },
+  {
+    "name": "stats.json",
+    "path": "stats.json",
+    "sha": "f7a82cacbf05c8e371b585bc63e0a951a1763f59",
+    "size": 1071,
+    "url": "https://api.github.com/repos/carryword/english-vocabulary/contents/stats.json?ref=main",
+    "html_url": "https://github.com/carryword/english-vocabulary/blob/main/stats.json",
+    "git_url": "https://api.github.com/repos/carryword/english-vocabulary/git/blobs/f7a82cacbf05c8e371b585bc63e0a951a1763f59",
+    "download_url": "https://raw.githubusercontent.com/carryword/english-vocabulary/main/stats.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/carryword/english-vocabulary/contents/stats.json?ref=main",
+      "git": "https://api.github.com/repos/carryword/english-vocabulary/git/blobs/f7a82cacbf05c8e371b585bc63e0a951a1763f59",
+      "html": "https://github.com/carryword/english-vocabulary/blob/main/stats.json"
+    }
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "leftSelectsPath": "true",
+  "rightSelectsCore": "true",
+  "beforeResize": "/ngu-phap/chu-de/thi-hien-tai-don/hoc",
+  "afterResize": "/ngu-phap/chu-de/thi-hien-tai-don/hoc"
+}

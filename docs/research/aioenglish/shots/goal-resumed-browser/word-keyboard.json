@@ -1,0 +1,12 @@
+{
+  "keyboard1": {
+    "focus": "Phát âm",
+    "inside": true
+  },
+  "keyboard2": "My",
+  "keyboard3": {
+    "dialogs": 0,
+    "word": "My"
+  },
+  "keyboard4": "mum"
+}

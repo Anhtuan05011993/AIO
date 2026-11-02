@@ -1,0 +1,1 @@
+import{t as e}from"./DyzQuIRG.js";var t=()=>0;function n(){return e(`chat-unread`,t)}export{n as t};

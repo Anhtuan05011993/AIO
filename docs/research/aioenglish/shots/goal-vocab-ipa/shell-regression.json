@@ -1,0 +1,29 @@
+[
+  {
+    "route": "/tong-quan",
+    "metrics": {
+      "mainY": 12,
+      "nav": "rgb(184, 218, 236)",
+      "overflow": false,
+      "w": 360
+    }
+  },
+  {
+    "route": "/go-cau",
+    "metrics": {
+      "mainY": 12,
+      "nav": "rgb(184, 218, 236)",
+      "overflow": false,
+      "w": 360
+    }
+  },
+  {
+    "route": "/tu-vung",
+    "metrics": {
+      "mainY": 12,
+      "nav": "rgb(205, 191, 243)",
+      "overflow": false,
+      "w": 360
+    }
+  }
+]

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 512 512" role="img" aria-label="AIO English">
+<rect width="512" height="512" fill="#F4ECD6"/>
+<g transform="translate(-84 -135) scale(3.4)">
+<path d="M30 90C20 62 22 34 36 26C48 20 70 34 90 52Z" fill="#9a9dab" stroke="#201f1b" stroke-width="3" stroke-linejoin="round"/>
+<path d="M42 76C34 56 36 40 44 36C52 32 64 40 78 52Z" fill="#4b4f5e"/>
+<path d="M170 90C180 62 178 34 164 26C152 20 130 34 110 52Z" fill="#9a9dab" stroke="#201f1b" stroke-width="3" stroke-linejoin="round"/>
+<path d="M158 76C166 56 164 40 156 36C148 32 136 40 122 52Z" fill="#4b4f5e"/>
+<path d="M100 38C146 38 176 62 178 98L192 108L180 114L189 125L175 128C166 156 136 172 100 172C64 172 34 156 25 128L11 125L20 114L8 108L22 98C24 62 54 38 100 38Z" fill="#a3a6b4" stroke="#201f1b" stroke-width="3" stroke-linejoin="round"/>
+<path d="M100 40C93 52 93 66 100 78C107 66 107 52 100 40Z" fill="#6b6f7e"/>
+<ellipse cx="62" cy="82" rx="16" ry="6.5" transform="rotate(-12 62 82)" fill="#e3e5ec"/>
+<ellipse cx="138" cy="82" rx="16" ry="6.5" transform="rotate(12 138 82)" fill="#e3e5ec"/>
+<ellipse cx="66" cy="106" rx="32" ry="21" transform="rotate(-14 66 106)" fill="#3d4159"/>
+<ellipse cx="134" cy="106" rx="32" ry="21" transform="rotate(14 134 106)" fill="#3d4159"/>
+<ellipse cx="100" cy="137" rx="31" ry="23" fill="#f1f2f6"/>
+<ellipse cx="42" cy="136" rx="11" ry="6.5" fill="#f39a9a"/>
+<ellipse cx="158" cy="136" rx="11" ry="6.5" fill="#f39a9a"/>
+<circle cx="68" cy="106" r="12" fill="#141414"/>
+<circle cx="72.5" cy="101" r="4.4" fill="#ffffff"/>
+<circle cx="63.5" cy="110.5" r="1.9" fill="#ffffff"/>
+<circle cx="132" cy="106" r="12" fill="#141414"/>
+<circle cx="136.5" cy="101" r="4.4" fill="#ffffff"/>
+<circle cx="127.5" cy="110.5" r="1.9" fill="#ffffff"/>
+<path d="M89.5 119C89.5 112.5 110.5 112.5 110.5 119C110.5 124.5 104 128 100 128C96 128 89.5 124.5 89.5 119Z" fill="#201f1b"/>
+<ellipse cx="95.5" cy="117" rx="3.4" ry="2" fill="#ffffff" fill-opacity="0.45"/>
+<path d="M88 135Q94 138 100 132Q106 138 112 135C112 149 106 155 100 155C94 155 88 149 88 135Z" fill="#8c2f3c"/>
+<path d="M92 149Q100 141 108 149Q104 154.5 100 154.5Q96 154.5 92 149Z" fill="#f28a8a"/>
+<path d="M88 135C88 149 94 155 100 155C106 155 112 149 112 135" fill="none" stroke="#201f1b" stroke-width="2.8" stroke-linecap="round"/>
+<path d="M100 127.5V132M84 132Q92 140 100 132Q108 140 116 132" fill="none" stroke="#201f1b" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

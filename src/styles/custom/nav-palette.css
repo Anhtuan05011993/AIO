@@ -1,0 +1,12 @@
+/* Palette observed on source sidebar and active quick navigation, 02/11. */
+.lp-app[data-ui-scroll] .nbx-rail-in a[data-ui-nav][aria-current="page"],
+.lp-app[data-ui-scroll] .ui-bottom-nav a[data-ui-nav][aria-current="page"] {
+  background: var(--nb-x-fb);
+  box-shadow: 0 8px 14px -10px var(--nb-x-fc);
+}
+.lp-app[data-ui-scroll] a[data-ui-nav] .nbx-tile {
+  background: var(--nb-x-fb);
+}
+.lp-app[data-ui-scroll] a[data-ui-nav][aria-current="page"] .nbx-tile {
+  background: #ffffffb3;
+}

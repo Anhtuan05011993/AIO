@@ -1,0 +1,130 @@
+{
+  "thi-hien-tai-don": {
+    "sec-formula": [
+      {
+        "headers": [
+          "Điểm",
+          "Khẳng định",
+          "Phủ định",
+          "Câu hỏi"
+        ],
+        "rows": [
+          [
+            "Hiện tại đơn với I/you/we/they",
+            "S + V",
+            "S + don't + V",
+            "Do + S + V?"
+          ],
+          [
+            "Hiện tại đơn với he/she/it",
+            "S + V-s/-es",
+            "S + doesn't + V",
+            "Does + S + V?"
+          ]
+        ],
+        "type": "table"
+      },
+      {
+        "text": "Ký hiệu:\n- S = chủ ngữ (người/vật làm chủ câu)\n- V = động từ nguyên thể\n- V-s/-es = động từ thêm -s hoặc -es\n- V2 = động từ ở quá khứ đơn (found, showed)\n- V3 = quá khứ phân từ (shown, found)\n- mệnh đề = cụm có chủ ngữ và động từ riêng",
+        "type": "paragraph"
+      },
+      {
+        "text": "Thì hiện tại trong văn học thuật",
+        "type": "heading"
+      },
+      {
+        "lines": [
+          "S + V/V-s + that + mệnh đề",
+          "Research + has + V3 + that + mệnh đề",
+          "In + năm, Tên + V2 + that + mệnh đề"
+        ],
+        "type": "formula"
+      }
+    ],
+    "sec-mistakes-ps": [
+      {
+        "headers": [
+          "Sai",
+          "Đúng",
+          "Vì sao"
+        ],
+        "rows": [
+          [
+            "I am go to school.",
+            "I go to school.",
+            "Động từ thường không cần am/is/are."
+          ],
+          [
+            "Are you like music?",
+            "Do you like music?",
+            "Câu hỏi với động từ thường cần Do đứng đầu."
+          ],
+          [
+            "Yes, I like.",
+            "Yes, I do.",
+            "Trả lời ngắn dùng do, không lặp động từ chính."
+          ]
+        ],
+        "type": "table"
+      },
+      {
+        "text": "Tiếng Việt hỏi bằng \"có … không\", còn câu hỏi Yes/No với động từ thường cần Do đứng đầu.",
+        "tone": "note",
+        "type": "callout"
+      }
+    ],
+    "sec-rule-ps-negative": [
+      {
+        "text": "Trợ động từ là từ đứng thêm vào để tạo câu phủ định và câu hỏi. Với I/you/we/they, trợ động từ của động từ thường là do.",
+        "type": "paragraph"
+      },
+      {
+        "text": "Để phủ định, đặt don't (= do not) trước động từ. Động từ vẫn giữ nguyên thể.",
+        "type": "paragraph"
+      },
+      {
+        "lines": [
+          "S + don't + V",
+          "S + do not + V"
+        ],
+        "type": "formula"
+      },
+      {
+        "items": [
+          {
+            "en": "I don't eat meat.",
+            "focus": [
+              "don't",
+              "eat"
+            ],
+            "vi": "Tôi không ăn thịt."
+          },
+          {
+            "en": "We do not have classes on Sundays.",
+            "focus": [
+              "do",
+              "not",
+              "have"
+            ],
+            "vi": "Chúng tôi không có tiết học vào Chủ nhật."
+          }
+        ],
+        "type": "examples"
+      },
+      {
+        "text": "Hai cách viết:\n- don't: thường dùng khi nói chuyện hằng ngày\n- do not: trang trọng hơn, hay gặp trong văn viết",
+        "tone": "tip",
+        "type": "callout"
+      },
+      {
+        "items": [
+          {
+            "href": "/ngu-phap/a1-present-simple",
+            "label": "Luyện: Hiện tại đơn với I/you/we/they"
+          }
+        ],
+        "type": "practice"
+      }
+    ]
+  }
+}

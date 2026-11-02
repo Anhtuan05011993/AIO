@@ -1,0 +1,203 @@
+/* pages2.css — Agent D2 page styles (prefix lp-).
+   The site CSS (src/styles/source/entry.css) is PRECOMPILED — utilities the source
+   never used don't exist, so the missing pieces live here, on top of the app's
+   own .nbc-* / .nbx-* component classes. */
+
+/* ---------- shared ---------- */
+
+/* 4-up stat grid (sm:grid-cols-4 / md:grid-cols-4 were never used by the source). */
+.lp-cols-4 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (min-width: 640px) {
+  .lp-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* .nbc-frow has a fixed 4-col grid (36px 120px auto 1fr) — this variant lets the
+   middle column breathe and wraps the trailing meta under the title on phones. */
+.lp-frow-auto {
+  grid-template-columns: auto minmax(0, 1fr) auto;
+}
+
+.lp-frow-auto > .lp-frow-name {
+  grid-column: 2;
+  align-self: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lp-frow-auto > p {
+  grid-column: 2;
+  grid-row: 2;
+  margin: 0;
+}
+
+.lp-frow-auto > .lp-frow-end {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  min-width: 0;
+}
+
+@media (max-width: 520px) {
+  .lp-frow-auto {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .lp-frow-auto > .lp-frow-end {
+    grid-column: 2;
+    grid-row: 3;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+}
+
+/* Settings rows that hold a pill group: keep pills from squeezing the label. */
+.nbc-srow.is-top {
+  align-items: start;
+}
+
+@media (max-width: 640px) {
+  .nbc-srow.is-top {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Textarea mirrors .nbc-inp (the source only styles single-line inputs). */
+.lp-ta {
+  background: var(--nb-field);
+  border: 1.5px solid color-mix(in srgb, var(--nb-ink) 20%, transparent);
+  border-radius: 13px;
+  min-height: 7.5rem;
+  padding: 0.625rem 0.875rem;
+  color: var(--nb-ink);
+  font: 700 1rem/1.5 var(--nb-font-body);
+  outline: 0;
+  resize: vertical;
+  transition: border-color var(--nb-d-hover) var(--nb-e-hover), box-shadow var(--nb-d-hover) var(--nb-e-hover);
+}
+
+.lp-ta::placeholder {
+  color: var(--nb-mut);
+  font-weight: 600;
+}
+
+.lp-ta:focus {
+  border-color: var(--nb-ink);
+  box-shadow: 0 0 0 3px var(--nb-act);
+}
+
+.lp-ta.is-err {
+  border-color: var(--nb-bad);
+  box-shadow: 0 0 0 3px var(--nb-bad-p);
+}
+
+/* ---------- /luyen-thi empty state ---------- */
+
+.lp-soon {
+  align-items: center;
+  gap: 0.75rem;
+  text-align: center;
+  padding: 2.25rem 1.25rem;
+}
+
+.lp-soon-art {
+  filter: drop-shadow(0 12px 14px rgb(32 31 27 / 0.1));
+}
+
+/* ---------- /chao-mung onboarding wizard ---------- */
+
+.lp-wiz {
+  min-height: 100vh;
+}
+
+.lp-wiz-shell {
+  padding: 1.5rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .lp-wiz-shell {
+    padding: 2.25rem 1rem;
+  }
+}
+
+.lp-wiz-logo {
+  width: 150px;
+  display: block;
+}
+
+.lp-wiz-logo svg {
+  width: 100%;
+  height: auto;
+}
+
+.lp-wiz-steps {
+  flex-wrap: wrap;
+  gap: 6px 4px;
+}
+
+.lp-wiz-step-body {
+  margin-top: 0.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.lp-wiz-sub {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .lp-wiz-intro {
+    position: sticky;
+    top: 1.5rem;
+  }
+}
+
+.lp-wiz-acts {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Accent option card with an embedded "Nghe" button:
+   the hit overlay covers the card, the Nghe button sits above it. */
+.lp-opt {
+  position: relative;
+}
+
+.lp-opt-hit {
+  position: absolute;
+  inset: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  border-radius: inherit;
+}
+
+.lp-opt .nbc-hlink {
+  position: relative;
+  z-index: 1;
+}
+
+.lp-opt.is-on .nbc-hlink {
+  background: color-mix(in srgb, var(--nb-on-ink) 12%, transparent);
+  border-color: color-mix(in srgb, var(--nb-on-ink) 35%, transparent);
+  color: var(--nb-on-ink);
+}

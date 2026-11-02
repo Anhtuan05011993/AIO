@@ -1,0 +1,98 @@
+[
+  {
+    "cols": "3",
+    "groups": [
+      [
+        "np-grp-thi-the",
+        "np-grp-khuyet-thieu",
+        "np-grp-cau-hoi"
+      ],
+      [
+        "np-grp-phu-dinh-dao-ngu",
+        "np-grp-danh-tu-han-dinh",
+        "np-grp-dai-tu",
+        "np-grp-tinh-tu-trang-tu",
+        "np-grp-menh-de"
+      ],
+      [
+        "np-grp-dieu-kien-gia-dinh",
+        "np-grp-bi-dong-cau-khien",
+        "np-grp-loi-noi-gian-tiep",
+        "np-grp-mau-dong-tu",
+        "np-grp-gioi-tu-cum-dong-tu",
+        "np-grp-cau-truc-cau"
+      ]
+    ],
+    "viewport": 1440,
+    "width": 1160
+  },
+  {
+    "cols": "1",
+    "groups": [
+      [
+        "np-grp-thi-the",
+        "np-grp-khuyet-thieu",
+        "np-grp-cau-hoi",
+        "np-grp-phu-dinh-dao-ngu",
+        "np-grp-danh-tu-han-dinh",
+        "np-grp-dai-tu",
+        "np-grp-tinh-tu-trang-tu",
+        "np-grp-menh-de",
+        "np-grp-dieu-kien-gia-dinh",
+        "np-grp-bi-dong-cau-khien",
+        "np-grp-loi-noi-gian-tiep",
+        "np-grp-mau-dong-tu",
+        "np-grp-gioi-tu-cum-dong-tu",
+        "np-grp-cau-truc-cau"
+      ]
+    ],
+    "viewport": 768,
+    "width": 644
+  },
+  {
+    "cols": "1",
+    "groups": [
+      [
+        "np-grp-thi-the",
+        "np-grp-khuyet-thieu",
+        "np-grp-cau-hoi",
+        "np-grp-phu-dinh-dao-ngu",
+        "np-grp-danh-tu-han-dinh",
+        "np-grp-dai-tu",
+        "np-grp-tinh-tu-trang-tu",
+        "np-grp-menh-de",
+        "np-grp-dieu-kien-gia-dinh",
+        "np-grp-bi-dong-cau-khien",
+        "np-grp-loi-noi-gian-tiep",
+        "np-grp-mau-dong-tu",
+        "np-grp-gioi-tu-cum-dong-tu",
+        "np-grp-cau-truc-cau"
+      ]
+    ],
+    "viewport": 390,
+    "width": 366
+  },
+  {
+    "cols": "1",
+    "groups": [
+      [
+        "np-grp-thi-the",
+        "np-grp-khuyet-thieu",
+        "np-grp-cau-hoi",
+        "np-grp-phu-dinh-dao-ngu",
+        "np-grp-danh-tu-han-dinh",
+        "np-grp-dai-tu",
+        "np-grp-tinh-tu-trang-tu",
+        "np-grp-menh-de",
+        "np-grp-dieu-kien-gia-dinh",
+        "np-grp-bi-dong-cau-khien",
+        "np-grp-loi-noi-gian-tiep",
+        "np-grp-mau-dong-tu",
+        "np-grp-gioi-tu-cum-dong-tu",
+        "np-grp-cau-truc-cau"
+      ]
+    ],
+    "viewport": 360,
+    "width": 336
+  }
+]

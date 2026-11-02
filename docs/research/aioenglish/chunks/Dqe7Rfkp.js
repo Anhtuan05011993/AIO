@@ -1,0 +1,1 @@
+import{n as e}from"./ExoXxtUj.js";import"./1CvhWi-x.js";var t=t=>e.indexOf(t);function n(e){return t(e)>t(`B1`)?e:`B1`}var r=(e,t)=>e??n(t);export{r as n,n as t};

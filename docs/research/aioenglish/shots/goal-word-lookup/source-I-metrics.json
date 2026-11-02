@@ -1,0 +1,82 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "box": {
+      "bottom": 424.375,
+      "height": 227,
+      "left": 137.15625,
+      "right": 521.15625,
+      "top": 197.375,
+      "width": 384,
+      "x": 137.15625,
+      "y": 197.375
+    },
+    "style": "left: 137.156px; bottom: 475.625px;",
+    "text": "I/aɪ/Đại từtôiĐại từtôi, tớ, mình",
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "box": {
+      "bottom": 486.1875,
+      "height": 227,
+      "left": 8,
+      "right": 392,
+      "top": 259.1875,
+      "width": 384,
+      "x": 8,
+      "y": 259.1875
+    },
+    "style": "left: 8px; bottom: 537.812px;",
+    "text": "I/aɪ/Đại từtôiĐại từtôi, tớ, mình",
+    "viewport": {
+      "height": 1024,
+      "width": 768
+    }
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "box": {
+      "bottom": 824,
+      "height": 175,
+      "left": 15.59375,
+      "right": 374.390625,
+      "top": 649,
+      "width": 358.796875,
+      "x": 15.59375,
+      "y": 649
+    },
+    "style": null,
+    "text": "I/aɪ/Đại từtôiĐại từtôi, tớ, mình",
+    "viewport": {
+      "height": 844,
+      "width": 390
+    }
+  },
+  {
+    "width": 360,
+    "height": 844,
+    "box": {
+      "bottom": 824,
+      "height": 175,
+      "left": 14.40625,
+      "right": 345.59375,
+      "top": 649,
+      "width": 331.1875,
+      "x": 14.40625,
+      "y": 649
+    },
+    "style": null,
+    "text": "I/aɪ/Đại từtôiĐại từtôi, tớ, mình",
+    "viewport": {
+      "height": 844,
+      "width": 360
+    }
+  }
+]

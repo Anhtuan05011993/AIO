@@ -1,0 +1,354 @@
+[
+  {
+    "blocks": [
+      {
+        "r": {
+          "bottom": 818.9375,
+          "height": 656.25,
+          "left": 258,
+          "right": 638,
+          "top": 162.6875,
+          "width": 380,
+          "x": 258,
+          "y": 162.6875
+        },
+        "s": ".pj-goal"
+      },
+      {
+        "r": {
+          "bottom": 1352.9375,
+          "height": 514,
+          "left": 258,
+          "right": 638,
+          "top": 838.9375,
+          "width": 380,
+          "x": 258,
+          "y": 838.9375
+        },
+        "s": ".pj-index"
+      },
+      {
+        "r": {
+          "bottom": 1927.9375,
+          "height": 1765.25,
+          "left": 658,
+          "right": 1418,
+          "top": 162.6875,
+          "width": 760,
+          "x": 658,
+          "y": 162.6875
+        },
+        "s": ".pj-chap"
+      }
+    ],
+    "header": {
+      "bottom": 142.6875,
+      "height": 126.6875,
+      "left": 258,
+      "right": 1418,
+      "top": 16,
+      "width": 1160,
+      "x": 258,
+      "y": 16
+    },
+    "height": 900,
+    "overflow": -12,
+    "view": "journey",
+    "width": 1440
+  },
+  {
+    "blocks": [
+      {
+        "r": {
+          "bottom": 838.8125,
+          "height": 638.125,
+          "left": 12,
+          "right": 744,
+          "top": 200.6875,
+          "width": 732,
+          "x": 12,
+          "y": 200.6875
+        },
+        "s": ".pj-goal"
+      },
+      {
+        "r": {
+          "bottom": 1366.8125,
+          "height": 514,
+          "left": 12,
+          "right": 744,
+          "top": 852.8125,
+          "width": 732,
+          "x": 12,
+          "y": 852.8125
+        },
+        "s": ".pj-index"
+      },
+      {
+        "r": {
+          "bottom": 3287.359375,
+          "height": 1765.25,
+          "left": 12,
+          "right": 744,
+          "top": 1522.109375,
+          "width": 732,
+          "x": 12,
+          "y": 1522.109375
+        },
+        "s": ".pj-chap"
+      }
+    ],
+    "header": {
+      "bottom": 180.6875,
+      "height": 126.6875,
+      "left": 12,
+      "right": 744,
+      "top": 54,
+      "width": 732,
+      "x": 12,
+      "y": 54
+    },
+    "height": 1024,
+    "overflow": -12,
+    "view": "journey",
+    "width": 768
+  },
+  {
+    "blocks": [
+      {
+        "r": {
+          "bottom": 816.25,
+          "height": 634.25,
+          "left": 12,
+          "right": 378,
+          "top": 182,
+          "width": 366,
+          "x": 12,
+          "y": 182
+        },
+        "s": ".pj-goal"
+      },
+      {
+        "r": {
+          "bottom": 1334.25,
+          "height": 504,
+          "left": 12,
+          "right": 378,
+          "top": 830.25,
+          "width": 366,
+          "x": 12,
+          "y": 830.25
+        },
+        "s": ".pj-index"
+      },
+      {
+        "r": {
+          "bottom": 3255.984375,
+          "height": 1776.4375,
+          "left": 12,
+          "right": 378,
+          "top": 1479.546875,
+          "width": 366,
+          "x": 12,
+          "y": 1479.546875
+        },
+        "s": ".pj-chap"
+      }
+    ],
+    "header": {
+      "bottom": 168,
+      "height": 116,
+      "left": 12,
+      "right": 378,
+      "top": 52,
+      "width": 366,
+      "x": 12,
+      "y": 52
+    },
+    "height": 844,
+    "overflow": 0,
+    "view": "journey",
+    "width": 390
+  },
+  {
+    "blocks": [
+      {
+        "r": {
+          "bottom": 837.25,
+          "height": 655.25,
+          "left": 12,
+          "right": 348,
+          "top": 182,
+          "width": 336,
+          "x": 12,
+          "y": 182
+        },
+        "s": ".pj-goal"
+      },
+      {
+        "r": {
+          "bottom": 1355.25,
+          "height": 504,
+          "left": 12,
+          "right": 348,
+          "top": 851.25,
+          "width": 336,
+          "x": 12,
+          "y": 851.25
+        },
+        "s": ".pj-index"
+      },
+      {
+        "r": {
+          "bottom": 3292.984375,
+          "height": 1792.4375,
+          "left": 12,
+          "right": 348,
+          "top": 1500.546875,
+          "width": 336,
+          "x": 12,
+          "y": 1500.546875
+        },
+        "s": ".pj-chap"
+      }
+    ],
+    "header": {
+      "bottom": 168,
+      "height": 116,
+      "left": 12,
+      "right": 348,
+      "top": 52,
+      "width": 336,
+      "x": 12,
+      "y": 52
+    },
+    "height": 844,
+    "overflow": 0,
+    "view": "journey",
+    "width": 360
+  },
+  {
+    "blocks": [
+      {
+        "r": {
+          "bottom": 893.6875,
+          "height": 781,
+          "left": 258,
+          "right": 1146,
+          "top": 112.6875,
+          "width": 888,
+          "x": 258,
+          "y": 112.6875
+        },
+        "s": ".ui-map-frame"
+      }
+    ],
+    "header": {
+      "bottom": 92.6875,
+      "height": 76.6875,
+      "left": 258,
+      "right": 1418,
+      "top": 16,
+      "width": 1160,
+      "x": 258,
+      "y": 16
+    },
+    "height": 900,
+    "overflow": -12,
+    "view": "knowledge",
+    "width": 1440
+  },
+  {
+    "blocks": [
+      {
+        "r": {
+          "bottom": 944.6875,
+          "height": 734,
+          "left": 12,
+          "right": 744,
+          "top": 210.6875,
+          "width": 732,
+          "x": 12,
+          "y": 210.6875
+        },
+        "s": ".ui-map-frame"
+      }
+    ],
+    "header": {
+      "bottom": 130.6875,
+      "height": 76.6875,
+      "left": 12,
+      "right": 744,
+      "top": 54,
+      "width": 732,
+      "x": 12,
+      "y": 54
+    },
+    "height": 1024,
+    "overflow": -12,
+    "view": "knowledge",
+    "width": 768
+  },
+  {
+    "blocks": [
+      {
+        "r": {
+          "bottom": 796,
+          "height": 554,
+          "left": 12,
+          "right": 378,
+          "top": 242,
+          "width": 366,
+          "x": 12,
+          "y": 242
+        },
+        "s": ".ui-map-frame"
+      }
+    ],
+    "header": {
+      "bottom": 168,
+      "height": 116,
+      "left": 12,
+      "right": 378,
+      "top": 52,
+      "width": 366,
+      "x": 12,
+      "y": 52
+    },
+    "height": 844,
+    "overflow": 0,
+    "view": "knowledge",
+    "width": 390
+  },
+  {
+    "blocks": [
+      {
+        "r": {
+          "bottom": 796,
+          "height": 554,
+          "left": 12,
+          "right": 348,
+          "top": 242,
+          "width": 336,
+          "x": 12,
+          "y": 242
+        },
+        "s": ".ui-map-frame"
+      }
+    ],
+    "header": {
+      "bottom": 168,
+      "height": 116,
+      "left": 12,
+      "right": 348,
+      "top": 52,
+      "width": 336,
+      "x": 12,
+      "y": 52
+    },
+    "height": 844,
+    "overflow": 0,
+    "view": "knowledge",
+    "width": 360
+  }
+]

@@ -1,0 +1,1 @@
+function e(e={dev:!1,test:!1}){return!0}export{e as t};

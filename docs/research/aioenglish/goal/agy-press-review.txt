@@ -1,0 +1,95 @@
+Here is the code review focused strictly on the specified scope, concrete defects, and code provided.
+
+---
+
+### 1. URL State & History Management
+
+* **`replaceState` used unconditionally for pagination and filtering**:
+  In `update()`:
+  ```ts
+  window.history.replaceState(null, '', href(next, q, cat) + window.location.hash);
+  ```
+  Every page change and filter click overwrites the current history entry rather than pushing a new one. This breaks the browser's Back/Forward navigation (users cannot step back to previous pages or filters) and renders the `popstate` listener ineffective for in-app navigation.
+* **Bypassing Next.js router**:
+  In `pager`:
+  ```ts
+  onClick={e => {
+    if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
+    e.preventDefault();
+    update(query, topic, n);
+    ...
+  }}
+  ```
+  Calling `e.preventDefault()` on `<Link>` and updating the URL exclusively via `window.history.replaceState` bypasses Next.js's router state. Hooks such as `useSearchParams` or `usePathname` in surrounding layouts/components will not be notified of URL changes.
+* **Unthrottled `history.replaceState` on search input**:
+  `<input onChange={e => update(e.target.value, topic)} />` executes `window.history.replaceState` synchronously on every keystroke. Fast typing or holding Backspace triggers browser rate-limiting (e.g., WebKit/Safari throws `SecurityError: Attempt to use history.replaceState() more than 100 times per 30 seconds`).
+* **Prop desynchronization across re-renders**:
+  `query`, `topic`, and `page` are initialized via `useState(initialQuery)`, `useState(initialTopic)`, and `useState(initialPage)`. If `paper` or the `initial*` props change (e.g., on client navigation between papers), the component retains stale state from the previous paper because there is no `useEffect` or keying to synchronize state with updated props.
+
+---
+
+### 2. Search, Filter & Pagination Consistency
+
+* **Broken Vietnamese slugification for uppercase 'Đ'**:
+  ```ts
+  const slugify = (v: string) =>
+    v.normalize('NFD')
+     .replace(/[\u0300-\u036f]/g, '')
+     .replace(/đ/g, 'd')
+     .toLowerCase()
+     .replace(/[^a-z0-9]+/g, '-')
+     .replace(/^-|-$/g, '');
+  ```
+  In Unicode NFD, 'Đ' (`U+0110`) does not decompose. Because `.replace(/đ/g, 'd')` is lowercase-only and executed *before* `.toLowerCase()`, 'Đ' is untouched, turned into `đ` by `.toLowerCase()`, and then stripped out by `replace(/[^a-z0-9]+/g, '-')`.
+  - Example: `slugify("Đời sống")` produces `"oi-song"` instead of `"doi-song"`. Any topic or URL containing initial 'Đ' fails to match standard slugs.
+* **Hardcoded pagination window hides active page when `current > 5`**:
+  ```tsx
+  {Array.from({length: Math.min(5, last)}, (_, i) => pager(i + 1))}
+  {last > 5 && <><span className="pp-dots">…</span>{pager(last)}</>}
+  ```
+  The numeric pager always renders pages `1, 2, 3, 4, 5, …, last`. When `current` is between 6 and `last - 1`:
+  - The active page button is not rendered in the DOM.
+  - `aria-current="page"` is completely absent from the pagination bar.
+  - Users have no visual or assistive feedback showing which page they are on.
+* **Spurious ellipsis on adjacent pages (`last === 6`)**:
+  When `last === 6`, `Math.min(5, 6)` renders pages 1–5, and `last > 5` appends `… 6`. This outputs `1 2 3 4 5 … 6`, rendering an ellipsis between two consecutive numbers.
+* **Untrimmed whitespace affects `last` calculation and `href`**:
+  ```ts
+  const last = query || topic ? Math.max(1, Math.ceil(filtered.length / 12)) : paper === 'the-atlantic' ? 19 : 27;
+  ```
+  If `query` contains only whitespace (`"   "`), `query` is truthy, so `last` computes `Math.ceil(filtered.length / 12)` (often collapsing total pages to 1), even though `filtered` checks `!query.trim()` and includes all items. `href()` also outputs `?q=+++` for whitespace-only input.
+* **Fragile scroll target**:
+  `document.querySelector('main')?.scrollTo({top: 0, behavior: 'instant'})` assumes `<main>` is present and is the scroll container. `PressLibrary` defines no `<main>` element, and in standard Next.js setups viewport scrolling resides on `window`. If `<main>` is not an overflow container, scroll-to-top fails silently.
+
+---
+
+### 3. Keyboard, ARIA & Focus Management
+
+* **Conflicting ARIA attributes on topic filter trigger**:
+  ```tsx
+  <button
+    data-testid="press-topic-trigger"
+    aria-expanded={!!filter}
+    aria-pressed={!!topic}
+  ...
+  ```
+  A button cannot simultaneously be a disclosure/popup widget (`aria-expanded`) and a toggle button (`aria-pressed`). This causes screen readers to announce conflicting roles and states. The trigger should use `aria-expanded` and `aria-haspopup="dialog"`.
+* **Missing focus restoration on popover dismiss**:
+  When `VocabPopover` closes (`onClose={() => setFilter(null)}`), focus is not returned to `press-topic-trigger`, causing keyboard focus to be dumped onto `document.body`.
+* **Invalid `aria-disabled` on generic `<span>`**:
+  ```tsx
+  {current > 1 ? pager(current - 1, 'Trước') : <span className="nbc-btn is-soft is-sm pp-off" aria-disabled="true">Trước</span>}
+  ```
+  Under WAI-ARIA 1.2, `aria-disabled` is not valid on generic elements (`role="generic"` / raw `<span>`). Assistive technologies ignore it, and keyboard users cannot discover that a disabled "Trước" or "Tiếp" boundary exists. It should be a `<button disabled type="button">` or an `<a>` with `role="link"`, `aria-disabled="true"`, and `tabIndex={-1}`.
+* **Redundant accessible name in card anchors**:
+  In both the hero card and the grid cards:
+  ```tsx
+  <a href={articleHref(a.id)} ...>
+    <img src={image(a.id)} alt={a.title ?? ''} />
+    <h3>{a.title}</h3>
+    ...
+  </a>
+  ```
+  Because the image has `alt={a.title}` and is contained inside the same anchor as the `<h3>{a.title}</h3>`, screen readers announce the article title twice in a row for every single card. The thumbnail image should have `alt=""` or `aria-hidden="true"`.
+* **Missing live region for search/filter updates**:
+  When users type in search or toggle topic chips, result counts update dynamically without an `aria-live="polite"` status announcement (only the 0-result empty state has `role="status"`). Screen reader users receive no feedback that the list changed.

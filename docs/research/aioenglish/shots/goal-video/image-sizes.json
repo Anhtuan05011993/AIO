@@ -1,0 +1,112 @@
+[
+  {
+    "file": "browse-1440.jpg",
+    "width": 1440,
+    "height": 900
+  },
+  {
+    "file": "browse-360.jpg",
+    "width": 360,
+    "height": 844
+  },
+  {
+    "file": "browse-390.jpg",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "browse-768.jpg",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "file": "desktop.jpg",
+    "width": 1440,
+    "height": 900
+  },
+  {
+    "file": "mine-360.jpg",
+    "width": 360,
+    "height": 844
+  },
+  {
+    "file": "mine-390.jpg",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "mine-768.jpg",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "file": "mine-desktop.jpg",
+    "width": 1440,
+    "height": 900
+  },
+  {
+    "file": "production-browse-1440.jpg",
+    "width": 1440,
+    "height": 900
+  },
+  {
+    "file": "production-browse-360.jpg",
+    "width": 360,
+    "height": 844
+  },
+  {
+    "file": "production-browse-390.jpg",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "production-browse-768.jpg",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "file": "production-browse-full-360.jpg",
+    "width": 360,
+    "height": 2922
+  },
+  {
+    "file": "production-filters-360.jpg",
+    "width": 360,
+    "height": 844
+  },
+  {
+    "file": "production-mine-1440.jpg",
+    "width": 1440,
+    "height": 900
+  },
+  {
+    "file": "production-mine-360.jpg",
+    "width": 360,
+    "height": 844
+  },
+  {
+    "file": "production-mine-390.jpg",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "production-mine-768.jpg",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "file": "production-mode-360.jpg",
+    "width": 360,
+    "height": 844
+  },
+  {
+    "file": "source-browse-viewport-360.jpg",
+    "width": 360,
+    "height": 844
+  },
+  {
+    "file": "source-filters-360.jpg",
+    "width": 360,
+    "height": 844
+  }
+]

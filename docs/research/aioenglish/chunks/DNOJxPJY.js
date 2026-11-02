@@ -1,0 +1,1 @@
+function e(e){return e<3?`podium`:e<10?`high`:`list`}var t=`lh-sb-tab`,n=`lh-xb-tab`,r=(e,t)=>e.startsWith(`u:`)?`${t}:${e.slice(2)}`:null;function i(e,n,i=t){let a=r(n,i);if(!a)return`all`;try{return e?.getItem(a)===`friends`?`friends`:`all`}catch{return`all`}}function a(e,n,i,a=t){let o=r(n,a);if(o)try{e?.setItem(o,i)}catch{}}export{a as i,i as n,e as r,n as t};

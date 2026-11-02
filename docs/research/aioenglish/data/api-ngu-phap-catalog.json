@@ -1,0 +1,4254 @@
+{
+  "v": 1,
+  "app": "tienganh",
+  "groups": [
+    {
+      "id": "thi-the",
+      "label": "Thì & thể"
+    },
+    {
+      "id": "khuyet-thieu",
+      "label": "Động từ khuyết thiếu"
+    },
+    {
+      "id": "cau-hoi",
+      "label": "Câu hỏi"
+    },
+    {
+      "id": "phu-dinh-dao-ngu",
+      "label": "Phủ định & đảo ngữ"
+    },
+    {
+      "id": "danh-tu-han-dinh",
+      "label": "Danh từ & từ hạn định"
+    },
+    {
+      "id": "dai-tu",
+      "label": "Đại từ"
+    },
+    {
+      "id": "tinh-tu-trang-tu",
+      "label": "Tính từ, trạng từ & so sánh"
+    },
+    {
+      "id": "menh-de",
+      "label": "Mệnh đề"
+    },
+    {
+      "id": "dieu-kien-gia-dinh",
+      "label": "Điều kiện & giả định"
+    },
+    {
+      "id": "bi-dong-cau-khien",
+      "label": "Bị động & cầu khiến"
+    },
+    {
+      "id": "loi-noi-gian-tiep",
+      "label": "Lời nói gián tiếp"
+    },
+    {
+      "id": "mau-dong-tu",
+      "label": "Mẫu động từ (to V / V-ing)"
+    },
+    {
+      "id": "gioi-tu-cum-dong-tu",
+      "label": "Giới từ & cụm động từ"
+    },
+    {
+      "id": "cau-truc-cau",
+      "label": "Cấu trúc câu & nhấn mạnh"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a1-to-be",
+      "order": 0,
+      "level": "A1",
+      "title": "Động từ to be: am, is, are",
+      "titleEn": "The verb be: am, is, are",
+      "topic": "dong-tu-be-have-got",
+      "counts": {
+        "transform": 41,
+        "fix": 23,
+        "gap": 32,
+        "choice": 30
+      },
+      "rev": "183405c8"
+    },
+    {
+      "id": "a1-plural-nouns",
+      "order": 1,
+      "level": "A1",
+      "title": "Danh từ số nhiều",
+      "titleEn": "Plural nouns",
+      "topic": "danh-tu",
+      "counts": {
+        "transform": 25,
+        "fix": 20,
+        "gap": 18,
+        "choice": 18
+      },
+      "rev": "6ba74504"
+    },
+    {
+      "id": "a1-articles",
+      "order": 2,
+      "level": "A1",
+      "title": "Mạo từ a, an, the",
+      "titleEn": "Articles: a, an, the",
+      "topic": "mao-tu-chi-dinh",
+      "counts": {
+        "transform": 33,
+        "fix": 24,
+        "gap": 32,
+        "choice": 30
+      },
+      "rev": "6ccd365a"
+    },
+    {
+      "id": "a1-adjectives",
+      "order": 3,
+      "level": "A1",
+      "title": "Tính từ mô tả",
+      "titleEn": "Descriptive adjectives",
+      "topic": "tinh-tu",
+      "counts": {
+        "transform": 0,
+        "fix": 29,
+        "gap": 15,
+        "choice": 15
+      },
+      "rev": "26bbf41a"
+    },
+    {
+      "id": "a1-to-be-negative",
+      "order": 4,
+      "level": "A1",
+      "title": "Phủ định với to be",
+      "titleEn": "be: negative",
+      "topic": "dong-tu-be-have-got",
+      "counts": {
+        "transform": 26,
+        "fix": 18,
+        "gap": 23,
+        "choice": 14
+      },
+      "rev": "d0df301e"
+    },
+    {
+      "id": "a1-to-be-questions",
+      "order": 5,
+      "level": "A1",
+      "title": "Câu hỏi Yes/No với to be",
+      "titleEn": "be: yes/no questions",
+      "topic": "dong-tu-be-have-got",
+      "counts": {
+        "transform": 31,
+        "fix": 20,
+        "gap": 30,
+        "choice": 27
+      },
+      "rev": "16676d31"
+    },
+    {
+      "id": "a1-demonstratives",
+      "order": 6,
+      "level": "A1",
+      "title": "This, that, these, those",
+      "titleEn": "Demonstratives",
+      "topic": "mao-tu-chi-dinh",
+      "counts": {
+        "transform": 31,
+        "fix": 24,
+        "gap": 28,
+        "choice": 26
+      },
+      "rev": "f130c01c"
+    },
+    {
+      "id": "a1-possessive-object-pronouns",
+      "order": 7,
+      "level": "A1",
+      "title": "Tính từ sở hữu, đại từ tân ngữ",
+      "titleEn": "Possessive adjectives & object pronouns",
+      "topic": "dai-tu",
+      "counts": {
+        "transform": 15,
+        "fix": 18,
+        "gap": 14,
+        "choice": 13
+      },
+      "rev": "474f880d"
+    },
+    {
+      "id": "a1-have-got",
+      "order": 8,
+      "level": "A1",
+      "title": "have got: sở hữu",
+      "titleEn": "have got for possession",
+      "topic": "dong-tu-be-have-got",
+      "counts": {
+        "transform": 34,
+        "fix": 24,
+        "gap": 29,
+        "choice": 23
+      },
+      "rev": "6be4e641"
+    },
+    {
+      "id": "a1-there-is-are",
+      "order": 9,
+      "level": "A1",
+      "title": "There is, there are",
+      "titleEn": "there is / there are",
+      "topic": "chu-ngu-gia",
+      "counts": {
+        "transform": 15,
+        "fix": 18,
+        "gap": 12,
+        "choice": 14
+      },
+      "rev": "e0f14709"
+    },
+    {
+      "id": "a1-it-weather-time",
+      "order": 10,
+      "level": "A1",
+      "title": "Chủ ngữ it: thời tiết, giờ",
+      "titleEn": "it for weather, time and distance",
+      "topic": "chu-ngu-gia",
+      "counts": {
+        "transform": 0,
+        "fix": 28,
+        "gap": 14,
+        "choice": 16
+      },
+      "rev": "19eab191"
+    },
+    {
+      "id": "a1-sentence-pattern",
+      "order": 11,
+      "level": "A1",
+      "title": "Mẫu câu S-V và S-V-O",
+      "titleEn": "S-V and S-V-O patterns",
+      "topic": "mau-cau",
+      "counts": {
+        "transform": 0,
+        "fix": 26,
+        "gap": 6,
+        "choice": 25
+      },
+      "rev": "38dfef75"
+    },
+    {
+      "id": "a1-present-simple",
+      "order": 12,
+      "level": "A1",
+      "title": "Hiện tại đơn với I/you/we/they",
+      "titleEn": "Present simple: I/you/we/they",
+      "topic": "thi-hien-tai-don",
+      "counts": {
+        "transform": 23,
+        "fix": 18,
+        "gap": 18,
+        "choice": 17
+      },
+      "rev": "33595c67"
+    },
+    {
+      "id": "a1-wh-questions",
+      "order": 13,
+      "level": "A1",
+      "title": "Câu hỏi Wh-",
+      "titleEn": "Wh- questions",
+      "topic": "cau-hoi-co-ban",
+      "counts": {
+        "transform": 25,
+        "fix": 18,
+        "gap": 18,
+        "choice": 17
+      },
+      "rev": "2786f51e"
+    },
+    {
+      "id": "a1-v-ing",
+      "order": 14,
+      "level": "A1",
+      "title": "Động từ + V-ing",
+      "titleEn": "Verb + -ing",
+      "topic": "to-v-v-ing",
+      "counts": {
+        "transform": 22,
+        "fix": 14,
+        "gap": 12,
+        "choice": 12
+      },
+      "rev": "47875a03"
+    },
+    {
+      "id": "a1-present-third-person",
+      "order": 15,
+      "level": "A1",
+      "title": "Hiện tại đơn với he/she/it",
+      "titleEn": "Present simple: he/she/it",
+      "topic": "thi-hien-tai-don",
+      "counts": {
+        "transform": 25,
+        "fix": 20,
+        "gap": 16,
+        "choice": 14
+      },
+      "rev": "a3cfca36"
+    },
+    {
+      "id": "a1-adverbs-frequency",
+      "order": 16,
+      "level": "A1",
+      "title": "Trạng từ tần suất",
+      "titleEn": "Adverbs of frequency",
+      "topic": "trang-tu",
+      "counts": {
+        "transform": 10,
+        "fix": 16,
+        "gap": 16,
+        "choice": 14
+      },
+      "rev": "c3b50f14"
+    },
+    {
+      "id": "a1-can-ability",
+      "order": 17,
+      "level": "A1",
+      "title": "can: khả năng",
+      "titleEn": "can for ability",
+      "topic": "kha-nang-xin-phep",
+      "counts": {
+        "transform": 15,
+        "fix": 12,
+        "gap": 14,
+        "choice": 13
+      },
+      "rev": "d36216e1"
+    },
+    {
+      "id": "a1-can-request",
+      "order": 18,
+      "level": "A1",
+      "title": "Xin phép và nhờ với can",
+      "titleEn": "Permission and requests with can",
+      "topic": "kha-nang-xin-phep",
+      "counts": {
+        "transform": 17,
+        "fix": 12,
+        "gap": 15,
+        "choice": 15
+      },
+      "rev": "1945ee56"
+    },
+    {
+      "id": "a1-imperative",
+      "order": 19,
+      "level": "A1",
+      "title": "Câu mệnh lệnh",
+      "titleEn": "Imperatives",
+      "topic": "cau-menh-lenh",
+      "counts": {
+        "transform": 10,
+        "fix": 10,
+        "gap": 20,
+        "choice": 18
+      },
+      "rev": "91ba8a91"
+    },
+    {
+      "id": "a1-prepositions",
+      "order": 20,
+      "level": "A1",
+      "title": "Giới từ thời gian và nơi chốn",
+      "titleEn": "Prepositions of time and place",
+      "topic": "gioi-tu-cum-dong-tu",
+      "counts": {
+        "transform": 0,
+        "fix": 29,
+        "gap": 15,
+        "choice": 15
+      },
+      "rev": "a265a896"
+    },
+    {
+      "id": "a1-present-continuous",
+      "order": 21,
+      "level": "A1",
+      "title": "Hiện tại tiếp diễn",
+      "titleEn": "Present continuous",
+      "topic": "thi-hien-tai-tiep-dien",
+      "counts": {
+        "transform": 25,
+        "fix": 20,
+        "gap": 17,
+        "choice": 12
+      },
+      "rev": "144e9912"
+    },
+    {
+      "id": "a1-some-any-no",
+      "order": 22,
+      "level": "A1",
+      "title": "some, any, no",
+      "titleEn": "some, any, no",
+      "topic": "luong-tu",
+      "counts": {
+        "transform": 20,
+        "fix": 14,
+        "gap": 14,
+        "choice": 13
+      },
+      "rev": "b34663e2"
+    },
+    {
+      "id": "a1-how-adj-adv",
+      "order": 23,
+      "level": "A1",
+      "title": "How + tính từ, trạng từ",
+      "titleEn": "How + adjective/adverb",
+      "topic": "cau-hoi-co-ban",
+      "counts": {
+        "transform": 25,
+        "fix": 21,
+        "gap": 17,
+        "choice": 13
+      },
+      "rev": "5031cd32"
+    },
+    {
+      "id": "a1-past-was-were",
+      "order": 24,
+      "level": "A1",
+      "title": "Quá khứ của to be: was, were",
+      "titleEn": "Past of be: was, were",
+      "topic": "thi-qua-khu-don",
+      "counts": {
+        "transform": 24,
+        "fix": 18,
+        "gap": 20,
+        "choice": 16
+      },
+      "rev": "f48dc7be"
+    },
+    {
+      "id": "a1-past-simple-verbs",
+      "order": 25,
+      "level": "A1",
+      "title": "Quá khứ đơn: câu khẳng định",
+      "titleEn": "Past simple: affirmative",
+      "topic": "thi-qua-khu-don",
+      "counts": {
+        "transform": 22,
+        "fix": 20,
+        "gap": 18,
+        "choice": 27
+      },
+      "rev": "194dcac0"
+    },
+    {
+      "id": "a1-be-going-to",
+      "order": 26,
+      "level": "A1",
+      "title": "be going to: dự định",
+      "titleEn": "be going to: plans",
+      "topic": "thi-tuong-lai-gan",
+      "counts": {
+        "transform": 19,
+        "fix": 12,
+        "gap": 13,
+        "choice": 11
+      },
+      "rev": "016a05e9"
+    },
+    {
+      "id": "a1-comparative-superlative",
+      "order": 27,
+      "level": "A1",
+      "title": "So sánh hơn và so sánh nhất",
+      "titleEn": "Comparatives & superlatives",
+      "topic": "so-sanh",
+      "counts": {
+        "transform": 15,
+        "fix": 18,
+        "gap": 14,
+        "choice": 11
+      },
+      "rev": "73b41b0a"
+    },
+    {
+      "id": "a1-conjunctions-clauses",
+      "order": 28,
+      "level": "A1",
+      "title": "Nối câu: and, but, so, because",
+      "titleEn": "Linking clauses",
+      "topic": "lien-tu-trang-ngu",
+      "counts": {
+        "transform": 0,
+        "fix": 19,
+        "gap": 12,
+        "choice": 25
+      },
+      "rev": "2e4a7763"
+    },
+    {
+      "id": "a1-past-participle",
+      "order": 29,
+      "level": "A1",
+      "title": "Phân từ hai (V3) như tính từ",
+      "titleEn": "Past participles as adjectives",
+      "topic": "bi-dong-co-ban",
+      "counts": {
+        "transform": 11,
+        "fix": 19,
+        "gap": 12,
+        "choice": 14
+      },
+      "rev": "bdc05b2a"
+    },
+    {
+      "id": "a2-past-simple",
+      "order": 30,
+      "level": "A2",
+      "title": "Quá khứ đơn: phủ định và câu hỏi",
+      "titleEn": "Past simple: negatives & questions",
+      "topic": "thi-qua-khu-don",
+      "counts": {
+        "transform": 24,
+        "fix": 17,
+        "gap": 13,
+        "choice": 17
+      },
+      "rev": "792e0d67"
+    },
+    {
+      "id": "a2-wh-which-whose",
+      "order": 31,
+      "level": "A2",
+      "title": "Câu hỏi với which, whose",
+      "titleEn": "Which & whose questions",
+      "topic": "cau-hoi-co-ban",
+      "counts": {
+        "transform": 18,
+        "fix": 19,
+        "gap": 14,
+        "choice": 13
+      },
+      "rev": "dfe5dd50"
+    },
+    {
+      "id": "b2-wh-who",
+      "order": 32,
+      "level": "A2",
+      "title": "Câu hỏi chủ ngữ và tân ngữ",
+      "titleEn": "Subject & object questions",
+      "topic": "cau-hoi-co-ban",
+      "counts": {
+        "transform": 20,
+        "fix": 20,
+        "gap": 17,
+        "choice": 18
+      },
+      "rev": "2288037d"
+    },
+    {
+      "id": "a2-past-continuous",
+      "order": 33,
+      "level": "A2",
+      "title": "Quá khứ tiếp diễn",
+      "titleEn": "Past continuous",
+      "topic": "thi-qua-khu-tiep-dien",
+      "counts": {
+        "transform": 19,
+        "fix": 16,
+        "gap": 15,
+        "choice": 15
+      },
+      "rev": "ec4c7558"
+    },
+    {
+      "id": "a2-used-to",
+      "order": 34,
+      "level": "A2",
+      "title": "used to: thói quen xưa",
+      "titleEn": "used to for past habits",
+      "topic": "used-to-would",
+      "counts": {
+        "transform": 22,
+        "fix": 17,
+        "gap": 15,
+        "choice": 14
+      },
+      "rev": "cb05c2c4"
+    },
+    {
+      "id": "a2-present-perfect-intro",
+      "order": 35,
+      "level": "A2",
+      "title": "Hiện tại hoàn thành: làm quen",
+      "titleEn": "Present perfect: first steps",
+      "topic": "thi-hien-tai-hoan-thanh",
+      "counts": {
+        "transform": 15,
+        "fix": 18,
+        "gap": 12,
+        "choice": 13
+      },
+      "rev": "f690dfe1"
+    },
+    {
+      "id": "a2-future-will",
+      "order": 36,
+      "level": "A2",
+      "title": "will: tương lai",
+      "titleEn": "will for the future",
+      "topic": "thi-tuong-lai-don",
+      "counts": {
+        "transform": 22,
+        "fix": 16,
+        "gap": 13,
+        "choice": 18
+      },
+      "rev": "0231934b"
+    },
+    {
+      "id": "a2-be-going-to",
+      "order": 37,
+      "level": "A2",
+      "title": "be going to: kế hoạch và dự đoán",
+      "titleEn": "be going to: plans & predictions",
+      "topic": "thi-tuong-lai-gan",
+      "counts": {
+        "transform": 19,
+        "fix": 20,
+        "gap": 15,
+        "choice": 12
+      },
+      "rev": "8f3898ca"
+    },
+    {
+      "id": "a2-present-continuous-future",
+      "order": 38,
+      "level": "A2",
+      "title": "Thì hiện tại cho tương lai",
+      "titleEn": "Present tenses for the future",
+      "topic": "thi-hien-tai-tiep-dien",
+      "counts": {
+        "transform": 25,
+        "fix": 20,
+        "gap": 19,
+        "choice": 16
+      },
+      "rev": "dc6870b5"
+    },
+    {
+      "id": "a1-to-infinitive",
+      "order": 39,
+      "level": "A2",
+      "title": "Động từ + to V",
+      "titleEn": "Verb + to-infinitive",
+      "topic": "to-v-v-ing",
+      "counts": {
+        "transform": 20,
+        "fix": 14,
+        "gap": 12,
+        "choice": 11
+      },
+      "rev": "d8b1b302"
+    },
+    {
+      "id": "a2-modal-should-shall",
+      "order": 40,
+      "level": "A2",
+      "title": "should: lời khuyên",
+      "titleEn": "should for advice",
+      "topic": "bat-buoc-loi-khuyen",
+      "counts": {
+        "transform": 18,
+        "fix": 10,
+        "gap": 13,
+        "choice": 12
+      },
+      "rev": "f6de3647"
+    },
+    {
+      "id": "a2-modal-have-to",
+      "order": 41,
+      "level": "A2",
+      "title": "have to, need to",
+      "titleEn": "have to & need to",
+      "topic": "bat-buoc-loi-khuyen",
+      "counts": {
+        "transform": 22,
+        "fix": 14,
+        "gap": 12,
+        "choice": 12
+      },
+      "rev": "d0e34a22"
+    },
+    {
+      "id": "a2-modal-may-must",
+      "order": 42,
+      "level": "A2",
+      "title": "must và may: luật lệ, cho phép",
+      "titleEn": "must & may: rules and permission",
+      "topic": "bat-buoc-loi-khuyen",
+      "counts": {
+        "transform": 17,
+        "fix": 17,
+        "gap": 14,
+        "choice": 12
+      },
+      "rev": "82b4677f"
+    },
+    {
+      "id": "a2-modal-could",
+      "order": 43,
+      "level": "A2",
+      "title": "Could I…? Could you…?: lịch sự",
+      "titleEn": "Polite requests with could",
+      "topic": "kha-nang-xin-phep",
+      "counts": {
+        "transform": 12,
+        "fix": 10,
+        "gap": 15,
+        "choice": 23
+      },
+      "rev": "153944d8"
+    },
+    {
+      "id": "a2-comparatives",
+      "order": 44,
+      "level": "A2",
+      "title": "So sánh: more, most, as … as",
+      "titleEn": "Comparison: more, most, as … as",
+      "topic": "so-sanh",
+      "counts": {
+        "transform": 19,
+        "fix": 13,
+        "gap": 13,
+        "choice": 11
+      },
+      "rev": "9c6498e8"
+    },
+    {
+      "id": "a2-adverbs-manner",
+      "order": 45,
+      "level": "A2",
+      "title": "Trạng từ cách thức (-ly)",
+      "titleEn": "Adverbs of manner",
+      "topic": "trang-tu",
+      "counts": {
+        "transform": 15,
+        "fix": 18,
+        "gap": 12,
+        "choice": 12
+      },
+      "rev": "2d454624"
+    },
+    {
+      "id": "a2-word-classes",
+      "order": 46,
+      "level": "A2",
+      "title": "Từ loại và hậu tố",
+      "titleEn": "Word classes and suffixes",
+      "topic": "tu-loai",
+      "counts": {
+        "transform": 0,
+        "fix": 26,
+        "gap": 15,
+        "choice": 15
+      },
+      "rev": "38b3b388"
+    },
+    {
+      "id": "a2-quantifiers",
+      "order": 47,
+      "level": "A2",
+      "title": "much, many, a few, a little",
+      "titleEn": "Quantifiers",
+      "topic": "luong-tu",
+      "counts": {
+        "transform": 15,
+        "fix": 11,
+        "gap": 17,
+        "choice": 14
+      },
+      "rev": "28e4d69a"
+    },
+    {
+      "id": "a2-articles-zero",
+      "order": 48,
+      "level": "A2",
+      "title": "Không mạo từ và the",
+      "titleEn": "Zero article and the",
+      "topic": "mao-tu-chi-dinh",
+      "counts": {
+        "transform": 23,
+        "fix": 22,
+        "gap": 28,
+        "choice": 27
+      },
+      "rev": "c567b0f8"
+    },
+    {
+      "id": "a2-compound-nouns",
+      "order": 49,
+      "level": "A2",
+      "title": "Danh từ ghép",
+      "titleEn": "Compound nouns",
+      "topic": "danh-tu",
+      "counts": {
+        "transform": 21,
+        "fix": 19,
+        "gap": 19,
+        "choice": 13
+      },
+      "rev": "9b8092f4"
+    },
+    {
+      "id": "a2-determiners",
+      "order": 50,
+      "level": "A2",
+      "title": "another, other, the other",
+      "titleEn": "another, other, the other",
+      "topic": "mao-tu-chi-dinh",
+      "counts": {
+        "transform": 19,
+        "fix": 21,
+        "gap": 24,
+        "choice": 22
+      },
+      "rev": "126aa675"
+    },
+    {
+      "id": "a2-pronouns-ones-others",
+      "order": 51,
+      "level": "A2",
+      "title": "one, ones thay danh từ",
+      "titleEn": "one & ones as substitutes",
+      "topic": "dai-tu",
+      "counts": {
+        "transform": 20,
+        "fix": 14,
+        "gap": 13,
+        "choice": 11
+      },
+      "rev": "9db4bf86"
+    },
+    {
+      "id": "c2-pronouns-possessive",
+      "order": 52,
+      "level": "A2",
+      "title": "Đại từ sở hữu và sở hữu cách",
+      "titleEn": "Possessive pronouns & possessive 's",
+      "topic": "dai-tu",
+      "counts": {
+        "transform": 14,
+        "fix": 6,
+        "gap": 8,
+        "choice": 30
+      },
+      "rev": "57adcd28"
+    },
+    {
+      "id": "a2-would-rather",
+      "order": 53,
+      "level": "A2",
+      "title": "would like và would rather",
+      "titleEn": "would like & would rather",
+      "topic": "kha-nang-xin-phep",
+      "counts": {
+        "transform": 22,
+        "fix": 13,
+        "gap": 12,
+        "choice": 12
+      },
+      "rev": "478a1073"
+    },
+    {
+      "id": "a2-functional-questions",
+      "order": 54,
+      "level": "A2",
+      "title": "Câu hỏi đề nghị và gợi ý",
+      "titleEn": "Offers & suggestions",
+      "topic": "cau-hoi-co-ban",
+      "counts": {
+        "transform": 20,
+        "fix": 20,
+        "gap": 18,
+        "choice": 18
+      },
+      "rev": "3815a29e"
+    },
+    {
+      "id": "a2-clauses-that-if-as",
+      "order": 55,
+      "level": "A2",
+      "title": "Mệnh đề that sau động từ",
+      "titleEn": "that-clauses after verbs",
+      "topic": "menh-de-danh-ngu",
+      "counts": {
+        "transform": 20,
+        "fix": 24,
+        "gap": 25,
+        "choice": 24
+      },
+      "rev": "4127a1d5"
+    },
+    {
+      "id": "a2-exclamation",
+      "order": 56,
+      "level": "A2",
+      "title": "Câu cảm thán What và How",
+      "titleEn": "Exclamations with what & how",
+      "topic": "mau-cau",
+      "counts": {
+        "transform": 0,
+        "fix": 30,
+        "gap": 10,
+        "choice": 17
+      },
+      "rev": "cc70fca5"
+    },
+    {
+      "id": "a2-conditional-zero",
+      "order": 57,
+      "level": "A2",
+      "title": "Câu điều kiện loại 0",
+      "titleEn": "Zero conditional",
+      "topic": "cau-dieu-kien",
+      "counts": {
+        "transform": 10,
+        "fix": 8,
+        "gap": 9,
+        "choice": 27
+      },
+      "rev": "30f62350"
+    },
+    {
+      "id": "a2-first-conditional",
+      "order": 58,
+      "level": "A2",
+      "title": "Câu điều kiện loại 1",
+      "titleEn": "First conditional",
+      "topic": "cau-dieu-kien",
+      "counts": {
+        "transform": 15,
+        "fix": 17,
+        "gap": 17,
+        "choice": 8
+      },
+      "rev": "e1bfeb74"
+    },
+    {
+      "id": "a1-relative-who",
+      "order": 59,
+      "level": "A2",
+      "title": "Mệnh đề quan hệ: who, which, that",
+      "titleEn": "Relative clauses: who, which, that",
+      "topic": "menh-de-quan-he",
+      "counts": {
+        "transform": 12,
+        "fix": 19,
+        "gap": 15,
+        "choice": 13
+      },
+      "rev": "6ce061bd"
+    },
+    {
+      "id": "a2-sentence-patterns",
+      "order": 60,
+      "level": "A2",
+      "title": "Mẫu câu S-V-C và S-V-O-C",
+      "titleEn": "S-V-C and S-V-O-C patterns",
+      "topic": "mau-cau",
+      "counts": {
+        "transform": 0,
+        "fix": 30,
+        "gap": 13,
+        "choice": 16
+      },
+      "rev": "9e86f5fe"
+    },
+    {
+      "id": "a2-verb-ving",
+      "order": 61,
+      "level": "A2",
+      "title": "Động từ giác quan + O + V-ing",
+      "titleEn": "Verbs of perception + object + -ing",
+      "topic": "to-v-v-ing",
+      "counts": {
+        "transform": 13,
+        "fix": 12,
+        "gap": 10,
+        "choice": 21
+      },
+      "rev": "f2ecf62b"
+    },
+    {
+      "id": "a2-causative",
+      "order": 62,
+      "level": "A2",
+      "title": "let và make + người + V",
+      "titleEn": "let & make + object + verb",
+      "topic": "cau-khien",
+      "counts": {
+        "transform": 30,
+        "fix": 23,
+        "gap": 28,
+        "choice": 31
+      },
+      "rev": "bc3c7d85"
+    },
+    {
+      "id": "a2-prepositions-movement",
+      "order": 63,
+      "level": "A2",
+      "title": "Giới từ chỉ chuyển động",
+      "titleEn": "Prepositions of movement",
+      "topic": "gioi-tu-cum-dong-tu",
+      "counts": {
+        "transform": 17,
+        "fix": 16,
+        "gap": 13,
+        "choice": 14
+      },
+      "rev": "37999bf8"
+    },
+    {
+      "id": "a2-phrasal-verbs",
+      "order": 64,
+      "level": "A2",
+      "title": "Cụm động từ",
+      "titleEn": "Phrasal verbs",
+      "topic": "gioi-tu-cum-dong-tu",
+      "counts": {
+        "transform": 0,
+        "fix": 29,
+        "gap": 15,
+        "choice": 16
+      },
+      "rev": "a4e99bad"
+    },
+    {
+      "id": "a2-dependent-prepositions",
+      "order": 65,
+      "level": "A2",
+      "title": "Tính từ, động từ + giới từ",
+      "titleEn": "Dependent prepositions",
+      "topic": "gioi-tu-cum-dong-tu",
+      "counts": {
+        "transform": 23,
+        "fix": 31,
+        "gap": 16,
+        "choice": 17
+      },
+      "rev": "573b7729"
+    },
+    {
+      "id": "b1-present-perfect",
+      "order": 66,
+      "level": "B1",
+      "title": "Hiện tại hoàn thành: for, since",
+      "titleEn": "Present perfect: for, since",
+      "topic": "thi-hien-tai-hoan-thanh",
+      "counts": {
+        "transform": 20,
+        "fix": 14,
+        "gap": 13,
+        "choice": 12
+      },
+      "rev": "f2d02420"
+    },
+    {
+      "id": "b1-present-perfect-continuous",
+      "order": 67,
+      "level": "B1",
+      "title": "Hiện tại hoàn thành tiếp diễn",
+      "titleEn": "Present perfect continuous",
+      "topic": "thi-hien-tai-hoan-thanh-tiep-dien",
+      "counts": {
+        "transform": 18,
+        "fix": 13,
+        "gap": 14,
+        "choice": 12
+      },
+      "rev": "6aa96b4c"
+    },
+    {
+      "id": "b1-past-perfect",
+      "order": 68,
+      "level": "B1",
+      "title": "Quá khứ hoàn thành",
+      "titleEn": "Past perfect",
+      "topic": "thi-qua-khu-hoan-thanh",
+      "counts": {
+        "transform": 17,
+        "fix": 15,
+        "gap": 14,
+        "choice": 12
+      },
+      "rev": "cc7fd8f6"
+    },
+    {
+      "id": "b1-future-continuous",
+      "order": 69,
+      "level": "B1",
+      "title": "Tương lai tiếp diễn",
+      "titleEn": "Future continuous",
+      "topic": "thi-tuong-lai-tiep-dien",
+      "counts": {
+        "transform": 9,
+        "fix": 11,
+        "gap": 19,
+        "choice": 17
+      },
+      "rev": "82472d80"
+    },
+    {
+      "id": "b1-modal-ability-permission",
+      "order": 70,
+      "level": "B1",
+      "title": "Khả năng: could, be able to",
+      "titleEn": "Ability: could, be able to",
+      "topic": "kha-nang-xin-phep",
+      "counts": {
+        "transform": 22,
+        "fix": 13,
+        "gap": 12,
+        "choice": 12
+      },
+      "rev": "4d9d8e80"
+    },
+    {
+      "id": "b1-modal-obligation",
+      "order": 71,
+      "level": "B1",
+      "title": "must hay have to; needn't",
+      "titleEn": "must vs have to; needn't",
+      "topic": "bat-buoc-loi-khuyen",
+      "counts": {
+        "transform": 13,
+        "fix": 10,
+        "gap": 10,
+        "choice": 20
+      },
+      "rev": "3b43c6ac"
+    },
+    {
+      "id": "b1-modal-ought-should",
+      "order": 72,
+      "level": "B1",
+      "title": "ought to và had better",
+      "titleEn": "ought to & had better",
+      "topic": "bat-buoc-loi-khuyen",
+      "counts": {
+        "transform": 15,
+        "fix": 12,
+        "gap": 10,
+        "choice": 20
+      },
+      "rev": "e8bddbfd"
+    },
+    {
+      "id": "b1-conditionals-1-2",
+      "order": 73,
+      "level": "B1",
+      "title": "Câu điều kiện loại 2",
+      "titleEn": "Second conditional",
+      "topic": "cau-dieu-kien",
+      "counts": {
+        "transform": 21,
+        "fix": 14,
+        "gap": 15,
+        "choice": 9
+      },
+      "rev": "87ec5a9e"
+    },
+    {
+      "id": "b1-third-conditional",
+      "order": 74,
+      "level": "B1",
+      "title": "Câu điều kiện loại 3",
+      "titleEn": "Third conditional",
+      "topic": "cau-dieu-kien",
+      "counts": {
+        "transform": 16,
+        "fix": 15,
+        "gap": 12,
+        "choice": 13
+      },
+      "rev": "16f534d7"
+    },
+    {
+      "id": "b1-modal-perfect",
+      "order": 75,
+      "level": "B1",
+      "title": "Suy đoán: must, might, can't",
+      "titleEn": "Deduction: must, might, can't",
+      "topic": "suy-doan",
+      "counts": {
+        "transform": 21,
+        "fix": 14,
+        "gap": 12,
+        "choice": 12
+      },
+      "rev": "20214e63"
+    },
+    {
+      "id": "a2-reported-speech-intro",
+      "order": 76,
+      "level": "B1",
+      "title": "Tường thuật và câu hỏi gián tiếp",
+      "titleEn": "Reported speech & indirect questions",
+      "topic": "cau-tuong-thuat",
+      "counts": {
+        "transform": 22,
+        "fix": 14,
+        "gap": 12,
+        "choice": 12
+      },
+      "rev": "ed1b3296"
+    },
+    {
+      "id": "b1-to-infinitive-advanced",
+      "order": 77,
+      "level": "B1",
+      "title": "to V mở rộng: not to, for…to",
+      "titleEn": "to-infinitive: not to, for … to",
+      "topic": "to-v-v-ing",
+      "counts": {
+        "transform": 22,
+        "fix": 13,
+        "gap": 12,
+        "choice": 12
+      },
+      "rev": "bd28fb88"
+    },
+    {
+      "id": "b1-reported-speech",
+      "order": 78,
+      "level": "B1",
+      "title": "Tường thuật với tell, ask",
+      "titleEn": "Reported speech: tell & ask",
+      "topic": "cau-tuong-thuat",
+      "counts": {
+        "transform": 27,
+        "fix": 17,
+        "gap": 16,
+        "choice": 14
+      },
+      "rev": "9181a000"
+    },
+    {
+      "id": "b1-clauses-wh-as-soon-as",
+      "order": 79,
+      "level": "B1",
+      "title": "Mệnh đề thời gian và lý do",
+      "titleEn": "Time & reason clauses",
+      "topic": "lien-tu-trang-ngu",
+      "counts": {
+        "transform": 0,
+        "fix": 23,
+        "gap": 16,
+        "choice": 18
+      },
+      "rev": "90910918"
+    },
+    {
+      "id": "a2-passive-basic",
+      "order": 80,
+      "level": "B1",
+      "title": "Bị động hiện tại và quá khứ",
+      "titleEn": "Passive: present & past simple",
+      "topic": "bi-dong-co-ban",
+      "counts": {
+        "transform": 29,
+        "fix": 17,
+        "gap": 20,
+        "choice": 20
+      },
+      "rev": "b7a77601"
+    },
+    {
+      "id": "b1-passive-voice",
+      "order": 81,
+      "level": "B1",
+      "title": "Bị động với will, khuyết thiếu, get",
+      "titleEn": "Passive with will, modals and get",
+      "topic": "bi-dong-co-ban",
+      "counts": {
+        "transform": 20,
+        "fix": 14,
+        "gap": 13,
+        "choice": 12
+      },
+      "rev": "45ad9cc2"
+    },
+    {
+      "id": "b1-it-clauses",
+      "order": 82,
+      "level": "B1",
+      "title": "It is + tính từ + to V",
+      "titleEn": "it + be + adjective + to-infinitive",
+      "topic": "chu-ngu-gia",
+      "counts": {
+        "transform": 20,
+        "fix": 14,
+        "gap": 14,
+        "choice": 12
+      },
+      "rev": "ed8d41b9"
+    },
+    {
+      "id": "b1-there-here",
+      "order": 83,
+      "level": "B1",
+      "title": "there + khuyết thiếu, here is/are",
+      "titleEn": "there + modal + be; here is/are",
+      "topic": "chu-ngu-gia",
+      "counts": {
+        "transform": 12,
+        "fix": 19,
+        "gap": 15,
+        "choice": 13
+      },
+      "rev": "253d40a0"
+    },
+    {
+      "id": "a2-relative-what-where",
+      "order": 84,
+      "level": "B1",
+      "title": "what và where, when, why",
+      "titleEn": "what & relative adverbs",
+      "topic": "menh-de-quan-he",
+      "counts": {
+        "transform": 18,
+        "fix": 14,
+        "gap": 14,
+        "choice": 12
+      },
+      "rev": "01ee00b4"
+    },
+    {
+      "id": "b1-participial",
+      "order": 85,
+      "level": "B1",
+      "title": "Cụm phân từ",
+      "titleEn": "Participle phrases",
+      "topic": "cum-phan-tu",
+      "counts": {
+        "transform": 15,
+        "fix": 19,
+        "gap": 8,
+        "choice": 17
+      },
+      "rev": "922410ad"
+    },
+    {
+      "id": "b1-adjectives-ing-ed",
+      "order": 86,
+      "level": "B1",
+      "title": "Tính từ đuôi -ing và -ed",
+      "titleEn": "-ing and -ed adjectives",
+      "topic": "tinh-tu",
+      "counts": {
+        "transform": 0,
+        "fix": 27,
+        "gap": 15,
+        "choice": 18
+      },
+      "rev": "490375f5"
+    },
+    {
+      "id": "c2-adjective-order",
+      "order": 87,
+      "level": "B1",
+      "title": "Trật tự tính từ",
+      "titleEn": "Adjective order",
+      "topic": "tinh-tu",
+      "counts": {
+        "transform": 5,
+        "fix": 19,
+        "gap": 12,
+        "choice": 21
+      },
+      "rev": "84243f5b"
+    },
+    {
+      "id": "b1-tag-questions",
+      "order": 88,
+      "level": "B1",
+      "title": "Câu hỏi đuôi",
+      "titleEn": "Tag questions",
+      "topic": "cau-hoi-nang-cao",
+      "counts": {
+        "transform": 17,
+        "fix": 12,
+        "gap": 9,
+        "choice": 20
+      },
+      "rev": "f6ffdc1f"
+    },
+    {
+      "id": "b1-functional-questions",
+      "order": 89,
+      "level": "B1",
+      "title": "Câu hỏi phủ định",
+      "titleEn": "Negative questions",
+      "topic": "cau-hoi-nang-cao",
+      "counts": {
+        "transform": 10,
+        "fix": 8,
+        "gap": 13,
+        "choice": 28
+      },
+      "rev": "bff8e2c6"
+    },
+    {
+      "id": "b2-inversion-so-neither",
+      "order": 90,
+      "level": "B1",
+      "title": "Đáp ngắn: So do I, Neither do I",
+      "titleEn": "Short replies: so/neither + auxiliary",
+      "topic": "dao-ngu",
+      "counts": {
+        "transform": 16,
+        "fix": 10,
+        "gap": 17,
+        "choice": 16
+      },
+      "rev": "07946a5d"
+    },
+    {
+      "id": "b1-negatives-review",
+      "order": 91,
+      "level": "B1",
+      "title": "Phủ định không dùng not",
+      "titleEn": "Negation beyond not",
+      "topic": "phu-dinh",
+      "counts": {
+        "transform": 19,
+        "fix": 13,
+        "gap": 12,
+        "choice": 12
+      },
+      "rev": "66798c69"
+    },
+    {
+      "id": "b1-emphasis-do",
+      "order": 92,
+      "level": "B1",
+      "title": "Nhấn mạnh với do, does, did",
+      "titleEn": "Emphatic do, does, did",
+      "topic": "nhan-manh",
+      "counts": {
+        "transform": 10,
+        "fix": 17,
+        "gap": 14,
+        "choice": 17
+      },
+      "rev": "85be7e6a"
+    },
+    {
+      "id": "b1-pronouns-advanced",
+      "order": 93,
+      "level": "B1",
+      "title": "Đại từ phản thân và tương hỗ",
+      "titleEn": "Reflexive & reciprocal pronouns",
+      "topic": "dai-tu",
+      "counts": {
+        "transform": 20,
+        "fix": 13,
+        "gap": 13,
+        "choice": 12
+      },
+      "rev": "dda69d3c"
+    },
+    {
+      "id": "b1-articles-names",
+      "order": 94,
+      "level": "B1",
+      "title": "Mạo từ với tên riêng, địa danh",
+      "titleEn": "Articles with names and places",
+      "topic": "mao-tu-chi-dinh",
+      "counts": {
+        "transform": 20,
+        "fix": 22,
+        "gap": 30,
+        "choice": 28
+      },
+      "rev": "e09f7be6"
+    },
+    {
+      "id": "c1-determiners-quantity",
+      "order": 95,
+      "level": "B1",
+      "title": "both, either, neither",
+      "titleEn": "both, either, neither",
+      "topic": "luong-tu",
+      "counts": {
+        "transform": 20,
+        "fix": 14,
+        "gap": 14,
+        "choice": 12
+      },
+      "rev": "7e62ef1d"
+    },
+    {
+      "id": "b1-adverbs-attitude",
+      "order": 96,
+      "level": "B1",
+      "title": "Trạng từ bình luận",
+      "titleEn": "Comment adverbs",
+      "topic": "trang-tu",
+      "counts": {
+        "transform": 10,
+        "fix": 10,
+        "gap": 21,
+        "choice": 17
+      },
+      "rev": "c5b577cb"
+    },
+    {
+      "id": "c2-adverb-position",
+      "order": 97,
+      "level": "B1",
+      "title": "Vị trí trạng từ",
+      "titleEn": "Adverb position",
+      "topic": "trang-tu",
+      "counts": {
+        "transform": 11,
+        "fix": 15,
+        "gap": 12,
+        "choice": 18
+      },
+      "rev": "063bbf26"
+    },
+    {
+      "id": "b1-comma-splice",
+      "order": 98,
+      "level": "B1",
+      "title": "Nối câu đúng dấu câu",
+      "titleEn": "Joining clauses: no comma splices",
+      "topic": "noi-cau-dau-cau",
+      "counts": {
+        "transform": 0,
+        "fix": 0,
+        "gap": 0,
+        "choice": 52
+      },
+      "rev": "ef34838b"
+    },
+    {
+      "id": "b1-degree-too-so-how",
+      "order": 99,
+      "level": "B1",
+      "title": "Mức độ: too, so … that",
+      "titleEn": "Degree: too and so … that",
+      "topic": "muc-do",
+      "counts": {
+        "transform": 12,
+        "fix": 17,
+        "gap": 15,
+        "choice": 13
+      },
+      "rev": "57542f03"
+    },
+    {
+      "id": "b1-comparatives-advanced",
+      "order": 100,
+      "level": "B1",
+      "title": "So sánh tăng tiến và nhấn mạnh",
+      "titleEn": "Intensified & progressive comparatives",
+      "topic": "so-sanh",
+      "counts": {
+        "transform": 19,
+        "fix": 14,
+        "gap": 12,
+        "choice": 12
+      },
+      "rev": "aefe3598"
+    },
+    {
+      "id": "b2-narrative-tenses",
+      "order": 101,
+      "level": "B2",
+      "title": "Quá khứ hoàn thành tiếp diễn",
+      "titleEn": "Past perfect continuous",
+      "topic": "thi-qua-khu-hoan-thanh-tiep-dien",
+      "counts": {
+        "transform": 17,
+        "fix": 15,
+        "gap": 13,
+        "choice": 15
+      },
+      "rev": "d0c95fcc"
+    },
+    {
+      "id": "b2-present-perfect-continuous",
+      "order": 102,
+      "level": "B2",
+      "title": "Hoàn thành đơn hay tiếp diễn",
+      "titleEn": "Perfect simple vs continuous",
+      "topic": "thi-hien-tai-hoan-thanh-tiep-dien",
+      "counts": {
+        "transform": 20,
+        "fix": 14,
+        "gap": 14,
+        "choice": 12
+      },
+      "rev": "07cce74a"
+    },
+    {
+      "id": "c2-future-in-the-past",
+      "order": 103,
+      "level": "B2",
+      "title": "Tương lai trong quá khứ",
+      "titleEn": "Future in the past",
+      "topic": "tuong-lai-trong-qua-khu",
+      "counts": {
+        "transform": 5,
+        "fix": 13,
+        "gap": 14,
+        "choice": 22
+      },
+      "rev": "6da363c2"
+    },
+    {
+      "id": "b1-modal-past-habits",
+      "order": 104,
+      "level": "B2",
+      "title": "Thói quen: would, be used to",
+      "titleEn": "Habits: would, be used to, always + -ing",
+      "topic": "used-to-would",
+      "counts": {
+        "transform": 19,
+        "fix": 16,
+        "gap": 13,
+        "choice": 14
+      },
+      "rev": "6a30ab32"
+    },
+    {
+      "id": "b2-future-continuous",
+      "order": 105,
+      "level": "B2",
+      "title": "Tương lai tiếp diễn: cách dùng",
+      "titleEn": "Future continuous: uses",
+      "topic": "thi-tuong-lai-tiep-dien",
+      "counts": {
+        "transform": 7,
+        "fix": 11,
+        "gap": 17,
+        "choice": 18
+      },
+      "rev": "0f65d61b"
+    },
+    {
+      "id": "b2-future-perfect",
+      "order": 106,
+      "level": "B2",
+      "title": "Tương lai hoàn thành",
+      "titleEn": "Future perfect",
+      "topic": "thi-tuong-lai-hoan-thanh",
+      "counts": {
+        "transform": 7,
+        "fix": 16,
+        "gap": 18,
+        "choice": 17
+      },
+      "rev": "fb3b49f1"
+    },
+    {
+      "id": "b2-future-perfect-continuous",
+      "order": 107,
+      "level": "B2",
+      "title": "Tương lai hoàn thành tiếp diễn",
+      "titleEn": "Future perfect continuous",
+      "topic": "thi-tuong-lai-hoan-thanh-tiep-dien",
+      "counts": {
+        "transform": 7,
+        "fix": 10,
+        "gap": 22,
+        "choice": 18
+      },
+      "rev": "03ec43a5"
+    },
+    {
+      "id": "b2-passive-continuous",
+      "order": 108,
+      "level": "B2",
+      "title": "Bị động tiếp diễn",
+      "titleEn": "Continuous passive",
+      "topic": "bi-dong-co-ban",
+      "counts": {
+        "transform": 21,
+        "fix": 12,
+        "gap": 13,
+        "choice": 12
+      },
+      "rev": "5bc23d50"
+    },
+    {
+      "id": "b2-passive-perfect",
+      "order": 109,
+      "level": "B2",
+      "title": "Bị động hoàn thành",
+      "titleEn": "Perfect passive",
+      "topic": "bi-dong-co-ban",
+      "counts": {
+        "transform": 24,
+        "fix": 11,
+        "gap": 10,
+        "choice": 15
+      },
+      "rev": "74646830"
+    },
+    {
+      "id": "b2-passive-objects",
+      "order": 110,
+      "level": "B2",
+      "title": "Bị động với hai tân ngữ",
+      "titleEn": "Passive with two objects",
+      "topic": "bi-dong-nang-cao",
+      "counts": {
+        "transform": 20,
+        "fix": 14,
+        "gap": 13,
+        "choice": 12
+      },
+      "rev": "3c5ff225"
+    },
+    {
+      "id": "b2-passive-modal",
+      "order": 111,
+      "level": "B2",
+      "title": "Bị động khuyết thiếu hoàn thành",
+      "titleEn": "Modal perfect passive",
+      "topic": "bi-dong-nang-cao",
+      "counts": {
+        "transform": 22,
+        "fix": 13,
+        "gap": 12,
+        "choice": 11
+      },
+      "rev": "e5ce7214"
+    },
+    {
+      "id": "b2-causative-have-get",
+      "order": 112,
+      "level": "B2",
+      "title": "have/get something done",
+      "titleEn": "have/get something done",
+      "topic": "cau-khien",
+      "counts": {
+        "transform": 31,
+        "fix": 23,
+        "gap": 25,
+        "choice": 22
+      },
+      "rev": "40ad8aa5"
+    },
+    {
+      "id": "b2-verb-patterns",
+      "order": 113,
+      "level": "B2",
+      "title": "Mẫu động từ với V-ing nâng cao",
+      "titleEn": "Advanced -ing patterns",
+      "topic": "to-v-v-ing",
+      "counts": {
+        "transform": 19,
+        "fix": 11,
+        "gap": 19,
+        "choice": 15
+      },
+      "rev": "17d02aff"
+    },
+    {
+      "id": "b2-to-infinitive-advanced",
+      "order": 114,
+      "level": "B2",
+      "title": "to V nâng cao: bị động, mục đích",
+      "titleEn": "Advanced to-infinitive: passive, perfect, purpose",
+      "topic": "to-v-v-ing",
+      "counts": {
+        "transform": 22,
+        "fix": 12,
+        "gap": 12,
+        "choice": 12
+      },
+      "rev": "4c539285"
+    },
+    {
+      "id": "b2-reporting-verbs",
+      "order": 115,
+      "level": "B2",
+      "title": "Động từ tường thuật: to V, V-ing",
+      "titleEn": "Reporting verb patterns",
+      "topic": "cau-tuong-thuat",
+      "counts": {
+        "transform": 22,
+        "fix": 14,
+        "gap": 11,
+        "choice": 11
+      },
+      "rev": "a2c19e57"
+    },
+    {
+      "id": "c2-passive-reporting",
+      "order": 116,
+      "level": "B2",
+      "title": "Bị động tường thuật: It is said",
+      "titleEn": "Passive reporting structures",
+      "topic": "bi-dong-nang-cao",
+      "counts": {
+        "transform": 22,
+        "fix": 13,
+        "gap": 12,
+        "choice": 12
+      },
+      "rev": "671456d5"
+    },
+    {
+      "id": "b2-clauses-whether-so-that",
+      "order": 117,
+      "level": "B2",
+      "title": "Mệnh đề mục đích và nhượng bộ",
+      "titleEn": "Purpose & concession clauses",
+      "topic": "lien-tu-trang-ngu",
+      "counts": {
+        "transform": 23,
+        "fix": 33,
+        "gap": 18,
+        "choice": 20
+      },
+      "rev": "7272d8d5"
+    },
+    {
+      "id": "b2-it-clauses",
+      "order": 118,
+      "level": "B2",
+      "title": "It is + tính từ + that",
+      "titleEn": "it + be + adjective + that-clause",
+      "topic": "chu-ngu-gia",
+      "counts": {
+        "transform": 18,
+        "fix": 14,
+        "gap": 14,
+        "choice": 11
+      },
+      "rev": "30173630"
+    },
+    {
+      "id": "b2-quasi-negation",
+      "order": 119,
+      "level": "B2",
+      "title": "Gần như phủ định: hardly, none",
+      "titleEn": "Near-negatives: hardly, none",
+      "topic": "phu-dinh",
+      "counts": {
+        "transform": 22,
+        "fix": 14,
+        "gap": 12,
+        "choice": 12
+      },
+      "rev": "2de791ef"
+    },
+    {
+      "id": "b2-modal-progressive-perfect",
+      "order": 120,
+      "level": "B2",
+      "title": "Khuyết thiếu + be/have been V-ing",
+      "titleEn": "Modals + continuous forms",
+      "topic": "suy-doan",
+      "counts": {
+        "transform": 20,
+        "fix": 14,
+        "gap": 13,
+        "choice": 12
+      },
+      "rev": "e8d31a20"
+    },
+    {
+      "id": "b2-modal-advanced",
+      "order": 121,
+      "level": "B2",
+      "title": "dare, needn't, wouldn't: sắc thái",
+      "titleEn": "Modal nuances: dare, needn't, wouldn't",
+      "topic": "kha-nang-xin-phep",
+      "counts": {
+        "transform": 22,
+        "fix": 14,
+        "gap": 12,
+        "choice": 12
+      },
+      "rev": "09c97f13"
+    },
+    {
+      "id": "b2-third-conditional",
+      "order": 122,
+      "level": "B2",
+      "title": "Câu ước: wish, if only, as if",
+      "titleEn": "Wishes, if only and as if",
+      "topic": "cau-uoc-gia-dinh",
+      "counts": {
+        "transform": 19,
+        "fix": 13,
+        "gap": 13,
+        "choice": 11
+      },
+      "rev": "33e5723b"
+    },
+    {
+      "id": "b1-relative-clauses",
+      "order": 123,
+      "level": "B2",
+      "title": "Mệnh đề quan hệ không hạn định",
+      "titleEn": "Non-defining relative clauses",
+      "topic": "menh-de-quan-he",
+      "counts": {
+        "transform": 10,
+        "fix": 21,
+        "gap": 14,
+        "choice": 14
+      },
+      "rev": "7d48cf61"
+    },
+    {
+      "id": "b2-relative-which-prep",
+      "order": 124,
+      "level": "B2",
+      "title": "Giới từ trong mệnh đề quan hệ",
+      "titleEn": "Prepositions in relative clauses",
+      "topic": "menh-de-quan-he",
+      "counts": {
+        "transform": 20,
+        "fix": 14,
+        "gap": 13,
+        "choice": 12
+      },
+      "rev": "b7968467"
+    },
+    {
+      "id": "b2-relative-genitive-ever",
+      "order": 125,
+      "level": "B2",
+      "title": "Từ -ever: whatever, whoever",
+      "titleEn": "-ever words: whatever, whoever, however",
+      "topic": "menh-de-quan-he",
+      "counts": {
+        "transform": 20,
+        "fix": 14,
+        "gap": 14,
+        "choice": 12
+      },
+      "rev": "0a1e15f9"
+    },
+    {
+      "id": "c2-clauses-exclamations",
+      "order": 126,
+      "level": "B2",
+      "title": "Mệnh đề danh ngữ",
+      "titleEn": "Noun clauses",
+      "topic": "menh-de-danh-ngu",
+      "counts": {
+        "transform": 31,
+        "fix": 24,
+        "gap": 29,
+        "choice": 31
+      },
+      "rev": "7d92e027"
+    },
+    {
+      "id": "b2-subject-verb-agreement",
+      "order": 127,
+      "level": "B2",
+      "title": "Hoà hợp chủ ngữ và động từ",
+      "titleEn": "Subject-verb agreement",
+      "topic": "hoa-hop-chu-vi",
+      "counts": {
+        "transform": 12,
+        "fix": 17,
+        "gap": 13,
+        "choice": 13
+      },
+      "rev": "fe3680e3"
+    },
+    {
+      "id": "b2-comparatives-advanced",
+      "order": 128,
+      "level": "B2",
+      "title": "So sánh kém và càng … càng",
+      "titleEn": "Comparison of inferiority & the … the …",
+      "topic": "so-sanh",
+      "counts": {
+        "transform": 23,
+        "fix": 12,
+        "gap": 12,
+        "choice": 14
+      },
+      "rev": "b4714a31"
+    },
+    {
+      "id": "b2-degree-enough-such",
+      "order": 129,
+      "level": "B2",
+      "title": "Mức độ: enough, such",
+      "titleEn": "Degree: enough & such",
+      "topic": "muc-do",
+      "counts": {
+        "transform": 20,
+        "fix": 14,
+        "gap": 14,
+        "choice": 12
+      },
+      "rev": "47ffda20"
+    },
+    {
+      "id": "b2-adjectives-special",
+      "order": 130,
+      "level": "B2",
+      "title": "Tính từ: dạng và vị trí đặc biệt",
+      "titleEn": "Adjectives: special forms & positions",
+      "topic": "tinh-tu",
+      "counts": {
+        "transform": 0,
+        "fix": 32,
+        "gap": 15,
+        "choice": 15
+      },
+      "rev": "46d3b786"
+    },
+    {
+      "id": "c1-modality-possibility",
+      "order": 131,
+      "level": "C1",
+      "title": "may, might, could: khả năng",
+      "titleEn": "may, might, could: possibility",
+      "topic": "suy-doan",
+      "counts": {
+        "transform": 25,
+        "fix": 13,
+        "gap": 11,
+        "choice": 12
+      },
+      "rev": "b57c2b15"
+    },
+    {
+      "id": "c1-modality-obligation",
+      "order": 132,
+      "level": "C1",
+      "title": "ought, needn't have, shall",
+      "titleEn": "ought, needn't have, shall: formal",
+      "topic": "bat-buoc-loi-khuyen",
+      "counts": {
+        "transform": 12,
+        "fix": 9,
+        "gap": 18,
+        "choice": 17
+      },
+      "rev": "51b06669"
+    },
+    {
+      "id": "c1-modality-ability-emphasis",
+      "order": 133,
+      "level": "C1",
+      "title": "can, will, would để nhấn mạnh",
+      "titleEn": "can, will, would for emphasis",
+      "topic": "kha-nang-xin-phep",
+      "counts": {
+        "transform": 21,
+        "fix": 13,
+        "gap": 12,
+        "choice": 12
+      },
+      "rev": "3a6222cf"
+    },
+    {
+      "id": "c1-hedging-modals",
+      "order": 134,
+      "level": "C1",
+      "title": "Nói giảm cho thận trọng",
+      "titleEn": "Hedging",
+      "topic": "suy-doan",
+      "counts": {
+        "transform": 20,
+        "fix": 14,
+        "gap": 11,
+        "choice": 12
+      },
+      "rev": "82cf3e12"
+    },
+    {
+      "id": "c1-negation-advanced",
+      "order": 135,
+      "level": "C1",
+      "title": "Phủ định nâng cao",
+      "titleEn": "Advanced negation",
+      "topic": "phu-dinh",
+      "counts": {
+        "transform": 17,
+        "fix": 14,
+        "gap": 13,
+        "choice": 12
+      },
+      "rev": "c512cf3d"
+    },
+    {
+      "id": "c1-inversion",
+      "order": 136,
+      "level": "C1",
+      "title": "Đảo ngữ sau từ phủ định",
+      "titleEn": "Negative inversion",
+      "topic": "dao-ngu",
+      "counts": {
+        "transform": 24,
+        "fix": 14,
+        "gap": 12,
+        "choice": 12
+      },
+      "rev": "e4ba3c65"
+    },
+    {
+      "id": "c1-cleft-sentences",
+      "order": 137,
+      "level": "C1",
+      "title": "Câu chẻ It và What",
+      "titleEn": "It-clefts & what-clefts",
+      "topic": "nhan-manh",
+      "counts": {
+        "transform": 15,
+        "fix": 11,
+        "gap": 10,
+        "choice": 23
+      },
+      "rev": "1b245433"
+    },
+    {
+      "id": "c1-conditionals-advanced",
+      "order": 138,
+      "level": "C1",
+      "title": "Điều kiện hỗn hợp và đảo ngữ",
+      "titleEn": "Mixed & inverted conditionals",
+      "topic": "cau-dieu-kien",
+      "counts": {
+        "transform": 18,
+        "fix": 12,
+        "gap": 12,
+        "choice": 14
+      },
+      "rev": "c9d19598"
+    },
+    {
+      "id": "c1-clauses-subordinated",
+      "order": 139,
+      "level": "C1",
+      "title": "Mệnh đề trạng ngữ rút gọn",
+      "titleEn": "Reduced adverbial clauses",
+      "topic": "lien-tu-trang-ngu",
+      "counts": {
+        "transform": 0,
+        "fix": 28,
+        "gap": 13,
+        "choice": 16
+      },
+      "rev": "448b46c0"
+    },
+    {
+      "id": "c1-noun-phrases",
+      "order": 140,
+      "level": "C1",
+      "title": "Cụm danh từ phức và danh hoá",
+      "titleEn": "Complex noun phrases & nominalisation",
+      "topic": "danh-tu",
+      "counts": {
+        "transform": 19,
+        "fix": 20,
+        "gap": 14,
+        "choice": 15
+      },
+      "rev": "e40f5f50"
+    },
+    {
+      "id": "c1-present-advanced",
+      "order": 141,
+      "level": "C1",
+      "title": "Thì hiện tại trong văn học thuật",
+      "titleEn": "Present tenses in academic writing",
+      "topic": "thi-hien-tai-don",
+      "counts": {
+        "transform": 19,
+        "fix": 12,
+        "gap": 14,
+        "choice": 13
+      },
+      "rev": "528f553d"
+    },
+    {
+      "id": "c1-adverbs-stance",
+      "order": 142,
+      "level": "C1",
+      "title": "Trạng từ lập trường",
+      "titleEn": "Stance adverbs",
+      "topic": "trang-tu",
+      "counts": {
+        "transform": 5,
+        "fix": 14,
+        "gap": 14,
+        "choice": 23
+      },
+      "rev": "d4cb5818"
+    },
+    {
+      "id": "c1-imperatives-advanced",
+      "order": 143,
+      "level": "C1",
+      "title": "Mệnh lệnh nâng cao",
+      "titleEn": "Advanced imperatives",
+      "topic": "cau-menh-lenh",
+      "counts": {
+        "transform": 6,
+        "fix": 11,
+        "gap": 21,
+        "choice": 17
+      },
+      "rev": "16f81ac7"
+    },
+    {
+      "id": "c1-pronouns-quantity",
+      "order": 144,
+      "level": "C1",
+      "title": "Đại từ chỉ lượng trang trọng",
+      "titleEn": "Quantity pronouns in formal writing",
+      "topic": "dai-tu",
+      "counts": {
+        "transform": 24,
+        "fix": 14,
+        "gap": 11,
+        "choice": 12
+      },
+      "rev": "a9c341f4"
+    },
+    {
+      "id": "c1-pronouns-other",
+      "order": 145,
+      "level": "C1",
+      "title": "Đại từ thay thế trang trọng",
+      "titleEn": "Formal substitute pronouns",
+      "topic": "dai-tu",
+      "counts": {
+        "transform": 20,
+        "fix": 14,
+        "gap": 14,
+        "choice": 12
+      },
+      "rev": "9c40acaa"
+    },
+    {
+      "id": "c1-adverb-phrases",
+      "order": 146,
+      "level": "C1",
+      "title": "Cụm trạng từ",
+      "titleEn": "Adverb phrases",
+      "topic": "trang-tu",
+      "counts": {
+        "transform": 0,
+        "fix": 19,
+        "gap": 21,
+        "choice": 18
+      },
+      "rev": "c3260fd1"
+    },
+    {
+      "id": "c1-verb-patterns",
+      "order": 147,
+      "level": "C1",
+      "title": "Cụm động từ ba thành phần nâng cao",
+      "titleEn": "Advanced phrasal-prepositional verbs",
+      "topic": "gioi-tu-cum-dong-tu",
+      "counts": {
+        "transform": 0,
+        "fix": 27,
+        "gap": 15,
+        "choice": 16
+      },
+      "rev": "9e82fa90"
+    },
+    {
+      "id": "c1-past-perfect-advanced",
+      "order": 148,
+      "level": "C1",
+      "title": "Quá khứ hoàn thành trong văn kể",
+      "titleEn": "Past perfect in narrative",
+      "topic": "thi-qua-khu-hoan-thanh",
+      "counts": {
+        "transform": 15,
+        "fix": 12,
+        "gap": 12,
+        "choice": 20
+      },
+      "rev": "0379f2b1"
+    },
+    {
+      "id": "c1-future-perfect",
+      "order": 149,
+      "level": "C1",
+      "title": "Tương lai hoàn thành: đoán, lịch sự",
+      "titleEn": "Future perfect: assumptions & politeness",
+      "topic": "thi-tuong-lai-hoan-thanh",
+      "counts": {
+        "transform": 0,
+        "fix": 13,
+        "gap": 26,
+        "choice": 18
+      },
+      "rev": "b867ce01"
+    },
+    {
+      "id": "c1-passive-modal",
+      "order": 150,
+      "level": "C1",
+      "title": "Bị động dạng being, having been",
+      "titleEn": "Non-finite passive: being & having been done",
+      "topic": "bi-dong-nang-cao",
+      "counts": {
+        "transform": 28,
+        "fix": 11,
+        "gap": 10,
+        "choice": 10
+      },
+      "rev": "71c50d5b"
+    },
+    {
+      "id": "c1-future-alternatives",
+      "order": 151,
+      "level": "C1",
+      "title": "Tương lai trang trọng: shall, be to",
+      "titleEn": "Formal future: shall, be to",
+      "topic": "thi-tuong-lai-don",
+      "counts": {
+        "transform": 0,
+        "fix": 10,
+        "gap": 26,
+        "choice": 21
+      },
+      "rev": "472768b0"
+    },
+    {
+      "id": "c1-subjunctive",
+      "order": 152,
+      "level": "C1",
+      "title": "Câu giả định that + S + V",
+      "titleEn": "The subjunctive",
+      "topic": "cau-uoc-gia-dinh",
+      "counts": {
+        "transform": 12,
+        "fix": 12,
+        "gap": 12,
+        "choice": 20
+      },
+      "rev": "1f694f1f"
+    },
+    {
+      "id": "c1-questions-advanced",
+      "order": 153,
+      "level": "C1",
+      "title": "Câu hỏi trong lập luận",
+      "titleEn": "Questions in argument",
+      "topic": "cau-hoi-nang-cao",
+      "counts": {
+        "transform": 6,
+        "fix": 6,
+        "gap": 19,
+        "choice": 26
+      },
+      "rev": "6436a144"
+    },
+    {
+      "id": "c1-comparative-adjectives",
+      "order": 154,
+      "level": "C1",
+      "title": "So sánh nâng cao",
+      "titleEn": "Advanced comparison",
+      "topic": "so-sanh",
+      "counts": {
+        "transform": 24,
+        "fix": 14,
+        "gap": 12,
+        "choice": 11
+      },
+      "rev": "9ba29a37"
+    },
+    {
+      "id": "c2-conditionals-formal",
+      "order": 155,
+      "level": "C2",
+      "title": "Cách nói điều kiện nâng cao",
+      "titleEn": "Advanced conditional expressions",
+      "topic": "cau-dieu-kien",
+      "counts": {
+        "transform": 22,
+        "fix": 13,
+        "gap": 11,
+        "choice": 11
+      },
+      "rev": "5cb5f3d5"
+    },
+    {
+      "id": "c2-absolute-clauses",
+      "order": 156,
+      "level": "C2",
+      "title": "Cấu trúc tuyệt đối",
+      "titleEn": "Absolute clauses",
+      "topic": "cum-phan-tu",
+      "counts": {
+        "transform": 9,
+        "fix": 23,
+        "gap": 9,
+        "choice": 16
+      },
+      "rev": "ee446df5"
+    },
+    {
+      "id": "c2-fronting-ellipsis",
+      "order": 157,
+      "level": "C2",
+      "title": "Đưa thông tin lên đầu câu",
+      "titleEn": "Fronting for focus",
+      "topic": "nhan-manh",
+      "counts": {
+        "transform": 20,
+        "fix": 15,
+        "gap": 10,
+        "choice": 15
+      },
+      "rev": "29193fd0"
+    },
+    {
+      "id": "c2-negation-advanced",
+      "order": 158,
+      "level": "C2",
+      "title": "Phủ định trang trọng: Nor, Not a",
+      "titleEn": "Formal negation: nor, not a",
+      "topic": "phu-dinh",
+      "counts": {
+        "transform": 20,
+        "fix": 14,
+        "gap": 12,
+        "choice": 12
+      },
+      "rev": "3007cb82"
+    },
+    {
+      "id": "c2-modality-deduction",
+      "order": 159,
+      "level": "C2",
+      "title": "Suy đoán: must, couldn't have",
+      "titleEn": "Advanced deduction",
+      "topic": "suy-doan",
+      "counts": {
+        "transform": 11,
+        "fix": 9,
+        "gap": 8,
+        "choice": 28
+      },
+      "rev": "b0b35e84"
+    },
+    {
+      "id": "c2-modality-obligation",
+      "order": 160,
+      "level": "C2",
+      "title": "have to, need, ought: dạng hiếm",
+      "titleEn": "have to, need, ought: rare forms",
+      "topic": "bat-buoc-loi-khuyen",
+      "counts": {
+        "transform": 23,
+        "fix": 11,
+        "gap": 14,
+        "choice": 12
+      },
+      "rev": "f874dcb9"
+    },
+    {
+      "id": "c2-modality-stance",
+      "order": 161,
+      "level": "C2",
+      "title": "Lập trường qua khuyết thiếu",
+      "titleEn": "Stance through modals",
+      "topic": "suy-doan",
+      "counts": {
+        "transform": 19,
+        "fix": 11,
+        "gap": 11,
+        "choice": 19
+      },
+      "rev": "4387435e"
+    },
+    {
+      "id": "c2-determiners-demonstratives",
+      "order": 162,
+      "level": "C2",
+      "title": "Chỉ định trong mạch văn",
+      "titleEn": "Demonstratives in discourse",
+      "topic": "mao-tu-chi-dinh",
+      "counts": {
+        "transform": 18,
+        "fix": 16,
+        "gap": 17,
+        "choice": 15
+      },
+      "rev": "033d4901"
+    },
+    {
+      "id": "c2-information-structure",
+      "order": 163,
+      "level": "C2",
+      "title": "Mạch thông tin trong câu",
+      "titleEn": "Information structure",
+      "topic": "mach-van-ngu-vuc",
+      "counts": {
+        "transform": 7,
+        "fix": 6,
+        "gap": 4,
+        "choice": 37
+      },
+      "rev": "3e088f82"
+    },
+    {
+      "id": "c2-register-rewrite",
+      "order": 164,
+      "level": "C2",
+      "title": "Viết lại theo ngữ vực",
+      "titleEn": "Rewriting across registers",
+      "topic": "mach-van-ngu-vuc",
+      "counts": {
+        "transform": 25,
+        "fix": 6,
+        "gap": 6,
+        "choice": 21
+      },
+      "rev": "5e6f28ea"
+    },
+    {
+      "id": "c2-prescriptive-rules",
+      "order": 165,
+      "level": "C2",
+      "title": "Quy tắc sách vở và thực tế",
+      "titleEn": "Prescriptive rules and real usage",
+      "topic": "mach-van-ngu-vuc",
+      "counts": {
+        "transform": 0,
+        "fix": 6,
+        "gap": 10,
+        "choice": 37
+      },
+      "rev": "7c7b053d"
+    },
+    {
+      "id": "c2-uk-us",
+      "order": 166,
+      "level": "C2",
+      "title": "Ngữ pháp Anh - Mỹ: nhận biết",
+      "titleEn": "British and American grammar",
+      "topic": "mach-van-ngu-vuc",
+      "counts": {
+        "transform": 19,
+        "fix": 5,
+        "gap": 12,
+        "choice": 18
+      },
+      "rev": "dab160e4"
+    }
+  ],
+  "topics": [
+    {
+      "slug": "dong-tu-be-have-got",
+      "title": "Động từ be và have got",
+      "titleEn": "be & have got",
+      "group": "thi-the",
+      "levels": [
+        "A1"
+      ],
+      "readMinutes": 13,
+      "nodeIds": [
+        "a1-to-be",
+        "a1-to-be-negative",
+        "a1-to-be-questions",
+        "a1-have-got"
+      ]
+    },
+    {
+      "slug": "thi-hien-tai-don",
+      "title": "Thì hiện tại đơn",
+      "titleEn": "Present Simple",
+      "group": "thi-the",
+      "levels": [
+        "A1",
+        "C1"
+      ],
+      "readMinutes": 13,
+      "nodeIds": [
+        "a1-present-simple",
+        "a1-present-third-person",
+        "c1-present-advanced"
+      ]
+    },
+    {
+      "slug": "thi-hien-tai-tiep-dien",
+      "title": "Thì hiện tại tiếp diễn",
+      "titleEn": "Present Continuous",
+      "group": "thi-the",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "readMinutes": 8,
+      "nodeIds": [
+        "a1-present-continuous",
+        "a2-present-continuous-future"
+      ]
+    },
+    {
+      "slug": "thi-hien-tai-hoan-thanh",
+      "title": "Thì hiện tại hoàn thành",
+      "titleEn": "Present Perfect",
+      "group": "thi-the",
+      "levels": [
+        "A2",
+        "B1"
+      ],
+      "readMinutes": 12,
+      "nodeIds": [
+        "a2-present-perfect-intro",
+        "b1-present-perfect"
+      ]
+    },
+    {
+      "slug": "thi-hien-tai-hoan-thanh-tiep-dien",
+      "title": "Thì hiện tại hoàn thành tiếp diễn",
+      "titleEn": "Present Perfect Continuous",
+      "group": "thi-the",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "readMinutes": 8,
+      "nodeIds": [
+        "b1-present-perfect-continuous",
+        "b2-present-perfect-continuous"
+      ]
+    },
+    {
+      "slug": "thi-qua-khu-don",
+      "title": "Thì quá khứ đơn",
+      "titleEn": "Past Simple",
+      "group": "thi-the",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "readMinutes": 13,
+      "nodeIds": [
+        "a1-past-was-were",
+        "a1-past-simple-verbs",
+        "a2-past-simple"
+      ]
+    },
+    {
+      "slug": "thi-qua-khu-tiep-dien",
+      "title": "Thì quá khứ tiếp diễn",
+      "titleEn": "Past Continuous",
+      "group": "thi-the",
+      "levels": [
+        "A2"
+      ],
+      "readMinutes": 5,
+      "nodeIds": [
+        "a2-past-continuous"
+      ]
+    },
+    {
+      "slug": "used-to-would",
+      "title": "used to / would - thói quen xưa",
+      "titleEn": "used to / would",
+      "group": "thi-the",
+      "levels": [
+        "A2",
+        "B2"
+      ],
+      "readMinutes": 8,
+      "nodeIds": [
+        "a2-used-to",
+        "b1-modal-past-habits"
+      ]
+    },
+    {
+      "slug": "thi-qua-khu-hoan-thanh",
+      "title": "Thì quá khứ hoàn thành",
+      "titleEn": "Past Perfect",
+      "group": "thi-the",
+      "levels": [
+        "B1",
+        "C1"
+      ],
+      "readMinutes": 8,
+      "nodeIds": [
+        "b1-past-perfect",
+        "c1-past-perfect-advanced"
+      ]
+    },
+    {
+      "slug": "thi-qua-khu-hoan-thanh-tiep-dien",
+      "title": "Thì quá khứ hoàn thành tiếp diễn",
+      "titleEn": "Past Perfect Continuous",
+      "group": "thi-the",
+      "levels": [
+        "B2"
+      ],
+      "readMinutes": 5,
+      "nodeIds": [
+        "b2-narrative-tenses"
+      ]
+    },
+    {
+      "slug": "thi-tuong-lai-don",
+      "title": "Thì tương lai đơn",
+      "titleEn": "Future Simple",
+      "group": "thi-the",
+      "levels": [
+        "A2",
+        "C1"
+      ],
+      "readMinutes": 9,
+      "nodeIds": [
+        "a2-future-will",
+        "c1-future-alternatives"
+      ]
+    },
+    {
+      "slug": "thi-tuong-lai-gan",
+      "title": "Tương lai gần (be going to)",
+      "titleEn": "Be going to",
+      "group": "thi-the",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "readMinutes": 8,
+      "nodeIds": [
+        "a1-be-going-to",
+        "a2-be-going-to"
+      ]
+    },
+    {
+      "slug": "thi-tuong-lai-tiep-dien",
+      "title": "Thì tương lai tiếp diễn",
+      "titleEn": "Future Continuous",
+      "group": "thi-the",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "readMinutes": 8,
+      "nodeIds": [
+        "b1-future-continuous",
+        "b2-future-continuous"
+      ]
+    },
+    {
+      "slug": "thi-tuong-lai-hoan-thanh",
+      "title": "Thì tương lai hoàn thành",
+      "titleEn": "Future Perfect",
+      "group": "thi-the",
+      "levels": [
+        "B2",
+        "C1"
+      ],
+      "readMinutes": 7,
+      "nodeIds": [
+        "b2-future-perfect",
+        "c1-future-perfect"
+      ]
+    },
+    {
+      "slug": "thi-tuong-lai-hoan-thanh-tiep-dien",
+      "title": "Thì tương lai hoàn thành tiếp diễn",
+      "titleEn": "Future Perfect Continuous",
+      "group": "thi-the",
+      "levels": [
+        "B2"
+      ],
+      "readMinutes": 4,
+      "nodeIds": [
+        "b2-future-perfect-continuous"
+      ]
+    },
+    {
+      "slug": "tuong-lai-trong-qua-khu",
+      "title": "Tương lai trong quá khứ",
+      "titleEn": "Future in the past",
+      "group": "thi-the",
+      "levels": [
+        "B2"
+      ],
+      "readMinutes": 6,
+      "nodeIds": [
+        "c2-future-in-the-past"
+      ]
+    },
+    {
+      "slug": "kha-nang-xin-phep",
+      "title": "Khả năng, xin phép, mong muốn",
+      "titleEn": "Ability, permission & wishes",
+      "group": "khuyet-thieu",
+      "levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "readMinutes": 23,
+      "nodeIds": [
+        "a1-can-ability",
+        "a1-can-request",
+        "a2-would-rather",
+        "a2-modal-could",
+        "b1-modal-ability-permission",
+        "b2-modal-advanced",
+        "c1-modality-ability-emphasis"
+      ]
+    },
+    {
+      "slug": "bat-buoc-loi-khuyen",
+      "title": "Bắt buộc và lời khuyên",
+      "titleEn": "Obligation & advice",
+      "group": "khuyet-thieu",
+      "levels": [
+        "A2",
+        "B1",
+        "C1",
+        "C2"
+      ],
+      "readMinutes": 25,
+      "nodeIds": [
+        "a2-modal-should-shall",
+        "a2-modal-may-must",
+        "a2-modal-have-to",
+        "b1-modal-obligation",
+        "b1-modal-ought-should",
+        "c1-modality-obligation",
+        "c2-modality-obligation"
+      ]
+    },
+    {
+      "slug": "suy-doan",
+      "title": "Suy đoán và mức chắc chắn",
+      "titleEn": "Deduction & certainty",
+      "group": "khuyet-thieu",
+      "levels": [
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "readMinutes": 24,
+      "nodeIds": [
+        "b1-modal-perfect",
+        "b2-modal-progressive-perfect",
+        "c1-hedging-modals",
+        "c1-modality-possibility",
+        "c2-modality-deduction",
+        "c2-modality-stance"
+      ]
+    },
+    {
+      "slug": "cau-hoi-co-ban",
+      "title": "Câu hỏi thông tin và đề nghị",
+      "titleEn": "Information questions & offers",
+      "group": "cau-hoi",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "readMinutes": 17,
+      "nodeIds": [
+        "a1-wh-questions",
+        "a1-how-adj-adv",
+        "a2-functional-questions",
+        "a2-wh-which-whose",
+        "b2-wh-who"
+      ]
+    },
+    {
+      "slug": "cau-hoi-nang-cao",
+      "title": "Câu hỏi phủ định, đuôi, lập luận",
+      "titleEn": "Negative, tag & rhetorical questions",
+      "group": "cau-hoi",
+      "levels": [
+        "B1",
+        "C1"
+      ],
+      "readMinutes": 15,
+      "nodeIds": [
+        "b1-functional-questions",
+        "b1-tag-questions",
+        "c1-questions-advanced"
+      ]
+    },
+    {
+      "slug": "phu-dinh",
+      "title": "Phủ định",
+      "titleEn": "Negation",
+      "group": "phu-dinh-dao-ngu",
+      "levels": [
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "readMinutes": 18,
+      "nodeIds": [
+        "b1-negatives-review",
+        "b2-quasi-negation",
+        "c1-negation-advanced",
+        "c2-negation-advanced"
+      ]
+    },
+    {
+      "slug": "dao-ngu",
+      "title": "Đảo ngữ",
+      "titleEn": "Inversion",
+      "group": "phu-dinh-dao-ngu",
+      "levels": [
+        "B1",
+        "C1"
+      ],
+      "readMinutes": 16,
+      "nodeIds": [
+        "b2-inversion-so-neither",
+        "c1-inversion"
+      ]
+    },
+    {
+      "slug": "danh-tu",
+      "title": "Danh từ và cụm danh từ",
+      "titleEn": "Nouns & noun phrases",
+      "group": "danh-tu-han-dinh",
+      "levels": [
+        "A1",
+        "A2",
+        "C1"
+      ],
+      "readMinutes": 14,
+      "nodeIds": [
+        "a1-plural-nouns",
+        "a2-compound-nouns",
+        "c1-noun-phrases"
+      ]
+    },
+    {
+      "slug": "mao-tu-chi-dinh",
+      "title": "Mạo từ và từ chỉ định",
+      "titleEn": "Articles & demonstratives",
+      "group": "danh-tu-han-dinh",
+      "levels": [
+        "A1",
+        "A2",
+        "B1",
+        "C2"
+      ],
+      "readMinutes": 21,
+      "nodeIds": [
+        "a1-articles",
+        "a1-demonstratives",
+        "a2-determiners",
+        "a2-articles-zero",
+        "b1-articles-names",
+        "c2-determiners-demonstratives"
+      ]
+    },
+    {
+      "slug": "luong-tu",
+      "title": "Lượng từ",
+      "titleEn": "Quantifiers",
+      "group": "danh-tu-han-dinh",
+      "levels": [
+        "A1",
+        "A2",
+        "B1"
+      ],
+      "readMinutes": 13,
+      "nodeIds": [
+        "a1-some-any-no",
+        "a2-quantifiers",
+        "c1-determiners-quantity"
+      ]
+    },
+    {
+      "slug": "dai-tu",
+      "title": "Đại từ",
+      "titleEn": "Pronouns",
+      "group": "dai-tu",
+      "levels": [
+        "A1",
+        "A2",
+        "B1",
+        "C1"
+      ],
+      "readMinutes": 22,
+      "nodeIds": [
+        "a1-possessive-object-pronouns",
+        "a2-pronouns-ones-others",
+        "c2-pronouns-possessive",
+        "b1-pronouns-advanced",
+        "c1-pronouns-other",
+        "c1-pronouns-quantity"
+      ]
+    },
+    {
+      "slug": "tinh-tu",
+      "title": "Tính từ",
+      "titleEn": "Adjectives",
+      "group": "tinh-tu-trang-tu",
+      "levels": [
+        "A1",
+        "B1",
+        "B2"
+      ],
+      "readMinutes": 14,
+      "nodeIds": [
+        "a1-adjectives",
+        "b1-adjectives-ing-ed",
+        "c2-adjective-order",
+        "b2-adjectives-special"
+      ]
+    },
+    {
+      "slug": "trang-tu",
+      "title": "Trạng từ",
+      "titleEn": "Adverbs",
+      "group": "tinh-tu-trang-tu",
+      "levels": [
+        "A1",
+        "A2",
+        "B1",
+        "C1"
+      ],
+      "readMinutes": 23,
+      "nodeIds": [
+        "a1-adverbs-frequency",
+        "a2-adverbs-manner",
+        "b1-adverbs-attitude",
+        "c2-adverb-position",
+        "c1-adverb-phrases",
+        "c1-adverbs-stance"
+      ]
+    },
+    {
+      "slug": "tu-loai",
+      "title": "Từ loại và hậu tố",
+      "titleEn": "Word classes",
+      "group": "tinh-tu-trang-tu",
+      "levels": [
+        "A2"
+      ],
+      "readMinutes": 8,
+      "nodeIds": [
+        "a2-word-classes"
+      ]
+    },
+    {
+      "slug": "so-sanh",
+      "title": "So sánh",
+      "titleEn": "Comparison",
+      "group": "tinh-tu-trang-tu",
+      "levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "readMinutes": 20,
+      "nodeIds": [
+        "a1-comparative-superlative",
+        "a2-comparatives",
+        "b1-comparatives-advanced",
+        "b2-comparatives-advanced",
+        "c1-comparative-adjectives"
+      ]
+    },
+    {
+      "slug": "muc-do",
+      "title": "Mức độ: too, so, enough, such",
+      "titleEn": "Degree: too, so, enough, such",
+      "group": "tinh-tu-trang-tu",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "readMinutes": 10,
+      "nodeIds": [
+        "b1-degree-too-so-how",
+        "b2-degree-enough-such"
+      ]
+    },
+    {
+      "slug": "lien-tu-trang-ngu",
+      "title": "Liên từ và mệnh đề trạng ngữ",
+      "titleEn": "Conjunctions & adverbial clauses",
+      "group": "menh-de",
+      "levels": [
+        "A1",
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "readMinutes": 20,
+      "nodeIds": [
+        "a1-conjunctions-clauses",
+        "b1-clauses-wh-as-soon-as",
+        "b2-clauses-whether-so-that",
+        "c1-clauses-subordinated"
+      ]
+    },
+    {
+      "slug": "noi-cau-dau-cau",
+      "title": "Nối câu và dấu câu",
+      "titleEn": "Joining clauses and punctuation",
+      "group": "menh-de",
+      "levels": [
+        "B1"
+      ],
+      "readMinutes": 9,
+      "nodeIds": [
+        "b1-comma-splice"
+      ]
+    },
+    {
+      "slug": "menh-de-danh-ngu",
+      "title": "Mệnh đề danh ngữ",
+      "titleEn": "Noun clauses",
+      "group": "menh-de",
+      "levels": [
+        "A2",
+        "B2"
+      ],
+      "readMinutes": 12,
+      "nodeIds": [
+        "a2-clauses-that-if-as",
+        "c2-clauses-exclamations"
+      ]
+    },
+    {
+      "slug": "menh-de-quan-he",
+      "title": "Mệnh đề quan hệ",
+      "titleEn": "Relative clauses",
+      "group": "menh-de",
+      "levels": [
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "readMinutes": 22,
+      "nodeIds": [
+        "a1-relative-who",
+        "a2-relative-what-where",
+        "b1-relative-clauses",
+        "b2-relative-which-prep",
+        "b2-relative-genitive-ever"
+      ]
+    },
+    {
+      "slug": "cum-phan-tu",
+      "title": "Cụm phân từ",
+      "titleEn": "Participle clauses",
+      "group": "menh-de",
+      "levels": [
+        "B1",
+        "C2"
+      ],
+      "readMinutes": 11,
+      "nodeIds": [
+        "b1-participial",
+        "c2-absolute-clauses"
+      ]
+    },
+    {
+      "slug": "cau-dieu-kien",
+      "title": "Câu điều kiện",
+      "titleEn": "Conditionals",
+      "group": "dieu-kien-gia-dinh",
+      "levels": [
+        "A2",
+        "B1",
+        "C1",
+        "C2"
+      ],
+      "readMinutes": 26,
+      "nodeIds": [
+        "a2-conditional-zero",
+        "a2-first-conditional",
+        "b1-conditionals-1-2",
+        "b1-third-conditional",
+        "c1-conditionals-advanced",
+        "c2-conditionals-formal"
+      ]
+    },
+    {
+      "slug": "cau-uoc-gia-dinh",
+      "title": "Câu ước và giả định",
+      "titleEn": "Wishes & the subjunctive",
+      "group": "dieu-kien-gia-dinh",
+      "levels": [
+        "B2",
+        "C1"
+      ],
+      "readMinutes": 10,
+      "nodeIds": [
+        "b2-third-conditional",
+        "c1-subjunctive"
+      ]
+    },
+    {
+      "slug": "bi-dong-co-ban",
+      "title": "Bị động qua các thì",
+      "titleEn": "The passive across tenses",
+      "group": "bi-dong-cau-khien",
+      "levels": [
+        "A1",
+        "B1",
+        "B2"
+      ],
+      "readMinutes": 17,
+      "nodeIds": [
+        "a1-past-participle",
+        "a2-passive-basic",
+        "b1-passive-voice",
+        "b2-passive-continuous",
+        "b2-passive-perfect"
+      ]
+    },
+    {
+      "slug": "bi-dong-nang-cao",
+      "title": "Bị động nâng cao",
+      "titleEn": "Advanced passive",
+      "group": "bi-dong-cau-khien",
+      "levels": [
+        "B2",
+        "C1"
+      ],
+      "readMinutes": 16,
+      "nodeIds": [
+        "b2-passive-objects",
+        "b2-passive-modal",
+        "c2-passive-reporting",
+        "c1-passive-modal"
+      ]
+    },
+    {
+      "slug": "cau-khien",
+      "title": "Thể cầu khiến",
+      "titleEn": "Causatives",
+      "group": "bi-dong-cau-khien",
+      "levels": [
+        "A2",
+        "B2"
+      ],
+      "readMinutes": 9,
+      "nodeIds": [
+        "a2-causative",
+        "b2-causative-have-get"
+      ]
+    },
+    {
+      "slug": "cau-tuong-thuat",
+      "title": "Câu tường thuật",
+      "titleEn": "Reported speech",
+      "group": "loi-noi-gian-tiep",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "readMinutes": 19,
+      "nodeIds": [
+        "a2-reported-speech-intro",
+        "b1-reported-speech",
+        "b2-reporting-verbs"
+      ]
+    },
+    {
+      "slug": "to-v-v-ing",
+      "title": "Động từ + to V / V-ing",
+      "titleEn": "Verb + to-infinitive / -ing",
+      "group": "mau-dong-tu",
+      "levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "readMinutes": 21,
+      "nodeIds": [
+        "a1-to-infinitive",
+        "a1-v-ing",
+        "a2-verb-ving",
+        "b1-to-infinitive-advanced",
+        "b2-verb-patterns",
+        "b2-to-infinitive-advanced"
+      ]
+    },
+    {
+      "slug": "gioi-tu-cum-dong-tu",
+      "title": "Giới từ và cụm động từ",
+      "titleEn": "Prepositions & phrasal verbs",
+      "group": "gioi-tu-cum-dong-tu",
+      "levels": [
+        "A1",
+        "A2",
+        "C1"
+      ],
+      "readMinutes": 22,
+      "nodeIds": [
+        "a1-prepositions",
+        "a2-prepositions-movement",
+        "a2-phrasal-verbs",
+        "a2-dependent-prepositions",
+        "c1-verb-patterns"
+      ]
+    },
+    {
+      "slug": "mau-cau",
+      "title": "Mẫu câu và câu cảm thán",
+      "titleEn": "Sentence patterns & exclamations",
+      "group": "cau-truc-cau",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "readMinutes": 12,
+      "nodeIds": [
+        "a1-sentence-pattern",
+        "a2-exclamation",
+        "a2-sentence-patterns"
+      ]
+    },
+    {
+      "slug": "cau-menh-lenh",
+      "title": "Câu mệnh lệnh",
+      "titleEn": "Imperatives",
+      "group": "cau-truc-cau",
+      "levels": [
+        "A1",
+        "C1"
+      ],
+      "readMinutes": 13,
+      "nodeIds": [
+        "a1-imperative",
+        "c1-imperatives-advanced"
+      ]
+    },
+    {
+      "slug": "chu-ngu-gia",
+      "title": "Chủ ngữ giả it, there",
+      "titleEn": "Dummy subjects it & there",
+      "group": "cau-truc-cau",
+      "levels": [
+        "A1",
+        "B1",
+        "B2"
+      ],
+      "readMinutes": 19,
+      "nodeIds": [
+        "a1-it-weather-time",
+        "a1-there-is-are",
+        "b1-it-clauses",
+        "b1-there-here",
+        "b2-it-clauses"
+      ]
+    },
+    {
+      "slug": "hoa-hop-chu-vi",
+      "title": "Hoà hợp chủ ngữ - động từ",
+      "titleEn": "Subject-verb agreement",
+      "group": "cau-truc-cau",
+      "levels": [
+        "B2"
+      ],
+      "readMinutes": 10,
+      "nodeIds": [
+        "b2-subject-verb-agreement"
+      ]
+    },
+    {
+      "slug": "nhan-manh",
+      "title": "Nhấn mạnh và đưa lên đầu",
+      "titleEn": "Emphasis & fronting",
+      "group": "cau-truc-cau",
+      "levels": [
+        "B1",
+        "C1",
+        "C2"
+      ],
+      "readMinutes": 14,
+      "nodeIds": [
+        "b1-emphasis-do",
+        "c1-cleft-sentences",
+        "c2-fronting-ellipsis"
+      ]
+    },
+    {
+      "slug": "mach-van-ngu-vuc",
+      "title": "Mạch văn và ngữ vực",
+      "titleEn": "Information flow and register",
+      "group": "cau-truc-cau",
+      "levels": [
+        "C2"
+      ],
+      "readMinutes": 24,
+      "nodeIds": [
+        "c2-information-structure",
+        "c2-register-rewrite",
+        "c2-prescriptive-rules",
+        "c2-uk-us"
+      ]
+    }
+  ],
+  "curriculum": {
+    "levels": [
+      {
+        "level": "A1",
+        "stages": [
+          {
+            "id": "A1",
+            "modules": [
+              {
+                "id": "a1-gioi-thieu",
+                "no": 1,
+                "label": "Giới thiệu bản thân",
+                "nodeIds": [
+                  "a1-to-be",
+                  "a1-plural-nouns",
+                  "a1-articles",
+                  "a1-adjectives",
+                  "a1-to-be-negative",
+                  "a1-to-be-questions",
+                  "a1-demonstratives",
+                  "a1-possessive-object-pronouns",
+                  "a1-have-got"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-a1",
+                  "course": "unit-1-part-1"
+                }
+              },
+              {
+                "id": "a1-nha-pho",
+                "no": 2,
+                "label": "Nhà tôi, phố tôi, thời tiết",
+                "nodeIds": [
+                  "a1-there-is-are",
+                  "a1-it-weather-time"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-a1",
+                  "course": "unit-3-part-3"
+                }
+              },
+              {
+                "id": "a1-mot-ngay",
+                "no": 3,
+                "label": "Một ngày và sở thích của tôi",
+                "nodeIds": [
+                  "a1-sentence-pattern",
+                  "a1-present-simple",
+                  "a1-wh-questions",
+                  "a1-v-ing",
+                  "a1-present-third-person",
+                  "a1-adverbs-frequency"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-a1",
+                  "course": "unit-5-part-2"
+                }
+              },
+              {
+                "id": "a1-xin-phep-nho",
+                "no": 4,
+                "label": "Khả năng, xin phép và nhờ vả",
+                "nodeIds": [
+                  "a1-can-ability",
+                  "a1-can-request",
+                  "a1-imperative"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-a1",
+                  "course": "unit-8-part-1"
+                }
+              },
+              {
+                "id": "a1-o-dau-lam-gi",
+                "no": 5,
+                "label": "Ở đâu, khi nào, đang làm gì",
+                "nodeIds": [
+                  "a1-prepositions",
+                  "a1-present-continuous"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-a1",
+                  "course": "unit-9-part-1"
+                }
+              },
+              {
+                "id": "a1-bao-nhieu",
+                "no": 6,
+                "label": "Hỏi bao nhiêu, có hay không",
+                "nodeIds": [
+                  "a1-some-any-no",
+                  "a1-how-adj-adv"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-a1",
+                  "course": "unit-11-part-1"
+                }
+              },
+              {
+                "id": "a1-hom-qua-ngay-mai",
+                "no": 7,
+                "label": "Hôm qua và ngày mai",
+                "nodeIds": [
+                  "a1-past-was-were",
+                  "a1-past-simple-verbs",
+                  "a1-be-going-to"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-a1",
+                  "course": "unit-13-part-1"
+                }
+              },
+              {
+                "id": "a1-mo-ta-so-sanh",
+                "no": 8,
+                "label": "Mô tả, so sánh và nối câu",
+                "nodeIds": [
+                  "a1-comparative-superlative",
+                  "a1-conjunctions-clauses",
+                  "a1-past-participle"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-a1",
+                  "course": "unit-12-part-2"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "A2",
+        "stages": [
+          {
+            "id": "A2",
+            "modules": [
+              {
+                "id": "a2-ke-chuyen",
+                "no": 1,
+                "label": "Kể và hỏi chuyện đã qua",
+                "nodeIds": [
+                  "a2-past-simple",
+                  "a2-wh-which-whose",
+                  "b2-wh-who",
+                  "a2-past-continuous"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-a2",
+                  "course": "unit-1-part-1"
+                }
+              },
+              {
+                "id": "a2-trai-nghiem",
+                "no": 2,
+                "label": "Ngày xưa và trải nghiệm",
+                "nodeIds": [
+                  "a2-used-to",
+                  "a2-present-perfect-intro"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-a2",
+                  "course": "unit-2-part-4"
+                }
+              },
+              {
+                "id": "a2-ke-hoach",
+                "no": 3,
+                "label": "Kế hoạch và dự đoán",
+                "nodeIds": [
+                  "a2-future-will",
+                  "a2-be-going-to",
+                  "a2-present-continuous-future",
+                  "a1-to-infinitive"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-a2",
+                  "course": "unit-4-part-1"
+                }
+              },
+              {
+                "id": "a2-nen-phai",
+                "no": 4,
+                "label": "Nên, phải, được phép và nhờ",
+                "nodeIds": [
+                  "a2-modal-should-shall",
+                  "a2-modal-have-to",
+                  "a2-modal-may-must",
+                  "a2-modal-could"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-a2",
+                  "course": "unit-5-part-1"
+                }
+              },
+              {
+                "id": "a2-mo-ta",
+                "no": 5,
+                "label": "Mô tả và so sánh",
+                "nodeIds": [
+                  "a2-comparatives",
+                  "a2-adverbs-manner",
+                  "a2-word-classes"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-a2",
+                  "course": "unit-6-part-1"
+                }
+              },
+              {
+                "id": "a2-mua-sam",
+                "no": 6,
+                "label": "Mua sắm: bao nhiêu, loại gì",
+                "nodeIds": [
+                  "a2-quantifiers",
+                  "a2-articles-zero",
+                  "a2-compound-nouns"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-a2",
+                  "course": "unit-7-part-1"
+                }
+              },
+              {
+                "id": "a2-chon-lua",
+                "no": 7,
+                "label": "Chọn món: cái nào, của ai",
+                "nodeIds": [
+                  "a2-determiners",
+                  "a2-pronouns-ones-others",
+                  "c2-pronouns-possessive"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-a2",
+                  "course": "unit-7-part-3"
+                }
+              }
+            ]
+          },
+          {
+            "id": "A2+",
+            "modules": [
+              {
+                "id": "a2-moi-goi-y",
+                "no": 8,
+                "label": "Mời, gợi ý và rủ rê",
+                "nodeIds": [
+                  "a2-would-rather",
+                  "a2-functional-questions"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-a2",
+                  "course": "unit-11-part-1"
+                }
+              },
+              {
+                "id": "a2-y-kien",
+                "no": 9,
+                "label": "Ý kiến, cảm thán và điều kiện",
+                "nodeIds": [
+                  "a2-clauses-that-if-as",
+                  "a2-exclamation",
+                  "a2-conditional-zero",
+                  "a2-first-conditional"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-a2",
+                  "course": "unit-8-part-1"
+                }
+              },
+              {
+                "id": "a2-cau-chi-tiet",
+                "no": 10,
+                "label": "Câu chi tiết hơn",
+                "nodeIds": [
+                  "a1-relative-who",
+                  "a2-sentence-patterns",
+                  "a2-verb-ving",
+                  "a2-causative"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-a2",
+                  "course": "a1-unit-16-part-3"
+                }
+              },
+              {
+                "id": "a2-cum-dong-tu",
+                "no": 11,
+                "label": "Cụm động từ và giới từ",
+                "nodeIds": [
+                  "a2-prepositions-movement",
+                  "a2-phrasal-verbs",
+                  "a2-dependent-prepositions"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-a2",
+                  "course": "unit-10-part-1"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "B1",
+        "stages": [
+          {
+            "id": "B1",
+            "modules": [
+              {
+                "id": "b1-ban-do-thi",
+                "no": 1,
+                "label": "Bản đồ thì: hoàn thành và tiếp diễn",
+                "nodeIds": [
+                  "b1-present-perfect",
+                  "b1-present-perfect-continuous",
+                  "b1-past-perfect",
+                  "b1-future-continuous"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-b1",
+                  "course": "unit-1-part-1"
+                }
+              },
+              {
+                "id": "b1-khuyet-thieu",
+                "no": 2,
+                "label": "Làm được, phải làm, nên làm",
+                "nodeIds": [
+                  "b1-modal-ability-permission",
+                  "b1-modal-obligation",
+                  "b1-modal-ought-should"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-b1",
+                  "course": "unit-3-part-1"
+                }
+              },
+              {
+                "id": "b1-doan-gia-dinh",
+                "no": 3,
+                "label": "Suy đoán và giả định",
+                "nodeIds": [
+                  "b1-conditionals-1-2",
+                  "b1-third-conditional",
+                  "b1-modal-perfect"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-b1",
+                  "course": "unit-4-part-1"
+                }
+              },
+              {
+                "id": "b1-tuong-thuat",
+                "no": 4,
+                "label": "Tường thuật và mệnh đề thời gian",
+                "nodeIds": [
+                  "a2-reported-speech-intro",
+                  "b1-to-infinitive-advanced",
+                  "b1-reported-speech",
+                  "b1-clauses-wh-as-soon-as"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-b1",
+                  "course": "a2-unit-11-part-4"
+                }
+              },
+              {
+                "id": "b1-khach-quan",
+                "no": 5,
+                "label": "Tin tức và quy trình",
+                "nodeIds": [
+                  "a2-passive-basic",
+                  "b1-passive-voice",
+                  "b1-it-clauses",
+                  "b1-there-here"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-b1",
+                  "course": "a2-unit-9-part-1"
+                }
+              }
+            ]
+          },
+          {
+            "id": "B1+",
+            "modules": [
+              {
+                "id": "b1-mo-ta-chi-tiet",
+                "no": 6,
+                "label": "Mô tả người và vật chi tiết",
+                "nodeIds": [
+                  "a2-relative-what-where",
+                  "b1-participial",
+                  "b1-adjectives-ing-ed",
+                  "c2-adjective-order"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-b1",
+                  "course": "a2-unit-12-part-4"
+                }
+              },
+              {
+                "id": "b1-hoi-dap",
+                "no": 7,
+                "label": "Hỏi đáp, phủ định, nhấn mạnh",
+                "nodeIds": [
+                  "b1-tag-questions",
+                  "b1-functional-questions",
+                  "b2-inversion-so-neither",
+                  "b1-negatives-review",
+                  "b1-emphasis-do"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-b1",
+                  "course": "unit-7-part-4"
+                }
+              },
+              {
+                "id": "b1-dai-tu-mao-tu",
+                "no": 8,
+                "label": "Đại từ, mạo từ, lượng từ",
+                "nodeIds": [
+                  "b1-pronouns-advanced",
+                  "b1-articles-names",
+                  "c1-determiners-quantity"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-b1",
+                  "course": "unit-9-part-1"
+                }
+              },
+              {
+                "id": "b1-binh-luan",
+                "no": 9,
+                "label": "Trạng từ bình luận và nối câu",
+                "nodeIds": [
+                  "b1-adverbs-attitude",
+                  "c2-adverb-position",
+                  "b1-comma-splice"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-b1",
+                  "course": "unit-9-part-3"
+                }
+              },
+              {
+                "id": "b1-muc-do",
+                "no": 10,
+                "label": "Mức độ và so sánh",
+                "nodeIds": [
+                  "b1-degree-too-so-how",
+                  "b1-comparatives-advanced"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-b1",
+                  "course": "unit-6-part-4"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "B2",
+        "stages": [
+          {
+            "id": "B2",
+            "modules": [
+              {
+                "id": "b2-ke-nhieu-lop",
+                "no": 1,
+                "label": "Kể chuyện nhiều lớp thời gian",
+                "nodeIds": [
+                  "b2-narrative-tenses",
+                  "b2-present-perfect-continuous",
+                  "c2-future-in-the-past",
+                  "b1-modal-past-habits"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-b2",
+                  "course": "unit-1-part-1"
+                }
+              },
+              {
+                "id": "b2-tuong-lai",
+                "no": 2,
+                "label": "Nhìn về tương lai",
+                "nodeIds": [
+                  "b2-future-continuous",
+                  "b2-future-perfect",
+                  "b2-future-perfect-continuous"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-b2",
+                  "course": "unit-1-part-3"
+                }
+              },
+              {
+                "id": "b2-bi-dong",
+                "no": 3,
+                "label": "Viết khách quan: bị động",
+                "nodeIds": [
+                  "b2-passive-continuous",
+                  "b2-passive-perfect",
+                  "b2-passive-objects",
+                  "b2-passive-modal"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-b2",
+                  "course": "unit-2-part-1"
+                }
+              },
+              {
+                "id": "b2-mau-dong-tu",
+                "no": 4,
+                "label": "Mẫu động từ, nhờ làm, tường thuật",
+                "nodeIds": [
+                  "b2-causative-have-get",
+                  "b2-verb-patterns",
+                  "b2-to-infinitive-advanced",
+                  "b2-reporting-verbs",
+                  "c2-passive-reporting"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-b2",
+                  "course": "unit-3-part-5"
+                }
+              }
+            ]
+          },
+          {
+            "id": "B2+",
+            "modules": [
+              {
+                "id": "b2-lap-luan",
+                "no": 5,
+                "label": "Lập luận: mục đích, nhượng bộ",
+                "nodeIds": [
+                  "b2-clauses-whether-so-that",
+                  "b2-it-clauses",
+                  "b2-quasi-negation"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-b2",
+                  "course": "unit-8-part-1"
+                }
+              },
+              {
+                "id": "b2-tiec-nuoi",
+                "no": 6,
+                "label": "Tiếc nuối, giả định, sắc thái",
+                "nodeIds": [
+                  "b2-modal-progressive-perfect",
+                  "b2-modal-advanced",
+                  "b2-third-conditional"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-b2",
+                  "course": "unit-5-part-1"
+                }
+              },
+              {
+                "id": "b2-cau-phuc",
+                "no": 7,
+                "label": "Câu phức và hoà hợp chủ ngữ",
+                "nodeIds": [
+                  "b1-relative-clauses",
+                  "b2-relative-which-prep",
+                  "b2-relative-genitive-ever",
+                  "c2-clauses-exclamations",
+                  "b2-subject-verb-agreement"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-b2",
+                  "course": "b1-unit-8-part-1"
+                }
+              },
+              {
+                "id": "b2-muc-do",
+                "no": 8,
+                "label": "Mức độ, so sánh, tính từ",
+                "nodeIds": [
+                  "b2-comparatives-advanced",
+                  "b2-degree-enough-such",
+                  "b2-adjectives-special"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-b2",
+                  "course": "unit-9-part-1"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "C1",
+        "stages": [
+          {
+            "id": "C1",
+            "modules": [
+              {
+                "id": "c1-sac-thai",
+                "no": 1,
+                "label": "Sắc thái khuyết thiếu",
+                "nodeIds": [
+                  "c1-modality-possibility",
+                  "c1-modality-obligation",
+                  "c1-modality-ability-emphasis",
+                  "c1-hedging-modals"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-c1",
+                  "course": "unit-1-part-1"
+                }
+              },
+              {
+                "id": "c1-nhan-manh",
+                "no": 2,
+                "label": "Nhấn mạnh: đảo ngữ, câu chẻ",
+                "nodeIds": [
+                  "c1-negation-advanced",
+                  "c1-inversion",
+                  "c1-cleft-sentences"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-c1",
+                  "course": "unit-2-part-1"
+                }
+              },
+              {
+                "id": "c1-cau-gon",
+                "no": 3,
+                "label": "Câu gọn và điều kiện nâng cao",
+                "nodeIds": [
+                  "c1-conditionals-advanced",
+                  "c1-clauses-subordinated"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-c1",
+                  "course": "unit-3-part-1"
+                }
+              },
+              {
+                "id": "c1-hoc-thuat",
+                "no": 4,
+                "label": "Văn học thuật",
+                "nodeIds": [
+                  "c1-noun-phrases",
+                  "c1-present-advanced",
+                  "c1-adverbs-stance",
+                  "c1-imperatives-advanced"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-c1",
+                  "course": "unit-4-part-3"
+                }
+              },
+              {
+                "id": "c1-tu-trang-trong",
+                "no": 5,
+                "label": "Đại từ và cụm từ trang trọng",
+                "nodeIds": [
+                  "c1-pronouns-quantity",
+                  "c1-pronouns-other",
+                  "c1-adverb-phrases",
+                  "c1-verb-patterns"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-c1",
+                  "course": "unit-5-part-1"
+                }
+              },
+              {
+                "id": "c1-van-ke",
+                "no": 6,
+                "label": "Văn kể, tương lai, bị động trang trọng",
+                "nodeIds": [
+                  "c1-past-perfect-advanced",
+                  "c1-future-perfect",
+                  "c1-passive-modal",
+                  "c1-future-alternatives"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-c1",
+                  "course": "unit-7-part-1"
+                }
+              },
+              {
+                "id": "c1-lap-luan",
+                "no": 7,
+                "label": "Lập luận trang trọng",
+                "nodeIds": [
+                  "c1-subjunctive",
+                  "c1-questions-advanced",
+                  "c1-comparative-adjectives"
+                ],
+                "typing": {
+                  "pack": "lo-trinh-c1",
+                  "course": "unit-8-part-2"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "C2",
+        "stages": [
+          {
+            "id": "C2",
+            "modules": [
+              {
+                "id": "c2-cau-truc-trang-trong",
+                "no": 1,
+                "label": "Cấu trúc trang trọng",
+                "nodeIds": [
+                  "c2-conditionals-formal",
+                  "c2-absolute-clauses",
+                  "c2-fronting-ellipsis",
+                  "c2-negation-advanced"
+                ]
+              },
+              {
+                "id": "c2-lap-truong",
+                "no": 2,
+                "label": "Lập trường và sắc thái",
+                "nodeIds": [
+                  "c2-modality-deduction",
+                  "c2-modality-obligation",
+                  "c2-modality-stance",
+                  "c2-determiners-demonstratives"
+                ]
+              },
+              {
+                "id": "c2-mach-van",
+                "no": 3,
+                "label": "Mạch văn và ngữ vực",
+                "nodeIds": [
+                  "c2-information-structure",
+                  "c2-register-rewrite",
+                  "c2-prescriptive-rules",
+                  "c2-uk-us"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "nodeAliases": {
+    "a2-please-imperative": "a1-imperative",
+    "b2-passive-past-continuous": "b2-passive-continuous",
+    "b2-passive-past-perfect": "b2-passive-perfect",
+    "b2-emphasis-do": "b1-emphasis-do",
+    "b2-relative-objects": "b2-relative-which-prep",
+    "c1-passive-future": "b2-passive-perfect",
+    "c1-past-emphasis": "b1-emphasis-do",
+    "c2-nominalisation": "c1-noun-phrases",
+    "c2-passive-advanced": "c1-passive-modal",
+    "c2-past-perfect-advanced": "c1-past-perfect-advanced",
+    "c2-pronouns-other": "c1-pronouns-quantity",
+    "c2-register-shift": "c1-future-alternatives"
+  },
+  "topicAliases": {
+    "thi-hien-tai-don": "thi-hien-tai-don",
+    "thi-hien-tai-tiep-dien": "thi-hien-tai-tiep-dien",
+    "thi-hien-tai-hoan-thanh": "thi-hien-tai-hoan-thanh",
+    "thi-hien-tai-hoan-thanh-tiep-dien": "thi-hien-tai-hoan-thanh-tiep-dien",
+    "thi-qua-khu-don": "thi-qua-khu-don",
+    "thi-qua-khu-tiep-dien": "thi-qua-khu-tiep-dien",
+    "thi-qua-khu-hoan-thanh": "thi-qua-khu-hoan-thanh",
+    "thi-qua-khu-hoan-thanh-tiep-dien": "thi-qua-khu-hoan-thanh-tiep-dien",
+    "thi-tuong-lai-don": "thi-tuong-lai-don",
+    "thi-tuong-lai-gan": "thi-tuong-lai-gan",
+    "thi-tuong-lai-tiep-dien": "thi-tuong-lai-tiep-dien",
+    "thi-tuong-lai-hoan-thanh": "thi-tuong-lai-hoan-thanh",
+    "thi-tuong-lai-hoan-thanh-tiep-dien": "thi-tuong-lai-hoan-thanh-tiep-dien",
+    "tuong-lai-trong-qua-khu": "tuong-lai-trong-qua-khu",
+    "cau-khang-dinh": "mau-cau",
+    "cau-phu-dinh": "phu-dinh",
+    "cau-nghi-van": "cau-hoi-co-ban",
+    "cau-hoi-duoi": "cau-hoi-nang-cao",
+    "cau-menh-lenh": "cau-menh-lenh",
+    "cau-cam-than": "mau-cau",
+    "cau-cau-khien": "cau-khien",
+    "cau-bi-dong": "bi-dong-co-ban",
+    "cau-bi-dong-nang-cao": "bi-dong-co-ban",
+    "cau-yeu-cau-goi-y-de-nghi": "kha-nang-xin-phep",
+    "cau-dieu-kien": "cau-dieu-kien",
+    "cau-gia-dinh-wish": "cau-uoc-gia-dinh",
+    "cau-so-sanh": "so-sanh",
+    "cau-truc-dao-ngu": "dao-ngu",
+    "cau-tuong-thuat": "cau-tuong-thuat",
+    "cau-don-va-cau-ghep": "lien-tu-trang-ngu",
+    "chu-ngu-gia": "chu-ngu-gia",
+    "nhan-manh-cau-che": "nhan-manh",
+    "muc-do-too-so-enough": "muc-do",
+    "menh-de-quan-he": "menh-de-quan-he",
+    "menh-de-danh-ngu": "menh-de-danh-ngu",
+    "menh-de-trang-ngu": "lien-tu-trang-ngu",
+    "rut-gon-cac-loai-menh-de": "lien-tu-trang-ngu",
+    "danh-tu-la-gi": "danh-tu",
+    "cum-danh-tu": "danh-tu",
+    "dai-tu": "dai-tu",
+    "tu-chi-dinh": "mao-tu-chi-dinh",
+    "either-neither": "luong-tu",
+    "mao-tu": "mao-tu-chi-dinh",
+    "luong-tu": "luong-tu",
+    "so-huu-have-got": "dong-tu-be-have-got",
+    "dong-tu-to-be": "dong-tu-be-have-got",
+    "dong-tu-khuyet-thieu": "bat-buoc-loi-khuyen",
+    "dong-tu-khuyet-thieu-nang-cao": "suy-doan",
+    "dong-tu-khuyet-thieu-c2": "suy-doan",
+    "used-to-would": "used-to-would",
+    "cum-dong-tu-nguyen-mau": "to-v-v-ing",
+    "cum-danh-dong-tu": "to-v-v-ing",
+    "cum-phan-tu": "cum-phan-tu",
+    "gioi-tu-va-cum-dong-tu": "gioi-tu-cum-dong-tu",
+    "tinh-tu-phan-loai": "tinh-tu",
+    "tinh-tu-vi-tri-thu-tu": "tinh-tu",
+    "phan-loai-trang-tu": "trang-tu",
+    "trang-tu-dinh-nghia-vi-tri": "trang-tu",
+    "thi-hien-tai": "thi-hien-tai-don",
+    "thi-qua-khu": "thi-qua-khu-don",
+    "thi-hoan-thanh": "thi-hien-tai-hoan-thanh",
+    "tuong-lai": "thi-tuong-lai-gan",
+    "tuong-lai-nang-cao": "thi-tuong-lai-tiep-dien"
+  }
+}

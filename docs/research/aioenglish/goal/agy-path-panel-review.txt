@@ -1,0 +1,36 @@
+Here is the review of the definite focus, state, and ARIA issues in this component:
+
+---
+
+### 1. Focus Problems
+
+* **Global `Escape` hijacking in a nonmodal fixture:**
+  The `keydown` listener attaches directly to `document` without checking whether `event.target` is contained inside `panel.current`. Because this is a nonmodal panel, pressing `Escape` anywhere on the page (such as inside map controls, dropdowns, or search inputs) will intercept the key, call `event.preventDefault()`, and close the panel unexpectedly.
+* **Focus thrashing and misdirected restoration on `node.id` change:**
+  The `useLayoutEffect` hook depends on `[node.id]`. When switching from one node to another while the panel stays open:
+  1. The cleanup runs and restores focus to `previous` (the element that was focused prior to the *first* node opening).
+  2. The new effect immediately runs and steals focus back to `panel.current`.
+  This causes focus thrashing and forcibly yanks focus away if the user just clicked another node or element on the map canvas.
+* **Aggressive programmatic focus stealing:**
+  Forcing focus via `panel.current?.focus({ preventScroll: true })` on mount and on every `node.id` change mimics modal dialog behavior. For an in-map nonmodal fixture, this breaks user flow by repeatedly ripping focus away from the map.
+
+---
+
+### 2. State Problems
+
+* **Stale `done` state leak across nodes:**
+  `const [done, setDone] = useState(false)` is only initialized on initial mount. Because the panel remains mounted across node transitions (as indicated by the `[node.id]` effect dependency), `done` is never reset when `node.id` changes. Toggling "done" on one node causes all subsequent nodes viewed in the panel to falsely inherit `done = true`.
+
+---
+
+### 3. ARIA Problems
+
+* **Dual text nodes corrupting the button's accessible name:**
+  The "done" button renders both responsive labels simultaneously in the DOM:
+  ```tsx
+  <span className="ui-map-done-mobile">{done ? "Đã nắm" : "Đánh dấu đã nắm"}</span>
+  <span className="ui-map-done-desktop">{done ? "Đã nắm" : "Đã nắm?"}</span>
+  ```
+  Neither span is hidden from assistive technology with `aria-hidden="true"`. Screen readers compute the accessible name by concatenating both elements, resulting in confusing announcements like `"Đánh dấu đã nắm Đã nắm?"` or `"Đã nắm Đã nắm"`.
+* **Conflicting toggle button semantics (`aria-pressed` with dynamic label):**
+  The button toggles `aria-pressed={done}` while simultaneously swapping its visible text label between a verb phrase (*"Đánh dấu đã nắm"*) and a state descriptor (*"Đã nắm"*). Under WAI-ARIA authoring practices, a toggle button (`aria-pressed`) should keep a **static label** (e.g. `"Đã nắm"`), letting the pressed state convey status. Combining dynamic text with `aria-pressed` produces redundant and confusing announcements (e.g., *"Đã nắm, pressed, button"* vs *"Đánh dấu đã nắm, not pressed, button"*).

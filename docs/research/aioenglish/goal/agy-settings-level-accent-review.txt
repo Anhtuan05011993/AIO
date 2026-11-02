@@ -1,0 +1,91 @@
+### 1. `SettingsLevel`
+
+#### Issue 1: State / UI Fixture Leak Across Certificate Groups
+* **Evidence:**
+  ```tsx
+  const selected = bands.includes(level) ? level : level === "A1" ? bands[0] : "";
+  ```
+* **Impact:** 
+  The initial `"A1"` value is intended strictly as a UI fixture for the first **IELTS** row (`"Mới bắt đầu (≤2.5)"`). Certificate tabs are only supposed to switch the visible group without selecting a band until the user explicitly clicks one.
+  However, because `level === "A1"` is evaluated unconditionally, switching `view` to `"TOEIC"` changes `bands` to `TOEIC`, causing `selected` to evaluate to `TOEIC[0]` (`"Mới bắt đầu (≤220)"`). This causes the first TOEIC band to render as active (`is-on`, `aria-pressed="true"`) even though the user only switched certificate tabs and never chose a TOEIC band.
+* **Fix condition:** `level === "A1"` should only resolve to `bands[0]` when `exam === "IELTS"` (e.g. `level === "A1" && exam === "IELTS" ? bands[0] : ""`).
+
+---
+
+#### Issue 2: Stale `view` State Locks Component & Ignores Parent `level` Updates
+* **Evidence:**
+  ```tsx
+  const [view, setView] = useState<string | null>(null);
+  const exam = view ?? (level.includes("TOEIC") || level.includes("220") ? "TOEIC" : "IELTS");
+  // ...
+  onClick={() => onChange(band)}
+  ```
+* **Impact:**
+  `view` only tracks temporary group switching ("until a band is chosen"). When a user clicks a band, `onChange(band)` notifies the parent, but `view` is never reset to `null` (`setView(null)`).
+  Because `exam` evaluates `view ?? ...`, once `view` is set by clicking a tab, `exam` is permanently locked to that group. If the parent resets or updates `level` externally to an alternate certificate (e.g., reverting to IELTS from TOEIC), `exam` continues to display the old `view`, desynchronizing the UI from the parent prop.
+
+---
+
+#### Issue 3: Accessibility Semantics & Keyboard Navigation
+* **Evidence:**
+  ```tsx
+  <div {...s} className="nbc-pills lvc-certs" role="group" aria-labelledby="settings-cert-label">
+    {["IELTS", "TOEIC", "Chưa rõ / Chỉ muốn học"].map(cert => (
+      <button key={cert} ... aria-pressed={exam === cert} onClick={() => setView(cert)}>{cert}</button>
+    ))}
+  </div>
+
+  <div {...s} className="lvc-rows" role="group" aria-labelledby="settings-current-level-label">
+    {bands.map((band, index) => (
+      <button key={band} ... aria-pressed={selected === band} ... onClick={() => onChange(band)}>
+  ```
+* **Impact:**
+  1. **Incorrect ARIA state for mutually exclusive selections:** `aria-pressed` indicates independent toggle buttons (which can be toggled on and off independently). In both selectors, options are mutually exclusive:
+     - The certificate selector controls content views; standard ARIA requires `role="tablist"` / `role="tab"` with `aria-selected` (or `role="radiogroup"` / `role="radio"` with `aria-checked`).
+     - The level selector represents a single-select radio list (visualized with radio dots `.nbc-rd`); `role="radiogroup"` with `role="radio"` and `aria-checked` is required so screen readers do not announce them as multi-state toggle buttons.
+  2. **Missing keyboard roving focus:** Neither group implements roving `tabIndex` or arrow key navigation (`ArrowUp`/`ArrowDown`/`ArrowLeft`/`ArrowRight`), forcing keyboard users to Tab through every row sequentially instead of navigating the options as a unified selection group.
+
+---
+
+### 2. `SettingsAccent`
+
+#### Issue 1: Nested Focusable Play Buttons Break ARIA Roving Tabindex & Entry Sequence
+* **Evidence:**
+  ```tsx
+  <div {...s} role="radiogroup" aria-label="Giọng tiếng Anh" className="apc-grid" data-testid="accent-picker">
+    {(["uk", "us"] as const).map(accent => <div key={accent} {...s} className="relative">
+      <button {...s} type="button" role="radio" ... tabIndex={value === accent ? 0 : -1} ...>
+        ...
+      </button>
+      <button {...s} type="button" className="nbc-eye ap-play" aria-label={`Nghe giọng ${...}`} ...>
+  ```
+* **Impact:**
+  - The container uses `role="radiogroup"`, and the radio buttons use a roving `tabIndex` (`value === accent ? 0 : -1`).
+  - However, the sibling preview button `<button className="nbc-eye ap-play">` has no `tabIndex` specified, defaulting to `tabIndex={0}`.
+  - When `value === "us"`, DOM order is:
+    1. UK Radio: `tabIndex={-1}`
+    2. UK Play Button: `tabIndex={0}`
+    3. US Radio: `tabIndex={0}`
+    4. US Play Button: `tabIndex={0}`
+  - When a keyboard user tabs into the radiogroup, focus lands on the **UK Play button** instead of the selected **US Radio button**, violating the WAI-ARIA radiogroup requirement that tabbing into the group must focus the checked radio.
+  - Furthermore, pressing Tab while focused on a radio button does not exit the radiogroup; it navigates into the internal preview buttons, which lack arrow-key navigation handlers and disrupt sequential keyboard navigation.
+
+---
+
+#### Issue 2: Accessible Name Calculation Polluted on `role="radio"`
+* **Evidence:**
+  ```tsx
+  <button {...s} type="button" role="radio" ...>
+    <span {...s} className="nbc-rd" aria-hidden="true"/>
+    <span {...s} className="ap-text">
+      <span {...s} className="apc-l"><b {...s}>{accent === "uk" ? "Anh-Anh" : "Anh-Mỹ"}</b><small {...s}>{accent === "uk" ? "Mặc định" : "Giọng Mỹ"}</small></span>
+      <span {...s} className="apc-ipa"><span {...s} lang="en">tomato</span><span {...s} className="font-ipa ipa-tone ap-ipa" data-ipa=""><span className="ipa-slash">/</span>{accent === "uk" ? "təˈmɑːtəʊ" : "təˈmeɪtoʊ"}<span className="ipa-slash">/</span></span></span>
+    </span>
+    ...
+  </button>
+  ```
+* **Impact:**
+  The `<button role="radio">` has no `aria-label` or `aria-labelledby`. Under the W3C Accessible Name and Description Computation (AccName) algorithm, the accessible name is derived from all text descendants.
+  Screen readers announce the entire string including secondary labels, the example word, and unhidden slashes:
+  `"Anh-Anh Mặc định tomato slash təˈmɑːtəʊ slash, radio button, checked"`.
+  The primary option name should be isolated using `aria-label={accent === "uk" ? "Anh-Anh" : "Anh-Mỹ"}` or `aria-labelledby`, and decorative characters (`.ipa-slash`) should be marked `aria-hidden="true"`.

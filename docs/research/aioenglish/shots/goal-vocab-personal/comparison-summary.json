@@ -1,0 +1,38 @@
+[
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "maxMainBlockDeltaPx": 0,
+    "overflow": false,
+    "scope": "Personal empty base only, not dialog/popover/style equivalence."
+  },
+  {
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "maxMainBlockDeltaPx": 2,
+    "overflow": false,
+    "scope": "Personal empty base only, not dialog/popover/style equivalence."
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "maxMainBlockDeltaPx": 0,
+    "overflow": false,
+    "scope": "Personal empty base only, not dialog/popover/style equivalence."
+  },
+  {
+    "viewport": {
+      "width": 360,
+      "height": 844
+    },
+    "maxMainBlockDeltaPx": 0,
+    "overflow": false,
+    "scope": "Personal empty base only, not dialog/popover/style equivalence."
+  }
+]

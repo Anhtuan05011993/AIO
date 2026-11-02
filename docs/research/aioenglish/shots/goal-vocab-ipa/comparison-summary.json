@@ -1,0 +1,82 @@
+[
+  {
+    "page": "vocab",
+    "viewport": [
+      1440,
+      900
+    ],
+    "mainBlockMaxDeltaPx": 0,
+    "horizontalOverflow": false,
+    "scope": "Base browse/UK chart only; not personal/dialog/US acceptance."
+  },
+  {
+    "page": "vocab",
+    "viewport": [
+      768,
+      1024
+    ],
+    "mainBlockMaxDeltaPx": 2,
+    "horizontalOverflow": false,
+    "scope": "Base browse/UK chart only; not personal/dialog/US acceptance."
+  },
+  {
+    "page": "vocab",
+    "viewport": [
+      390,
+      844
+    ],
+    "mainBlockMaxDeltaPx": 0,
+    "horizontalOverflow": false,
+    "scope": "Base browse/UK chart only; not personal/dialog/US acceptance."
+  },
+  {
+    "page": "vocab",
+    "viewport": [
+      360,
+      844
+    ],
+    "mainBlockMaxDeltaPx": 0,
+    "horizontalOverflow": false,
+    "scope": "Base browse/UK chart only; not personal/dialog/US acceptance."
+  },
+  {
+    "page": "ipa",
+    "viewport": [
+      1440,
+      900
+    ],
+    "mainBlockMaxDeltaPx": 0,
+    "horizontalOverflow": false,
+    "scope": "Base browse/UK chart only; not personal/dialog/US acceptance."
+  },
+  {
+    "page": "ipa",
+    "viewport": [
+      768,
+      1024
+    ],
+    "mainBlockMaxDeltaPx": 2,
+    "horizontalOverflow": false,
+    "scope": "Base browse/UK chart only; not personal/dialog/US acceptance."
+  },
+  {
+    "page": "ipa",
+    "viewport": [
+      390,
+      844
+    ],
+    "mainBlockMaxDeltaPx": 0,
+    "horizontalOverflow": false,
+    "scope": "Base browse/UK chart only; not personal/dialog/US acceptance."
+  },
+  {
+    "page": "ipa",
+    "viewport": [
+      360,
+      844
+    ],
+    "mainBlockMaxDeltaPx": 0,
+    "horizontalOverflow": false,
+    "scope": "Base browse/UK chart only; not personal/dialog/US acceptance."
+  }
+]

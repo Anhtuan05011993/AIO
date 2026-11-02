@@ -1,0 +1,2 @@
+/_nuxt/paper-light.Dx5mGXXo.webp -> assets/paper-light.Dx5mGXXo.webp
+/_nuxt/paper-dark.uHVw5SHU.webp -> assets/paper-dark.uHVw5SHU.webp

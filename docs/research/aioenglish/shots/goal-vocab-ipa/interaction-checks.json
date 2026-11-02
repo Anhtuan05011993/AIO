@@ -1,0 +1,17 @@
+{
+  "dialog": {
+    "endKeySwitchesTab": true,
+    "aiAndImportTextIndependent": true,
+    "manualWhitespaceValidation": true,
+    "errorClearsOnInput": true,
+    "escapeRestoresFocus": true
+  },
+  "ipa": {
+    "missingAudioNotice": true,
+    "escapeRestoresSoundFocus": true,
+    "usSelectionSurvivesRefresh": true,
+    "usTileCount": 46,
+    "restoredUK": true
+  },
+  "scope": "US layout/source equivalence remains unverified; these are local interaction checks only."
+}

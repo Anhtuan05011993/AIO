@@ -1,0 +1,555 @@
+/* grammar.css — Agent E3: trang /ngu-phap (hub A1→C2) + /ngu-phap/[node] (reader).
+ *
+ * Toàn bộ widget dùng lại class gốc `nbx-*` của source (entry.css): nbx-hc +
+ * nbx-hb (container — cần để kích hoạt nhóm rule `:where(.nbx-hb) .nbx-lv*`),
+ * nbx-blk (+ nbx-r-info / nbx-lv-a1 / nbx-lv-b1 / nbx-dots), nbx-row-flex,
+ * nbx-tile nbx-f-gram/nbx-f-go, nbx-disp, nbx-sp, nbx-chip (nbx-plain /
+ * nbx-lvl + nbx-lv-*), nbx-lvpick (chips chọn cấp), nbx-kv2, nbx-bh + nbx-bh-sub,
+ * nbx-lvh / nbx-lvn / nbx-lvd (header topic card), nbx-lessons + nbx-row (node
+ * cards), nbx-lvg nbx-sm (ô tròn cấp), nbx-sense, nbx-exm, nbx-stat4, nbx-btn
+ * nbx-wide.
+ *
+ * Chỉ những phần KHÔNG có rule gốc (layout trang, grid topic, trạng thái
+ * "Sắp có", nút chip, bullet, hàng ví dụ / quay về) mới viết ở đây với tiền
+ * tố `lp-*`. Màu cấp tái dùng đúng palette gốc nbx-lv-a1..c2 (không tự pha màu).
+ */
+
+/* ------------------------------------------------------------------ */
+/* 1. Layout trang — cột dọc các card (nhịp .nbx-main của app)          */
+/* ------------------------------------------------------------------ */
+
+.lp-gram,
+.lp-gram-r {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+}
+
+/* Tiêu đề h1 trong card: chuẩn cỡ .nbx-gn-t .nbx-disp (26px/800) */
+.lp-gram h1.nbx-disp,
+.lp-gram-r h1.nbx-disp {
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+/* Đoạn dẫn (mô tả) — bỏ margin mặc định của <p> trong card flex */
+.lp-gram .lp-lede,
+.lp-gram-r .lp-lede {
+  margin: 0;
+  max-width: 76ch;
+}
+
+/* ------------------------------------------------------------------ */
+/* 2. Hub — chips chọn cấp (.nbx-lvpick)                                */
+/* ------------------------------------------------------------------ */
+
+.lp-lvpick {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* .nbx-chip gốc style cho span — bổ sung cho <button> */
+.lp-lvpick button.nbx-chip {
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 800;
+}
+
+/* Chip cấp chưa có data: mờ + nhãn "Sắp có" */
+.lp-lvpick button.lp-lv-soon {
+  opacity: 0.62;
+}
+
+.lp-lvpick button.lp-lv-soon:hover {
+  cursor: default;
+}
+
+.lp-lvpick button.nbx-chip small {
+  margin-left: 6px;
+  font-size: 10.5px;
+  font-weight: 800;
+  opacity: 0.78;
+}
+
+/* ------------------------------------------------------------------ */
+/* 3. Hub — nhóm + grid topic card                                      */
+/* ------------------------------------------------------------------ */
+
+.lp-level {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.lp-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.lp-group-h {
+  min-height: 0;
+}
+
+.lp-topics {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
+  align-items: start;
+}
+
+/* Topic card: accent theo cấp (nbx-lv-a1 / nbx-lv-b1 đặt trên chính card) */
+.lp-topic {
+  gap: 12px;
+}
+
+.lp-topic.is-soon {
+  opacity: 0.62;
+}
+
+.lp-topic .nbx-lvh {
+  min-height: 0;
+  gap: 10px;
+}
+
+.lp-topic-tt {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
+
+.lp-topic-tt .nbx-lvn {
+  display: block;
+}
+
+.lp-topic-empty {
+  margin: 0;
+  color: var(--nb-x-mut);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* Danh sách node trong topic card: 1 cột (cards hẹp) */
+.lp-topic .nbx-lessons {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.lp-node {
+  cursor: pointer;
+}
+
+.lp-node .nbx-chip {
+  flex: none;
+}
+
+/* Card ghi chú cấp "Sắp có" — nbx-blk là flex column, cần hàng ngang */
+.lp-soon-note {
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.lp-soon-note .nbx-tt {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.lp-soon-note .nbx-tt small {
+  color: var(--nb-x-mut);
+  font-size: 12.5px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+/* ------------------------------------------------------------------ */
+/* 4. Reader — hàng quay về + các section                               */
+/* ------------------------------------------------------------------ */
+
+.lp-backrow {
+  display: flex;
+}
+
+.lp-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--nb-x-ink2);
+  font-size: 13.5px;
+  font-weight: 800;
+  text-decoration: none;
+  min-height: 34px;
+}
+
+.lp-back:hover {
+  color: var(--nb-x-ink);
+}
+
+.lp-back-ic {
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  background: var(--nb-x-row-h);
+  border: 1.5px solid color-mix(in srgb, var(--nb-x-ink) 12%, transparent);
+  display: grid;
+  place-items: center;
+}
+
+.lp-back-ic svg {
+  width: 15px;
+  height: 15px;
+}
+
+/* Header section + tiêu đề section nhỏ */
+.lp-sec-h {
+  min-height: 0;
+}
+
+.lp-demo-chip {
+  height: auto;
+  padding: 3px 10px;
+  font-size: 11px;
+  flex: none;
+}
+
+/* Bullet "điểm chính" */
+.lp-points {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+
+.lp-points li {
+  position: relative;
+  padding-left: 20px;
+  color: var(--nb-x-ink2);
+  font-weight: 600;
+  line-height: 1.45;
+  max-width: 72ch;
+}
+
+.lp-points li::before {
+  content: "–";
+  position: absolute;
+  left: 4px;
+  color: var(--nb-x-mut);
+  font-weight: 800;
+}
+
+/* Hàng câu ví dụ */
+.lp-examples {
+  display: grid;
+  gap: 8px;
+}
+
+.lp-exm {
+  min-height: 0;
+}
+
+/* Bản dịch dài phải xuống dòng (gốc .nbx-row .nbx-tt small là nowrap) */
+.lp-exm .nbx-tt small {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  line-height: 1.4;
+}
+
+.lp-quote {
+  width: 16px;
+  height: 16px;
+  flex: none;
+}
+
+/* Ví dụ từng bước (node thật) — mỗi ví dụ: câu gốc + các bước hướng dẫn */
+.lp-worked {
+  display: grid;
+  gap: 10px;
+}
+
+.lp-worked .nbx-tt {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.lp-worked-steps {
+  margin: 2px 0 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 4px;
+  color: var(--nb-x-ink2);
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.lp-worked-res {
+  color: var(--nb-x-ink);
+  margin-left: 4px;
+}
+
+/* 4 chế độ luyện tập — stat4 gốc chỉ có nền/viền, bổ sung khối flex */
+.lp-gram-r .nbx-stat4 > span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  padding: 10px 12px;
+  min-width: 0;
+}
+
+/* Danh sách khóa liên quan */
+.lp-rel {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.lp-rel-row .nbx-tt b,
+.lp-rel-row .nbx-tt small {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+}
+
+.lp-rel-row .nbx-tt small {
+  line-height: 1.4;
+}
+
+.lp-go-chip {
+  flex: none;
+  gap: 4px;
+}
+
+/* ------------------------------------------------------------------ */
+/* 4b. Phòng luyện tập /ngu-phap/[node]/luyen-tap                       */
+/* ------------------------------------------------------------------ */
+
+.lp-gp .nbx-d-meter .nbx-bar {
+  flex: 1;
+  min-width: 6rem;
+}
+
+.lp-gp-tally {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--nb-x-ink2);
+  white-space: nowrap;
+}
+
+.lp-gp-modes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.lp-gp-mode {
+  cursor: pointer;
+  font: inherit;
+  font-weight: 800;
+}
+
+.lp-gp-mode small {
+  margin-left: 6px;
+  font-size: 10.5px;
+  font-weight: 800;
+  opacity: 0.75;
+}
+
+.lp-gp-mode.nbx-on {
+  outline: 2px solid color-mix(in srgb, var(--nb-x-ink) 45%, transparent);
+  outline-offset: -1px;
+}
+
+.lp-gp-card.lp-gp-ok {
+  outline: 2px solid color-mix(in srgb, #3d9a5f 55%, transparent);
+  outline-offset: -2px;
+}
+
+.lp-gp-card.lp-gp-miss {
+  outline: 2px solid color-mix(in srgb, #d2604c 55%, transparent);
+  outline-offset: -2px;
+}
+
+.lp-gp-body {
+  max-width: 72ch;
+  font-weight: 600;
+  line-height: 1.55;
+  color: var(--nb-x-ink2);
+}
+
+.lp-gp-formula {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 2px;
+}
+
+.lp-gp-source {
+  margin: 4px 0 0;
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 1.35;
+  color: var(--nb-x-ink);
+}
+
+.lp-gp-sourcevi {
+  margin: 2px 0 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--nb-x-mut);
+}
+
+.lp-gp-inputrow {
+  margin-top: 14px;
+}
+
+.lp-gp-input {
+  min-height: 3rem;
+}
+
+.lp-gp-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr));
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.lp-gp-opt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border: 2px solid color-mix(in srgb, var(--nb-x-ink) 14%, transparent);
+  border-radius: 12px;
+  background: hsl(var(--surface, 0 0% 100%));
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+}
+
+.lp-gp-opt b {
+  width: 26px;
+  height: 26px;
+  border-radius: 8px;
+  background: var(--nb-x-row-h, rgba(0, 0, 0, 0.05));
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+  flex: none;
+}
+
+.lp-gp-opt span {
+  font-weight: 700;
+}
+
+.lp-gp-opt.is-picked {
+  border-color: color-mix(in srgb, var(--nb-x-ink) 45%, transparent);
+}
+
+.lp-gp-opt.is-answer {
+  border-color: #3d9a5f;
+  background: color-mix(in srgb, #3d9a5f 12%, transparent);
+}
+
+.lp-gp-opt.is-wrong {
+  border-color: #d2604c;
+  background: color-mix(in srgb, #d2604c 12%, transparent);
+}
+
+.lp-gp-opt:disabled {
+  cursor: default;
+}
+
+.lp-gp-hint {
+  margin: 10px 0 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--nb-x-ink2);
+}
+
+.lp-gp-feedback {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: color-mix(in srgb, #3d9a5f 10%, transparent);
+}
+
+.lp-gp-feedback-miss {
+  background: color-mix(in srgb, #d2604c 10%, transparent);
+}
+
+.lp-gp-verdict {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  font-weight: 800;
+}
+
+.lp-gp-explain {
+  margin: 6px 0 0;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--nb-x-ink2);
+}
+
+.lp-gp-note {
+  margin: 8px 0 0;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--nb-x-mut);
+}
+
+.lp-gp-done {
+  gap: 10px;
+}
+
+.lp-gp-cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.lp-gp-cta small {
+  color: var(--nb-x-mut);
+  font-weight: 700;
+}
+
+/* ------------------------------------------------------------------ */
+/* 5. Mobile                                                            */
+/* ------------------------------------------------------------------ */
+
+@media (max-width: 599px) {
+  .lp-gram,
+  .lp-gram-r {
+    gap: 14px;
+  }
+
+  .lp-topics {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .lp-gram h1.nbx-disp,
+  .lp-gram-r h1.nbx-disp {
+    font-size: 21px;
+  }
+
+  .lp-gram-r .nbx-stat4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

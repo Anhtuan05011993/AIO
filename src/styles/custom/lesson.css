@@ -1,0 +1,178 @@
+/* Lesson player clone-local styles (prefix lp-) — sits on top of the site's global CSS.
+   NOTE: the site CSS is precompiled — arbitrary utilities the source never used don't exist,
+   so replacements live here (z-[90], bg-.../alpha, backdrop-blur, h-13...). */
+
+.lp-dlg {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+}
+
+.lp-dlg-overlay {
+  position: absolute;
+  inset: 0;
+  background: hsl(var(--nb-desk) / 0.45);
+}
+
+.lp-hud {
+  background-color: hsl(var(--surface) / 0.95);
+  backdrop-filter: blur(4px);
+}
+
+.lp-feat-soft {
+  background-color: hsl(var(--feat) / 0.14);
+}
+
+.lp-surface-60 {
+  background-color: hsl(var(--surface-2) / 0.6);
+}
+
+.lp-surface-70 {
+  background-color: hsl(var(--surface) / 0.7);
+}
+
+.lp-sh-pop {
+  box-shadow: var(--nb-sh-pop, 0 14px 32px -10px #08070c80, 0 40px 80px -24px #08070c99);
+}
+
+
+.lp-root {
+  background-color: hsl(var(--paper));
+}
+
+.lp-breadcrumb {
+  min-height: 2rem;
+}
+
+.lp-choice-on {
+  outline: 2px solid hsl(var(--primary) / 0.35);
+  outline-offset: -1px;
+}
+
+.lp-radio {
+  transition: border-color 0.15s ease;
+}
+
+.lp-hud-bar {
+  min-width: 6rem;
+}
+
+.lp-timer {
+  min-width: 3.4rem;
+  text-align: center;
+}
+
+.lp-tokenrow .lp-word {
+  min-width: 1.4rem;
+  text-align: center;
+}
+
+.lp-stepbar {
+  min-width: 4rem;
+}
+
+.lp-input {
+  min-height: 3.25rem;
+}
+
+.lp-input::placeholder {
+  font-weight: 600;
+  color: hsl(var(--fg-muted) / 0.7);
+}
+
+.lp-kbd {
+  display: inline-grid;
+  place-items: center;
+  min-width: 1.65rem;
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.4rem;
+  border: 1px solid hsl(var(--border-strong) / 0.5);
+  background: hsl(var(--surface-2));
+  font-size: 0.65rem;
+  font-weight: 800;
+  line-height: 1.2;
+  color: hsl(var(--fg-muted));
+}
+
+.lp-kbd-dark {
+  background: hsl(var(--primary-fg) / 0.14);
+  color: inherit;
+  border-color: hsl(var(--primary-fg) / 0.25);
+}
+
+.lp-pospill {
+  white-space: nowrap;
+}
+
+.lp-shake {
+  animation: lp-shake 0.36s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+@keyframes lp-shake {
+  10%, 90% { transform: translateX(-1px); }
+  20%, 80% { transform: translateX(2px); }
+  30%, 50%, 70% { transform: translateX(-4px); }
+  40%, 60% { transform: translateX(4px); }
+}
+
+.lp-mic-on {
+  animation: lp-pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes lp-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 hsl(var(--primary) / 0.35); }
+  50% { box-shadow: 0 0 0 0.5rem hsl(var(--primary) / 0); }
+}
+
+.lp-tocitem {
+  min-height: 3.4rem;
+}
+
+/* speaking score panel (mic verdict) — đối chiếu token nói vs câu mẫu */
+.lp-spk {
+  border: 1px solid hsl(var(--border));
+  background-color: hsl(var(--surface-2) / 0.6);
+}
+
+.lp-spk-close {
+  border-color: hsl(var(--feat) / 0.45);
+  background-color: hsl(var(--feat) / 0.1);
+}
+
+.lp-spk-miss {
+  border-color: hsl(var(--border-strong) / 0.6);
+}
+
+.lp-spk-tok {
+  display: inline-block;
+  border-radius: 0.45rem;
+  padding: 0.1rem 0.45rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.lp-spk-y {
+  background-color: hsl(var(--feat) / 0.2);
+  color: hsl(var(--fg));
+}
+
+.lp-spk-n {
+  background-color: hsl(var(--surface-2));
+  color: hsl(var(--fg-muted) / 0.85);
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+}
+
+/* pack index list */
+.lp-packitem:hover {
+  transform: translateY(-1px);
+}
+
+.lp-packitem {
+  transition: transform 0.15s var(--ease-out-soft, ease), box-shadow 0.15s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lp-shake, .lp-mic-on { animation: none; }
+}

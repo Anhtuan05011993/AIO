@@ -1,0 +1,86 @@
+[
+  {
+    "route": "/",
+    "width": 1440,
+    "height": 900,
+    "scroll": 1440
+  },
+  {
+    "route": "/auth/login",
+    "width": 1440,
+    "height": 900,
+    "scroll": 1440
+  },
+  {
+    "route": "/auth/register",
+    "width": 1440,
+    "height": 900,
+    "scroll": 1440
+  },
+  {
+    "route": "/auth/forgot",
+    "width": 1440,
+    "height": 900,
+    "scroll": 1440
+  },
+  {
+    "route": "/phap-ly",
+    "width": 1440,
+    "height": 900,
+    "scroll": 1440
+  },
+  {
+    "route": "/phap-ly/dieu-khoan",
+    "width": 1440,
+    "height": 900,
+    "scroll": 1440
+  },
+  {
+    "route": "/phap-ly/quyen-rieng-tu",
+    "width": 1440,
+    "height": 900,
+    "scroll": 1440
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "height": 844,
+    "scroll": 390
+  },
+  {
+    "route": "/auth/login",
+    "width": 390,
+    "height": 844,
+    "scroll": 390
+  },
+  {
+    "route": "/auth/register",
+    "width": 390,
+    "height": 844,
+    "scroll": 390
+  },
+  {
+    "route": "/auth/forgot",
+    "width": 390,
+    "height": 844,
+    "scroll": 390
+  },
+  {
+    "route": "/phap-ly",
+    "width": 390,
+    "height": 844,
+    "scroll": 390
+  },
+  {
+    "route": "/phap-ly/dieu-khoan",
+    "width": 390,
+    "height": 844,
+    "scroll": 390
+  },
+  {
+    "route": "/phap-ly/quyen-rieng-tu",
+    "width": 390,
+    "height": 844,
+    "scroll": 390
+  }
+]

@@ -1,0 +1,15 @@
+dialog.ui-dialog.ui-settings-action {
+ position:fixed;inset:16px 16px calc(16px + 10vh);margin:auto;
+ width:384px;max-width:calc(100vw - 32px);height:fit-content;max-height:calc(90dvh - 32px);
+ box-sizing:border-box;padding:0;border:2px solid transparent;border-radius:22px;overflow:auto;
+ box-shadow:0 1px 2px #1d1c2721,0 12px 28px -12px #1d1c273d,0 32px 64px -28px #1d1c274d,0 0 0 3px #cb4b27;
+}
+.ui-settings-action .ui-dialog-head {align-items:flex-start;gap:10px;margin:0;padding:20px 20px 0;}
+.ui-settings-action .ui-dialog-head h2 {min-width:0;margin:0;font:800 22px/1.2 var(--nb-font-head);letter-spacing:-.01em;}
+.ui-settings-action .ui-dialog-head button {width:40px;height:40px;flex:none;display:grid;place-items:center;border-radius:999px;}
+.ui-settings-action-body {padding:12px 20px 16px;}
+.ui-settings-action-body p {margin:0;color:var(--nb-ink-2);font-size:14.5px;font-weight:600;line-height:1.5;}
+.ui-settings-action-body .cd-dlg-warn {margin-top:10px;color:var(--nb-bad-t);font-size:16px;font-weight:800;}
+.ui-settings-action-body b {color:var(--nb-ink);overflow-wrap:anywhere;font-weight:800;}
+.ui-settings-action-footer {display:flex;align-items:center;justify-content:flex-end;gap:10px;padding:4px 20px 20px;}
+:root[data-skin="sotay"] .ui-settings .nbc-seg > .is-on:not(#nbx)::before {background:var(--nb-x-row-h);box-shadow:none;}

@@ -1,0 +1,25 @@
+// Agent C scratch: field variance + section sizes for trim decisions.
+const fs = require("fs");
+const dir = "docs/research/aioenglish/data/";
+const c = JSON.parse(fs.readFileSync(dir + "api-course-crs_b60adbaa933635b8d0.json", "utf8"));
+const tiers = new Set(c.statements.map((s) => s.tier));
+const guess = new Set(c.statements.map((s) => JSON.stringify(s.guessable)));
+const unitCounts = c.statements.map((s) => s.learningUnits.length);
+const unitTypes = new Set();
+const pos = new Set();
+c.statements.forEach((s) => s.learningUnits.forEach((u) => { unitTypes.add(u.unitType); pos.add(u.partOfSpeech); }));
+console.log("tiers:", [...tiers]);
+console.log("guessable:", [...guess]);
+console.log("unitCounts:", unitCounts.join(","));
+console.log("unitTypes:", [...unitTypes]);
+console.log("pos:", [...pos]);
+const np = JSON.parse(fs.readFileSync(dir + "api-ngu-phap-catalog.json", "utf8"));
+console.log("np sizes: nodes=" + JSON.stringify(np.nodes).length + " topics=" + JSON.stringify(np.topics).length + " curriculum=" + JSON.stringify(np.curriculum).length + " topicAliases=" + JSON.stringify(np.topicAliases).length);
+console.log("curriculum:", np.curriculum.levels.map((l) => l.level + ":" + l.stages.length + "st/" + l.stages.reduce((a, s) => a + s.modules.length, 0) + "mods").join(" | "));
+const p = JSON.parse(fs.readFileSync(dir + "api-path.json", "utf8"));
+console.log("path chapters json len=" + JSON.stringify(p.chapters).length + " rows total=" + p.chapters.reduce((a, ch) => a + ch.rows.length, 0));
+const kinds = new Set();
+const feats = new Set();
+p.chapters.forEach((ch) => ch.rows.forEach((r) => { kinds.add(r.kind); feats.add(r.feature); }));
+console.log("row kinds:", [...kinds].join(" | "));
+console.log("row features:", [...feats].join(" | "));

@@ -1,0 +1,10 @@
+const s = require("fs").readFileSync("_agent-scripts/build-last.log", "utf8");
+console.log("bytes:", s.length);
+console.log("profile prerender error:", s.includes("Error occurred prerendering"));
+const i = s.indexOf("(serwist)");
+console.log("serwist ctx:", s.slice(Math.max(0, i - 120), i + 120).replace(/\s+/g, " "));
+const j = s.indexOf("Route (app)");
+console.log("---- route table ----");
+console.log(s.slice(j, j + 3200));
+const k = s.indexOf("Compiled");
+console.log("compile line:", s.slice(k, k + 120).split("\n")[0]);

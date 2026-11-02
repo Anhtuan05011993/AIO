@@ -1,0 +1,14 @@
+{
+  "originalHandle": "hocvien",
+  "invalid": {
+    "invalid": "true",
+    "valid": false
+  },
+  "saveInvalid": true,
+  "saveDirty": false,
+  "switchOn": "true",
+  "radioPublic": "true",
+  "helpClosed": "false",
+  "submitted": false,
+  "restored": true
+}

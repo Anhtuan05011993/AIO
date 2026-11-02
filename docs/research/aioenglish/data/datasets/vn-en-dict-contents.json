@@ -1,0 +1,498 @@
+[
+  {
+    "name": ".gitignore",
+    "path": ".gitignore",
+    "sha": "e8085341faa7d3279e87d145dd1f63bae589ecf8",
+    "size": 1206,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/.gitignore?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/.gitignore",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/e8085341faa7d3279e87d145dd1f63bae589ecf8",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/.gitignore",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/.gitignore?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/e8085341faa7d3279e87d145dd1f63bae589ecf8",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/.gitignore"
+    }
+  },
+  {
+    "name": ".gitignore.orig",
+    "path": ".gitignore.orig",
+    "sha": "8612f90c22d17055f344bcadcc70caefe808d883",
+    "size": 1277,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/.gitignore.orig?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/.gitignore.orig",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/8612f90c22d17055f344bcadcc70caefe808d883",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/.gitignore.orig",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/.gitignore.orig?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/8612f90c22d17055f344bcadcc70caefe808d883",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/.gitignore.orig"
+    }
+  },
+  {
+    "name": ".vscode",
+    "path": ".vscode",
+    "sha": "f5d45bd35535531065dd713a0e2004feea722dab",
+    "size": 0,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/.vscode?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/tree/master/.vscode",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/trees/f5d45bd35535531065dd713a0e2004feea722dab",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/.vscode?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/trees/f5d45bd35535531065dd713a0e2004feea722dab",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/tree/master/.vscode"
+    }
+  },
+  {
+    "name": "LICENSE",
+    "path": "LICENSE",
+    "sha": "edd033fc96584b68a24232224d27238abce721ee",
+    "size": 1070,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/LICENSE?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/LICENSE",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/edd033fc96584b68a24232224d27238abce721ee",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/LICENSE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/LICENSE?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/edd033fc96584b68a24232224d27238abce721ee",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/LICENSE"
+    }
+  },
+  {
+    "name": "README.md",
+    "path": "README.md",
+    "sha": "41c76fe6e77f1e52d6fbd3eac5e10790b066139e",
+    "size": 588,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/README.md?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/README.md",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/41c76fe6e77f1e52d6fbd3eac5e10790b066139e",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/README.md?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/41c76fe6e77f1e52d6fbd3eac5e10790b066139e",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/README.md"
+    }
+  },
+  {
+    "name": "aa.json",
+    "path": "aa.json",
+    "sha": "d018c8ea1fdaca3d5af5f78258375cea8a04aec0",
+    "size": 5146,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/aa.json?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/aa.json",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/d018c8ea1fdaca3d5af5f78258375cea8a04aec0",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/aa.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/aa.json?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/d018c8ea1fdaca3d5af5f78258375cea8a04aec0",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/aa.json"
+    }
+  },
+  {
+    "name": "cambridge.py",
+    "path": "cambridge.py",
+    "sha": "6607a1a020253dc239ef89c0a4af95e7fb3483a5",
+    "size": 363,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/cambridge.py?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/cambridge.py",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/6607a1a020253dc239ef89c0a4af95e7fb3483a5",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/cambridge.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/cambridge.py?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/6607a1a020253dc239ef89c0a4af95e7fb3483a5",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/cambridge.py"
+    }
+  },
+  {
+    "name": "data",
+    "path": "data",
+    "sha": "2254b0e9c5a2f378efb5f5b3525b986dbf8d192c",
+    "size": 0,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/data?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/tree/master/data",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/trees/2254b0e9c5a2f378efb5f5b3525b986dbf8d192c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/data?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/trees/2254b0e9c5a2f378efb5f5b3525b986dbf8d192c",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/tree/master/data"
+    }
+  },
+  {
+    "name": "data1",
+    "path": "data1",
+    "sha": "a58f2aa69d437cb0cbc78f243d07c57c04bac043",
+    "size": 0,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/data1?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/tree/master/data1",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/trees/a58f2aa69d437cb0cbc78f243d07c57c04bac043",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/data1?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/trees/a58f2aa69d437cb0cbc78f243d07c57c04bac043",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/tree/master/data1"
+    }
+  },
+  {
+    "name": "debug.html",
+    "path": "debug.html",
+    "sha": "e2a7e0df0575a3fb82bc25332a356ebf81a50b1d",
+    "size": 91726,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/debug.html?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/debug.html",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/e2a7e0df0575a3fb82bc25332a356ebf81a50b1d",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/debug.html",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/debug.html?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/e2a7e0df0575a3fb82bc25332a356ebf81a50b1d",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/debug.html"
+    }
+  },
+  {
+    "name": "errors.json",
+    "path": "errors.json",
+    "sha": "8d19232f997a19a8c0562b9dfba7cb9e8db6f06f",
+    "size": 5053174,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/errors.json?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/errors.json",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/8d19232f997a19a8c0562b9dfba7cb9e8db6f06f",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/errors.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/errors.json?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/8d19232f997a19a8c0562b9dfba7cb9e8db6f06f",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/errors.json"
+    }
+  },
+  {
+    "name": "goodWords.json",
+    "path": "goodWords.json",
+    "sha": "8a7c7630b049394e88b0dcb8792288188570e46e",
+    "size": 1919624,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/goodWords.json?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/goodWords.json",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/8a7c7630b049394e88b0dcb8792288188570e46e",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/goodWords.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/goodWords.json?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/8a7c7630b049394e88b0dcb8792288188570e46e",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/goodWords.json"
+    }
+  },
+  {
+    "name": "goodWords1.json",
+    "path": "goodWords1.json",
+    "sha": "e63d750b2a8469a4ad42e3a89f1c23d4ed3926b9",
+    "size": 1904771,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/goodWords1.json?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/goodWords1.json",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/e63d750b2a8469a4ad42e3a89f1c23d4ed3926b9",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/goodWords1.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/goodWords1.json?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/e63d750b2a8469a4ad42e3a89f1c23d4ed3926b9",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/goodWords1.json"
+    }
+  },
+  {
+    "name": "html",
+    "path": "html",
+    "sha": "0332dbd04e48e72fcd89d26efcb909ae1d54432c",
+    "size": 0,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/html?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/tree/master/html",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/trees/0332dbd04e48e72fcd89d26efcb909ae1d54432c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/html?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/trees/0332dbd04e48e72fcd89d26efcb909ae1d54432c",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/tree/master/html"
+    }
+  },
+  {
+    "name": "laban.py",
+    "path": "laban.py",
+    "sha": "bf652a87baae423152254c76fac53c2b6f691a3a",
+    "size": 2875,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/laban.py?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/laban.py",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/bf652a87baae423152254c76fac53c2b6f691a3a",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/laban.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/laban.py?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/bf652a87baae423152254c76fac53c2b6f691a3a",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/laban.py"
+    }
+  },
+  {
+    "name": "logs.json",
+    "path": "logs.json",
+    "sha": "9108ec020d5be95870d3f995bcc9eabcd6c98e0e",
+    "size": 8180159,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/logs.json?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/logs.json",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/9108ec020d5be95870d3f995bcc9eabcd6c98e0e",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/logs.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/logs.json?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/9108ec020d5be95870d3f995bcc9eabcd6c98e0e",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/logs.json"
+    }
+  },
+  {
+    "name": "logs.py",
+    "path": "logs.py",
+    "sha": "2756a17ba3cb1a1732c586edfcb18e66886e802f",
+    "size": 669,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/logs.py?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/logs.py",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/2756a17ba3cb1a1732c586edfcb18e66886e802f",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/logs.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/logs.py?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/2756a17ba3cb1a1732c586edfcb18e66886e802f",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/logs.py"
+    }
+  },
+  {
+    "name": "logs1.json",
+    "path": "logs1.json",
+    "sha": "032fb27976c5fd0384fab67e0fb111c1fd0937e2",
+    "size": 41,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/logs1.json?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/logs1.json",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/032fb27976c5fd0384fab67e0fb111c1fd0937e2",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/logs1.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/logs1.json?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/032fb27976c5fd0384fab67e0fb111c1fd0937e2",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/logs1.json"
+    }
+  },
+  {
+    "name": "main.py",
+    "path": "main.py",
+    "sha": "eecc8872814b9807249d492be1830e2e89f62115",
+    "size": 4023,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/main.py?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/main.py",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/eecc8872814b9807249d492be1830e2e89f62115",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/main.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/main.py?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/eecc8872814b9807249d492be1830e2e89f62115",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/main.py"
+    }
+  },
+  {
+    "name": "oxfordlearnersdictionaries.py",
+    "path": "oxfordlearnersdictionaries.py",
+    "sha": "41788cf89e2f6662bf2f3f76ef1d06d5e30a0959",
+    "size": 2389,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/oxfordlearnersdictionaries.py?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/oxfordlearnersdictionaries.py",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/41788cf89e2f6662bf2f3f76ef1d06d5e30a0959",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/oxfordlearnersdictionaries.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/oxfordlearnersdictionaries.py?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/41788cf89e2f6662bf2f3f76ef1d06d5e30a0959",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/oxfordlearnersdictionaries.py"
+    }
+  },
+  {
+    "name": "process.py",
+    "path": "process.py",
+    "sha": "4870252659e29278669449c4596e3cd6cfd11c43",
+    "size": 751,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/process.py?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/process.py",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/4870252659e29278669449c4596e3cd6cfd11c43",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/process.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/process.py?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/4870252659e29278669449c4596e3cd6cfd11c43",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/process.py"
+    }
+  },
+  {
+    "name": "requirements.txt",
+    "path": "requirements.txt",
+    "sha": "19de1fe6a008175760e50cc37579e8f4ef14696b",
+    "size": 17,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/requirements.txt?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/requirements.txt",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/19de1fe6a008175760e50cc37579e8f4ef14696b",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/requirements.txt",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/requirements.txt?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/19de1fe6a008175760e50cc37579e8f4ef14696b",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/requirements.txt"
+    }
+  },
+  {
+    "name": "rerun.json",
+    "path": "rerun.json",
+    "sha": "3452ab112bc658942a9dc5cfc7d4f039b14d0ada",
+    "size": 5069153,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/rerun.json?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/rerun.json",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/3452ab112bc658942a9dc5cfc7d4f039b14d0ada",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/rerun.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/rerun.json?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/3452ab112bc658942a9dc5cfc7d4f039b14d0ada",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/rerun.json"
+    }
+  },
+  {
+    "name": "soha.py",
+    "path": "soha.py",
+    "sha": "65c133f2836bc536aa05dd6fc01576de8edef014",
+    "size": 786,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/soha.py?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/soha.py",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/65c133f2836bc536aa05dd6fc01576de8edef014",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/soha.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/soha.py?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/65c133f2836bc536aa05dd6fc01576de8edef014",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/soha.py"
+    }
+  },
+  {
+    "name": "store.py",
+    "path": "store.py",
+    "sha": "6130057f081b20cd9c5eb3040fb9fbc786fabfea",
+    "size": 421,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/store.py?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/store.py",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/6130057f081b20cd9c5eb3040fb9fbc786fabfea",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/store.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/store.py?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/6130057f081b20cd9c5eb3040fb9fbc786fabfea",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/store.py"
+    }
+  },
+  {
+    "name": "suggests.json",
+    "path": "suggests.json",
+    "sha": "ce76efd521d9b6611b82afe7a3588c5243d4e2f1",
+    "size": 1608972,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/suggests.json?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/suggests.json",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/ce76efd521d9b6611b82afe7a3588c5243d4e2f1",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/suggests.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/suggests.json?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/ce76efd521d9b6611b82afe7a3588c5243d4e2f1",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/suggests.json"
+    }
+  },
+  {
+    "name": "tracau.json",
+    "path": "tracau.json",
+    "sha": "395cad5124fd532884f618047bbb08d6553db0c4",
+    "size": 7564609,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/tracau.json?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/tracau.json",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/395cad5124fd532884f618047bbb08d6553db0c4",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/tracau.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/tracau.json?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/395cad5124fd532884f618047bbb08d6553db0c4",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/tracau.json"
+    }
+  },
+  {
+    "name": "tracau.py",
+    "path": "tracau.py",
+    "sha": "f07faa5b7a4782000d3020ec0ab3dd4dfb59652a",
+    "size": 1537,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/tracau.py?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/tracau.py",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/f07faa5b7a4782000d3020ec0ab3dd4dfb59652a",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/tracau.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/tracau.py?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/f07faa5b7a4782000d3020ec0ab3dd4dfb59652a",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/tracau.py"
+    }
+  },
+  {
+    "name": "vndicnet.py",
+    "path": "vndicnet.py",
+    "sha": "bd36f7f9007c868f60fdc304925d4ba38fc7ea8e",
+    "size": 2072,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/vndicnet.py?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/vndicnet.py",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/bd36f7f9007c868f60fdc304925d4ba38fc7ea8e",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/vndicnet.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/vndicnet.py?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/bd36f7f9007c868f60fdc304925d4ba38fc7ea8e",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/vndicnet.py"
+    }
+  },
+  {
+    "name": "voice",
+    "path": "voice",
+    "sha": "e34f19fb41e61ad721335f49abdc9f702b8d4441",
+    "size": 0,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/voice?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/tree/master/voice",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/trees/e34f19fb41e61ad721335f49abdc9f702b8d4441",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/voice?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/trees/e34f19fb41e61ad721335f49abdc9f702b8d4441",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/tree/master/voice"
+    }
+  },
+  {
+    "name": "words.json",
+    "path": "words.json",
+    "sha": "e469a83fe804929d32a004fdc11dc65c38817df0",
+    "size": 6085406,
+    "url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/words.json?ref=master",
+    "html_url": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/words.json",
+    "git_url": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/e469a83fe804929d32a004fdc11dc65c38817df0",
+    "download_url": "https://raw.githubusercontent.com/samuraitruong/open-vn-en-dict/master/words.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/contents/words.json?ref=master",
+      "git": "https://api.github.com/repos/samuraitruong/open-vn-en-dict/git/blobs/e469a83fe804929d32a004fdc11dc65c38817df0",
+      "html": "https://github.com/samuraitruong/open-vn-en-dict/blob/master/words.json"
+    }
+  }
+]

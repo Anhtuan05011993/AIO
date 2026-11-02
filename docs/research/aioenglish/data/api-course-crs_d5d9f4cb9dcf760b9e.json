@@ -1,0 +1,3106 @@
+{
+  "course": {
+    "id": "crs_d5d9f4cb9dcf760b9e",
+    "slug": "unit-1-part-2",
+    "title": "Chưa gọi từ hôm đó",
+    "packSlug": "lo-trinh-b1",
+    "packTitle": "Tiếng Anh trung cấp (B1)",
+    "targetLanguage": "en",
+    "nextCourseId": "crs_0008c8bbf528537cfd",
+    "statementCount": 30,
+    "availableTiers": [
+      "word",
+      "chunk",
+      "sentence"
+    ],
+    "ownerUserId": null,
+    "vocabCount": 58
+  },
+  "statements": [
+    {
+      "id": "stmt_b5560f1a7a06d18995",
+      "text": "I have not slept for two days",
+      "pinyin": null,
+      "translation": "Tôi chưa ngủ suốt hai ngày.",
+      "acceptedAnswers": [
+        "I have not slept for two days",
+        "I haven't slept for two days",
+        "I've not slept for two days"
+      ],
+      "audioUrl": null,
+      "ipa": "/aɪ/ /hæv/ /nɒt/ /slept/ /fɔː(r)/ /tuː/ /deɪz/",
+      "targetLanguage": "en",
+      "targetText": "I have not slept for two days",
+      "displayText": "I have not slept for two days.",
+      "pronunciationGuide": "/aɪ/ /hæv/ /nɒt/ /slept/ /fɔː(r)/ /tuː/ /deɪz/",
+      "pronunciationGuideUs": "/aɪ/ /hæv/ /nɑːt/ /slept/ /fɔːr/ /tuː/ /deɪz/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "I",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ nhất số ít."
+        },
+        {
+          "id": "w1",
+          "unitText": "have",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - 'have' + phân từ quá khứ (past participle) tạo thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "not",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "adverb",
+          "explanationVi": "Trạng từ phủ định (negative adverb) - đứng sau trợ động từ để tạo câu phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "slept",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'sleep', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w4",
+          "unitText": "for",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w5",
+          "unitText": "two",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "numeral"
+        },
+        {
+          "id": "w6",
+          "unitText": "days",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "for two days",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'for + khoảng thời gian' chỉ thời gian hành động kéo dài."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_811adc82bd9f215376",
+      "text": "He has not called me for a week",
+      "pinyin": null,
+      "translation": "Anh ấy chưa gọi cho tôi suốt một tuần.",
+      "acceptedAnswers": [
+        "He has not called me for a week",
+        "He hasn't called me for a week",
+        "He's not called me for a week"
+      ],
+      "audioUrl": null,
+      "ipa": "/hiː/ /hæz/ /nɒt/ /kɔːld/ /miː/ /fɔː(r)/ /ə/ /wiːk/",
+      "targetLanguage": "en",
+      "targetText": "He has not called me for a week",
+      "displayText": "He has not called me for a week.",
+      "pronunciationGuide": "/hiː/ /hæz/ /nɒt/ /kɔːld/ /miː/ /fɔː(r)/ /ə/ /wiːk/",
+      "pronunciationGuideUs": "/hiː/ /hæz/ /nɑːt/ /kɔːld/ /miː/ /fɔːr/ /ə/ /wiːk/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "He",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số ít giống đực."
+        },
+        {
+          "id": "w1",
+          "unitText": "has",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - 'has' + phân từ quá khứ (past participle) tạo thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "not",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "adverb",
+          "explanationVi": "Trạng từ phủ định (negative adverb) - đứng sau trợ động từ để tạo câu phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "called",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'call', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w4",
+          "unitText": "me",
+          "unitType": "word",
+          "grammarTags": [
+            "object"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Tân ngữ (object) - đại từ nhân xưng tân ngữ (object pronoun) ngôi thứ nhất."
+        },
+        {
+          "id": "w5",
+          "unitText": "for",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w6",
+          "unitText": "a",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w7",
+          "unitText": "week",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "for a week",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'for + khoảng thời gian' chỉ thời gian hành động kéo dài."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_c4cc8262553011fd25",
+      "text": "She has not eaten for two days",
+      "pinyin": null,
+      "translation": "Cô ấy chưa ăn suốt hai ngày.",
+      "acceptedAnswers": [
+        "She has not eaten for two days",
+        "She hasn't eaten for two days",
+        "She's not eaten for two days"
+      ],
+      "audioUrl": null,
+      "ipa": "/ʃiː/ /hæz/ /nɒt/ /ˈiːtn/ /fɔː(r)/ /tuː/ /deɪz/",
+      "targetLanguage": "en",
+      "targetText": "She has not eaten for two days",
+      "displayText": "She has not eaten for two days.",
+      "pronunciationGuide": "/ʃiː/ /hæz/ /nɒt/ /ˈiːtn/ /fɔː(r)/ /tuː/ /deɪz/",
+      "pronunciationGuideUs": "/ʃiː/ /hæz/ /nɑːt/ /ˈiːtn/ /fɔːr/ /tuː/ /deɪz/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "She",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số ít giống cái."
+        },
+        {
+          "id": "w1",
+          "unitText": "has",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - 'has' + phân từ quá khứ (past participle) tạo thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "not",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "adverb",
+          "explanationVi": "Trạng từ phủ định (negative adverb) - đứng sau trợ động từ để tạo câu phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "eaten",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'eat', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w4",
+          "unitText": "for",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w5",
+          "unitText": "two",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "numeral"
+        },
+        {
+          "id": "w6",
+          "unitText": "days",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "for two days",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'for + khoảng thời gian' chỉ thời gian hành động kéo dài."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_2743269be465df98f1",
+      "text": "We have not worked for three days",
+      "pinyin": null,
+      "translation": "Chúng tôi chưa làm việc suốt ba ngày.",
+      "acceptedAnswers": [
+        "We have not worked for three days",
+        "We haven't worked for three days",
+        "We've not worked for three days"
+      ],
+      "audioUrl": null,
+      "ipa": "/wiː/ /hæv/ /nɒt/ /wɜːkt/ /fɔː(r)/ /θriː/ /deɪz/",
+      "targetLanguage": "en",
+      "targetText": "We have not worked for three days",
+      "displayText": "We have not worked for three days.",
+      "pronunciationGuide": "/wiː/ /hæv/ /nɒt/ /wɜːkt/ /fɔː(r)/ /θriː/ /deɪz/",
+      "pronunciationGuideUs": "/wiː/ /hæv/ /nɑːt/ /wɜːrkt/ /fɔːr/ /θriː/ /deɪz/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "We",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ nhất số nhiều."
+        },
+        {
+          "id": "w1",
+          "unitText": "have",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - 'have' + phân từ quá khứ (past participle) tạo thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "not",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "adverb",
+          "explanationVi": "Trạng từ phủ định (negative adverb) - đứng sau trợ động từ để tạo câu phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "worked",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'work', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w4",
+          "unitText": "for",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w5",
+          "unitText": "three",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "numeral"
+        },
+        {
+          "id": "w6",
+          "unitText": "days",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "for three days",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'for + khoảng thời gian' chỉ thời gian hành động kéo dài."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_ecda0564018216ff07",
+      "text": "They have not studied for a month",
+      "pinyin": null,
+      "translation": "Họ chưa học suốt một tháng.",
+      "acceptedAnswers": [
+        "They have not studied for a month",
+        "They haven't studied for a month",
+        "They've not studied for a month"
+      ],
+      "audioUrl": null,
+      "ipa": "/ðeɪ/ /hæv/ /nɒt/ /ˈstʌdid/ /fɔː(r)/ /ə/ /mʌnθ/",
+      "targetLanguage": "en",
+      "targetText": "They have not studied for a month",
+      "displayText": "They have not studied for a month.",
+      "pronunciationGuide": "/ðeɪ/ /hæv/ /nɒt/ /ˈstʌdid/ /fɔː(r)/ /ə/ /mʌnθ/",
+      "pronunciationGuideUs": "/ðeɪ/ /hæv/ /nɑːt/ /ˈstʌdid/ /fɔːr/ /ə/ /mʌnθ/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "They",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số nhiều."
+        },
+        {
+          "id": "w1",
+          "unitText": "have",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - 'have' + phân từ quá khứ (past participle) tạo thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "not",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "adverb",
+          "explanationVi": "Trạng từ phủ định (negative adverb) - đứng sau trợ động từ để tạo câu phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "studied",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'study', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w4",
+          "unitText": "for",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w5",
+          "unitText": "a",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w6",
+          "unitText": "month",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "for a month",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'for + khoảng thời gian' chỉ thời gian hành động kéo dài."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_c7fcac9b2e2a314496",
+      "text": "You have not texted me for two weeks",
+      "pinyin": null,
+      "translation": "Bạn chưa nhắn tin cho tôi suốt hai tuần.",
+      "acceptedAnswers": [
+        "You have not texted me for two weeks",
+        "You haven't texted me for two weeks",
+        "You've not texted me for two weeks"
+      ],
+      "audioUrl": null,
+      "ipa": "/juː/ /hæv/ /nɒt/ /ˈtekstɪd/ /miː/ /fɔː(r)/ /tuː/ /wiːks/",
+      "targetLanguage": "en",
+      "targetText": "You have not texted me for two weeks",
+      "displayText": "You have not texted me for two weeks.",
+      "pronunciationGuide": "/juː/ /hæv/ /nɒt/ /ˈtekstɪd/ /miː/ /fɔː(r)/ /tuː/ /wiːks/",
+      "pronunciationGuideUs": "/juː/ /hæv/ /nɑːt/ /ˈtekstɪd/ /miː/ /fɔːr/ /tuː/ /wiːks/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "You",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ hai."
+        },
+        {
+          "id": "w1",
+          "unitText": "have",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Trợ động từ (auxiliary) - 'have' + phân từ quá khứ (past participle) tạo thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "not",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "adverb",
+          "explanationVi": "Trạng từ phủ định (negative adverb) - đứng sau trợ động từ để tạo câu phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "texted",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'text', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w4",
+          "unitText": "me",
+          "unitType": "word",
+          "grammarTags": [
+            "object"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Tân ngữ (object) - đại từ nhân xưng tân ngữ (object pronoun) ngôi thứ nhất."
+        },
+        {
+          "id": "w5",
+          "unitText": "for",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w6",
+          "unitText": "two",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "numeral"
+        },
+        {
+          "id": "w7",
+          "unitText": "weeks",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "for two weeks",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'for + khoảng thời gian' chỉ thời gian hành động kéo dài."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_9ed0436b36fb5e9936",
+      "text": "I haven't used my laptop for two days",
+      "pinyin": null,
+      "translation": "Tôi chưa dùng máy tính xách tay suốt hai ngày.",
+      "acceptedAnswers": [
+        "I haven't used my laptop for two days",
+        "I have not used my laptop for two days"
+      ],
+      "audioUrl": null,
+      "ipa": "/aɪ/ /ˈhævnt/ /juːzd/ /maɪ/ /ˈlæptɒp/ /fɔː(r)/ /tuː/ /deɪz/",
+      "targetLanguage": "en",
+      "targetText": "I haven't used my laptop for two days",
+      "displayText": "I haven't used my laptop for two days.",
+      "pronunciationGuide": "/aɪ/ /ˈhævnt/ /juːzd/ /maɪ/ /ˈlæptɒp/ /fɔː(r)/ /tuː/ /deɪz/",
+      "pronunciationGuideUs": "/aɪ/ /ˈhævənt/ /juːzd/ /maɪ/ /ˈlæptɑːp/ /fɔːr/ /tuː/ /deɪz/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "I",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ nhất số ít."
+        },
+        {
+          "id": "w1",
+          "unitText": "haven't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'have not' - trợ động từ (auxiliary) 'have' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "used",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'use', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "my",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "determiner"
+        },
+        {
+          "id": "w4",
+          "unitText": "laptop",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w5",
+          "unitText": "for",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w6",
+          "unitText": "two",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "numeral"
+        },
+        {
+          "id": "w7",
+          "unitText": "days",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "my laptop",
+          "unitType": "phrase",
+          "grammarTags": [
+            "object"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Tân ngữ (object) - cụm danh từ (noun phrase), danh từ chính 'laptop'; 'my' là tính từ sở hữu (possessive determiner)."
+        },
+        {
+          "id": "p1",
+          "unitText": "for two days",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'for + khoảng thời gian' chỉ thời gian hành động kéo dài."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_8860d52714389b029c",
+      "text": "We haven't ordered food for two days",
+      "pinyin": null,
+      "translation": "Chúng tôi chưa đặt đồ ăn suốt hai ngày.",
+      "acceptedAnswers": [
+        "We haven't ordered food for two days",
+        "We have not ordered food for two days",
+        "We've not ordered food for two days"
+      ],
+      "audioUrl": null,
+      "ipa": "/wiː/ /ˈhævnt/ /ˈɔːdəd/ /fuːd/ /fɔː(r)/ /tuː/ /deɪz/",
+      "targetLanguage": "en",
+      "targetText": "We haven't ordered food for two days",
+      "displayText": "We haven't ordered food for two days.",
+      "pronunciationGuide": "/wiː/ /ˈhævnt/ /ˈɔːdəd/ /fuːd/ /fɔː(r)/ /tuː/ /deɪz/",
+      "pronunciationGuideUs": "/wiː/ /ˈhævənt/ /ˈɔːrdərd/ /fuːd/ /fɔːr/ /tuː/ /deɪz/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "We",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ nhất số nhiều."
+        },
+        {
+          "id": "w1",
+          "unitText": "haven't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'have not' - trợ động từ (auxiliary) 'have' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "ordered",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'order', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "food",
+          "unitType": "word",
+          "grammarTags": [
+            "object"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Tân ngữ (object) - danh từ không đếm được (uncountable noun)."
+        },
+        {
+          "id": "w4",
+          "unitText": "for",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w5",
+          "unitText": "two",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "numeral"
+        },
+        {
+          "id": "w6",
+          "unitText": "days",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "for two days",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'for + khoảng thời gian' chỉ thời gian hành động kéo dài."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_f03967e4a4a1a494ef",
+      "text": "They haven't played football for a month",
+      "pinyin": null,
+      "translation": "Họ chưa chơi bóng đá suốt một tháng.",
+      "acceptedAnswers": [
+        "They haven't played football for a month",
+        "They have not played football for a month",
+        "They've not played football for a month"
+      ],
+      "audioUrl": null,
+      "ipa": "/ðeɪ/ /ˈhævnt/ /pleɪd/ /ˈfʊtbɔːl/ /fɔː(r)/ /ə/ /mʌnθ/",
+      "targetLanguage": "en",
+      "targetText": "They haven't played football for a month",
+      "displayText": "They haven't played football for a month.",
+      "pronunciationGuide": "/ðeɪ/ /ˈhævnt/ /pleɪd/ /ˈfʊtbɔːl/ /fɔː(r)/ /ə/ /mʌnθ/",
+      "pronunciationGuideUs": "/ðeɪ/ /ˈhævənt/ /pleɪd/ /ˈfʊtbɔːl/ /fɔːr/ /ə/ /mʌnθ/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "They",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số nhiều."
+        },
+        {
+          "id": "w1",
+          "unitText": "haven't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'have not' - trợ động từ (auxiliary) 'have' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "played",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'play', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "football",
+          "unitType": "word",
+          "grammarTags": [
+            "object"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Tân ngữ (object) - danh từ chỉ môn thể thao."
+        },
+        {
+          "id": "w4",
+          "unitText": "for",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w5",
+          "unitText": "a",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w6",
+          "unitText": "month",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "for a month",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'for + khoảng thời gian' chỉ thời gian hành động kéo dài."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_02226c9190300349ac",
+      "text": "You haven't sent me an email for three days",
+      "pinyin": null,
+      "translation": "Bạn chưa gửi cho tôi email suốt ba ngày.",
+      "acceptedAnswers": [
+        "You haven't sent me an email for three days",
+        "You have not sent me an email for three days",
+        "You've not sent me an email for three days"
+      ],
+      "audioUrl": null,
+      "ipa": "/juː/ /ˈhævnt/ /sent/ /miː/ /ən/ /ˈiːmeɪl/ /fɔː(r)/ /θriː/ /deɪz/",
+      "targetLanguage": "en",
+      "targetText": "You haven't sent me an email for three days",
+      "displayText": "You haven't sent me an email for three days.",
+      "pronunciationGuide": "/juː/ /ˈhævnt/ /sent/ /miː/ /ən/ /ˈiːmeɪl/ /fɔː(r)/ /θriː/ /deɪz/",
+      "pronunciationGuideUs": "/juː/ /ˈhævənt/ /sent/ /miː/ /æn/ /ˈiːmeɪl/ /fɔːr/ /θriː/ /deɪz/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "You",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ hai."
+        },
+        {
+          "id": "w1",
+          "unitText": "haven't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'have not' - trợ động từ (auxiliary) 'have' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "sent",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'send', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "me",
+          "unitType": "word",
+          "grammarTags": [
+            "object"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Tân ngữ (object) - đại từ nhân xưng tân ngữ (object pronoun), tân ngữ gián tiếp của 'sent'."
+        },
+        {
+          "id": "w4",
+          "unitText": "an",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w5",
+          "unitText": "email",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w6",
+          "unitText": "for",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w7",
+          "unitText": "three",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "numeral"
+        },
+        {
+          "id": "w8",
+          "unitText": "days",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "an email",
+          "unitType": "phrase",
+          "grammarTags": [
+            "object"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Tân ngữ (object) - cụm danh từ (noun phrase), danh từ chính 'email', mạo từ 'an' đứng trước nguyên âm."
+        },
+        {
+          "id": "p1",
+          "unitText": "for three days",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'for + khoảng thời gian' chỉ thời gian hành động kéo dài."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_756180f6c025f1703e",
+      "text": "I haven't cooked dinner for a week",
+      "pinyin": null,
+      "translation": "Tôi chưa nấu bữa tối suốt một tuần.",
+      "acceptedAnswers": [
+        "I haven't cooked dinner for a week",
+        "I have not cooked dinner for a week",
+        "I've not cooked dinner for a week"
+      ],
+      "audioUrl": null,
+      "ipa": "/aɪ/ /ˈhævnt/ /kʊkt/ /ˈdɪnə(r)/ /fɔː(r)/ /ə/ /wiːk/",
+      "targetLanguage": "en",
+      "targetText": "I haven't cooked dinner for a week",
+      "displayText": "I haven't cooked dinner for a week.",
+      "pronunciationGuide": "/aɪ/ /ˈhævnt/ /kʊkt/ /ˈdɪnə(r)/ /fɔː(r)/ /ə/ /wiːk/",
+      "pronunciationGuideUs": "/aɪ/ /ˈhævənt/ /kʊkt/ /ˈdɪnər/ /fɔːr/ /ə/ /wiːk/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "I",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ nhất số ít."
+        },
+        {
+          "id": "w1",
+          "unitText": "haven't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'have not' - trợ động từ (auxiliary) 'have' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "cooked",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'cook', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "dinner",
+          "unitType": "word",
+          "grammarTags": [
+            "object"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Tân ngữ (object) - danh từ chỉ bữa ăn."
+        },
+        {
+          "id": "w4",
+          "unitText": "for",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w5",
+          "unitText": "a",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w6",
+          "unitText": "week",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "for a week",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'for + khoảng thời gian' chỉ thời gian hành động kéo dài."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_c3a54d31bd6d1e0dcd",
+      "text": "We haven't had a holiday for two years",
+      "pinyin": null,
+      "translation": "Chúng tôi chưa có kỳ nghỉ suốt hai năm.",
+      "acceptedAnswers": [
+        "We haven't had a holiday for two years",
+        "We have not had a holiday for two years",
+        "We've not had a holiday for two years"
+      ],
+      "audioUrl": null,
+      "ipa": "/wiː/ /ˈhævnt/ /hæd/ /ə/ /ˈhɒlədeɪ/ /fɔː(r)/ /tuː/ /jɪəz/",
+      "targetLanguage": "en",
+      "targetText": "We haven't had a holiday for two years",
+      "displayText": "We haven't had a holiday for two years.",
+      "pronunciationGuide": "/wiː/ /ˈhævnt/ /hæd/ /ə/ /ˈhɒlədeɪ/ /fɔː(r)/ /tuː/ /jɪəz/",
+      "pronunciationGuideUs": "/wiː/ /ˈhævənt/ /hæd/ /ə/ /ˈhɑːlədeɪ/ /fɔːr/ /tuː/ /jɪrz/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "We",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ nhất số nhiều."
+        },
+        {
+          "id": "w1",
+          "unitText": "haven't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'have not' - trợ động từ (auxiliary) 'have' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "had",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'have' với nghĩa 'có'."
+        },
+        {
+          "id": "w3",
+          "unitText": "a",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w4",
+          "unitText": "holiday",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w5",
+          "unitText": "for",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w6",
+          "unitText": "two",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "numeral"
+        },
+        {
+          "id": "w7",
+          "unitText": "years",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "a holiday",
+          "unitType": "phrase",
+          "grammarTags": [
+            "object"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Tân ngữ (object) - cụm danh từ (noun phrase), danh từ chính 'holiday', mạo từ 'a'."
+        },
+        {
+          "id": "p1",
+          "unitText": "for two years",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'for + khoảng thời gian' chỉ thời gian hành động kéo dài."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_4c3835ab419b1f2d6a",
+      "text": "I haven't seen my friend since Monday",
+      "pinyin": null,
+      "translation": "Tôi chưa gặp bạn tôi từ thứ Hai.",
+      "acceptedAnswers": [
+        "I haven't seen my friend since Monday",
+        "I have not seen my friend since Monday",
+        "I've not seen my friend since Monday"
+      ],
+      "audioUrl": null,
+      "ipa": "/aɪ/ /ˈhævnt/ /siːn/ /maɪ/ /frend/ /sɪns/ /ˈmʌndeɪ/",
+      "targetLanguage": "en",
+      "targetText": "I haven't seen my friend since Monday",
+      "displayText": "I haven't seen my friend since Monday.",
+      "pronunciationGuide": "/aɪ/ /ˈhævnt/ /siːn/ /maɪ/ /frend/ /sɪns/ /ˈmʌndeɪ/",
+      "pronunciationGuideUs": "/aɪ/ /ˈhævənt/ /siːn/ /maɪ/ /frend/ /sɪns/ /ˈmʌndeɪ/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "I",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ nhất số ít."
+        },
+        {
+          "id": "w1",
+          "unitText": "haven't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'have not' - trợ động từ (auxiliary) 'have' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "seen",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'see', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "my",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "determiner"
+        },
+        {
+          "id": "w4",
+          "unitText": "friend",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w5",
+          "unitText": "since",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w6",
+          "unitText": "Monday",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "my friend",
+          "unitType": "phrase",
+          "grammarTags": [
+            "object"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Tân ngữ (object) - cụm danh từ (noun phrase), danh từ chính 'friend'; 'my' là tính từ sở hữu (possessive determiner)."
+        },
+        {
+          "id": "p1",
+          "unitText": "since Monday",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'since + mốc thời gian' chỉ thời điểm hành động bắt đầu."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_86a1d3e60eb8d3c8e0",
+      "text": "We haven't talked since last week",
+      "pinyin": null,
+      "translation": "Chúng tôi chưa nói chuyện từ tuần trước.",
+      "acceptedAnswers": [
+        "We haven't talked since last week",
+        "We have not talked since last week",
+        "We've not talked since last week"
+      ],
+      "audioUrl": null,
+      "ipa": "/wiː/ /ˈhævnt/ /tɔːkt/ /sɪns/ /lɑːst/ /wiːk/",
+      "targetLanguage": "en",
+      "targetText": "We haven't talked since last week",
+      "displayText": "We haven't talked since last week.",
+      "pronunciationGuide": "/wiː/ /ˈhævnt/ /tɔːkt/ /sɪns/ /lɑːst/ /wiːk/",
+      "pronunciationGuideUs": "/wiː/ /ˈhævənt/ /tɔːkt/ /sɪns/ /læst/ /wiːk/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "We",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ nhất số nhiều."
+        },
+        {
+          "id": "w1",
+          "unitText": "haven't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'have not' - trợ động từ (auxiliary) 'have' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "talked",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'talk', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "since",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w4",
+          "unitText": "last",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "adjective"
+        },
+        {
+          "id": "w5",
+          "unitText": "week",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "since last week",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'since + mốc thời gian' chỉ thời điểm hành động bắt đầu."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_db63369556d0107a28",
+      "text": "They haven't contacted me since last month",
+      "pinyin": null,
+      "translation": "Họ chưa liên lạc với tôi từ tháng trước.",
+      "acceptedAnswers": [
+        "They haven't contacted me since last month",
+        "They have not contacted me since last month",
+        "They've not contacted me since last month"
+      ],
+      "audioUrl": null,
+      "ipa": "/ðeɪ/ /ˈhævnt/ /ˈkɒntæktɪd/ /miː/ /sɪns/ /lɑːst/ /mʌnθ/",
+      "targetLanguage": "en",
+      "targetText": "They haven't contacted me since last month",
+      "displayText": "They haven't contacted me since last month.",
+      "pronunciationGuide": "/ðeɪ/ /ˈhævnt/ /ˈkɒntæktɪd/ /miː/ /sɪns/ /lɑːst/ /mʌnθ/",
+      "pronunciationGuideUs": "/ðeɪ/ /ˈhævənt/ /ˈkɑːntæktɪd/ /miː/ /sɪns/ /læst/ /mʌnθ/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "They",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số nhiều."
+        },
+        {
+          "id": "w1",
+          "unitText": "haven't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'have not' - trợ động từ (auxiliary) 'have' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "contacted",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'contact', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "me",
+          "unitType": "word",
+          "grammarTags": [
+            "object"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Tân ngữ (object) - đại từ nhân xưng tân ngữ (object pronoun) ngôi thứ nhất."
+        },
+        {
+          "id": "w4",
+          "unitText": "since",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w5",
+          "unitText": "last",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "adjective"
+        },
+        {
+          "id": "w6",
+          "unitText": "month",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "since last month",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'since + mốc thời gian' chỉ thời điểm hành động bắt đầu."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_b40e3d503efe3d16e2",
+      "text": "You haven't replied to my message since yesterday",
+      "pinyin": null,
+      "translation": "Bạn chưa trả lời tin nhắn của tôi từ hôm qua.",
+      "acceptedAnswers": [
+        "You haven't replied to my message since yesterday",
+        "You have not replied to my message since yesterday",
+        "You've not replied to my message since yesterday"
+      ],
+      "audioUrl": null,
+      "ipa": "/juː/ /ˈhævnt/ /rɪˈplaɪd/ /tə/ /maɪ/ /ˈmesɪdʒ/ /sɪns/ /ˈjestədeɪ/",
+      "targetLanguage": "en",
+      "targetText": "You haven't replied to my message since yesterday",
+      "displayText": "You haven't replied to my message since yesterday.",
+      "pronunciationGuide": "/juː/ /ˈhævnt/ /rɪˈplaɪd/ /tə/ /maɪ/ /ˈmesɪdʒ/ /sɪns/ /ˈjestədeɪ/",
+      "pronunciationGuideUs": "/juː/ /ˈhævənt/ /rɪˈplaɪd/ /tə/ /maɪ/ /ˈmesɪdʒ/ /sɪns/ /ˈjestərdeɪ/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "You",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ hai."
+        },
+        {
+          "id": "w1",
+          "unitText": "haven't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'have not' - trợ động từ (auxiliary) 'have' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "replied",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'reply', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w4",
+          "unitText": "my",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "determiner"
+        },
+        {
+          "id": "w5",
+          "unitText": "message",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w6",
+          "unitText": "since",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w7",
+          "unitText": "yesterday",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "adverb"
+        },
+        {
+          "id": "p0",
+          "unitText": "to my message",
+          "unitType": "phrase",
+          "grammarTags": [
+            "complement"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Bổ ngữ (complement) - cụm giới từ (prepositional phrase), giới từ 'to' + cụm danh từ 'my message', bổ ngữ cho động từ 'replied'."
+        },
+        {
+          "id": "p1",
+          "unitText": "since yesterday",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'since + mốc thời gian' chỉ thời điểm hành động bắt đầu."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_451ffc8c1c03752c18",
+      "text": "I haven't been to the gym since March",
+      "pinyin": null,
+      "translation": "Tôi chưa đến phòng gym từ tháng Ba.",
+      "acceptedAnswers": [
+        "I haven't been to the gym since March",
+        "I have not been to the gym since March",
+        "I've not been to the gym since March"
+      ],
+      "audioUrl": null,
+      "ipa": "/aɪ/ /ˈhævnt/ /biːn/ /tə/ /ðə/ /dʒɪm/ /sɪns/ /mɑːtʃ/",
+      "targetLanguage": "en",
+      "targetText": "I haven't been to the gym since March",
+      "displayText": "I haven't been to the gym since March.",
+      "pronunciationGuide": "/aɪ/ /ˈhævnt/ /biːn/ /tə/ /ðə/ /dʒɪm/ /sɪns/ /mɑːtʃ/",
+      "pronunciationGuideUs": "/aɪ/ /ˈhævənt/ /bɪn/ /tə/ /ðə/ /dʒɪm/ /sɪns/ /mɑːrtʃ/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "I",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ nhất số ít."
+        },
+        {
+          "id": "w1",
+          "unitText": "haven't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'have not' - trợ động từ (auxiliary) 'have' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "been",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'be'; 'be to a place' nghĩa là đến/ở một nơi."
+        },
+        {
+          "id": "w3",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w4",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w5",
+          "unitText": "gym",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w6",
+          "unitText": "since",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w7",
+          "unitText": "March",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "to the gym",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase), giới từ 'to' + cụm danh từ 'the gym', chỉ nơi chốn."
+        },
+        {
+          "id": "p1",
+          "unitText": "since March",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'since + mốc thời gian' chỉ thời điểm hành động bắt đầu."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_b22c63263365e5737d",
+      "text": "They haven't written to me since the party",
+      "pinyin": null,
+      "translation": "Họ chưa viết cho tôi từ bữa tiệc.",
+      "acceptedAnswers": [
+        "They haven't written to me since the party",
+        "They have not written to me since the party",
+        "They've not written to me since the party"
+      ],
+      "audioUrl": null,
+      "ipa": "/ðeɪ/ /ˈhævnt/ /ˈrɪtn/ /tə/ /miː/ /sɪns/ /ðə/ /ˈpɑːti/",
+      "targetLanguage": "en",
+      "targetText": "They haven't written to me since the party",
+      "displayText": "They haven't written to me since the party.",
+      "pronunciationGuide": "/ðeɪ/ /ˈhævnt/ /ˈrɪtn/ /tə/ /miː/ /sɪns/ /ðə/ /ˈpɑːti/",
+      "pronunciationGuideUs": "/ðeɪ/ /ˈhævənt/ /ˈrɪtn/ /tə/ /miː/ /sɪns/ /ðə/ /ˈpɑːrti/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "They",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số nhiều."
+        },
+        {
+          "id": "w1",
+          "unitText": "haven't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'have not' - trợ động từ (auxiliary) 'have' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "written",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'write', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "to",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w4",
+          "unitText": "me",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "id": "w5",
+          "unitText": "since",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w6",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w7",
+          "unitText": "party",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "to me",
+          "unitType": "phrase",
+          "grammarTags": [
+            "complement"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Bổ ngữ (complement) - cụm giới từ (prepositional phrase), giới từ 'to' + đại từ 'me', bổ ngữ cho động từ 'written'."
+        },
+        {
+          "id": "p1",
+          "unitText": "since the party",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'since + mốc thời gian' chỉ thời điểm hành động bắt đầu."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_fc4a07b00b18d6ea0e",
+      "text": "He hasn't driven for two years",
+      "pinyin": null,
+      "translation": "Anh ấy chưa lái xe suốt hai năm.",
+      "acceptedAnswers": [
+        "He hasn't driven for two years",
+        "He has not driven for two years",
+        "He's not driven for two years"
+      ],
+      "audioUrl": null,
+      "ipa": "/hiː/ /ˈhæznt/ /ˈdrɪvn/ /fɔː(r)/ /tuː/ /jɪəz/",
+      "targetLanguage": "en",
+      "targetText": "He hasn't driven for two years",
+      "displayText": "He hasn't driven for two years.",
+      "pronunciationGuide": "/hiː/ /ˈhæznt/ /ˈdrɪvn/ /fɔː(r)/ /tuː/ /jɪəz/",
+      "pronunciationGuideUs": "/hiː/ /ˈhæzənt/ /ˈdrɪvən/ /fɔːr/ /tuː/ /jɪrz/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "He",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số ít giống đực."
+        },
+        {
+          "id": "w1",
+          "unitText": "hasn't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'has not' - trợ động từ (auxiliary) 'has' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "driven",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'drive', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "for",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w4",
+          "unitText": "two",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "numeral"
+        },
+        {
+          "id": "w5",
+          "unitText": "years",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "for two years",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'for + khoảng thời gian' chỉ thời gian hành động kéo dài."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_7f09d83a0237a9363d",
+      "text": "She hasn't cleaned her flat for a week",
+      "pinyin": null,
+      "translation": "Cô ấy chưa dọn căn hộ suốt một tuần.",
+      "acceptedAnswers": [
+        "She hasn't cleaned her flat for a week",
+        "She has not cleaned her flat for a week",
+        "She's not cleaned her flat for a week"
+      ],
+      "audioUrl": null,
+      "ipa": "/ʃiː/ /ˈhæznt/ /kliːnd/ /hɜː(r)/ /flæt/ /fɔː(r)/ /ə/ /wiːk/",
+      "targetLanguage": "en",
+      "targetText": "She hasn't cleaned her flat for a week",
+      "displayText": "She hasn't cleaned her flat for a week.",
+      "pronunciationGuide": "/ʃiː/ /ˈhæznt/ /kliːnd/ /hɜː(r)/ /flæt/ /fɔː(r)/ /ə/ /wiːk/",
+      "pronunciationGuideUs": "/ʃiː/ /ˈhæzənt/ /kliːnd/ /hɜːr/ /flæt/ /fɔːr/ /ə/ /wiːk/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "She",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số ít giống cái."
+        },
+        {
+          "id": "w1",
+          "unitText": "hasn't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'has not' - trợ động từ (auxiliary) 'has' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "cleaned",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'clean', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "her",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "determiner"
+        },
+        {
+          "id": "w4",
+          "unitText": "flat",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w5",
+          "unitText": "for",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w6",
+          "unitText": "a",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w7",
+          "unitText": "week",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "her flat",
+          "unitType": "phrase",
+          "grammarTags": [
+            "object"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Tân ngữ (object) - cụm danh từ (noun phrase), danh từ chính 'flat'; 'her' là tính từ sở hữu (possessive determiner)."
+        },
+        {
+          "id": "p1",
+          "unitText": "for a week",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'for + khoảng thời gian' chỉ thời gian hành động kéo dài."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_95ce36a490d241d085",
+      "text": "It hasn't rained for three months",
+      "pinyin": null,
+      "translation": "Trời chưa mưa suốt ba tháng.",
+      "acceptedAnswers": [
+        "It hasn't rained for three months",
+        "It has not rained for three months",
+        "It's not rained for three months"
+      ],
+      "audioUrl": null,
+      "ipa": "/ɪt/ /ˈhæznt/ /reɪnd/ /fɔː(r)/ /θriː/ /mʌnθs/",
+      "targetLanguage": "en",
+      "targetText": "It hasn't rained for three months",
+      "displayText": "It hasn't rained for three months.",
+      "pronunciationGuide": "/ɪt/ /ˈhæznt/ /reɪnd/ /fɔː(r)/ /θriː/ /mʌnθs/",
+      "pronunciationGuideUs": "/ɪt/ /ˈhæzənt/ /reɪnd/ /fɔːr/ /θriː/ /mʌnθs/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "It",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng 'it', ở đây là chủ ngữ giả chỉ thời tiết."
+        },
+        {
+          "id": "w1",
+          "unitText": "hasn't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'has not' - trợ động từ (auxiliary) 'has' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "rained",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'rain', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "for",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w4",
+          "unitText": "three",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "numeral"
+        },
+        {
+          "id": "w5",
+          "unitText": "months",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "for three months",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'for + khoảng thời gian' chỉ thời gian hành động kéo dài."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_267f2e798f6bc643d7",
+      "text": "My brother hasn't paid the rent for two months",
+      "pinyin": null,
+      "translation": "Anh trai tôi chưa trả tiền thuê nhà suốt hai tháng.",
+      "acceptedAnswers": [
+        "My brother hasn't paid the rent for two months",
+        "My brother has not paid the rent for two months"
+      ],
+      "audioUrl": null,
+      "ipa": "/maɪ/ /ˈbrʌðə(r)/ /ˈhæznt/ /peɪd/ /ðə/ /rent/ /fɔː(r)/ /tuː/ /mʌnθs/",
+      "targetLanguage": "en",
+      "targetText": "My brother hasn't paid the rent for two months",
+      "displayText": "My brother hasn't paid the rent for two months.",
+      "pronunciationGuide": "/maɪ/ /ˈbrʌðə(r)/ /ˈhæznt/ /peɪd/ /ðə/ /rent/ /fɔː(r)/ /tuː/ /mʌnθs/",
+      "pronunciationGuideUs": "/maɪ/ /ˈbrʌðər/ /ˈhæzənt/ /peɪd/ /ðə/ /rent/ /fɔːr/ /tuː/ /mʌnθs/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "My",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "determiner"
+        },
+        {
+          "id": "w1",
+          "unitText": "brother",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w2",
+          "unitText": "hasn't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'has not' - trợ động từ (auxiliary) 'has' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w3",
+          "unitText": "paid",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'pay', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w4",
+          "unitText": "the",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w5",
+          "unitText": "rent",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w6",
+          "unitText": "for",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w7",
+          "unitText": "two",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "numeral"
+        },
+        {
+          "id": "w8",
+          "unitText": "months",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "My brother",
+          "unitType": "phrase",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Chủ ngữ (subject) - cụm danh từ (noun phrase), danh từ chính 'brother'; 'My' là tính từ sở hữu (possessive determiner)."
+        },
+        {
+          "id": "p1",
+          "unitText": "the rent",
+          "unitType": "phrase",
+          "grammarTags": [
+            "object"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Tân ngữ (object) - cụm danh từ (noun phrase), danh từ chính 'rent', mạo từ 'the'."
+        },
+        {
+          "id": "p2",
+          "unitText": "for two months",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'for + khoảng thời gian' chỉ thời gian hành động kéo dài."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_57fe02cb7e7707fa15",
+      "text": "My sister hasn't practised for a month",
+      "pinyin": null,
+      "translation": "Chị gái tôi chưa luyện tập suốt một tháng.",
+      "acceptedAnswers": [
+        "My sister hasn't practised for a month",
+        "My sister has not practised for a month"
+      ],
+      "audioUrl": null,
+      "ipa": "/maɪ/ /ˈsɪstə(r)/ /ˈhæznt/ /ˈpræktɪst/ /fɔː(r)/ /ə/ /mʌnθ/",
+      "targetLanguage": "en",
+      "targetText": "My sister hasn't practised for a month",
+      "displayText": "My sister hasn't practised for a month.",
+      "pronunciationGuide": "/maɪ/ /ˈsɪstə(r)/ /ˈhæznt/ /ˈpræktɪst/ /fɔː(r)/ /ə/ /mʌnθ/",
+      "pronunciationGuideUs": "/maɪ/ /ˈsɪstər/ /ˈhæzənt/ /ˈpræktɪst/ /fɔːr/ /ə/ /mʌnθ/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "My",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "determiner"
+        },
+        {
+          "id": "w1",
+          "unitText": "sister",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w2",
+          "unitText": "hasn't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'has not' - trợ động từ (auxiliary) 'has' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w3",
+          "unitText": "practised",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'practise', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w4",
+          "unitText": "for",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w5",
+          "unitText": "a",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w6",
+          "unitText": "month",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "My sister",
+          "unitType": "phrase",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Chủ ngữ (subject) - cụm danh từ (noun phrase), danh từ chính 'sister'; 'My' là tính từ sở hữu (possessive determiner)."
+        },
+        {
+          "id": "p1",
+          "unitText": "for a month",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'for + khoảng thời gian' chỉ thời gian hành động kéo dài."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_5627afd17e31112d92",
+      "text": "He hasn't bought new trainers for a year",
+      "pinyin": null,
+      "translation": "Anh ấy chưa mua giày thể thao mới suốt một năm.",
+      "acceptedAnswers": [
+        "He hasn't bought new trainers for a year",
+        "He has not bought new trainers for a year",
+        "He's not bought new trainers for a year"
+      ],
+      "audioUrl": null,
+      "ipa": "/hiː/ /ˈhæznt/ /bɔːt/ /njuː/ /ˈtreɪnəz/ /fɔː(r)/ /ə/ /jɪə(r)/",
+      "targetLanguage": "en",
+      "targetText": "He hasn't bought new trainers for a year",
+      "displayText": "He hasn't bought new trainers for a year.",
+      "pronunciationGuide": "/hiː/ /ˈhæznt/ /bɔːt/ /njuː/ /ˈtreɪnəz/ /fɔː(r)/ /ə/ /jɪə(r)/",
+      "pronunciationGuideUs": "/hiː/ /ˈhæzənt/ /bɑːt/ /nuː/ /ˈtreɪnərz/ /fɔːr/ /ə/ /jɪr/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "He",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số ít giống đực."
+        },
+        {
+          "id": "w1",
+          "unitText": "hasn't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'has not' - trợ động từ (auxiliary) 'has' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "bought",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'buy', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "new",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "adjective"
+        },
+        {
+          "id": "w4",
+          "unitText": "trainers",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w5",
+          "unitText": "for",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w6",
+          "unitText": "a",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w7",
+          "unitText": "year",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "new trainers",
+          "unitType": "phrase",
+          "grammarTags": [
+            "object"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Tân ngữ (object) - cụm danh từ (noun phrase), danh từ chính 'trainers'; 'new' là tính từ bổ nghĩa."
+        },
+        {
+          "id": "p1",
+          "unitText": "for a year",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'for + khoảng thời gian' chỉ thời gian hành động kéo dài."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_47a5a40bda273ea99f",
+      "text": "He hasn't called his mother since Sunday",
+      "pinyin": null,
+      "translation": "Anh ấy chưa gọi cho mẹ mình từ Chủ nhật.",
+      "acceptedAnswers": [
+        "He hasn't called his mother since Sunday",
+        "He has not called his mother since Sunday",
+        "He's not called his mother since Sunday"
+      ],
+      "audioUrl": null,
+      "ipa": "/hiː/ /ˈhæznt/ /kɔːld/ /hɪz/ /ˈmʌðə(r)/ /sɪns/ /ˈsʌndeɪ/",
+      "targetLanguage": "en",
+      "targetText": "He hasn't called his mother since Sunday",
+      "displayText": "He hasn't called his mother since Sunday.",
+      "pronunciationGuide": "/hiː/ /ˈhæznt/ /kɔːld/ /hɪz/ /ˈmʌðə(r)/ /sɪns/ /ˈsʌndeɪ/",
+      "pronunciationGuideUs": "/hiː/ /ˈhæzənt/ /kɔːld/ /hɪz/ /ˈmʌðər/ /sɪns/ /ˈsʌndeɪ/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "He",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số ít giống đực."
+        },
+        {
+          "id": "w1",
+          "unitText": "hasn't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'has not' - trợ động từ (auxiliary) 'has' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "called",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'call', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "his",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "determiner"
+        },
+        {
+          "id": "w4",
+          "unitText": "mother",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w5",
+          "unitText": "since",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w6",
+          "unitText": "Sunday",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "his mother",
+          "unitType": "phrase",
+          "grammarTags": [
+            "object"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Tân ngữ (object) - c��m danh từ (noun phrase), danh từ chính 'mother'; 'his' là tính từ sở hữu (possessive determiner)."
+        },
+        {
+          "id": "p1",
+          "unitText": "since Sunday",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'since + mốc thời gian' chỉ thời điểm hành động bắt đầu."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_1023d48439fa39d5ee",
+      "text": "She hasn't checked her email since Monday",
+      "pinyin": null,
+      "translation": "Cô ấy chưa kiểm tra email từ thứ Hai.",
+      "acceptedAnswers": [
+        "She hasn't checked her email since Monday",
+        "She has not checked her email since Monday",
+        "She's not checked her email since Monday"
+      ],
+      "audioUrl": null,
+      "ipa": "/ʃiː/ /ˈhæznt/ /tʃekt/ /hɜː(r)/ /ˈiːmeɪl/ /sɪns/ /ˈmʌndeɪ/",
+      "targetLanguage": "en",
+      "targetText": "She hasn't checked her email since Monday",
+      "displayText": "She hasn't checked her email since Monday.",
+      "pronunciationGuide": "/ʃiː/ /ˈhæznt/ /tʃekt/ /hɜː(r)/ /ˈiːmeɪl/ /sɪns/ /ˈmʌndeɪ/",
+      "pronunciationGuideUs": "/ʃiː/ /ˈhæzənt/ /tʃekt/ /hɜːr/ /ˈiːmeɪl/ /sɪns/ /ˈmʌndeɪ/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "She",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số ít giống cái."
+        },
+        {
+          "id": "w1",
+          "unitText": "hasn't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'has not' - trợ động từ (auxiliary) 'has' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "checked",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'check', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "her",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "determiner"
+        },
+        {
+          "id": "w4",
+          "unitText": "email",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w5",
+          "unitText": "since",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w6",
+          "unitText": "Monday",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "her email",
+          "unitType": "phrase",
+          "grammarTags": [
+            "object"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Tân ngữ (object) - cụm danh từ (noun phrase), danh từ chính 'email'; 'her' là tính từ sở hữu (possessive determiner)."
+        },
+        {
+          "id": "p1",
+          "unitText": "since Monday",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'since + mốc thời gian' chỉ thời điểm hành động bắt đầu."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_26605b3d9834f0d0cf",
+      "text": "He hasn't watched a film since last month",
+      "pinyin": null,
+      "translation": "Anh ấy chưa xem phim từ tháng trước.",
+      "acceptedAnswers": [
+        "He hasn't watched a film since last month",
+        "He has not watched a film since last month",
+        "He's not watched a film since last month"
+      ],
+      "audioUrl": null,
+      "ipa": "/hiː/ /ˈhæznt/ /wɒtʃt/ /ə/ /fɪlm/ /sɪns/ /lɑːst/ /mʌnθ/",
+      "targetLanguage": "en",
+      "targetText": "He hasn't watched a film since last month",
+      "displayText": "He hasn't watched a film since last month.",
+      "pronunciationGuide": "/hiː/ /ˈhæznt/ /wɒtʃt/ /ə/ /fɪlm/ /sɪns/ /lɑːst/ /mʌnθ/",
+      "pronunciationGuideUs": "/hiː/ /ˈhæzənt/ /wɑːtʃt/ /ə/ /fɪlm/ /sɪns/ /læst/ /mʌnθ/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "He",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số ít giống đực."
+        },
+        {
+          "id": "w1",
+          "unitText": "hasn't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'has not' - trợ động từ (auxiliary) 'has' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "watched",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'watch', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "a",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w4",
+          "unitText": "film",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w5",
+          "unitText": "since",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w6",
+          "unitText": "last",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "adjective"
+        },
+        {
+          "id": "w7",
+          "unitText": "month",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "a film",
+          "unitType": "phrase",
+          "grammarTags": [
+            "object"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Tân ngữ (object) - cụm danh từ (noun phrase), danh từ chính 'film', mạo từ 'a'."
+        },
+        {
+          "id": "p1",
+          "unitText": "since last month",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'since + mốc thời gian' chỉ thời điểm hành động bắt đầu."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_5f9f855fe93d89a6fe",
+      "text": "She hasn't bought a new dress since last year",
+      "pinyin": null,
+      "translation": "Cô ấy chưa mua váy mới từ năm ngoái.",
+      "acceptedAnswers": [
+        "She hasn't bought a new dress since last year",
+        "She has not bought a new dress since last year",
+        "She's not bought a new dress since last year"
+      ],
+      "audioUrl": null,
+      "ipa": "/ʃiː/ /ˈhæznt/ /bɔːt/ /ə/ /njuː/ /dres/ /sɪns/ /lɑːst/ /jɪə(r)/",
+      "targetLanguage": "en",
+      "targetText": "She hasn't bought a new dress since last year",
+      "displayText": "She hasn't bought a new dress since last year.",
+      "pronunciationGuide": "/ʃiː/ /ˈhæznt/ /bɔːt/ /ə/ /njuː/ /dres/ /sɪns/ /lɑːst/ /jɪə(r)/",
+      "pronunciationGuideUs": "/ʃiː/ /ˈhæzənt/ /bɑːt/ /ə/ /nuː/ /dres/ /sɪns/ /læst/ /jɪr/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "She",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số ít giống cái."
+        },
+        {
+          "id": "w1",
+          "unitText": "hasn't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'has not' - trợ động từ (auxiliary) 'has' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "bought",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'buy', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "a",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w4",
+          "unitText": "new",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "adjective"
+        },
+        {
+          "id": "w5",
+          "unitText": "dress",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w6",
+          "unitText": "since",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w7",
+          "unitText": "last",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "adjective"
+        },
+        {
+          "id": "w8",
+          "unitText": "year",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "a new dress",
+          "unitType": "phrase",
+          "grammarTags": [
+            "object"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Tân ngữ (object) - cụm danh từ (noun phrase), danh từ chính 'dress', mạo từ 'a' và tính từ 'new'."
+        },
+        {
+          "id": "p1",
+          "unitText": "since last year",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'since + mốc thời gian' chỉ thời điểm hành động bắt đầu."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_0b92e73a86246ed8ab",
+      "text": "He hasn't read a book since June",
+      "pinyin": null,
+      "translation": "Anh ấy chưa đọc sách từ tháng Sáu.",
+      "acceptedAnswers": [
+        "He hasn't read a book since June",
+        "He has not read a book since June",
+        "He's not read a book since June"
+      ],
+      "audioUrl": null,
+      "ipa": "/hiː/ /ˈhæznt/ /red/ /ə/ /bʊk/ /sɪns/ /dʒuːn/",
+      "targetLanguage": "en",
+      "targetText": "He hasn't read a book since June",
+      "displayText": "He hasn't read a book since June.",
+      "pronunciationGuide": "/hiː/ /ˈhæznt/ /red/ /ə/ /bʊk/ /sɪns/ /dʒuːn/",
+      "pronunciationGuideUs": "/hiː/ /ˈhæzənt/ /red/ /ə/ /bʊk/ /sɪns/ /dʒuːn/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "He",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số ít giống đực."
+        },
+        {
+          "id": "w1",
+          "unitText": "hasn't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'has not' - trợ động từ (auxiliary) 'has' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "read",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'read', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "a",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "article"
+        },
+        {
+          "id": "w4",
+          "unitText": "book",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w5",
+          "unitText": "since",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w6",
+          "unitText": "June",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "a book",
+          "unitType": "phrase",
+          "grammarTags": [
+            "object"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Tân ngữ (object) - cụm danh từ (noun phrase), danh từ chính 'book', mạo từ 'a'."
+        },
+        {
+          "id": "p1",
+          "unitText": "since June",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'since + mốc thời gian' chỉ thời điểm hành động bắt đầu."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    },
+    {
+      "id": "stmt_f93c37c8afa93bb668",
+      "text": "She hasn't seen her parents since last summer",
+      "pinyin": null,
+      "translation": "Cô ấy chưa gặp bố mẹ mình từ mùa hè năm ngoái.",
+      "acceptedAnswers": [
+        "She hasn't seen her parents since last summer",
+        "She has not seen her parents since last summer",
+        "She's not seen her parents since last summer"
+      ],
+      "audioUrl": null,
+      "ipa": "/ʃiː/ /ˈhæznt/ /siːn/ /hɜː(r)/ /ˈpeərənts/ /sɪns/ /lɑːst/ /ˈsʌmə(r)/",
+      "targetLanguage": "en",
+      "targetText": "She hasn't seen her parents since last summer",
+      "displayText": "She hasn't seen her parents since last summer.",
+      "pronunciationGuide": "/ʃiː/ /ˈhæznt/ /siːn/ /hɜː(r)/ /ˈpeərənts/ /sɪns/ /lɑːst/ /ˈsʌmə(r)/",
+      "pronunciationGuideUs": "/ʃiː/ /ˈhæzənt/ /siːn/ /hɜːr/ /ˈperənts/ /sɪns/ /læst/ /ˈsʌmər/",
+      "pronunciationPlain": null,
+      "learningUnits": [
+        {
+          "id": "w0",
+          "unitText": "She",
+          "unitType": "word",
+          "grammarTags": [
+            "subject"
+          ],
+          "partOfSpeech": "pronoun",
+          "explanationVi": "Chủ ngữ (subject) - đại từ nhân xưng (personal pronoun) ngôi thứ ba số ít giống cái."
+        },
+        {
+          "id": "w1",
+          "unitText": "hasn't",
+          "unitType": "word",
+          "grammarTags": [
+            "auxiliary",
+            "contraction"
+          ],
+          "partOfSpeech": "auxiliary",
+          "explanationVi": "Dạng rút gọn của 'has not' - trợ động từ (auxiliary) 'has' + 'not', phủ định thì hiện tại hoàn thành (present perfect)."
+        },
+        {
+          "id": "w2",
+          "unitText": "seen",
+          "unitType": "word",
+          "grammarTags": [
+            "verb"
+          ],
+          "partOfSpeech": "verb",
+          "explanationVi": "Động từ (verb) - phân từ quá khứ (past participle) của 'see', đứng sau trợ động từ phủ định."
+        },
+        {
+          "id": "w3",
+          "unitText": "her",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "determiner"
+        },
+        {
+          "id": "w4",
+          "unitText": "parents",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w5",
+          "unitText": "since",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "preposition"
+        },
+        {
+          "id": "w6",
+          "unitText": "last",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "adjective"
+        },
+        {
+          "id": "w7",
+          "unitText": "summer",
+          "unitType": "word",
+          "grammarTags": [],
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "p0",
+          "unitText": "her parents",
+          "unitType": "phrase",
+          "grammarTags": [
+            "object"
+          ],
+          "partOfSpeech": "noun",
+          "explanationVi": "Tân ngữ (object) - cụm danh từ (noun phrase), danh từ chính 'parents'; 'her' là tính từ sở hữu (possessive determiner)."
+        },
+        {
+          "id": "p1",
+          "unitText": "since last summer",
+          "unitType": "phrase",
+          "grammarTags": [
+            "adverbial"
+          ],
+          "partOfSpeech": "preposition",
+          "explanationVi": "Trạng ngữ (adverbial) - cụm giới từ (prepositional phrase) 'since + mốc thời gian' chỉ thời điểm hành động bắt đầu."
+        }
+      ],
+      "tier": "sentence",
+      "guessable": null,
+      "zhWords": null
+    }
+  ],
+  "mastered": [],
+  "lastIndex": 0,
+  "completed": false,
+  "completedModes": [],
+  "doneSteps": []
+}

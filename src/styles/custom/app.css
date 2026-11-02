@@ -1,0 +1,529 @@
+/* app.css — Agent D1: App shell (/tong-quan) + dashboard widgets.
+ *
+ * Toàn bộ widget dùng class gốc `nbx-*` / `nbc-*` của source (entry.css đã có sẵn).
+ * Chỉ những phần nguồn bị Vue-scoped (data-v-*) hoặc là layout app-level (không có
+ * trong CSS tĩnh) mới được viết lại ở đây bằng tiền tố `lp-*`, hoặc copy nguyên
+ * rule gốc cho các widget scoped: .hck (check-in, data-v-a5013f9b), .hm-exam
+ * (data-v-eb93d6f5), .hm-date (data-v-2d8c9eed).
+ *
+ * Token nguồn: mọi biến --nb-x-* đã toàn cục qua :root[data-nb-page] (layout.tsx
+ * đặt data-nb-page trên <html>) nên không cần khai báo lại.
+ */
+
+/* ------------------------------------------------------------------ */
+/* 1. Shell layout — rail + main (nguồn layout app bị scoped, tự dựng)  */
+/* ------------------------------------------------------------------ */
+
+.lp-app {
+  display: grid;
+  grid-template-columns: 256px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  width: 100%;
+  max-width: 1408px;
+  margin-inline: auto;
+  padding: 16px 20px 48px;
+}
+
+.lp-rail {
+  min-width: 0;
+}
+
+.lp-main {
+  width: 100%;
+  max-width: 64rem;
+  margin-inline: auto;
+}
+
+@media (max-width: 1023px) {
+  .lp-app {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  /* Rail thành khối thường, không sticky / không cao tối thiểu */
+  .lp-rail .nbx-rail-in {
+    position: static;
+    height: auto;
+    min-height: 0;
+    padding-top: 18px;
+  }
+}
+
+@media (max-width: 719px) {
+  .lp-app {
+    padding: 12px 12px 40px;
+  }
+}
+
+/* Hàng 2 cột: Lộ trình | XP tuần — class gốc .nbx-home-a đã có grid,
+   chỉ thêm align để 2 card cao bằng nhau. */
+.nbx-home-a {
+  align-items: stretch;
+}
+
+.nbx-home-a > * {
+  min-width: 0;
+}
+
+/* ------------------------------------------------------------------ */
+/* 2. Header trang chủ (.nbc-hd.is-home) — hàng đầu: ngày + check-in    */
+/* ------------------------------------------------------------------ */
+
+.nbc-hd.is-home .nbc-hd-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Hàng 2: h1 + banner ngữ pháp (banner đẩy sang phải như nguồn) */
+.nbc-hd.is-home .nbc-hd-lead {
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Đốm lấp lánh trang trí góc phải header (nguồn có sticker + spark) */
+.lp-spark {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  color: color-mix(in srgb, var(--nb-x-ink) 34%, transparent);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.lp-spark svg {
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+/* .hm-date — pill ngày (nguồn scoped data-v-2d8c9eed, không SSR được) */
+.hm-date {
+  display: inline-flex;
+  align-items: center;
+  height: 32px;
+  padding: 0 13px;
+  border-radius: 999px;
+  background: var(--nb-x-row-h);
+  border: 1.5px solid color-mix(in srgb, var(--nb-x-ink) 14%, transparent);
+  color: var(--nb-x-ink);
+  font-size: 13px;
+  font-weight: 800;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ------------------------------------------------------------------ */
+/* 3. Widget điểm danh .hck — copy rule gốc (scoped data-v-a5013f9b)    */
+/* ------------------------------------------------------------------ */
+
+.hck {
+  background: var(--nb-x-heat);
+  height: 44px;
+  color: var(--nb-x-heat-t);
+  font: inherit;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  border: 0;
+  border-radius: 16px;
+  flex: none;
+  gap: 10px;
+  padding: 0 5px 0 4px;
+  position: relative;
+}
+
+.hck,
+.hck-flame {
+  align-items: center;
+  display: inline-flex;
+}
+
+.hck-flame {
+  gap: 8px;
+}
+
+.hck-fb {
+  background: var(--nb-x-heat-m);
+  border-radius: 50%;
+  flex: none;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  display: grid;
+}
+
+.hck-fl {
+  transform-origin: 50% 100%;
+  width: 19px;
+  height: 24px;
+  overflow: visible;
+}
+
+.hck-fo {
+  fill: var(--nb-x-heat-d);
+}
+
+.hck-fi {
+  fill: var(--nb-x-do-m);
+}
+
+.hck-flame.is-cold .hck-fo {
+  fill: color-mix(in srgb, var(--nb-x-heat-d) 38%, var(--nb-x-heat));
+}
+
+.hck-flame.is-cold .hck-fi {
+  fill: var(--nb-x-heat);
+}
+
+.hck-flame.is-cold .hck-fb {
+  background: color-mix(in srgb, var(--nb-x-heat-m) 45%, var(--nb-x-heat));
+}
+
+.hck-num {
+  align-items: baseline;
+  gap: 4px;
+  display: inline-flex;
+}
+
+.hck-n {
+  font: 800 24px/1 var(--nb-font-head, inherit);
+  color: var(--nb-x-heat-t);
+}
+
+.hck-nu {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.hck-days {
+  border-left: 1.5px solid color-mix(in srgb, var(--nb-x-heat-d) 22%, transparent);
+  gap: 5px;
+  padding-left: 12px;
+  align-items: center;
+  display: inline-flex;
+}
+
+.hck-dc {
+  flex-direction: column;
+  gap: 3px;
+  width: 17px;
+  align-items: center;
+  display: inline-flex;
+}
+
+.hck-wd {
+  opacity: 0.72;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.hck-dc.is-today .hck-wd {
+  opacity: 1;
+}
+
+.hck-d {
+  background: color-mix(in srgb, var(--nb-x-heat-d) 20%, transparent);
+  border-radius: 50%;
+  width: 11px;
+  height: 11px;
+}
+
+.hck-d.is-on {
+  background: var(--nb-x-heat-d);
+}
+
+.hck-d.is-miss {
+  box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--nb-x-heat-d) 34%, transparent);
+  background: 0 0;
+}
+
+.hck-d.is-today:not(.is-on) {
+  background: var(--nb-x-paper);
+  box-shadow: inset 0 0 0 2px var(--nb-x-heat-d);
+}
+
+.hck-end {
+  justify-content: flex-end;
+  min-width: 146px;
+  display: inline-flex;
+}
+
+.hck-cta,
+.hck-ok {
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  height: 34px;
+  padding: 0 14px;
+  font-size: 14px;
+  font-weight: 800;
+  display: inline-flex;
+}
+
+.hck-cta {
+  /* Nguồn để var(--nb-x-fb) — trong ngữ cảnh .nbc-hd.is-home fb bị override
+     thành ivory; screenshot cho thấy nút salmon (heat-m) nên chốt màu trực tiếp. */
+  background: var(--nb-x-heat-m);
+  color: var(--nb-x-heat-t);
+}
+
+.hck-cta svg,
+.hck-ok svg {
+  width: 15px;
+  height: 15px;
+}
+
+.hck-ok {
+  background: var(--nb-x-ok);
+  color: var(--nb-x-ok-t);
+}
+
+.hck.is-go {
+  cursor: pointer;
+  transition: translate 0.24s var(--nb-x-ease, ease), scale 0.18s var(--nb-x-ease, ease);
+}
+
+.hck.is-go:not(:disabled):hover {
+  translate: 0 -2px;
+}
+
+.hck.is-go:not(:disabled):active {
+  scale: 0.97;
+}
+
+.hck:disabled {
+  cursor: default;
+}
+
+.hck:focus-visible {
+  outline: 3px solid var(--nb-focus, var(--nb-x-ink));
+  outline-offset: 3px;
+}
+
+/* ------------------------------------------------------------------ */
+/* 4. Banner "Ngữ pháp: …" .hm-exam — copy + dựng khối 2 dòng           */
+/*    (nguồn scoped data-v-eb93d6f5)                                    */
+/* ------------------------------------------------------------------ */
+
+.hm-exam {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  margin-left: auto;
+  min-width: 0;
+  max-width: 100%;
+  background: var(--nb-x-row-h);
+  color: var(--nb-x-ink);
+  border: 1.5px solid color-mix(in srgb, var(--nb-x-ink) 12%, transparent);
+  border-radius: 12px;
+  padding: 6px 12px;
+  font-size: 13.5px;
+  font-weight: 800;
+  line-height: 1.35;
+  text-align: right;
+}
+
+.hm-exam .hm-exam-s {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hm-exam small {
+  color: var(--nb-x-mut);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* ------------------------------------------------------------------ */
+/* 5. Deck "Hôm nay học gì?" — reset ul + khoảng trống linh vật         */
+/* ------------------------------------------------------------------ */
+
+ul.nbx-deck {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nbx-fcard .nbx-fcrit svg {
+  width: var(--crit-w, 4.5rem);
+  height: auto;
+  display: block;
+}
+
+/* Skin "sotay" (mặc định): card dùng minh hoạ .hda phẳng, ẩn linh vật peek
+   (nguồn chỉ style .nbx-fcrit cho skin neo). */
+:root[data-skin="sotay"] .nbx-fcrit {
+  display: none;
+}
+
+/* ------------------------------------------------------------------ */
+/* 6. Chi tiết nhỏ: chip "Sắp có", nút "…", hàng lộ trình / XP          */
+/* ------------------------------------------------------------------ */
+
+/* Chip "Sắp có" trên item Luyện thi */
+.nbx-ni .lp-soon {
+  height: auto;
+  padding: 2px 8px;
+  font-size: 10.5px;
+  border-radius: 999px;
+  background: var(--nb-x-goal-m);
+  color: var(--nb-x-goal-t);
+  border: 0;
+  gap: 0;
+}
+
+/* Nút "…" tròn trên row kế hoạch */
+.lp-more {
+  border: 0;
+  background: transparent;
+  color: var(--nb-x-mut);
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex: none;
+  padding: 0;
+}
+
+.lp-more:hover {
+  background: var(--nb-x-row-h);
+  color: var(--nb-x-ink);
+}
+
+.lp-more svg {
+  width: 17px;
+  height: 17px;
+}
+
+/* Hàng kế tiếp trong kế hoạch: ô icon trắng ngà, icon màu vàng đậm */
+.lp-plan .nbx-row.nbx-on .nbx-tile {
+  background: var(--nb-x-row-h);
+  color: var(--nb-x-do-d);
+  box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--nb-x-do-d) 28%, transparent);
+}
+
+/* Hàng dưới thanh % lộ trình: link "Kiểm tra lên cấp" căn phải */
+.lp-road-under {
+  margin-top: -14px;
+}
+
+.lp-road-under .nbx-lnk {
+  min-height: 30px;
+  font-size: 13px;
+}
+
+/* Chân card lộ trình: phút tuần này / đạt mục tiêu */
+.lp-road-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 4px 12px;
+  margin-top: auto;
+  padding-top: 2px;
+}
+
+.lp-road-foot .nbx-num {
+  font-size: 16px;
+}
+
+/* Bảng XP tuần: các hàng gọn */
+.lp-bxh .nbx-row {
+  min-height: 44px;
+  padding-block: 6px;
+}
+
+.lp-bxh .nbx-rk {
+  width: 44px;
+}
+
+.lp-bxh .nbx-row>.nbx-num {
+  margin-left: auto;
+  font-size: 15px;
+}
+
+/* Nút Thích (bảng tin) — trạng thái đã thích màu mục tiêu */
+.lp-like.is-on {
+  background: var(--nb-x-goal-m);
+  color: var(--nb-x-goal-t);
+}
+
+.lp-like.is-on svg {
+  fill: currentColor;
+}
+
+/* Avatar chữ trong bảng tin */
+.lp-feed-av {
+  font-size: 15px;
+}
+
+/* Logo sidebar: vạch phân cách AIO | ENGLISH */
+.nbx-brand .lp-sep {
+  color: var(--nb-x-mut);
+  font-weight: 400;
+  opacity: 0.55;
+}
+
+/* Nav sidebar: cột đều nhau như nguồn (rail-in đã là flex column) */
+.lp-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+/* Card user cuối rail: dòng tên + trình độ, hàng 2 số liệu */
+.nbx-me .nbx-who .nbx-tt {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.nbx-me .nbx-who .nbx-tt b,
+.nbx-me .nbx-who .nbx-tt small {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.nbx-me .nbx-who .nbx-tt small {
+  color: var(--nb-x-mut);
+  font-size: 11.5px;
+  font-weight: 700;
+}
+
+.nbx-me .nbx-who .lp-more {
+  color: var(--nb-x-mut);
+}
+
+.nbx-me .nbx-st span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+}
+
+/* Con dấu 0/5 bài — giữ nội dung đứng giữa con dấu xoay */
+.nbx-stamp b {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Hàng "bạn" trong bảng XP dùng accent tím mục tiêu */
+.lp-bxh .nbx-row.nbx-on {
+  background: color-mix(in srgb, var(--nb-x-goal) 55%, var(--nb-x-row-h));
+}
+
+/* Compact rail labels are enabled only by the hub's tablet layout. */
+.ui-rail-short { display: none; }

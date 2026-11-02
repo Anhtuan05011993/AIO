@@ -1,0 +1,1 @@
+var e=[`A1`,`A2`,`B1`,`B2`,`C1`],t=[30,45,60,180],n=.8,r=Object.freeze({open:!1,inProgress:!1,retryAt:null,completed:!1});function i(t){return typeof t==`string`&&e.includes(t)}function a(e){let t=typeof e==`string`?e.trim().toUpperCase():``;return t===`C2`?`C1`:i(t)?t:`A1`}export{a,n as i,e as n,i as o,t as r,r as t};

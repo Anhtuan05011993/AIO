@@ -1,0 +1,773 @@
+{
+  "topics": {
+    "thi-hien-tai-don": {
+      "sec-rule-ps-affirm": [
+        {
+          "type": "paragraph",
+          "text": "The children là danh từ số nhiều, đi với động từ nguyên thể: go."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chủ ngữ You đi với động từ nguyên thể: drink."
+        },
+        {
+          "type": "formula",
+          "lines": [
+            "I/you/we/they + V",
+            "Danh từ số nhiều + V"
+          ]
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "en": "The children go to school by bike.",
+              "vi": "Bọn trẻ đi học bằng xe đạp.",
+              "focus": [
+                "go"
+              ]
+            },
+            {
+              "en": "You drink a lot of coffee.",
+              "vi": "Bạn uống nhiều cà phê.",
+              "focus": [
+                "drink"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "items": [
+            {
+              "href": "/ngu-phap/a1-present-simple",
+              "label": "Luyện: Hiện tại đơn với I/you/we/they"
+            }
+          ]
+        }
+      ],
+      "sec-rule-ps-question": [
+        {
+          "type": "paragraph",
+          "text": "Câu hỏi: Do + they + V nguyên thể play."
+        },
+        {
+          "type": "paragraph",
+          "text": "Câu hỏi Yes/No: Do + S + V?. Do đứng trước chủ ngữ your cousins, động từ live giữ nguyên thể."
+        },
+        {
+          "type": "paragraph",
+          "text": "Câu hỏi Yes/No: Do + S + V?. Do đứng đầu câu, trước you; have giữ nguyên thể."
+        },
+        {
+          "type": "formula",
+          "lines": [
+            "Do + S + V?",
+            "Yes, S + do.",
+            "No, S + don't."
+          ]
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "en": "Do they play football after school?",
+              "vi": "Họ có chơi bóng đá sau giờ học không?",
+              "focus": [
+                "Do",
+                "they",
+                "play"
+              ]
+            },
+            {
+              "en": "Do your cousins live in London? – Yes, they do.",
+              "vi": "Các anh chị họ của bạn có sống ở London không? – Có.",
+              "focus": [
+                "Do",
+                "your",
+                "cousins",
+                "live"
+              ]
+            },
+            {
+              "en": "Do you have breakfast at home? – No, we don't.",
+              "vi": "Các bạn có ăn sáng ở nhà không? – Không.",
+              "focus": [
+                "Do",
+                "you",
+                "have"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "warn",
+          "text": "Câu hỏi Yes/No cần một từ đứng trước chủ ngữ."
+        },
+        {
+          "type": "practice",
+          "items": [
+            {
+              "href": "/ngu-phap/a1-present-simple",
+              "label": "Luyện: Hiện tại đơn với I/you/we/they"
+            }
+          ]
+        }
+      ],
+      "sec-rule-ps-use": [
+        {
+          "type": "paragraph",
+          "text": "Đây là sự thật, dùng hiện tại đơn. Fish ở đây là số nhiều nên đi với nguyên thể live."
+        },
+        {
+          "type": "formula",
+          "lines": [
+            "S + V + every day/week"
+          ]
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "en": "Fish live in water.",
+              "vi": "Cá sống dưới nước.",
+              "focus": [
+                "live"
+              ]
+            },
+            {
+              "en": "Our lessons start at nine o'clock every day.",
+              "vi": "Ngày nào các tiết học của chúng tôi cũng bắt đầu lúc chín giờ.",
+              "focus": [
+                "start"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "items": [
+            {
+              "href": "/ngu-phap/a1-present-simple",
+              "label": "Luyện: Hiện tại đơn với I/you/we/they"
+            }
+          ]
+        }
+      ],
+      "sec-rule-3p-affirm": [
+        {
+          "type": "paragraph",
+          "text": "Sau Sarah, động từ thêm -s: work → works."
+        },
+        {
+          "type": "paragraph",
+          "text": "The film là ngôi thứ ba số ít (it), nên start thêm -s: starts."
+        },
+        {
+          "type": "formula",
+          "lines": [
+            "he/she/it + V-s",
+            "he/she/it + V-es / V-ies",
+            "he/she/it + has"
+          ]
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "en": "Sarah works in a shop at the weekend.",
+              "vi": "Sarah làm việc ở một cửa hàng vào cuối tuần.",
+              "focus": [
+                "works"
+              ]
+            },
+            {
+              "en": "The film starts at eight o'clock.",
+              "vi": "Bộ phim bắt đầu lúc tám giờ.",
+              "focus": [
+                "starts"
+              ]
+            },
+            {
+              "en": "Ben washes the dishes after dinner.",
+              "vi": "Ben rửa bát sau bữa tối.",
+              "focus": [
+                "washes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "note",
+          "text": "Sarah là ngôi thứ ba số ít."
+        },
+        {
+          "type": "practice",
+          "items": [
+            {
+              "href": "/ngu-phap/a1-present-third-person",
+              "label": "Luyện: Hiện tại đơn với he/she/it"
+            }
+          ]
+        }
+      ],
+      "sec-rule-3p-negative": [
+        {
+          "type": "paragraph",
+          "text": "Sau doesn't, động từ ở nguyên thể: eat."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sau doesn't, động từ ở nguyên thể: watch, không thêm -es."
+        },
+        {
+          "type": "formula",
+          "lines": [
+            "he/she/it + doesn't + V",
+            "he/she/it + does not + V"
+          ]
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "en": "Anna doesn't eat fish.",
+              "vi": "Anna không ăn cá.",
+              "focus": [
+                "eat"
+              ]
+            },
+            {
+              "en": "My dad doesn't watch TV in the morning.",
+              "vi": "Bố tôi không xem TV vào buổi sáng.",
+              "focus": [
+                "watch"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "warn",
+          "text": "Động từ đứng ngay sau doesn't."
+        },
+        {
+          "type": "practice",
+          "items": [
+            {
+              "href": "/ngu-phap/a1-present-third-person",
+              "label": "Luyện: Hiện tại đơn với he/she/it"
+            }
+          ]
+        }
+      ],
+      "sec-rule-3p-question": [
+        {
+          "type": "paragraph",
+          "text": "Your teacher là ngôi thứ ba số ít, nên câu hỏi bắt đầu bằng Does."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sau Does + chủ ngữ, động từ ở nguyên thể: drink."
+        },
+        {
+          "type": "formula",
+          "lines": [
+            "Does + he/she/it + V?",
+            "Yes, he/she/it + does.",
+            "No, he/she/it + doesn't."
+          ]
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "en": "Does your teacher give a lot of homework?",
+              "vi": "Giáo viên của bạn có giao nhiều bài tập về nhà không?",
+              "focus": [
+                "Does"
+              ]
+            },
+            {
+              "en": "Does Lucy drink coffee?",
+              "vi": "Lucy có uống cà phê không?",
+              "focus": [
+                "drink"
+              ]
+            },
+            {
+              "en": "Does Sam play the guitar? – Yes, he does.",
+              "vi": "Sam có chơi đàn ghi-ta không? – Có.",
+              "focus": [
+                "does"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "items": [
+            {
+              "href": "/ngu-phap/a1-present-third-person",
+              "label": "Luyện: Hiện tại đơn với he/she/it"
+            }
+          ]
+        }
+      ],
+      "sec-rule-c1-reporting": [
+        {
+          "type": "paragraph",
+          "text": "Câu thuật lại ý tác giả bằng hiện tại đơn (gives), nên claim cũng chia hiện tại đơn: claims."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kể một nghiên cứu cụ thể đã làm (năm 1998) thì dùng quá khứ đơn: showed."
+        },
+        {
+          "type": "formula",
+          "lines": [
+            "S + V/V-s + that + mệnh đề",
+            "In + năm, Tên + V2 + that + mệnh đề"
+          ]
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "en": "In this chapter, the author claims that families eat together less often, and she gives three reasons.",
+              "vi": "Trong chương này, tác giả khẳng định rằng các gia đình ít ăn cùng nhau hơn, và đưa ra ba lý do.",
+              "focus": [
+                "claims"
+              ]
+            },
+            {
+              "en": "In a 1998 experiment, Dr Rowe showed that babies prefer happy faces.",
+              "vi": "Trong một thí nghiệm năm 1998, tiến sĩ Rowe chỉ ra rằng trẻ sơ sinh thích nhìn gương mặt vui vẻ.",
+              "focus": [
+                "showed"
+              ]
+            },
+            {
+              "en": "Last year, a survey by the city council found that more people cycle to work.",
+              "vi": "Năm ngoái, một cuộc khảo sát của hội đồng thành phố phát hiện rằng nhiều người đạp xe đi làm hơn.",
+              "focus": [
+                "found"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "text": "Nhìn động từ gives ở cuối câu."
+        },
+        {
+          "type": "practice",
+          "items": [
+            {
+              "href": "/ngu-phap/c1-present-advanced",
+              "label": "Luyện: Thì hiện tại trong văn học thuật"
+            }
+          ]
+        }
+      ],
+      "sec-rule-c1-summary": [
+        {
+          "type": "paragraph",
+          "text": "Kể cốt truyện giữ hiện tại đơn cho mọi việc nối tiếp. The hero là ngôi thứ ba số ít nên dùng meets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tiêu đề báo về việc vừa xảy ra dùng hiện tại đơn. Teenage girl là ngôi thứ ba số ít nên dùng wins."
+        },
+        {
+          "type": "formula",
+          "lines": [
+            "Tóm tắt, cốt truyện: S + V/V-s + O",
+            "Tiêu đề: S + V/V-s + O"
+          ]
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "en": "Later in the film, the hero returns home and meets his old friend.",
+              "vi": "Về sau trong phim, người hùng trở về nhà và gặp lại người bạn cũ.",
+              "focus": [
+                "meets"
+              ]
+            },
+            {
+              "en": "Teenage girl wins city chess championship.",
+              "vi": "Cô gái tuổi teen vô địch giải cờ vua thành phố.",
+              "focus": [
+                "wins"
+              ]
+            },
+            {
+              "en": "Heavy snow closes schools across Scotland.",
+              "vi": "Tuyết rơi dày khiến các trường học khắp Scotland đóng cửa.",
+              "focus": [
+                "closes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "note",
+          "text": "Nhìn động từ returns ngay trước and."
+        },
+        {
+          "type": "practice",
+          "items": [
+            {
+              "href": "/ngu-phap/c1-present-advanced",
+              "label": "Luyện: Thì hiện tại trong văn học thuật"
+            }
+          ]
+        }
+      ],
+      "sec-rule-c1-perfect": [
+        {
+          "type": "paragraph",
+          "text": "Tổng quan nghiên cứu tới nay dùng hiện tại hoàn thành. Research không đếm được nên dùng has shown."
+        },
+        {
+          "type": "paragraph",
+          "text": "So far nói về kết quả tới nay nên dùng hiện tại hoàn thành. Many studies là số nhiều nên dùng have found."
+        },
+        {
+          "type": "paragraph",
+          "text": "In recent years nói về kết quả tới nay nên dùng hiện tại hoàn thành. Several studies là số nhiều nên dùng have shown."
+        },
+        {
+          "type": "formula",
+          "lines": [
+            "Research + has + V3 + that + mệnh đề",
+            "Studies + have + V3 + that + mệnh đề"
+          ]
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "en": "Over the past ten years, research has shown that screen time affects young children's sleep.",
+              "vi": "Trong mười năm qua, nghiên cứu đã chỉ ra rằng thời gian dùng màn hình ảnh hưởng tới giấc ngủ của trẻ nhỏ.",
+              "focus": [
+                "has",
+                "shown"
+              ]
+            },
+            {
+              "en": "So far, many studies have found that music lessons improve memory.",
+              "vi": "Tới nay, nhiều nghiên cứu đã phát hiện rằng học nhạc giúp cải thiện trí nhớ.",
+              "focus": [
+                "have",
+                "found"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "items": [
+            {
+              "href": "/ngu-phap/c1-present-advanced",
+              "label": "Luyện: Thì hiện tại trong văn học thuật"
+            }
+          ]
+        }
+      ],
+      "sec-examples": [
+        {
+          "type": "examples",
+          "items": [
+            {
+              "en": "I take the bus to college every day.",
+              "vi": "Ngày nào tôi cũng đi xe buýt đến trường.",
+              "focus": [
+                "take"
+              ],
+              "note": "Hiện tại đơn với I/you/we/they"
+            },
+            {
+              "en": "Plants need water.",
+              "vi": "Cây cần nước.",
+              "focus": [
+                "need"
+              ],
+              "note": "Hiện tại đơn với I/you/we/they"
+            },
+            {
+              "en": "My brother plays games every evening.",
+              "vi": "Tối nào em trai tôi cũng chơi game.",
+              "focus": [
+                "plays"
+              ],
+              "note": "Hiện tại đơn với he/she/it"
+            },
+            {
+              "en": "The library opens at nine.",
+              "vi": "Thư viện mở cửa lúc chín giờ.",
+              "focus": [
+                "opens"
+              ],
+              "note": "Hiện tại đơn với he/she/it"
+            },
+            {
+              "en": "The author argues that social media harms sleep.",
+              "vi": "Tác giả lập luận rằng mạng xã hội gây hại cho giấc ngủ.",
+              "focus": [
+                "argues"
+              ],
+              "note": "Thì hiện tại trong văn học thuật"
+            },
+            {
+              "en": "Research has shown that exercise improves memory.",
+              "vi": "Nghiên cứu đã chỉ ra rằng tập thể dục giúp cải thiện trí nhớ.",
+              "focus": [
+                "has",
+                "shown"
+              ],
+              "note": "Thì hiện tại trong văn học thuật"
+            }
+          ]
+        }
+      ],
+      "sec-signals": [
+        {
+          "type": "bullets",
+          "lines": [
+            "Do you go to the cinema on Saturdays? – Yes, we do.",
+            "Our lessons start at nine o'clock every day.",
+            "I wash my hands before lunch every day.",
+            "My mum and I cook dinner together every Sunday."
+          ]
+        }
+      ],
+      "sec-mistakes-3p": [
+        {
+          "type": "table",
+          "headers": [
+            "Sai",
+            "Đúng",
+            "Vì sao"
+          ],
+          "rows": [
+            [
+              "He haves two sisters.",
+              "He has two sisters.",
+              "Sau he, have đổi thành has."
+            ],
+            [
+              "Emma trys to help her mum.",
+              "Emma tries to help her mum.",
+              "Emma là ngôi thứ ba số ít. try có phụ âm r + y, nên đổi thành tries."
+            ],
+            [
+              "Our teacher give us homework every day.",
+              "Our teacher gives us homework every day.",
+              "Our teacher là ngôi thứ ba số ít, nên give thêm -s thành gives."
+            ],
+            [
+              "My friend speak three languages.",
+              "My friend speaks three languages.",
+              "My friend là ngôi thứ ba số ít, nên speak thêm -s thành speaks."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "note",
+          "text": "Phủ định và câu hỏi dùng does + nguyên mẫu (đã bỏ -s): She doesn’t work. Does he play…?"
+        }
+      ],
+      "sec-mistakes-c1": [
+        {
+          "type": "table",
+          "headers": [
+            "Sai",
+            "Đúng",
+            "Vì sao"
+          ],
+          "rows": [
+            [
+              "In 2019, Dr Evans has argued that the city needs more buses.",
+              "In 2019, Dr Evans argued that the city needs more buses.",
+              "In 2019 là năm đã qua. Kể điều tác giả nói lúc đó dùng quá khứ đơn argued, không dùng hiện tại hoàn thành."
+            ],
+            [
+              "Last month, Professor Wilson shows that small classes help weaker students.",
+              "Last month, Professor Wilson showed that small classes help weaker students.",
+              "Last month là mốc đã qua, nên kể điều giáo sư Wilson chỉ ra lúc đó bằng quá khứ đơn: showed."
+            ],
+            [
+              "When Dr Shaw tested 50 babies in 1990, she finds that they learn sounds early.",
+              "When Dr Shaw tested 50 babies in 1990, she found that they learn sounds early.",
+              "Kể một nghiên cứu cụ thể đã làm (năm 1990, có tested) thì dùng quá khứ đơn: found."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Trong văn học thuật, hiện tại đơn trình bày kết luận và nội dung bảng biểu: The data show…, Table 2 presents…"
+        }
+      ],
+      "sec-recap": [
+        {
+          "type": "bullets",
+          "lines": [
+            "Hiện tại đơn với I / you / we / they dùng nguyên mẫu động từ, nói về thói quen, sự thật và lịch cố định.",
+            "Hiện tại đơn với he / she / it: thêm -s vào động từ; đuôi -o, -sh, -ch, -ss, -x thêm -es; phụ âm + y → -ies.",
+            "Trong văn học thuật, hiện tại đơn trình bày kết luận và nội dung bảng biểu: The data show…, Table 2 presents…"
+          ]
+        }
+      ]
+    }
+  },
+  "sectionNodes": {
+    "thi-hien-tai-don": {
+      "sec-use-ps": "a1-present-simple",
+      "sec-use-3p": "a1-present-third-person",
+      "sec-use-c1": "c1-present-advanced",
+      "sec-rule-ps-affirm": "a1-present-simple",
+      "sec-rule-ps-negative": "a1-present-simple",
+      "sec-rule-ps-question": "a1-present-simple",
+      "sec-rule-ps-use": "a1-present-simple",
+      "sec-rule-3p-affirm": "a1-present-third-person",
+      "sec-rule-3p-negative": "a1-present-third-person",
+      "sec-rule-3p-question": "a1-present-third-person",
+      "sec-rule-c1-reporting": "c1-present-advanced",
+      "sec-rule-c1-summary": "c1-present-advanced",
+      "sec-rule-c1-perfect": "c1-present-advanced",
+      "sec-mistakes-ps": "a1-present-simple",
+      "sec-mistakes-3p": "a1-present-third-person",
+      "sec-mistakes-c1": "c1-present-advanced"
+    }
+  },
+  "provenance": {
+    "sec-rule-ps-affirm": {
+      "node": "a1-present-simple",
+      "existingExerciseIds": [
+        "a1-present-simple-g2-g01",
+        "a1-present-simple-g2-g02"
+      ],
+      "existingDataPaths": []
+    },
+    "sec-rule-ps-question": {
+      "node": "a1-present-simple",
+      "existingExerciseIds": [
+        "a1-present-simple-g2-g09",
+        "a1-present-simple-g2-g10",
+        "a1-present-simple-g2-g11"
+      ],
+      "existingDataPaths": []
+    },
+    "sec-rule-ps-use": {
+      "node": "a1-present-simple",
+      "existingExerciseIds": [
+        "a1-present-simple-g2-g13",
+        "a1-present-simple-g2-g14"
+      ],
+      "existingDataPaths": []
+    },
+    "sec-rule-3p-affirm": {
+      "node": "a1-present-third-person",
+      "existingExerciseIds": [
+        "a1-present-third-person-g2-g01",
+        "a1-present-third-person-g2-g02",
+        "a1-present-third-person-g2-g03"
+      ],
+      "existingDataPaths": []
+    },
+    "sec-rule-3p-negative": {
+      "node": "a1-present-third-person",
+      "existingExerciseIds": [
+        "a1-present-third-person-g2-g07",
+        "a1-present-third-person-g2-g08"
+      ],
+      "existingDataPaths": []
+    },
+    "sec-rule-3p-question": {
+      "node": "a1-present-third-person",
+      "existingExerciseIds": [
+        "a1-present-third-person-g2-g11",
+        "a1-present-third-person-g2-g12",
+        "a1-present-third-person-g2-g13"
+      ],
+      "existingDataPaths": []
+    },
+    "sec-rule-c1-reporting": {
+      "node": "c1-present-advanced",
+      "existingExerciseIds": [
+        "c1-present-advanced-g2-g01",
+        "c1-present-advanced-g2-g02",
+        "c1-present-advanced-g2-g03"
+      ],
+      "existingDataPaths": []
+    },
+    "sec-rule-c1-summary": {
+      "node": "c1-present-advanced",
+      "existingExerciseIds": [
+        "c1-present-advanced-g2-g06",
+        "c1-present-advanced-g2-g07",
+        "c1-present-advanced-g2-g08"
+      ],
+      "existingDataPaths": []
+    },
+    "sec-rule-c1-perfect": {
+      "node": "c1-present-advanced",
+      "existingExerciseIds": [
+        "c1-present-advanced-g2-g11",
+        "c1-present-advanced-g2-g12"
+      ],
+      "existingDataPaths": []
+    },
+    "sec-examples": {
+      "node": null,
+      "existingExerciseIds": [],
+      "existingDataPaths": [
+        "real-lessons.json:a1-present-simple.start.examples",
+        "real-lessons.json:a1-present-third-person.start.examples",
+        "real-lessons.json:c1-present-advanced.start.examples"
+      ]
+    },
+    "sec-signals": {
+      "node": null,
+      "existingExerciseIds": [
+        "a1-present-simple-g2-g12",
+        "a1-present-simple-g2-g14",
+        "a1-present-simple-g2-g15",
+        "a1-present-simple-g2-g18"
+      ],
+      "existingDataPaths": []
+    },
+    "sec-mistakes-3p": {
+      "node": "a1-present-third-person",
+      "existingExerciseIds": [
+        "a1-present-third-person-g2-f01",
+        "a1-present-third-person-g2-f02",
+        "a1-present-third-person-g2-f03",
+        "a1-present-third-person-g2-f04"
+      ],
+      "existingDataPaths": []
+    },
+    "sec-mistakes-c1": {
+      "node": "c1-present-advanced",
+      "existingExerciseIds": [
+        "c1-present-advanced-g2-f01",
+        "c1-present-advanced-g2-f02",
+        "c1-present-advanced-g2-f03"
+      ],
+      "existingDataPaths": []
+    },
+    "sec-recap": {
+      "node": null,
+      "existingExerciseIds": [],
+      "existingDataPaths": []
+    }
+  }
+}

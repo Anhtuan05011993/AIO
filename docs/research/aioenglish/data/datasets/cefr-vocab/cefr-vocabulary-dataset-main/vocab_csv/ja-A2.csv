@@ -1,0 +1,702 @@
+id,lemma,language,cefr_level,pos,ipa,definition_target,audio_url,source,created_at,updated_at
+000ac7c1-a7de-4e08-b1f5-768d1b8ed882,思い出す,ja,A2,Verb,/omoidasu/,"to remember, to recall, to evoke memory of",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:32:54.445016+00
+008ce885-0e8b-4980-aeec-14260300e59b,高校生,ja,A2,Noun,/koukousei/,high school student,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:13:47.451809+00
+015df0bc-21ec-4445-88a4-33e39d297296,つもり,ja,A2,Suffix,/tsumori/,"plan to, intend to, purpose of, plan, intention",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:10:52.200892+00
+019279cc-0c99-4e7a-a448-eed86b4825b6,危険,ja,A2,Adjective,/kiken/,dangerous; risky,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:13:57.312134+00
+01a71a2f-b247-4da4-ade4-7b235506c41e,今度,ja,A2,Noun,/kondo/,"now, this time",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:18:50.08643+00
+0254ced7-02ee-4964-9a5a-388cbeb17cbd,泥棒,ja,A2,Noun,/dorobou/,thief,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:48:20.706616+00
+026705ae-a6c1-4d5b-830c-962b298afc4a,紹介,ja,A2,Noun,/shoukai/,introduction (causing someone to be acquainted),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:08:40.167926+00
+0277ac4c-b103-4670-a26e-928f873275bf,熱心,ja,A2,Adjective,/nesshin/,"earnest, enthusiastic",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:55:36.87751+00
+02a316d8-535d-4ed4-ad88-654aa71d721c,大分,ja,A2,Adjective,/daibu/,"much, many",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:17:25.0708+00
+02f506ce-03f9-47e0-a45c-7675e1bb55ce,ステレオ,ja,A2,Noun,/sutereo/,having stereo audio,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 21:59:54.413122+00
+03ca7fa5-8886-403d-b13a-08fd6856d6b8,間に合う,ja,A2,Verb,/maniau/,"to be in time (for), to make it (in time)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:10:06.248054+00
+0411cfbf-b0f8-4e02-b045-fbbeb3b80098,準備,ja,A2,Noun,/junbi/,.mw-parser-output .defdate{font-size:smaller} preparation,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:51:54.140383+00
+04815921-5351-4664-9f13-eff4457daaba,ガス,ja,A2,Noun,/gasu/,gas,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 21:58:46.153769+00
+04e73c04-52f1-4e68-be6c-59a9b3ffbbe3,会場,ja,A2,Noun,/kaijou/,meeting place; party place; venue,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:18:50.08643+00
+063f7064-9ed8-4ee0-ba0e-dffe1cfb00e5,きっと,ja,A2,Adverb,/kitto/,"surely, certainly",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 21:58:46.153769+00
+064ba695-705b-47ed-b750-982e1063e2b6,電灯,ja,A2,Noun,/dentou/,"light, electric light",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:12:01.418413+00
+06723b8b-b004-4cd0-acc2-c502e84e0f09,細かい,ja,A2,Adjective,/komakai/,"fine, detailed, small",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:08:37.264325+00
+07aa1f21-0d6d-4d6c-be7b-3182c6fd3d77,正月,ja,A2,Noun,/shougatsu/,January,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:44:23.372706+00
+07b92003-9307-4238-919b-997f2d044448,おる,ja,A2,Verb,/oru/,"to exist, to be, to have",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:05:36.988686+00
+07d74ec4-79fa-44c7-8eed-a45c67e96493,安心,ja,A2,Adjective,/anshin/,"unworrying, safe",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:20:04.329379+00
+08117160-2a49-4e65-aa1a-bd8dd17dbc03,彼,ja,A2,Pronoun,/ka/,"distal demonstrative, something far off removed from both speaker and listener: that, yon",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:24:08.760755+00
+087c2065-1db2-420c-aa0e-e26fa42daa37,増える,ja,A2,Verb,/fueru/,"to increase (in numbers, quantity, or volume)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:17:12.995427+00
+097c2fc0-9481-42a2-ae50-42c93fd57f54,写す,ja,A2,Verb,/utsusu/,to copy,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:23:09.310265+00
+09dd7ec8-dd5d-485d-886c-fbc2c7a3f1e7,出席,ja,A2,Noun,/shusseki/,"attendance, presence",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:25:07.990566+00
+09fa8846-d6e4-4dc1-a900-a702f10a86ac,倒れる,ja,A2,Verb,/taoreru/,"fall, collapse",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:10:33.508098+00
+0a3d8bac-882c-4546-9c42-57e64b2a5f89,泊まる,ja,A2,Verb,/tomaru/,to stay (such as at a hotel); to lodge,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:48:14.860049+00
+0a4ec045-a1c3-4457-93ea-009fe8627a4e,非常に,ja,A2,,/hijouni/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+0a6e4e45-8ffc-4a92-93af-c0077553be79,着物,ja,A2,Noun,/kimono/,.mw-parser-output .defdate{font-size:smaller}  clothing,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:03:38.942866+00
+0a75c1c1-b4a1-4e04-ad92-5300e40478b2,看護婦,ja,A2,Noun,/kangofu/,female nurse,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:03:19.021201+00
+0b007506-6245-48e4-a71f-4d0dc4b9cdcf,祖父,ja,A2,Noun,/sofu/,a grandfather,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:04:21.62323+00
+0b313625-a30a-40a6-af96-43d3ee39e487,神社,ja,A2,Noun,/jinja/,"a shrine, especially a Shinto shrine",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:04:25.509513+00
+0b389902-f9dc-498d-ba3c-397229923c34,続ける,ja,A2,Verb,/tsuzukeru/,to continue,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:11:39.372717+00
+0b8342ed-c185-49d8-8039-1b4334d7ae69,日,ja,A2,Noun,/nichi/,short for 日曜日 (nichiyōbi): Sunday,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:36:19.464889+00
+0e75fce6-de11-4717-9255-3ef57a213ede,ご存じ,ja,A2,,/gozonji/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:09:06.001253+00
+0e77c407-a4a6-468b-8f1e-ad510138d8b4,社会,ja,A2,Noun,/shakai/,society (group of people sharing culture),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:04:17.258872+00
+0ebd6eff-bd7c-45dd-b0ee-b0b59009cea1,サンダル,ja,A2,Noun,/sandaru/,sandals,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:07:14.324861+00
+0efa6638-668c-4f60-81ba-bc71b477c06f,～ちゃん,ja,A2,Suffix,/chan/,.mw-parser-output .defdate{font-size:smaller}  title affixed to people's names: -chan,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:57:03.920289+00
+0f78fc99-70e6-40c6-b3d1-5b48d9285faa,冷える,ja,A2,Verb,/hieru/,"to become cold, cool down",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:13:05.003257+00
+0f89d251-8a78-4507-8955-b92ad06a38e2,布団,ja,A2,Noun,/futon/,".mw-parser-output .defdate{font-size:smaller}  a round cushion made of woven bulrush leaves, used for zazen (seated Zen meditation)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:30:47.777124+00
+1056039f-309e-4335-82b2-6919204dc715,理由,ja,A2,Noun,/riyuu/,a reason,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:56:34.713019+00
+105ec619-4894-4246-86ab-9bd289fea867,最初,ja,A2,Adverb,/saisho/,firstly,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:13:01.617967+00
+107731b1-5199-4d3a-b01e-7fb57aa71132,スーパー (マーケット),ja,A2,Prefix,/suupaa/,super-,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:04:54.141644+00
+108a99e8-e10f-45de-971c-ba05663498f4,無理,ja,A2,Adjective,/muri/,"cannot, impossible, incapable",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:52:45.810636+00
+10ca4015-27eb-48d8-853c-7a0740e376c9,木綿,ja,A2,Noun,/kiwata/,".mw-parser-output .defdate{font-size:smaller} Bombax ceiba, a species of silk-cotton tree",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:40:00.73636+00
+10f055e8-cbca-4504-9f6e-0508e75d6ddb,決める,ja,A2,Verb,/kimeru/,"to make a choice between multiple alternatives, to decide",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:47:58.334396+00
+1198b5ac-9a4c-496b-a29d-88c50ece28c5,悲しい,ja,A2,Adjective,/kanashii/,".mw-parser-output .defdate{font-size:smaller} sad, sorrowful",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:24:55.171315+00
+11bf7915-d7d9-46b4-b846-2ca8cbb3b731,森,ja,A2,Noun,/mori/,a forest (dense collection of trees),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:43:34.019108+00
+11dead76-f448-4d20-aa1f-5c4f1bc2f138,あ,ja,A2,Syllable,/a/,"The hiragana syllable あ (a). Its equivalent in katakana is ア (a). It is the first syllable in the gojūon order; its position is あ行あ段 (a-gyō a-dan, “row a, section a”).",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:05:36.988686+00
+12319b0c-dde9-4388-8987-7a63fe946095,昔,ja,A2,Adverb,/mukashi/,once,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:36:42.087832+00
+127b3ac8-f21c-4008-896b-41a7f6450778,ピアノ,ja,A2,Noun,/piano/,piano (keyboard instrument),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:12:55.515759+00
+12a8b6a7-9d29-4d41-b7bf-4ea81ac16bde,植える,ja,A2,Verb,/ueru/,"to plant, raise
+樹える: to stand a tree upright",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:43:35.487814+00
+12f77ac8-602e-4459-90c4-aeaea09c639e,美しい,ja,A2,Adjective,/utsukushii/,beautiful,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:12:10.98059+00
+13db0990-76f8-4446-9825-2b031e7bb53f,連絡,ja,A2,Noun,/renraku/,"connection, junction",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:58:20.716399+00
+141c01a3-c1c5-4344-b053-169822790695,踏む,ja,A2,Verb,/fumu/,"to step, to tread",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:55:18.221508+00
+148382e8-3193-4005-8f91-5912188d1bb9,人口,ja,A2,Noun,/jinkou/,population,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:18:50.08643+00
+149e3f82-046f-4057-bd10-80c7695c5c42,ひげ,ja,A2,Noun,/hige/,"facial hair on the upper lip region, the chin, and the cheeks",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:12:55.515759+00
+14a3cc49-a093-4b44-8e64-3be925dd779f,運転手,ja,A2,Noun,/untenshu/,A professional driver of a train or an automobile such as a taxi or a bus; a chauffeur,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:58:38.434306+00
+14eb1ead-cb1a-47f4-beea-8e6186c59bc7,丁寧,ja,A2,Adjective,/teinei/,"polite, civil, courteous",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:14:51.697906+00
+150ed717-9ca7-4b97-bfbf-ebf8b8d00673,米,ja,A2,Noun,/kome/,"rice (husked grains of the Asian rice plant, Oryza sativa), one of the five grains",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:08:13.465388+00
+157eb613-74aa-46e6-8e1d-f5bfad7c5da3,いじめる,ja,A2,,/ijimeru/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:08:28.99511+00
+15814c8c-f501-4b9b-998c-5ab4162369b1,公務員,ja,A2,Noun,/koumuin/,"public sector workers, civil servants",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:23:09.310265+00
+1609551a-33a4-45a7-800f-bfb4334ce7e2,文化,ja,A2,Noun,/bunka/,culture,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:35:49.588952+00
+160eebd3-e945-4f87-a92c-cf555a89b1b7,毛,ja,A2,Noun,/ke/,".mw-parser-output .defdate{font-size:smaller} hair, fur
+animal fur
+human hair
+bird feathers
+wool",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:44:53.626385+00
+16485132-8d3b-4a9c-9bef-01165f8b376d,止む,ja,A2,Verb,/yamu/,"to stop, to cease, to be over",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:44:18.009202+00
+16fbfa82-83eb-4928-98ff-71d7a702159e,手袋,ja,A2,Noun,/tebukuro/,glove; mitten,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:28:08.585482+00
+17432206-9687-43c0-9f8a-2cd85b1b0727,必ず,ja,A2,Adverb,/kanarazu/,"absolutely, categorically, certainly, definitely, surely",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:24:20.378002+00
+1789a7ee-3eea-4c38-af71-547156685b34,寝坊,ja,A2,Noun,/nebou/,oversleeping,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:28:35.052699+00
+17ecc8aa-5835-487b-92ce-68f72a9b2cc2,～式,ja,A2,Noun,/shiki/,"type, style",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:03:50.420719+00
+180ebfc6-6381-41eb-a983-979d3b50d059,残る,ja,A2,Verb,/nokoru/,"remain, be left",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:44:37.980943+00
+1829a117-13ea-4d5b-b89a-2284d21a81eb,髪,ja,A2,Noun,/kami/,hair on the head,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:13:49.837886+00
+18779eaf-5868-4831-a3a9-d11953fda484,やはり; やっぱり,ja,A2,,/yahari; yappari/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+18cf3fe9-0ef3-4be4-97a4-e601fed6a7ce,焼く,ja,A2,Verb,/yaku/,"to change something by means of fire, light, chemicals, or other means:
+to burn
+.mw-parser-output .defdate{font-size:smaller} to set on fire, to light on fire
+ to burn to ashes
+to burn (to write data to a permanent storage medium)
+ to use heat or flame to prepare something for eating or using:
+ to grill
+ to broil
+ to fry
+ to toast
+ to roast
+ to bake
+ to fire
+ to apply moxibustion
+ to expose to sunlight and cause to change color: to tan one's skin
+  to print a photograph by shining a light through a negative
+ to rub chemicals
+ to have a sensation, to burn (the heart)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:55:24.235847+00
+18db178e-cf70-4566-a130-3fe37a6dd576,以下,ja,A2,Noun,/ika/,"less than; at most, not more than, not exceeding",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:18:50.08643+00
+199beb9b-f993-4863-b541-8c213b5e8904,彼女,ja,A2,Pronoun,/kanojo/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:24:09.724903+00
+19b5d292-3d3f-442a-baf7-fd2bf29d0d1a,空気,ja,A2,Noun,/kuuki/,"air, atmosphere",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:07:39.959088+00
+1ac45de3-4bb2-43f3-b806-5ba4d6c6fe4c,下りる,ja,A2,Verb,/oriru/,"to go, come down; to descend",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:16:56.17658+00
+1b1a1b76-babf-405a-acae-0dfd36cefc4f,楽しみ,ja,A2,Noun,/tanoshimi/,joy,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:43:44.889626+00
+1b2656ac-279a-41aa-ab78-2b8f9c906944,道具,ja,A2,Noun,/dougu/,tool (mechanical device intended to make a task easier),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:58:45.989416+00
+1b7f9787-2699-4d71-8d7a-1dc6d312488b,そんな,ja,A2,Adjective,/sonna/,like that; that kind of,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:01:05.207026+00
+1bca6fc5-16da-40f7-8917-d85c9f20ca90,為,ja,A2,Noun,/tame/,"the twelfth string on a 箏 (koto, “Japanese zither”)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:52:37.533917+00
+1be1cbbb-91b9-47de-9d4b-35e6189ccdac,～ございます,ja,A2,Verb,/gozaimasu/,polite form of ある (aru): to exist,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:56:59.185078+00
+1c1de919-e4d9-47d7-a71b-d5e96cbfc56f,歴史,ja,A2,Noun,/rekishi/,history,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:44:33.603954+00
+1c5a078c-2c5d-49f7-8b13-f1ffbb95c5bc,ごみ,ja,A2,,/gomi/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:09:05.000856+00
+1cde28b9-81bc-4d4e-b00c-712d7f786eeb,沸かす,ja,A2,,/wakasu/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:15:14.689153+00
+1d0ffc39-71be-4a38-9b98-cea969802778,点く,ja,A2,Verb,/tsuku/,"to be lit (e.g. electricity comes on), to be lighted,  to be on",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:52:35.58581+00
+1d2bce59-87d6-4d85-b7c8-cf01fb99f53b,集まる,ja,A2,Verb,/atsumaru/,to gather,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:19:11.749039+00
+1ead9e99-1659-4e69-aad7-d5ca5901813f,向かう,ja,A2,Verb,/mukau/,to face,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:29:20.514122+00
+1ed42738-51e7-4f07-a793-d7b0ccffdaea,直す,ja,A2,Verb,/naosu/,"to fix, to repair",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:00:27.727064+00
+1fd92aee-19ed-4370-817c-d0602da43775,光る,ja,A2,Verb,/hikaru/,"to shine, gleam, glitter",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:10:45.146548+00
+1ff1321c-6eff-4772-9b3a-815d60a25ffe,ちっとも,ja,A2,,/chittomo/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+20750c60-9627-4e45-85cb-1312fcd276ee,展覧会,ja,A2,Noun,/tenrankai/,exhibition,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:20:59.32235+00
+218eb06d-2193-4afb-b7cc-e7c92aa09e9d,決まる,ja,A2,Verb,/kimaru/,"to be decided, to be concluded, to be brought to a resolution",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:47:57.846604+00
+21c3344a-995e-47a6-b328-9bfe20f85b15,産業,ja,A2,Noun,/sangyou/,industry,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:59:18.725893+00
+226b56e6-48ec-456b-9482-6422370211bb,釣る,ja,A2,Verb,/tsuru/,"to fish, to angle",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:18:03.10876+00
+22907182-bd9a-4529-a867-86556d041b02,利用,ja,A2,Noun,/riyou/,"use, usage, utilization, application",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:25:07.990566+00
+22b8b130-6ecd-484b-87d6-81d3d8d50c66,差し上げる,ja,A2,Verb,/sashiageru/,"lift up, raise",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:30:47.777124+00
+233f429a-6907-4d10-9ae9-3d77cc801852,意見,ja,A2,Noun,/iken/,opinion,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:27:17.049711+00
+23437850-a282-44ef-83cb-ffa374bc2728,急行,ja,A2,Noun,/kyuukou/,rushing; hastening,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:24:36.82584+00
+24bccc57-a604-40ff-8c2d-b71a1840bad9,踊り,ja,A2,Noun,/odori/,a dance,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:55:16.208149+00
+25077175-89c7-4dfe-b0a3-09e099fa3a60,この頃,ja,A2,,/konogoro/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:09:03.494904+00
+253e39c9-549b-491b-83a6-7e7d1f6f69d3,放送,ja,A2,Noun,/housou/,broadcast (a radio or TV transmission on air),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:35:21.595041+00
+25641707-20b7-4876-8e9f-91d36d2732f5,是非,ja,A2,Noun,/zehi/,right and wrong,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:36:48.843361+00
+25f637ca-edf3-4825-aac6-ea4dd5676365,もうすぐ,ja,A2,,/mousugu/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+26c77b58-fb1f-46d4-a233-42e5f5b58128,会議,ja,A2,Noun,/kaigi/,"meeting, conference",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:18:50.08643+00
+27060299-626c-4703-a534-937c9d4dc908,ケーキ,ja,A2,Noun,/keeki/,cake,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 21:58:46.153769+00
+27c524e4-f87b-416e-bf93-91b17be3e0ce,おかしい,ja,A2,,/okashii/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:08:40.02671+00
+280cd5a4-245e-4ec9-a240-bdf35af951e9,しばらく,ja,A2,,/shibaraku/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:09:10.525084+00
+2847708d-5ef7-4752-a8d4-270996892d17,飛行場,ja,A2,Noun,/hikoujou/,an airfield; a non-commercial airport,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:19:45.816744+00
+291f2ac8-4947-4a4a-8e57-6df27ce0fe0d,行う,ja,A2,Verb,/okonau/,to perform; to do; to conduct oneself; to carry out,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:16:52.396492+00
+2961f10f-f5b2-4956-8e73-8019fda768e5,簡単,ja,A2,Adjective,/kantan/,easy,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:08:10.551629+00
+2970a44b-9028-4ca2-be42-72dfc49feabb,戦争,ja,A2,Noun,/sensou/,war (conflict involving organized use of arms),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:27:46.939433+00
+2974d518-6f59-4ae5-853f-9668d075bda9,翻訳,ja,A2,Noun,/honyaku/,translation,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:12:20.765529+00
+29762edf-249c-496d-942b-72a194f2999e,やっと,ja,A2,Adverb,/yatto/,"at last, finally, at length",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:14:51.697906+00
+2a56983b-6566-4d88-b81c-71bfa30e1e10,ひどい,ja,A2,Adjective,/hidoi/,cruel,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:12:55.515759+00
+2ad228aa-0e0d-44b8-8582-ad2e23056fc7,はっきり,ja,A2,Adverb,/hakkiri/,"clearly, distinctly, straight",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:10:52.200892+00
+2b4ca71c-72f9-4d42-8101-cb87623456c2,事務所,ja,A2,Noun,/jimusho/,an office,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:16:56.17658+00
+2b7c91d4-23bb-49d6-9e54-9191306051b4,乗り物,ja,A2,Noun,/norimono/,vehicle (conveyance),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:09:56.836994+00
+2cfac099-a63f-411c-93c8-8fbb2a86ddf1,招待,ja,A2,Noun,/shoutai/,invitation,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:31:25.139531+00
+2dc6b385-445f-4344-8fee-f7299dc9fbc7,残念,ja,A2,Adjective,/zannen/,"regretful
+with connotations of pity, sadness, disappointment, and shame",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:44:38.473226+00
+2dddd424-91f2-43c0-8e01-c56813528937,急ぐ,ja,A2,Verb,/isogu/,".mw-parser-output .defdate{font-size:smaller} to hurry, to hasten, to rush, in order to get something done or to get somewhere",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:24:35.377622+00
+2e52aeb5-4a85-4853-99a1-26b76b7a43f2,あんな,ja,A2,Adjective,/anna/,"like that, such (referring to something or someone in the distance away from the speaker and the listener); that (distant) kind of",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 21:57:38.462313+00
+2e54bb40-e6a9-4e4a-88db-86cda46389d1,退院,ja,A2,Noun,/taiin/,leaving a hospital,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:57:50.425824+00
+2f1c69a5-6113-4b1b-b1a7-dde7cb01806e,枝,ja,A2,Noun,/eda/,"branch, limbs",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:40:32.802701+00
+2f771da7-eddf-42c3-9275-be2d062491c4,暖房,ja,A2,Noun,/danbou/,room heating,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:39:27.226489+00
+2fd3dd26-85a7-4291-80b1-f7ac317574f4,押し入れ,ja,A2,,/oshiire/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+3076557d-a69c-42e8-a6bd-fc2a20f254b7,無くなる,ja,A2,Verb,/nakunaru/,"to disappear, to fade, to get lost",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:52:39.97556+00
+30d3e9db-f684-4534-9e65-4d4cde1435d8,再来週,ja,A2,Noun,/saraishuu/,.mw-parser-output .defdate{font-size:smaller} the week after next,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:23:09.310265+00
+313a6326-caeb-468d-b2a4-746b2cfb6f55,柔らかい,ja,A2,Adjective,/yawarakai/,soft; pliable,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:40:35.726769+00
+313c834d-0c87-480f-a276-dbb15de4786d,文学,ja,A2,Noun,/bungaku/,literature,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:35:51.519009+00
+3249c582-f3cf-4753-884c-76a186baf9a6,お金持ち,ja,A2,,/okanemochi/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+32bc66f2-eb17-4978-aca2-5fd52cafaf69,取り替える,ja,A2,Verb,/torikaeru/,"exchange, change for, swap",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:14:11.795029+00
+3329838b-62dc-4118-99d8-bc72541cb083,急,ja,A2,Adjective,/kyuu/,sudden; without warning,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:24:34.895036+00
+333de81a-3b88-4a8d-9099-4b0e5aaf7638,アクセサリー,ja,A2,Noun,/akusesarii/,fashion accessories,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:05:36.988686+00
+334babb7-02de-4c82-9127-2b66c70dccc9,尋ねる,ja,A2,Verb,/tazuneru/,ask (a question),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:28:35.052699+00
+334cdae3-4b02-4c02-a126-1da962326394,～おわる,ja,A2,,/owaru/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:08:16.063515+00
+3362c044-72de-41dc-9164-3c25060e6d8f,郊外,ja,A2,Noun,/kougai/,suburb; outskirts,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:08:58.878974+00
+33a34755-3925-4826-a6a8-cceb4476e6c3,雲,ja,A2,Noun,/kumo/,a cloud (visible mass of water droplets or other related material suspended in the air),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:11:55.208244+00
+33a5edf9-1eed-4c98-8bdb-c352bdba7ffb,講義,ja,A2,Noun,/kougi/,lecture,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:52:24.277449+00
+33b2c791-1135-4be6-b9b1-e57c8de8d44a,大学生,ja,A2,,/daigakusei/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:26:18.32609+00
+34400a21-a521-4cdd-8d64-c986d86dfeb7,もし,ja,A2,Adverb,/moshi/,若し: .mw-parser-output .defdate{font-size:smaller} if; supposing,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:14:51.697906+00
+349206fa-4cc9-4076-90dc-a53f1700708c,こう,ja,A2,Adverb,/kou/,"like this, in this way, so, thus",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:07:14.324861+00
+34d85a4a-a4e4-477a-8f1e-dfc38d74cf37,忘れ物,ja,A2,Noun,/wasuremono/,"lost article, something forgotten",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:32:54.445016+00
+354a6075-272c-4b6b-bdc0-adb15150a458,指輪,ja,A2,Noun,/yubiwa/,a ring (round piece of (precious) metal worn around the finger),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:31:37.695164+00
+3558eaab-6091-4346-acc1-863011cb208c,都合,ja,A2,Noun,/tsugou/,convenience,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:09:06.972903+00
+35868c6d-471a-4a55-a3d8-e5ffe6b426ca,育てる,ja,A2,Verb,/sodateru/,"to raise, to rear, to foster, to bring up (children, animals, etc.)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:12:40.2179+00
+35d600a1-fb96-4c9b-81b1-577e1ec13980,下げる,ja,A2,Verb,/sageru/,"to hang, lower",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:16:56.17658+00
+3621b81b-c882-45f1-a077-9dc3550a5c13,運転,ja,A2,Noun,/unten/,"driving, steering (a vehicle)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:58:37.932052+00
+36b21b57-fd4f-4245-b11c-a108bbbdca8d,政治,ja,A2,Noun,/seiji/,politics,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:35:23.523829+00
+36cf671e-0e40-4e55-beca-37d25d42999a,お子さん,ja,A2,Noun,/okosan/,"child, children",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 21:58:46.153769+00
+36f0a98d-e474-4c76-b665-91ef8fb84474,虫,ja,A2,Noun,/mushi/,"a bug, insect, worm",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:16:43.673775+00
+36f97d2a-ec7d-47e7-b192-408347e76374,アジア,ja,A2,Proper noun,/ajia/,"Asia (the largest continent, located between Europe and the Pacific Ocean)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:05:36.988686+00
+37b49570-8f66-4fee-805f-b04fec17a951,大体,ja,A2,Noun,/daitai/,"general, rough (idea)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:33:24.716089+00
+37d4d589-c94e-4cf9-b383-c99d7850d7f8,夢,ja,A2,Noun,/yume/,a dream,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:17:21.199961+00
+39b19e29-f045-4b27-8385-89a574bd0e24,首,ja,A2,Noun,/kubi/,neck (part of the body connecting head and torso),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:13:29.357591+00
+3a070b99-f861-4cce-b798-fb9da801b133,召し上がる,ja,A2,Verb,/meshiagaru/,to eat,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:16:29.964619+00
+3af55dc6-2509-4790-8ccf-efbc1efd7699,プレゼント,ja,A2,Noun,/purezento/,".mw-parser-output .defdate{font-size:smaller} present, gift",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:12:55.515759+00
+3bb94eed-6fb1-4cd9-afbb-08ba0b07b191,星,ja,A2,Noun,/hoshi/,a star (luminous celestial body),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:36:42.569313+00
+3bd9c7b3-df49-4e6d-bddf-ee56668a86c9,眠る,ja,A2,Verb,/nemuru/,to sleep,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:03:31.663734+00
+3c127993-185a-4693-b253-bb768b235542,参る,ja,A2,Verb,/mairu/,.mw-parser-output .defdate{font-size:smaller}  to go,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:14:01.170791+00
+3c3980f0-e6e6-42dc-a45b-2ec6f003fdaa,数学,ja,A2,Noun,/suugaku/,mathematics (field of study),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:35:43.80474+00
+3c78d566-4f44-450c-98b2-5ab8aed5a774,畳,ja,A2,Noun,/tatami/,tatami; a tatami mat,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:59:46.391553+00
+3cc77f2e-3bfb-4b4f-b446-141d6402752d,親切,ja,A2,Adjective,/shinsetsu/,"kind, helpful, friendly, obliging",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:17:22.747946+00
+3cd89aad-2e52-4f7e-8293-49ec9ac7d812,沸く,ja,A2,,/waku/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:15:15.194933+00
+3d1755a4-ea69-4b45-a718-d3b30f8ee722,乗り換える,ja,A2,Verb,/norikaeru/,"transfer, change (e.g., a bus or a train)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:09:56.357733+00
+3e246be5-c29d-46ba-a9a3-f50af52f8355,騒ぐ,ja,A2,Verb,/sawagu/,to make noise,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:13:38.406121+00
+3e5b2973-d50b-44b3-b363-93a79bd99e60,家内,ja,A2,Noun,/kanai/,(one's own) wife,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:28:35.052699+00
+3e9b9005-237c-43a9-ae75-8af747181686,合う,ja,A2,Verb,/au/,"to match, to fit, to agree",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:29:20.514122+00
+3efe2bcd-a533-419d-8300-ae9627609a33,自由,ja,A2,Adjective,/jiyuu/,free (as in freedom),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:15:43.268338+00
+3f2ae202-0e95-4fa5-a4b2-9a7bd98c0b2a,怖い,ja,A2,Adjective,/kowai/,"frightening, scary, terrifying",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:24:29.591633+00
+3f4c96bd-fc57-445a-a2a7-22896a9a5ed4,値段,ja,A2,Noun,/nedan/,"price, the cost of something",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:20:58.313548+00
+3fa70c06-7a89-4b50-9e8d-ba6a395840b6,適当,ja,A2,Adjective,/tekitou/,suitable; appropriate; fit,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:07:55.056305+00
+3fc74ebf-9384-4a78-8802-07c815cd5673,凄い,ja,A2,,/sugoi/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:13:11.414692+00
+40484c90-08ed-4586-b118-1a393b6fffb1,指,ja,A2,Noun,/yubi/,a finger or toe; digit,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:31:33.361832+00
+408ab6a5-27e7-42c8-aabd-c418dfce87f9,亡くなる,ja,A2,Verb,/nakunaru/,to die,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:18:50.08643+00
+40ce544e-01ea-46ce-aea7-c8721f6f0d99,留守,ja,A2,Noun,/rusu/,absence,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:59:37.657381+00
+41067cd6-8a23-403c-959a-8512d090956e,まず,ja,A2,,/mazu/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:11:19.458071+00
+4110e545-b700-4ae5-aae5-bba4007eca3d,予習,ja,A2,Noun,/yoshuu/,preparation for a lesson,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:16:56.17658+00
+41f218ac-7536-4969-af87-391ec74dae82,比べる,ja,A2,Verb,/kuraberu/,"to compare, contrast",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:44:50.708894+00
+42580b22-d36b-4317-a945-3ef396fb50f8,田舎,ja,A2,Noun,/inaka/,"the country (rural area), countryside",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:59:26.482076+00
+426f3d3b-0459-4c69-acc5-f8e737d6d1e3,テニス,ja,A2,Noun,/tenisu/,tennis (sport played by two or four players with strung racquets),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:10:52.200892+00
+4274398e-22f6-4414-9bdc-c4d9a0282cc5,訪ねる,ja,A2,Verb,/tazuneru/,"call on someone, visit",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:51:27.194539+00
+4375b328-f240-40b3-ac5e-acaf6086596d,辞典,ja,A2,Noun,/jiten/,a dictionary,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:55:44.992457+00
+4386b69e-e9e5-4b87-8706-6780cb8dccea,そんなに,ja,A2,Adverb,/sonnani/,"so much, like that, so",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:01:05.207026+00
+43aaaf3f-e241-4a08-8255-5452d0f9b84e,割合,ja,A2,Adverb,/wariai/,comparatively,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:13:26.86011+00
+44fb5f8c-85e4-4c7c-b8d9-73e20999536b,漬ける,ja,A2,Verb,/tsukeru/,to let soak; to immerse,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:52:12.158174+00
+4502534f-3ada-4280-b873-e910687ce697,美術館,ja,A2,Noun,/bijutsukan/,"art gallery, art museum",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:12:13.416156+00
+45126d4e-a5f7-4ec7-9fb2-db0df4a18ff3,それに,ja,A2,Conjunction,/soreni/,besides; moreover,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:09:02.011659+00
+4640185e-d321-4716-836a-049eb544bbf1,運ぶ,ja,A2,Verb,/hakobu/,"to convey, transport, move",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:58:33.864107+00
+465f04f7-34f5-476a-96fa-ebbb93296831,出発,ja,A2,Noun,/shuppatsu/,departure,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:25:07.990566+00
+4665335e-5400-455a-be38-6f9faa720e76,御～,ja,A2,Prefix,/o/,used to respectfully refer to something that belongs to or is related to the listener or a third party,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:24:10.698357+00
+4675facb-3339-4f8c-968e-018de4032b04,過ぎる,ja,A2,Verb,/sugiru/,"to pass by, to pass through; to go beyond",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:58:39.940068+00
+46ae4073-552c-44be-879f-c3f8f01b12cb,叱る,ja,A2,Verb,/shikaru/,to scold,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:16:30.946944+00
+4816f296-0c1e-48dd-b46c-3eb2d1361402,ワープロ,ja,A2,,/waapuro/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:07:04.14948+00
+4823666a-6c0f-47a4-bc9e-5215dab989a1,けがする,ja,A2,,/kegasuru/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+4865390f-5b51-4d99-a7e3-2453611aa8a6,力,ja,A2,Noun,/chikara/,strength; power; force,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:13:30.246715+00
+48d784fc-315e-45bf-85cb-4d6b984f362c,近所,ja,A2,Noun,/kinjo/,a neighborhood,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:56:00.086282+00
+48f30866-9b2c-4e4f-9a69-a868b7ebd8a0,仕方,ja,A2,Noun,/shikata/,"a way to do something, method, means",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:18:50.08643+00
+491a2ceb-95e7-4f81-85d1-aef356903644,空港,ja,A2,Noun,/kuukou/,airport,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:07:40.446517+00
+4a8a61fe-3dca-4ce3-a2fb-66d1b1d72da2,大事,ja,A2,Adjective,/daiji/,important,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:17:23.138783+00
+4aa28c9f-0f75-4b08-8944-486831dbe0d8,お宅,ja,A2,Noun,/otaku/,your home,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 21:58:46.153769+00
+4aae5d82-27fa-4dcd-b607-5abec4e8442f,匂い,ja,A2,,/nioi/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:13:18.363354+00
+4bc16e25-4d2b-4922-83d3-e85c0596a52f,ベル,ja,A2,Noun,/beru/,bell (a type of small noise-making device),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:06:45.933003+00
+4c40dbd9-b8bd-4bf8-be14-675f2e97d24d,機会,ja,A2,Noun,/kikai/,"opportunity, chance",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:44:02.944856+00
+4cbc7a73-d88d-40dc-85e4-e6dd2ecf958f,鳴る,ja,A2,Verb,/naru/,"to ring, to sound, to roar, to chime, to honk",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:13:55.097983+00
+4ccfc143-b964-433d-b45d-db6a0c251acc,～まま,ja,A2,Particle,/mama/,as it is; remaining in a certain state; while still,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:03:50.420719+00
+4cd69270-9310-43de-9ab6-909c34dec9fa,売り場,ja,A2,Noun,/uriba/,".mw-parser-output .defdate{font-size:smaller} place where things are sold, point of sale, counter (in a shop)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:33:24.716089+00
+4ce759be-1728-448d-999f-f5b30d434b6d,すると,ja,A2,Conjunction,/suruto/,"thus, so, thereupon, hereupon",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:09:02.011659+00
+4d0bb0ec-3759-422d-b668-23eae70ffcf9,味,ja,A2,Adjective,/aji/,"clever, smart, witty",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:29:20.514122+00
+4d0c08b1-1313-4f12-b857-9c2b1dfb7fcc,会話,ja,A2,Noun,/kaiwa/,conversation,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:18:50.08643+00
+4d483bf4-9e07-4054-a16e-0e2e7519d8ad,いらっしゃる,ja,A2,Verb,/irassharu/,to go,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 21:57:38.462313+00
+4dcbd38e-7ee9-4675-96ea-0fc0cceb1630,発音,ja,A2,Noun,/hatsuon/,pronunciation,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:00:05.84624+00
+4e13474f-55d5-47bb-b791-70a2b64518f8,下る,ja,A2,Verb,/kudaru/,to descend; to go down,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:16:56.17658+00
+4e3c3e23-ec7e-4cd7-94e9-3636ce3c94d8,進む,ja,A2,Verb,/susumu/,"to go forward, to advance, to progress",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:58:23.230903+00
+4e5f5e5f-fb5f-4af3-85bd-7641e6c9c814,寂しい,ja,A2,Adjective,/sabishii/,lonely,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:28:35.052699+00
+4f79c554-2b6a-4c25-8064-4a78ba7921a7,消しゴム,ja,A2,Noun,/keshigomu/,"an eraser, a rubber",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:48:51.348743+00
+4f991389-2107-4bd5-857f-4d1e393b77d5,迎える,ja,A2,Verb,/mukaeru/,to receive,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:55:57.070992+00
+502234e6-13f2-4cdb-b1e2-bb132fc2d286,さっき,ja,A2,Adverb,/sakki/,"synonym of 先ほど (sakihodo)
+a little time ago
+some time ago
+just now",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:07:14.324861+00
+502c3574-13eb-460d-9f90-854f6519246d,この間,ja,A2,,/konoaida/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:09:02.993168+00
+5076b5ff-5b35-47d1-9335-39840773201b,上がる,ja,A2,Verb,/agaru/,"to rise, to ascend, to go up",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:14:51.697906+00
+50b9c5ec-c2be-4bc0-9e78-406764f0137d,昼休み,ja,A2,Noun,/hiruyasumi/,lunchbreak,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:36:49.820741+00
+50c5a372-9be3-4ff0-a028-31091e3b17df,集める,ja,A2,Verb,/atsumeru/,to gather,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:19:12.253299+00
+51022702-851c-43da-bc64-9a30bc4fcc6b,落る,ja,A2,,/ochiru/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:15:53.031179+00
+511d35f9-a280-4a0c-9d40-af2dc371e580,遊び,ja,A2,Noun,/asobi/,play,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:58:31.28885+00
+513e1e5a-2727-4df2-bf9a-1c8f4fac860f,～家,ja,A2,Noun,/JATEST/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:51:42.486316+00
+51cb19b8-938b-4619-b68a-1f7f2d2e5a8a,将来,ja,A2,Noun,/shourai/,the future,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:20:40.060646+00
+5210b6c6-d5a2-4c93-ab82-4c3feaee8a5f,全然,ja,A2,Adverb,/zenzen/,(not) at all .mw-parser-output .defdate{font-size:smaller},,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:10:54.768999+00
+5218cf27-ed4b-4429-94b8-6cbdd5489e78,暮れる,ja,A2,Verb,/kureru/,"to get dark,  to fall",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:39:31.601854+00
+52483f43-ad57-4b12-a40f-cdff9a99e4d2,気,ja,A2,Noun,/ki/,"spirit, mood",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:47:30.152404+00
+530b9385-700d-44b2-b474-80d56e121838,女性,ja,A2,Noun,/josei/,a woman (adult female person),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:33:24.716089+00
+535fb330-bbe5-4fa9-ba70-ff092aa66e19,葉,ja,A2,Noun,/ha/,"leaf, needle, blade (of a plant)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:16:32.49594+00
+53f1c7e5-d81b-4cda-ba3d-1661a8a76e03,特に,ja,A2,Adverb,/tokuni/,specially,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:55:59.751037+00
+545581ab-1cf0-4436-b3f3-fd086a8a1785,考える,ja,A2,Verb,/kangaeru/,to think,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:12:23.696703+00
+547c26dd-39c9-46e0-a71a-06e925b99c39,地理,ja,A2,Noun,/chiri/,geography,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:31:25.369944+00
+54d5585d-3b34-47ed-8f31-7db14f86e71e,かまう,ja,A2,Verb,/kamau/,"to care about, to mind",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:07:14.324861+00
+554b0278-c094-4c42-a24e-4f6191f16299,注意,ja,A2,Noun,/chuui/,caution; warning,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:48:23.141956+00
+555b6b22-6658-4558-be5c-49e803e72c8f,できるだけ,ja,A2,,/dekirudake/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+558618fb-016e-4425-93ae-79b08ab880c0,うかがう,ja,A2,,/ukagau/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:08:36.001876+00
+56415dcd-c4f1-4300-bc7f-50839e9633ba,海岸,ja,A2,Noun,/kaigan/,coast; shore (the border between land and sea),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:48:46.467992+00
+56d23bd9-cbf8-4e03-a99a-46db6a5ab0be,法律,ja,A2,Noun,/houritsu/,"The field, profession, and study of law. The rule of law.",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:48:17.777014+00
+56dd7f20-d62f-45a7-8b96-4f0165bfb06f,サンドイッチ,ja,A2,Noun,/sandoitchi/,a sandwich (snack consisting of two slices of bread),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:07:14.324861+00
+575db125-e5d0-4576-a796-a2cca35bcf50,役に立つ,ja,A2,Verb,/yakunitatsu/,"to be useful, to help",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:32:54.445016+00
+579669b4-5a12-4c30-9af5-111145bc5bba,くれる,ja,A2,Verb,/kureru/,"to give to me, to us, or to someone close to me",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:07:14.324861+00
+581b05ee-b63a-4253-8a9e-5a149bb7ab6d,伺う,ja,A2,Verb,/ukagau/,to ask about,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:18:50.08643+00
+59601e2b-1861-45d2-af7d-c1f475e7889f,小説,ja,A2,Noun,/shousetsu/,"novel, story, fiction",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:20:46.796446+00
+59ad3fcb-785d-4b78-8fcf-a635dab30fc0,火,ja,A2,Noun,/hi/,"a fire:
+a flame",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:52:23.349961+00
+59fd6646-0c80-4bf8-8dbd-739af5656132,捕まえる,ja,A2,Verb,/tsukamaeru/,to catch; to take hold of,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:31:44.494017+00
+5a4ed30d-fe11-4242-8420-61603ffaed3b,おもちゃ,ja,A2,Noun,/omocha/,玩具: toy,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:05:36.988686+00
+5a7f9140-e38a-4541-a808-3873374af70e,用,ja,A2,Noun,/you/,use (noun),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:59:19.694115+00
+5baff221-776d-4757-b284-3b98a5ba691c,一杯,ja,A2,Adverb,/ippai/,"a lot, loads",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:14:51.697906+00
+5bc9fa68-f2f6-4b82-aa04-600186630448,特別,ja,A2,Adjective,/tokubetsu/,special,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:56:00.233826+00
+5c3d9c83-2656-49a9-8443-573c4f61d07d,折る,ja,A2,Verb,/oru/,"to bend, to fold",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:28:31.279575+00
+5cb37c9e-7d7c-4b2e-89be-70e7506e2b1a,投げる,ja,A2,Verb,/nageru/,to throw,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:28:26.925024+00
+5cfa3d3d-3b87-4fb6-9da0-6dc07c5607f5,案内,ja,A2,Noun,/annai/,guidance,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:43:27.690811+00
+5d562562-1ce4-45c9-929d-d9e894c6bccf,高校; 高等学校,ja,A2,,/koukou; koutougakkou/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+5df403ea-bb4a-4ca6-ace2-77a5bb15398f,貿易,ja,A2,Noun,/boueki/,"trade, commerce",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:54:44.526195+00
+5e2b9881-0b5f-4e71-a3af-e469afc26c2a,盛ん,ja,A2,Adjective,/sakan/,"prosperous, flourishing",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:00:18.49913+00
+5e7fd62f-220b-44e3-91d5-15c4c3d4d71e,カーテン,ja,A2,Noun,/kaaten/,curtain (window covering),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:05:36.988686+00
+5e827236-f7f3-4333-8b38-798019c60b5b,普通,ja,A2,Adjective,/futsuu/,"common, ordinary",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:39:22.860782+00
+5f28d259-51d4-445e-9a58-36528a1fec6b,久しぶり,ja,A2,Adjective,/hisashiburi/,after a long time of absence,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:16:56.17658+00
+5fd8ad86-0a1b-4716-abc2-588804b8e1d9,君,ja,A2,Noun,/kimi/,"a ruler of a country
+an emperor",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:29:20.514122+00
+5fdb9604-0480-4b07-94c2-47177149d2ff,直る,ja,A2,Verb,/naoru/,to be repaired,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:00:29.185649+00
+60666744-58bb-40c7-acdf-ce179e0e7daa,輸入,ja,A2,Noun,/yunyuu/,"import, importation",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:55:41.460306+00
+61b7a700-4fff-40ee-b570-012b42bd2ab4,回る、回す,ja,A2,Verb,/mawaru/,to turn; to revolve; to spin,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:31:25.369944+00
+61cbf134-f1de-494a-b836-9e593ce1b8de,しっかり,ja,A2,Adverb,/shikkari/,"fast (in a firm or secure manner), tightly",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:07:14.324861+00
+62429f40-b8c3-4307-bae4-0b8b4057d1f7,腕,ja,A2,Noun,/ude/,arm,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:15:27.15689+00
+62a056fc-2357-46f2-87b1-f1d46a5a3142,レジ,ja,A2,Noun,/reji/,cash register,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:14:51.697906+00
+62acafed-7755-465d-98ea-3e012121e39d,一生懸命,ja,A2,Adverb,/isshoukenmei/,for dear life; as hard as one can; to the best of one's ability,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:14:51.697906+00
+62ca3a44-19ac-432d-95f9-5c5ec46b994a,真中,ja,A2,Noun,/manaka/,alternative form of 真ん中 (mannaka),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:03:25.823802+00
+62d30e21-230f-483a-9715-06536be6db20,最も,ja,A2,Adverb,/mottomo/,"most, -est",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:13:00.172414+00
+62df2c4a-5c43-479f-b23a-9366f65f8973,挨拶,ja,A2,Noun,/aisatsu/,"a greeting, a salutation, a polite set phrase",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:31:40.115576+00
+6334631d-2041-4674-a192-2b11a8405d3d,パート (タイム),ja,A2,Noun,/paato/,part (portion of a whole),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:04:57.025418+00
+633a068e-6a7e-49b1-92ba-5073b95c6998,絹,ja,A2,Noun,/kinu/,silk,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:11:36.455476+00
+636768f5-18cc-4f6f-97fc-91c9eeb16167,けんかする,ja,A2,,/kenkasuru/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+6389ce4b-8097-4acc-8f32-3c05e8179bb3,火事,ja,A2,Noun,/kaji/,a fire (damaging occurrence of fire),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:52:23.834661+00
+63ceaae1-e762-48d1-9c6f-04c68f7eeb29,～やすい,ja,A2,,/yasui/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:08:19.044477+00
+6499a61c-a93b-4dd0-adac-1a7def658fc7,褒める,ja,A2,Verb,/homeru/,to praise; to speak highly of,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:15:57.135106+00
+64e885fd-fa5d-48fb-a454-f1a701c30ac2,アナウンサー,ja,A2,Noun,/anaunsaa/,"a media announcer, a TV or radio presenter",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:05:36.988686+00
+6501cbe8-4837-47fd-8c43-a054ebe65285,課長,ja,A2,Noun,/kachou/,section manager; section chief,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:52:09.691686+00
+659fe4a0-9380-4e78-8d13-9264d225bb1d,西洋,ja,A2,Noun,/seiyou/,"The West, western countries",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:16:01.756423+00
+660dd8f0-bc3c-4d2b-bbdd-a505907d3ff5,踊る,ja,A2,Verb,/odoru/,.mw-parser-output .defdate{font-size:smaller} to dance,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:55:16.709374+00
+662344bb-ad43-4928-97f6-e05902fed71e,～おき,ja,A2,Noun,/oki/,open sea,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:56:55.399928+00
+675b47e6-087a-408a-a767-78d261c1b8fb,習慣,ja,A2,Noun,/shuukan/,"custom, habit; way",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:12:19.768552+00
+68cfce6e-0430-4895-8f80-94e7da669fd7,喜ぶ,ja,A2,Verb,/yorokobu/,to be pleased,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:31:25.369944+00
+692a2f0e-3515-46c4-8c73-cd5f1d9b9ff3,背中,ja,A2,Noun,/senaka/,back (of a body),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:12:43.617685+00
+69b760d8-161c-4631-a87a-766cfa4cfcfc,特急,ja,A2,Noun,/tokkyuu/,"short for 特別急行 (tokubetsu kyūkō, “limited express (train)”)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:56:02.176909+00
+69b95d0b-9867-4283-be3d-7539e35316e6,光,ja,A2,Noun,/hikari/,"a physically perceived light:
+a light, beam, illumination
+a gleam, glow, ray
+a glimmer, shine, sparkle",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:23:09.310265+00
+69eb23eb-ca9a-455d-b23e-908c8ef7418e,うん,ja,A2,Interjection,/un/,"yeah, uh-huh, mhm (an interjection expressing agreement)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:05:36.988686+00
+6a481c9d-adea-482a-881e-692f461a1bdd,コンピュータ; コンピューター,ja,A2,,/konpyuuta; konpyuutaa/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+6a533fb2-535b-4696-90ee-441769894c5f,祈る,ja,A2,Verb,/inoru/,to pray,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:04:20.168927+00
+6a8c6fe4-387a-4639-976e-ef121aeae2b3,市民,ja,A2,Noun,/shimin/,citizen(s); townsperson/townspeople,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:30:47.777124+00
+6ac98b4e-3981-40d5-9df1-f62c2fcff976,人形,ja,A2,Noun,/ningyou/,doll; puppet,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:18:50.08643+00
+6b177f49-9bf1-49d5-9b1b-150b9609b4a4,経済,ja,A2,Noun,/keizai/,economics; the study of economics,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:08:50.350773+00
+6b8c7f9a-06cb-4514-b1ac-742dee3c7372,失敗,ja,A2,Noun,/shippai/,"failure, miscarriage",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:33:24.716089+00
+6babc92f-108c-41fb-9390-67d4729c6d5f,医学,ja,A2,Noun,/igaku/,".mw-parser-output .defdate{font-size:smaller} medicine (field of study), medical science",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:27:21.983004+00
+6ccda0bd-a303-4020-8cc7-696db6dd6768,止める,ja,A2,Verb,/tomeru/,to stop,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:44:18.493136+00
+6cd33b85-01cb-40ca-bdda-c7465a021278,心配,ja,A2,Adjective,/shinpai/,"uneasy, worrying",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:24:19.894749+00
+6ce2d7c8-1c92-44d9-b23f-9ef82dee9b1e,生きる,ja,A2,Verb,/ikiru/,to live; to exist,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:56:43.460798+00
+6d0b05bc-46c7-4008-b933-df51850799ab,隅,ja,A2,,/sumi/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:18:39.449777+00
+6d66942e-19b5-482b-a8b7-030e2a7cfe52,なさる,ja,A2,Verb,/nasaru/,to do; honorific form of する (suru),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:10:52.200892+00
+6d9a1586-d509-4ce0-a823-32458a840fa8,足す,ja,A2,Verb,/tasu/,add,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:55:12.189895+00
+6ecbbdb4-215e-45df-8a59-d85697c59973,原因,ja,A2,Noun,/gen'in/,cause (source or reason of an event or action),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:27:21.983004+00
+6eeb8304-a38a-4025-ad9e-461da85c17a7,砂,ja,A2,Noun,/suna/,.mw-parser-output .defdate{font-size:smaller} sand; grit,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:03:56.909726+00
+6f338c23-4bee-407d-a48e-bb8ea41a397e,十分,ja,A2,Adjective,/juubun/,"enough, plenty, sufficient",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:27:21.983004+00
+7019b2e0-2130-4c8f-930c-2967c645cacb,お祭り,ja,A2,Noun,/omatsuri/,festival,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 21:58:46.153769+00
+702ea97b-bb83-4c61-a941-62c2eb91fa62,通る,ja,A2,Verb,/tooru/,"to go through, to pass",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:58:06.05724+00
+70652735-b621-4057-8a43-ed1483585a62,どんどん,ja,A2,Adverb,/dondon/,"drumming sound, boom, bang",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:10:52.200892+00
+70887238-5605-4085-ba56-4576dfa04e41,～始める,ja,A2,,/hajimeru/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:03:50.420719+00
+7141ff91-3aca-4a27-b5d4-089d93fe3899,堅; 硬; 固い,ja,A2,,/ken; kou; katai/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+714c7bdc-e79d-4038-b598-c2b86831b653,入院,ja,A2,Noun,/nyuuin/,hospitalisation,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:23:09.310265+00
+718d55a4-3450-4445-a85f-ec11ece3d24c,先輩,ja,A2,Noun,/senpai/,"a person who entered one’s school earlier
+an upperclassman
+an older alumnus (graduate) of one’s school",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:23:09.310265+00
+721a5ae6-b150-407b-8923-65e9e2559199,冷房,ja,A2,Noun,/reibou/,"air conditioning, lowering the indoor air temperature",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:23:09.310265+00
+7280cf36-9ef2-49bc-8002-34ad80b32295,拾う,ja,A2,Verb,/hirou/,to pick up,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:31:30.463105+00
+7340a1f7-273f-449f-ab90-cac2db76c8dc,用事,ja,A2,Noun,/youji/,errand; business,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:59:20.669176+00
+7486c0d1-a96e-45e9-8404-67e423ab61c8,講堂,ja,A2,Noun,/koudou/,auditorium,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:52:22.768305+00
+74a1d22a-3bb0-45c2-b556-7ce7d1e05bde,ガラス,ja,A2,Noun,/garasu/,glass (substance),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:07:14.324861+00
+74a6018d-4f11-4add-8d61-bb2384c141fc,払う,ja,A2,Verb,/harau/,"to drive away, to get rid of",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:28:18.706896+00
+752b10cc-ce73-43b4-abd9-27f2cc571091,小鳥,ja,A2,Noun,/kotori/,"small bird, little bird .mw-parser-output .defdate{font-size:smaller}",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:20:48.237434+00
+75e1393d-a6fc-4e01-9cff-d15430e47909,裏,ja,A2,Noun,/ura/,"backside, back, behind, other side",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:06:01.066869+00
+77747d81-60a6-49cc-96b8-62e76f098760,舟,ja,A2,,/fune/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:15:51.007533+00
+77916f24-de2b-432a-8aef-2e5ba539dbbf,以内,ja,A2,Noun,/inai/,"within, inside of a certain area, range, or time period",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:18:50.08643+00
+77c7f00e-55ae-4c82-8ffe-78b5eae41181,はず,ja,A2,Noun,/hazu/,"nock; the grooves that hold a bowstring on a bow, the notch that holds an arrow to the bowstring",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:05:00.884012+00
+787ff4fd-2b84-4003-b762-b4f483721848,祖母,ja,A2,Noun,/sobo/,grandmother,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:04:21.138151+00
+78c8ae62-fe0a-4e07-80df-76b94f3f72cb,戻る,ja,A2,Verb,/modoru/,to return,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:27:51.762013+00
+78d257e3-d926-4bd2-84c1-d8c7781527af,相談,ja,A2,Noun,/soudan/,"advice, counsel, consultation",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:03:14.165109+00
+78db4811-10f9-4107-a604-31712f5bce6e,動物園,ja,A2,Noun,/doubutsuen/,zoo; zoological garden,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:13:40.38822+00
+78fa8abd-1160-49d5-8fff-75e2df830233,もらう,ja,A2,Verb,/morau/,to receive,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:14:51.697906+00
+793d230a-88e3-463c-8dda-8ec2b1b1f6da,中々,ja,A2,Adverb,/nakanaka/,"very, quite, considerably, rather",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:16:56.17658+00
+7947709d-3000-4a14-823a-561e64fc529a,生活,ja,A2,Noun,/seikatsu/,life; livelihood; daily living.,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:59:10.3766+00
+79752428-bd96-45da-bff7-9f292a3a4e7b,ごらんになる,ja,A2,,/goranninaru/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+7a5ff5a8-778b-4eb0-a8e4-85b00eee7166,お祝い,ja,A2,Noun,/oiwai/,a celebration,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 21:58:46.153769+00
+7a96893b-7433-41f0-ba9d-29f2d9d7e68f,妻,ja,A2,Noun,/tsuma/,a spouse,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:33:24.716089+00
+7af53614-5611-429a-8b12-1a61ef6b4250,よろしい,ja,A2,,/yoroshii/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+7b70596f-cfb5-4ba8-95f0-8a92ee101e33,変える,ja,A2,Verb,/kaeru/,"to change, to make different",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:33:24.716089+00
+7bc7b416-1d11-4e93-97dc-12d6307afde6,スクリーン,ja,A2,Noun,/sukuriin/,"screen of a computer, television, movie theater, etc.",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 21:59:54.413122+00
+7c7f6be5-c809-4237-826e-68022ff1c3be,とうとう,ja,A2,,/toutou/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:10:59.955008+00
+7ca8867e-953e-4660-a564-d417fccf8a9f,一度,ja,A2,Noun,/ichido/,once; one time,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:14:51.697906+00
+7d317a7f-a394-4df9-a437-2cc0f4e2a084,最近,ja,A2,Noun,/saikin/,the latest; the most recent,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:23:09.310265+00
+7d67d680-13f0-4b22-b98f-36795bf638b9,寄る,ja,A2,Verb,/yoru/,"to come near, to come up, to approach",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:20:30.428162+00
+7dc45dea-8ef4-4a6a-bc25-e8f73c9fa6ca,競争,ja,A2,Noun,/kyousou/,competition; contest,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:07:54.041359+00
+7ded762b-3ed1-4b12-aab2-668959e54dee,または,ja,A2,,/mataha/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+7f394b09-c620-4216-a23f-3f31ed1ec5f3,そろそろ,ja,A2,Adverb,/sorosoro/,slowly,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:09:02.011659+00
+7f5902ed-12bb-495d-9980-5be4f49ea680,チェックする,ja,A2,,/chekkusuru/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+80e711b3-2c4e-4bdb-b05a-b3b3456ab8a1,受ける,ja,A2,Verb,/ukeru/,"to receive, to get, to be given, to undergo, to go through, to suffer, to take on, to accept",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:29:20.514122+00
+80f250e2-4f30-4262-afdb-e5d4f27b49b6,中学校,ja,A2,Noun,/chuugakkou/,"middle school, junior high school",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:09:48.663243+00
+81f5c853-78da-4fad-9ea2-d1f3426d5109,事故,ja,A2,,/jiko/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:16:56.17658+00
+82798940-8fd6-49ed-90a1-000039cc71c5,だめ,ja,A2,,/dame/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:10:53.99236+00
+839ad3aa-120a-4673-ada0-9626f8c655b9,お嬢さん,ja,A2,Noun,/ojousan/,someone else's daughter,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:05:36.988686+00
+83b6e65e-f82e-4833-b655-d404b99814b1,景色,ja,A2,Noun,/keshiki/,"scenery, scene, landscape",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:39:24.321955+00
+83e6e8fa-1b4e-46ef-8324-118b2c2106d8,説明,ja,A2,Noun,/setsumei/,explanation,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:52:04.646301+00
+84195e1b-fe5a-47af-a47f-41c5f30248e6,夫,ja,A2,Noun,/otto/,.mw-parser-output .defdate{font-size:smaller} husband,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:17:29.891334+00
+843b2fe8-61ec-4503-9304-f6ccc0fd3eff,気分,ja,A2,Noun,/kibun/,"feeling, mood",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:47:34.025462+00
+84b94bb5-469e-4e0d-970d-c8845b102aeb,太る,ja,A2,Verb,/futoru/,to grow stout or fat,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:33:24.716089+00
+851a76a2-9001-4288-934b-6141f69a069c,いただく,ja,A2,,/itadaku/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:08:30.986948+00
+853cb48f-bd1c-4b38-a627-bebfab28c487,包む,ja,A2,Verb,/tsutsumu/,to wrap,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:27:21.983004+00
+857100c5-40ea-4ba7-b402-76cdc6877849,致す,ja,A2,Verb,/itasu/,to deliver; to send,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:15:48.633019+00
+858362be-3090-4008-8723-07b7b1a6a0fe,花見,ja,A2,Noun,/hanami/,"flower viewing: more specifically, involves large groups of people picnicking in parks when the sakura (cherry blossoms) are in bloom in the spring",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:16:04.268861+00
+85a1d374-49c7-4490-9775-8101935ee0bc,壊す,ja,A2,Verb,/kowasu/,"to break, destroy, ruin, wreck (something)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:31:25.369944+00
+85d7cd78-65bb-4aed-8091-24c0b50ec02a,文法,ja,A2,Noun,/bunpou/,grammar,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:35:53.453693+00
+865eacdd-fdb6-4208-a901-df0ffe867ae8,赤ん坊,ja,A2,Noun,/akanbou/,an infant; a baby,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:55:01.136787+00
+8698064e-875c-43df-9288-21b9669981dd,教会,ja,A2,Noun,/kyoukai/,church,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:35:32.217701+00
+86bd021d-0f26-484d-921f-16b42c2e4f31,アルコール,ja,A2,Noun,/arukooru/,an alcohol,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:05:36.988686+00
+87eb5f63-18a7-4ee1-9cf4-9fc2f22bfdf3,国際,ja,A2,Noun,/kokusai/,The quality of being international.,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:31:25.369944+00
+884b97e4-df2f-401d-a684-ec6cfc12b3fa,申す,ja,A2,Verb,/mousu/,to say,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:59:30.36591+00
+88cd39cb-97da-4d49-ad6e-67b2fc2d7901,内,ja,A2,Noun,/uchi/,the inside or middle (of something),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:12:55.804475+00
+88fd091b-6a63-40d3-94dd-2f7f794e96d6,帰り,ja,A2,Noun,/kaeri/,return,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:21:17.652644+00
+8906c8da-700a-4e11-80b0-9d1b2b7f8ad3,試験,ja,A2,Noun,/shiken/,"examination, exam, test",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:51:43.986691+00
+892400b0-20fc-49c4-9f16-3bbbadbdd994,校長,ja,A2,Noun,/kouchou/,principal or headteacher of a school,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:40:40.100794+00
+8ae68e15-08f3-4f17-9d40-e6f9bf93fa30,月,ja,A2,Noun,/tsuki/,the Moon,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:39:43.746213+00
+8baecde2-f4bc-4cc6-a486-56263b721bd6,予定,ja,A2,Noun,/yotei/,schedule,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:16:56.17658+00
+8bf62e5a-5e32-432e-8887-9e042d8d6fab,～続ける,ja,A2,Verb,/tsuzukeru/,to continue,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:03:50.420719+00
+8c380996-ddcb-407c-b7a8-7ac7f629b9df,遅れる,ja,A2,Verb,/okureru/,"to be late, to be tardy",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:58:30.278963+00
+8c5fc144-6e1b-4d6c-b77b-affb7dc3003d,娘,ja,A2,Noun,/musume/,daughter,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:17:33.267411+00
+8cd32a2d-93bc-4c77-87e6-24901d9e2733,席,ja,A2,Noun,/seki/,seat,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:21:15.719615+00
+8cf5ff9e-d3cc-4389-a947-1bbed7f11877,音,ja,A2,Noun,/on/,sound,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:19:23.839942+00
+8d0040ed-e986-4ee6-a926-99541fe17a9b,試合,ja,A2,Noun,/shiai/,"match, game",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:51:43.479142+00
+8d22f1ba-0169-4e2a-a5e1-e6870bc9a657,慣れる,ja,A2,Verb,/nareru/,get used to,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:27:30.54646+00
+8d6d8cfc-6747-4e62-87dd-f6621a3dec1d,謝る,ja,A2,Verb,/ayamaru/,to seek forgiveness for a mistake; to apologize,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:52:25.285638+00
+8d8f31be-460c-459b-81dc-fcf1d71cf69a,途中,ja,A2,Noun,/tochuu/,on the way; along the way; en route,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:58:01.011918+00
+8da72fec-45df-4715-b13c-3c92e494b757,変わる,ja,A2,Verb,/kawaru/,to change; to become different; to turn into; to become (something else),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:33:24.716089+00
+8dec2bf7-2b47-40c0-84c1-bcf97bcc621f,ジャム,ja,A2,Noun,/jamu/,jam; jelly; a sweet mixture of fruit boiled with sugar,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:09:02.011659+00
+8e16ee69-d14e-4581-a82c-2dd17e892512,ガソリン,ja,A2,Noun,/gasorin/,gasoline (motor fuel),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:07:14.324861+00
+8e1870ac-01ec-44dc-bdd2-985b3dca348c,いくら～ても,ja,A2,,/ikuratemo/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+8e8c69c2-3268-4efc-a65c-e6802e14400c,住所,ja,A2,Noun,/juusho/,address,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:18:50.08643+00
+8ee9f641-c17e-451e-a371-62bf1dae37bd,～軒,ja,A2,Noun,/noki/,eaves,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:03:30.139655+00
+8f27093a-c709-4a38-ba03-b9831690dcf1,込む,ja,A2,Verb,/komu/,to be crowded,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:55:53.058952+00
+8f4b3b72-467c-4f0c-81b3-02c3e5a0b38b,ほとんど,ja,A2,,/hotondo/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:11:17.448645+00
+8fd43e12-5f72-4229-b9fd-bbb03356ed22,恥ずかしい,ja,A2,Adjective,/hazukashii/,shy,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:24:44.541032+00
+8fda0061-5993-41e5-adf3-7d8fcfdfb65d,片付ける,ja,A2,Verb,/katazukeru/,to tidy up; to put in order,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:55:46.120495+00
+90107552-d9c3-4a84-9809-42f32da2521c,負ける,ja,A2,Verb,/makeru/,to lose; to be defeated,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:52:43.435844+00
+909d111c-bcaf-4fe1-82be-a9a0be27e0f2,楽む,ja,A2,,/tanoshimu/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:15:09.652781+00
+90e332de-ae95-40f9-a847-87babaf62121,～様,ja,A2,Noun,/you/,"way, style, appearance",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:03:50.420719+00
+90ec0487-c95a-420d-b2fd-e785a3d7ce23,割れる,ja,A2,Verb,/wareru/,"to be broken, to break itself",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:13:26.377963+00
+90ff6bb5-1051-47e5-94f8-9851b11f2fd5,たまに,ja,A2,Adverb,/tamani/,"once in a while, occasionally, now and then",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:09:02.011659+00
+91b1bcbc-ecfa-4a30-92fa-0b8ef0257314,うまい,ja,A2,Adjective,/umai/,"上手い, 巧い: good at something, skillful",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 21:57:38.462313+00
+91b5e7ab-0a7f-414d-b985-29ce11b3ee57,探す,ja,A2,Verb,/sagasu/,to look for; to search for; to seek,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:31:59.953484+00
+92e1ecf6-c488-4255-ad8b-8503d9abc03a,新聞社,ja,A2,Noun,/shinbunsha/,newspaper agency,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:36:07.43664+00
+939bdb4f-04ee-470f-bb99-56173b60d7bd,昼間,ja,A2,Noun,/hiruma/,daytime,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:36:50.784179+00
+942d1e1b-f683-446d-bed6-6aa98c9f8d8e,以上,ja,A2,Noun,/ijou/,"the aforementioned, the foregoing",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:18:50.08643+00
+943c6bbc-b071-4113-8498-f39bf78e6a62,もちろん,ja,A2,,/mochiron/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:11:25.937894+00
+94be4253-8f1e-4b35-83f2-e174151e98b6,規則,ja,A2,Noun,/kisoku/,"rule, regulation",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:17:14.150948+00
+94d3d4f9-9b86-46df-a64e-58967975730a,工業,ja,A2,Noun,/kougyou/,industry,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:21:09.439377+00
+955d9b57-dc57-44e2-b661-a8a688073bb3,見つかる,ja,A2,,/mitsukaru/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:16:11.370703+00
+95a5cca5-ce57-4ad7-bc81-a256538a77eb,なるべく,ja,A2,Adverb,/narubeku/,.mw-parser-output .defdate{font-size:smaller} as... as possible,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:10:52.200892+00
+971161e2-9a66-4ce8-a593-2ca522103d72,皆,ja,A2,,/kai/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:00:11.680572+00
+9747e720-3839-4b0c-bdee-f5d9fbcf8b89,建て,ja,A2,Noun,/tate/,"something contracted, such as a contracted sale or purchase where the transaction is still incomplete: a standing sale or purchase",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:23:47.974941+00
+98121015-7e6f-429e-820c-28585cf98ce2,ステーキ,ja,A2,Noun,/suteeki/,steak (slice of beef),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:09:02.011659+00
+98d305d7-fea5-4c68-ae05-ed3188fa1c3c,線,ja,A2,Noun,/sen/,line,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:11:46.191221+00
+98f4035d-521a-40e4-9c3c-c3fd179ff174,棚,ja,A2,Noun,/tana/,"shelf, ledge, rack, trellis",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:43:33.043279+00
+98f7532c-9430-447d-bc9c-e63f1bbfdbc0,熱,ja,A2,Noun,/netsu/,fever,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:55:34.448618+00
+993d0501-7f23-42cb-9aae-28b8eae1be3a,盗む,ja,A2,Verb,/nusumu/,to steal,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:00:16.056027+00
+9a261c1b-afbf-4a34-a9cf-f9906569f027,輸出,ja,A2,Noun,/yushutsu/,export,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:55:41.963453+00
+9a45cd47-ef88-4894-ae47-11ff132e4938,警察,ja,A2,Noun,/keisatsu/,police,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:52:27.821896+00
+9a9f86c3-c472-4ec2-a6d2-6c5d785f5116,オーバー,ja,A2,Adjective,/oobaa/,exaggerated,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:05:36.988686+00
+9ac58435-d765-4a31-9315-23400bd9ca06,パソコン,ja,A2,Noun,/pasokon/,"syllabic abbreviation of パーソナルコンピューター (pāsonaru konpyūtā, “personal computer”); a PC",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:06:28.59459+00
+9b6a8739-2093-4ed4-b84a-b867304f3c55,あげる,ja,A2,Verb,/ageru/,"上げる, 挙げる: to raise, to lift (to move (something) upwards)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 21:57:38.462313+00
+9bafceee-c036-4c23-83f1-96ca2a13e75b,予約,ja,A2,Noun,/yoyaku/,"reservation, booking",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:16:56.17658+00
+9bb8824c-eeef-4244-9592-b72bb811937c,タイプ,ja,A2,Noun,/taipu/,"type, kind, sort",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:09:02.011659+00
+9bcd6230-d968-4864-b245-8e905fe3b7c8,用意,ja,A2,Noun,/youi/,preparation,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:59:22.608889+00
+9be31455-f564-43ba-8b4f-71d194ce869e,～目,ja,A2,Noun,/me/,".mw-parser-output .defdate{font-size:smaller} 目, 眼: eye",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:03:20.543825+00
+9c2a8982-2017-41b6-b2d1-dbf5fde59b20,今夜,ja,A2,Noun,/konya/,this evening; tonight,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:18:50.08643+00
+9cdaad37-073b-40ee-8478-71a4088b80b1,アメリカ,ja,A2,Proper noun,/amerika/,America (one of the continents of North America or South America),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:05:36.988686+00
+9d46bbf4-9070-4e91-bdb1-3d15eef42b86,正しい,ja,A2,Adjective,/tadashii/,"true, straight, unwarped, unskewed, proper",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:44:19.471867+00
+9e0fb842-6b27-4bb4-8cdf-c9c62e44621d,別,ja,A2,Adjective,/betsu/,"different, separate, another",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:25:07.990566+00
+9ecf6337-108a-4321-8e82-bd6eccbede7e,乾く,ja,A2,Verb,/kawaku/,"to dry (become dry), to dry up",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:16:56.17658+00
+9ef412ce-89be-4cd9-bfab-d3ab5f7a5104,気持ち,ja,A2,Noun,/kimochi/,"a feeling, sensation, feelings",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:47:35.971606+00
+9fe95405-12cd-40c6-a78a-1d95f2d2c04d,贈り物,ja,A2,Noun,/okurimono/,present; gift,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:54:58.125138+00
+a076ad47-2ae8-48b8-90de-537d5d5f65b3,浅い,ja,A2,Adjective,/asai/,shallow,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:48:39.686579+00
+a126b77b-8d2e-410f-a1c9-90c40b2bf9f9,電報,ja,A2,Noun,/denpou/,telegram,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:11:57.577795+00
+a23cfd7b-ba02-4ab0-bdd1-6de5bd4073b0,漫画,ja,A2,Noun,/manga/,"a drawing or painting made as one pleases without restraint, such as those by Hokusai",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:52:11.66991+00
+a2559cc7-0170-4ba0-9e97-1d9d3663a4ae,思う,ja,A2,Verb,/omou/,"to think, to deem, to imagine, ponder, to speculate",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:24:33.452352+00
+a2dbcc5e-6bbf-4b9a-9e33-d0d91a23ffb8,石,ja,A2,Noun,/ishi/,a stone,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:03:54.971641+00
+a2e02cee-df99-4739-a2fa-002a9fcfa80e,けれど; けれども,ja,A2,,/keredo; keredomo/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+a3aa51a8-e31f-4228-92ea-27535fe56084,～にくい,ja,A2,,/nikui/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:08:18.550801+00
+a4f690e7-d047-4df3-9573-eee9a47cacea,世話,ja,A2,Noun,/sewa/,"care, looking after, help, favor",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:16:56.17658+00
+a50fbabc-b29e-4b89-adb7-9b120e4bde11,打つ,ja,A2,Verb,/utsu/,"to hit, to beat, to strike",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:28:16.776111+00
+a55ecc45-46fa-43d6-8654-1068c7f0e501,通う,ja,A2,Verb,/kayou/,"to commute, to go back and forth, to ply between, to attend (school)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:58:02.525324+00
+a5b8795d-2534-4208-b4c7-d1a9b70bb426,～町,ja,A2,Noun,/machi/,"a town, a city",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:03:50.420719+00
+a5bea4f8-df77-46d3-bfda-a1c3a14f8331,客,ja,A2,Noun,/kyaku/,guest; visitor,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:28:35.052699+00
+a772f86e-8faf-4d5e-9a18-1af804dc9a61,ソフト,ja,A2,Adjective,/sofuto/,soft (giving way under pressure),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:09:02.011659+00
+a7f8236e-dc15-4df8-8f0a-66521de30675,教育,ja,A2,Noun,/kyouiku/,education,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:35:36.069638+00
+a85be5a1-da89-4a7d-abba-bca73eb36f65,スーツケース,ja,A2,Noun,/suutsukeesu/,suitcase,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 21:59:54.413122+00
+a86ca1f1-43ac-484c-b288-b10a9ee88037,申し上げる,ja,A2,Verb,/moushiageru/,to say; humble equivalent of 言う (iu),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:59:27.453776+00
+a8740c05-90a1-4900-82c5-5489cb225dd8,程,ja,A2,,/hodo/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:15:36.380275+00
+a8d96612-9729-4646-b7dd-86f4ae31f078,食料品,ja,A2,Noun,/shokuryouhin/,"foodstuff, groceries",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:19:50.85401+00
+a9110f86-5a8b-4b10-8e4b-d539cd30b7c6,調べる,ja,A2,Verb,/shiraberu/,"to investigate, to look up, to look into, to study, to examine, to check up on, to look over",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:52:10.695949+00
+a927a2e2-cfce-4537-94a0-4faba211640c,訳,ja,A2,Noun,/yaku/,translation,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:51:33.339133+00
+a9458648-07fd-4a4f-b8d0-bd3fc2db13c9,表,ja,A2,Noun,/omote/,surface; face (visible side of an object),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:05:51.077625+00
+a96a9b79-77c1-4917-8be5-3b7c1b7fc8d5,林,ja,A2,Noun,/hayashi/,".mw-parser-output .defdate{font-size:smaller} a grove, woods, copse",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:40:28.928467+00
+a96c68c0-9070-4e2e-be7e-5f24e0d8b63f,揺れる,ja,A2,Verb,/yureru/,"to shake, to quake, to sway back and forth",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:32:20.215148+00
+a97e181a-5f1e-428d-868b-23fcfb519ead,頑張る,ja,A2,Verb,/ganbaru/,to work hard and do one's best to achieve a goal,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:19:31.702179+00
+a984fe6f-3221-44cf-bd55-cf8c25c533f8,屋上,ja,A2,Noun,/okujou/,rooftop,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:28:35.052699+00
+a9a6ef4e-1a03-47df-bc5f-177d6ce9deec,見つける,ja,A2,,/mitsukeru/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:16:11.873475+00
+a9c5129b-e1a5-4a2a-9ba1-3c21fd1f7d46,なるほど,ja,A2,,/naruhodo/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+aa4396bb-8647-4f8d-9cd0-efc255b5d622,息子,ja,A2,Noun,/musuko/,a son (male child),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:24:46.944162+00
+aa4b441f-eef0-48e2-aff1-9968fd7b3b72,くださる,ja,A2,,/kudasaru/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:08:55.991909+00
+aa62e512-d5d4-4546-a9f5-cb0957e89e6a,触る,ja,A2,Verb,/sawaru/,"to touch, to feel",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:17:36.375481+00
+aabaafae-89ee-406f-b05b-162686631dbf,別れる,ja,A2,Verb,/wakareru/,to separate,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:25:07.990566+00
+ab125f8a-2c30-4ee4-95ed-89ffcbac63dd,壊れる,ja,A2,Verb,/kowareru/,"to break, to be broken, to be destroyed, to be wrecked",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:17:14.449923+00
+abaeb817-0b31-41ed-af70-eaf685eb1895,約束,ja,A2,Noun,/yakusoku/,a promise,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:08:23.174568+00
+ac099f28-a560-4bf2-82d7-450466a3f23b,決して,ja,A2,Adverb,/kesshite/,"(not) ever, (not) by any means; (not) in the least; emphasizes a negation",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:47:56.874138+00
+ac20d5cf-8a15-4e2b-9121-0c49c84b821c,～(に) ついて,ja,A2,Verb,/tsuite/,"conjunctive form of つく (tsuku) [godan]; about, regarding",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:56:54.451684+00
+aca5760b-990d-437a-91d5-343bb4d48a54,季節,ja,A2,Noun,/kisetsu/,"season (period of the year based on the typical weather, e.g. winter)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:26:18.32609+00
+ace6ad99-9071-41db-ac2d-0396a072b291,僕,ja,A2,,/boku/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:13:04.177443+00
+ad08efdf-76dd-413e-b054-0186cc71f819,そう,ja,A2,Adverb,/sou/,"so, like that, in such a way, such",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:09:02.011659+00
+ad3bbf42-924e-4ea8-9c6b-6920224d82e1,具合,ja,A2,Noun,/guai/,"bodily condition, health",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:23:09.310265+00
+ae1ae816-9191-43e1-acdb-82a8afefd216,～だす,ja,A2,Verb,/dasu/,synonym of です (desu),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:57:02.02611+00
+af89650b-d450-4aee-a219-a64fa6f8ab43,下宿,ja,A2,Noun,/geshuku/,boarding,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:07:26.41312+00
+afbea43d-e47d-4e72-8852-2632790b3db1,驚く,ja,A2,,/odoroku/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:20:06.978794+00
+b090c906-a8f7-4a63-91bf-40557e5306f0,島,ja,A2,Noun,/shima/,an island (land surrounded by water),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:21:05.10303+00
+b0d885cd-aa8b-4f8f-8ff6-385eafa6bee4,オートバイ,ja,A2,Noun,/ootobai/,.mw-parser-output .defdate{font-size:smaller} a motorcycle,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:05:36.988686+00
+b226bd29-bb4e-4a67-aa83-28f9d2c35235,形,ja,A2,Noun,/kata/,.mw-parser-output .defdate{font-size:smaller} a shape,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:24:01.522335+00
+b2c7679e-01e8-4906-97ea-7c3590de134f,心,ja,A2,Noun,/kokoro/,"mind, heart, spirit, soul; thoughts, ideas",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:24:16.516238+00
+b32ad23a-73ed-4fd2-9fd5-0f152d69bd1d,運動,ja,A2,Noun,/undou/,"athletics, exercise",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:58:34.412518+00
+b3c85aa7-446d-4399-9d87-fc9aa5299764,届ける,ja,A2,Verb,/todokeru/,to deliver,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:28:35.052699+00
+b3e77442-47f5-4186-9cb3-7752604a5020,起こす,ja,A2,Verb,/okosu/,"to wake (someone), to  get (someone) up",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:55:05.157603+00
+b47500d9-5949-4057-a3e6-22cb00f6c577,倍,ja,A2,Noun,/bai/,"twice, double, two times",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:10:32.025898+00
+b6367e23-99e1-4d3d-90ec-fbdf1a4db029,専門,ja,A2,Noun,/senmon/,speciality/specialty; subject of study; subject of expertise; area of interest; profession,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:20:39.579631+00
+b63ebd53-3286-42a9-ad45-2720574441e8,会議室,ja,A2,Noun,/kaigishitsu/,"meeting room, conference room",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:18:50.08643+00
+b66b2a13-399c-41f1-ba70-82dbc0fa5d02,工場,ja,A2,Noun,/koujou/,factory; workshop; mill; plant,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:21:07.993989+00
+b7414b16-4b9b-43d2-b12b-723211660227,子,ja,A2,Noun,/ko/,a child,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:17:37.599621+00
+b752973a-68ee-406b-a40f-c99e2a94ccda,代わり,ja,A2,Noun,/kawari/,"substitution, substitute",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:18:50.08643+00
+b76530a7-d779-48cf-b2b4-06a1b67743d3,遠慮,ja,A2,Noun,/enryo/,reserve,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:07:50.77975+00
+b7fd092a-597e-4f02-9b3c-2c8854fd69b3,～君,ja,A2,Noun,/kimi/,"a ruler of a country
+an emperor",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:03:01.817068+00
+b841cdbb-7dd8-4ed1-99d0-2dde520f0d3e,すっと,ja,A2,Adverb,/sutto/,"straight, quickly, all of a sudden",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:09:02.011659+00
+b85108b1-2b2b-4669-a10b-25401af83b24,柔道,ja,A2,Noun,/juudou/,judo,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:40:36.711436+00
+b89a7936-23c8-4720-8cee-0e49daddb83d,伝える,ja,A2,Verb,/tsutaeru/,"to convey, to communicate",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:18:50.08643+00
+b9082e34-7d26-4a6e-8ac5-a2f81eeb345e,港,ja,A2,Noun,/minato/,.mw-parser-output .defdate{font-size:smaller} a sluice; a section of a river to let water in and out,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:51:44.383858+00
+b9846d17-f393-4ba9-a1a5-8ae1b3572319,ビル,ja,A2,Noun,/biru/,"clipping of ビルディング (birudingu, “(non-residential) building”)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:12:55.515759+00
+b9bf6c2f-dcb5-499e-8560-44edfc46658b,関係,ja,A2,Noun,/kankei/,"relationship, relation",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:18:25.820928+00
+ba435e52-a7b1-4286-bf21-253944ec16cf,部長,ja,A2,Noun,/buchou/,A department chief within a company; analogous to a vice president in an American company.,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:09:01.73339+00
+bafe636a-94a5-4e89-ae0f-ef0a28ad73a2,食事,ja,A2,Noun,/shokuji/,meal,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:19:47.32314+00
+bb4a639a-7310-4665-b139-4079fb1fd2da,湯,ja,A2,Noun,/yu/,warm or hot water,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:51:45.373251+00
+bb7a82cd-1ba6-41c8-82df-40f839ef9df6,興味,ja,A2,Noun,/kyoumi/,interest,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:15:49.120336+00
+bb87f7a4-dd67-4577-91b1-d6a4cb2ab609,場所,ja,A2,Noun,/basho/,"place, location",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:17:06.730947+00
+bbe6da19-a495-4a14-831a-cfe6fcb62f46,大抵,ja,A2,,/taitei/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:13:31.352046+00
+bc230429-e0f6-439e-8c1d-e1c6910adf2f,様,ja,A2,Noun,/you/,"way, style, appearance",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:43:51.26741+00
+bc455941-d744-4317-ab31-bc7121e48cb6,周り,ja,A2,,/mawari/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:13:25.843493+00
+bc7b971d-b9c5-4a5a-8feb-d23d3c79bb74,都,ja,A2,Noun,/miyako/,the place of residence of the emperor,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:09:06.024231+00
+bd923e3e-b935-4245-ba6b-5a440f741e0d,滑る,ja,A2,Verb,/suberu/,"to glide, to slide",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:52:01.442243+00
+bddbfacf-a5de-41e7-8dd0-3bbbf463324f,見える,ja,A2,Verb,/mieru/,to be seen; to be found,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:16:09.352953+00
+be636f26-829b-499f-a826-4970423231ee,～製,ja,A2,Noun,/sei/,make,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:03:50.420719+00
+bf32a966-3b85-4d61-af56-cdf03d513cdd,寺,ja,A2,,/tera/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:28:35.052699+00
+bf32cb6f-2bbd-4b85-8084-d0a9b82355aa,復習,ja,A2,Noun,/fukushuu/,review,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:24:13.130245+00
+bf3e9d48-1f6a-4d5b-b162-0bdbe23d3725,サラダ,ja,A2,Noun,/sarada/,salad,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:07:14.324861+00
+bf7cd065-c088-4ec1-859e-837f9b3c3a83,必要,ja,A2,Adjective,/hitsuyou/,"needed, necessary",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:24:22.79228+00
+bfdecdf8-3c1b-416b-9340-3420fb3b9c89,連れる,ja,A2,Verb,/tsureru/,"to lead, to take, to conduct",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:58:16.648572+00
+c0115a05-f847-414b-a10f-0e9fa13e208d,研究,ja,A2,Noun,/kenkyuu/,"a piece of research, a study, investigation",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:03:59.810818+00
+c05ab89d-b0c8-4aad-8871-10ae1f58754d,両方,ja,A2,Noun,/ryouhou/,both sides,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:16:56.17658+00
+c17b83dc-83af-4342-b582-c2763eb156fe,逃げる,ja,A2,Verb,/nigeru/,to escape; to run away; to get away (so to not get caught),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:57:53.939021+00
+c29ca7fa-fec3-49c1-8fcc-a4d8a5d3e868,聞こえる,ja,A2,Verb,/kikoeru/,to be heard,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:12:29.527646+00
+c3264c40-1116-4bbf-ae27-fa17f4bf05f5,送る,ja,A2,Verb,/okuru/,to send; to dispatch,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:57:51.430263+00
+c33d2c53-0ee4-4ff0-8223-7a5ffacf33d6,泣く,ja,A2,Verb,/naku/,to cry; to weep; to sob,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:48:19.721476+00
+c3d593fa-933b-4779-a204-9a3589c09c8b,すっかり,ja,A2,Adverb,/sukkari/,"completely, thoroughly",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 21:59:54.413122+00
+c438a9dc-a4bc-4490-a20f-e8b782dbd1ab,血,ja,A2,Noun,/chi/,blood,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:16:49.008441+00
+c4555dd9-43f4-4c7d-8b50-78c05075b7bc,捨てる,ja,A2,Verb,/suteru/,to throw away,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:31:48.859982+00
+c4b66452-d11c-4605-b602-65edbd93f6a2,～学部,ja,A2,Noun,/gakubu/,university department,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:03:50.420719+00
+c529c748-634d-4b4c-bc0f-b3022923a4fb,親,ja,A2,Noun,/oya/,.mw-parser-output .defdate{font-size:smaller} a parent,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:17:21.229495+00
+c53fac34-65c7-4e98-9ec6-8e3562cab8ee,空く,ja,A2,Verb,/suku/,become empty (not crowded; not full),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:07:37.531323+00
+c54c0db6-be2f-4500-9755-19b64ebbcb57,コンサート,ja,A2,Noun,/konsaato/,music concert,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:07:14.324861+00
+c5c3dda1-9b4e-4cf7-a784-6dd898770670,変,ja,A2,Adjective,/hen/,strange,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:33:24.716089+00
+c61bad28-4ed0-4ddf-882d-5eddf463509c,注射,ja,A2,Noun,/chuusha/,injection,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:48:22.646814+00
+c669f459-d37c-44ec-ae26-c5dd5b0373d8,選ぶ,ja,A2,Verb,/erabu/,"to select, to choose",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:07:58.372275+00
+c7056f5a-2a73-4fb7-b527-2e9cdf0d3f38,濡れる,ja,A2,Verb,/nureru/,get wet,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:52:21.38647+00
+c76b34e4-49a4-4d5a-abdb-6893b99aac66,店員,ja,A2,,/ten'in/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:30:47.777124+00
+c7a35db8-e769-45b0-84c0-cc441e2188a6,建てる,ja,A2,Verb,/tateru/,"to build, to construct",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:23:48.458948+00
+c7c8a47d-a869-4f0c-a147-ab716653b120,落す,ja,A2,,/otosu/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:15:52.524929+00
+c8682354-4a82-4193-8c25-ced247a90bb2,エスカレーター,ja,A2,Noun,/esukareetaa/,.mw-parser-output .defdate{font-size:smaller} an escalator (mechanical device),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:05:36.988686+00
+c8f4031c-e14b-436a-aa33-4bd3ee9de47d,故障,ja,A2,Noun,/koshou/,"break, break down, have a fault, go out of order",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:35:26.426061+00
+c913352a-8dd6-4d22-99c1-a3ba5ba9b15a,承知,ja,A2,Noun,/shouchi/,"consent, agreement",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:28:22.095999+00
+c956900b-9829-49ed-9c88-44845556176a,番組,ja,A2,Noun,/bangumi/,program; programming,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:59:45.905388+00
+c9f993e5-ba62-4a2d-81c0-737481c96496,焼ける,ja,A2,Verb,/yakeru/,to be burned,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:55:24.71869+00
+c9ff2ebe-94fc-4654-adbd-7f4b8b051858,お土産,ja,A2,Noun,/omiyage/,honorific form of 土産,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 21:58:46.153769+00
+ca36b126-2a14-4ebe-a646-8a745addef3d,レポート; リポート,ja,A2,,/repooto; ripooto/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+ca4f0485-8513-42fb-b01b-7053ee664525,ハンバーグ,ja,A2,Noun,/hanbaagu/,".mw-parser-output .defdate{font-size:smaller} Hamburg steak (a hamburger patty served as a meat dish, on a plate without buns)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:12:55.515759+00
+caa46dab-8f30-4753-88e0-6e3ddca7169f,引き出し,ja,A2,Noun,/hikidashi/,drawer (open-topped box in a cabinet used for storing),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:23:49.915568+00
+cc14a8e0-0a12-4c1a-99a6-f4c200763988,確か,ja,A2,Adjective,/tashika/,".mw-parser-output .defdate{font-size:smaller} certain, clear, without a doubt",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:04:10.479126+00
+cd1a4f9e-2c90-401e-8504-7bd41f1a451d,交通,ja,A2,Noun,/koutsuu/,transportation,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:18:50.08643+00
+cd86a4af-f641-4543-a007-f3355248985b,痩せる,ja,A2,Verb,/yaseru/,to lose weight,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:59:54.171772+00
+cdc41a53-1e2e-44f8-a41b-7cd678355f50,彼ら,ja,A2,Pronoun,/karera/,they,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:24:09.243708+00
+cddfb0ed-c8ec-417b-85bc-40b5daa985b1,お陰,ja,A2,,/okage/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:08:45.513753+00
+cde0e6c6-3abf-4af7-a53a-551ea2c842b7,通り,ja,A2,Noun,/toori/,street,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:58:04.552105+00
+ce4ecf3f-7e03-434c-8b28-2f5e7741d216,随分,ja,A2,Adverb,/zuibun/,"extremely, considerably, very",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:18:40.460123+00
+cef90075-86a2-46f1-bab6-95c9646daf52,引っ越す,ja,A2,,/hikkosu/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:13:42.904409+00
+cf279cf3-5b67-4cef-8974-80dd6eeac795,おつり,ja,A2,,/otsuri/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:08:42.015727+00
+cf3dd277-0ac1-4ee1-865d-980ebab583b2,鏡,ja,A2,Noun,/kagami/,a mirror (smooth reflecting surface),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:09:51.560842+00
+cf5f03ba-c809-4af7-8bb5-c7aa426fe668,床屋,ja,A2,Noun,/tokoya/,barbershop; barber,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:21:27.787859+00
+d0b1e4ae-0117-43b7-92df-9fecefb76f9b,～代,ja,A2,Noun,/shiro/,substitution,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:03:50.420719+00
+d178ecb1-85df-4cde-be63-304ed14da3b3,以外,ja,A2,,/igai/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:10:55.315984+00
+d21b8c9e-6376-4dd5-807b-769d76637370,安全,ja,A2,Adjective,/anzen/,safe; secure,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:20:03.366828+00
+d273cfa4-3f54-445f-913a-c7f9416290a2,知らせる,ja,A2,Verb,/shiraseru/,to let someone know something,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:03:45.260576+00
+d2b7ebbb-b9fc-4c80-8a51-7448c89265cc,科学,ja,A2,Noun,/kagaku/,science,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:04:38.103691+00
+d2c07e01-e084-42f7-9511-b832e2cd277e,経験,ja,A2,Noun,/keiken/,experience (an experience or one's (overall) experience),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:08:53.263605+00
+d3670f41-af5e-4b1d-b6aa-9be2f0b74264,水泳,ja,A2,Noun,/suiei/,swimming,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:47:43.748961+00
+d3facbc8-da17-4e2f-bfde-dd1d63f4fb77,字,ja,A2,Noun,/ji/,"letter, character",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:17:39.530393+00
+d43d2d8d-6802-42e7-aa22-e14514b14c72,入学,ja,A2,Noun,/nyuugaku/,entry to school or university,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:10:50.92088+00
+d45c13da-62e3-4597-a7c2-d984d384b5bd,下着,ja,A2,Noun,/shitagi/,"underwear, an undergarment",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:16:56.17658+00
+d4c41ad3-0bb1-47cf-9054-2feddbd363bb,再来月,ja,A2,Noun,/saraigetsu/,.mw-parser-output .defdate{font-size:smaller} the month after next,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:23:09.310265+00
+d5c5bc04-96c1-4ddb-94a6-61f497456263,眠い,ja,A2,Adjective,/nemui/,sleepy; drowsy,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:03:30.688097+00
+d5f95838-a0ad-4c17-92c5-e99616e3df3b,反対,ja,A2,Adjective,/hantai/,opposed,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:14:06.488622+00
+d62a6cae-a64e-4990-81a7-b2c853123a9a,怒る,ja,A2,Verb,/ikaru/,"to get angry, to anger",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:32:54.445016+00
+d630a83f-ffd4-4c88-a9b0-d95964caaf28,苦い,ja,A2,Adjective,/nigai/,bitter (flavor),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:16:09.140114+00
+d6971cba-0f58-4066-a76a-5878fa98efc8,スーツ,ja,A2,Noun,/suutsu/,a suit (set of clothes),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:09:02.011659+00
+d77a88f7-95a2-49ea-8243-f2d2ac558ade,厳しい,ja,A2,Adjective,/ikameshii/,".mw-parser-output .defdate{font-size:smaller} stern, grave, forbidding; dignified, stately",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:27:21.983004+00
+d7851ff6-4afb-4b72-a7e2-6bed0b3ea867,歯医者,ja,A2,Noun,/haisha/,dentist,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:44:31.662692+00
+d78aca6b-1ccd-4c07-96e2-228a7d6a6dcd,技術,ja,A2,Noun,/gijutsu/,.mw-parser-output .defdate{font-size:smaller} technology,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:28:24.9901+00
+d78fcc9a-1dbd-40fa-b1a6-9f135ccb2a89,事,ja,A2,,/ji/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:08:59.566227+00
+d7ecf776-21b0-42f9-a53d-5c559bb6da1a,素晴らしい,ja,A2,Adjective,/subarashii/,"terrific, wonderful, splendid, grand, magnificent",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:08:32.896759+00
+d810f37b-ef40-4e88-9e87-012daeeb6528,草,ja,A2,Noun,/kusa/,grass,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:16:19.858521+00
+d83ad51f-1769-4696-9592-1d0f1332dbd1,済む,ja,A2,Verb,/sumu/,"to finish, to be complete, to be settled",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:51:33.648897+00
+da29851c-26cc-4fd4-8da5-45b2ebd2d805,珍しい,ja,A2,Adjective,/mezurashii/,"rare, unusual",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:56:24.513032+00
+da954908-db97-470a-84ca-ee33fe2344ce,例えば,ja,A2,Adverb,/tatoeba/,"for example, exempli gratia, for instance, such as",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:20:58.313548+00
+db67a9f3-d091-43c0-a4f6-0be71c356c2a,ファックス,ja,A2,Noun,/fakkusu/,a fax,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:06:35.82557+00
+dc8341db-502b-4ff4-8c76-bc6b709f1bc3,真面目,ja,A2,Adjective,/majime/,"serious, earnest",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:03:30.201709+00
+dd00e3ef-1a4d-45ba-8b6d-07fcdc7cea98,格好,ja,A2,,/kakkou/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:15:08.645+00
+dd25ad0d-4a4e-4b02-b1db-7cebb06193cf,失礼,ja,A2,Adjective,/shitsurei/,"rude, impolite, ill-mannered",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:33:24.716089+00
+dd495a55-472a-460f-93b0-d0bfb1c41f6e,邪魔,ja,A2,Adjective,/jama/,in the way; hindering,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:08:57.929067+00
+dd64ac34-4377-4835-a6e1-4f8d6717cd33,遠く,ja,A2,Noun,/tooku/,"a faraway place, somewhere far away",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:07:49.83585+00
+dddf4e94-d4f1-4fe1-af49-6423cb8b1d2b,ごちそう,ja,A2,,/gochisou/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:09:01.9923+00
+de12c8a7-c07a-413a-899e-91537a0575c8,びっくりする,ja,A2,,/bikkurisuru/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+de21d96b-8066-493c-8959-f180e3c1ee93,移る,ja,A2,Verb,/utsuru/,to move (as moving one's place of residence); to migrate,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:04:41.985024+00
+de775e42-ef7e-4c48-b6ba-09a9fc3fd1b6,ご主人,ja,A2,Noun,/goshujin/,"husband (referring to someone else's husband, not one's own)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 21:59:54.413122+00
+dea576cb-7d89-4307-b9bd-0c9292fd7d97,赤ちゃん,ja,A2,Noun,/akachan/,".mw-parser-output .defdate{font-size:smaller} a baby, an infant",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:55:00.135102+00
+ded8499a-a288-4387-aa27-36b84b770c0f,生産,ja,A2,Noun,/seisan/,production,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:59:12.322443+00
+e02426ca-c3f3-459b-8d49-f5e5357f94f7,拝見,ja,A2,Noun,/haiken/,seeing,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:31:27.078034+00
+e0427ad1-6d93-48a4-8942-3f8be689f936,社長,ja,A2,Noun,/shachou/,president; CEO; executive director,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:04:19.196896+00
+e08968a1-9481-4940-a8dd-d291a628ff76,だから,ja,A2,Conjunction,/dakara/,"Used other than figuratively or idiomatically: see だ,‎ から.",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:09:02.011659+00
+e0c9969c-ec73-48e2-b701-915e8c1e864e,壁,ja,A2,Noun,/kabe/,wall,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:31:25.369944+00
+e0cb77a8-fbe9-42f1-927d-078e1d064127,これから,ja,A2,Adverb,/korekara/,from now on; from this point on; from now,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:07:14.324861+00
+e0f4a8b5-a0bc-401e-8b44-7d621176b8ab,手伝う,ja,A2,Verb,/tetsudau/,.mw-parser-output .defdate{font-size:smaller}  to help; to assist,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:27:59.407713+00
+e109e529-f6e3-410c-8ecc-86be013b6693,足りる,ja,A2,Verb,/tariru/,to suffice; to be enough,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:55:12.694123+00
+e1989fb2-344c-4f44-b782-1ca7a7ad6f67,駐車場,ja,A2,Noun,/chuushajou/,"parking lot, car park",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:20:05.468176+00
+e1aecf2a-38fd-48ab-86ce-c345e116f228,味噌,ja,A2,Noun,/miso/,miso (fermented soybean paste),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:29:20.514122+00
+e1bb1e09-e868-4f07-aeb4-8f32673620e7,噛む,ja,A2,Verb,/kamu/,to bite,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:31:25.369944+00
+e2020e37-6df9-4d70-8074-9aef8a832e35,台風,ja,A2,Noun,/taifuu/,"a tropical storm, with wind speeds over 34 knots (17 m/s)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:29:20.514122+00
+e276b036-81c6-4225-a3fe-918d8dde6a77,研究室,ja,A2,Noun,/kenkyuushitsu/,laboratory,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:04:00.302601+00
+e28fd175-9836-4fe6-a393-d041234f17a8,旅館,ja,A2,Noun,/ryokan/,a traditional Japanese inn,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:36:17.538519+00
+e3285e43-f91b-4184-b294-e2c5c60c7a80,お見舞い,ja,A2,,/omimai/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+e4251cdb-f32a-4a04-9624-b92acb383634,趣味,ja,A2,Noun,/shumi/,a hobby (activity done for enjoyment in spare time),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:55:10.679335+00
+e4348131-f10c-4dcc-8fb8-02c4e770334d,立てる,ja,A2,Verb,/tateru/,"to stand, to place in an upright position",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:07:50.161071+00
+e43f7a27-6d96-4661-bb4c-599808b196fe,動く,ja,A2,Verb,/ugoku/,".mw-parser-output .defdate{font-size:smaller} to move
+to stir, shake, shift, swing",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:25:07.990566+00
+e4e71571-df84-4278-b58a-625c1349418c,湖,ja,A2,Noun,/mizuumi/,a lake (body of water),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:51:44.885477+00
+e5f0bbd7-1474-4269-be0f-e6d1f2d35f73,～員,ja,A2,Noun,/in/,member,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:54:02.489947+00
+e5f94f12-862e-4a8d-a41d-26126395952c,時代,ja,A2,Noun,/jidai/,"age, era, period (of time)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:39:16.075521+00
+e646b6d3-ac09-49f0-b994-45db206e5e54,始める,ja,A2,Verb,/hajimeru/,"to begin, to start, to initiate",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:33:24.716089+00
+e64d0aec-a0cc-418a-9d53-e32bb536f22d,支度,ja,A2,Noun,/shitaku/,preparations,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:32:29.914504+00
+e6b0b22e-11e9-4aa3-a978-a01921be6fea,億,ja,A2,Noun,/oku/,"a hundred million, 10",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:20:58.313548+00
+e747f3c1-018a-4b56-aa9c-bd3ed3af9fe9,それで,ja,A2,Conjunction,/sorede/,"because of that, and, thereupon",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:09:02.011659+00
+e79eb86d-166d-493c-8986-e67940e843cf,勝つ,ja,A2,Verb,/katsu/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:27:21.983004+00
+e7fdc44e-79e5-43a0-9212-7c9cacc8aac2,お礼,ja,A2,Noun,/orei/,bow,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 21:58:46.153769+00
+e816ca3a-2107-4632-9312-fc34e25db072,すり,ja,A2,,/suri/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:10:49.019144+00
+e88cc712-b692-4871-a8b4-5d576d376d81,嬉しい,ja,A2,Adjective,/ureshii/,"happy, glad",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:17:37.11802+00
+e893fb99-cba3-4356-aa10-1a441b27dff6,間違える,ja,A2,Verb,/machigaeru/,"to make a mistake, to make an error (i.e. in calculation)",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:10:08.63227+00
+e92eaace-f4c8-47bd-94d4-137739aff06f,不便,ja,A2,Adjective,/fuben/,inconvenient,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:16:56.17658+00
+ea30e810-564d-47f4-93d9-23bffe9a31a3,ぶどう,ja,A2,,/budou/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+ea4e83d3-aac2-4e96-90ca-e0dc81455356,男性,ja,A2,Noun,/dansei/,"man, boy, male person",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:59:33.774567+00
+ec549665-8921-4264-8f89-4d209d5cdeba,汚れる,ja,A2,Verb,/yogoreru/,"to get dirty, to become dirty",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:47:54.434954+00
+ecef2718-c361-4e22-97bd-2f615cf84884,計画,ja,A2,Noun,/keikaku/,"a plan, planning, schedule, conception",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:17:43.943108+00
+ed16a3c3-d0fd-4e3f-8932-9843ec1ba152,嘘,ja,A2,Noun,/uso/,a lie; a falsehood; a fallacy,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:31:25.369944+00
+ed58b032-7154-4c8a-87cf-afb9d5576c87,パパ,ja,A2,Noun,/papa/,"papa, father",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:06:30.036113+00
+ed59d18d-f6b3-4bc1-90b1-6af3acfc5e00,優しい,ja,A2,Adjective,/yasashii/,gentle (calm and pleasant),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:20:58.313548+00
+ed6b4663-5d86-4d3b-8029-5345988ced7f,最後,ja,A2,Noun,/saigo/,"last, end, conclusion",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:13:02.582166+00
+edbe01fb-a835-490e-aa2a-8618b2914ea0,アフリカ,ja,A2,Proper noun,/afurika/,Africa (the continent south of Europe and between the Atlantic and Indian Oceans),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:05:36.988686+00
+edee8b49-1d29-4832-8814-b0c9a4b5c792,地震,ja,A2,Noun,/jishin/,.mw-parser-output .defdate{font-size:smaller} an earthquake,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:31:25.369944+00
+ef1a821a-cc3b-4f74-9806-06252122e7d8,折れる,ja,A2,Verb,/oreru/,to snap; to break,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:28:31.762303+00
+ef21f5f3-7922-47da-aa47-2476163a9f4b,おっしゃる,ja,A2,Verb,/ossharu/,to say,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 21:57:38.462313+00
+ef2f7336-58cb-46fb-a2a3-49fbc023ce39,続く,ja,A2,Verb,/tsuzuku/,to continue,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:11:38.886436+00
+efc38964-b11a-4541-b117-6464c3ae7672,～(に) よると,ja,A2,,/yoruto/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+efd26bb4-ea15-4005-8642-2fc742d5a40d,おいでになる,ja,A2,,/oideninaru/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-17 12:43:40.319627+00
+eff2d01c-b266-4b4f-81de-24f31b89a88a,～区,ja,A2,Noun,/ku/,"ward, section, district",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:02:58.420536+00
+f0004d17-3725-4288-8854-5e41dad6935f,卒業,ja,A2,Noun,/sotsugyou/,graduation,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:27:21.983004+00
+f12bbd15-3cc7-4f39-b1d3-97c142dc79e4,市,ja,A2,Noun,/ichi/,"a market, a marketplace",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:21:14.274395+00
+f2768d1f-b405-400e-b05b-b7f66bff84ca,答,ja,A2,,/kotae/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:15:38.395943+00
+f2858846-db1c-4f1a-98c7-e1d65a90da14,～(て) しまう,ja,A2,Verb,/shimau/,to close,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:56:53.504066+00
+f29749e9-25bf-4d16-9419-bbc41787ce36,～ばかり,ja,A2,Particle,/bakari/,just; only; nothing but,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:57:06.764168+00
+f2bec02e-9366-4759-8f50-f0f8748e0730,～会,ja,A2,Noun,/kai/,"meeting, gathering",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:03:50.420719+00
+f2edced1-435e-46f6-bd3a-dac6679d6980,治る,ja,A2,Verb,/naoru/,to heal,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:48:10.976716+00
+f327d48d-5846-4904-8590-0c94901427b8,品物,ja,A2,Noun,/shinamono/,"goods, merchandise, article",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:16:40.606446+00
+f38a99bb-c7d6-45f7-bc63-aa342c63edc9,終わり,ja,A2,Noun,/owari/,end; conclusion; finish,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:08:41.620981+00
+f3919866-6115-4ca8-9a64-51b9d93a46a6,小学校,ja,A2,Noun,/shougakkou/,"elementary school, primary school",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:20:45.351886+00
+f49e4043-3e31-4e03-be6c-31ba133b889e,返事,ja,A2,Noun,/henji/,"reply, response",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 05:56:03.099438+00
+f5e9c552-cce2-435c-8653-2667b68521a7,喉,ja,A2,Noun,/nodo/,throat,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:31:25.369944+00
+f6311002-2a31-46ce-9b40-08a0b453a0d2,テキスト,ja,A2,Noun,/tekisuto/,text (a written passage),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:10:52.200892+00
+f70498dd-a92f-4f5d-9b2c-7937f52d906a,飾る,ja,A2,Verb,/kazaru/,"to decorate, to adorn",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:19:56.89731+00
+f73d7291-167f-429c-9d7f-522b9d531fac,糸,ja,A2,Noun,/ito/,thread,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:08:21.715303+00
+f7457a64-e7ae-445a-bc83-1fd94bacb4b9,点,ja,A2,Noun,/ten/,"spot, dot",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:52:34.612251+00
+f7f2b33d-a33f-4fac-916a-a81f2bd84c5e,見物,ja,A2,Noun,/kenbutsu/,sightseeing,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:16:20.975342+00
+f81ae482-5301-4e8c-bc2d-278416213c2a,アルバイト,ja,A2,Noun,/arubaito/,"part-time job, especially for students",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:05:36.988686+00
+fa07565a-f774-4226-8518-489d1de763e8,天気予報,ja,A2,Noun,/tenkiyohou/,weather forecast,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:17:28.445547+00
+fa2952e5-0689-42a3-8f5f-740a78ded91a,汽車,ja,A2,Noun,/kisha/,"steam locomotive, train",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:48:03.211559+00
+fa5afd63-f03e-44d6-a79a-262087939008,坂,ja,A2,,/saka/,,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:13:27.344349+00
+fa70c981-b3e0-4f5f-9482-41029626ff74,深い,ja,A2,Adjective,/fukai/,deep; profound (extending far down- or inwards),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:51:21.935064+00
+faf40c64-96c5-41b2-8bb7-3d4e7c5625e0,日記,ja,A2,Noun,/nikki/,a record of events and facts,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:36:28.627727+00
+fb2efc3d-5171-4aa4-bca3-678c79674128,それほど,ja,A2,Adverb,/sorehodo/,"to that degree, extent",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:01:05.207026+00
+fb664b43-b817-4c23-ba44-b1afdd6d7076,場合,ja,A2,Noun,/baai/,"case, occasion, circumstances, situation",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:17:06.248624+00
+fccdc5c9-21b0-4521-9a03-0ba4a7965789,ガソリンスタンド,ja,A2,Noun,/gasorinsutando/,"gas station, petrol station",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:07:14.324861+00
+fd1524bb-78d5-4606-a8ec-d36bfd011bd3,塗る,ja,A2,Verb,/nuru/,"to paint, to plaster",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:17:09.136579+00
+fd5f59dc-f377-4798-a6a1-c764830bfbac,受付,ja,A2,Noun,/uketsuke/,"receipt, reception, acceptance",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:29:20.514122+00
+fddb60a4-9323-415d-8d31-d6b77a9ebf63,似る,ja,A2,Verb,/niru/,"to resemble, look like",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:18:50.08643+00
+fe1c1ba3-a826-4b0a-9580-395402cb1746,間,ja,A2,Noun,/kan/,interval,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:10:05.778279+00
+fea08319-3f43-4fa6-9c5d-0732df67f73c,複雑,ja,A2,Adjective,/fukuzatsu/,complex (not simple or straightforward),,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 06:15:56.630036+00
+feeb87b7-b758-45b6-8360-357f9031c154,笑う,ja,A2,Verb,/warau/,"to spontaneously express joy or amusement by means of the voice or facial expression:
+to laugh
+
+to smile",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-20 00:07:56.464919+00
+ff3ed153-a807-4e2c-a316-52f16d641c08,世界,ja,A2,Noun,/sekai/,world,,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 22:16:56.17658+00
+ff4bf840-b2e9-4e8a-a93e-c144a38fdeda,水道,ja,A2,Noun,/suidou/,"water service, water supply",,jlpt_n4,2026-05-17 12:43:40.319627+00,2026-05-19 23:47:49.08437+00

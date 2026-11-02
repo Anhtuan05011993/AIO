@@ -1,0 +1,134 @@
+[
+  {
+    "viewport": [
+      1440,
+      900
+    ],
+    "body": {
+      "height": 2124,
+      "width": 1160,
+      "x": 258,
+      "y": 156
+    },
+    "first": {
+      "height": 323.078125,
+      "width": 565,
+      "x": 258,
+      "y": 156
+    },
+    "header": {
+      "height": 120,
+      "width": 1160,
+      "x": 258,
+      "y": 16
+    },
+    "overflow": false,
+    "toc": {
+      "height": 48,
+      "width": 1128,
+      "x": 275,
+      "y": 79
+    },
+    "frameDelta": 0,
+    "bodyHeightDelta": -2760.1875
+  },
+  {
+    "viewport": [
+      768,
+      1024
+    ],
+    "body": {
+      "height": 4100.234375,
+      "width": 644,
+      "x": 106,
+      "y": 154
+    },
+    "first": {
+      "height": 300.609375,
+      "width": 636,
+      "x": 106,
+      "y": 154
+    },
+    "header": {
+      "height": 120,
+      "width": 644,
+      "x": 106,
+      "y": 14
+    },
+    "overflow": false,
+    "toc": {
+      "height": 48,
+      "width": 612,
+      "x": 123,
+      "y": 77
+    },
+    "frameDelta": 0,
+    "bodyHeightDelta": -5106.125
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "body": {
+      "height": 5065.25,
+      "width": 366,
+      "x": 12,
+      "y": 177
+    },
+    "first": {
+      "height": 397.359375,
+      "width": 358,
+      "x": 12,
+      "y": 177
+    },
+    "header": {
+      "height": 111,
+      "width": 366,
+      "x": 12,
+      "y": 52
+    },
+    "overflow": false,
+    "toc": {
+      "height": 48,
+      "width": 207.953125,
+      "x": 21,
+      "y": 107.5
+    },
+    "frameDelta": 0,
+    "bodyHeightDelta": -6145.96875
+  },
+  {
+    "viewport": [
+      360,
+      844
+    ],
+    "body": {
+      "height": 5290.265625,
+      "width": 336,
+      "x": 12,
+      "y": 177
+    },
+    "first": {
+      "height": 419.828125,
+      "width": 328,
+      "x": 12,
+      "y": 177
+    },
+    "header": {
+      "height": 111,
+      "width": 336,
+      "x": 12,
+      "y": 52
+    },
+    "overflow": false,
+    "toc": {
+      "height": 48,
+      "width": 177.953125,
+      "x": 21,
+      "y": 107.5
+    },
+    "frameDelta": 0,
+    "bodyHeightDelta": -6398.734375
+  }
+]

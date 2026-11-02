@@ -1,0 +1,1 @@
+var e=new Set([`©`,`®`,`™`]),t=/\p{Extended_Pictographic}/u,n=/[‍︎️⃣]|\p{Emoji_Modifier}|\p{Regional_Indicator}/u;function r(r){if(!r)return``;let i=``;for(let a of r)e.has(a)?i+=a:t.test(a)||n.test(a)?i+=` `:i+=a;return i.replace(/\s{2,}/g,` `).trim()}export{r as t};

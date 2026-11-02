@@ -1,0 +1,14 @@
+{
+  "afterArrow": {
+    "html": "<span class=\"dict-word\" data-dict-k=\"2\" data-dict-term=\"don't\" tabindex=\"0\" role=\"button\"><strong class=\"gdr-focus\">don't</strong></span>",
+    "text": "don't"
+  },
+  "afterEnter": {
+    "html": "<div data-v-059aab92=\"\" data-video-popover=\"\" class=\"z-[210] rounded-card border-bw border-border-strong bg-surface p-4 shadow-sh-2 fixed inset-x-0 bottom-5 mx-auto w-[min(92vw,26rem)]\"><div data-v-059aab92=\"\" class=\"flex items-start justify-between gap-3\"><div data-v-059aab92=\"\" class=\"flex min-w-0 items-center gap-1.5\"><p data-v-059aab92=\"\" class=\"truncate text-lg font-semibold text-fg\">don't<!----></p><button data-v-059aab92=\"\" type=\"button\" class=\"grid h-7 w-7 shrink-0 place-items-center rou",
+    "text": "don't/dəʊnt/Động từkhôngĐộng từkhông, đừng, chớ"
+  },
+  "afterEscape": {
+    "focus": "Bỏ qua tới nội dung chínhTrang chủTrang chủASHọc qua gõ câuGõ câuTừ vựng & Phát ",
+    "popover": false
+  }
+}

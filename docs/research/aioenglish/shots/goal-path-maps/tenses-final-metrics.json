@@ -1,0 +1,162 @@
+[
+  {
+    "tag": "source",
+    "frame": {
+      "height": 781,
+      "width": 888,
+      "x": 258,
+      "y": 111
+    },
+    "overflow": false,
+    "root": {
+      "height": 25.5999755859375,
+      "width": 80,
+      "x": 516,
+      "y": 488.7000122070313
+    },
+    "viewport": [
+      1440,
+      900
+    ]
+  },
+  {
+    "tag": "production",
+    "frame": {
+      "height": 781,
+      "width": 888,
+      "x": 258,
+      "y": 111
+    },
+    "overflow": false,
+    "root": {
+      "height": 25.5999755859375,
+      "width": 80,
+      "x": 516,
+      "y": 488.7000122070313
+    },
+    "viewport": [
+      1440,
+      900
+    ]
+  },
+  {
+    "tag": "source",
+    "frame": {
+      "height": 841,
+      "width": 644,
+      "x": 106,
+      "y": 179
+    },
+    "overflow": false,
+    "root": {
+      "height": 25.5999755859375,
+      "width": 80,
+      "x": 242,
+      "y": 586.7000122070312
+    },
+    "viewport": [
+      768,
+      1024
+    ]
+  },
+  {
+    "tag": "production",
+    "frame": {
+      "height": 841,
+      "width": 644,
+      "x": 106,
+      "y": 179
+    },
+    "overflow": false,
+    "root": {
+      "height": 25.5999755859375,
+      "width": 80,
+      "x": 242,
+      "y": 586.7000122070312
+    },
+    "viewport": [
+      768,
+      1024
+    ]
+  },
+  {
+    "tag": "source",
+    "frame": {
+      "height": 588,
+      "width": 366,
+      "x": 12,
+      "y": 247
+    },
+    "overflow": false,
+    "root": {
+      "height": 25.5999755859375,
+      "width": 80,
+      "x": 9,
+      "y": 528.2000122070312
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "tag": "production",
+    "frame": {
+      "height": 588,
+      "width": 366,
+      "x": 12,
+      "y": 247
+    },
+    "overflow": false,
+    "root": {
+      "height": 25.5999755859375,
+      "width": 80,
+      "x": 9,
+      "y": 528.2000122070312
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "tag": "source",
+    "frame": {
+      "height": 588,
+      "width": 336,
+      "x": 12,
+      "y": 247
+    },
+    "overflow": false,
+    "root": {
+      "height": 25.5999755859375,
+      "width": 80,
+      "x": -6,
+      "y": 528.2000122070312
+    },
+    "viewport": [
+      360,
+      844
+    ]
+  },
+  {
+    "tag": "production",
+    "frame": {
+      "height": 588,
+      "width": 336,
+      "x": 12,
+      "y": 247
+    },
+    "overflow": false,
+    "root": {
+      "height": 25.5999755859375,
+      "width": 80,
+      "x": -6,
+      "y": 528.2000122070312
+    },
+    "viewport": [
+      360,
+      844
+    ]
+  }
+]

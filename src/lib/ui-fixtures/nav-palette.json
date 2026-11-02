@@ -1,0 +1,123 @@
+[
+  {
+    "href": "/",
+    "tileBackground": "rgb(236, 227, 204)",
+    "vars": {
+      "--nb-x-fa": "#fbf7ec",
+      "--nb-x-fb": "#ece3cc",
+      "--nb-x-fc": "#1d1c27",
+      "--nb-x-fd": "#8d7d58",
+      "--nb-x-ft": "#1d1c27"
+    }
+  },
+  {
+    "href": "/go-cau",
+    "tileBackground": "rgb(176, 213, 240)",
+    "vars": {
+      "--nb-x-fa": "#dfeefa",
+      "--nb-x-fb": "#b0d5f0",
+      "--nb-x-fc": "#357bb5",
+      "--nb-x-fd": "#357bb5",
+      "--nb-x-ft": "#194a71"
+    }
+  },
+  {
+    "href": "/tu-vung",
+    "tileBackground": "rgb(205, 191, 243)",
+    "vars": {
+      "--nb-x-fa": "#ece5fb",
+      "--nb-x-fb": "#cdbff3",
+      "--nb-x-fc": "#7459cc",
+      "--nb-x-fd": "#7459cc",
+      "--nb-x-ft": "#45318a"
+    }
+  },
+  {
+    "href": "/ngu-phap",
+    "tileBackground": "rgb(251, 199, 154)",
+    "vars": {
+      "--nb-x-fa": "#feead9",
+      "--nb-x-fb": "#fbc79a",
+      "--nb-x-fc": "#d0702a",
+      "--nb-x-fd": "#d0702a",
+      "--nb-x-ft": "#77340f"
+    }
+  },
+  {
+    "href": "/luyen-dich-thuat",
+    "tileBackground": "rgb(167, 220, 189)",
+    "vars": {
+      "--nb-x-fa": "#dcf1e4",
+      "--nb-x-fb": "#a7dcbd",
+      "--nb-x-fc": "#2a8259",
+      "--nb-x-fd": "#2a8259",
+      "--nb-x-ft": "#1b6342"
+    }
+  },
+  {
+    "href": "/video",
+    "tileBackground": "rgba(255, 255, 255, 0.7)",
+    "vars": {
+      "--nb-x-fa": "#fbe2eb",
+      "--nb-x-fb": "#f1b0c8",
+      "--nb-x-fc": "#c23a70",
+      "--nb-x-fd": "#c23a70",
+      "--nb-x-ft": "#952654"
+    }
+  },
+  {
+    "href": "/tu-dien",
+    "tileBackground": "rgb(226, 205, 159)",
+    "vars": {
+      "--nb-x-fa": "#f3e9d3",
+      "--nb-x-fb": "#e2cd9f",
+      "--nb-x-fc": "#9c7c3e",
+      "--nb-x-fd": "#9c7c3e",
+      "--nb-x-ft": "#56421b"
+    }
+  },
+  {
+    "href": "/lo-trinh",
+    "tileBackground": "rgb(176, 213, 240)",
+    "vars": {
+      "--nb-x-fa": "#dfeefa",
+      "--nb-x-fb": "#b0d5f0",
+      "--nb-x-fc": "#357bb5",
+      "--nb-x-fd": "#357bb5",
+      "--nb-x-ft": "#194a71"
+    }
+  },
+  {
+    "href": "/luyen-thi",
+    "tileBackground": "rgb(236, 227, 204)",
+    "vars": {
+      "--nb-x-fa": "#fbf7ec",
+      "--nb-x-fb": "#ece3cc",
+      "--nb-x-fc": "#8d7d58",
+      "--nb-x-fd": "#8d7d58",
+      "--nb-x-ft": "#4f4530"
+    }
+  },
+  {
+    "href": "/ban-be",
+    "tileBackground": "rgb(245, 174, 152)",
+    "vars": {
+      "--nb-x-fa": "#fde0d6",
+      "--nb-x-fb": "#f5ae98",
+      "--nb-x-fc": "#c8452a",
+      "--nb-x-fd": "#c8452a",
+      "--nb-x-ft": "#97301a"
+    }
+  },
+  {
+    "href": "/yeu-cau-tinh-nang",
+    "tileBackground": "rgb(226, 205, 159)",
+    "vars": {
+      "--nb-x-fa": "#f3e9d3",
+      "--nb-x-fb": "#e2cd9f",
+      "--nb-x-fc": "#9c7c3e",
+      "--nb-x-fd": "#9c7c3e",
+      "--nb-x-ft": "#56421b"
+    }
+  }
+]

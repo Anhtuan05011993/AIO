@@ -1,0 +1,26 @@
+/* Agent B — local validation notice for the demo auth forms.
+   The original site showed toasts driven by JS (dropped in the clone);
+   validation feedback now renders in the form's own notice slot instead. */
+
+.auth-notice {
+  display: block;
+  border-radius: 12px;
+  border: var(--bw, 2px) solid transparent;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.45;
+  text-align: center;
+}
+
+.auth-notice.error {
+  color: #a92f22;
+  border-color: color-mix(in srgb, #a92f22 35%, transparent);
+  background: color-mix(in srgb, #a92f22 8%, transparent);
+}
+
+.auth-notice.success {
+  color: var(--nb-x-ok-d, #1d7a3e);
+  border-color: color-mix(in srgb, var(--nb-x-ok-d, #1d7a3e) 35%, transparent);
+  background: color-mix(in srgb, var(--nb-x-ok-d, #1d7a3e) 8%, transparent);
+}

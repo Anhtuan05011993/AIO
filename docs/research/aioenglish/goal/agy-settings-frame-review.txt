@@ -1,0 +1,45 @@
+Here is the review of the settings frame change focusing strictly on runtime, state, and accessibility regressions.
+
+---
+
+### 1. Runtime Regressions & Hazards
+
+* **Hardcoded Out-of-Bounds Avatar Index (`index={-1}`)**:
+  In `<CritterAvatar index={-1}/>`, passing `-1` is an out-of-bounds index hazard. If `CritterAvatar` accesses an avatar list via direct array lookup (e.g. `avatars[index]`), accessing `-1` returns `undefined` and will throw a runtime crash (`TypeError: Cannot read properties of undefined`) if properties are dereferenced.
+* **Unsafe Inline HTML Injection (`settingsHeaderArt.html`)**:
+  `<span style={{display:"contents"}} dangerouslySetInnerHTML={{__html:settingsHeaderArt.html}}/>` accesses `.html` without a fallback (unlike `settingsIcons[...] ?? ""`). If `settingsHeaderArt` is missing the `html` key or structured as `{ svg: ... }`, `__html` becomes `undefined`.
+
+---
+
+### 2. State & Lifecycle Regressions
+
+* **`name` Initial State Mismatch & SSR `data-on` Flash**:
+  * `name` is initialized to `""` (`useState("")`), while `user` is initialized to `DEFAULT` (`name: "Học viên"`).
+  * During SSR and the initial client render before `useEffect` fires, `name.trim() !== user.name` evaluates to `"" !== "Học viên"` (**`true`**).
+  * This causes `<span className="apc-save" data-on={name.trim()!==user.name?"1":"0"}>` to render with `data-on="1"` (active save indicator) on initial mount, before abruptly snapping to `"0"` once `setName(u.name)` runs in `useEffect`.
+* **State Contradiction on Blank Profile Name**:
+  If a user deletes the text in the input (`name === ""`), `name.trim() !== user.name` remains `true`, keeping `data-on="1"` on the wrapper. However, the submit button inside is `disabled={!name.trim() || ...}` (`disabled={true}`). The wrapper signals active/ready changes while the button is disabled.
+* **Untrimmed Name State Desynchronization on Submit**:
+  In `onSubmit`, `update({ name: name.trim() || user.name })` commits the trimmed value to `user.name`, but `setName(...)` is not updated with the trimmed value. If the user submitted leading/trailing whitespace, the input keeps the raw untrimmed string while the button disables, leaving the local input state out of sync with the store.
+* **Navigation Section (`section`) Hash Desynchronization**:
+  `const [section, setSection] = useState("profile")` only updates via manual click (`onClick={() => setSection(id)}`).
+  * Direct deep links (e.g., `/cai-dat#muctieu`) or browser back/forward navigation do not sync `section` from `window.location.hash`.
+  * The active class (`is-on`) and `aria-current="location"` stay stuck on `"profile"` ("Hồ sơ") regardless of the current URL hash or scroll position.
+
+---
+
+### 3. Accessibility (a11y) Regressions
+
+* **`aria-hidden="true"` on Legacy Anchor Alias Spans (`#profile`, `#friends`, etc.)**:
+  The alias spans (e.g. `<span id="profile" className="ui-settings-alias" aria-hidden="true"/>`) are intended as backwards-compatible fragment targets for navigation. However:
+  * Marking an anchor landing target `aria-hidden="true"` removes it from the accessibility tree. When an assistive technology user follows an anchor to `#profile`, the landing element is hidden, which can cause screen readers to lose focus context or announce nothing.
+  * These empty `<span>` tags lack `tabIndex={-1}`, which prevents predictable programmatic and keyboard focus handling on fragment jump.
+  * Because `#profile` sits inside the card after decorative tape elements while `#hoso` is on the `<section>` container, targeting `#profile` vs `#hoso` will result in inconsistent scroll offsets against the sticky header (`.nbc-hd.is-st`).
+* **Unlabeled Decorative Header Art in `<h1>` Group**:
+  In `<div className="nbc-hd-tt"><span className="ta-tile is-hd ta-plate nbx-r-ivory nbc-hd-ic"><span ... dangerouslySetInnerHTML={{__html:settingsHeaderArt.html}}/></span><h1>Cài đặt.</h1></div>`, the icon lacks `aria-hidden="true"`. Assistive technologies will traverse the raw injected SVG markup directly preceding the page title. (In contrast, `SettingsHeading` correctly sets `aria-hidden="true"` on its icon span).
+* **Missing `type="button"` on `<ContentNotice>` within `<form>`**:
+  `<ContentNotice className="nbc-btn is-soft is-sm">...Đổi ảnh</ContentNotice>` is placed inside the profile `<form>`. If `ContentNotice` renders an internal `<button>` without an explicit `type="button"`, browsers will default it to `type="submit"`, causing clicks on "Đổi ảnh" to unintentionally trigger profile form submission.
+* **Daily Target Pill Buttons: Toggle (`aria-pressed`) vs Radio Semantics**:
+  In `<div className="cd-goals" role="group" aria-label="Mục tiêu hằng ngày">`, the buttons use `aria-pressed={user.minutesPerDay===n}`. Because daily minutes are mutually exclusive (single-select), `aria-pressed` communicates independent toggle switches that can be toggled on/off individually. The accessible pattern for single-choice option sets is `role="radiogroup"` / `role="radio"` with `aria-checked` (identical to the `segment` pattern).
+* **Misused `aria-current="location"` on In-Page Anchors**:
+  Using `aria-current="location"` on the sub-navigation links is intended for sitemaps or breadcrumbs indicating the current page/document location. For internal in-page navigation tabs, `aria-current="true"` or `role="tab"` / `aria-selected` is standard. Coupled with the hash desync issue, screen readers will falsely announce "Hồ sơ" as the current location when the user is viewing other sections.

@@ -1,0 +1,129 @@
+Here is the review of the `PathKnowledge` component, categorized into **Race Conditions & Asynchronous State Defects**, **Pan/Zoom Defects**, and **Focus/ARIA & Accessibility Defects**.
+
+---
+
+### 1. Race Conditions & Asynchronous State Defects
+
+* **Stale Closure in `reset()` during Map Navigation (`goMap`)**
+  * **Location:** `goMap` and `reset`
+  * **Defect:** In `goMap(id)`, when switching from an active topic map back to the level map via `goMap("level-map")`, `setSelectedMap("level-map")` is scheduled, followed immediately by `reset()`. Because `reset()` executes in the current render closure, `isTopic` is still `true` and `topic` is still populated.
+  * **Impact:** `reset()` takes the `if (isTopic && topic)` branch and executes `fitTopic(topic)` using the *previous* topic map's dimensions rather than resetting to the level-map defaults. The view re-renders on the level map with an invalid pose.
+
+* **DOM Query Timing Race on Level Navigation**
+  * **Location:** `goMap` (`else if (id.startsWith("level-"))`)
+  * **Defect:** `goMap` calls `setSelectedMap(id)` and immediately queries the DOM via `world.current?.querySelector(...)`. If the user is navigating from a topic map to a level map, the level map DOM has not mounted yet.
+  * **Impact:** `querySelector` returns `null`, `top` defaults to `0`, and the view fails to pan to the requested level section (it defaults to `y: 40`).
+
+* **`suppressClick` Desynchronization / Click Trapping**
+  * **Location:** `onPointerUp`, `onPointerCancel`, and `world.onClick`
+  * **Defect:** Dragging sets `drag.current.moved = true`. On `onPointerUp`, `suppressClick.current` is set to `true`. However, if the pointer is released outside `world` or over a child that does not bubble a click to `world`, `onClick` never fires to reset `suppressClick.current` back to `false`. Furthermore, `onPointerCancel` fails to clear `suppressClick.current`.
+  * **Impact:** The next legitimate click or keyboard activation (`Enter`/`Space`) on any interactive node inside `world` is swallowed and ignored.
+
+* **Stale Mount-Closure in Initial Effect (`useEffect([], [])`)**
+  * **Location:** Initial `useEffect` mount hook
+  * **Defect:** The setup effect runs once on mount with `[]` deps and calls `reset()`. If `viewer.current` has not completed layout yet (`clientWidth === 0`), `reset()` calculates an off-screen pose (`x = -228`).
+  * **Impact:** The initial layout is mispositioned. While `ResizeObserver` offsets subsequent client width deltas, it only adds `delta / 2` to `x` and never re-evaluates the initial fit or handles height adjustments.
+
+* **Concurrent Fetch & Retry State Mismatch**
+  * **Location:** Topic fetch `useEffect`
+  * **Defect:** When `retry` changes or the map ID rapidly switches between uncached topics, previous fetches are aborted, but `topicCache.set(selectedMap, data)` and `fitTopic(data)` can interleave with unbatched React updates (`setTopic`, `setTopicState`, `setPose`), causing flash-of-error or flash-of-empty states before settling.
+
+---
+
+### 2. Pan & Zoom Defects
+
+* **Wheel Zoom Anchors Exclusively to Viewport Center**
+  * **Location:** `wheel` listener and `zoom` function
+  * **Defect:** The `wheel` handler invokes `zoom(e.deltaY < 0 ? 0.1 : -0.1)`. The `zoom` calculation calculates focal coordinates `cx` and `cy` using only the midpoint of `viewer.current` (`clientWidth / 2`, `clientHeight / 2`), completely ignoring `e.clientX` and `e.clientY`.
+  * **Impact:** Users cannot zoom into a specific node or target area under the cursor; the map always zooms toward the dead center of the viewport.
+
+* **Unnormalized Wheel Delta Accelerates Trackpads and Free-Spinning Wheels**
+  * **Location:** `wheel` listener
+  * **Defect:** Zooming uses a fixed `±0.1` step per wheel event regardless of `e.deltaY` or `e.deltaMode`.
+  * **Impact:** Precision trackpads and smooth scroll wheels generate dozens of events per gesture. A slight swipe immediately saturates the scale to either the minimum (`0.35`) or maximum (`1.8`) boundary.
+
+* **Linear Scale Delta Creates Uneven Zoom Dynamics**
+  * **Location:** `zoom` (`scale = Math.max(0.35, Math.min(1.8, p.scale + amount))`)
+  * **Defect:** Adding a constant `0.1` creates non-uniform zoom velocity. At `scale = 0.35`, a `+0.1` step represents a ~28.5% jump, whereas at `scale = 1.7`, it is only a ~5.8% change. Multiplicative scaling is required.
+
+* **Missing `touch-action: none` Breaks Mobile Panning**
+  * **Location:** `<div ref={viewer} className="ui-map-viewer">`
+  * **Defect:** The viewer element lacks `touch-action: none`.
+  * **Impact:** Mobile browsers intercept dragging gestures as native page scrolling, zooming, or pull-to-refresh, emitting a `pointercancel` event and breaking map panning.
+
+* **No Multi-Touch / Pinch Zoom Support**
+  * **Location:** `pointerDown` (`if (e.button !== 0 || !e.isPrimary) return;`)
+  * **Defect:** Non-primary pointer events are discarded. Pinch-to-zoom is unsupported; two-finger gestures degrade into single-finger pan jitter.
+
+* **Redundant `setPointerCapture` Calls During Pointer Move**
+  * **Location:** `onPointerMove` (`if (d.moved) e.currentTarget.setPointerCapture(e.pointerId);`)
+  * **Defect:** `setPointerCapture` is called on *every* pointer move event while dragging, rather than once when movement begins.
+
+* **CSS `transform-origin` Mismatch / Zoom Drift**
+  * **Location:** `<div ref={world} style={{ transform: ... }}>`
+  * **Defect:** The mathematical projection in `zoom` assumes a top-left origin `(0, 0)`, but standard CSS elements default to `transform-origin: 50% 50%` unless explicitly overridden.
+  * **Impact:** As the user zooms, the content drifts away from the intended focal point because CSS scales from the center while the coordinate offsets assume `(0, 0)`.
+
+* **Undefined World Dimensions on Level Map**
+  * **Location:** `<div ref={world} style={{ width: topic?.width, height: topic?.height }}>`
+  * **Defect:** When `isTopic` is `false`, `topic` is `null`. `width` and `height` evaluate to `undefined`, leaving the world container unconstrained while `reset()` assumes a fixed 760px reference width.
+
+* **`offsetTop` Miscalculation and Missing Horizontal Positioning in Level Navigation**
+  * **Location:** `goMap` (`header?.offsetTop`)
+  * **Defect:** `header.offsetTop` is measured relative to its nearest `offsetParent`, which is not guaranteed to be `world.current` if intermediate elements are positioned. Additionally, `goMap` updates only `y` and retains stale `x`, frequently leaving target zone headers positioned far off-screen horizontally.
+
+* **ResizeObserver Ignores Container Height and Aspect Ratio**
+  * **Location:** Initial `useEffect` ResizeObserver
+  * **Defect:** The observer only monitors `clientWidth` and adjusts `pose.x`. It does not listen for `clientHeight` changes or update `pose.y`/`scale` for topic maps fitted via `fitTopic`, which relies on both width and height constraints.
+
+---
+
+### 3. Focus, Keyboard & ARIA Defects
+
+* **Interactive Viewer Lacks Semantic Role**
+  * **Location:** `<div ref={viewer} className="ui-map-viewer" tabIndex={0} ...>`
+  * **Defect:** The element has `tabIndex={0}` and an `aria-label`, but no explicit ARIA role (e.g. `role="region"` or `role="application"`). Screen readers fail to announce the container consistently and treat it as a generic focusable div.
+
+* **Incomplete Keyboard Controls & Missing NumPad Mappings**
+  * **Location:** `onKeyDown` on viewer
+  * **Defect:** The key handler checks strictly for `"+"`, `"="`, and `"-"`, ignoring standard numpad keys (`"Add"` and `"Subtract"`). Standard navigation keys like `PageUp`, `PageDown`, `Home`, and `End` are either incomplete or missing.
+
+* **Focused World Nodes Do Not Scroll or Pan into View**
+  * **Location:** `<div ref={world} dangerouslySetInnerHTML=... />`
+  * **Defect:** When keyboard users press `Tab` into the interactive nodes (`button[data-testid="trail-part"]`) inside the transformed `world`, buttons outside the visible viewport receive focus without updating `pose.x` and `pose.y`.
+  * **Impact:** The browser attempts native container scrolling on the viewer (which is typically `overflow: hidden`), displacing internal coordinate alignments.
+
+* **Closed Drawer Remains in Tab Order (`#path-map-rail`)**
+  * **Location:** `<aside id="path-map-rail" className={"ui-map-rail" + (railOpen ? " is-open" : "")}>`
+  * **Defect:** When `railOpen` is `false`, the rail lacks `aria-hidden="true"`, `inert`, or `hidden`.
+  * **Impact:** Keyboard and screen reader users can tab into the hidden search input and navigation buttons even when the rail is visually off-screen.
+
+* **Drawer Focus Management Failures on Open & Escape**
+  * **Location:** `railToggle` and `aside#path-map-rail`
+  * **Defect:** Opening the rail keeps focus on `railToggle` without moving focus to the search input or first item. Furthermore, the `Escape` key listener is attached *only* to `<aside>`:
+    ```tsx
+    onKeyDown={(e) => { if (e.key === "Escape") { ... railToggle.current?.focus(); } }}
+    ```
+  * **Impact:** Since focus is still on `railToggle` after opening the drawer, pressing `Escape` immediately does nothing because the event never reaches `<aside>`.
+
+* **Misuse of `aria-pressed` for Mutually Exclusive Map Selection**
+  * **Location:** Rail list item buttons (`aria-pressed={selectedMap === entry.id}`)
+  * **Defect:** `aria-pressed` represents independent two-state toggle buttons (like Mute or Bold), not single-selection navigation options.
+  * **Impact:** Screen readers announce each item as an independent toggle switch rather than indicating current selection (`aria-current="page"` or `aria-selected` within a `listbox`/`tablist`).
+
+* **Broken List Semantics and Fragile Group Heading Generation**
+  * **Location:** `.ui-map-rail-list`
+  * **Defect:** Entries are rendered as generic `div`s rather than semantic list items (`<ul role="list">` and `<li>`), preventing announcement of list size or item index. Furthermore, section headers (`<h3>`) are tied to hardcoded item IDs (`entry.id === "tenses"`, etc.). When a search query matches subordinate items but filters out the primary ID, the heading is omitted entirely.
+
+* **Transient `role="status"` Live Region Fails Announcement**
+  * **Location:** `{isTopic && topicState !== "ready" && <div className="ui-map-load" role="status" aria-live="polite">...}`
+  * **Defect:** The live region container is conditionally mounted into the DOM at the exact moment its text appears, and unmounted immediately when `topicState === "ready"`.
+  * **Impact:** Assistive technology frequently misses live announcements when the region container itself is not already present in the DOM prior to content injection.
+
+* **Missing Control Toolbar Semantics**
+  * **Location:** `<div className="ui-map-controls">` and `<output>`
+  * **Defect:** The control container lacks `role="toolbar"` or an `aria-label`. The `<output>` element lacks an explicit `for`/`htmlFor` association linking it to the zoom buttons.
+
+* **Missing Focus Restoration on Dialog Close**
+  * **Location:** `UiDialog` usage
+  * **Defect:** When a node dialog opens and is subsequently dismissed (`setSelectedNode(null)`), focus is not returned to the triggering node button in `world`, dropping focus back to `document.body`.

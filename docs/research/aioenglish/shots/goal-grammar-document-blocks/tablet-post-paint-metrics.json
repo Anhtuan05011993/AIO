@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sec-formula",
+    "source": {
+      "bottom": 776.53125,
+      "height": 523.671875,
+      "left": 20,
+      "right": 740,
+      "top": 252.859375,
+      "width": 720,
+      "x": 20,
+      "y": 252.859375
+    },
+    "production": {
+      "bottom": 800,
+      "height": 523.671875,
+      "left": 20,
+      "right": 728,
+      "top": 276.328125,
+      "width": 708,
+      "x": 20,
+      "y": 276.328125
+    },
+    "delta": 23.46875
+  },
+  {
+    "id": "sec-rule-ps-negative",
+    "source": {
+      "bottom": 791.53125,
+      "height": 515.140625,
+      "left": 20,
+      "right": 740,
+      "top": 276.390625,
+      "width": 720,
+      "x": 20,
+      "y": 276.390625
+    },
+    "production": {
+      "bottom": 791.546875,
+      "height": 515.140625,
+      "left": 20,
+      "right": 728,
+      "top": 276.40625,
+      "width": 708,
+      "x": 20,
+      "y": 276.40625
+    },
+    "delta": 12
+  },
+  {
+    "id": "sec-mistakes-ps",
+    "source": {
+      "bottom": 583.46875,
+      "height": 307.640625,
+      "left": 20,
+      "right": 740,
+      "top": 275.828125,
+      "width": 720,
+      "x": 20,
+      "y": 275.828125
+    },
+    "production": {
+      "bottom": 583.5625,
+      "height": 307.640625,
+      "left": 20,
+      "right": 728,
+      "top": 275.921875,
+      "width": 708,
+      "x": 20,
+      "y": 275.921875
+    },
+    "delta": 12
+  }
+]

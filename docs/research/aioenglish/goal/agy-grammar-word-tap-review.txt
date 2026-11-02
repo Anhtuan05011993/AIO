@@ -1,0 +1,45 @@
+Here is the concrete review of the component categorized by runtime, accessibility, and state bugs:
+
+---
+
+### 1. Accessibility (a11y) Bugs
+
+* **Missing Dialog Focus Management & Focus Trap (WAI-ARIA Dialog Pattern Violation):**
+  * When `selected` becomes truthy and the popup opens, focus is never shifted inside the `<span role="dialog">`. Focus stays on the triggering word token.
+  * There is no focus trap. Because the popup DOM node is rendered after the words, pressing <kbd>Tab</kbd> jumps out of the component entirely rather than cycling through popup actions (Sound, Save, Book, Close).
+  * Missing `aria-modal="true"` on the dialog container.
+* **`aria-controls` Broadcasted to All Tokens:**
+  * `aria-controls={selected ? id : undefined}` is applied to **every** word token during render, asserting that every token in the text controls the popup simultaneously. Only the active trigger (`trigger.current?.dataset.dictIndex === String(i)`) should expose `aria-controls`.
+* **Invalid Phrasing Content / DOM Tree Nesting:**
+  * The root and dialog containers are inline elements (`<span>`), but contain block elements (`<hr />`, `<button>`, etc.). If `GrammarWordTap` is rendered inside a paragraph (`<p>`), browsers will auto-close the `<p>` before `<hr />`, causing DOM hierarchy corruption and React hydration mismatches.
+
+---
+
+### 2. State & Lifecycle Bugs
+
+* **Roving Tabindex Breakdown on Prop Updates (`text` change):**
+  * `const [current, setCurrent] = useState(indexes[0])` only initializes once. If the parent passes a new `text` prop with fewer tokens, `current` remains set to the old index.
+  * If `current` is no longer in `indexes`, **no token receives `tabIndex={0}`**, completely locking keyboard users out of tabbing into the component.
+* **Flawed Outside-Click Dismissal Scope:**
+  * `!root.current?.contains(event.target)` checks against `root` (the entire sentence). Clicking whitespace, punctuation, or empty space inside the sentence text does not dismiss the popup because the target is still inside `root`.
+  * The check should verify that the click was outside `popup.current` and `trigger.current`, not `root.current`.
+* **Zero-Word Text Crash / `NaN` Indexing:**
+  * If `text` contains no letters or digits (e.g., `""` or `"---"`), `indexes` is `[]`.
+  * In `onKeyDown`: `(indexes.indexOf(i) + step + indexes.length) % indexes.length` calculates `% 0`, yielding `NaN`. `indexes[NaN]` returns `undefined`, causing `querySelector('[data-dict-index="undefined"]')` and `indexes.at(-1)!` to fail.
+* **Redundant Dynamic Imports on Every Selection:**
+  * Every token selection re-invokes `import("@/lib/demo-data/dictionary")` inside `useEffect`, causing an avoidable microtask delay and triggering the `"loading"` flash even for previously loaded entries.
+
+---
+
+### 3. Runtime & Layout / Positioning Bugs
+
+* **Next.js SSR Hydration Warning for `useLayoutEffect`:**
+  * Even with `"use client"`, Next.js App Router runs components through server pre-rendering. Calling `useLayoutEffect` directly emits console warnings on SSR (`useLayoutEffect does nothing on the server`). It should fall back to `useEffect` on the server or use an isomorphic layout hook.
+* **Viewport vs. Offset Parent Coordinate Mismatch:**
+  * `place()` calculates `left` and `top` via `getBoundingClientRect()`, which provides viewport-relative coordinates.
+  * If the popup CSS uses `position: absolute`, the popup will drift whenever the page scrolls unless document scroll offsets (`window.scrollX`/`window.scrollY`) or ancestor offsets are added.
+  * If the popup CSS uses `position: fixed`, any ancestor with CSS `transform`, `perspective`, or `filter` will re-root the fixed coordinate space, misplacing the popup entirely.
+* **No Maximum Height or Overflow Handling on Desktop:**
+  * Desktop positioning clamps `top` to `Math.max(8, window.innerHeight - p.height - 8)`. If a dictionary entry has many definitions and `p.height > window.innerHeight - 16`, `top` stays clamped at `8px` while the bottom extends off-screen. Without `overflow-y: auto` or `max-height`, the lower contents become unreachable.
+* **Unthrottled Scroll Event Listener (Layout Thrashing):**
+  * `window.addEventListener("scroll", place, true)` triggers synchronous `getBoundingClientRect()` reads and `setPosition` updates on every capture scroll frame without `requestAnimationFrame` or throttling, degrading scroll performance.

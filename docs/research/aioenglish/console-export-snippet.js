@@ -1,0 +1,22 @@
+/* AIO course data export — chạy trong Console (F12) trên tab aioenglish.com */
+(async () => {
+  const ids = ["crs_de9a9c5a200fffad2d","crs_fc54ca7603033996ff","crs_4f2806bfd37b2d4077","crs_825e8ffc58924550a1","crs_02503551599b54f73d","crs_8dc995d491ba26a6bb","crs_a8b8a4275b2d5ee34f","crs_e9a518586a7b58ff03","crs_eb62e37706d5a84656","crs_51994a9b1565cb6222","crs_78dc0a38fe9d4d41ab","crs_0ef83967f9698e3175","crs_3fd259d73d9ad55a5e","crs_f644220d952e669680","crs_0c6b2c82f477aacafc","crs_0a4e83c6b600617848","crs_a283014fb7c3a9eeb9","crs_bde7e87c46aae1c86f","crs_5dd82f7d74f7b4faa3","crs_9e6be663f4f90513e0","crs_fd43c864364a9483fc","crs_ebb4f9781611b589ee","crs_a27a94d9b0d02359a8","crs_5757198fa0b1a08b3f","crs_9d962d666272786d97","crs_5621c62b19b3e86bbd","crs_31162644eab6c6bef1","crs_fa27972b1ce89ab77b","crs_4d8a4fc8491c7fc071","crs_d84dacd2504b8f2e1b","crs_9dc1fabbeb6cd0508f","crs_bc9c7f4c106aa57831","crs_ada2ed44bb784b7b56","crs_d1623f14aa1cbb93a6","crs_c219d37a21758c17b2","crs_5357e6660bd04a7252","crs_612c16ea28abd6b2e7","crs_1794190c6e977f6077","crs_44470da82a0d23a360","crs_ea425b180cca860b84"];
+  const out = {};
+  let done = 0, fail = 0;
+  for (const id of ids) {
+    try {
+      const r = await fetch('/api/go-cau/course/' + id);
+      const j = await r.json();
+      if (r.ok && j && j.statements) { out[id] = j; done++; }
+      else { fail++; out[id] = { __error: r.status }; }
+      console.log('[' + (done + fail) + '/' + ids.length + '] ' + id + (out[id].__error ? ' FAILED ' + r.status : ' ok'));
+    } catch (e) { fail++; out[id] = { __error: 'network' }; }
+    await new Promise(res => setTimeout(res, 3500));
+  }
+  const blob = new Blob([JSON.stringify(out)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'aio-courses-missing.json';
+  a.click();
+  console.log('XONG! ok=' + done + ' fail=' + fail + ' — file aio-courses-missing.json đã tải về Downloads');
+})();

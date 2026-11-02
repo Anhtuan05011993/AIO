@@ -1,0 +1,17 @@
+{
+  "drawerBackdrop": {
+    "closed": true,
+    "focus": "Menu điều hướng"
+  },
+  "navigation": {
+    "route": "/ngu-phap",
+    "dialog": false,
+    "tag": "BODY"
+  },
+  "fullscreen": {
+    "enteredLabel": "Thoát toàn màn hình",
+    "pressed": true,
+    "exitLabel": "Toàn màn hình",
+    "pressedAfterExit": false
+  }
+}

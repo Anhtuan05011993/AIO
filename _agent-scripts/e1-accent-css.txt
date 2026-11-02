@@ -1,0 +1,121 @@
+.nbx-r-do{--nb-x-fa:var(--nb-x-do);--nb-x-fb:var(--nb-x-do-m);--nb-x-fc:var(--nb-x-do-d);--nb-x-ft:var(--nb-x-do-t);--nb-x-fd:var(--nb-x-do-d);--nb-x-st:var(--nb-x-do-d)}
+
+.nbx-r-goal{--nb-x-fa:var(--nb-x-goal);--nb-x-fb:var(--nb-x-goal-m);--nb-x-fc:var(--nb-x-goal-d);--nb-x-ft:var(--nb-x-goal-t);--nb-x-fd:var(--nb-x-goal-d);--nb-x-st:var(--nb-x-goal-d)}
+
+.nbx-r-heat{--nb-x-fa:var(--nb-x-heat);--nb-x-fb:var(--nb-x-heat-m);--nb-x-fc:var(--nb-x-heat-d);--nb-x-ft:var(--nb-x-heat-t);--nb-x-fd:var(--nb-x-heat-d);--nb-x-st:var(--nb-x-heat-d)}
+
+.nbx-r-ok{--nb-x-fa:var(--nb-x-ok);--nb-x-fb:var(--nb-x-ok-m);--nb-x-fc:var(--nb-x-ok-d);--nb-x-ft:var(--nb-x-ok-t);--nb-x-fd:var(--nb-x-ok-d);--nb-x-st:var(--nb-x-ok-d)}
+
+.nbx-r-soc{--nb-x-fa:var(--nb-x-soc);--nb-x-fb:var(--nb-x-soc-m);--nb-x-fc:var(--nb-x-soc-d);--nb-x-ft:var(--nb-x-soc-t);--nb-x-fd:var(--nb-x-soc-d);--nb-x-st:var(--nb-x-soc-d)}
+
+.nbx-r-ref{--nb-x-fa:var(--nb-x-ref);--nb-x-fb:var(--nb-x-ref-m);--nb-x-fc:var(--nb-x-ref-d);--nb-x-ft:var(--nb-x-ref-t);--nb-x-fd:var(--nb-x-ref-d);--nb-x-st:var(--nb-x-ref-d)}
+
+.nbx-r-peach{--nb-x-fa:var(--nb-x-peach);--nb-x-fb:var(--nb-x-peach-m);--nb-x-fc:var(--nb-x-peach-d);--nb-x-ft:var(--nb-x-peach-t);--nb-x-fd:var(--nb-x-peach-d);--nb-x-st:var(--nb-x-peach-d)}
+
+.nbx-r-ivory{--nb-x-fc:var(--nb-x-ivory-d);--nb-x-ft:var(--nb-x-ivory-t);--nb-x-st:var(--nb-x-ivory-d)}
+
+.nbx-lv-a2{--nb-x-st:var(--nb-x-info-d)}
+
+.nbx-lv-b2{--nb-x-st:var(--nb-x-peach-d)}
+
+.nbx-f-dict,.nbx-f-exam,.nbx-f-friend,.nbx-f-go,.nbx-f-gram,.nbx-f-home,.nbx-f-path,.nbx-f-read,.nbx-f-req,.nbx-f-vid,.nbx-f-voc,.nbx-lv-a1,.nbx-lv-a2,.nbx-lv-b1,.nbx-lv-b2,.nbx-lv-c1,.nbx-r-do,.nbx-r-goal,.nbx-r-heat,.nbx-r-info,.nbx-r-ivory,.nbx-r-ok,.nbx-r-peach,.nbx-r-ref,.nbx-r-soc,.nbx-rail-in,[data-nb-accent]{--nb-x-line:color-mix(in srgb,var(--nb-x-fd,var(--nb-x-ivory-d)) var(--nb-x-line-k),transparent);--nb-x-off:3px 3px 0 color-mix(in srgb,var(--nb-x-fd,var(--nb-x-ivory-d)) var(--nb-x-off-k),transparent);--nb-x-off-s:2px 2px 0 color-mix(in srgb,var(--nb-x-fd,var(--nb-x-ivory-d)) var(--nb-x-off-k),transparent)}
+
+.nbx-main a{color:inherit;text-decoration:none}
+
+.nbx-main h1,.nbx-main h2,.nbx-main h3,.nbx-main p{margin:0}
+
+.nbx-main{flex-direction:column;gap:20px;min-width:0;display:flex}
+
+.nbx-ell{text-overflow:ellipsis;white-space:nowrap;min-width:0;overflow:hidden}
+
+:root:where([data-skin=sotay]) .nbx-blk.nbx-pile:before{content:"";z-index:-1;border-radius:inherit;background:var(--nb-x-bk,var(--nb-x-fb));transform:rotate(var(--nb-x-tilt,.8deg)) translate(5px,6px);opacity:.85;position:absolute;inset:0;box-shadow:0 10px 20px -16px #281e0a80}
+
+:root:where([data-skin=sotay]) .nbx-blk.nbx-pile.nbx-alt:before{--nb-x-tilt:-.7deg}
+
+:root:where([data-skin=sotay]) .nbx-blk.nbx-pile:before{transform:skewY(var(--nb-x-tilt,.8deg)) translate(5px,6px)}
+
+.nbx-seg,.nbx-seg a{border-radius:var(--nb-x-rc);display:inline-flex}
+
+.nbx-seg a{white-space:nowrap;height:36px;color:var(--nb-x-ink2);align-items:center;gap:6px;padding:0 14px;font-size:13.5px;font-weight:800}
+
+.nbx-seg a.nbx-on{background:var(--nb-x-fb);color:var(--nb-x-ft)}
+
+:root:where([data-skin=sotay]) .nbx-seg a.nbx-on{box-shadow:0 6px 12px -8px color-mix(in srgb,var(--nb-x-fd) 90%,transparent)}
+
+:root:where(:not([data-skin=sotay])) .nbx-seg a.nbx-on{background:var(--nb-x-fb);color:var(--nb-x-ink)}
+
+:where(.nbx-blk,.nbx-card,.nbc-blk,[data-nb-header]) :is(.nbx-chip,.nbx-row,.nbx-tile,.nbx-bar,.nbx-lvg,.nbx-stat4>*):is(.nbx-r-do,.nbx-r-goal,.nbx-r-heat,.nbx-r-ok,.nbx-r-soc,.nbx-r-ref,.nbx-r-info,.nbx-r-peach,.nbx-r-ivory,.nbx-lv-a1,.nbx-lv-a2,.nbx-lv-b1,.nbx-lv-b2,.nbx-lv-c1,.nbx-lv-c2){--nb-x-fa:inherit;--nb-x-fb:inherit;--nb-x-fc:inherit;--nb-x-ft:inherit;--nb-x-fd:inherit}
+
+:where(.nbx-blk,.nbx-card,.nbc-blk,[data-nb-header]) .nbx-chip.nbx-lvl:is(.nbx-lv-a1,.nbx-lv-a2,.nbx-r-ok){background:color-mix(in srgb,var(--nb-x-fb) 45%,var(--nb-x-row-h));color:var(--nb-x-ft);box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--nb-x-fc) 30%,transparent)}
+
+:where(.nbx-blk,.nbx-card,.nbc-blk,[data-nb-header]) .nbx-lvg:is(.nbx-lv-a1,.nbx-lv-a2){background:color-mix(in srgb,var(--nb-x-fb) 45%,var(--nb-x-row-h));color:var(--nb-x-ft)}
+
+:where(.nbx-blk,.nbx-card,.nbc-blk,[data-nb-header]) :is(.nbx-chip.nbx-lvl,.nbx-lvg):is(.nbx-lv-b1,.nbx-lv-b2,.nbx-r-do){background:var(--nb-x-fb);color:var(--nb-x-ft)}
+
+:where(.nbx-blk,.nbx-card,.nbc-blk,.nbc-lv1,.nbc-hd,[data-nb-header]) :is(.nbc-chip,.nbc-tag):is(.nbx-r-do,.nbx-r-goal,.nbx-r-heat,.nbx-r-ok,.nbx-r-soc,.nbx-r-ref,.nbx-r-info,.nbx-r-peach,.nbx-lv-a1,.nbx-lv-a2,.nbx-lv-b1,.nbx-lv-b2,.nbx-lv-c1,.nbx-lv-c2){--nb-x-fa:inherit;--nb-x-fb:inherit;--nb-x-fc:inherit;--nb-x-ft:inherit;--nb-x-fd:inherit}
+
+.nbx-rail-in{border-radius:var(--nb-x-r1);background:var(--nb-x-ivory);flex-direction:column;gap:4px;height:100%;min-height:860px;padding:34px 12px 14px;display:flex;position:sticky;top:16px}
+
+:root:where([data-skin=sotay]) .nbx-rail-in{background-image:var(--nb-x-grain-blk);box-shadow:var(--nb-x-sh);--nb-x-fd:var(--nb-x-ivory-d)}
+
+:root:where(:not([data-skin=sotay])) .nbx-rail-in{border:1.75px solid var(--nb-x-line);box-shadow:none;padding-top:18px}
+
+.nbx-main{isolation:isolate}
+
+.nbx-seg a,.nbx-seg button{isolation:isolate;position:relative}
+
+:root:where([data-skin=sotay]) .nbx-seg :is(a,button):not(.nbx-on):before{content:"";z-index:-1;border-radius:inherit;background:color-mix(in srgb,var(--nb-x-fb) 55%,var(--nb-x-paper));transform-origin:0;opacity:0;transition:transform .6s var(--nb-x-ease),opacity .6s var(--nb-x-ease);position:absolute;inset:0;transform:perspective(160px)rotateY(-92deg)}
+
+:root:where([data-skin=sotay]) .nbx-seg :is(a,button):not(.nbx-on):hover:before{opacity:1;transform:perspective(160px)rotateY(0)}
+
+:root[data-skin=sotay] :is(.nbx-row,.nbx-gain,.nbx-b-sec,.nbx-inp,.nbx-me,.nbx-seg,.nbu-st,.nbc-seg,.nbx-empty,.nbx-kv2 span,.nbx-mast li,.den-ex,.dipn-row,.fpi-ex,.ph-stat,.ds-input,.tb-row,.tq-row,.tm-row,.fp-cell,.nb-rbody,.fp-label,.fp-tip,.nbl-bk,.dm-opt,.vmp-opt,.vmp-level,.nbx-d-sc,.nbx-d-mode,.nbx-d-type,[data-tc-row]):not(#nbx){background-image:var(--nb-x-grain-row)}
+
+:root[data-skin=sotay] :is(.nbx-chip,.nbx-tile,.nbx-num,.nbx-lvg,.nbr-tag,.nbc-pill,.nbc-opt,.nbc-inp,.nbc-tag,.nbc-chip,.nbc-lv3,.nb-pill,.nb-btn-soft,.hnst,.pace-seg,.xp-pill,.vsb-in,.nbc-stp.is-cur,.nbx-row.nbx-on,.htp-row,.rb-row,.pci-it,.nbc-linkbox,.fpi,.nbx-b-pri,.nbx-b-mine,.nbx-seg a.nbx-on,.nbx-ni.nbx-on,.nbx-vcard,.nbc-btn,.nb-btn,.nb-pop:not(.nb-dlg),[role=dialog]:not(.nbx-d-dlg),.nbx-mast li.nbx-on,.frq-vote,.rb-tab.nbx-on,.hck-fb,.hck-cta,.nbc-danger,.pci-n,.nbc-stp.is-done,.nbx-stat4>*,.hck,.fid-top,.fab-ink,[data-testid=video-filter-trigger],.tb-need,.th-tab,.ts-tile,.nb-stk,.nb-chip,.fs-chip,.fs-flag,.slink,.nb-back,.tq-go,.tm-mini,.pg-goal,.pg-stk,.nb-seal,.ar-sk,.fp-stamp,.fp-choice,article.mk,.mb-tabs>a,.hs-tabs a,.fp-seg>button[aria-pressed=true],section.sc,section.mc,.mb-op.is-on,.hs-chip.is-on,.tr-day-h,.nb-row,.mk-ans,.btn-ink,.hck-ok,.lt-pos,.qr-rate,.ovb-step,.qr-reveal,.bank-chip.is-on,.lt-head,.pc-pin,.gcpl-go,.sp-note,.gt-chip,.npc-fml,.npc-exs,.lwa.isle,.nbc-sk,.pos-ink,.vm-lg,.vst-bub,.pls-bub,.rbs-rec,.gr-spk,.gr-kick,.vmp-lesson,.rg-cell,.rn-go,.rk-link,.rk-ttb,.ro-note,.rs-note,.rk-q,.rf-row,.nbl-kt,.nbc-kbd,.nbx-d-n,[data-tc-row].nbx-on,.nbc-back,.nbx-d-tops>.router-link-exact-active,.rounded-card.border-bw.bg-surface,.search-box input,.nbc-hd-tt>a):not(#nbx){background-image:var(--nb-x-grain-sm)}
+
+.nbx-lv-a2{--nb-x-fa:var(--nb-x-info);--nb-x-fb:var(--nb-x-info-m);--nb-x-fc:var(--nb-x-info-d);--nb-x-ft:var(--nb-x-info-t);--nb-x-fd:var(--nb-x-info-d)}
+
+.nbx-lv-b2{--nb-x-fa:var(--nb-x-peach);--nb-x-fb:var(--nb-x-peach-m);--nb-x-fc:var(--nb-x-peach-d);--nb-x-ft:var(--nb-x-peach-t);--nb-x-fd:var(--nb-x-peach-d)}
+
+.nbx-steps:before{content:"";border-top:3px dashed color-mix(in srgb,var(--nb-x-ink) 28%,transparent);z-index:0;height:0;position:absolute;top:43px;left:40px;right:40px}
+
+:root:where(:not([data-skin=sotay])) .nbx-steps:before{background:var(--nb-x-line);border-top:0;height:2.5px}
+
+.nbx-steps .nbx-card{flex:1;gap:7px;padding:16px}
+
+.nbx-steps .nbx-next .nbx-card{-moz-column-gap:14px;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-content:start;column-gap:14px;display:grid}
+
+.nbx-steps .nbx-next .nbx-card>.nbx-lvd,.nbx-steps .nbx-next .nbx-card>.nbx-lvh,.nbx-steps .nbx-next .nbx-card>.nbx-lvn{grid-column:1/-1}
+
+.nbx-steps .nbx-next .nbx-lvnext{grid-row:span 2}
+
+.nbx-steps .nbx-next .nbx-card{outline:0}
+
+:root:where([data-skin=sotay]) .nbx-steps .nbx-next .nbx-card{box-shadow:0 0 0 2.5px color-mix(in srgb,var(--nb-x-fc) 70%,transparent),0 16px 26px -14px var(--nb-x-fd)}
+
+:root:where(:not([data-skin=sotay])) .nbx-steps .nbx-next .nbx-card{box-shadow:var(--nb-x-off);border-width:2.25px}
+
+.nbx-steps .nbx-card .nbx-btn{align-self:flex-start}
+
+.nbx-hc .nbx-disc.nbx-est{background:var(--nb-x-ink);color:var(--nb-x-desk)}
+
+.nbx-hc .nbx-disc.nbx-tgt{background:var(--nb-x-heat-d);color:#fff}
+
+:root:where([data-skin=sotay]) .nbx-hc .nbx-disc.nbx-tgt{box-shadow:0 12px 22px -12px var(--nb-x-heat-d);rotate:4deg}
+
+:root:where([data-skin=sotay]) .nbx-hc .nbx-disc.nbx-est{rotate:-4deg}
+
+:root:where([data-theme=dark]) .nbx-hc .nbx-disc.nbx-est{background:var(--nb-x-goal-m);color:var(--nb-x-ink)}
+
+:root:where([data-skin=sotay]) .nbx-hc .nbx-blk.nbx-dots.nbx-r-info,:root:where([data-skin=sotay]) .nbx-hc .nbx-blk.nbx-dots.nbx-r-ref,:root:where([data-skin=sotay]) .nbx-hc .nbx-blk.nbx-fibre{background-image:var(--nb-x-tx-fibre),var(--nb-x-grain-blk)}
+
+.nbx-seg button{border-radius:var(--nb-x-rc);height:36px;font:800 13.5px/1 var(--nb-font-body);white-space:nowrap;color:var(--nb-x-ink2);cursor:pointer;background:0 0;border:0;align-items:center;gap:6px;padding:0 14px;display:inline-flex}
+
+.nbx-seg button.nbx-on{background:var(--nb-x-fb);color:var(--nb-x-ft)}
+
+.nbx-seg button.nbx-mut{color:var(--nb-x-mut);cursor:default}
+
+:root:where([data-skin=sotay]) .nbx-seg button.nbx-on{box-shadow:0 6px 12px -8px color-mix(in srgb,var(--nb-x-fd) 90%,transparent)}
+
+:root:where(:not([data-skin=sotay])) .nbx-seg button.nbx-on{background:var(--nb-x-fb);color:var(--nb-x-ink)}
+
+.nbx-seg button:focus-visible{outline:2px solid var(--nb-x-fc);outline-offset:1px}

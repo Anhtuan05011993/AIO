@@ -1,0 +1,438 @@
+/* path.css — Agent E1: trang /lo-trinh (bản đồ lộ trình TOEIC 785).
+ *
+ * Toàn bộ widget dùng lại class gốc `nbx-*` của source (entry.css): nbx-blk,
+ * nbx-r-goal/nbx-r-info, nbx-pct/nbx-lvbar/nbx-mark, nbx-kv2, nbx-row, nbx-chip,
+ * nbx-seg.nbx-lvseg, nbx-chap/nbx-ch-h, nbx-tile nbx-f-*, nbx-btn…
+ * Container gốc của cụm app page là `.nbx-hc`; các rule chương (`:where(.nbx-hb)
+ * .nbx-chap…`) cần ancestor `.nbx-hb` — vì vậy container của trang đặt cả hai
+ * class (cả hai đều tồn tại trong entry.css).
+ *
+ * Chỉ những phần KHÔNG có rule gốc (layout trang, nút accordion, trạng thái
+ * unit, accent pastel theo chương, hành vi cuộn ngang mobile) mới viết ở đây
+ * với tiền tố `lp-*`. Accent pastel 11 chương tái dùng biến màu `--zone-1..6`
+ * + `--land-1..5` của source (entry.css không có mảng màu theo chương trong
+ * learningPath.ts — file data không có trường zone/land).
+ */
+
+/* ------------------------------------------------------------------ */
+/* 1. Layout trang — cột dọc các card, giống nhịp .nbx-main            */
+/* ------------------------------------------------------------------ */
+
+.lp-path {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+}
+
+/* Dòng phụ trong .nbx-row: cho phép wrap (ETA dài) */
+.lp-path .nbx-row .nbx-tt small {
+  white-space: normal;
+  line-height: 1.35;
+}
+
+/* Sát cạnh %: nhãn "chặng đường tới …" */
+.lp-path .nbx-pct .lp-pct-t {
+  color: var(--nb-x-ink2);
+  font-weight: 700;
+  font-size: 15px;
+}
+
+/* Vạch "Kiểm tra lên cấp" đặt ở cuối thanh (100%) — ne vào mép phải */
+.lp-path .nbx-lvbar .nbx-mark.is-end {
+  left: auto;
+  right: 0;
+  transform: none;
+  align-items: flex-end;
+}
+
+/* ------------------------------------------------------------------ */
+/* 2. Dải cấp độ A1→C1 (.nbx-seg.nbx-lvseg) — nút hiện tại = nbx-on    */
+/* ------------------------------------------------------------------ */
+
+.lp-path .lp-lvseg {
+  flex-wrap: wrap;
+}
+
+.lp-path .lp-lvseg button {
+  gap: 3px;
+  flex-direction: column;
+  align-items: flex-start;
+  height: auto;
+  min-height: 36px;
+  padding: 4px 12px;
+  line-height: 1.1;
+}
+
+.lp-path .lp-lvseg button small {
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--nb-x-mut);
+  white-space: nowrap;
+}
+
+.lp-path .lp-lvseg button.nbx-on small {
+  color: inherit;
+  opacity: 0.72;
+}
+
+/* ------------------------------------------------------------------ */
+/* 3. Danh sách chương — accordion card, accent pastel theo chương     */
+/* ------------------------------------------------------------------ */
+
+.lp-chapters {
+  display: grid;
+  gap: 12px;
+}
+
+.lp-chaps {
+  display: grid;
+  gap: 12px;
+}
+
+/* Accent pastel 11 chương: chương 1–6 dùng --zone-N, 7–11 dùng --land-N
+   (fa = nền card phai, fb = nền tile/chip, fc/fd/st = đậm để viền/điểm nhấn) */
+.lp-path .nbx-chap.lp-acz-1 {
+  --nb-x-fa: color-mix(in srgb, hsl(var(--zone-1)) 55%, var(--nb-x-ivory));
+  --nb-x-fb: hsl(var(--zone-1));
+  --nb-x-fc: hsl(var(--zone-1-ink));
+  --nb-x-ft: hsl(var(--zone-1-ink));
+  --nb-x-fd: hsl(var(--zone-1-ink));
+  --nb-x-st: hsl(var(--zone-1-ink));
+  --nb-x-line: color-mix(in srgb, hsl(var(--zone-1-ink)) 26%, transparent);
+}
+
+.lp-path .nbx-chap.lp-acz-2 {
+  --nb-x-fa: color-mix(in srgb, hsl(var(--zone-2)) 55%, var(--nb-x-ivory));
+  --nb-x-fb: hsl(var(--zone-2));
+  --nb-x-fc: hsl(var(--zone-2-ink));
+  --nb-x-ft: hsl(var(--zone-2-ink));
+  --nb-x-fd: hsl(var(--zone-2-ink));
+  --nb-x-st: hsl(var(--zone-2-ink));
+  --nb-x-line: color-mix(in srgb, hsl(var(--zone-2-ink)) 26%, transparent);
+}
+
+.lp-path .nbx-chap.lp-acz-3 {
+  --nb-x-fa: color-mix(in srgb, hsl(var(--zone-3)) 55%, var(--nb-x-ivory));
+  --nb-x-fb: hsl(var(--zone-3));
+  --nb-x-fc: hsl(var(--zone-3-ink));
+  --nb-x-ft: hsl(var(--zone-3-ink));
+  --nb-x-fd: hsl(var(--zone-3-ink));
+  --nb-x-st: hsl(var(--zone-3-ink));
+  --nb-x-line: color-mix(in srgb, hsl(var(--zone-3-ink)) 26%, transparent);
+}
+
+.lp-path .nbx-chap.lp-acz-4 {
+  --nb-x-fa: color-mix(in srgb, hsl(var(--zone-4)) 55%, var(--nb-x-ivory));
+  --nb-x-fb: hsl(var(--zone-4));
+  --nb-x-fc: hsl(var(--zone-4-ink));
+  --nb-x-ft: hsl(var(--zone-4-ink));
+  --nb-x-fd: hsl(var(--zone-4-ink));
+  --nb-x-st: hsl(var(--zone-4-ink));
+  --nb-x-line: color-mix(in srgb, hsl(var(--zone-4-ink)) 26%, transparent);
+}
+
+.lp-path .nbx-chap.lp-acz-5 {
+  --nb-x-fa: color-mix(in srgb, hsl(var(--zone-5)) 55%, var(--nb-x-ivory));
+  --nb-x-fb: hsl(var(--zone-5));
+  --nb-x-fc: hsl(var(--zone-5-ink));
+  --nb-x-ft: hsl(var(--zone-5-ink));
+  --nb-x-fd: hsl(var(--zone-5-ink));
+  --nb-x-st: hsl(var(--zone-5-ink));
+  --nb-x-line: color-mix(in srgb, hsl(var(--zone-5-ink)) 26%, transparent);
+}
+
+.lp-path .nbx-chap.lp-acz-6 {
+  --nb-x-fa: color-mix(in srgb, hsl(var(--zone-6)) 55%, var(--nb-x-ivory));
+  --nb-x-fb: hsl(var(--zone-6));
+  --nb-x-fc: hsl(var(--zone-6-ink));
+  --nb-x-ft: hsl(var(--zone-6-ink));
+  --nb-x-fd: hsl(var(--zone-6-ink));
+  --nb-x-st: hsl(var(--zone-6-ink));
+  --nb-x-line: color-mix(in srgb, hsl(var(--zone-6-ink)) 26%, transparent);
+}
+
+.lp-path .nbx-chap.lp-acl-1 {
+  --nb-x-fa: color-mix(in srgb, hsl(var(--land-1)) 55%, var(--nb-x-ivory));
+  --nb-x-fb: hsl(var(--land-1));
+  --nb-x-fc: hsl(var(--land-1-ink));
+  --nb-x-ft: hsl(var(--land-1-ink));
+  --nb-x-fd: hsl(var(--land-1-ink));
+  --nb-x-st: hsl(var(--land-1-ink));
+  --nb-x-line: color-mix(in srgb, hsl(var(--land-1-ink)) 26%, transparent);
+}
+
+.lp-path .nbx-chap.lp-acl-2 {
+  --nb-x-fa: color-mix(in srgb, hsl(var(--land-2)) 55%, var(--nb-x-ivory));
+  --nb-x-fb: hsl(var(--land-2));
+  --nb-x-fc: hsl(var(--land-2-ink));
+  --nb-x-ft: hsl(var(--land-2-ink));
+  --nb-x-fd: hsl(var(--land-2-ink));
+  --nb-x-st: hsl(var(--land-2-ink));
+  --nb-x-line: color-mix(in srgb, hsl(var(--land-2-ink)) 26%, transparent);
+}
+
+.lp-path .nbx-chap.lp-acl-3 {
+  --nb-x-fa: color-mix(in srgb, hsl(var(--land-3)) 55%, var(--nb-x-ivory));
+  --nb-x-fb: hsl(var(--land-3));
+  --nb-x-fc: hsl(var(--land-3-ink));
+  --nb-x-ft: hsl(var(--land-3-ink));
+  --nb-x-fd: hsl(var(--land-3-ink));
+  --nb-x-st: hsl(var(--land-3-ink));
+  --nb-x-line: color-mix(in srgb, hsl(var(--land-3-ink)) 26%, transparent);
+}
+
+.lp-path .nbx-chap.lp-acl-4 {
+  --nb-x-fa: color-mix(in srgb, hsl(var(--land-4)) 55%, var(--nb-x-ivory));
+  --nb-x-fb: hsl(var(--land-4));
+  --nb-x-fc: hsl(var(--land-4-ink));
+  --nb-x-ft: hsl(var(--land-4-ink));
+  --nb-x-fd: hsl(var(--land-4-ink));
+  --nb-x-st: hsl(var(--land-4-ink));
+  --nb-x-line: color-mix(in srgb, hsl(var(--land-4-ink)) 26%, transparent);
+}
+
+.lp-path .nbx-chap.lp-acl-5 {
+  --nb-x-fa: color-mix(in srgb, hsl(var(--land-5)) 55%, var(--nb-x-ivory));
+  --nb-x-fb: hsl(var(--land-5));
+  --nb-x-fc: hsl(var(--land-5-ink));
+  --nb-x-ft: hsl(var(--land-5-ink));
+  --nb-x-fd: hsl(var(--land-5-ink));
+  --nb-x-st: hsl(var(--land-5-ink));
+  --nb-x-line: color-mix(in srgb, hsl(var(--land-5-ink)) 26%, transparent);
+}
+
+/* Nút bung/thu cả card (rule gốc .nbx-ch-h là style cho div) */
+.lp-path button.nbx-ch-h,
+.lp-path button.lp-chh {
+  width: 100%;
+  background: 0 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  align-items: center;
+}
+
+.lp-path button.nbx-ch-h:focus-visible {
+  outline: 2px solid var(--nb-x-fc);
+  outline-offset: 4px;
+  border-radius: 8px;
+}
+
+/* Ô số chương — nhuộm theo accent chương thay vì ref mặc định */
+.lp-path .nbx-ch-h > .nbx-num {
+  background: var(--nb-x-fb);
+  color: var(--nb-x-ft);
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  display: grid;
+  place-items: center;
+  font-size: 15px;
+  flex: none;
+}
+
+/* Cụm phải của header: chip trạng thái + mũi tên */
+.lp-path .lp-chright {
+  margin-left: auto;
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--nb-x-mut);
+}
+
+.lp-path .lp-chev {
+  display: inline-flex;
+}
+
+.lp-path .lp-chev svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+  transition: rotate 0.2s var(--nb-x-ease, ease);
+}
+
+.lp-path .nbx-ch-h[aria-expanded="true"] .lp-chev svg {
+  rotate: 180deg;
+}
+
+.lp-path .lp-lock {
+  display: inline-flex;
+}
+
+.lp-path .lp-lock svg {
+  width: 15px;
+  height: 15px;
+  display: block;
+}
+
+/* ------------------------------------------------------------------ */
+/* 4. Hàng unit trong chương — dùng li của .nbx-chap (chấm tròn gốc)   */
+/* ------------------------------------------------------------------ */
+
+.lp-path .nbx-chap .lp-units {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 2px;
+}
+
+.lp-path .nbx-chap li.lp-unit {
+  align-items: center;
+  gap: 10px;
+  min-height: 42px;
+  padding: 3px 4px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.lp-path .lp-utx {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.lp-path .lp-kick {
+  color: var(--nb-x-mut);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.lp-path .lp-ut {
+  font-size: 13.5px;
+  font-weight: 700;
+  line-height: 1.3;
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+a.lp-ut:hover,
+a.lp-ut:focus-visible {
+  text-decoration: underline;
+}
+
+/* Nhãn phải: ~phút / chip "Tiếp theo" / lock */
+.lp-path .lp-um {
+  margin-left: auto;
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--nb-x-mut);
+  font-size: 11.5px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* Trạng thái */
+.lp-path .lp-unit.is-done .lp-ut {
+  color: var(--nb-x-ink2);
+}
+
+.lp-path .lp-unit.is-done:before {
+  background: var(--nb-x-ok-d);
+  box-shadow: none;
+}
+
+.lp-path .lp-unit.is-done .nbx-tile {
+  color: var(--nb-x-ok-d);
+  background: color-mix(in srgb, var(--nb-x-ok-m) 55%, var(--nb-x-row-h));
+  box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--nb-x-ok-d) 30%, transparent);
+}
+
+.lp-path .lp-unit.is-now {
+  background: color-mix(in srgb, var(--nb-x-fb) 55%, transparent);
+}
+
+.lp-path .lp-unit.is-now:before {
+  background: var(--nb-x-fc);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--nb-x-fc) 22%, transparent);
+}
+
+.lp-path .lp-unit.is-nodata {
+  opacity: 0.6;
+}
+
+.lp-path .lp-unit.is-locked {
+  opacity: 0.55;
+}
+
+/* Chip "Tiếp theo" trên unit hiện tại (nền ink như nguồn .nbx-mark) */
+.lp-path .lp-um .nbx-chip {
+  height: 22px;
+  padding: 0 9px;
+  font-size: 11px;
+}
+
+/* ------------------------------------------------------------------ */
+/* 5. Mobile ≤599px — chương thu thành dải unit cuộn ngang             */
+/* ------------------------------------------------------------------ */
+
+@media (max-width: 599px) {
+  .lp-path .nbx-ch-h .nbx-tt b {
+    white-space: normal;
+  }
+
+  .lp-path .nbx-ch-h .nbx-tt small {
+    white-space: normal;
+  }
+
+  .lp-path .nbx-chap .lp-units {
+    display: flex;
+    overflow-x: auto;
+    gap: 8px;
+    padding: 2px 2px 8px;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .lp-path .nbx-chap li.lp-unit {
+    flex: 0 0 228px;
+    min-width: 228px;
+    scroll-snap-align: start;
+    align-items: flex-start;
+    padding: 7px 9px;
+    border: 1.5px dashed color-mix(in srgb, var(--nb-x-ink) 18%, transparent);
+    background: color-mix(in srgb, var(--nb-x-fb) 30%, transparent);
+  }
+
+  .lp-path .nbx-chap li.lp-unit:before {
+    display: none;
+  }
+
+  .lp-path .lp-um {
+    margin-left: 0;
+  }
+
+  .lp-path .nbx-chap li.lp-unit .lp-utx {
+    flex: 1;
+  }
+
+  .lp-path .lp-ut {
+    white-space: normal;
+  }
+
+  /* Dải cấp độ: cuộn ngang thay vì wrap */
+  .lp-path .lp-lvseg {
+    flex-wrap: nowrap;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .lp-path .lp-lvseg button {
+    flex: none;
+  }
+}

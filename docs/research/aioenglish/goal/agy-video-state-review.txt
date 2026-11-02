@@ -1,0 +1,49 @@
+Here is the review of the supplied React UI code focusing strictly on **state**, **keyboard**, and **focus** bugs.
+
+---
+
+### Verified Findings
+
+#### 1. Focus Lost to `document.body` on "Xoá hết bộ lọc" (`VideoFilters`)
+* **Bug:** In `VideoFilters`, the clear button has `disabled={!count}`.
+* **Mechanism:** When a keyboard user tabs to "Xoá hết bộ lọc" and activates it via <kbd>Space</kbd> or <kbd>Enter</kbd>, `onLevel("")` and `onSelected([])` immediately drop `count` to `0`. The button instantly becomes `disabled={true}`.
+* **Focus Impact:** When the currently focused element becomes disabled, browsers remove focus and reset it to `document.body`. The user is thrown out of the popover and loses their place in the DOM.
+
+#### 2. Focus Lost to `document.body` at Pagination Boundaries (`VideoResults`)
+* **Bug:** "Trước" and "Tiếp" buttons have `disabled={current === 1}` and `disabled={current === pages}`.
+* **Mechanism:** When a keyboard user focuses "Tiếp" and navigates to the final page (`current === pages`), or focuses "Trước" and steps down to page 1 (`current === 1`), the button receives `disabled={true}` while still focused.
+* **Focus Impact:** The browser drops focus from the disabled button straight to `document.body`.
+
+#### 3. Stale `page` State on Data / Filter Changes (`VideoResults`)
+* **Bug:** `page` is initialized once via `useState(1)` and never resets when `videos` changes.
+* **State Impact:**
+  * If a user is on page 4 of an unfiltered list and then applies a search query or topic filter matching only 2 pages, `current = Math.min(page, pages)` clamps the view to page 2 instead of returning the user to page 1 of the new results.
+  * If the user clears the search filter back to 5 pages, `page` (which remained `4` in state) springs back to page 4 automatically without user interaction.
+
+#### 4. Ghost Pagination Controls on Zero Results (`VideoResults`)
+* **Bug:** `pages` is computed as `Math.max(1, Math.ceil(videos.length / 24))`, and the `<nav aria-label="Phân trang">` is rendered unconditionally.
+* **State / Keyboard Impact:** When `videos.length === 0`, `pages` is `1`. The UI displays `"Không tìm thấy video phù hợp."`, yet simultaneously renders a pagination bar with `"Trang 1/1"` and a focusable, clickable Page 1 button.
+
+#### 5. URL Query State Desynchronization & Hydration Mismatch (`VideoHub`)
+* **Bug:** `mine` defaults to `useState(false)`, while URL synchronization is deferred to `useEffect`.
+* **State Impact:** If a user loads `/video?tab=cua-toi` directly, the component renders `mine = false` (`VideoLibrary`) during the initial client pass, then flips to `true` (`VideoAddPanel`) once mounted. This produces an unnecessary flash/layout shift.
+* **History State Impact:** `selectMine` hardcodes `history.pushState(null, "", ... ? "/video?tab=cua-toi" : "/video")`, which wipes out any existing query parameters, search terms, or subpaths present in the URL.
+
+#### 6. Lingering Filter Popover on Tab Change (`VideoHub`)
+* **Bug:** Switching tabs via `selectMine(true)` or `addVideo()` updates `mine` to `true` without resetting `filters`.
+* **State Impact:** `filters` remains an active `HTMLElement` reference, leaving the `VideoFilters` popover floating over `VideoAddPanel` (which has no relation to catalog filters).
+
+---
+
+### Marked Speculation
+
+* **[Speculation] Focus Loss on Popover / Modal Unmount (`VideoHub`, `VideoFilters`):**
+  When `filters` or `preview` closes (`setFilters(null)` / `setPreview(null)`), `VideoHub` does not manage focus restoration to the trigger button that opened them. Unless the external components (`VocabPopover`, `VideoModePicker`) internally cache `document.activeElement` and restore focus on unmount, focus will reset to `document.body`.
+* **[Speculation] Missing <kbd>Escape</kbd> & Focus Trap in `VideoFilters`:**
+  `VideoFilters` does not define an `onKeyDown` handler for <kbd>Escape</kbd>. If `VocabPopover` does not trap focus or bind <kbd>Escape</kbd>, keyboard users can tab behind the popover into inert page elements.
+* **[Speculation] Focus Not Reset to Top on Pagination (`VideoResults`):**
+  Activating pagination buttons changes the displayed items but leaves focus on the clicked bottom pagination control; it does not move focus or scroll position to the top of the new page results.
+* **[Speculation] Non-Standard Radio Pattern in Tier Filter (`VideoFilters`):**
+  Tier filters use `aria-pressed` within `role="group"` for mutually exclusive choices (clicking an active tier does not toggle it off). Accessible radio semantics (`role="radiogroup"` / `role="radio"` with `aria-checked` and arrow-key navigation) are standard for single-select choices.
+* **[Speculation] Key Collisions on Non-Unique Titles / Labels:**
+  `key={v.title}` in `VideoResults` and `key={t.label}` in `VideoFilters` assume unique strings. If duplicate titles or identical labels across different topic categories exist in fixture JSON, React reconciliation will throw key warnings and produce unpredictable focus/DOM retention.
